@@ -17,8 +17,7 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Dans le cursus FFESSM, quelles possibilités d’exploration associe le brevet Niveau 2
-      ?
+    question: Dans le cursus FFESSM, quelles possibilités d’exploration associe le brevet Niveau 2 ?
     choices:
     - text: Autonomie jusqu’à 20 m (PA20) et plongée encadrée jusqu’à 40 m (PE40)
       correct: true
@@ -29,8 +28,8 @@ cards:
     - text: Plongée encadrée jusqu’à 40 m (PE40) et autonomie jusqu’à 40 m (PA40)
       correct: false
     explanation: Le N2 combine une capacité d’exploration autonome dans la zone 0–20 m et une capacité
-      d’exploration encadrée dans la zone 0–40 m. Les conditions de réalisation restent fixées par
-      le directeur de plongée.
+      d’exploration encadrée dans la zone 0–40 m. Les conditions de réalisation restent fixées par le
+      directeur de plongée.
 - id: n2-prerogatives-qualifications-separees-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -49,19 +48,19 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Un plongeur FFESSM possède déjà la qualification PE40. Que lui apporte l’acquisition
-      de la qualification PA20 ?
+    question: Un plongeur FFESSM possède déjà la qualification PE40. Que lui apporte l’acquisition de
+      la qualification PA20 ?
     choices:
-    - text: La réunion des deux qualifications permet la délivrance du N2
+    - text: La réunion de PE40 et PA20 permet la délivrance du N2
       correct: true
-    - text: Elle remplace PE40 et ramène sa limite encadrée à 20 m
+    - text: Les deux qualifications restent séparées jusqu’à une formation N2 complète supplémentaire
       correct: false
-    - text: Elle permet la délivrance directe du N3
+    - text: La réunion permet uniquement l’exercice PA20, sans délivrance du N2
       correct: false
-    - text: Elle porte sa limite autonome à 40 m
+    - text: La réunion délivre le N2 seulement après l’acquisition de PA40
       correct: false
-    explanation: Les deux qualifications peuvent être acquises séparément. L’obtention de la seconde
-      complète les compétences nécessaires au brevet N2, selon les règles fédérales de délivrance.
+    explanation: Les deux qualifications peuvent être acquises séparément. L’obtention de la seconde complète
+      les compétences nécessaires au brevet N2, selon les règles fédérales de délivrance.
 - id: n2-prerogatives-autonomie-dp-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -81,19 +80,19 @@ cards:
     - 'Code du sport — A322-73, version depuis le 31 octobre 2025 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Pour une exploration PA20 organisée en France dans un établissement, que signifie «
-      autonome » ?
+    question: Pour une exploration PA20 organisée en France dans un établissement, que signifie « autonome
+      » ?
     choices:
-    - text: Sans guide dans la palanquée, dans le cadre fixé par un DP présent sur le site
+    - text: Sans guide dans la palanquée, avec un DP présent qui fixe le cadre
       correct: true
-    - text: Sans guide dans la palanquée et sans DP sur le site
+    - text: Sans guide ni DP, si les équipiers ont tous le N2
       correct: false
-    - text: Sans obligation de respecter le briefing du DP
+    - text: Avec un guide présent mais qui laisse les équipiers fixer le cadre
       correct: false
-    - text: Sans équipier dans la palanquée
+    - text: Sans guide, avec un DP joignable à distance mais absent du site
       correct: false
-    explanation: L’autonomie concerne l’évolution en immersion. Le DP organise la plongée et décide
-      de l’autorisation d’autonomie ; les équipiers respectent ce cadre.
+    explanation: L’autonomie concerne l’évolution en immersion. Le DP organise la plongée et décide de
+      l’autorisation d’autonomie ; les équipiers respectent ce cadre.
 - id: n2-prerogatives-pa20-effectif-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -142,7 +141,8 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: En France, quelle condition de compétences s’applique aux équipiers d’une palanquée PA20 ?
+    question: En France, quelle condition de compétences s’applique aux équipiers d’une palanquée PA20
+      ?
     choices:
     - text: Ils disposent au minimum des compétences PA20
       correct: true
@@ -172,19 +172,19 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Un plongeur majeur ne justifie que des aptitudes de son N2. Il veut explorer à 30 m
-      sans guide avec deux autres N2. Ces aptitudes suffisent-elles ?
+    question: Un plongeur majeur ne justifie que des aptitudes de son N2. Il veut explorer à 30 m sans
+      guide avec deux autres N2. Ces aptitudes suffisent-elles ?
     choices:
-    - text: 'Non : son autonomie est limitée à 20 m'
+    - text: 'Non : ses aptitudes N2 limitent l’autonomie à 20 m'
       correct: true
-    - text: 'Oui : le N2 autorise toute exploration jusqu’à 40 m'
+    - text: 'Oui : PE40 suffit puisque 30 m reste inférieur à 40 m'
       correct: false
-    - text: 'Oui : trois N2 peuvent combiner leurs aptitudes'
+    - text: 'Oui : un DP peut autoriser PA20 jusqu’à 30 m avec trois N2'
       correct: false
-    - text: 'Oui : l’autorisation du DP suffit à étendre l’aptitude PA20'
+    - text: 'Oui : le même brevet chez les trois plongeurs permet de dépasser 20 m'
       correct: false
-    explanation: PE40 permet l’exploration encadrée jusqu’à 40 m. L’accord du DP ne transforme pas
-      une aptitude PA20 en PA40.
+    explanation: PE40 permet l’exploration encadrée jusqu’à 40 m. L’accord du DP ne transforme pas une
+      aptitude PA20 en PA40.
 - id: n2-prerogatives-aptitude-restrictive-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -209,14 +209,14 @@ cards:
     choices:
     - text: 12 m pour toute la palanquée
       correct: true
-    - text: 20 m pour toute la palanquée
+    - text: 20 m pour toute la palanquée si le PA20 conduit le groupe
       correct: false
-    - text: 12 m pour l’un et 20 m pour l’autre au même moment
+    - text: 20 m pour toute la palanquée si les deux possèdent leur équipement d’autonomie
       correct: false
-    - text: 16 m, moyenne des deux plafonds
+    - text: 12 m à l’aller puis 20 m au retour si le DP l’a prévu
       correct: false
-    explanation: La palanquée reste dans la zone du plongeur aux aptitudes les plus restrictives.
-      Le DP peut encore fixer une limite plus basse.
+    explanation: La palanquée reste dans la zone du plongeur aux aptitudes les plus restrictives. Le DP
+      peut encore fixer une limite plus basse.
 - id: n2-prerogatives-age-pe40-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -235,8 +235,8 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Dans le cursus FFESSM, quel est l’âge minimal pour entrer en formation
-      et obtenir la qualification PE40 ?
+    question: Dans le cursus FFESSM, quel est l’âge minimal pour entrer en formation et obtenir la qualification
+      PE40 ?
     choices:
     - text: 14 ans
       correct: true
@@ -246,8 +246,8 @@ cards:
       correct: false
     - text: 16 ans
       correct: false
-    explanation: Il s’agit du seuil fédéral pour la qualification PE40. Avant 16 ans, son exercice
-      est assorti de restrictions spécifiques de plongée.
+    explanation: Il s’agit du seuil fédéral pour la qualification PE40. Avant 16 ans, son exercice est
+      assorti de restrictions spécifiques de plongée.
 - id: n2-prerogatives-age-certification-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -266,8 +266,8 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Dans le cursus FFESSM, quel est l’âge minimal pour obtenir
-      la qualification PA20 ou le brevet N2, indépendamment de l’âge autorisant l’autonomie ?
+    question: Dans le cursus FFESSM, quel est l’âge minimal pour obtenir la qualification PA20 ou le brevet
+      N2, indépendamment de l’âge autorisant l’autonomie ?
     choices:
     - text: 15 ans
       correct: true
@@ -277,12 +277,12 @@ cards:
       correct: false
     - text: 18 ans
       correct: false
-    explanation: 'Dès 15 ans, la qualification PA20 peut attester les compétences acquises pour
-      l’autonomie à 20 m, mais leur exercice en exploration n’est autorisé qu’à partir de 16 ans,
-      sous les autres conditions requises. À 15 ans, obtenir PA20 sert donc à valider cette formation
-      en avance ; cela n’autorise pas encore à plonger sans guide. Le N2 comprend aussi PE40 :
-      son titulaire de 15 ans peut plonger encadré jusqu’à 40 m, sur décision du DP et dans les
-      limites particulières applicables aux moins de 16 ans. PA20 seul ne confère pas PE40.'
+    explanation: 'Dès 15 ans, la qualification PA20 peut attester les compétences acquises pour l’autonomie
+      à 20 m, mais leur exercice en exploration n’est autorisé qu’à partir de 16 ans, sous les autres
+      conditions requises. À 15 ans, obtenir PA20 sert donc à valider cette formation en avance ; cela
+      n’autorise pas encore à plonger sans guide. Le N2 comprend aussi PE40 : son titulaire de 15 ans
+      peut plonger encadré jusqu’à 40 m, sur décision du DP et dans les limites particulières applicables
+      aux moins de 16 ans. PA20 seul ne confère pas PE40.'
 - id: n2-prerogatives-quinze-ans-n2-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -302,8 +302,8 @@ cards:
     - 'Code du sport — A322-73 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Un plongeur FFESSM de 15 ans vient d’obtenir son N2. Quelle conclusion est correcte
-      concernant une exploration PA20 en France ?
+    question: Un plongeur FFESSM de 15 ans vient d’obtenir son N2. Quelle conclusion est correcte concernant
+      une exploration PA20 en France ?
     choices:
     - text: Il doit attendre 16 ans pour exercer l’autonomie
       correct: true
@@ -313,10 +313,10 @@ cards:
       correct: false
     - text: Il peut être autonome dès maintenant avec une autorisation parentale
       correct: false
-    explanation: 'À 15 ans, son N2 atteste ses compétences PA20 et PE40, mais il doit encore
-      plonger encadré. Il peut exercer PE40 sous les conditions applicables aux moins de 16 ans ;
-      l’autonomie PA20 attend 16 ans et les autres conditions requises. Ni un équipier majeur
-      ni l’autorisation parentale n’abaissent ce seuil.'
+    explanation: À 15 ans, son N2 atteste ses compétences PA20 et PE40, mais il doit encore plonger encadré.
+      Il peut exercer PE40 sous les conditions applicables aux moins de 16 ans ; l’autonomie PA20 attend
+      16 ans et les autres conditions requises. Ni un équipier majeur ni l’autorisation parentale n’abaissent
+      ce seuil.
 - id: n2-prerogatives-mineur-autorisation-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -335,16 +335,16 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: En France, pour exercer PA20 à 16 ans, quelle autorisation du responsable
-      légal est demandée ?
+    question: En France, pour exercer PA20 à 16 ans, quelle autorisation du responsable légal est demandée
+      ?
     choices:
-    - text: Une autorisation éclairée pour cette pratique en autonomie
+    - text: Une autorisation éclairée visant la pratique en autonomie
       correct: true
-    - text: Une autorisation portant uniquement sur le passage du N2
+    - text: L’autorisation d’inscription à la formation N2 suffit
       correct: false
-    - text: Une autorisation pour plonger sans aucun DP
+    - text: L’autorisation de délivrance du brevet N2 suffit
       correct: false
-    - text: Une autorisation permettant de dépasser 20 m sans guide
+    - text: L’autorisation générale de sorties encadrées suffit
       correct: false
     explanation: L’accord porte sur la pratique en autonomie du mineur. Il ne remplace pas la décision
       du DP et n’élargit pas les aptitudes du plongeur.
@@ -368,9 +368,8 @@ cards:
   fr:
     front: Une palanquée PA20 FFESSM autorisée accueille un plongeur de 16 ans. Qui doit être informé
       de la présence d’un mineur ?
-    back: Les membres de la palanquée. L’information des équipiers sur la présence du mineur est une
-      condition du MFT FFESSM, en plus de l’autorisation éclairée du responsable légal et de la décision
-      du DP.
+    back: Les membres de la palanquée. L’information des équipiers sur la présence du mineur est une condition
+      du MFT FFESSM, en plus de l’autorisation éclairée du responsable légal et de la décision du DP.
 - id: n2-prerogatives-pe40-moins-seize-paliers-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -389,22 +388,21 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Dans le cursus FFESSM, une exploration PE40 d’un plongeur de moins de 16 ans peut-elle
-      prévoir des paliers obligatoires ?
+    question: Dans le cursus FFESSM, une exploration PE40 d’un plongeur de moins de 16 ans peut-elle prévoir
+      des paliers obligatoires ?
     choices:
     - text: 'Non : la plongée doit être prévue sans palier de décompression obligatoire'
       correct: true
-    - text: 'Oui : si chaque palier reste inférieur à trois minutes'
+    - text: 'Oui : des paliers obligatoires sont possibles avec une autorisation parentale spécifique'
       correct: false
-    - text: 'Oui : si le guide réalise les paliers à sa place'
+    - text: 'Oui : un seul palier obligatoire à 3 m est admis'
       correct: false
-    - text: 'Oui : si elle ne comporte qu’un palier à 3 m'
+    - text: 'Oui : les paliers obligatoires sont admis si leur durée totale ne dépasse pas trois minutes'
       correct: false
-    explanation: 'L’ordinateur de plongée ou les tables servent à déterminer si la profondeur
-      et la durée prévues imposent des paliers de décompression. Pour un PE40 de moins de 16 ans,
-      il faut prévoir une plongée pour laquelle cet outil n’impose aucun palier obligatoire.
-      Si des paliers obligatoires apparaissent malgré cette planification, cette restriction
-      n’autorise pas à les ignorer.'
+    explanation: L’ordinateur de plongée ou les tables servent à déterminer si la profondeur et la durée
+      prévues imposent des paliers de décompression. Pour un PE40 de moins de 16 ans, il faut prévoir
+      une plongée pour laquelle cet outil n’impose aucun palier obligatoire. Si des paliers obligatoires
+      apparaissent malgré cette planification, cette restriction n’autorise pas à les ignorer.
 - id: n2-prerogatives-pe40-moins-seize-nombre-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -423,8 +421,7 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Quel est le nombre maximal de plongées par jour pour un PE40
-      âgé de moins de 16 ans ?
+    question: Quel est le nombre maximal de plongées par jour pour un PE40 âgé de moins de 16 ans ?
     choices:
     - text: Deux plongées
       correct: true
@@ -434,9 +431,9 @@ cards:
       correct: false
     - text: Quatre plongées
       correct: false
-    explanation: 'Deux plongées au maximum par jour, séparées d’au moins trois heures. Si la première
-      a dépassé 30 m, la seconde est limitée à 20 m. Les plongées doivent aussi rester sans
-      palier obligatoire selon le moyen de désaturation utilisé.'
+    explanation: Deux plongées au maximum par jour, séparées d’au moins trois heures. Si la première a
+      dépassé 30 m, la seconde est limitée à 20 m. Les plongées doivent aussi rester sans palier obligatoire
+      selon le moyen de désaturation utilisé.
 - id: n2-prerogatives-pe40-moins-seize-intervalle-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -455,8 +452,8 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Quel intervalle minimal faut-il respecter entre les deux plongées
-      d’un PE40 de moins de 16 ans ?
+    question: Quel intervalle minimal faut-il respecter entre les deux plongées d’un PE40 de moins de
+      16 ans ?
     choices:
     - text: Trois heures
       correct: true
@@ -497,8 +494,8 @@ cards:
       correct: false
     - text: 40 m
       correct: false
-    explanation: 'La première plongée a dépassé 30 m : la seconde est limitée à 20 m. Il faut aussi
-      respecter au moins trois heures entre les deux plongées et rester sans palier obligatoire.'
+    explanation: 'La première plongée a dépassé 30 m : la seconde est limitée à 20 m. Il faut aussi respecter
+      au moins trois heures entre les deux plongées et rester sans palier obligatoire.'
 - id: n2-prerogatives-documents-formation-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -518,8 +515,8 @@ cards:
     - 'FFESSM — règles générales formation et certification, janvier 2025, p.2 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/fb0d17fd-84a2-40ef-a59a-48ee2ab230e3'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Pour accéder à la formation N2 FFESSM, quelle paire de documents fait partie des conditions
-      communes d’accès ?
+    question: En plus du prérequis de niveau, quels documents administratifs et médicaux faut-il présenter
+      pour accéder à la formation N2 FFESSM ?
     choices:
     - text: Une licence FFESSM valide et un CACI conforme aux règles fédérales
       correct: true
@@ -529,9 +526,13 @@ cards:
       correct: false
     - text: Une licence valide et une carte N1, sans CACI
       correct: false
-    explanation: 'Ces deux conditions ne suffisent pas à elles seules : il faut aussi satisfaire aux
-      prérequis de niveau, d’expérience et d’âge. Licence et certificat médical ont des fonctions
-      différentes.'
+    explanation: 'CACI signifie certificat d’absence de contre-indication : c’est le certificat médical
+      requis pour la pratique de la plongée, conforme aux règles fédérales. Il ne certifie pas les compétences
+      techniques. La licence doit également être en cours de validité. Le N1 FFESSM, ou une certification
+      dont les aptitudes sont jugées équivalentes, reste un prérequis distinct : cette question ne demande
+      pas la liste complète des conditions d’accès. Le choix « licence et carte N1, sans CACI » est faux
+      parce qu’il manque le certificat médical, et non parce que le N1 serait inutile. Les conditions
+      d’expérience et d’âge s’ajoutent aussi.'
 - id: n2-prerogatives-prerequis-niveau-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -554,11 +555,11 @@ cards:
     choices:
     - text: Le N1 FFESSM ou une certification aux aptitudes jugées équivalentes
       correct: true
-    - text: Uniquement un baptême de plongée
+    - text: Le N1 FFESSM exclusivement, sans équivalence acceptée
       correct: false
-    - text: Obligatoirement un N1 FFESSM, sans équivalence possible
+    - text: Une qualification PE40 est exigée avant toute entrée en formation N2
       correct: false
-    - text: Un brevet N3 préalable
+    - text: Une qualification PA20 est exigée avant toute entrée en formation N2
       correct: false
     explanation: L’équivalence doit être appréciée au regard des aptitudes nécessaires. La possession
       d’une autre carte ne dispense pas des autres conditions d’accès.
@@ -580,8 +581,8 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Combien de plongées attestées en milieu naturel sont demandées au minimum pour débuter
-      une formation PA20, PE40 ou N2 FFESSM ?
+    question: Combien de plongées attestées en milieu naturel sont demandées au minimum pour débuter une
+      formation PA20, PE40 ou N2 FFESSM ?
     choices:
     - text: Quatre
       correct: true
@@ -592,8 +593,7 @@ cards:
     - text: Huit
       correct: false
     explanation: 'Ce prérequis concerne le milieu naturel. Il ne faut pas le confondre avec un nombre
-      universel de plongées suffisant pour obtenir le brevet : l’acquisition des compétences reste
-      nécessaire.'
+      universel de plongées suffisant pour obtenir le brevet : l’acquisition des compétences reste nécessaire.'
 - id: n2-prerogatives-cmas-etoiles-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -610,12 +610,11 @@ cards:
     sources:
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
-    - 'FFESSM — présentation N2 et certification CMAS ; utilisée pour la correspondance, pas pour
-      les âges : https://ffessm.fr/plongeur-niveau-2'
+    - 'FFESSM — présentation N2 et certification CMAS ; utilisée pour la correspondance, pas pour les
+      âges : https://ffessm.fr/plongeur-niveau-2'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: À quelle certification CMAS le N2 FFESSM est-il associé dans le cursus
-      fédéral ?
+    question: À quelle certification CMAS le N2 FFESSM est-il associé dans le cursus fédéral ?
     choices:
     - text: Plongeur deux étoiles
       correct: true
@@ -625,8 +624,8 @@ cards:
       correct: false
     - text: Moniteur deux étoiles
       correct: false
-    explanation: La double certification aide à faire reconnaître la formation à l’international.
-      Elle ne remplace pas les règles et les conditions de pratique du lieu d’accueil.
+    explanation: La double certification aide à faire reconnaître la formation à l’international. Elle
+      ne remplace pas les règles et les conditions de pratique du lieu d’accueil.
 - id: n2-prerogatives-etranger-regles-001
   type: mcq
   deck: Réglementation::Prérogatives
@@ -646,16 +645,16 @@ cards:
     - 'FFESSM — présentation N2 : https://ffessm.fr/plongeur-niveau-2'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
   fr:
-    question: Un N2 FFESSM prépare une sortie à l’étranger. Que doit-il faire de la reconnaissance
-      internationale de sa certification ?
+    question: Un N2 FFESSM prépare une sortie à l’étranger. Que doit-il faire de la reconnaissance internationale
+      de sa certification ?
     choices:
-    - text: Présenter sa certification et vérifier les règles de la destination et de la structure
+    - text: Vérifier les conditions locales et celles de la structure, même si la carte est reconnue
       correct: true
-    - text: Appliquer partout les prérogatives françaises sans autre vérification
+    - text: Appliquer PA20 dès que la structure reconnaît la carte CMAS, sans vérifier ses conditions
       correct: false
-    - text: Considérer que deux étoiles autorisent partout l’autonomie à 40 m
+    - text: Appliquer PE40 dès que la structure reconnaît la carte CMAS, sans vérifier ses conditions
       correct: false
-    - text: Ignorer les conditions locales dès qu’un club reconnaît sa carte
+    - text: Appliquer les prérogatives du brevet local portant le même numéro de niveau
       correct: false
-    explanation: La reconnaissance d’une formation et l’autorisation d’une plongée précise sont deux
-      questions différentes. Il faut se renseigner auprès de la structure et respecter le cadre local.
+    explanation: La reconnaissance d’une formation et l’autorisation d’une plongée précise sont deux questions
+      différentes. Il faut se renseigner auprès de la structure et respecter le cadre local.

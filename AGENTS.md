@@ -37,10 +37,19 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 - Poser la question directement. Éviter « selon le MFT… », les noms de documents et les dates
   d’édition répétés sur les rectos. Garder le contexte qui détermine la réponse (France, FFESSM,
   âge, exploration, modèle de matériel ou hypothèses), et les références dans `review.sources`.
+- Chaque QCM doit exiger une connaissance du cours : distracteurs crédibles issus de confusions
+  réelles, même catégorie et niveau de précision, sans réponse fantaisiste ni indice de longueur.
+  Ne pas demander seulement de reconnaître le nom suggéré par la description d’un document.
+  Relire tous les choix : une personne sans connaissance du cours pourrait-elle éliminer les
+  leurres au bon sens ? Si oui, reformuler. Préférer trois choix solides à un quatrième faible.
+  La difficulté ne doit pas créer d’ambiguïté, de piège linguistique ou de mauvaise réponse défendable.
 - Donner une réponse courte, compréhensible et précise. Expliquer les expressions techniques
   avec des mots concrets ; ne pas recopier une formulation abstraite du référentiel.
   Exemple : préciser « ordinateur ou tables pour déterminer les paliers » au lieu de laisser
   « moyen de désaturation » sans explication.
+- Développer les sigles nécessaires à la compréhension dans l’explication. Pour une question
+  portant sur une partie des conditions, préciser ce périmètre et expliquer pourquoi un distracteur
+  est faux sans laisser croire que ses autres éléments sont inutiles ou interdits.
 - Expliciter les valeurs et conditions des restrictions évoquées. Vérifier leur couverture par
   les cartes existantes ; créer une carte manquante seulement si elle apporte un objectif distinct.
 - Distinguer compétences certifiées et prérogatives effectivement exerçables. Si les âges diffèrent,

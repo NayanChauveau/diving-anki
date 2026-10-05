@@ -40,18 +40,18 @@ Champ des questions : établissement organisant la plongée en France ; milieu n
 | P030 | `n2-organisation-melanges-contraintes-001` | En France, deux plongeurs d’une même palanquée respirent des mélanges différents. Comment choisir les limites de leur plongée ? |
 | P032 | `n2-organisation-dp-parametres-001` | Dans une plongée N2 organisée en établissement en France, qui fixe les caractéristiques de la plongée ? |
 | P033 | `n2-organisation-dp-secours-001` | Qui est responsable de l’organisation de la sécurité et du déclenchement des secours sur le site d’une plongée organisée en établissement ? |
-| P035 | `n2-organisation-fiche-securite-001` | Une fiche indique les membres d’une palanquée, leurs aptitudes et fonctions, puis les paramètres prévus et réellement réalisés. De quel document s’agit-il ? |
+| P035 | `n2-organisation-fiche-securite-001` | En France, quelles informations doivent notamment figurer sur la fiche de sécurité établie par le DP ? |
 | P038 | `n2-organisation-guide-conduite-001` | En exploration PE40 en milieu naturel, quel est le rôle du guide de palanquée pendant l’immersion ? |
-| P039 | `n2-organisation-autonomie-collective-001` | En exploration PA20, un équipier signale une difficulté. L’absence de guide permet-elle aux autres de poursuivre sans en tenir compte ? |
-| P041 | `n2-organisation-plan-secours-001` | À quoi sert le plan de secours disponible sur le lieu de mise à l’eau ou d’immersion ? |
+| P039 | `n2-organisation-autonomie-collective-001` | Dans la formation PA20 FFESSM, quelle responsabilité collective s’ajoute à la maîtrise de sa propre plongée ? |
+| P041 | `n2-organisation-plan-secours-001` | Quelles exigences s’appliquent au plan de secours d’une plongée organisée en établissement en France ? |
 | P043 | `n2-organisation-vhf-001` | En France, une plongée se déroule en mer depuis un bateau support. Quel moyen de communication avec les secours est nécessaire ? |
 | P044 | `n2-organisation-eau-couverture-001` | Quels éléments doivent notamment être disponibles sur le lieu de mise à l’eau parmi le matériel de secours ? |
 | P045 | `n2-organisation-oxygene-capacite-001` | Quelle exigence doit guider la capacité de l’ensemble d’oxygénothérapie disponible sur le site ? |
-| P047 | `n2-organisation-fiche-evacuation-001` | En cas d’accident de plongée, à quoi sert la fiche d’évacuation ? |
+| P047 | `n2-organisation-fiche-evacuation-001` | Quel document est prévu pour transmettre aux secours les informations relatives à la prise en charge d’une victime de plongée ? |
 | P048 | `n2-organisation-bloc-secours-001` | Pour une plongée organisée à l’air, comment la bouteille d’air de secours doit-elle être équipée ? |
-| P049 | `n2-organisation-rappel-bateau-001` | En milieu naturel, une plongée se déroule depuis une embarcation. Quel dispositif doit permettre de joindre les plongeurs immergés pour les faire revenir ? |
+| P049 | `n2-organisation-rappel-bateau-001` | En France, dans quel contexte un moyen de rappel des plongeurs immergés depuis la surface est-il exigé ? |
 | P050 | `n2-organisation-tables-assistance-001` | En milieu naturel, à partir de quelle condition de profondeur un jeu de tables de décompression doit-il être disponible comme matériel d’assistance ? |
-| P052 | `n2-organisation-gilet-surface-001` | En milieu naturel, quelle fonction doit remplir le système gonflable d’un plongeur en circuit ouvert ? |
+| P052 | `n2-organisation-gilet-surface-001` | En milieu naturel, quel équipement répond à l’exigence de retour et de maintien en surface pour un plongeur en circuit ouvert ? |
 | P053 | `n2-organisation-gaz-equipier-001` | En milieu naturel, quel équipement respiratoire supplémentaire est requis pour un plongeur autonome ou encadré au-delà de 20 m ? |
 | P054 | `n2-organisation-parametres-personnels-001` | En milieu naturel, un plongeur PA20 peut-il se contenter de regarder l’ordinateur de son équipier pour contrôler sa plongée et sa remontée ? |
 | P055 | `n2-organisation-encadrant-detendeurs-001` | En milieu naturel, quel équipement respiratoire est spécifiquement requis pour la personne qui encadre la palanquée ? |
@@ -70,3 +70,12 @@ Les vérifications techniques et l’inspection des champs du package sont consi
 - `make push` réussi : import dans Anki et synchronisation AnkiWeb.
 - Suivi vérifié : 325 objectifs retenus ; chaque proposition initiale reste classée.
 - Pas d’inspection visuelle de l’interface Anki revendiquée.
+
+## Revue de difficulté des QCM — 5 octobre 2026
+
+Relecture de tous les QCM, questions et choix complets. Les valeurs chiffrées et les
+confusions réglementaires déjà plausibles sont conservées. Les distracteurs fantaisistes
+sont remplacés par des rôles, conditions ou configurations voisins. P035 interroge désormais
+les informations obligatoires de la fiche, avec trois choix (prévu, réalisé, les deux).
+La réponse correcte et chaque alternative ont été comparées aux références déjà documentées ;
+aucune nouvelle procédure ni nouveau seuil ajouté. IDs et nombre de cartes conservés.

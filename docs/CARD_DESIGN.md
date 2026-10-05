@@ -85,3 +85,24 @@ abstraite inexpliquée ni suggérer une contradiction entre deux conditions.
 Relire les questions entières, y compris leurs lignes de continuation dans le YAML,
 pour repérer les préambules et termes abstraits restants. Vérifier aussi les réponses,
 explications et autres formats (`basic`, `cloze`), pas seulement les QCM.
+
+## QCM exigeants : qualité des distracteurs
+
+Chaque question doit demander une connaissance spécifique : un nom déductible de sa seule
+formulation ou trois alternatives absurdes ne constituent pas un test utile. Pour un document,
+interroger une obligation précise, les informations requises ou une distinction avec les autres
+documents plutôt que décrire son nom. Pour une règle, opposer des conditions proches ; pour un
+équipement, opposer des configurations crédibles ou des fonctions voisines.
+
+Construire les distracteurs depuis des erreurs identifiables : DP/guide, prévision/réalisation,
+qualification/exercice, matériel individuel/collectif, deuxième étage/détendeur complet,
+condition de profondeur ou d’organisation. Garder les choix comparables en longueur et précision.
+Éviter la réponse correcte seule détaillée, seule prudente ou seule positive, et les absolus
+ajoutés uniquement aux mauvaises réponses pour les rendre faciles à éliminer.
+
+Avant validation, faire une passe en lecteur sans connaissances de plongée : peut-il répondre
+par bon sens, par répétition des mots du recto ou par différence de style ? Refaire le QCM
+si oui. Trois choix crédibles valent mieux que quatre dont un est de remplissage.
+Les faits chiffrés restent des objectifs de mémorisation : choisir des valeurs plausibles ;
+ne pas ajouter de complexité artificielle ni transformer le rappel en longue énigme.
+Une seule réponse incontestable dans le contexte donné reste obligatoire.

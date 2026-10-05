@@ -19,13 +19,13 @@ cards:
   fr:
     question: Qu’est-ce qui définit une palanquée en plongée ?
     choices:
-    - text: Des plongeurs effectuant ensemble une plongée de mêmes durée, profondeur et trajet
+    - text: La même durée, la même profondeur et le même trajet, avec des mélanges éventuellement différents
       correct: true
-    - text: Des plongeurs possédant exactement le même brevet
+    - text: La même durée et le même trajet, avec des profondeurs individuelles différentes
       correct: false
-    - text: Tous les plongeurs présents sur le même bateau
+    - text: La même profondeur et le même trajet, avec des durées individuelles différentes
       correct: false
-    - text: Des plongeurs utilisant obligatoirement le même mélange
+    - text: La même durée et la même profondeur, avec des trajets individuels différents
       correct: false
     explanation: Une palanquée effectue une plongée commune. Des brevets ou des mélanges différents n’empêchent
       pas de former une palanquée ; leurs contraintes doivent toutefois être respectées.
@@ -50,13 +50,13 @@ cards:
     question: En France, deux plongeurs d’une même palanquée respirent des mélanges différents. Comment
       choisir les limites de leur plongée ?
     choices:
-    - text: Respecter les contraintes de chaque mélange et les aptitudes les plus restrictives
+    - text: Les limites des aptitudes les plus restrictives et du mélange le plus contraignant
       correct: true
-    - text: Retenir les limites du mélange permettant d’aller le plus profond
+    - text: Les limites des aptitudes les plus restrictives, le mélange étant traité individuellement
       correct: false
-    - text: Faire la moyenne des profondeurs autorisées
+    - text: Les limites du mélange le plus contraignant, les aptitudes étant traitées individuellement
       correct: false
-    - text: Appliquer uniquement les limites du plongeur le plus expérimenté
+    - text: Les limites choisies par l’encadrant, même si un mélange est plus restrictif
       correct: false
     explanation: Le groupe ne peut dépasser les conditions accessibles au mélange le plus contraignant
       ou aux aptitudes les plus restrictives. Le mélange d’un équipier ne donne pas aux autres ses possibilités
@@ -82,13 +82,13 @@ cards:
     question: Dans une plongée N2 organisée en établissement en France, qui fixe les caractéristiques
       de la plongée ?
     choices:
-    - text: Le directeur de plongée (DP)
+    - text: Le directeur de plongée, avant leur application par la palanquée
       correct: true
-    - text: Le plongeur ayant le plus grand nombre de plongées
+    - text: Le guide, le DP étant chargé uniquement de vérifier les brevets
       correct: false
-    - text: Chaque plongeur séparément après l’immersion
+    - text: Les plongeurs autonomes, le DP étant chargé uniquement des secours
       correct: false
-    - text: Le propriétaire du bateau, quelle que soit sa qualification
+    - text: L’encadrant le plus qualifié, indépendamment de la fonction de DP
       correct: false
     explanation: Le DP fixe le cadre de la plongée, notamment les paramètres prévus. Le briefing et les
       décisions de la palanquée doivent respecter ce cadre ; une aptitude est une limite de capacité,
@@ -114,13 +114,13 @@ cards:
     question: Qui est responsable de l’organisation de la sécurité et du déclenchement des secours sur
       le site d’une plongée organisée en établissement ?
     choices:
-    - text: Le directeur de plongée (DP)
+    - text: Le directeur de plongée
       correct: true
-    - text: Uniquement le guide de chaque palanquée
+    - text: Le guide de palanquée, même lorsqu’un DP distinct organise le site
       correct: false
-    - text: Uniquement les services de secours avant tout appel
+    - text: Le responsable du bateau, même lorsqu’un DP distinct organise la plongée
       correct: false
-    - text: Le plongeur dont le brevet est le plus récent
+    - text: L’encadrant le plus qualifié du site, même s’il n’est pas le DP
       correct: false
     explanation: Le DP est responsable techniquement de l’organisation, des dispositions de sécurité et
       du déclenchement des secours. Cela n’efface pas les responsabilités du guide pendant la plongée
@@ -143,20 +143,19 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: Une fiche indique les membres d’une palanquée, leurs aptitudes et fonctions, puis les paramètres
-      prévus et réellement réalisés. De quel document s’agit-il ?
+    question: En France, quelles informations doivent notamment figurer sur la fiche de sécurité établie
+      par le DP ?
     choices:
-    - text: La fiche de sécurité établie par le directeur de plongée
+    - text: Identités, aptitudes, fonctions et paramètres prévus puis réalisés
       correct: true
-    - text: La licence individuelle du plongeur
+    - text: Identités, aptitudes, fonctions et paramètres prévus seulement
       correct: false
-    - text: Le certificat médical de chaque participant
+    - text: Identités, aptitudes, fonctions et paramètres réalisés seulement
       correct: false
-    - text: La fiche d’évacuation d’une victime uniquement
-      correct: false
-    explanation: La fiche de sécurité décrit les participants et la plongée prévue puis réalisée. Elle
-      est conservée un an par l’établissement. Elle ne se confond pas avec la fiche d’évacuation destinée
-      à transmettre les informations concernant une victime.
+    explanation: La fiche permet de retrouver les membres de la palanquée et de comparer les paramètres
+      prévus aux paramètres réellement réalisés. Les deux séries de paramètres sont nécessaires ; noter
+      uniquement la prévision ou uniquement la réalisation ne suffit pas. La fiche est conservée un an
+      par l’établissement.
 - id: n2-organisation-guide-conduite-001
   type: mcq
   deck: Réglementation::Organisation
@@ -178,13 +177,13 @@ cards:
     question: En exploration PE40 en milieu naturel, quel est le rôle du guide de palanquée pendant l’immersion
       ?
     choices:
-    - text: Conduire la plongée en l’adaptant aux circonstances et aux aptitudes des plongeurs
+    - text: Adapter la conduite de la plongée aux circonstances et aux aptitudes, dans le cadre du DP
       correct: true
-    - text: Fixer seul toutes les règles de l’établissement à la place du DP
+    - text: Appliquer le profil prévu sans l’adapter une fois l’immersion commencée
       correct: false
-    - text: Garantir l’absence de tout accident quelles que soient les circonstances
+    - text: Adapter le profil aux circonstances en s’affranchissant des limites fixées par le DP
       correct: false
-    - text: Prendre en charge uniquement l’orientation, sans tenir compte des plongeurs
+    - text: Assurer l’orientation en laissant chaque plongeur gérer individuellement profondeur et durée
       correct: false
     explanation: Le guide est responsable du déroulement de la plongée encadrée. Il adapte la conduite
       du groupe dans le cadre fixé par le DP. La présence du guide ne dispense pas chaque plongeur de
@@ -207,16 +206,16 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: En exploration PA20, un équipier signale une difficulté. L’absence de guide permet-elle
-      aux autres de poursuivre sans en tenir compte ?
+    question: Dans la formation PA20 FFESSM, quelle responsabilité collective s’ajoute à la maîtrise de
+      sa propre plongée ?
     choices:
-    - text: 'Non : les équipiers doivent prendre en compte la difficulté et assurer leur sécurité collective'
+    - text: Planifier en commun et être capable d’intervenir auprès d’un équipier en difficulté
       correct: true
-    - text: 'Oui : chacun n’est responsable que de sa propre plongée'
+    - text: Planifier en commun, l’assistance restant une compétence propre au guide
       correct: false
-    - text: 'Oui : si l’équipier possède aussi le N2'
+    - text: Surveiller son matériel, le contrôle du matériel des équipiers relevant seulement du DP
       correct: false
-    - text: 'Oui : tant que personne n’a dépassé 20 m'
+    - text: Maîtriser sa remontée, l’assistance étant exigée seulement pour l’aptitude PE40
       correct: false
     explanation: L’autonomie s’exerce en palanquée, pas comme des plongées individuelles juxtaposées.
       Le PA20 apprend notamment à planifier avec ses équipiers et à intervenir auprès d’un plongeur en
@@ -239,15 +238,16 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: À quoi sert le plan de secours disponible sur le lieu de mise à l’eau ou d’immersion ?
+    question: Quelles exigences s’appliquent au plan de secours d’une plongée organisée en établissement
+      en France ?
     choices:
-    - text: À préciser l’alerte, les coordonnées des secours et les procédures d’urgence en surface
+    - text: Un document écrit adapté au site, actualisé, connu du DP, des encadrants et des autonomes
       correct: true
-    - text: À remplacer le briefing de toutes les palanquées
+    - text: Un document écrit adapté au site, actualisé, connu seulement du DP
       correct: false
-    - text: À enregistrer uniquement les profondeurs maximales des plongeurs
+    - text: Un document écrit standard, sans adaptation au site, connu de tous les plongeurs
       correct: false
-    - text: À autoriser une plongée sans matériel de secours
+    - text: Un document écrit adapté au site, sans actualisation nécessaire, connu des encadrants
       correct: false
     explanation: Ce document écrit est adapté au lieu et à la plongée, régulièrement actualisé et connu
       du DP, des encadrants et des plongeurs autonomes. Il organise la réponse à l’accident ; une liste
@@ -273,13 +273,13 @@ cards:
     question: En France, une plongée se déroule en mer depuis un bateau support. Quel moyen de communication
       avec les secours est nécessaire ?
     choices:
-    - text: Une radio VHF
+    - text: Une VHF ; le téléphone ne la remplace pas dans ce contexte
       correct: true
-    - text: Un téléphone portable suffit toujours à remplacer la VHF
+    - text: Un téléphone portable remplace la VHF dès que le réseau est disponible
       correct: false
-    - text: Une tablette de notation immergeable
+    - text: Une VHF est nécessaire seulement lorsque le bateau navigue au large
       correct: false
-    - text: Un parachute de palier comme seul moyen d’alerte
+    - text: Une VHF est nécessaire seulement si la plongée prévoit des paliers obligatoires
       correct: false
     explanation: 'Un moyen permettant de prévenir les secours doit être disponible. Pour une plongée en
       mer au départ d’une embarcation support, une VHF est nécessaire : la présence d’un téléphone ne
@@ -307,11 +307,11 @@ cards:
     choices:
     - text: De l’eau douce potable et une couverture isothermique
       correct: true
-    - text: De l’eau de mer et une serviette uniquement
+    - text: De l’eau douce potable, la couverture isothermique étant facultative
       correct: false
-    - text: Une boisson alcoolisée et une couverture ordinaire uniquement
+    - text: Une couverture isothermique, l’eau potable étant facultative
       correct: false
-    - text: Une couverture isothermique, mais aucune eau potable
+    - text: De l’eau potable et une couverture isothermique seulement si des paliers sont prévus
       correct: false
     explanation: L’eau potable et la couverture isothermique font partie du matériel de secours prévu.
       Leur disponibilité ne signifie pas qu’il faut faire boire systématiquement toute victime ; cette
@@ -337,13 +337,13 @@ cards:
     question: Quelle exigence doit guider la capacité de l’ensemble d’oxygénothérapie disponible sur le
       site ?
     choices:
-    - text: Permettre une prise en charge adaptée jusqu’à l’arrivée des secours médicaux
+    - text: Le besoin de prise en charge adaptée jusqu’à l’arrivée des secours médicaux
       correct: true
-    - text: Pouvoir fonctionner exactement cinq minutes dans tous les cas
+    - text: Le besoin de prise en charge pendant le retour au point de départ seulement
       correct: false
-    - text: Contenir de l’air comprimé plutôt que de l’oxygène médical
+    - text: Le besoin de prise en charge jusqu’au premier appel aux secours seulement
       correct: false
-    - text: Être choisi uniquement selon le nombre de brevets N2 présents
+    - text: Une autonomie fixe, identique quel que soit le délai d’arrivée des secours
       correct: false
     explanation: La capacité doit tenir compte de la situation et de l’attente des secours, sans durée
       fixe universelle. L’équipement comporte les accessoires de distribution et de raccordement ; un
@@ -368,15 +368,16 @@ cards:
     - 'Code du sport — A322-78 I, obligation de fiches d’évacuation, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     fact_check: pass
   fr:
-    question: En cas d’accident de plongée, à quoi sert la fiche d’évacuation ?
+    question: Quel document est prévu pour transmettre aux secours les informations relatives à la prise
+      en charge d’une victime de plongée ?
     choices:
-    - text: À transmettre aux secours les informations sur la victime, la plongée et la prise en charge
+    - text: La fiche d’évacuation
       correct: true
-    - text: À prouver que la victime n’a forcément commis aucune erreur
+    - text: La fiche de sécurité de la palanquée
       correct: false
-    - text: À remplacer l’appel aux secours
+    - text: Le carnet de plongée de la victime
       correct: false
-    - text: À délivrer une nouvelle aptitude au plongeur après l’accident
+    - text: Le plan de secours du site
       correct: false
     explanation: La fiche d’évacuation sert à transmettre les informations utiles à la prise en charge
       d’une victime. Un modèle réglementaire est prévu pour cette transmission. Elle ne remplace pas l’alerte
@@ -402,13 +403,13 @@ cards:
     question: Pour une plongée organisée à l’air, comment la bouteille d’air de secours doit-elle être
       équipée ?
     choices:
-    - text: Avec un détendeur permettant de l’utiliser
+    - text: Une bouteille d’air de secours équipée de son détendeur
       correct: true
-    - text: Sans détendeur, puisqu’elle reste en surface
+    - text: Une bouteille d’air de secours sans détendeur, avec transfert prévu depuis un autre bloc
       correct: false
-    - text: Avec seulement un bouchon de protection
+    - text: Une bouteille d’oxygène médical suffit à remplacer le bloc d’air de secours
       correct: false
-    - text: Avec uniquement une étiquette indiquant sa pression
+    - text: Un bloc personnel supplémentaire non équipé suffit comme bloc de secours
       correct: false
     explanation: La bouteille d’air de secours doit être équipée de son détendeur. Pour une plongée avec
       d’autres mélanges, le matériel de secours en gaz doit être adapté à la plongée et prévu par le plan
@@ -431,16 +432,16 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: En milieu naturel, une plongée se déroule depuis une embarcation. Quel dispositif doit permettre
-      de joindre les plongeurs immergés pour les faire revenir ?
+    question: En France, dans quel contexte un moyen de rappel des plongeurs immergés depuis la surface
+      est-il exigé ?
     choices:
-    - text: Un moyen de rappel depuis la surface
+    - text: Pour une plongée en milieu naturel au départ d’une embarcation
       correct: true
-    - text: Seulement un téléphone laissé sur le bateau
+    - text: Seulement pour une plongée en mer au départ d’une embarcation
       correct: false
-    - text: Seulement la fiche de sécurité du DP
+    - text: Seulement pour une plongée avec paliers au départ d’une embarcation
       correct: false
-    - text: Un message envoyé après la sortie de l’eau
+    - text: Seulement pour une plongée autonome au départ d’une embarcation
       correct: false
     explanation: Un moyen permettant de rappeler les plongeurs en immersion doit être disponible dans
       ce contexte. Le signal et le dispositif utilisés doivent être connus des plongeurs ; cette carte
@@ -495,16 +496,16 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: En milieu naturel, quelle fonction doit remplir le système gonflable d’un plongeur en circuit
-      ouvert ?
+    question: En milieu naturel, quel équipement répond à l’exigence de retour et de maintien en surface
+      pour un plongeur en circuit ouvert ?
     choices:
-    - text: Lui permettre de regagner la surface et de s’y maintenir
+    - text: Un système individuel gonflable au gaz comprimé permettant de regagner et tenir la surface
       correct: true
-    - text: Remplacer toute réserve de gaz respirable
+    - text: Un système individuel gonflable uniquement à la bouche permettant de tenir la surface
       correct: false
-    - text: Permettre de respirer directement le gaz du gilet
+    - text: Un système gonflable au gaz comprimé porté seulement par le guide
       correct: false
-    - text: Empêcher mécaniquement toute variation de profondeur
+    - text: Un parachute commun à la palanquée tient lieu de système gonflable individuel
       correct: false
     explanation: Le système doit être gonflable au moyen de gaz comprimé ; le gilet de stabilisation en
       est l’exemple habituel. C’est un équipement individuel obligatoire dans ce contexte, pas une autorisation
@@ -530,13 +531,13 @@ cards:
     question: En milieu naturel, quel équipement respiratoire supplémentaire est requis pour un plongeur
       autonome ou encadré au-delà de 20 m ?
     choices:
-    - text: Un dispositif permettant d’alimenter un équipier en gaz sans partager le même embout
+    - text: Un équipement permettant de donner du gaz avec un embout distinct
       correct: true
-    - text: Un seul embout à utiliser alternativement à deux
+    - text: Deux sorties indépendantes et deux détendeurs complets sont exigés de chaque N2
       correct: false
-    - text: Un tuba suffisamment long pour atteindre la surface
+    - text: Un seul deuxième étage peut être partagé alternativement par les deux plongeurs
       correct: false
-    - text: La bouteille d’oxygène médical du bateau dans son gilet
+    - text: L’équipement de gaz de l’encadrant dispense chaque plongeur de cet équipement
       correct: false
     explanation: L’équipier doit pouvoir recevoir du gaz avec un embout distinct, par exemple un deuxième
       étage de secours. Cette exigence ne signifie pas que chaque plongeur N2 doit avoir les deux sorties
@@ -562,13 +563,13 @@ cards:
     question: En milieu naturel, un plongeur PA20 peut-il se contenter de regarder l’ordinateur de son
       équipier pour contrôler sa plongée et sa remontée ?
     choices:
-    - text: 'Non : il doit disposer de ses propres équipements de contrôle'
+    - text: 'Non : chacun doit disposer de ses équipements de contrôle personnels'
       correct: true
-    - text: 'Oui : à condition d’avoir exactement le même brevet'
+    - text: 'Oui : un ordinateur commun suffit avec la même profondeur et la même durée'
       correct: false
-    - text: 'Oui : si l’équipier reste toujours devant lui'
+    - text: 'Oui : un ordinateur commun suffit si les plongées précédentes ont été identiques'
       correct: false
-    - text: 'Oui : dès que la profondeur reste inférieure à 20 m'
+    - text: 'Oui : un ordinateur commun suffit si les deux plongeurs restent sans palier obligatoire'
       correct: false
     explanation: Chaque plongeur autonome et chaque plongeur encadré au-delà de 20 m doit pouvoir contrôler
       ses caractéristiques personnelles de plongée et de remontée. Un ordinateur personnel est une solution
@@ -598,11 +599,11 @@ cards:
     choices:
     - text: Deux sorties indépendantes et deux détendeurs complets
       correct: true
-    - text: Deux embouts reliés au même premier étage suffisent toujours
+    - text: Deux sorties indépendantes avec un seul premier étage et deux deuxièmes étages
       correct: false
-    - text: Deux manomètres sur un seul détendeur complet
+    - text: Une sortie avec un premier étage et deux deuxièmes étages
       correct: false
-    - text: Un seul détendeur complet, si tous les plongeurs possèdent un deuxième étage de secours
+    - text: Une sortie avec un premier étage et trois deuxièmes étages
       correct: false
     explanation: Deux détendeurs complets impliquent chacun un premier et un deuxième étage, avec des
       sorties indépendantes. Cela se distingue de deux deuxièmes étages branchés sur un même premier étage.

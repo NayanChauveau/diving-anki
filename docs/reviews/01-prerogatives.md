@@ -134,3 +134,20 @@ P019 : réponse reformulée « plongée prévue sans palier de décompression ob
 L’explication nomme l’ordinateur ou les tables et leur rôle, plutôt que « moyen de désaturation ».
 Restriction recontrôlée dans le MFT N2 mai 2026 p.3. La formulation ne permet pas d’ignorer
 un palier obligatoire apparu malgré la planification. ID et objectif conservés.
+
+## Clarification des documents d’accès — 5 octobre 2026
+
+P022 : la question sépare explicitement documents administratifs/médicaux et prérequis de niveau.
+L’explication développe CACI (certificat d’absence de contre-indication), sa fonction médicale
+et la nécessité distincte d’un N1 ou équivalent. Le distracteur avec carte N1 est faux à cause
+de l’absence de CACI, pas à cause de la présence du N1. MFT mai 2026 p.3 recontrôlé.
+P023 couvre déjà le prérequis de niveau ; aucune carte supplémentaire créée.
+
+## Revue de difficulté des QCM — 5 octobre 2026
+
+Relecture de tous les QCM, questions et choix complets. Les valeurs chiffrées et les
+confusions réglementaires déjà plausibles sont conservées. Les distracteurs fantaisistes
+sont remplacés par des rôles, conditions ou configurations voisins. P035 interroge désormais
+les informations obligatoires de la fiche, avec trois choix (prévu, réalisé, les deux).
+La réponse correcte et chaque alternative ont été comparées aux références déjà documentées ;
+aucune nouvelle procédure ni nouveau seuil ajouté. IDs et nombre de cartes conservés.

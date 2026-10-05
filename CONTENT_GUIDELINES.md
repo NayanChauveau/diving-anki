@@ -32,3 +32,8 @@ Une règle exacte mais incompréhensible ou apparemment contradictoire doit êtr
 Expliciter les restrictions évoquées et vérifier qu’elles sont couvertes par des objectifs
 distincts ; ne pas recréer une carte déjà présente. Les exemples détaillés de calibration
 (certification/exercice, paliers, calculs) sont dans [le guide](docs/CARD_DESIGN.md).
+
+Les QCM doivent exiger la connaissance du cours : distracteurs crédibles et comparables,
+issus de confusions précises. Éliminer les réponses absurdes et les indices de formulation.
+Préférer trois choix solides à quatre choix dont un trop facile ; difficulté et véracité
+se vérifient ensemble. Voir la grille de revue dans docs/CARD_DESIGN.md.
