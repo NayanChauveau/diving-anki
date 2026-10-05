@@ -126,3 +126,10 @@ Couverture recontrôlée dans le MFT mai 2026 p.3 : P020 comporte déjà les deu
 plafond de 20 m pour la seconde plongée si la première a dépassé 30 m, avec un cas à 32 m.
 Les explications donnent désormais les limites explicitement. P019 couvre l’absence de
 palier obligatoire. Aucun ajout nécessaire ; 21 cartes actives, IDs inchangés.
+
+## Clarification des paliers — 5 octobre 2026
+
+P019 : réponse reformulée « plongée prévue sans palier de décompression obligatoire ».
+L’explication nomme l’ordinateur ou les tables et leur rôle, plutôt que « moyen de désaturation ».
+Restriction recontrôlée dans le MFT N2 mai 2026 p.3. La formulation ne permet pas d’ignorer
+un palier obligatoire apparu malgré la planification. ID et objectif conservés.

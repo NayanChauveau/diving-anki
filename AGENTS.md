@@ -57,3 +57,7 @@ avant de préparer ou rédiger des cartes.
   recto. Garder la référence/version dans review.sources ; conserver le contexte utile (France,
   FFESSM, âge, exploration) lorsqu’il détermine la réponse. Une restriction évoquée dans une
   explication doit être explicite et sa couverture par les cartes voisines vérifiée.
+
+- Remplacer les expressions techniques abstraites par leur sens concret dans les réponses.
+  Exemple : « moyen de désaturation » = ordinateur de plongée ou tables pour déterminer
+  les paliers. Une précision indispensable doit être expliquée, pas recopiée du référentiel.
