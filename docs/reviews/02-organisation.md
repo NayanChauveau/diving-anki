@@ -79,3 +79,15 @@ sont remplacés par des rôles, conditions ou configurations voisins. P035 inter
 les informations obligatoires de la fiche, avec trois choix (prévu, réalisé, les deux).
 La réponse correcte et chaque alternative ont été comparées aux références déjà documentées ;
 aucune nouvelle procédure ni nouveau seuil ajouté. IDs et nombre de cartes conservés.
+
+## Allègement des explications — 5 octobre 2026
+
+Suppression des commentaires sur ce que la carte ne couvre pas et des précautions éditoriales
+sans apport à l’objectif. Les explications restent centrées sur les faits, fonctions et conditions.
+Références, IDs et réponses correctes conservés ; aucune nouvelle règle introduite.
+
+## Disponibilité des tables — 5 octobre 2026
+
+P050 : question et explication précisent le lieu de disponibilité (mise à l’eau ou immersion),
+avec bateau support et départ du bord comme exemples. Matériel collectif d’assistance distingué
+de l’équipement personnel de contrôle. A322-78 II relu ; ID et seuil inchangés.

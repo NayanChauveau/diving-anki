@@ -43,6 +43,10 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
   Relire tous les choix : une personne sans connaissance du cours pourrait-elle éliminer les
   leurres au bon sens ? Si oui, reformuler. Préférer trois choix solides à un quatrième faible.
   La difficulté ne doit pas créer d’ambiguïté, de piège linguistique ou de mauvaise réponse défendable.
+- Garder les explications centrées sur la connaissance : supprimer « cette carte ne… »,
+  les commentaires sur sa portée, les disclaimers et précautions éditoriales adressées à l’apprenant.
+  Conserver les notes de méthode et limites de validation dans docs/reviews/, pas dans les cartes.
+  Garder les conditions factuelles nécessaires à une réponse exacte, sans avertissement ajouté.
 - Donner une réponse courte, compréhensible et précise. Expliquer les expressions techniques
   avec des mots concrets ; ne pas recopier une formulation abstraite du référentiel.
   Exemple : préciser « ordinateur ou tables pour déterminer les paliers » au lieu de laisser
@@ -50,6 +54,9 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 - Développer les sigles nécessaires à la compréhension dans l’explication. Pour une question
   portant sur une partie des conditions, préciser ce périmètre et expliquer pourquoi un distracteur
   est faux sans laisser croire que ses autres éléments sont inutiles ou interdits.
+- Pour un équipement, préciser qui doit en disposer et où : matériel collectif sur le site,
+  matériel par palanquée ou équipement individuel porté en plongée. Donner un exemple concret
+  lorsque « disponible » ou « personnel » peut prêter à confusion.
 - Expliciter les valeurs et conditions des restrictions évoquées. Vérifier leur couverture par
   les cartes existantes ; créer une carte manquante seulement si elle apporte un objectif distinct.
 - Distinguer compétences certifiées et prérogatives effectivement exerçables. Si les âges diffèrent,

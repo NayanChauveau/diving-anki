@@ -106,3 +106,12 @@ si oui. Trois choix crédibles valent mieux que quatre dont un est de remplissag
 Les faits chiffrés restent des objectifs de mémorisation : choisir des valeurs plausibles ;
 ne pas ajouter de complexité artificielle ni transformer le rappel en longue énigme.
 Une seule réponse incontestable dans le contexte donné reste obligatoire.
+
+## Explications sans commentaires éditoriaux
+
+Préférence de l’utilisateur : expliquer directement la connaissance, avec des phrases utiles
+et courtes. Supprimer les formules « cette carte ne remplace pas… », « cette carte ne prescrit
+pas… », « cette carte n’enseigne pas… » et les disclaimers génériques. Les précautions de méthode,
+les limites de validation et les sujets non traités restent dans la revue interne.
+Une condition factuelle qui détermine la réponse reste expliquée ; ne pas la transformer
+pour autant en avertissement ou commentaire sur la carte. Cette règle s’applique à tous les formats.

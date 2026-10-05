@@ -527,12 +527,10 @@ cards:
     - text: Une licence valide et une carte N1, sans CACI
       correct: false
     explanation: 'CACI signifie certificat d’absence de contre-indication : c’est le certificat médical
-      requis pour la pratique de la plongée, conforme aux règles fédérales. Il ne certifie pas les compétences
-      techniques. La licence doit également être en cours de validité. Le N1 FFESSM, ou une certification
-      dont les aptitudes sont jugées équivalentes, reste un prérequis distinct : cette question ne demande
-      pas la liste complète des conditions d’accès. Le choix « licence et carte N1, sans CACI » est faux
-      parce qu’il manque le certificat médical, et non parce que le N1 serait inutile. Les conditions
-      d’expérience et d’âge s’ajoutent aussi.'
+      requis pour la plongée. Il atteste l’absence de contre-indication médicale ; le N1 ou une certification
+      équivalente atteste le niveau préalable. La licence doit être en cours de validité. Le choix « licence
+      et carte N1, sans CACI » est faux parce qu’il manque le certificat médical. Les conditions d’expérience
+      et d’âge s’ajoutent à ces exigences.'
 - id: n2-prerogatives-prerequis-niveau-001
   type: mcq
   deck: Réglementation::Prérogatives

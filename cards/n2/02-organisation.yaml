@@ -58,9 +58,9 @@ cards:
       correct: false
     - text: Les limites choisies par l’encadrant, même si un mélange est plus restrictif
       correct: false
-    explanation: Le groupe ne peut dépasser les conditions accessibles au mélange le plus contraignant
-      ou aux aptitudes les plus restrictives. Le mélange d’un équipier ne donne pas aux autres ses possibilités
-      ; aucune formation aux mélanges n’est déduite du N2.
+    explanation: La palanquée respecte à la fois les aptitudes les plus restrictives et les contraintes
+      du mélange le plus limitant. Les possibilités d’un équipier ne s’étendent pas aux autres membres
+      du groupe.
 - id: n2-organisation-dp-parametres-001
   type: mcq
   deck: Réglementation::Organisation
@@ -217,9 +217,8 @@ cards:
       correct: false
     - text: Maîtriser sa remontée, l’assistance étant exigée seulement pour l’aptitude PE40
       correct: false
-    explanation: L’autonomie s’exerce en palanquée, pas comme des plongées individuelles juxtaposées.
-      Le PA20 apprend notamment à planifier avec ses équipiers et à intervenir auprès d’un plongeur en
-      difficulté. Cette carte ne remplace pas l’apprentissage pratique de l’assistance.
+    explanation: Les équipiers PA20 planifient ensemble leur plongée et participent à leur sécurité collective.
+      Leur formation comprend notamment l’intervention auprès d’un équipier en difficulté.
 - id: n2-organisation-plan-secours-001
   type: mcq
   deck: Réglementation::Organisation
@@ -313,9 +312,8 @@ cards:
       correct: false
     - text: De l’eau potable et une couverture isothermique seulement si des paliers sont prévus
       correct: false
-    explanation: L’eau potable et la couverture isothermique font partie du matériel de secours prévu.
-      Leur disponibilité ne signifie pas qu’il faut faire boire systématiquement toute victime ; cette
-      carte porte sur l’équipement, pas sur une conduite médicale.
+    explanation: L’eau douce potable et la couverture isothermique doivent être disponibles sur le lieu
+      de mise à l’eau ou d’immersion, parmi le matériel de secours.
 - id: n2-organisation-oxygene-capacite-001
   type: mcq
   deck: Réglementation::Organisation
@@ -345,10 +343,10 @@ cards:
       correct: false
     - text: Une autonomie fixe, identique quel que soit le délai d’arrivée des secours
       correct: false
-    explanation: La capacité doit tenir compte de la situation et de l’attente des secours, sans durée
-      fixe universelle. L’équipement comporte les accessoires de distribution et de raccordement ; un
-      ballon auto-remplisseur avec réserve d’oxygène et masques adaptés ainsi qu’un masque à haute concentration
-      doivent aussi être disponibles. Cette carte ne prescrit pas de débit ni de technique d’administration.
+    explanation: La réserve d’oxygène doit permettre une prise en charge adaptée jusqu’à l’arrivée des
+      secours médicaux. Sa capacité dépend donc notamment du délai attendu. L’ensemble comprend les accessoires
+      de distribution et de raccordement ; un ballon auto-remplisseur avec réserve d’oxygène et masques
+      adaptés, ainsi qu’un masque à haute concentration, doivent aussi être disponibles.
 - id: n2-organisation-fiche-evacuation-001
   type: mcq
   deck: Réglementation::Organisation
@@ -379,9 +377,8 @@ cards:
       correct: false
     - text: Le plan de secours du site
       correct: false
-    explanation: La fiche d’évacuation sert à transmettre les informations utiles à la prise en charge
-      d’une victime. Un modèle réglementaire est prévu pour cette transmission. Elle ne remplace pas l’alerte
-      aux secours et ne constitue pas, à elle seule, un diagnostic.
+    explanation: La fiche d’évacuation accompagne la transmission aux secours des informations utiles
+      à la prise en charge de la victime. Un modèle réglementaire est prévu pour cette transmission.
 - id: n2-organisation-bloc-secours-001
   type: mcq
   deck: Réglementation::Organisation
@@ -443,9 +440,8 @@ cards:
       correct: false
     - text: Seulement pour une plongée autonome au départ d’une embarcation
       correct: false
-    explanation: Un moyen permettant de rappeler les plongeurs en immersion doit être disponible dans
-      ce contexte. Le signal et le dispositif utilisés doivent être connus des plongeurs ; cette carte
-      ne fixe pas un signal universel.
+    explanation: Un moyen de rappel doit être disponible pour une plongée en milieu naturel au départ
+      d’une embarcation. Le signal et le dispositif utilisés doivent être connus des plongeurs.
 - id: n2-organisation-tables-assistance-001
   type: mcq
   deck: Réglementation::Organisation
@@ -464,8 +460,8 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     fact_check: pass
   fr:
-    question: En milieu naturel, à partir de quelle condition de profondeur un jeu de tables de décompression
-      doit-il être disponible comme matériel d’assistance ?
+    question: En milieu naturel, au-delà de quelle profondeur l’organisation doit-elle mettre à disposition
+      un jeu de tables de décompression sur le lieu de mise à l’eau ou d’immersion ?
     choices:
     - text: Lorsque la plongée dépasse 6 m
       correct: true
@@ -475,9 +471,11 @@ cards:
       correct: false
     - text: Uniquement lorsqu’un palier obligatoire est prévu
       correct: false
-    explanation: 'Le jeu de tables est requis au-delà de 6 m en milieu naturel. Une tablette de notation
-      immergeable figure également dans le matériel d’assistance. Il s’agit du matériel disponible pour
-      l’organisation : chaque plongeur n’est pas tenu de porter personnellement ce jeu de tables.'
+    explanation: 'Au-delà de 6 m, un jeu de tables doit être disponible sur le lieu de mise à l’eau ou
+      d’immersion : par exemple à bord du bateau support, ou au point de départ pour une plongée du bord.
+      C’est du matériel collectif d’assistance mis à disposition par l’organisation, pas un jeu à emporter
+      sous l’eau par chaque plongeur. L’équipement personnel servant à contrôler sa plongée et sa remontée
+      relève d’une obligation distincte.'
 - id: n2-organisation-gilet-surface-001
   type: mcq
   deck: Réglementation::Organisation
@@ -507,9 +505,8 @@ cards:
       correct: false
     - text: Un parachute commun à la palanquée tient lieu de système gonflable individuel
       correct: false
-    explanation: Le système doit être gonflable au moyen de gaz comprimé ; le gilet de stabilisation en
-      est l’exemple habituel. C’est un équipement individuel obligatoire dans ce contexte, pas une autorisation
-      de remonter sans contrôle.
+    explanation: Chaque plongeur en circuit ouvert doit disposer d’un système gonflable au gaz comprimé
+      pour regagner la surface et s’y maintenir. Le gilet de stabilisation en est l’exemple habituel.
 - id: n2-organisation-gaz-equipier-001
   type: mcq
   deck: Réglementation::Organisation
@@ -571,11 +568,10 @@ cards:
       correct: false
     - text: 'Oui : un ordinateur commun suffit si les deux plongeurs restent sans palier obligatoire'
       correct: false
-    explanation: Chaque plongeur autonome et chaque plongeur encadré au-delà de 20 m doit pouvoir contrôler
-      ses caractéristiques personnelles de plongée et de remontée. Un ordinateur personnel est une solution
-      courante ; le texte exige la fonction de contrôle, pas une marque ni un modèle particulier. La pression
-      du bloc doit aussi être indiquée par un manomètre ou un système équivalent. La présence d’un guide
-      ne dispense pas non plus un plongeur encadré au-delà de 20 m de cet équipement personnel.
+    explanation: Chaque plongeur autonome et chaque plongeur encadré au-delà de 20 m doit disposer de
+      ses équipements personnels pour contrôler sa plongée et sa remontée. Un ordinateur personnel est
+      une solution courante. Le bloc doit aussi avoir un manomètre ou un système équivalent pour indiquer
+      sa pression. L’ordinateur du guide ou de l’équipier ne remplace pas le contrôle personnel requis.
 - id: n2-organisation-encadrant-detendeurs-001
   type: mcq
   deck: Réglementation::Organisation
@@ -636,6 +632,5 @@ cards:
       correct: false
     - text: Le texte impose un parachute à chaque plongeur sans exception
       correct: false
-    explanation: L’obligation porte sur chaque palanquée. Le terme « parachute de palier » ne limite pas
-      cette obligation aux plongées prévoyant des paliers. Cette carte n’enseigne pas la technique de
-      déploiement.
+    explanation: Chaque palanquée doit disposer d’un parachute en milieu naturel, même lorsque la plongée
+      est prévue sans palier de décompression.
