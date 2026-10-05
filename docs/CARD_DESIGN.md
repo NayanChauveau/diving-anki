@@ -1,7 +1,7 @@
 # Concevoir des cartes pertinentes
 
 Calibration convenue avec l’utilisateur le 5 octobre 2026. À appliquer à tous les niveaux,
-au plan de préparation et à chaque lot de cartes, en complément de CONTENT_GUIDELINES.md.
+au plan de préparation et à chaque lot de cartes, en complément de [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md).
 
 ## Décider si une carte mérite d’exister
 
@@ -58,7 +58,7 @@ contrôles factuels, doublons absorbés et limites restantes. Les connaissances 
 du minimum N2 restent bienvenues lorsqu’elles aident à comprendre ; ne pas leur attribuer
 une nouvelle prérogative ou une procédure non étayée.
 
-Le plan actuel et son audit sont dans IMPLEMENTATION_N2.md et reviews/PREPARATION_GLOBALE.md.
+Consulter [le plan actuel](IMPLEMENTATION_N2.md) et [son audit](reviews/PREPARATION_GLOBALE.md).
 Les objectifs fusionnés restent des précisions à intégrer, pas une liste de cartes à recréer.
 
 ## Formulation directe et couverture des restrictions
@@ -67,3 +67,21 @@ Les objectifs fusionnés restent des précisions à intégrer, pas une liste de 
 conservées dans review.sources ; le contexte qui conditionne la réponse reste visible.
 Quand une explication évoque d’autres limites, préciser leurs valeurs et vérifier les cartes
 qui les interrogent. Ne pas ajouter de doublon si ces cartes existent déjà.
+
+## Réponse compréhensible et portée de la règle
+
+Une réponse correcte doit aussi faire comprendre la règle. Ne pas laisser une expression
+abstraite inexpliquée ni suggérer une contradiction entre deux conditions.
+
+- Certification et exercice : expliquer les compétences attestées et les possibilités effectives
+  avant l’âge d’exercice. Distinguer qualification isolée et brevet regroupant des qualifications.
+- Paliers : préférer « plongée prévue sans palier de décompression obligatoire » ; expliquer
+  que l’ordinateur ou les tables déterminent les paliers. Ne pas laisser croire qu’une restriction
+  de planification permet d’ignorer un palier devenu obligatoire.
+- Conditions liées : donner leurs valeurs dans l’explication et vérifier les objectifs de rappel.
+  Le nombre de plongées, l’intervalle et une limite de profondeur conditionnelle sont des faits
+  distincts ; la règle « un fait, une carte » ne demande pas de les supprimer ou de tout empiler.
+
+Relire les questions entières, y compris leurs lignes de continuation dans le YAML,
+pour repérer les préambules et termes abstraits restants. Vérifier aussi les réponses,
+explications et autres formats (`basic`, `cloze`), pas seulement les QCM.

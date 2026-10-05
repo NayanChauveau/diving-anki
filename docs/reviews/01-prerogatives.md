@@ -1,6 +1,7 @@
 # Revue du chapitre 01 — Prérogatives
 
-Date : 5 octobre 2026. Périmètre : P001 à P027 du plan, 28 cartes (P020 scindé).
+Date : 5 octobre 2026. Périmètre : P001 à P027 du plan, 21 cartes actives après revue
+pédagogique (28 cartes initialement ; P020 scindé).
 Revue effectuée par l’agent rédacteur dans une seconde passe ; aucune validation humaine
 ou par un moniteur n’est revendiquée. Statut éditorial : reviewed, fact_check: pass.
 

@@ -1,63 +1,61 @@
 # Instructions aux agents
 
-Projet de théorie de plongée français N2/N3/N4. Lire CONTRIBUTING.md avant de changer
-le workflow ; lire CONTENT_GUIDELINES.md et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md)
-avant de préparer ou rédiger des cartes.
+Projet de théorie de plongée en français : N2 actuellement, structure prévue pour N3/N4.
+Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
+et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
+pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les niveaux.
 
-- YAML dans cards/ est la source de vérité, un fichier par chapitre.
-- `fr` obligatoire ; `levels` explicite, aucune héritage automatique entre niveaux.
-- Ne pas rédiger de contenu sans les documents et le référentiel convenus.
-- Nouvelles cartes en draft ; revue factuelle avant reviewed.
-- IDs publiés permanents, IDs Anki stables dans src/diving_anki/ids.py.
-- Après changement : make check. Après changement de schéma : make schema.
-- Documents privés dans sources/, jamais dans Git.
+## Sources et véracité
 
-## Véracité et pertinence des cartes
+- Partir des documents convenus et du [plan N2](docs/IMPLEMENTATION_N2.md).
+  Les trois PDF sont des supports pédagogiques à vérifier, pas une garantie d’exactitude.
+- Vérifier chaque affirmation : question, réponse, explication, distracteurs, unités et hypothèses.
+  Re-vérifier au moindre doute. Pour réglementation, médecine et sécurité, consulter les sources
+  primaires actuelles, contrôler version et champ d’application, puis croiser en cas de doute.
+- Résoudre et documenter les contradictions. Toute incertitude non résolue maintient la carte
+  en `draft` ; ne pas choisir arbitrairement une source.
+- Garder les références précises et la date de vérification dans `review.sources` ; consigner
+  les divergences et la revue dans `docs/reviews/`. Effectuer une passe critique distincte de
+  la rédaction avant `reviewed`. Tests et build ne valident pas la véracité.
 
-- La véracité prime sur le volume : vérifier chaque affirmation, y compris les distracteurs,
-  les explications, les unités et les conditions des scénarios. Re-vérifier au moindre doute.
-- Pour réglementation, médecine et sécurité : consulter les sources primaires actuelles,
-  contrôler leur date/version et leur champ d’application, et croiser les sources en cas de doute.
-- Les trois PDF de référence servent de base pédagogique, sans présomption d’exactitude.
-  Une contradiction exige une résolution documentée ; ne pas choisir arbitrairement une source.
-- Conserver les références précises et la date de vérification dans review.sources ; consigner
-  les divergences et la revue du chapitre dans docs/reviews/. Toute incertitude non résolue reste draft.
-- Relire les cartes dans une passe critique distincte de la rédaction avant de marquer reviewed.
-  Les tests et le build ne constituent pas une validation factuelle.
-- Vérifier la pertinence pour apprendre : contexte explicite, une notion par question, explication
-  utile et distracteurs plausibles. La redondance entre angles complémentaires est souhaitée.
-- Un approfondissement au-delà du minimum N2 est bienvenu s’il aide à comprendre ou à sécuriser
-  les connaissances ; le signaler clairement sans inventer de prérogative ou de procédure.
-- L’objectif est une préparation solide au N2, pas un quota de cartes ni une réduction au strict minimum.
+## Pertinence pédagogique
 
-- La répétition doit ajouter une difficulté utile (mécanisme, erreur fréquente, contrainte nouvelle).
-  Regrouper les simples variantes d’une définition ou d’un sigle ; ne pas faire un scénario
-  qui ne fait que remplacer 40 m par 35 m. Le catalogue est un réservoir, pas un quota.
+- Un fait simple = une carte : Anki assure les répétitions. Fusionner paraphrases, cartes inverses
+  du même fait et scénarios qui ne changent qu’un nom ou une profondeur dans une définition.
+- Pour un sujet complexe, conserver plusieurs angles ou exemples si chacun ajoute une opération,
+  une erreur à comprendre, une hypothèse ou une contrainte. Pas de substitutions numériques en série.
+- Comparer chaque proposition aux cartes de tous les chapitres et au catalogue. Noter son apport
+  distinct dans la revue du lot ; sinon fusionner ou écarter. Une fusion ne doit pas produire
+  un recto qui empile des questions indépendantes.
+- Consulter [l’audit global](docs/reviews/PREPARATION_GLOBALE.md) : les objectifs fusionnés ne
+  sont pas des cartes supplémentaires à recréer. Conserver leur traçabilité et leurs sources.
+- Viser une préparation solide, sans quota ni réduction au strict minimum N2. Garder les
+  approfondissements utiles, en signalant leur portée sans inventer de prérogative ou de procédure.
 
-## Calibration pédagogique obligatoire
+## Clarté des questions et réponses
 
-- Un fait simple = une carte : Anki assure déjà la répétition. Pas de cartes inverses,
-  de paraphrases ou de scénarios qui ne font que reformuler ce fait.
-- Plusieurs cartes pour un sujet complexe si elles changent l’opération, le modèle,
-  l’erreur travaillée ou la contrainte ; plusieurs exemples utiles, pas une série mécanique.
-- Comparer chaque proposition aux cartes de tous les chapitres. Noter son apport distinct
-  dans la revue du lot ; sinon fusionner ou écarter. Ne pas surcharger une carte fusionnée.
-- Calculs d’air : données et réserves explicites, unités et hypothèses contrôlées, résolution
-  distincte pour vérifier le résultat. Ne pas déduire une procédure opérationnelle d’un modèle simplifié.
-- Consulter docs/reviews/PREPARATION_GLOBALE.md : les anciens objectifs fusionnés ne sont
-  pas des cartes supplémentaires à recréer. Conserver les IDs et la traçabilité des sources.
-- Ces critères valent pour tout le deck, sans réduire les approfondissements utiles au N2.
+- Poser la question directement. Éviter « selon le MFT… », les noms de documents et les dates
+  d’édition répétés sur les rectos. Garder le contexte qui détermine la réponse (France, FFESSM,
+  âge, exploration, modèle de matériel ou hypothèses), et les références dans `review.sources`.
+- Donner une réponse courte, compréhensible et précise. Expliquer les expressions techniques
+  avec des mots concrets ; ne pas recopier une formulation abstraite du référentiel.
+  Exemple : préciser « ordinateur ou tables pour déterminer les paliers » au lieu de laisser
+  « moyen de désaturation » sans explication.
+- Expliciter les valeurs et conditions des restrictions évoquées. Vérifier leur couverture par
+  les cartes existantes ; créer une carte manquante seulement si elle apporte un objectif distinct.
+- Distinguer compétences certifiées et prérogatives effectivement exerçables. Si les âges diffèrent,
+  expliquer ce que la certification atteste et ce que le titulaire peut faire entre ces âges.
+  Distinguer qualification isolée et brevet combiné ; ne pas attribuer PE40 à PA20 seul.
+- Calculs d’air : données, réserves, unités et hypothèses explicites ; vérification par une résolution
+  distincte. Un modèle simplifié n’est pas une procédure opérationnelle de plongée.
 
-- Lorsqu’une certification est acquise avant l’âge d’exercice d’une prérogative, expliquer
-  ce qu’elle atteste et ce que le titulaire peut effectivement faire entre ces deux âges.
-  Distinguer qualification isolée et brevet combiné ; ne pas laisser entendre que PA20 seul
-  confère PE40. Une réponse exacte mais laissant une contradiction apparente doit être clarifiée.
+## Structure et vérifications techniques
 
-- Formuler les questions directement : éviter « selon le MFT… » et la date d’édition à chaque
-  recto. Garder la référence/version dans review.sources ; conserver le contexte utile (France,
-  FFESSM, âge, exploration) lorsqu’il détermine la réponse. Une restriction évoquée dans une
-  explication doit être explicite et sa couverture par les cartes voisines vérifiée.
-
-- Remplacer les expressions techniques abstraites par leur sens concret dans les réponses.
-  Exemple : « moyen de désaturation » = ordinateur de plongée ou tables pour déterminer
-  les paliers. Une précision indispensable doit être expliquée, pas recopiée du référentiel.
+- Les YAML de `cards/` sont la source de vérité, un fichier par chapitre ; `fr` obligatoire,
+  `levels` explicite et aucun héritage automatique entre niveaux.
+- Cartes nouvelles en `draft`, puis `reviewed` après revue factuelle et pédagogique.
+- IDs publiés permanents ; ne pas renommer ni réutiliser un ID pour un autre objectif.
+  Les IDs Anki de `src/diving_anki/ids.py` restent stables.
+- Exécuter `make check` après changement ; `make schema` après changement de schéma.
+  Inspecter les rectos/versos après build quand le contenu ou le rendu des cartes change.
+- Documents privés dans `sources/`, jamais dans Git ; packages générés non committés.

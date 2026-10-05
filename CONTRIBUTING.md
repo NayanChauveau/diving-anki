@@ -1,5 +1,8 @@
 # Contribution
 
+Avant de rédiger ou modifier le contenu, lire [AGENTS.md](AGENTS.md),
+[CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md) et [le guide de conception](docs/CARD_DESIGN.md).
+
 Installer avec `uv sync --extra dev`. Exécuter `make check` après les changements :
 lint, formatage, types, schéma JSON, validation des cartes et tests.
 Après modification du modèle Pydantic, exécuter `make schema`.

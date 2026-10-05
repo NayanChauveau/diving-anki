@@ -1,7 +1,8 @@
 # Règles de contenu
 
-Le deck prépare la théorie de plongée N2, puis N3 et N4. Le référentiel et les sources
-seront précisés lors de l’intégration des documents ; ne pas inventer de programme.
+Le deck prépare actuellement la théorie de plongée N2 en français ; N3 et N4 sont prévus
+pour la suite. Les sources convenues, leur périmètre et les vérifications nécessaires sont
+dans [le plan N2](docs/IMPLEMENTATION_N2.md). Ne pas inventer de programme ni de procédure.
 
 Rédiger des formulations originales depuis les sources fournies. Conserver une référence
 vérifiable dans `review.sources` et, si utile, `source_id`. Une question teste une notion
@@ -21,3 +22,13 @@ plusieurs angles et exemples sont utiles si chacun apporte une difficulté disti
 Consigner cet apport dans la revue du lot après comparaison avec tout le deck.
 Fusionner les paraphrases et variations numériques mécaniques ; placer les précisions utiles
 dans l’explication sans multiplier les objectifs sur un recto. La couverture prime sur le quota.
+
+## Clarté
+
+Poser les questions directement, sans préambule de source répété ; conserver le contexte
+nécessaire à une réponse exacte. Sources et versions restent dans `review.sources`.
+Donner une réponse courte et expliquer les termes techniques avec des mots concrets.
+Une règle exacte mais incompréhensible ou apparemment contradictoire doit être reformulée.
+Expliciter les restrictions évoquées et vérifier qu’elles sont couvertes par des objectifs
+distincts ; ne pas recréer une carte déjà présente. Les exemples détaillés de calibration
+(certification/exercice, paliers, calculs) sont dans [le guide](docs/CARD_DESIGN.md).
