@@ -79,3 +79,50 @@ combinaisons plausibles mais incomplètes de licence, CACI, carnet et carte N1.
 - `make push` : import effectué, puis première synchronisation ayant dépassé le délai d’attente.
 - Vérification AnkiConnect : 28 notes retrouvées dans le sous-deck attendu.
 - Relance ciblée de `sync` : réponse sans erreur ; 28 cartes confirmées ensuite dans Anki.
+
+## Révision pédagogique : réduire les variantes sans apport
+
+À la demande de l’utilisateur, chapitre ramené de 28 à 21 cartes actives.
+La rédaction initiale reste conservée dans le premier commit Git e4aa8e2.
+P001 expose maintenant directement les deux possibilités du N2, avec sigle et signification.
+P010 est conservé pour tester la confusion autonomie/encadrement sur une exploration à 30 m ;
+P012 est conservé car il ajoute la contrainte du coéquipier aux aptitudes plus restrictives.
+Les autres thèmes distincts (effectif, certification séparée, âges, mineurs, accès, CMAS) sont conservés.
+
+| Point | ID retiré, à ne pas réutiliser | Motif |
+| --- | --- | --- |
+| P002 | `n2-prerogatives-pe40-exploration-001` | Définition PE40 intégrée à P001. |
+| P003 | `n2-prerogatives-pa20-exploration-001` | Définition PA20 intégrée à P001. |
+| P005 | `n2-prerogatives-pe20-pe40-001` | La comparaison PE20/PE40 répétait le sens de PE et la limite de profondeur. |
+| P009 | `n2-prerogatives-decision-dp-001` | Le rôle du DP reste expliqué et testé dans P006. |
+| P011 | `n2-prerogatives-encadre-trentecinq-001` | Le scénario à 35 m ne faisait que substituer une profondeur à la définition PE40. |
+| P015 | `n2-prerogatives-age-autonomie-001` | Le seuil de 16 ans reste expliqué dans P014 et testé en situation dans P016. |
+| P025 | `n2-prerogatives-autorisation-seule-001` | La nécessité de la décision du DP est déjà testée par P006. |
+
+Les passages précédents décrivent la version initiale et sa validation, pas le nombre actuel.
+Les cartes retirées ne sont plus émises par le build. Un import .apkg ne supprime pas les anciennes
+notes dans Anki : suspendre uniquement les sept cartes correspondant aux GUIDs retirés afin de
+préserver l’historique d’apprentissage. Aucun ID restant renommé, aucune règle factuelle modifiée.
+
+Validation de la version resserrée : `make check` réussi (13 tests), build/push N2 réussi
+avec 21 notes. Les sept anciennes cartes ont été identifiées par leurs champs rendus depuis
+le premier commit et leur tag diving-theory, puis suspendues. AnkiConnect confirme 21 cartes
+non suspendues après synchronisation AnkiWeb. Les notes et leur historique sont conservés.
+
+## Clarification certification et exercice — 5 octobre 2026
+
+P014 cible désormais explicitement l’âge de certification. Son explication distingue
+l’acquisition attestée des compétences PA20 à 15 ans de l’autorisation d’exploration autonome
+à 16 ans. Le N2 inclut également PE40, utilisable encadré à 15 ans sous les conditions prévues ;
+PA20 seul ne confère pas PE40. P016 précise aussi ce que le N2 permet avant 16 ans.
+Relecture du MFT mai 2026, p.3–4 : âges, prérogatives et articulation des qualifications confirmés.
+IDs conservés ; aucune nouvelle carte pour cette clarification.
+
+## Formulations et couverture PE40 avant 16 ans — 5 octobre 2026
+
+Préambules MFT retirés des questions, références conservées ; contexte déterminant maintenu.
+Couverture recontrôlée dans le MFT mai 2026 p.3 : P020 comporte déjà les deux cartes distinctes
+« nombre » (deux plongées par jour) et « intervalle » (trois heures minimum). P021 teste le
+plafond de 20 m pour la seconde plongée si la première a dépassé 30 m, avec un cas à 32 m.
+Les explications donnent désormais les limites explicitement. P019 couvre l’absence de
+palier obligatoire. Aucun ajout nécessaire ; 21 cartes actives, IDs inchangés.

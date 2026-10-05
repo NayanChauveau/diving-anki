@@ -5,7 +5,7 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Le premier chapitre contient 28 cartes revues sur les prérogatives N2.
+leurs cartes. Le premier chapitre contient 21 cartes revues sur les prérogatives N2.
 Voir [la revue des sources](docs/reviews/01-prerogatives.md).
 
 ## Démarrage
