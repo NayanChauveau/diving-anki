@@ -6,9 +6,9 @@ Voir [la revue et la correspondance des IDs](reviews/01-prerogatives.md).
 ## Objectif et volume
 
 Préparer un deck français solide, avec rappel, compréhension, calcul, correction d’erreur,
-lecture de schéma et mise en situation. Après revue globale, le catalogue contient **326 objectifs
+lecture de schéma et mise en situation. Après revue globale, le catalogue contient **325 objectifs
 retenus**, dont 7 nouveaux exercices de gaz à documenter. Ils proviennent de 629 propositions
-initiales : 319 conservées, 296 fusionnées, 11 écartées et 3 transformées en tâches éditoriales.
+initiales : 318 conservées, 297 fusionnées, 11 écartées et 3 transformées en tâches éditoriales.
 Ce sont des objectifs de préparation, pas un quota ni un nombre définitif de cartes : P020
 correspond déjà à deux cartes. Le chapitre 01 conserve ses **21 cartes actives**.
 
@@ -97,7 +97,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V01** — Âges et aptitudes : S2 (flyer 2021) annonce PE40 16 ans et PA20 18 ans ; S1 (2024) distingue PE40 14 ans, PA20/N2 15 ans et exercice autonome 16 ans. Vérifier MFT FFESSM et Code du sport en vigueur avant toute réponse normative ; conserver distinction formation/certification/exercice.
 
-- [ ] **V02** — Organisation et équipements : vérifier les articles cités, leur version et le champ exact (milieu naturel, circuit ouvert, air, exploration). S1 introduit le GP avec un article définissant surtout la palanquée : ne pas confondre citation et définition du rôle.
+- [x] **V02** — Organisation et équipements : vérifier les articles cités, leur version et le champ exact (milieu naturel, circuit ouvert, air, exploration). S1 introduit le GP avec un article définissant surtout la palanquée : ne pas confondre citation et définition du rôle.
 
 - [ ] **V03** — CACI, licence, chasse, signalisation et patrimoine : vérifier textes fédéraux et règles applicables au lieu. Les chiffres de licenciés, structures et gouvernance sont datés et de faible priorité. La reconnaissance CMAS ne donne pas une autorisation universelle de plonger.
 
@@ -133,7 +133,7 @@ français ; le builder ajoutera `Plongée::N2::` devant les chemins indiqués.
 | Chapitre | Sous-deck | Objectifs retenus |
 | --- | --- | ---: |
 | `01-prerogatives.yaml` | Réglementation::Prérogatives | 20 |
-| `02-organisation.yaml` | Réglementation::Organisation | 21 |
+| `02-organisation.yaml` | Réglementation::Organisation | 20 |
 | `03-documents-environnement.yaml` | Réglementation::Documents et responsabilité | 14 |
 | `04-pression.yaml` | Physique::Pressions | 18 |
 | `05-flottabilite.yaml` | Physique::Flottabilité | 23 |
@@ -151,7 +151,7 @@ français ; le builder ajoutera `Plongée::N2::` devant les chemins indiqués.
 | `17-competences-transversales.yaml` | Autonomie::Préparation et palanquée | 16 |
 | `18-lecture-pannes.yaml` | Matériel::Pannes et lecture de supports | 6 |
 | Reprises complémentaires, réparties dans les chapitres existants | Plusieurs | 4 |
-| **Total objectifs retenus** | | **326** |
+| **Total objectifs retenus** | | **325** |
 
 ## Catalogue des cartes à produire
 
@@ -189,27 +189,26 @@ Source : **S1 p.3–4 ; S2 p.1–2**. Contrôle : **V01**. Fichier futur : `card
 
 Source : **S1 p.4–5 ; S2 p.1–2**. Contrôle : **V02**. Fichier futur : `cards/n2/02-organisation.yaml`.
 
-- [ ] **P028** · QCM · Rappel / application — Définir une palanquée par la plongée effectuée ensemble ; expliquer les paramètres communs.
-- [ ] **P030** · QCM · Rappel / application — Palanquée avec mélanges ou aptitudes différents : contrainte la plus restrictive.
-- [ ] **P032** · QCM · Rappel / application — DP : caractéristiques fixées pour la plongée.
-- [ ] **P033** · QCM · Rappel / application — DP : dispositions de sécurité.
-- [ ] **P035** · QCM · Rappel / application — Lire une fiche de sécurité : identifier participants et paramètres prévus/réalisés.
-- [ ] **P038** · QCM · Rappel / application — GP : conduite d’une exploration PE40.
-- [ ] **P039** · QCM · Rappel / application — Équipiers PA20 : sécurité collective.
-- [ ] **P041** · QCM · Rappel / application — Plan de secours : modalités d’alerte et coordonnées.
-- [ ] **P043** · QCM · Rappel / application — Moyen de communication et contexte d’emploi de la VHF.
-- [ ] **P044** · QCM · Rappel / application — Eau potable et couverture isothermique à disposition.
-- [ ] **P045** · QCM · Rappel / application — Oxygénothérapie : capacité adaptée à l’attente des secours.
-- [ ] **P047** · QCM · Rappel / application — Fiche d’évacuation : fonction.
-- [ ] **P048** · QCM · Rappel / application — Bloc de secours équipé et adapté au mélange.
-- [ ] **P049** · QCM · Rappel / application — Moyen de rappel des plongeurs depuis le bateau.
-- [ ] **P050** · QCM · Rappel / application — Tablette de notation et tables disponibles selon le contexte.
-- [ ] **P052** · QCM · Rappel / application — Système gonflable pour regagner et tenir la surface.
-- [ ] **P053** · QCM · Rappel / application — Source d’air pour un équipier sans partage d’embout.
-- [ ] **P054** · Basic · Compréhension — Contrôle des paramètres personnels en autonomie ou au-delà de 20 m encadré.
-- [ ] **P055** · QCM · Rappel / application — Équipement spécifique de l’encadrant : deux sorties et deux détendeurs.
-- [ ] **P056** · QCM · Rappel / application — Parachute : équipement de la palanquée.
-- [ ] **P057** · QCM · Scénario — Scénario : équipement manquant pour passer de PE20 à PE40.
+- [x] **P028** · QCM · Rappel / application — Définir une palanquée par la plongée effectuée ensemble ; expliquer les paramètres communs.
+- [x] **P030** · QCM · Rappel / application — Palanquée avec mélanges ou aptitudes différents : contrainte la plus restrictive.
+- [x] **P032** · QCM · Rappel / application — DP : caractéristiques fixées pour la plongée.
+- [x] **P033** · QCM · Rappel / application — DP : dispositions de sécurité.
+- [x] **P035** · QCM · Rappel / application — Lire une fiche de sécurité : identifier participants et paramètres prévus/réalisés.
+- [x] **P038** · QCM · Rappel / application — GP : conduite d’une exploration PE40.
+- [x] **P039** · QCM · Rappel / application — Équipiers PA20 : sécurité collective.
+- [x] **P041** · QCM · Rappel / application — Plan de secours : modalités d’alerte et coordonnées.
+- [x] **P043** · QCM · Rappel / application — Moyen de communication et contexte d’emploi de la VHF.
+- [x] **P044** · QCM · Rappel / application — Eau potable et couverture isothermique à disposition.
+- [x] **P045** · QCM · Rappel / application — Oxygénothérapie : capacité adaptée à l’attente des secours.
+- [x] **P047** · QCM · Rappel / application — Fiche d’évacuation : fonction.
+- [x] **P048** · QCM · Rappel / application — Bloc de secours équipé et adapté au mélange.
+- [x] **P049** · QCM · Rappel / application — Moyen de rappel des plongeurs depuis le bateau.
+- [x] **P050** · QCM · Rappel / application — Tablette de notation et tables disponibles selon le contexte.
+- [x] **P052** · QCM · Rappel / application — Système gonflable pour regagner et tenir la surface.
+- [x] **P053** · QCM · Rappel / application — Source d’air pour un équipier sans partage d’embout.
+- [x] **P054** · QCM · Compréhension — Contrôle des paramètres personnels en autonomie ou au-delà de 20 m encadré.
+- [x] **P055** · QCM · Rappel / application — Équipement spécifique de l’encadrant : deux sorties et deux détendeurs.
+- [x] **P056** · QCM · Rappel / application — Parachute : équipement de la palanquée.
 
 ### 03-documents-environnement — Réglementation::Documents et responsabilité
 
@@ -649,3 +648,8 @@ référentiel choisi. Les éléments culturels écartés ne conditionnent pas ce
 
 P001–P027 examinés : 21 cartes actives ; 7 variantes retirées (P020 reste scindé en deux). Source actualisée : MFT N2 mai 2026,
 Code du sport A322-73 depuis octobre 2025. Détail dans docs/reviews/01-prerogatives.md.
+
+## Avancement du chapitre 02
+
+20 cartes revues ; P057 absorbé dans P053/P054 pour éviter un doublon. V02 contrôlé dans
+les textes actuels. Voir [la revue du chapitre](reviews/02-organisation.md).

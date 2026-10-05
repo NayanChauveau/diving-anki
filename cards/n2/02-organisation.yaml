@@ -1,0 +1,640 @@
+cards:
+- id: n2-organisation-palanquee-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P028
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Qu’est-ce qui définit une palanquée en plongée ?
+    choices:
+    - text: Des plongeurs effectuant ensemble une plongée de mêmes durée, profondeur et trajet
+      correct: true
+    - text: Des plongeurs possédant exactement le même brevet
+      correct: false
+    - text: Tous les plongeurs présents sur le même bateau
+      correct: false
+    - text: Des plongeurs utilisant obligatoirement le même mélange
+      correct: false
+    explanation: Une palanquée effectue une plongée commune. Des brevets ou des mélanges différents n’empêchent
+      pas de former une palanquée ; leurs contraintes doivent toutefois être respectées.
+- id: n2-organisation-melanges-contraintes-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::application
+  status: reviewed
+  source_id: P030
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En France, deux plongeurs d’une même palanquée respirent des mélanges différents. Comment
+      choisir les limites de leur plongée ?
+    choices:
+    - text: Respecter les contraintes de chaque mélange et les aptitudes les plus restrictives
+      correct: true
+    - text: Retenir les limites du mélange permettant d’aller le plus profond
+      correct: false
+    - text: Faire la moyenne des profondeurs autorisées
+      correct: false
+    - text: Appliquer uniquement les limites du plongeur le plus expérimenté
+      correct: false
+    explanation: Le groupe ne peut dépasser les conditions accessibles au mélange le plus contraignant
+      ou aux aptitudes les plus restrictives. Le mélange d’un équipier ne donne pas aux autres ses possibilités
+      ; aucune formation aux mélanges n’est déduite du N2.
+- id: n2-organisation-dp-parametres-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P032
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-72, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393876'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Dans une plongée N2 organisée en établissement en France, qui fixe les caractéristiques
+      de la plongée ?
+    choices:
+    - text: Le directeur de plongée (DP)
+      correct: true
+    - text: Le plongeur ayant le plus grand nombre de plongées
+      correct: false
+    - text: Chaque plongeur séparément après l’immersion
+      correct: false
+    - text: Le propriétaire du bateau, quelle que soit sa qualification
+      correct: false
+    explanation: Le DP fixe le cadre de la plongée, notamment les paramètres prévus. Le briefing et les
+      décisions de la palanquée doivent respecter ce cadre ; une aptitude est une limite de capacité,
+      pas une permission de choisir librement tous les paramètres.
+- id: n2-organisation-dp-secours-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P033
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-72, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393876'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Qui est responsable de l’organisation de la sécurité et du déclenchement des secours sur
+      le site d’une plongée organisée en établissement ?
+    choices:
+    - text: Le directeur de plongée (DP)
+      correct: true
+    - text: Uniquement le guide de chaque palanquée
+      correct: false
+    - text: Uniquement les services de secours avant tout appel
+      correct: false
+    - text: Le plongeur dont le brevet est le plus récent
+      correct: false
+    explanation: Le DP est responsable techniquement de l’organisation, des dispositions de sécurité et
+      du déclenchement des secours. Cela n’efface pas les responsabilités du guide pendant la plongée
+      ni la vigilance de chaque plongeur.
+- id: n2-organisation-fiche-securite-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::lecture
+  status: reviewed
+  source_id: P035
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-72, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393876'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Une fiche indique les membres d’une palanquée, leurs aptitudes et fonctions, puis les paramètres
+      prévus et réellement réalisés. De quel document s’agit-il ?
+    choices:
+    - text: La fiche de sécurité établie par le directeur de plongée
+      correct: true
+    - text: La licence individuelle du plongeur
+      correct: false
+    - text: Le certificat médical de chaque participant
+      correct: false
+    - text: La fiche d’évacuation d’une victime uniquement
+      correct: false
+    explanation: La fiche de sécurité décrit les participants et la plongée prévue puis réalisée. Elle
+      est conservée un an par l’établissement. Elle ne se confond pas avec la fiche d’évacuation destinée
+      à transmettre les informations concernant une victime.
+- id: n2-organisation-guide-conduite-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P038
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-74, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393871'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En exploration PE40 en milieu naturel, quel est le rôle du guide de palanquée pendant l’immersion
+      ?
+    choices:
+    - text: Conduire la plongée en l’adaptant aux circonstances et aux aptitudes des plongeurs
+      correct: true
+    - text: Fixer seul toutes les règles de l’établissement à la place du DP
+      correct: false
+    - text: Garantir l’absence de tout accident quelles que soient les circonstances
+      correct: false
+    - text: Prendre en charge uniquement l’orientation, sans tenir compte des plongeurs
+      correct: false
+    explanation: Le guide est responsable du déroulement de la plongée encadrée. Il adapte la conduite
+      du groupe dans le cadre fixé par le DP. La présence du guide ne dispense pas chaque plongeur de
+      surveiller son matériel et de signaler une difficulté.
+- id: n2-organisation-autonomie-collective-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::application
+  status: reviewed
+  source_id: P039
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'FFESSM — MFT N2, mai 2026, p.3 et compétences PA20 p.5, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En exploration PA20, un équipier signale une difficulté. L’absence de guide permet-elle
+      aux autres de poursuivre sans en tenir compte ?
+    choices:
+    - text: 'Non : les équipiers doivent prendre en compte la difficulté et assurer leur sécurité collective'
+      correct: true
+    - text: 'Oui : chacun n’est responsable que de sa propre plongée'
+      correct: false
+    - text: 'Oui : si l’équipier possède aussi le N2'
+      correct: false
+    - text: 'Oui : tant que personne n’a dépassé 20 m'
+      correct: false
+    explanation: L’autonomie s’exerce en palanquée, pas comme des plongées individuelles juxtaposées.
+      Le PA20 apprend notamment à planifier avec ses équipiers et à intervenir auprès d’un plongeur en
+      difficulté. Cette carte ne remplace pas l’apprentissage pratique de l’assistance.
+- id: n2-organisation-plan-secours-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P041
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: À quoi sert le plan de secours disponible sur le lieu de mise à l’eau ou d’immersion ?
+    choices:
+    - text: À préciser l’alerte, les coordonnées des secours et les procédures d’urgence en surface
+      correct: true
+    - text: À remplacer le briefing de toutes les palanquées
+      correct: false
+    - text: À enregistrer uniquement les profondeurs maximales des plongeurs
+      correct: false
+    - text: À autoriser une plongée sans matériel de secours
+      correct: false
+    explanation: Ce document écrit est adapté au lieu et à la plongée, régulièrement actualisé et connu
+      du DP, des encadrants et des plongeurs autonomes. Il organise la réponse à l’accident ; une liste
+      de numéros seule ne décrit pas tout le plan.
+- id: n2-organisation-vhf-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::application
+  status: reviewed
+  source_id: P043
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En France, une plongée se déroule en mer depuis un bateau support. Quel moyen de communication
+      avec les secours est nécessaire ?
+    choices:
+    - text: Une radio VHF
+      correct: true
+    - text: Un téléphone portable suffit toujours à remplacer la VHF
+      correct: false
+    - text: Une tablette de notation immergeable
+      correct: false
+    - text: Un parachute de palier comme seul moyen d’alerte
+      correct: false
+    explanation: 'Un moyen permettant de prévenir les secours doit être disponible. Pour une plongée en
+      mer au départ d’une embarcation support, une VHF est nécessaire : la présence d’un téléphone ne
+      supprime pas cette obligation.'
+- id: n2-organisation-eau-couverture-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P044
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Quels éléments doivent notamment être disponibles sur le lieu de mise à l’eau parmi le matériel
+      de secours ?
+    choices:
+    - text: De l’eau douce potable et une couverture isothermique
+      correct: true
+    - text: De l’eau de mer et une serviette uniquement
+      correct: false
+    - text: Une boisson alcoolisée et une couverture ordinaire uniquement
+      correct: false
+    - text: Une couverture isothermique, mais aucune eau potable
+      correct: false
+    explanation: L’eau potable et la couverture isothermique font partie du matériel de secours prévu.
+      Leur disponibilité ne signifie pas qu’il faut faire boire systématiquement toute victime ; cette
+      carte porte sur l’équipement, pas sur une conduite médicale.
+- id: n2-organisation-oxygene-capacite-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::comprehension
+  status: reviewed
+  source_id: P045
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Quelle exigence doit guider la capacité de l’ensemble d’oxygénothérapie disponible sur le
+      site ?
+    choices:
+    - text: Permettre une prise en charge adaptée jusqu’à l’arrivée des secours médicaux
+      correct: true
+    - text: Pouvoir fonctionner exactement cinq minutes dans tous les cas
+      correct: false
+    - text: Contenir de l’air comprimé plutôt que de l’oxygène médical
+      correct: false
+    - text: Être choisi uniquement selon le nombre de brevets N2 présents
+      correct: false
+    explanation: La capacité doit tenir compte de la situation et de l’attente des secours, sans durée
+      fixe universelle. L’équipement comporte les accessoires de distribution et de raccordement ; un
+      ballon auto-remplisseur avec réserve d’oxygène et masques adaptés ainsi qu’un masque à haute concentration
+      doivent aussi être disponibles. Cette carte ne prescrit pas de débit ni de technique d’administration.
+- id: n2-organisation-fiche-evacuation-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::comprehension
+  status: reviewed
+  source_id: P047
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — Annexe III-19, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393435'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    - 'Code du sport — A322-78 I, obligation de fiches d’évacuation, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    fact_check: pass
+  fr:
+    question: En cas d’accident de plongée, à quoi sert la fiche d’évacuation ?
+    choices:
+    - text: À transmettre aux secours les informations sur la victime, la plongée et la prise en charge
+      correct: true
+    - text: À prouver que la victime n’a forcément commis aucune erreur
+      correct: false
+    - text: À remplacer l’appel aux secours
+      correct: false
+    - text: À délivrer une nouvelle aptitude au plongeur après l’accident
+      correct: false
+    explanation: La fiche d’évacuation sert à transmettre les informations utiles à la prise en charge
+      d’une victime. Un modèle réglementaire est prévu pour cette transmission. Elle ne remplace pas l’alerte
+      aux secours et ne constitue pas, à elle seule, un diagnostic.
+- id: n2-organisation-bloc-secours-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P048
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: Pour une plongée organisée à l’air, comment la bouteille d’air de secours doit-elle être
+      équipée ?
+    choices:
+    - text: Avec un détendeur permettant de l’utiliser
+      correct: true
+    - text: Sans détendeur, puisqu’elle reste en surface
+      correct: false
+    - text: Avec seulement un bouchon de protection
+      correct: false
+    - text: Avec uniquement une étiquette indiquant sa pression
+      correct: false
+    explanation: La bouteille d’air de secours doit être équipée de son détendeur. Pour une plongée avec
+      d’autres mélanges, le matériel de secours en gaz doit être adapté à la plongée et prévu par le plan
+      de secours ; le stock d’oxygène médical a une autre fonction.
+- id: n2-organisation-rappel-bateau-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P049
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, une plongée se déroule depuis une embarcation. Quel dispositif doit permettre
+      de joindre les plongeurs immergés pour les faire revenir ?
+    choices:
+    - text: Un moyen de rappel depuis la surface
+      correct: true
+    - text: Seulement un téléphone laissé sur le bateau
+      correct: false
+    - text: Seulement la fiche de sécurité du DP
+      correct: false
+    - text: Un message envoyé après la sortie de l’eau
+      correct: false
+    explanation: Un moyen permettant de rappeler les plongeurs en immersion doit être disponible dans
+      ce contexte. Le signal et le dispositif utilisés doivent être connus des plongeurs ; cette carte
+      ne fixe pas un signal universel.
+- id: n2-organisation-tables-assistance-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P050
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, à partir de quelle condition de profondeur un jeu de tables de décompression
+      doit-il être disponible comme matériel d’assistance ?
+    choices:
+    - text: Lorsque la plongée dépasse 6 m
+      correct: true
+    - text: Seulement au-delà de 20 m
+      correct: false
+    - text: Uniquement si personne ne possède d’ordinateur
+      correct: false
+    - text: Uniquement lorsqu’un palier obligatoire est prévu
+      correct: false
+    explanation: 'Le jeu de tables est requis au-delà de 6 m en milieu naturel. Une tablette de notation
+      immergeable figure également dans le matériel d’assistance. Il s’agit du matériel disponible pour
+      l’organisation : chaque plongeur n’est pas tenu de porter personnellement ce jeu de tables.'
+- id: n2-organisation-gilet-surface-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::comprehension
+  status: reviewed
+  source_id: P052
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, quelle fonction doit remplir le système gonflable d’un plongeur en circuit
+      ouvert ?
+    choices:
+    - text: Lui permettre de regagner la surface et de s’y maintenir
+      correct: true
+    - text: Remplacer toute réserve de gaz respirable
+      correct: false
+    - text: Permettre de respirer directement le gaz du gilet
+      correct: false
+    - text: Empêcher mécaniquement toute variation de profondeur
+      correct: false
+    explanation: Le système doit être gonflable au moyen de gaz comprimé ; le gilet de stabilisation en
+      est l’exemple habituel. C’est un équipement individuel obligatoire dans ce contexte, pas une autorisation
+      de remonter sans contrôle.
+- id: n2-organisation-gaz-equipier-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::application
+  status: reviewed
+  source_id: P053
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, quel équipement respiratoire supplémentaire est requis pour un plongeur
+      autonome ou encadré au-delà de 20 m ?
+    choices:
+    - text: Un dispositif permettant d’alimenter un équipier en gaz sans partager le même embout
+      correct: true
+    - text: Un seul embout à utiliser alternativement à deux
+      correct: false
+    - text: Un tuba suffisamment long pour atteindre la surface
+      correct: false
+    - text: La bouteille d’oxygène médical du bateau dans son gilet
+      correct: false
+    explanation: L’équipier doit pouvoir recevoir du gaz avec un embout distinct, par exemple un deuxième
+      étage de secours. Cette exigence ne signifie pas que chaque plongeur N2 doit avoir les deux sorties
+      indépendantes et deux détendeurs complets imposés à l’encadrant.
+- id: n2-organisation-parametres-personnels-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::comprehension
+  status: reviewed
+  source_id: P054
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, un plongeur PA20 peut-il se contenter de regarder l’ordinateur de son
+      équipier pour contrôler sa plongée et sa remontée ?
+    choices:
+    - text: 'Non : il doit disposer de ses propres équipements de contrôle'
+      correct: true
+    - text: 'Oui : à condition d’avoir exactement le même brevet'
+      correct: false
+    - text: 'Oui : si l’équipier reste toujours devant lui'
+      correct: false
+    - text: 'Oui : dès que la profondeur reste inférieure à 20 m'
+      correct: false
+    explanation: Chaque plongeur autonome et chaque plongeur encadré au-delà de 20 m doit pouvoir contrôler
+      ses caractéristiques personnelles de plongée et de remontée. Un ordinateur personnel est une solution
+      courante ; le texte exige la fonction de contrôle, pas une marque ni un modèle particulier. La pression
+      du bloc doit aussi être indiquée par un manomètre ou un système équivalent. La présence d’un guide
+      ne dispense pas non plus un plongeur encadré au-delà de 20 m de cet équipement personnel.
+- id: n2-organisation-encadrant-detendeurs-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::comparaison
+  status: reviewed
+  source_id: P055
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, quel équipement respiratoire est spécifiquement requis pour la personne
+      qui encadre la palanquée ?
+    choices:
+    - text: Deux sorties indépendantes et deux détendeurs complets
+      correct: true
+    - text: Deux embouts reliés au même premier étage suffisent toujours
+      correct: false
+    - text: Deux manomètres sur un seul détendeur complet
+      correct: false
+    - text: Un seul détendeur complet, si tous les plongeurs possèdent un deuxième étage de secours
+      correct: false
+    explanation: Deux détendeurs complets impliquent chacun un premier et un deuxième étage, avec des
+      sorties indépendantes. Cela se distingue de deux deuxièmes étages branchés sur un même premier étage.
+      L’encadrant doit aussi disposer du système gonflable et des équipements de contrôle de la palanquée.
+- id: n2-organisation-parachute-palanquee-001
+  type: mcq
+  deck: Réglementation::Organisation
+  levels:
+  - N2
+  tags:
+  - chapitre::02
+  - organisation
+  - angle::rappel
+  status: reviewed
+  source_id: P056
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
+    - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
+    - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
+    fact_check: pass
+  fr:
+    question: En milieu naturel, à quelle échelle le parachute de palier est-il obligatoire ?
+    choices:
+    - text: Chaque palanquée doit en disposer
+      correct: true
+    - text: Il suffit d’un seul parachute sur le bateau pour toutes les palanquées
+      correct: false
+    - text: Il est obligatoire uniquement si un palier de décompression est prévu
+      correct: false
+    - text: Le texte impose un parachute à chaque plongeur sans exception
+      correct: false
+    explanation: L’obligation porte sur chaque palanquée. Le terme « parachute de palier » ne limite pas
+      cette obligation aux plongées prévoyant des paliers. Cette carte n’enseigne pas la technique de
+      déploiement.

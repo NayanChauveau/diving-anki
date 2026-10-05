@@ -2,10 +2,11 @@
 
 Revue du 5 octobre 2026. Il s’agit d’un audit de pertinence du plan complet, pas d’une validation
 factuelle des futures réponses. Les contrôles V01–V15, sources et blocages du plan restent applicables.
-Aucune carte YAML, aucun statut de revue ni contenu Anki n’est modifié par cet audit.
+L’audit initial ne modifiait pas les cartes. Mise à jour lors de l’implémentation du chapitre 02 :
+P057 absorbé dans P053/P054, 20 cartes de chapitre retenues ; voir la revue correspondante.
 
-Les 629 propositions initiales sont toutes classées : **319 conservées**, **296 fusionnées**,
-**11 écartées**, **3 tâches éditoriales**. Avec P630–P636 : **326 objectifs**.
+Les 629 propositions initiales sont toutes classées : **318 conservées**, **297 fusionnées**,
+**11 écartées**, **3 tâches éditoriales**. Avec P630–P636 : **325 objectifs**.
 Une fusion signifie intégrer la précision dans la réponse ou l’explication cible, sans ajouter une carte.
 La formulation finale doit rester courte ; si la cible devient une liste, revoir le découpage plutôt que tout empiler.
 
@@ -14,7 +15,7 @@ La formulation finale doit rester courte ; si la cible devient une liste, revoir
 | Section | Avant | Conservés | Fusionnés | Écartés | Tâches | Ajoutés |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | 01-prerogatives — Réglementation::Prérogatives | 27 | 20 | 7 | 0 | 0 | 0 |
-| 02-organisation — Réglementation::Organisation | 31 | 21 | 10 | 0 | 0 | 0 |
+| 02-organisation — Réglementation::Organisation | 31 | 20 | 11 | 0 | 0 | 0 |
 | 03-documents-environnement — Réglementation::Documents et responsabilité | 36 | 14 | 13 | 9 | 0 | 0 |
 | 04-pression — Physique::Pressions | 38 | 18 | 20 | 0 | 0 | 0 |
 | 05-flottabilite — Physique::Flottabilité | 40 | 23 | 17 | 0 | 0 | 0 |
@@ -46,7 +47,7 @@ P001, P004, P006, P007, P008, P010, P012, P013, P014, P016, P017, P018, P019, P0
 
 ### 02-organisation — Réglementation::Organisation
 
-P028, P030, P032, P033, P035, P038, P039, P041, P043, P044, P045, P047, P048, P049, P050, P052, P053, P054, P055, P056, P057
+P028, P030, P032, P033, P035, P038, P039, P041, P043, P044, P045, P047, P048, P049, P050, P052, P053, P054, P055, P056
 
 ### 03-documents-environnement — Réglementation::Documents et responsabilité
 
@@ -141,6 +142,7 @@ l’explication contextualisée. Les scénarios conservés doivent apporter une 
 | P042 | P041 | Plan de secours : personnes devant en prendre connaissance.  | Source : S1 p.4–5 ; S2 p.1–2. Contrôle : V02. Fichier futur : `cards/n2/02-organisation.yaml`. |
 | P046 | P045 | Identifier BAVU et masque à haute concentration.  | Source : S1 p.4–5 ; S2 p.1–2. Contrôle : V02. Fichier futur : `cards/n2/02-organisation.yaml`. |
 | P051 | P054 | Manomètre ou système équivalent sur le bloc.  | Source : S1 p.4–5 ; S2 p.1–2. Contrôle : V02. Fichier futur : `cards/n2/02-organisation.yaml`. |
+| P057 | P054 | Équipement manquant en PE40 : le contrôle personnel est déjà testé par P054, le gaz d’assistance par P053. | Source : S1 p.5 ; A322-80. Contrôle V02. |
 | P058 | P053 | Scénario : équipement manquant pour une plongée PA20.  | Source : S1 p.4–5 ; S2 p.1–2. Contrôle : V02. Fichier futur : `cards/n2/02-organisation.yaml`. |
 | P060 | P061 | Rôle du CACI.  | Source : S1 p.5–7 ; S2 p.2. Contrôle : V03. Fichier futur : `cards/n2/03-documents-environnement.yaml`. |
 | P065 | P064 | Distinguer responsabilité civile et assurance individuelle accident.  | Source : S1 p.5–7 ; S2 p.2. Contrôle : V03. Fichier futur : `cards/n2/03-documents-environnement.yaml`. |
@@ -451,7 +453,7 @@ Rédaction bloquée sur le complément de source V06/V15 et vérification indép
 
 ## Effet sur le travail existant
 
-Les 21 cartes actives du chapitre 01 sont conservées. P001–P027 gardent la correspondance
+Les 21 cartes actives du chapitre 01 sont conservées. Le chapitre 02 comporte désormais 20 cartes. P001–P027 gardent la correspondance
 de la revue de chapitre, y compris les deux cartes de P020. Les ID de plan et les ID YAML
 publiés restent stables. Cet audit ne demande ni nouvelle suspension ni suppression dans Anki.
 
