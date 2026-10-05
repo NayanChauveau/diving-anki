@@ -5,10 +5,11 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Les deux premiers chapitres contiennent 41 cartes revues : 21 sur les prérogatives N2
-et 20 sur l’organisation et les équipements.
+leurs cartes. Les trois premiers chapitres contiennent 53 cartes revues : 21 sur les prérogatives N2,
+20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement.
 Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
-[l’organisation](docs/reviews/02-organisation.md).
+[l’organisation](docs/reviews/02-organisation.md) et des
+[documents et de l’environnement](docs/reviews/03-documents-environnement.md).
 
 ## Démarrage
 

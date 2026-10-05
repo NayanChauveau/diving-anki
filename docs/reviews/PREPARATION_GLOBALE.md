@@ -463,3 +463,9 @@ Avant publication, rechercher les doublons dans tous les chapitres et préciser 
 le fait unique ou le raisonnement nouveau. Une famille complexe peut garder plusieurs exercices ;
 elle ne doit pas masquer une série de substitutions numériques identiques.
 La couverture et la véracité priment sur le volume final.
+
+## Implémentation du chapitre 03
+
+12 cartes nouvelles. P059 couvert par P022/P023 ; P077 par P010/P012 ; P498 par P078.
+Ces objectifs restent dans le catalogue comme couverture validée, sans nouveaux IDs YAML
+pour les variantes. Détails et sources dans [la revue du chapitre](03-documents-environnement.md).

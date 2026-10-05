@@ -1,0 +1,357 @@
+cards:
+- id: n2-documents-caci-validite-medecin-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P061
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'FFESSM CMPN — certificat médical et pratique, modalités 2026, sections contraintes particulières
+      et recevabilité : https://medical.ffessm.fr/certificat-medical-et-pratique-de-l-activite ; vérifié
+      le 2026-10-05'
+    - 'FFESSM CMPN — plongée avec bouteille, CACI de moins d’un an : https://medical.ffessm.fr/je-veux-pratiquer-la-plongee-avec-bouteille-recycleur
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: Pour une pratique N2 FFESSM à l’air, hors situation médicale particulière, quel couple «
+      ancienneté du CACI / médecin signataire » convient ?
+    choices:
+    - text: Moins d’un an / tout médecin autorisé à exercer et compétent pour cet examen
+      correct: true
+    - text: Moins d’un an / obligatoirement un médecin fédéral
+      correct: false
+    - text: Moins de deux ans / tout médecin autorisé à exercer et compétent pour cet examen
+      correct: false
+    - text: Moins de trois ans / un médecin fédéral
+      correct: false
+    explanation: Le certificat d’absence de contre-indication (CACI) doit dater de moins d’un an au jour
+      de la pratique. Dans ce cas général, il peut être délivré après examen par un médecin autorisé à
+      exercer ; un médecin fédéral n’est pas imposé.
+- id: n2-documents-licence-affiliation-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P063
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'FFESSM — prendre sa licence, affiliation et assurances : https://ffessm.fr/pratiquer/prendre-sa-licence-une-facon-d-etre-un-engagement
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: Quelle information établit une licence FFESSM de pratique en cours de validité, indépendamment
+      du brevet du plongeur ?
+    choices:
+    - text: Son affiliation fédérale pour la période de validité
+      correct: true
+    - text: Ses aptitudes d’exploration correspondant au niveau N2
+      correct: false
+    - text: Son absence de contre-indication médicale pour la plongée
+      correct: false
+    - text: La validation par le DP des paramètres de sa prochaine plongée
+      correct: false
+    explanation: La licence matérialise l’affiliation à la fédération et ouvre l’accès aux activités fédérales
+      selon leurs conditions. Le brevet atteste des aptitudes ; le CACI relève de l’examen médical ; le
+      DP fixe le cadre de la plongée.
+- id: n2-documents-assurance-rc-aia-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P064
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'FFESSM — prendre sa licence, affiliation et assurances : https://ffessm.fr/pratiquer/prendre-sa-licence-une-facon-d-etre-un-engagement
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: Un plongeur se blesse sans tiers responsable identifié. Quelle distinction faut-il faire
+      entre la RC incluse dans sa licence FFESSM et une assurance individuelle accident ?
+    choices:
+    - text: La RC couvre les dommages causés à des tiers ; l’individuelle accident concerne ses propres
+        dommages corporels selon le contrat
+      correct: true
+    - text: La RC couvre ses propres dommages corporels ; l’individuelle accident couvre les dommages
+        qu’il cause à des tiers
+      correct: false
+    - text: La RC et l’individuelle accident couvrent les mêmes risques corporels, avec seulement des
+        plafonds différents
+      correct: false
+    explanation: 'RC signifie responsabilité civile : elle concerne les dommages causés à autrui. L’assurance
+      individuelle accident concerne notamment les dommages corporels du licencié lui-même, selon les
+      garanties souscrites. Les frais de prise en charge d’une blessure personnelle ne se déduisent donc
+      pas de la seule présence d’une RC.'
+- id: n2-documents-zones-reglementees-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P069
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Ministère chargé de la mer — règles de sécurité des loisirs nautiques, mise à jour 19 juin 2026,
+      réglementation locale et pavillons : https://www.mer.gouv.fr/regles-de-securite-pour-les-loisirs-nautiques-en-mer
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    - 'Parc national de Port-Cros — autorisation de plongée dans les cœurs marins, vérifié le 2026-10-05
+      : https://portcros-parcnational.fr/fr/le-parc-national-de-port-cros/la-reglementation/reglementation-en-mer/plongee-sous-marine'
+    fact_check: pass
+  fr:
+    front: Une zone marine protégée interdit-elle nécessairement toute plongée ? Quelle information faut-il
+      vérifier pour choisir le site ?
+    back: La réglementation propre à la zone détermine si la plongée est autorisée, limitée, soumise à
+      autorisation ou interdite. Vérifier les textes applicables au site, notamment les arrêtés et les
+      conditions éventuelles d’accès ; la seule appellation « zone protégée » ne donne pas toutes ces
+      conditions.
+- id: n2-documents-prelevements-observation-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P070
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'FFESSM / Longitude 181 — Charte internationale du plongeur responsable, pendant la plongée : https://ffessm.fr/uploads/media/docs/0001/02/9f371fe9f28ac78676b403b3a3f7fadac26b709b.pdf
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    front: Lors d’une plongée d’observation, quelle conduite adopter envers les organismes et les objets
+      naturels, même s’ils semblent sans valeur ?
+    back: Les laisser en place, sans prélèvement ni déplacement. Leur présence participe au milieu observé
+      ; privilégier les images comme souvenir. C’est le principe de la Charte du plongeur responsable
+      pour la plongée d’observation.
+- id: n2-documents-decouverte-archeologique-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P071
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Ministère de la Culture — découverte de bien culturel maritime, laisser en place et déclaration
+      sous 48 h : https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/declaration-renouvellement/decouverte-de-bien-culturel-maritime
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: En mer en France, un plongeur découvre fortuitement un objet pouvant être un bien culturel
+      maritime. Quelle combinaison « conduite / délai de déclaration » est correcte ?
+    choices:
+    - text: Laisser en place sans y porter atteinte / déclarer dans les 48 heures
+      correct: true
+    - text: Laisser en place sans y porter atteinte / déclarer dans les sept jours
+      correct: false
+    - text: Remonter l’objet pour l’identifier / déclarer dans les 48 heures
+      correct: false
+    - text: Déplacer l’objet à l’abri du courant / déclarer dans les sept jours
+      correct: false
+    explanation: Le bien doit rester en place et intact. La découverte doit être déclarée dans les 48
+      heures au DRASSM, le Département des recherches archéologiques subaquatiques et sous-marines. La
+      localisation et le contexte de découverte sont essentiels à sa connaissance et à sa conservation.
+- id: n2-documents-peche-scaphandre-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P073
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Code rural et pêche maritime — R921-92 I, version depuis janvier 2015 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029978123
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: En pêche sous-marine de loisir en mer en France, quelles règles concernent le scaphandre
+      et le fusil sous-marin ?
+    choices:
+    - text: Pêche avec équipement respiratoire interdite ; détention simultanée à bord interdite sauf
+        dérogation préfectorale
+      correct: true
+    - text: Pêche avec équipement respiratoire interdite ; détention simultanée à bord admise si les utilisateurs
+        sont différents
+      correct: false
+    - text: Pêche avec équipement respiratoire admise hors réserve ; détention simultanée à bord interdite
+        sauf dérogation préfectorale
+      correct: false
+    explanation: L’interdiction concerne l’usage d’un équipement permettant de respirer sous l’eau sans
+      revenir à la surface. Elle porte aussi sur sa présence à bord avec un engin de pêche sous-marine,
+      sauf dérogation accordée par le préfet. Séparer les pratiquants ou ne pas utiliser le matériel en
+      même temps ne supprime pas cette seconde règle.
+- id: n2-documents-pavillon-alpha-001
+  type: mcq
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comparaison
+  status: reviewed
+  source_id: P074
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Ministère chargé de la mer — règles de sécurité des loisirs nautiques, mise à jour 19 juin 2026,
+      réglementation locale et pavillons : https://www.mer.gouv.fr/regles-de-securite-pour-les-loisirs-nautiques-en-mer
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    question: Quelles sont les couleurs du pavillon Alpha utilisé pour signaler la plongée depuis une
+      embarcation en mer ?
+    choices:
+    - text: Bleu et blanc
+      correct: true
+    - text: Rouge avec une diagonale blanche
+      correct: false
+    - text: Rouge avec une croix blanche
+      correct: false
+    - text: Jaune et bleu
+      correct: false
+    explanation: Le pavillon Alpha est bleu et blanc. Le rouge à diagonale blanche et le rouge à croix
+      de Saint-André sont d’autres signaux associés aux plongeurs, notamment sur les bouées. Pour un départ
+      du bord, les plongeurs se signalent par une bouée portant un pavillon de plongée.
+- id: n2-documents-distance-navires-locale-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P076
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Ministère chargé de la mer — règles de sécurité des loisirs nautiques, mise à jour 19 juin 2026,
+      réglementation locale et pavillons : https://www.mer.gouv.fr/regles-de-securite-pour-les-loisirs-nautiques-en-mer
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    front: Où vérifier la distance que les navires doivent respecter autour des plongeurs sur un site
+      côtier français ?
+    back: Dans la réglementation applicable au site, notamment les arrêtés de la préfecture maritime.
+      Vérifier la zone concernée et les conditions de circulation, d’approche et de vitesse. Un chiffre
+      isolé tiré d’un cours ne suffit pas à établir la règle du site.
+- id: n2-documents-suivi-bloc-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P078
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'Arrêté du 20 novembre 2017 relatif au suivi en service des équipements sous pression, inspection
+      et requalification : https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000036128644 ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    front: Dans le suivi d’un bloc de plongée, une inspection visuelle et une requalification désignent-elles
+      le même contrôle ?
+    back: 'Non. L’inspection périodique examine l’état de la bouteille ; la requalification est un contrôle
+      distinct prévu par le suivi réglementaire. Le bloc doit rester à jour des contrôles applicables
+      à son régime de suivi : une inspection visuelle ne remplace pas la requalification arrivée à échéance.'
+- id: n2-documents-federation-role-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P079
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'FFESSM — réseau fédéral et licence : https://ffessm.fr/pratiquer/prendre-sa-licence-une-facon-d-etre-un-engagement
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    - 'FFESSM — MFT N2 mai 2026, couverture CTN et cursus p.2–4 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    fact_check: pass
+  fr:
+    front: Que signifie FFESSM, et à quelle échelle cette organisation intervient-elle par rapport à un
+      club de plongée ?
+    back: 'Fédération française d’études et de sports sous-marins : c’est la fédération nationale. Les
+      clubs et structures commerciales agréées organisent les activités au sein du réseau fédéral ; la
+      fédération définit notamment le cursus et les règles fédérales de formation.'
+- id: n2-documents-cmas-role-001
+  type: basic
+  deck: Réglementation::Documents et responsabilité
+  levels:
+  - N2
+  tags:
+  - chapitre::03
+  - documents-environnement
+  - angle::comprehension
+  status: reviewed
+  source_id: P080
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.5–7 (support pédagogique)
+    - 'CMAS — standards de formation, catégories plongeurs et moniteurs : https://www.cmas.org/standards.html
+      ; vérifié le 2026-10-05'
+    - 'Revue : docs/reviews/03-documents-environnement.md'
+    fact_check: pass
+  fr:
+    front: Que signifie CMAS, et quel rôle joue-t-elle dans les formations de plongée ?
+    back: Confédération mondiale des activités subaquatiques. Elle intervient au niveau international
+      et définit des standards de formation pour les plongeurs et les moniteurs, utilisés dans son système
+      de certifications.

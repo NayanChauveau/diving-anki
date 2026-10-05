@@ -99,7 +99,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V02** — Organisation et équipements : vérifier les articles cités, leur version et le champ exact (milieu naturel, circuit ouvert, air, exploration). S1 introduit le GP avec un article définissant surtout la palanquée : ne pas confondre citation et définition du rôle.
 
-- [ ] **V03** — CACI, licence, chasse, signalisation et patrimoine : vérifier textes fédéraux et règles applicables au lieu. Les chiffres de licenciés, structures et gouvernance sont datés et de faible priorité. La reconnaissance CMAS ne donne pas une autorisation universelle de plonger.
+- [x] **V03** — CACI, licence, chasse, signalisation et patrimoine : vérifier textes fédéraux et règles applicables au lieu. Les chiffres de licenciés, structures et gouvernance sont datés et de faible priorité. La reconnaissance CMAS ne donne pas une autorisation universelle de plonger.
 
 - [ ] **V04** — Erreur confirmée dans S3 p.3, exercice à 6 m : le corrigé indique 2,5 bar alors que sa propre formule 1 + 6/10 donne 1,6 bar. kg n’est pas une unité de force ; kgf/cm² et bar ne sont pas strictement identiques. Les calculs doivent annoncer le modèle pédagogique simplifié.
 
@@ -214,20 +214,20 @@ Source : **S1 p.4–5 ; S2 p.1–2**. Contrôle : **V02**. Fichier futur : `card
 
 Source : **S1 p.5–7 ; S2 p.2**. Contrôle : **V03**. Fichier futur : `cards/n2/03-documents-environnement.yaml`.
 
-- [ ] **P059** · QCM · Comparaison — Distinguer brevet, licence et CACI ; décider quel document répond à une demande donnée.
-- [ ] **P061** · QCM · Rappel / application — Validité du CACI et médecin habilité selon le contexte.
-- [ ] **P063** · QCM · Rappel / application — Licence : affiliation et participation aux activités.
-- [ ] **P064** · QCM · Rappel / application — Licence : responsabilité civile.
-- [ ] **P069** · QCM · Rappel / application — Zones interdites et dérogations locales.
-- [ ] **P070** · QCM · Rappel / application — Prélèvement au fond et respect du milieu.
-- [ ] **P071** · QCM · Rappel / application — Objet archéologique : laisser en place.
-- [ ] **P073** · QCM · Comparaison — Chasse sous-marine et scaphandre : distinguer les interdictions.
-- [ ] **P074** · QCM · Rappel / application — Signalisation depuis un bateau.
-- [ ] **P076** · QCM · Rappel / application — Distance de sécurité des navires : règle locale à vérifier.
-- [ ] **P077** · QCM · Rappel / application — Respect des prérogatives malgré une envie de suivre un autre groupe.
-- [ ] **P078** · QCM · Rappel / application — Requalification des blocs : responsabilité.
-- [ ] **P079** · QCM · Rappel / application — Identifier le rôle de la FFESSM et situer club, structure et commissions en explication ; éviter les listes à réciter.
-- [ ] **P080** · Basic · Compréhension — Signification et rôle de la CMAS.
+- [x] **P059** · Comparaison — Distinguer brevet, licence et CACI. Couvert par P022/P023, pas de nouvelle carte.
+- [x] **P061** · QCM · Rappel / application — Validité du CACI et médecin habilité selon le contexte.
+- [x] **P063** · QCM · Rappel / application — Licence : affiliation et participation aux activités.
+- [x] **P064** · QCM · Rappel / application — Licence : responsabilité civile.
+- [x] **P069** · Basic · Rappel / application — Zones interdites et dérogations locales.
+- [x] **P070** · Basic · Rappel / application — Prélèvement au fond et respect du milieu.
+- [x] **P071** · QCM · Rappel / application — Objet archéologique : laisser en place.
+- [x] **P073** · QCM · Comparaison — Chasse sous-marine et scaphandre : distinguer les interdictions.
+- [x] **P074** · QCM · Rappel / application — Signalisation depuis un bateau.
+- [x] **P076** · Basic · Rappel / application — Distance de sécurité des navires : règle locale à vérifier.
+- [x] **P077** · Application — Respect des prérogatives. Couvert par P010/P012, pas de nouvelle carte.
+- [x] **P078** · Basic · Rappel / application — Requalification des blocs : responsabilité.
+- [x] **P079** · Basic · Rappel / application — Identifier le rôle de la FFESSM et situer club, structure et commissions en explication ; éviter les listes à réciter.
+- [x] **P080** · Basic · Compréhension — Signification et rôle de la CMAS.
 
 ### 04-pression — Physique::Pressions
 
@@ -513,7 +513,7 @@ Source : **S1 p.29–30**. Contrôle : **V13**. Fichier futur : `cards/n2/15-gon
 - [ ] **P495** · QCM · Rappel / application — Robinetterie ouverte dans l’eau : risque.
 - [ ] **P496** · QCM · Rappel / application — Décharge brutale à l’air : risque.
 - [ ] **P497** · QCM · Rappel / application — Peinture et corrosion : surveillance.
-- [ ] **P498** · QCM · Comparaison — Inspection visuelle et requalification : distinction.
+- [x] **P498** · QCM · Comparaison — Inspection visuelle et requalification : distinction.
 - [ ] **P500** · QCM · Rappel / application — Périodicités et régime de suivi : vérifier la règle actuelle.
 - [ ] **P502** · QCM · Rappel / application — Transport d’un bloc gonflé : corriger la formulation générale du support.
 - [ ] **P504** · QCM · Scénario — Lire une inscription de bloc fictive : trouver capacité et pression de service parmi les autres marquages.
@@ -653,3 +653,9 @@ Code du sport A322-73 depuis octobre 2025. Détail dans docs/reviews/01-prerogat
 
 20 cartes revues ; P057 absorbé dans P053/P054 pour éviter un doublon. V02 contrôlé dans
 les textes actuels. Voir [la revue du chapitre](reviews/02-organisation.md).
+
+## Avancement du chapitre 03
+
+12 nouvelles cartes revues ; P059 et P077 couverts par les chapitres précédents, P498 couvert
+par P078. V03 vérifié dans le périmètre rédigé ; pas de distance locale chiffrée ni d’interdiction
+universelle de prélèvement. Voir [la revue du chapitre](reviews/03-documents-environnement.md).
