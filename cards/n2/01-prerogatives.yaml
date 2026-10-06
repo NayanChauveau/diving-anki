@@ -1,7 +1,7 @@
 cards:
 - id: n2-prerogatives-n2-aptitudes-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -33,7 +33,7 @@ cards:
       directeur de plongée.
 - id: n2-prerogatives-qualifications-separees-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -65,7 +65,7 @@ cards:
       les compétences nécessaires au brevet N2, selon les règles fédérales de délivrance.
 - id: n2-prerogatives-autonomie-dp-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -99,7 +99,7 @@ cards:
       ; il organise l’activité et autorise la plongée dans le cadre qu’il fixe.
 - id: n2-prerogatives-pa20-effectif-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -131,7 +131,7 @@ cards:
       deux ou trois plongeurs au total.'
 - id: n2-prerogatives-pa20-equipiers-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -163,7 +163,7 @@ cards:
       des aptitudes de plongée encadrée ; PA12 limite l’autonomie à 12 m.
 - id: n2-prerogatives-autonome-trente-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -195,7 +195,7 @@ cards:
       À 30 m, PE40 nécessite un guide. L’accord du DP ne suffit pas à étendre PA20 au-delà de 20 m.
 - id: n2-prerogatives-aptitude-restrictive-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -229,7 +229,7 @@ cards:
       peut encore fixer une limite plus basse.
 - id: n2-prerogatives-age-pe40-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -260,7 +260,7 @@ cards:
       assorti de restrictions spécifiques de plongée.
 - id: n2-prerogatives-age-certification-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -294,7 +294,7 @@ cards:
       applicables aux moins de 16 ans. PA20 seul ne confère pas PE40.
 - id: n2-prerogatives-quinze-ans-n2-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -329,7 +329,7 @@ cards:
       ce seuil.
 - id: n2-prerogatives-mineur-autorisation-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -362,7 +362,7 @@ cards:
       et l’accord du DP.'
 - id: n2-prerogatives-mineur-information-001
   type: basic
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -384,7 +384,7 @@ cards:
       du MFT FFESSM, en plus de l’autorisation éclairée du responsable légal et de la décision du DP.
 - id: n2-prerogatives-pe40-moins-seize-paliers-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -418,7 +418,7 @@ cards:
       apparaissent malgré cette planification, cette restriction n’autorise pas à les ignorer.
 - id: n2-prerogatives-pe40-moins-seize-nombre-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -451,7 +451,7 @@ cards:
       indiqué par l’ordinateur ou les tables utilisés.
 - id: n2-prerogatives-pe40-moins-seize-intervalle-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -483,7 +483,7 @@ cards:
       paramètres respectent les limites applicables.
 - id: n2-prerogatives-pe40-moins-seize-seconde-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -514,7 +514,7 @@ cards:
       au moins trois heures entre les deux plongées et rester sans palier obligatoire.'
 - id: n2-prerogatives-documents-formation-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -550,7 +550,7 @@ cards:
       et d’âge s’ajoutent à ces exigences.'
 - id: n2-prerogatives-prerequis-niveau-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -583,7 +583,7 @@ cards:
       pas exigé.
 - id: n2-prerogatives-experience-naturel-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -616,7 +616,7 @@ cards:
       prévues.
 - id: n2-prerogatives-cmas-etoiles-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -648,7 +648,7 @@ cards:
       ne remplace pas les règles et les conditions de pratique du lieu d’accueil.
 - id: n2-prerogatives-etranger-regles-001
   type: mcq
-  deck: Réglementation::Prérogatives
+  deck: Réglementation
   levels:
   - N2
   tags:

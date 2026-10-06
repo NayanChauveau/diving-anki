@@ -1,7 +1,7 @@
 cards:
 - id: n2-organisation-palanquee-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -34,7 +34,7 @@ cards:
       le groupe respecte alors les contraintes les plus restrictives.
 - id: n2-organisation-melanges-contraintes-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -67,7 +67,7 @@ cards:
       du groupe.
 - id: n2-organisation-dp-parametres-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -99,7 +99,7 @@ cards:
       autonomes organisent le déroulement de leur plongée à l’intérieur de ce cadre.
 - id: n2-organisation-dp-secours-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -132,7 +132,7 @@ cards:
       à sa propre situation et à ses équipiers.
 - id: n2-organisation-fiche-securite-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -163,7 +163,7 @@ cards:
       la conserve un an.
 - id: n2-organisation-guide-conduite-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -196,7 +196,7 @@ cards:
       surveiller son matériel et de signaler une difficulté.
 - id: n2-organisation-autonomie-collective-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -227,7 +227,7 @@ cards:
       Leur formation comprend notamment l’intervention auprès d’un équipier en difficulté.
 - id: n2-organisation-plan-secours-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -260,7 +260,7 @@ cards:
       leurs coordonnées et les procédures d’urgence en surface.
 - id: n2-organisation-vhf-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -292,7 +292,7 @@ cards:
       La présence d’un téléphone avec du réseau ne remplace pas cette exigence.
 - id: n2-organisation-eau-couverture-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -324,7 +324,7 @@ cards:
       de mise à l’eau ou d’immersion, parmi le matériel de secours.
 - id: n2-organisation-oxygene-capacite-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -357,7 +357,7 @@ cards:
       accessoires doivent être disponibles sur le lieu de mise à l’eau ou d’immersion.
 - id: n2-organisation-fiche-evacuation-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -390,7 +390,7 @@ cards:
       à la prise en charge de la victime. Un modèle réglementaire est prévu pour cette transmission.
 - id: n2-organisation-bloc-secours-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -423,7 +423,7 @@ cards:
       de secours ; le stock d’oxygène médical a une autre fonction.
 - id: n2-organisation-rappel-bateau-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -455,7 +455,7 @@ cards:
       d’une embarcation. Le signal et le dispositif utilisés doivent être connus des plongeurs.
 - id: n2-organisation-tables-assistance-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -490,7 +490,7 @@ cards:
       relève d’une obligation distincte.'
 - id: n2-organisation-gilet-surface-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -522,7 +522,7 @@ cards:
       pour regagner la surface et s’y maintenir. Le gilet de stabilisation en est l’exemple habituel.
 - id: n2-organisation-gaz-equipier-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -555,7 +555,7 @@ cards:
       complets constituent l’exigence propre à l’encadrant, pas le minimum imposé à chaque plongeur N2.
 - id: n2-organisation-parametres-personnels-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -590,7 +590,7 @@ cards:
       sa pression. L’ordinateur du guide ou de l’équipier ne remplace pas le contrôle personnel requis.
 - id: n2-organisation-encadrant-detendeurs-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:
@@ -623,7 +623,7 @@ cards:
       étage ne forment qu’un seul ensemble avec un seul premier étage.
 - id: n2-organisation-parachute-palanquee-001
   type: mcq
-  deck: Réglementation::Organisation
+  deck: Réglementation
   levels:
   - N2
   tags:

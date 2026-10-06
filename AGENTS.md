@@ -74,6 +74,11 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 
 - Les YAML de `cards/` sont la source de vérité, un fichier par chapitre ; `fr` obligatoire,
   `levels` explicite et aucun héritage automatique entre niveaux.
+- Sous-decks N2 : cinq catégories directement sous `Plongée::N2` — Réglementation, Physique,
+  Prévention des accidents, Désaturation, Matériel et préparation. Ne pas créer de sous-deck
+  par chapitre ; conserver les fichiers et tags thématiques. Pour une réorganisation, déplacer
+  les cartes existantes dans Anki en conservant leurs IDs, historique et échéances, puis vérifier
+  ces données avant/après. Un import de package ne garantit pas à lui seul leur déplacement.
 - Cartes nouvelles en `draft`, puis `reviewed` après revue factuelle et pédagogique.
 - IDs publiés permanents ; ne pas renommer ni réutiliser un ID pour un autre objectif.
   Les IDs Anki de `src/diving_anki/ids.py` restent stables.

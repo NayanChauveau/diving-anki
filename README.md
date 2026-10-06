@@ -42,5 +42,9 @@ Les IDs des cartes sont uniques dans tout le projet. Les GUIDs et IDs des modèl
 sont stables et distincts du projet WSET. Une carte partagée possède un GUID par niveau,
 pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux.
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
+N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
+**Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
+Les 53 cartes actuelles sont regroupées dans Réglementation ; les autres catégories
+apparaîtront avec leurs premières cartes. Les fichiers et tags conservent le détail des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).

@@ -14,24 +14,24 @@ La formulation finale doit rester courte ; si la cible devient une liste, revoir
 
 | Section | Avant | Conservés | Fusionnés | Écartés | Tâches | Ajoutés |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 01-prerogatives — Réglementation::Prérogatives | 27 | 20 | 7 | 0 | 0 | 0 |
-| 02-organisation — Réglementation::Organisation | 31 | 20 | 11 | 0 | 0 | 0 |
-| 03-documents-environnement — Réglementation::Documents et responsabilité | 36 | 14 | 13 | 9 | 0 | 0 |
-| 04-pression — Physique::Pressions | 38 | 18 | 20 | 0 | 0 | 0 |
-| 05-flottabilite — Physique::Flottabilité | 40 | 23 | 17 | 0 | 0 | 0 |
-| 06-gaz-autonomie — Physique::Gaz et autonomie | 34 | 21 | 13 | 0 | 0 | 7 |
-| 07-barotraumatismes — Sécurité::Barotraumatismes | 53 | 21 | 31 | 0 | 1 | 0 |
-| 08-essoufflement — Sécurité::Essoufflement | 21 | 13 | 8 | 0 | 0 | 0 |
-| 09-froid — Sécurité::Froid | 18 | 11 | 7 | 0 | 0 | 0 |
-| 10-narcose — Sécurité::Narcose et pressions partielles | 28 | 14 | 14 | 0 | 0 | 0 |
-| 11-add — Sécurité::Désaturation et ADD | 54 | 34 | 20 | 0 | 0 | 0 |
-| 12-tables — Désaturation::Tables MN90 | 34 | 18 | 14 | 2 | 0 | 0 |
-| 13-ordinateurs — Désaturation::Ordinateurs | 39 | 18 | 20 | 0 | 1 | 0 |
-| 14-remontees-anormales — Désaturation::Remontées anormales | 20 | 10 | 10 | 0 | 0 | 0 |
-| 15-gonflage-blocs — Matériel::Gonflage et blocs | 33 | 18 | 15 | 0 | 0 | 0 |
-| 16-detendeurs — Matériel::Détendeurs | 40 | 19 | 20 | 0 | 1 | 0 |
-| 17-competences-transversales — Autonomie::Préparation et palanquée | 26 | 16 | 10 | 0 | 0 | 0 |
-| 18-lecture-pannes — Matériel::Pannes et lecture de supports | 20 | 6 | 14 | 0 | 0 | 0 |
+| 01-prerogatives — Réglementation | 27 | 20 | 7 | 0 | 0 | 0 |
+| 02-organisation — Réglementation | 31 | 20 | 11 | 0 | 0 | 0 |
+| 03-documents-environnement — Réglementation | 36 | 14 | 13 | 9 | 0 | 0 |
+| 04-pression — Physique | 38 | 18 | 20 | 0 | 0 | 0 |
+| 05-flottabilite — Physique | 40 | 23 | 17 | 0 | 0 | 0 |
+| 06-gaz-autonomie — Physique | 34 | 21 | 13 | 0 | 0 | 7 |
+| 07-barotraumatismes — Prévention des accidents | 53 | 21 | 31 | 0 | 1 | 0 |
+| 08-essoufflement — Prévention des accidents | 21 | 13 | 8 | 0 | 0 | 0 |
+| 09-froid — Prévention des accidents | 18 | 11 | 7 | 0 | 0 | 0 |
+| 10-narcose — Prévention des accidents | 28 | 14 | 14 | 0 | 0 | 0 |
+| 11-add — Désaturation | 54 | 34 | 20 | 0 | 0 | 0 |
+| 12-tables — Désaturation | 34 | 18 | 14 | 2 | 0 | 0 |
+| 13-ordinateurs — Désaturation | 39 | 18 | 20 | 0 | 1 | 0 |
+| 14-remontees-anormales — Désaturation | 20 | 10 | 10 | 0 | 0 | 0 |
+| 15-gonflage-blocs — Matériel et préparation | 33 | 18 | 15 | 0 | 0 | 0 |
+| 16-detendeurs — Matériel et préparation | 40 | 19 | 20 | 0 | 1 | 0 |
+| 17-competences-transversales — Matériel et préparation | 26 | 16 | 10 | 0 | 0 | 0 |
+| 18-lecture-pannes — Matériel et préparation | 20 | 6 | 14 | 0 | 0 | 0 |
 | Reprises complémentaires à répartir dans les fichiers existants | 37 | 4 | 33 | 0 | 0 | 0 |
 
 ## Objectifs conservés
@@ -41,75 +41,75 @@ Les références des objectifs absorbés ci-dessous doivent compléter celles de
 Les calculs répétant seulement des valeurs ont été regroupés ; les inversions, erreurs, mécanismes
 et décisions contextualisées conservés devront chacun justifier leur apport lors de la revue finale.
 
-### 01-prerogatives — Réglementation::Prérogatives
+### 01-prerogatives — Réglementation
 
 P001, P004, P006, P007, P008, P010, P012, P013, P014, P016, P017, P018, P019, P020, P021, P022, P023, P024, P026, P027
 
-### 02-organisation — Réglementation::Organisation
+### 02-organisation — Réglementation
 
 P028, P030, P032, P033, P035, P038, P039, P041, P043, P044, P045, P047, P048, P049, P050, P052, P053, P054, P055, P056
 
-### 03-documents-environnement — Réglementation::Documents et responsabilité
+### 03-documents-environnement — Réglementation
 
 P059, P061, P063, P064, P069, P070, P071, P073, P074, P076, P077, P078, P079, P080
 
-### 04-pression — Physique::Pressions
+### 04-pression — Physique
 
 P096, P097, P101, P102, P103, P105, P106, P107, P110, P111, P114, P118, P123, P126, P127, P128, P129, P132
 
-### 05-flottabilite — Physique::Flottabilité
+### 05-flottabilite — Physique
 
 P133, P134, P136, P138, P142, P145, P146, P147, P149, P151, P152, P154, P155, P157, P158, P162, P163, P166, P168, P169, P170, P171, P172
 
-### 06-gaz-autonomie — Physique::Gaz et autonomie
+### 06-gaz-autonomie — Physique
 
 P175, P176, P179, P182, P183, P184, P185, P186, P187, P188, P189, P190, P193, P195, P197, P200, P201, P202, P203, P205, P206
 
-### 07-barotraumatismes — Sécurité::Barotraumatismes
+### 07-barotraumatismes — Prévention des accidents
 
 P207, P211, P215, P218, P220, P221, P224, P226, P230, P231, P233, P236, P237, P239, P240, P243, P245, P246, P249, P250, P252
 
-### 08-essoufflement — Sécurité::Essoufflement
+### 08-essoufflement — Prévention des accidents
 
 P261, P262, P263, P265, P266, P267, P268, P270, P272, P274, P277, P279, P280
 
-### 09-froid — Sécurité::Froid
+### 09-froid — Prévention des accidents
 
 P281, P283, P286, P288, P289, P291, P292, P293, P295, P296, P298
 
-### 10-narcose — Sécurité::Narcose et pressions partielles
+### 10-narcose — Prévention des accidents
 
 P299, P302, P304, P306, P307, P308, P309, P313, P316, P319, P321, P324, P325, P326
 
-### 11-add — Sécurité::Désaturation et ADD
+### 11-add — Désaturation
 
 P328, P330, P333, P334, P335, P336, P337, P338, P341, P342, P343, P344, P346, P350, P351, P354, P355, P358, P359, P360, P361, P362, P365, P366, P367, P368, P369, P370, P371, P374, P375, P376, P377, P380
 
-### 12-tables — Désaturation::Tables MN90
+### 12-tables — Désaturation
 
 P381, P384, P386, P388, P390, P394, P395, P396, P398, P399, P405, P406, P407, P408, P411, P412, P413, P414
 
-### 13-ordinateurs — Désaturation::Ordinateurs
+### 13-ordinateurs — Désaturation
 
 P415, P418, P422, P423, P424, P427, P430, P432, P433, P437, P438, P439, P440, P441, P443, P444, P445, P446
 
-### 14-remontees-anormales — Désaturation::Remontées anormales
+### 14-remontees-anormales — Désaturation
 
 P454, P456, P458, P461, P463, P464, P465, P466, P468, P472
 
-### 15-gonflage-blocs — Matériel::Gonflage et blocs
+### 15-gonflage-blocs — Matériel et préparation
 
 P474, P477, P479, P480, P482, P483, P484, P488, P494, P495, P496, P497, P498, P500, P502, P504, P505, P506
 
-### 16-detendeurs — Matériel::Détendeurs
+### 16-detendeurs — Matériel et préparation
 
 P508, P512, P514, P515, P519, P521, P523, P524, P525, P526, P532, P537, P539, P540, P541, P542, P543, P544, P545
 
-### 17-competences-transversales — Autonomie::Préparation et palanquée
+### 17-competences-transversales — Matériel et préparation
 
 P547, P549, P550, P552, P555, P557, P560, P561, P562, P563, P564, P565, P567, P569, P570, P572
 
-### 18-lecture-pannes — Matériel::Pannes et lecture de supports
+### 18-lecture-pannes — Matériel et préparation
 
 P573, P577, P578, P580, P581, P585
 

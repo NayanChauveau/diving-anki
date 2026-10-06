@@ -132,24 +132,24 @@ français ; le builder ajoutera `Plongée::N2::` devant les chemins indiqués.
 
 | Chapitre | Sous-deck | Objectifs retenus |
 | --- | --- | ---: |
-| `01-prerogatives.yaml` | Réglementation::Prérogatives | 20 |
-| `02-organisation.yaml` | Réglementation::Organisation | 20 |
-| `03-documents-environnement.yaml` | Réglementation::Documents et responsabilité | 14 |
-| `04-pression.yaml` | Physique::Pressions | 18 |
-| `05-flottabilite.yaml` | Physique::Flottabilité | 23 |
-| `06-gaz-autonomie.yaml` | Physique::Gaz et autonomie | 28 |
-| `07-barotraumatismes.yaml` | Sécurité::Barotraumatismes | 21 |
-| `08-essoufflement.yaml` | Sécurité::Essoufflement | 13 |
-| `09-froid.yaml` | Sécurité::Froid | 11 |
-| `10-narcose.yaml` | Sécurité::Narcose et pressions partielles | 14 |
-| `11-add.yaml` | Sécurité::Désaturation et ADD | 34 |
-| `12-tables.yaml` | Désaturation::Tables MN90 | 18 |
-| `13-ordinateurs.yaml` | Désaturation::Ordinateurs | 18 |
-| `14-remontees-anormales.yaml` | Désaturation::Remontées anormales | 10 |
-| `15-gonflage-blocs.yaml` | Matériel::Gonflage et blocs | 18 |
-| `16-detendeurs.yaml` | Matériel::Détendeurs | 19 |
-| `17-competences-transversales.yaml` | Autonomie::Préparation et palanquée | 16 |
-| `18-lecture-pannes.yaml` | Matériel::Pannes et lecture de supports | 6 |
+| `01-prerogatives.yaml` | Réglementation | 20 |
+| `02-organisation.yaml` | Réglementation | 20 |
+| `03-documents-environnement.yaml` | Réglementation | 14 |
+| `04-pression.yaml` | Physique | 18 |
+| `05-flottabilite.yaml` | Physique | 23 |
+| `06-gaz-autonomie.yaml` | Physique | 28 |
+| `07-barotraumatismes.yaml` | Prévention des accidents | 21 |
+| `08-essoufflement.yaml` | Prévention des accidents | 13 |
+| `09-froid.yaml` | Prévention des accidents | 11 |
+| `10-narcose.yaml` | Prévention des accidents | 14 |
+| `11-add.yaml` | Désaturation | 34 |
+| `12-tables.yaml` | Désaturation | 18 |
+| `13-ordinateurs.yaml` | Désaturation | 18 |
+| `14-remontees-anormales.yaml` | Désaturation | 10 |
+| `15-gonflage-blocs.yaml` | Matériel et préparation | 18 |
+| `16-detendeurs.yaml` | Matériel et préparation | 19 |
+| `17-competences-transversales.yaml` | Matériel et préparation | 16 |
+| `18-lecture-pannes.yaml` | Matériel et préparation | 6 |
 | Reprises complémentaires, réparties dans les chapitres existants | Plusieurs | 4 |
 | **Total objectifs retenus** | | **325** |
 
@@ -160,7 +160,7 @@ les références et vérifications annoncées valent pour toutes les cartes. En 
 intégrer aussi les références et contrôles de l’objectif absorbé indiqués dans l’audit ; affiner ensuite
 `review.sources` avec le paragraphe ou la figure précis pendant la rédaction.
 
-### 01-prerogatives — Réglementation::Prérogatives
+### 01-prerogatives — Réglementation
 
 Source : **S1 p.3–4 ; S2 p.1–2**. Contrôle : **V01**. Fichier futur : `cards/n2/01-prerogatives.yaml`.
 
@@ -185,7 +185,7 @@ Source : **S1 p.3–4 ; S2 p.1–2**. Contrôle : **V01**. Fichier futur : `card
 - [x] **P026** · QCM · Rappel / application — Double certification FFESSM et CMAS deux étoiles.
 - [x] **P027** · QCM · Rappel / application — Reconnaissance internationale et règles locales : éviter la promesse de droit universel.
 
-### 02-organisation — Réglementation::Organisation
+### 02-organisation — Réglementation
 
 Source : **S1 p.4–5 ; S2 p.1–2**. Contrôle : **V02**. Fichier futur : `cards/n2/02-organisation.yaml`.
 
@@ -210,7 +210,7 @@ Source : **S1 p.4–5 ; S2 p.1–2**. Contrôle : **V02**. Fichier futur : `card
 - [x] **P055** · QCM · Rappel / application — Équipement spécifique de l’encadrant : deux sorties et deux détendeurs.
 - [x] **P056** · QCM · Rappel / application — Parachute : équipement de la palanquée.
 
-### 03-documents-environnement — Réglementation::Documents et responsabilité
+### 03-documents-environnement — Réglementation
 
 Source : **S1 p.5–7 ; S2 p.2**. Contrôle : **V03**. Fichier futur : `cards/n2/03-documents-environnement.yaml`.
 
@@ -229,7 +229,7 @@ Source : **S1 p.5–7 ; S2 p.2**. Contrôle : **V03**. Fichier futur : `cards/n2
 - [x] **P079** · Basic · Rappel / application — Identifier le rôle de la FFESSM et situer club, structure et commissions en explication ; éviter les listes à réciter.
 - [x] **P080** · Basic · Compréhension — Signification et rôle de la CMAS.
 
-### 04-pression — Physique::Pressions
+### 04-pression — Physique
 
 Source : **S1 p.9–10 ; S3 p.2–3 (imprimées 4–5)**. Contrôle : **V04**. Fichier futur : `cards/n2/04-pression.yaml`.
 
@@ -252,7 +252,7 @@ Source : **S1 p.9–10 ; S3 p.2–3 (imprimées 4–5)**. Contrôle : **V04**. F
 - [ ] **P129** · QCM · Comparaison — Comparer les rapports de pression 0–10 m et 10–20 m.
 - [ ] **P132** · QCM · Rappel / application — Reconnaître hPa, mmHg et PSI sans apprendre les conversions.
 
-### 05-flottabilite — Physique::Flottabilité
+### 05-flottabilite — Physique
 
 Source : **S1 p.8–9 ; S3 p.4–6 (imprimées 6–8)**. Contrôle : **V05**. Fichier futur : `cards/n2/05-flottabilite.yaml`.
 
@@ -280,7 +280,7 @@ Source : **S1 p.8–9 ; S3 p.4–6 (imprimées 6–8)**. Contrôle : **V05**. Fi
 - [ ] **P171** · QCM · Rappel / application — Sous-lestage : difficulté en fin de plongée.
 - [ ] **P172** · QCM · Scénario — Scénario de stabilisation au palier avec un bloc allégé.
 
-### 06-gaz-autonomie — Physique::Gaz et autonomie
+### 06-gaz-autonomie — Physique
 
 Source : **S1 p.10–12**. Contrôle : **V06**. Fichier futur : `cards/n2/06-gaz-autonomie.yaml`.
 
@@ -318,7 +318,7 @@ Toute phase omise limite le résultat au modèle annoncé ; pas d’autonomie op
 - [ ] **P635** · Basic · Calcul / équipiers · Complément — Calculer le besoin théorique de deux équipiers respirant sur le même stock durant une phase fictive ; débits distincts donnés, puis comparer au stock disponible.
 - [ ] **P636** · Basic · Erreur / marge · Complément — Recalculer un besoin avec un débit augmenté fourni dans l’énoncé ; expliquer pourquoi une autonomie calculée au repos ne suffit pas pour une situation d’effort.
 
-### 07-barotraumatismes — Sécurité::Barotraumatismes
+### 07-barotraumatismes — Prévention des accidents
 
 Source : **S1 p.12–16**. Contrôle : **V07**. Fichier futur : `cards/n2/07-barotraumatismes.yaml`.
 
@@ -344,7 +344,7 @@ Source : **S1 p.12–16**. Contrôle : **V07**. Fichier futur : `cards/n2/07-bar
 - [ ] **P250** · QCM · Rappel / application — Surpression : signes neurologiques.
 - [ ] **P252** · QCM · Rappel / application — Suspicion de surpression : alerte et oxygène selon protocole.
 
-### 08-essoufflement — Sécurité::Essoufflement
+### 08-essoufflement — Prévention des accidents
 
 Source : **S1 p.17**. Contrôle : **V07**. Fichier futur : `cards/n2/08-essoufflement.yaml`.
 
@@ -362,7 +362,7 @@ Source : **S1 p.17**. Contrôle : **V07**. Fichier futur : `cards/n2/08-essouffl
 - [ ] **P279** · QCM · Scénario — Scénario : réduire profondeur sans ignorer les autres contraintes.
 - [ ] **P280** · QCM · Rappel / application — Prise en charge en surface : protocole à vérifier.
 
-### 09-froid — Sécurité::Froid
+### 09-froid — Prévention des accidents
 
 Source : **S1 p.17–18**. Contrôle : **V07**. Fichier futur : `cards/n2/09-froid.yaml`.
 
@@ -378,7 +378,7 @@ Source : **S1 p.17–18**. Contrôle : **V07**. Fichier futur : `cards/n2/09-fro
 - [ ] **P296** · QCM · Rappel / application — Boisson : conditions de conscience et déglutition à vérifier.
 - [ ] **P298** · QCM · Scénario — Scénario : doigts maladroits au moment du parachute.
 
-### 10-narcose — Sécurité::Narcose et pressions partielles
+### 10-narcose — Prévention des accidents
 
 Source : **S1 p.18–19**. Contrôle : **V08**. Fichier futur : `cards/n2/10-narcose.yaml`.
 
@@ -397,7 +397,7 @@ Source : **S1 p.18–19**. Contrôle : **V08**. Fichier futur : `cards/n2/10-nar
 - [ ] **P325** · QCM · Scénario — Scénario : équipier inhabituellement lent à répondre.
 - [ ] **P326** · QCM · Comparaison — Comparer narcose pendant immersion et symptômes après sortie.
 
-### 11-add — Sécurité::Désaturation et ADD
+### 11-add — Désaturation
 
 Source : **S1 p.20–23**. Contrôle : **V09**. Fichier futur : `cards/n2/11-add.yaml`.
 
@@ -436,7 +436,7 @@ Source : **S1 p.20–23**. Contrôle : **V09**. Fichier futur : `cards/n2/11-add
 - [ ] **P377** · QCM · Scénario — Scénario : douleur articulaire après retour au bateau.
 - [ ] **P380** · QCM · Scénario — Scénario : deux accidents possibles, même priorité d’alerte.
 
-### 12-tables — Désaturation::Tables MN90
+### 12-tables — Désaturation
 
 Source : **S1 p.23–26**. Contrôle : **V10**. Fichier futur : `cards/n2/12-tables.yaml`.
 
@@ -459,7 +459,7 @@ Source : **S1 p.23–26**. Contrôle : **V10**. Fichier futur : `cards/n2/12-tab
 - [ ] **P413** · Basic · Complément — Exercice de calcul DTR : données complètes nécessaires.
 - [ ] **P414** · Basic · Complément — Exercice de successive : obtenir les tables complémentaires.
 
-### 13-ordinateurs — Désaturation::Ordinateurs
+### 13-ordinateurs — Désaturation
 
 Source : **S1 p.27–29 ; S2 p.1–2**. Contrôle : **V11**. Fichier futur : `cards/n2/13-ordinateurs.yaml`.
 
@@ -482,7 +482,7 @@ Source : **S1 p.27–29 ; S2 p.1–2**. Contrôle : **V11**. Fichier futur : `ca
 - [ ] **P445** · QCM · Rappel / application — Choix : lisibilité et acuité visuelle.
 - [ ] **P446** · QCM · Rappel / application — Choix : air ou nitrox selon pratique future.
 
-### 14-remontees-anormales — Désaturation::Remontées anormales
+### 14-remontees-anormales — Désaturation
 
 Source : **S1 p.26–27**. Contrôle : **V12**. Fichier futur : `cards/n2/14-remontees-anormales.yaml`.
 
@@ -497,7 +497,7 @@ Source : **S1 p.26–27**. Contrôle : **V12**. Fichier futur : `cards/n2/14-rem
 - [ ] **P468** · QCM · Rappel / application — Expliquer le suivi après incident sans symptômes selon la référence validée ; aucune garantie d’absence d’accident.
 - [ ] **P472** · QCM · Scénario — Scénario : paliers non réalisés et symptômes.
 
-### 15-gonflage-blocs — Matériel::Gonflage et blocs
+### 15-gonflage-blocs — Matériel et préparation
 
 Source : **S1 p.29–30**. Contrôle : **V13**. Fichier futur : `cards/n2/15-gonflage-blocs.yaml`.
 
@@ -520,7 +520,7 @@ Source : **S1 p.29–30**. Contrôle : **V13**. Fichier futur : `cards/n2/15-gon
 - [ ] **P505** · QCM · Scénario — Scénario : bloc à requalification dépassée.
 - [ ] **P506** · QCM · Scénario — Scénario : changement de bloc et réévaluation du lestage.
 
-### 16-detendeurs — Matériel::Détendeurs
+### 16-detendeurs — Matériel et préparation
 
 Source : **S1 p.30–34**. Contrôle : **V14**. Fichier futur : `cards/n2/16-detendeurs.yaml`.
 
@@ -544,7 +544,7 @@ Source : **S1 p.30–34**. Contrôle : **V14**. Fichier futur : `cards/n2/16-det
 - [ ] **P544** · QCM · Rappel / application — Tableau de pannes : séparer observation, cause possible et action autorisée.
 - [ ] **P545** · QCM · Scénario — Scénario : confusion entre MP et pression délivrée à la bouche.
 
-### 17-competences-transversales — Autonomie::Préparation et palanquée
+### 17-competences-transversales — Matériel et préparation
 
 Source : **S2 p.1–2 ; S1 p.3–5, 11–12, 23, 28**. Contrôle : **V15**. Fichier futur : `cards/n2/17-competences-transversales.yaml`.
 
@@ -565,7 +565,7 @@ Source : **S2 p.1–2 ; S1 p.3–5, 11–12, 23, 28**. Contrôle : **V15**. Fich
 - [ ] **P570** · QCM · Scénario — Scénario : guide présent ne dispense pas de surveiller son ordinateur.
 - [ ] **P572** · QCM · Scénario — Scénario : choix collectif de la contrainte la plus protectrice.
 
-### 18-lecture-pannes — Matériel::Pannes et lecture de supports
+### 18-lecture-pannes — Matériel et préparation
 
 Source : **S1 p.24–25, 31–34 (figures et tableau)**. Contrôle : **V14**. Fichier futur : `cards/n2/18-lecture-pannes.yaml`.
 
