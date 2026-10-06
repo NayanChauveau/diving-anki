@@ -7,7 +7,7 @@ import jsonschema
 import pytest
 from pydantic import ValidationError
 
-from diving_anki.build import build_level, prepare
+from diving_anki.build import build_collection, prepare
 from diving_anki.cli import main
 from diving_anki.ids import MCQ_MODEL_ID, note_guid
 from diving_anki.json_schema import card_file_json_schema, schema_matches
@@ -47,7 +47,7 @@ def test_selection_and_drafts():
     assert len(prepare([shared, draft], "N2", include_drafts=True).notes) == 2
     assert len(prepare([shared, draft], "N3").notes) == 1
     assert not prepare([shared, draft], "N4").notes
-    assert prepare([shared], "N2").notes[0].guid != prepare([shared], "N3").notes[0].guid
+    assert prepare([shared], "N2").notes[0].guid == prepare([shared], "N3").notes[0].guid
 
 
 @pytest.mark.parametrize(
@@ -72,10 +72,10 @@ def test_duplicates():
 
 
 def test_ids():
-    assert note_guid("test-basic-001", "N2") == note_guid("test-basic-001", "N2")
-    assert note_guid("test-basic-001", "N2") != genanki.guid_for(
-        "wset3-vin", "test-basic-001", "fr"
+    assert note_guid("test-basic-001") == genanki.guid_for(
+        "diving-theory", "test-basic-001", "N2", "fr"
     )
+    assert note_guid("test-basic-001") != genanki.guid_for("wset3-vin", "test-basic-001", "fr")
     assert MCQ_MODEL_ID != 1760000101
 
 
@@ -100,7 +100,7 @@ def test_recursive_loading(tmp_path):
 
 def test_real_package(tmp_path):
     cards = [card(kind, status="reviewed") for kind in ("basic", "mcq", "cloze")]
-    package, result = build_level(cards, "N2", templates=ROOT / "templates", out_dir=tmp_path)
+    package, result = build_collection(cards, templates=ROOT / "templates", out_dir=tmp_path)
     assert len(result.notes) == 3
     with zipfile.ZipFile(package) as archive:
         archive.extract("collection.anki2", tmp_path)
@@ -111,10 +111,42 @@ def test_real_package(tmp_path):
         assert any("Explication" in row[0] for row in fields)
 
 
-def test_cli_all(tmp_path):
-    assert main(["build", "--root", str(ROOT), "--level", "all", "--out", str(tmp_path)]) == 0
+def test_cli_single_package(tmp_path):
+    for level in ("n2", "n3", "n4"):
+        (tmp_path / f"diving-{level}-fr.apkg").write_bytes(b"obsolete generated export")
+    unrelated = tmp_path / "personal.apkg"
+    unrelated.write_bytes(b"unrelated package")
+    assert main(["build", "--root", str(ROOT), "--out", str(tmp_path)]) == 0
     assert sorted(p.name for p in tmp_path.glob("*.apkg")) == [
-        "diving-n2-fr.apkg",
-        "diving-n3-fr.apkg",
-        "diving-n4-fr.apkg",
+        "diving-fr.apkg",
+        "personal.apkg",
     ]
+    assert unrelated.read_bytes() == b"unrelated package"
+
+
+def test_shared_note_identity_and_membership():
+    shared = card(levels=["N2", "N3", "N4"], status="reviewed")
+    notes = [prepare([shared], level).notes[0] for level in ("N2", "N3", "N4", "combined")]
+    assert len({note.guid for note in notes}) == 1
+    assert {note.deck for note in notes} == {"Plongée::Thème"}
+    for note in notes:
+        assert {"level::N2", "level::N3", "level::N4"}.issubset(note.tags)
+    n4_only = card(levels=["N4"], status="reviewed")
+    assert prepare([n4_only], "N4").notes[0].guid == notes[0].guid
+
+
+def test_combined_selects_each_note_once():
+    shared = card(levels=["N2", "N3", "N4"], status="reviewed")
+    n4_only = card("mcq", levels=["N4"], status="reviewed")
+    draft = card("cloze", levels=["N3"])
+    result = prepare([shared, n4_only, draft], "combined")
+    assert len(result.notes) == 2
+    assert result.skipped_drafts == 1
+    assert len({note.guid for note in result.notes}) == 2
+    assert not prepare([n4_only], "N2").notes
+
+
+def test_published_n2_guids_are_preserved():
+    cards = load_cards(ROOT / "cards")
+    for note in prepare(cards, "N2").notes:
+        assert note.guid == genanki.guid_for("diving-theory", note.card.id, "N2", "fr")

@@ -29,6 +29,7 @@ from diving_anki.schema import BasicCard, Card, ClozeCard, McqCard, Status
 Lang = Literal["fr"]
 BuildLang = Literal["fr"]
 Level = Literal["N2", "N3", "N4"]
+BuildSelection = Level | Literal["combined"]
 
 MONOLINGUAL_MODELS = {"mcq": "mcq", "basic": "basic", "cloze": "cloze"}
 
@@ -104,20 +105,21 @@ def fill_fields(note: PreparedNote, *, ui_fr: dict[str, str]) -> None:
 
 def prepare(
     cards: Iterable[Card],
-    level: Level,
+    level: BuildSelection,
     *,
     include_drafts: bool = False,
 ) -> BuildResult:
     selected, skipped = select_cards(
-        [card for card in cards if level in card.levels], include_drafts=include_drafts
+        [card for card in cards if level == "combined" or level in card.levels],
+        include_drafts=include_drafts,
     )
     result = BuildResult(skipped_drafts=skipped)
     for card in selected:
         result.notes.append(
             PreparedNote(
-                guid=note_guid(card.id, level),
-                deck=f"Plongée::{level}::{card.deck}",
-                tags=card_tags(card, ["lang::fr", f"level::{level}"]),
+                guid=note_guid(card.id),
+                deck=f"Plongée::{card.deck}",
+                tags=card_tags(card, ["lang::fr", *[f"level::{item}" for item in card.levels]]),
                 model=MONOLINGUAL_MODELS[card.type],
                 card=card,
                 lang="fr",
@@ -216,15 +218,17 @@ def write_package(
     return output
 
 
-def build_level(
+def build_collection(
     cards: list[Card],
-    level: Level,
     *,
     templates: Path,
     out_dir: Path,
     include_drafts: bool = False,
 ) -> tuple[Path, BuildResult]:
-    result = prepare(cards, level, include_drafts=include_drafts)
-    path = out_dir / f"diving-{level.lower()}-fr.apkg"
+    result = prepare(cards, "combined", include_drafts=include_drafts)
+    path = out_dir / "diving-fr.apkg"
     write_package(result, templates=templates, output=path, mode="fr")
+    # Retire only this project's obsolete generated exports after a successful build.
+    for legacy_level in ("n2", "n3", "n4"):
+        (out_dir / f"diving-{legacy_level}-fr.apkg").unlink(missing_ok=True)
     return path, result

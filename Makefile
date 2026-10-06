@@ -1,7 +1,5 @@
 .PHONY: check lint format typecheck validate schema test build build-all push
 
-ANKI_LEVEL ?= N2
-
 check:
 	uv run diving-anki check
 
@@ -26,11 +24,10 @@ test:
 	uv run pytest
 
 build:
-	uv run diving-anki build --level $(ANKI_LEVEL) --out dist
+	uv run diving-anki build --out dist
 
 push:
-	uv run diving-anki push --level $(ANKI_LEVEL) --out dist
+	uv run diving-anki push --out dist
 
 
-build-all:
-	uv run diving-anki build --level all --out dist
+build-all: build

@@ -13,9 +13,13 @@ ROOT_DECK_ID = 1860001000
 ROOT_DECK_IDS = {ROOT_DECK_NAME: ROOT_DECK_ID}
 
 
-def note_guid(card_id: str, level: str) -> str:
-    """Stable Anki GUID. Each level has its own note so separate imports never move shared cards."""
-    return genanki.guid_for(NAMESPACE, card_id, level, "fr")
+def note_guid(card_id: str) -> str:
+    """One identity across levels, preserving the GUIDs of the published N2 notes.
+
+    N2 is a fixed legacy salt, not the current membership of the card. Keep it even
+    for new N3/N4 cards and when a card's levels change.
+    """
+    return genanki.guid_for(NAMESPACE, card_id, "N2", "fr")
 
 
 def deck_id_for(deck_path_name: str) -> int:

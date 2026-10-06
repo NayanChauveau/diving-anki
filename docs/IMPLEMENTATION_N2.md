@@ -128,7 +128,8 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 ## Répartition et fichiers proposés
 
 Les fichiers proposés restent dans `cards/n2/`, un fichier par chapitre. Les sous-decks sont
-français ; le builder ajoutera `Plongée::N2::` devant les chemins indiqués.
+français ; le builder ajoute maintenant `Plongée::` devant les chemins indiqués, dans la collection
+commune N2/N3/N4 décrite dans [SHARED_COLLECTION.md](SHARED_COLLECTION.md).
 
 | Chapitre | Sous-deck | Objectifs retenus |
 | --- | --- | ---: |

@@ -21,12 +21,14 @@ jobs:
         run: uv sync --extra dev
       - name: Quality gate
         run: make check
-      - name: Build packages
-        run: uv run diving-anki build --level all --out dist
+      - name: Verify imports preserve learning history
+        run: uv run --with anki python -m pytest tests/test_anki_import.py
+      - name: Build unified package
+        run: make build
       - uses: actions/upload-artifact@v4
         with:
           name: anki-packages
-          path: dist/*.apkg
+          path: dist/diving-fr.apkg
 
   latest-release:
     name: Update latest main release
@@ -53,13 +55,20 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh release view latest-main >/dev/null 2>&1; then
-            gh release upload latest-main dist/*.apkg --clobber
+            gh release upload latest-main dist/diving-fr.apkg --clobber
+            # Only the unified package remains on the rolling release.
+            assets=$(gh release view latest-main --json assets --jq '.assets[].name')
+            for legacy in diving-n2-fr.apkg diving-n3-fr.apkg diving-n4-fr.apkg; do
+              if grep -Fxq "$legacy" <<< "$assets"; then
+                gh release delete-asset latest-main "$legacy" --yes
+              fi
+            done
             gh release edit latest-main \
               --title "Latest main build" \
               --notes "Automated build from main at commit ${GITHUB_SHA}." \
               --latest
           else
-            gh release create latest-main dist/*.apkg \
+            gh release create latest-main dist/diving-fr.apkg \
               --title "Latest main build" \
               --notes "Automated build from main at commit ${GITHUB_SHA}." \
               --latest
@@ -80,5 +89,5 @@ jobs:
       - uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/*.apkg
+            dist/diving-fr.apkg
           generate_release_notes: true

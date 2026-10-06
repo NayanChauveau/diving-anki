@@ -9,7 +9,7 @@ avec des explications, des cas concrets et des exercices de calcul. Il peut êtr
 et utilisé directement dans Anki. Le dépôt contient aussi les sources des cartes et les
 outils permettant de les vérifier, de les modifier et de construire les paquets.
 
-**[Télécharger le deck N2 français](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-n2-fr.apkg)**
+**[Télécharger le catalogue complet](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-fr.apkg)**
 · [Voir la dernière build publiée](https://github.com/NayanChauveau/diving-anki/releases/tag/latest-main)
 · [Toutes les versions](https://github.com/NayanChauveau/diving-anki/releases)
 
@@ -32,12 +32,14 @@ Il suffit d’Anki et du fichier `.apkg`. Aucun clonage du dépôt, Python, term
 module complémentaire n’est nécessaire pour cette installation.
 
 1. Installer **[Anki Desktop](https://apps.ankiweb.net/)** sur son ordinateur.
-2. Télécharger **[diving-n2-fr.apkg](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-n2-fr.apkg)**.
+2. Télécharger **[diving-fr.apkg](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-fr.apkg)**
+   pour le catalogue complet N2/N3/N4.
    Sur la page de release, le fichier se trouve dans **Assets**. Les archives
    **Source code** contiennent le dépôt, pas le deck prêt à importer.
 3. Ouvrir Anki, puis choisir **Fichier → Importer** et sélectionner le fichier `.apkg`.
-4. Confirmer l’import. Le deck apparaît sous **Plongée → N2**, avec ses cinq catégories.
-5. Ouvrir **N2** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
+4. Confirmer l’import. Le deck apparaît sous **Plongée**, avec ses cinq catégories.
+5. Ouvrir **Plongée** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
+   Pour cibler un niveau dans le catalogue complet, suivre le guide ci-dessous.
 
 Le lien de téléchargement conserve le même nom et pointe vers la dernière build publiée
 avec succès depuis la branche `main`.
@@ -57,9 +59,10 @@ la configuration initiale et les choix de synchronisation.
 ### Si le téléchargement ou l’import ne fonctionne pas
 
 - **La page de release ne montre pas les fichiers :** ouvrir la rubrique **Assets**, ou
-  utiliser le lien direct vers `diving-n2-fr.apkg` ci-dessus.
+  utiliser le lien direct vers `diving-fr.apkg` ci-dessus.
 - **Le fichier téléchargé est un ZIP :** télécharger le `.apkg` plutôt que l’archive des sources.
-- **Le paquet est vide :** vérifier qu’il s’agit du **N2** ; les paquets N3 et N4 sont encore vides.
+- **Le fichier n’est pas disponible :** le nouveau paquet unique sera disponible après la
+  prochaine publication réussie ; les anciennes releases conservaient des paquets par niveau.
 - **Anki refuse le fichier :** utiliser une version récente de l’application officielle
   et télécharger à nouveau le paquet. Le
   [manuel d’import Anki](https://docs.ankiweb.net/importing/packaged-decks.html) décrit les options disponibles.
@@ -81,9 +84,23 @@ Le deck accompagne les cours et la formation pratique. Les cartes précisent le 
 quand la réponse dépend du pays, du cursus, de l’âge, d’un modèle de matériel ou des
 hypothèses d’un exercice.
 
+### Passer de N2 à N3 ou N4
+
+Une connaissance commune est **une seule note**, portant plusieurs tags, par exemple
+`level::N2`, `level::N3` et `level::N4`. Importer une nouvelle version du paquet dans la même collection
+conserve ses échéances et ses révisions ; seules les connaissances nouvelles créent de nouvelles notes.
+Les niveaux sont attribués explicitement après revue : aucune inclusion automatique de tout N2 en N3/N4.
+
+Dans **Parcourir**, `tag:diving-theory tag:level::N4` montre les cartes utiles au N4.
+Pour les réviser au rythme normal, créer un **paquet filtré** avec
+`tag:diving-theory tag:level::N4 (is:due or is:new)` et conserver l’option de reprogrammation
+selon les réponses. Les cartes communes ne sont reprises que lorsqu’elles sont dues.
+Le [guide de la collection partagée](docs/SHARED_COLLECTION.md) détaille l’usage et la migration.
+Le [manuel Anki](https://docs.ankiweb.net/filtered-decks.html) décrit les paquets filtrés.
+
 ## Mettre à jour et conserver sa progression
 
-1. Télécharger à nouveau `diving-n2-fr.apkg` depuis la dernière build publiée.
+1. Télécharger à nouveau `diving-fr.apkg` depuis la dernière build publiée.
 2. L’importer **dans la même collection Anki**, sans supprimer le deck existant.
 3. Synchroniser ensuite les appareils utilisés.
 
@@ -92,6 +109,13 @@ les notes déjà importées, mettre à jour leur contenu et ajouter les nouvelle
 tout en conservant l’historique et les échéances des cartes existantes. Les options d’import
 et les modifications personnelles apportées aux notes ou aux modèles peuvent influencer
 la mise à jour ; voir le [manuel officiel](https://docs.ankiweb.net/importing/packaged-decks.html#updating).
+
+### Ancienne installation sous Plongée → N2
+
+Les identités des notes N2 sont conservées. L’import ne garantit pas le déplacement des
+cartes déjà présentes vers les catégories communes : suivre le
+[guide de migration](docs/SHARED_COLLECTION.md#migrer-une-installation-n2-existante).
+Le déplacement conserve les notes et leur progression.
 
 ### Cartes fusionnées ou retirées dans une nouvelle version
 
@@ -107,16 +131,14 @@ Une première installation du paquet actuel contient uniquement les 308 cartes a
 
 ## Contenu et niveaux disponibles
 
-| Niveau | État | Paquet |
-| --- | --- | --- |
-| **N2** | 308 cartes revues, en français | `diving-n2-fr.apkg` |
-| N3 | Structure prête ; aucune carte rédigée | `diving-n3-fr.apkg`, vide |
-| N4 | Structure prête ; aucune carte rédigée | `diving-n4-fr.apkg`, vide |
+Le fichier unique **`diving-fr.apkg`** contient les cartes revues de tous les niveaux.
+Actuellement, il contient **308 cartes N2** ; aucune carte N3/N4 n’est encore publiée.
+Le contenu N3/N4 rejoindra ce même fichier au fur et à mesure de sa validation.
 
-Seul le **N2** est actuellement proposé pour l’apprentissage. Les builds N3 et N4 permettent
-de vérifier le fonctionnement technique ; leur publication ne signifie pas que leur contenu est disponible.
+Le [plan détaillé de préparation N3](docs/IMPLEMENTATION_N3.md) décrit les sources,
+les objectifs, les reprises du N2 et les vérifications avant rédaction.
 
-Les cartes N2 sont regroupées dans cinq sous-decks directement sous `Plongée::N2` :
+Les cartes sont regroupées dans cinq sous-decks directement sous `Plongée`, communs aux niveaux :
 
 | Catégorie | Cartes | Thèmes |
 | --- | ---: | --- |
@@ -164,7 +186,7 @@ make check
 make build
 ```
 
-Le paquet N2 est écrit dans `dist/diving-n2-fr.apkg`. Il peut être importé manuellement
+Le paquet complet est écrit dans `dist/diving-fr.apkg`. Il peut être importé manuellement
 dans Anki comme le paquet téléchargé. Les documents sources privés ne sont pas nécessaires
 à la construction du deck depuis les YAML.
 
@@ -173,12 +195,9 @@ dans Anki comme le paquet téléchargé. Les documents sources privés ne sont p
 | Commande | Fonction |
 | --- | --- |
 | `make check` | Lint, formatage, types, schéma, validation des cartes et tests |
-| `make build` | Construire le paquet N2 français |
-| `make build ANKI_LEVEL=N3` | Construire le paquet N3, actuellement vide |
-| `make build ANKI_LEVEL=N4` | Construire le paquet N4, actuellement vide |
-| `make build-all` | Construire les trois paquets indépendants |
-| `make push` | Construire N2, l’importer dans Anki et synchroniser AnkiWeb |
-| `make push ANKI_LEVEL=N3` | Même workflow pour N3, lorsqu’il aura du contenu |
+| `make build` | Construire le catalogue complet (`diving-fr.apkg`) |
+| `make build-all` | Alias de `make build` : le même paquet unique |
+| `make push` | Construire le catalogue complet, l’importer et synchroniser AnkiWeb |
 | `uv run diving-anki validate` | Valider uniquement les fichiers de cartes |
 | `make schema` | Régénérer le schéma après une modification du modèle de données |
 
@@ -186,14 +205,13 @@ Sans `make`, depuis la racine du dépôt :
 
 ```sh
 uv run diving-anki check
-uv run diving-anki build --level N2 --out dist
-uv run diving-anki build --level all --out dist
+uv run diving-anki build --out dist
 ```
 
 Pour une prévisualisation éditoriale incluant les brouillons :
 
 ```sh
-uv run diving-anki build --level N2 --include-drafts --out dist
+uv run diving-anki build --include-drafts --out dist
 ```
 
 ## Importer et synchroniser avec AnkiConnect
@@ -219,7 +237,7 @@ make push
 Ou directement :
 
 ```sh
-uv run diving-anki push --level N2 --out dist
+uv run diving-anki push --out dist
 ```
 
 La synchronisation porte sur **tout le profil Anki actif**. Ouvrir le profil et le compte
@@ -231,7 +249,7 @@ peut utiliser les variables `ANKI_CONNECT_URL` et `ANKI_CONNECT_KEY`.
 Pour ouvrir Anki soi-même avant l’import :
 
 ```sh
-uv run diving-anki push --level N2 --out dist --no-launch
+uv run diving-anki push --out dist --no-launch
 ```
 
 ### Dépannage AnkiConnect
@@ -285,7 +303,9 @@ dist/                  Paquets générés localement, non committés
 
 Les YAML sont la source de vérité. Une carte indique explicitement ses `levels`, par exemple
 `[N2]` ou `[N2, N3]` : aucune inclusion automatique d’un niveau dans un autre.
-Une carte commune possède un GUID Anki par niveau, pour permettre des imports séparés.
+Une carte possède un seul GUID Anki pour tous ses niveaux. Le paquet unique utilise les
+mêmes identités et catégories à chaque mise à jour : les imports successifs retrouvent
+la note existante et son historique. Les GUIDs N2 déjà publiés sont conservés.
 Les GUIDs des notes et les IDs des modèles et decks sont déterministes et distincts de ceux du projet WSET.
 
 Le générateur prend en charge `basic`, `mcq` et `cloze` ; le contenu N2 actuel utilise
@@ -295,7 +315,7 @@ et committer le schéma avec `make schema`.
 
 ## Builds et releases
 
-Les pull requests et pushes passent les contrôles complets et construisent les trois paquets
+Les pull requests et pushes passent les contrôles complets et construisent le paquet unique `diving-fr.apkg`
 dans GitHub Actions. Les brouillons sont exclus des builds ordinaires.
 
 Chaque push réussi sur `main` met à jour la release **Latest main build**, portant le tag

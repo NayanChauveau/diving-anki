@@ -7,7 +7,7 @@ from collections.abc import Sequence
 from pathlib import Path
 
 from diving_anki.anki_connect import AnkiConnectError, push_packages
-from diving_anki.build import Level, build_level
+from diving_anki.build import build_collection
 from diving_anki.json_schema import default_schema_path, schema_matches, write_schema
 from diving_anki.load import LoadError, load_cards
 from diving_anki.paths import cards_dir, find_repo_root, templates_dir
@@ -41,13 +41,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_check = sub.add_parser("check", help="Run the full quality gate (lint, types, tests, cards)")
     p_check.add_argument("--root", type=Path, default=None, help="Repository root")
 
-    p_build = sub.add_parser("build", help="Generate .apkg packages")
-    p_build.add_argument(
-        "--level",
-        choices=("N2", "N3", "N4", "all"),
-        default="N2",
-        help="Niveau à générer (all = N2, N3 et N4)",
-    )
+    p_build = sub.add_parser("build", help="Generate the unified N2/N3/N4 .apkg package")
     p_build.add_argument("--out", type=Path, default=Path("dist"), help="Output directory")
     p_build.add_argument(
         "--include-drafts",
@@ -59,12 +53,6 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_push = sub.add_parser(
         "push",
         help="Build, import into Anki Desktop, then sync with AnkiWeb",
-    )
-    p_push.add_argument(
-        "--level",
-        choices=("N2", "N3", "N4", "all"),
-        default="N2",
-        help="Niveau à importer (par défaut N2)",
     )
     p_push.add_argument("--out", type=Path, default=Path("dist"), help="Output directory")
     p_push.add_argument(
@@ -116,20 +104,15 @@ def main(argv: Sequence[str] | None = None) -> int:
         print(f"{len(cards)} card(s) OK")
         return 0
 
-    levels: list[Level] = ["N2", "N3", "N4"] if args.level == "all" else [args.level]
-
     out_dir = args.out if args.out.is_absolute() else Path.cwd() / args.out
-    packages: list[Path] = []
-    for level in levels:
-        path, result = build_level(
-            cards,
-            level,
-            templates=templates,
-            out_dir=out_dir,
-            include_drafts=args.include_drafts,
-        )
-        print(f"wrote {path} ({len(result.notes)} notes, {result.skipped_drafts} drafts skipped)")
-        packages.append(path)
+    path, result = build_collection(
+        cards,
+        templates=templates,
+        out_dir=out_dir,
+        include_drafts=args.include_drafts,
+    )
+    print(f"wrote {path} ({len(result.notes)} notes, {result.skipped_drafts} drafts skipped)")
+    packages = [path]
 
     if args.command == "push":
         try:

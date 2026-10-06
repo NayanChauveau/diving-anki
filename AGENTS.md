@@ -7,8 +7,11 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 
 ## Sources et véracité
 
-- Partir des documents convenus et du [plan N2](docs/IMPLEMENTATION_N2.md).
-  Les trois PDF sont des supports pédagogiques à vérifier, pas une garantie d’exactitude.
+- Partir des documents convenus et du plan du niveau : [N2](docs/IMPLEMENTATION_N2.md),
+  [N3](docs/IMPLEMENTATION_N3.md). Les supports pédagogiques sont à vérifier, pas une
+  garantie d’exactitude. Pour N3, consulter l’inventaire des sources et le tri des reprises
+  N2 liés dans le plan ; clore les vérifications G01–G11 pour les cartes concernées avant
+  publication. Comparer les niveaux pour partager un objectif existant plutôt que le recréer.
 - Vérifier chaque affirmation : question, réponse, explication, distracteurs, unités et hypothèses.
   Re-vérifier au moindre doute. Pour réglementation, médecine et sécurité, consulter les sources
   primaires actuelles, contrôler version et champ d’application, puis croiser en cas de doute.
@@ -74,7 +77,11 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 
 - Les YAML de `cards/` sont la source de vérité, un fichier par chapitre ; `fr` obligatoire,
   `levels` explicite et aucun héritage automatique entre niveaux.
-- Sous-decks N2 : cinq catégories directement sous `Plongée::N2` — Réglementation, Physique,
+- Collection commune N2/N3/N4 : une identité Anki par ID de carte, indépendante des niveaux.
+  Le sel historique N2 du GUID est permanent, même pour une nouvelle carte N3/N4.
+  Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous
+  les niveaux de la carte, dans le paquet unique `diving-fr.apkg`. Aucun export séparé par niveau.
+- Sous-decks : cinq catégories directement sous `Plongée` — Réglementation, Physique,
   Prévention des accidents, Désaturation, Matériel et préparation. Ne pas créer de sous-deck
   par chapitre ; conserver les fichiers et tags thématiques. Pour une réorganisation, déplacer
   les cartes existantes dans Anki en conservant leurs IDs, historique et échéances, puis vérifier
