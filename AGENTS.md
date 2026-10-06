@@ -37,6 +37,11 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 - Poser la question directement. Éviter « selon le MFT… », les noms de documents et les dates
   d’édition répétés sur les rectos. Garder le contexte qui détermine la réponse (France, FFESSM,
   âge, exploration, modèle de matériel ou hypothèses), et les références dans `review.sources`.
+- La difficulté vient de la connaissance et des distinctions testées, jamais d’un contexte flou.
+  Le recto doit préciser le sujet, la situation et ce qu’on demande (minimum obligatoire,
+  configuration conforme, plafond, rôle ou condition). Les choix doivent répondre à cette même
+  question ; une possibilité valide mais non obligatoire ne doit pas être déclarée fausse si
+  le recto demande seulement ce qui est possible. Préciser « obligatoire » ou « minimum » au besoin.
 - Chaque QCM doit exiger une connaissance du cours : distracteurs crédibles issus de confusions
   réelles, même catégorie et niveau de précision, sans réponse fantaisiste ni indice de longueur.
   Ne pas demander seulement de reconnaître le nom suggéré par la description d’un document.

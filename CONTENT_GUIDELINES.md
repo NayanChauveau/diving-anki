@@ -37,3 +37,7 @@ Les QCM doivent exiger la connaissance du cours : distracteurs crédibles et com
 issus de confusions précises. Éliminer les réponses absurdes et les indices de formulation.
 Préférer trois choix solides à quatre choix dont un trop facile ; difficulté et véracité
 se vérifient ensemble. Voir la grille de revue dans docs/CARD_DESIGN.md.
+
+La difficulté ne doit pas provenir du flou. Chaque QCM demande une chose précise dans un
+contexte explicite ; tous les choix répondent à cette même demande. Distinguer minimum imposé,
+configuration possible et condition obligatoire pour éviter plusieurs réponses défendables.

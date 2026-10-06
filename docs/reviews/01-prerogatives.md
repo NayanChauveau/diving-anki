@@ -157,3 +157,9 @@ aucune nouvelle procédure ni nouveau seuil ajouté. IDs et nombre de cartes con
 Suppression des commentaires sur ce que la carte ne couvre pas et des précautions éditoriales
 sans apport à l’objectif. Les explications restent centrées sur les faits, fonctions et conditions.
 Références, IDs et réponses correctes conservés ; aucune nouvelle règle introduite.
+
+## Revue globale de clarté — 6 octobre 2026
+
+Toutes les cartes de ce chapitre relues : contexte, objectif, choix complets et explications.
+Les corrections et la liste exhaustive sont dans [la revue globale](CLARTE_GLOBALE.md).
+IDs, types de notes et effectifs conservés.

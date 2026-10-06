@@ -36,26 +36,26 @@ Champ des questions : établissement organisant la plongée en France ; milieu n
 
 | Objectif | ID YAML | Apport |
 | --- | --- | --- |
-| P028 | `n2-organisation-palanquee-001` | Qu’est-ce qui définit une palanquée en plongée ? |
-| P030 | `n2-organisation-melanges-contraintes-001` | En France, deux plongeurs d’une même palanquée respirent des mélanges différents. Comment choisir les limites de leur plongée ? |
-| P032 | `n2-organisation-dp-parametres-001` | Dans une plongée N2 organisée en établissement en France, qui fixe les caractéristiques de la plongée ? |
-| P033 | `n2-organisation-dp-secours-001` | Qui est responsable de l’organisation de la sécurité et du déclenchement des secours sur le site d’une plongée organisée en établissement ? |
-| P035 | `n2-organisation-fiche-securite-001` | En France, quelles informations doivent notamment figurer sur la fiche de sécurité établie par le DP ? |
-| P038 | `n2-organisation-guide-conduite-001` | En exploration PE40 en milieu naturel, quel est le rôle du guide de palanquée pendant l’immersion ? |
+| P028 | `n2-organisation-palanquee-001` | En France, quels paramètres doivent caractériser la plongée effectuée en commun par les membres d’une palanquée ? |
+| P030 | `n2-organisation-melanges-contraintes-001` | En France, une palanquée regroupe des plongeurs aux aptitudes différentes utilisant des mélanges différents. Quelles contraintes fixent les limites de tout le groupe ? |
+| P032 | `n2-organisation-dp-parametres-001` | Pour une plongée N2 organisée en France par un établissement, quelle fonction est chargée de fixer les paramètres prévus, notamment la profondeur et la durée ? |
+| P033 | `n2-organisation-dp-secours-001` | Dans une plongée organisée en France par un établissement, quelle fonction porte la responsabilité technique de l’organisation de la sécurité et du déclenchement des secours ? |
+| P035 | `n2-organisation-fiche-securite-001` | Sur la fiche de sécurité établie par le DP, quels paramètres de plongée faut-il inscrire en plus des noms, aptitudes et rôles des plongeurs ? |
+| P038 | `n2-organisation-guide-conduite-001` | Pendant une exploration PE40 en milieu naturel, comment le guide doit-il conduire la palanquée dans le cadre fixé par le DP ? |
 | P039 | `n2-organisation-autonomie-collective-001` | Dans la formation PA20 FFESSM, quelle responsabilité collective s’ajoute à la maîtrise de sa propre plongée ? |
-| P041 | `n2-organisation-plan-secours-001` | Quelles exigences s’appliquent au plan de secours d’une plongée organisée en établissement en France ? |
-| P043 | `n2-organisation-vhf-001` | En France, une plongée se déroule en mer depuis un bateau support. Quel moyen de communication avec les secours est nécessaire ? |
-| P044 | `n2-organisation-eau-couverture-001` | Quels éléments doivent notamment être disponibles sur le lieu de mise à l’eau parmi le matériel de secours ? |
-| P045 | `n2-organisation-oxygene-capacite-001` | Quelle exigence doit guider la capacité de l’ensemble d’oxygénothérapie disponible sur le site ? |
-| P047 | `n2-organisation-fiche-evacuation-001` | Quel document est prévu pour transmettre aux secours les informations relatives à la prise en charge d’une victime de plongée ? |
-| P048 | `n2-organisation-bloc-secours-001` | Pour une plongée organisée à l’air, comment la bouteille d’air de secours doit-elle être équipée ? |
-| P049 | `n2-organisation-rappel-bateau-001` | En France, dans quel contexte un moyen de rappel des plongeurs immergés depuis la surface est-il exigé ? |
-| P050 | `n2-organisation-tables-assistance-001` | En milieu naturel, à partir de quelle condition de profondeur un jeu de tables de décompression doit-il être disponible comme matériel d’assistance ? |
-| P052 | `n2-organisation-gilet-surface-001` | En milieu naturel, quel équipement répond à l’exigence de retour et de maintien en surface pour un plongeur en circuit ouvert ? |
-| P053 | `n2-organisation-gaz-equipier-001` | En milieu naturel, quel équipement respiratoire supplémentaire est requis pour un plongeur autonome ou encadré au-delà de 20 m ? |
-| P054 | `n2-organisation-parametres-personnels-001` | En milieu naturel, un plongeur PA20 peut-il se contenter de regarder l’ordinateur de son équipier pour contrôler sa plongée et sa remontée ? |
-| P055 | `n2-organisation-encadrant-detendeurs-001` | En milieu naturel, quel équipement respiratoire est spécifiquement requis pour la personne qui encadre la palanquée ? |
-| P056 | `n2-organisation-parachute-palanquee-001` | En milieu naturel, à quelle échelle le parachute de palier est-il obligatoire ? |
+| P041 | `n2-organisation-plan-secours-001` | Pour une plongée organisée en France, quelle proposition réunit les exigences de préparation et de diffusion du plan de secours ? |
+| P043 | `n2-organisation-vhf-001` | En France, un bateau support organise une plongée en mer et dispose d’un téléphone avec du réseau. Quelle exigence de communication reste applicable ? |
+| P044 | `n2-organisation-eau-couverture-001` | Pour une plongée organisée en France par un établissement, quelle combinaison d’eau et de protection thermique doit être disponible avec le matériel de secours ? |
+| P045 | `n2-organisation-oxygene-capacite-001` | Pour une plongée organisée en France, jusqu’à quel moment la réserve d’oxygène médical doit-elle permettre une prise en charge adaptée de la victime ? |
+| P047 | `n2-organisation-fiche-evacuation-001` | Quel document réglementaire doit être disponible, en plus du plan de secours, pour transmettre les renseignements relatifs à une victime de plongée ? |
+| P048 | `n2-organisation-bloc-secours-001` | Pour une plongée organisée à l’air en France, quelle configuration répond à l’exigence de bouteille de secours disponible sur le site ? |
+| P049 | `n2-organisation-rappel-bateau-001` | Pour une plongée organisée en France, quelle condition suffit à rendre obligatoire un moyen de rappel des plongeurs depuis la surface ? |
+| P050 | `n2-organisation-tables-assistance-001` | En milieu naturel en France, le jeu de tables collectif doit être disponible sur le lieu de mise à l’eau ou d’immersion dès que la profondeur prévue dépasse quel seuil ? |
+| P052 | `n2-organisation-gilet-surface-001` | En milieu naturel en France, quelle exigence minimale s’applique au système permettant à chaque plongeur en circuit ouvert de regagner la surface et de s’y maintenir ? |
+| P053 | `n2-organisation-gaz-equipier-001` | En milieu naturel en France, quelle est l’exigence minimale de fourniture de gaz à un équipier pour chaque plongeur autonome, et pour chaque plongeur encadré à plus de 20 m ? |
+| P054 | `n2-organisation-parametres-personnels-001` | En milieu naturel en France, deux plongeurs PA20 partagent le même profil de plongée. Un seul équipement de contrôle, porté par l’un et consulté par les deux, suffit-il pour la profondeur, la durée et la remontée ? |
+| P055 | `n2-organisation-encadrant-detendeurs-001` | En milieu naturel en France, quelle est la configuration respiratoire minimale exigée pour la personne qui encadre la palanquée ? |
+| P056 | `n2-organisation-parachute-palanquee-001` | En milieu naturel en France, quel est le minimum exigé pour la disponibilité d’un parachute de palier ? |
 
 P057 couvert par P053/P054, sans ID YAML publié pour cette variante.
 
@@ -91,3 +91,9 @@ Références, IDs et réponses correctes conservés ; aucune nouvelle règle int
 P050 : question et explication précisent le lieu de disponibilité (mise à l’eau ou immersion),
 avec bateau support et départ du bord comme exemples. Matériel collectif d’assistance distingué
 de l’équipement personnel de contrôle. A322-78 II relu ; ID et seuil inchangés.
+
+## Revue globale de clarté — 6 octobre 2026
+
+Toutes les cartes de ce chapitre relues : contexte, objectif, choix complets et explications.
+Les corrections et la liste exhaustive sont dans [la revue globale](CLARTE_GLOBALE.md).
+IDs, types de notes et effectifs conservés.

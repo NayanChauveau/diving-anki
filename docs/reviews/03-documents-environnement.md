@@ -34,18 +34,18 @@ Revue du rédacteur en passe critique distincte. Aucune revue humaine ou de moni
 
 | Objectif | ID | Apport |
 | --- | --- | --- |
-| P061 | `n2-documents-caci-validite-medecin-001` | Pour une pratique N2 FFESSM à l’air, hors situation médicale particulière, quel couple « ancienneté du CACI / médecin signataire » convient ? |
-| P063 | `n2-documents-licence-affiliation-001` | Quelle information établit une licence FFESSM de pratique en cours de validité, indépendamment du brevet du plongeur ? |
-| P064 | `n2-documents-assurance-rc-aia-001` | Un plongeur se blesse sans tiers responsable identifié. Quelle distinction faut-il faire entre la RC incluse dans sa licence FFESSM et une assurance individuelle accident ? |
-| P069 | `n2-documents-zones-reglementees-001` | Une zone marine protégée interdit-elle nécessairement toute plongée ? Quelle information faut-il vérifier pour choisir le site ? |
+| P061 | `n2-documents-caci-validite-medecin-001` | Pour un adulte pratiquant la plongée N2 FFESSM à l’air, hors cas médical particulier, quelle ancienneté maximale du CACI et quelle exigence de médecin s’appliquent ? |
+| P063 | `n2-documents-licence-affiliation-001` | Que prouve la licence FFESSM de pratique d’un plongeur pour sa période de validité, par opposition à son brevet et à son CACI ? |
+| P064 | `n2-documents-assurance-rc-aia-001` | Quelle répartition des risques distingue la responsabilité civile (RC) de la licence FFESSM et une assurance individuelle accident ? |
+| P069 | `n2-documents-zones-reglementees-001` | Pour savoir si une plongée est autorisée dans une zone marine protégée, quelle réglementation faut-il vérifier ? |
 | P070 | `n2-documents-prelevements-observation-001` | Lors d’une plongée d’observation, quelle conduite adopter envers les organismes et les objets naturels, même s’ils semblent sans valeur ? |
-| P071 | `n2-documents-decouverte-archeologique-001` | En mer en France, un plongeur découvre fortuitement un objet pouvant être un bien culturel maritime. Quelle combinaison « conduite / délai de déclaration » est correcte ? |
-| P073 | `n2-documents-peche-scaphandre-001` | En pêche sous-marine de loisir en mer en France, quelles règles concernent le scaphandre et le fusil sous-marin ? |
+| P071 | `n2-documents-decouverte-archeologique-001` | En mer en France, un plongeur découvre un objet présentant un intérêt archéologique. Que doit-il en faire, et dans quel délai doit-il déclarer la découverte ? |
+| P073 | `n2-documents-peche-scaphandre-001` | En pêche sous-marine de loisir en mer en France, quelles règles s’appliquent à l’usage d’un scaphandre et à la présence d’un scaphandre avec un fusil sous-marin sur le même bateau ? |
 | P074 | `n2-documents-pavillon-alpha-001` | Quelles sont les couleurs du pavillon Alpha utilisé pour signaler la plongée depuis une embarcation en mer ? |
-| P076 | `n2-documents-distance-navires-locale-001` | Où vérifier la distance que les navires doivent respecter autour des plongeurs sur un site côtier français ? |
-| P078 | `n2-documents-suivi-bloc-001` | Dans le suivi d’un bloc de plongée, une inspection visuelle et une requalification désignent-elles le même contrôle ? |
-| P079 | `n2-documents-federation-role-001` | Que signifie FFESSM, et à quelle échelle cette organisation intervient-elle par rapport à un club de plongée ? |
-| P080 | `n2-documents-cmas-role-001` | Que signifie CMAS, et quel rôle joue-t-elle dans les formations de plongée ? |
+| P076 | `n2-documents-distance-navires-locale-001` | Avant une plongée sur un site côtier français, dans quels textes vérifier les distances d’approche et limitations de vitesse imposées aux navires autour des plongeurs signalés ? |
+| P078 | `n2-documents-suivi-bloc-001` | Une inspection visuelle à jour suffit-elle à remplacer la requalification d’un bloc de plongée arrivée à échéance ? |
+| P079 | `n2-documents-federation-role-001` | Dans le réseau FFESSM, qui définit le cursus fédéral et qui organise localement les formations et les plongées ? |
+| P080 | `n2-documents-cmas-role-001` | Quel rôle la CMAS joue-t-elle dans les certifications internationales de plongée ? |
 
 P059 → P022/P023 ; P077 → P010/P012 ; P498 → P078. Les IDs publiés des chapitres précédents restent inchangés.
 
@@ -70,3 +70,9 @@ P059 → P022/P023 ; P077 → P010/P012 ; P498 → P078. Les IDs publiés des ch
 - Champs HTML recto/verso inspectés dans le package : complets, choix cohérents, GUIDs uniques.
 - Aucune inspection visuelle dans l’interface Anki revendiquée.
 - `make push` réussi : import Anki et synchronisation AnkiWeb.
+
+## Revue globale de clarté — 6 octobre 2026
+
+Toutes les cartes de ce chapitre relues : contexte, objectif, choix complets et explications.
+Les corrections et la liste exhaustive sont dans [la revue globale](CLARTE_GLOBALE.md).
+IDs, types de notes et effectifs conservés.

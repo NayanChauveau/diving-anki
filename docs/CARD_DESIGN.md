@@ -115,3 +115,25 @@ pas… », « cette carte n’enseigne pas… » et les disclaimers génériques
 les limites de validation et les sujets non traités restent dans la revue interne.
 Une condition factuelle qui détermine la réponse reste expliquée ; ne pas la transformer
 pour autant en avertissement ou commentaire sur la carte. Cette règle s’applique à tous les formats.
+
+## Difficulté sans incertitude — calibration du 6 octobre 2026
+
+Le recto expose une situation déterminée et demande une chose précise. La difficulté vient
+du savoir à mobiliser, pas d’un contexte manquant, d’une phrase abstraite ou d’un choix hors sujet.
+Avant validation, reformuler mentalement la question puis examiner chaque choix avec exactement
+les mêmes hypothèses. Si deux choix peuvent être vrais selon une lecture raisonnable, corriger.
+
+- Distinguer « permis », « conforme », « obligatoire » et « minimum exigé ». Un équipement
+  supplémentaire possible ou un médecin plus spécialisé ne devient pas faux par sa présence.
+- Donner la plage complète demandée pour un effectif ; ne pas opposer une plage à une valeur
+  incluse dans cette plage sans préciser que l’on demande l’ensemble des effectifs permis.
+- Garder le même objet dans tous les choix : un seuil de profondeur appelle des seuils, une
+  fonction appelle des fonctions, une exigence minimale appelle des exigences minimales.
+- Expliciter les sujets : qui fournit le matériel, qui le porte, à qui s’applique la restriction,
+  et quels équipements sont communs ou personnels. Développer le vocabulaire technique utile.
+- Mettre les nombres et cas d’application utiles dans l’explication ; retirer les détours qui
+  empêchent de comprendre pourquoi le bon choix est vrai et les autres faux.
+- Si la clarté rend les mauvais choix trop évidents, reconstruire des distracteurs plausibles.
+  Ne jamais réintroduire du flou pour rendre la question difficile.
+
+La revue intégrale des 53 cartes est consignée dans reviews/CLARTE_GLOBALE.md.
