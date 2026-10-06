@@ -18,9 +18,9 @@ Les cartes sont des aides à la révision, à utiliser avec la formation pratiqu
 
 Appliquer [la calibration de conception](docs/CARD_DESIGN.md). Un fait simple ne doit être
 interrogé qu’une fois ; Anki assure les rappels. Pour les calculs et raisonnements complexes,
-plusieurs angles et exemples sont utiles si chacun apporte une difficulté distincte.
+plusieurs angles et exemples sont utiles, ainsi qu’une courte série numérique pour pratiquer.
 Consigner cet apport dans la revue du lot après comparaison avec tout le deck.
-Fusionner les paraphrases et variations numériques mécaniques ; placer les précisions utiles
+Fusionner les paraphrases de faits simples et éviter les longues séries numériques ; placer les précisions utiles
 dans l’explication sans multiplier les objectifs sur un recto. La couverture prime sur le quota.
 
 ## Clarté

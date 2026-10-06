@@ -20,7 +20,8 @@ entiers et décimaux, calcul direct et inverse. Cette préférence a été préc
 
 Avant chaque nouvelle carte, rechercher les objectifs voisins dans tout le catalogue et les YAML,
 y compris les autres chapitres. Écrire dans la revue du lot une phrase précisant son apport.
-Si cette phrase décrit le même fait ou la même opération qu’une autre carte, fusionner.
+Si cette phrase décrit le même fait simple qu’une autre carte, fusionner. Pour les calculs,
+conserver les applications supplémentaires utiles à l’entraînement, même avec la même opération.
 Conserver la correspondance des IDs ; ne jamais recycler un ID publié pour un autre objectif.
 Une fusion dans le plan ne déclenche pas automatiquement une suppression dans Anki.
 
@@ -30,8 +31,8 @@ Une fusion dans le plan ne déclenche pas automatiquement une suppression dans A
 | --- | --- | --- |
 | Aptitudes N2 | Une question rappelant l’articulation PA20 / PE40, contexte réglementaire précisé | Redemander séparément le sens des sigles ou substituer une profondeur inférieure à la limite |
 | Prérogatives en situation | Décider avec des aptitudes différentes dans la palanquée ou distinguer certification et exercice | Reposer la définition en ajoutant seulement le nom d’un plongeur |
-| Pressions | Calcul absolu, problème inverse, confusion absolu/relatif, rapport près de la surface | Une série de profondeurs testant exactement la même substitution |
-| Gaz | Stock utilisable, débit à profondeur donnée, besoin de deux équipiers, somme de phases | Plusieurs blocs ne changeant que le résultat arithmétique |
+| Pressions | Calcul absolu, problème inverse, confusion absolu/relatif, rapport près de la surface | Une longue série sans progression ; garder quelques profondeurs variées pour pratiquer |
+| Gaz | Stock utilisable, débit à profondeur donnée, besoin de deux équipiers, somme de phases | Une longue série de blocs sans progression ; garder quelques calculs variés |
 | Accidents | Mécanisme, reconnaissance contextualisée, prévention et priorité de réponse | Une carte par mot d’une liste de symptômes ou un scénario redemandant la même alerte |
 | Matériel | Lire une inscription ou expliquer une fonction dans un modèle défini | Isoler chaque libellé d’une inscription dans une carte de vocabulaire |
 

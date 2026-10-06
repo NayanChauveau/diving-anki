@@ -474,3 +474,10 @@ pour les variantes. Détails et sources dans [la revue du chapitre](03-documents
 
 16 cartes pour 18 objectifs couverts : P118 → P110 et P132 → P101. Les objectifs
 restent cochés au catalogue pour la traçabilité. Voir [la revue](04-pression.md).
+
+## Implémentation du chapitre 05 — 6 octobre 2026
+
+25 cartes dont huit exercices pour 23 objectifs couverts. P149 → P133, P152 → P151,
+P171 → P172. Les exercices sous P142 reprennent les cas P143/P144 comme entraînement
+numérique autorisé par la calibration du 6 octobre, sans nouveaux objectifs au catalogue.
+Voir [la revue du chapitre](05-flottabilite.md).

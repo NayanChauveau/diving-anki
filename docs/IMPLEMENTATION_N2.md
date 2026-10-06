@@ -103,7 +103,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V04** — Erreur confirmée dans S3 p.3, exercice à 6 m : le corrigé indique 2,5 bar alors que sa propre formule 1 + 6/10 donne 1,6 bar. kg n’est pas une unité de force ; kgf/cm² et bar ne sont pas strictement identiques. Les calculs doivent annoncer le modèle pédagogique simplifié.
 
-- [ ] **V05** — Incohérence confirmée S3 p.6 : eau de mer plus porteuse, mais le support propose de retirer du lest lors du passage eau douce vers mer. Vérifier puis corriger la direction ; aucun décalage fixe universel. Les différences acier/alu, 12/15 L et bloc plein/vide dépendent du matériel. Le lest ajouté a lui-même un volume : préciser si négligé dans les exercices.
+- [x] **V05** — Incohérence confirmée S3 p.6 : eau de mer plus porteuse, mais le support propose de retirer du lest lors du passage eau douce vers mer. Vérifier puis corriger la direction ; aucun décalage fixe universel. Les différences acier/alu, 12/15 L et bloc plein/vide dépendent du matériel. Le lest ajouté a lui-même un volume : préciser si négligé dans les exercices.
 
 - [ ] **V06** — Boyle-Mariotte : température et quantité de gaz constantes, pressions absolues. Le stock calculé avec la pression nominale est une approximation de cours, pas une planification réelle. Tous les calculs sans réserve doivent être nommés « théoriques » ; obtenir une source pour les règles opérationnelles de réserve et de retour.
 
@@ -256,29 +256,29 @@ Source : **S1 p.9–10 ; S3 p.2–3 (imprimées 4–5)**. Contrôle : **V04**. F
 
 Source : **S1 p.8–9 ; S3 p.4–6 (imprimées 6–8)**. Contrôle : **V05**. Fichier futur : `cards/n2/05-flottabilite.yaml`.
 
-- [ ] **P133** · QCM · Comparaison — Poids réel et poids apparent : distinction.
-- [ ] **P134** · QCM · Rappel / application — Poussée d’Archimède : direction et sens.
-- [ ] **P136** · Cloze · Relation — Formule du poids apparent.
-- [ ] **P138** · QCM · Rappel / application — Déduire coule / neutre / remonte du signe du poids apparent avec la convention fournie.
-- [ ] **P142** · Basic · Calcul — Objet de 5 kg et 3 L : calcul.
-- [ ] **P145** · Basic · Calcul — Objet de 8 kg et 5 L : lest ou portance nécessaires.
-- [ ] **P146** · Basic · Calcul — Caisson de 1,5 kg et 3 L : neutralisation simplifiée.
-- [ ] **P147** · Basic · Compréhension — Volume déplacé doublé à poids fixe : effet.
-- [ ] **P149** · Basic · Compréhension — Pourquoi un bloc paraît moins lourd sous l’eau.
-- [ ] **P151** · QCM · Rappel / application — Écrasement du néoprène à la descente.
-- [ ] **P152** · QCM · Rappel / application — Expansion du néoprène à la remontée.
-- [ ] **P154** · QCM · Rappel / application — Gilet gonflé : volume et poussée.
-- [ ] **P155** · QCM · Rappel / application — Poumon ballast : inspiration et flottabilité.
-- [ ] **P157** · QCM · Rappel / application — Poumon ballast et ventilation continue : ne pas enseigner l’apnée.
-- [ ] **P158** · QCM · Rappel / application — Bloc plein et bloc consommé : différence de masse.
-- [ ] **P162** · QCM · Rappel / application — Changement d’épaisseur de combinaison : réévaluer.
-- [ ] **P163** · QCM · Rappel / application — Eau salée plus porteuse que l’eau douce.
-- [ ] **P166** · QCM · Rappel / application — Noter configuration et lestage dans le carnet.
-- [ ] **P168** · QCM · Rappel / application — Parachute tenu au gonflage : risque d’être entraîné.
-- [ ] **P169** · Basic · Compréhension — Perte de lest : mécanisme de remontée.
-- [ ] **P170** · QCM · Rappel / application — Sur-lestage : efforts et consommation.
-- [ ] **P171** · QCM · Rappel / application — Sous-lestage : difficulté en fin de plongée.
-- [ ] **P172** · QCM · Scénario — Scénario de stabilisation au palier avec un bloc allégé.
+- [x] **P133** · QCM · Comparaison — Poids réel et poids apparent : distinction.
+- [x] **P134** · QCM · Rappel / application — Poussée d’Archimède : direction et sens.
+- [x] **P136** · Cloze · Relation — Formule du poids apparent.
+- [x] **P138** · QCM · Rappel / application — Déduire coule / neutre / remonte du signe du poids apparent avec la convention fournie.
+- [x] **P142** · Basic · Calcul — Objet de 5 kg et 3 L : calcul.
+- [x] **P145** · Basic · Calcul — Objet de 8 kg et 5 L : lest ou portance nécessaires.
+- [x] **P146** · Basic · Calcul — Caisson de 1,5 kg et 3 L : neutralisation simplifiée.
+- [x] **P147** · Basic · Compréhension — Volume déplacé doublé à poids fixe : effet.
+- [x] **P149** · Couvert par P133 — Pourquoi un bloc paraît moins lourd sous l’eau.
+- [x] **P151** · QCM · Rappel / application — Écrasement du néoprène à la descente.
+- [x] **P152** · Couvert par P151 — Expansion du néoprène à la remontée, dans l’explication du mécanisme.
+- [x] **P154** · QCM · Rappel / application — Gilet gonflé : volume et poussée.
+- [x] **P155** · QCM · Rappel / application — Poumon ballast : inspiration et flottabilité.
+- [x] **P157** · QCM · Rappel / application — Poumon ballast et ventilation continue : ne pas enseigner l’apnée.
+- [x] **P158** · QCM · Rappel / application — Bloc plein et bloc consommé : différence de masse.
+- [x] **P162** · QCM · Rappel / application — Changement d’épaisseur de combinaison : réévaluer.
+- [x] **P163** · QCM · Rappel / application — Eau salée plus porteuse que l’eau douce.
+- [x] **P166** · QCM · Rappel / application — Noter configuration et lestage dans le carnet.
+- [x] **P168** · QCM · Rappel / application — Parachute tenu au gonflage : risque d’être entraîné.
+- [x] **P169** · Basic · Compréhension — Perte de lest : mécanisme de remontée.
+- [x] **P170** · QCM · Rappel / application — Sur-lestage : efforts et consommation.
+- [x] **P171** · Couvert par P172 — Sous-lestage en fin de plongée, traité dans le scénario.
+- [x] **P172** · QCM · Scénario — Scénario de stabilisation au palier avec un bloc allégé.
 
 ### 06-gaz-autonomie — Physique
 
@@ -668,3 +668,10 @@ V04 vérifié ; voir [la revue](reviews/04-pression.md). Total publié : 77 cart
 Complément du chapitre 04 : huit exercices supplémentaires demandés pour pratiquer à plusieurs
 profondeurs. Ils approfondissent P110, P114, P123 et P129 sans créer de nouveaux objectifs
 au catalogue. Voir la revue du chapitre pour les cas et leur validation.
+
+### Chapitre 05 — réalisé le 6 octobre 2026
+
+25 cartes revues, dont huit exercices de calcul, couvrent les 23 objectifs. P149 → P133,
+P152 → P151 et P171 → P172 ; les exercices supplémentaires pratiquent les objectifs existants.
+V05 vérifié : eau salée, unités, volume du lest et limites des généralités sur le matériel.
+Voir [la revue](reviews/05-flottabilite.md). Total publié après ce chapitre : 102 cartes.
