@@ -1,0 +1,315 @@
+cards:
+- id: n2-narcose-air-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P299
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - https://www.noaa.gov/jetstream/atmosphere
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi le modèle « air = 80 % d’azote et 20 % d’oxygène » n’est-il pas sa composition exacte
+      ?
+    back: '**C’est un arrondi de calcul.** L’air sec contient environ 78 % d’azote, 21 % d’oxygène et
+      environ 1 % d’autres gaz, surtout l’argon. Pour les exercices, employer les fractions annoncées
+      dans l’énoncé.'
+- id: n2-narcose-dalton-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P302
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'UCalgary — The Pressure of a Mixture of Gases: Dalton’s Law, consulté le 2026-10-06 : https://chem-textbook.ucalgary.ca/chapter-9-main/the-pressure-of-a-mixture-of-gases-daltons-law/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Dans un mélange gazeux idéal, comment calcule-t-on la pression partielle d’un gaz ?
+    back: '**Fraction du gaz × pression absolue totale.** Par exemple, 20 % vaut 0,20, pas 20. La somme
+      des pressions partielles de tous les composants égale la pression totale.'
+- id: n2-narcose-oxygene-trente-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  - exercice::calcul
+  status: reviewed
+  source_id: P304
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Dans le modèle d’air à 20 % d’oxygène, quelle est la pression partielle d’O₂ à 30 m ? Prendre
+      1 bar à la surface et +1 bar par 10 m.
+    back: '**0,8 bar.** Pression totale = 4 bars absolus ; PpO₂ = 0,20 × 4 = 0,8 bar. Cette pression partielle
+      est distincte de la pression totale respirée.'
+- id: n2-narcose-azote-quarante-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  - exercice::calcul
+  status: reviewed
+  source_id: P306
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Dans le modèle d’air à 80 % d’azote, quelle est la pression partielle d’azote à 40 m ? Prendre
+      1 bar à la surface et +1 bar par 10 m.
+    back: '**4 bars.** Pression totale = 5 bars absolus ; PpN₂ = 0,80 × 5 = 4 bars.'
+- id: n2-narcose-partielle-vingt-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  - exercice::calcul
+  status: reviewed
+  source_id: P302
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'UCalgary — The Pressure of a Mixture of Gases: Dalton’s Law, consulté le 2026-10-06 : https://chem-textbook.ucalgary.ca/chapter-9-main/the-pressure-of-a-mixture-of-gases-daltons-law/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Un mélange idéal contient 21 % d’oxygène. Quelle est sa pression partielle d’oxygène à une
+      pression totale de 3 bars absolus ?
+    back: '**0,63 bar.** PpO₂ = 0,21 × 3 = 0,63 bar. Il faut employer 21 % fourni, sans l’arrondir à 20
+      %.'
+- id: n2-narcose-fraction-pression-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P307
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: À composition d’air inchangée, pourquoi la pression partielle d’azote augmente-t-elle à la
+      descente ?
+    back: '**La fraction d’azote reste la même, mais la pression totale augmente.** Leur produit augmente
+      donc : un pourcentage constant ne signifie pas une pression partielle constante.'
+- id: n2-narcose-effets-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P308
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi la narcose à l’air s’accentue-t-elle généralement avec la profondeur ?
+    back: '**L’augmentation de la pression partielle des gaz narcotiques, notamment l’azote, perturbe
+      le fonctionnement du système nerveux.** Attention, jugement et coordination peuvent être altérés
+      pendant l’immersion ; ce mécanisme diffère d’un accident de désaturation.'
+- id: n2-narcose-variabilite-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P309
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur n’a jamais ressenti de narcose à 30 m. Peut-il considérer cette profondeur comme
+      un seuil garanti sans effet pour ses prochaines plongées ?
+    back: '**Non.** Les effets et leur perception varient entre personnes et selon les circonstances.
+      La profondeur augmente le risque, mais aucun chiffre unique ne sépare pour tous les plongeurs absence
+      et présence de narcose.'
+- id: n2-narcose-capacites-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P313
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi une euphorie inhabituelle en profondeur peut-elle être aussi inquiétante qu’une angoisse
+      ?
+    back: '**La narcose peut donner une impression trompeuse d’aisance tout en altérant le jugement, l’attention
+      et la mémoire.** Le plaisir ressenti ne démontre pas que les décisions et gestes restent fiables.'
+- id: n2-narcose-conditions-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P316
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi fatigue, anxiété et manque de pratique récente doivent-ils inciter à choisir une plongée
+      moins exigeante ?
+    back: '**Ils réduisent les capacités de gestion et peuvent accentuer les difficultés liées à la profondeur.**
+      Ils peuvent s’ajouter à la narcose et aux contraintes respiratoires ; l’expérience passée ne supprime
+      pas l’état du jour.'
+- id: n2-narcose-medicaments-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P319
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'FFESSM CMPN — Je prends des médicaments, consulté le 2026-10-06 : https://medical.ffessm.fr/je-prends-des-medicaments'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Un médicament qui provoque somnolence ou ralentissement peut-il être considéré sans conséquence
+      pour une plongée profonde ?
+    back: '**Ses effets et sa compatibilité avec la plongée doivent être évalués médicalement.** La somnolence
+      et le ralentissement peuvent altérer le jugement déjà sollicité en profondeur. Demander un avis
+      au médecin de plongée avant de plonger avec ce traitement.'
+- id: n2-narcose-reaction-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P321
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Lorsqu’une narcose est suspectée en immersion, quel changement de profondeur aide généralement
+      à réduire ses effets ?
+    back: '**Remonter vers une profondeur moindre, avec l’équipier et de façon contrôlée.** La pression
+      partielle des gaz diminue. Ne pas poursuivre la descente ni viser un nombre de mètres censé garantir
+      la disparition ; terminer la plongée si la situation compromet sa maîtrise.'
+- id: n2-narcose-equipier-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P325
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: En profondeur, un équipier répond inhabituellement lentement aux signes et répète une manipulation
+      inutile. Pourquoi faut-il intervenir plutôt que l’attendre passivement ?
+    back: '**Son jugement ou sa coordination peuvent être altérés, notamment par la narcose.** Prévenir,
+      rester au contact et organiser une remontée contrôlée vers moins profond. D’autres causes restent
+      possibles ; ne pas lui laisser seul la gestion de la situation.'
+- id: n2-narcose-apres-sortie-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::10
+  - narcose
+  status: reviewed
+  source_id: P326
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi une confusion ou une faiblesse persistante après la sortie de l’eau ne doit-elle pas
+      être simplement attribuée à une narcose vécue au fond ?
+    back: '**Les effets de narcose diminuent normalement avec la réduction de pression.** Des signes persistants
+      en surface peuvent relever d’un accident de plongée ou d’une autre urgence : déclencher une évaluation
+      urgente.'

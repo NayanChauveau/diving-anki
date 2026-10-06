@@ -1,0 +1,254 @@
+cards:
+- id: n2-froid-bilan-thermique-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P281
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi peut-on se refroidir même en bougeant pendant une plongée ?
+    back: '**Les pertes de chaleur peuvent dépasser la chaleur produite par l’organisme.** L’eau, la durée,
+      la protection et l’activité modifient ce bilan. Faire davantage d’effort ne garantit pas de maintenir
+      la température centrale.'
+- id: n2-froid-signes-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P283
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur frissonne, manipule moins bien ses attaches et répond moins clairement. Que signifie
+      cette association en eau froide ?
+    back: '**Un refroidissement avec dégradation des capacités motrices et intellectuelles est possible.**
+      Signaler la difficulté et terminer la plongée de façon contrôlée ; la température de l’eau seule
+      ne permet pas d’évaluer l’état du plongeur.'
+- id: n2-froid-fin-frissons-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P286
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur toujours très froid devient confus et cesse de frissonner. Pourquoi cela ne prouve-t-il
+      pas qu’il se réchauffe ?
+    back: '**La disparition des frissons avec altération de la conscience peut annoncer une hypothermie
+      aggravée.** Il faut le protéger du froid, le manipuler doucement et déclencher les secours ; l’absence
+      de frissons n’est pas un critère de guérison.'
+- id: n2-froid-interrompre-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P288
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi signaler le froid et interrompre une plongée avant de perdre la précision des gestes
+      ?
+    back: '**Le refroidissement altère progressivement la coordination et le jugement.** Une sortie maîtrisée
+      devient plus difficile si l’on attend ; la fin de plongée reste collective et respecte les obligations
+      de remontée.'
+- id: n2-froid-protection-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P289
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi choisir une protection thermique en fonction de la température et de la durée prévues,
+      plutôt que de la seule épaisseur écrite sur la combinaison ?
+    back: '**L’efficacité dépend aussi de l’ajustement, de l’état du vêtement et des protections des extrémités.**
+      Cagoule, chaussons et gants adaptés limitent certaines pertes ; une combinaison qui laisse circuler
+      beaucoup d’eau protège moins bien.'
+- id: n2-froid-fatigue-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P291
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi partir fatigué ou avec des apports alimentaires insuffisants réduit-il la marge face
+      au froid ?
+    back: '**La production de chaleur et les capacités de réaction peuvent être moins efficaces.** Préparer
+      la plongée avec repos et alimentation adaptés ; une boisson ou un aliment ne compense pas une protection
+      inadéquate.'
+- id: n2-froid-interactions-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P292
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi le froid peut-il compliquer une plongée profonde au-delà du seul inconfort ?
+    back: '**Il peut accroître les besoins ventilatoires et dégrader le jugement et les gestes.** Il peut
+      ainsi s’ajouter aux contraintes respiratoires et aux effets de la narcose ; ces facteurs se cumulent
+      sans seuil identique pour tous.'
+- id: n2-froid-sortie-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P293
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: À la sortie d’eau, quelles mesures limitent les pertes de chaleur d’un plongeur refroidi qui
+      reste conscient ?
+    back: '**Le mettre à l’abri du vent, l’isoler et retirer les vêtements mouillés lorsqu’il peut être
+      protégé immédiatement.** Sécher et couvrir, notamment la tête ; éviter de le déshabiller longuement
+      en plein vent.'
+- id: n2-froid-rechauffement-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P295
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur hypothermique reste confus après sa sortie de l’eau. Pourquoi faut-il le manipuler
+      doucement et éviter de frictionner vigoureusement ses membres ?
+    back: '**Une hypothermie importante fragilise le fonctionnement cardiaque.** Les manipulations brutales
+      et la mobilisation peuvent aggraver son état. L’isoler du froid, alerter les secours et suivre leurs
+      consignes de réchauffement.'
+- id: n2-froid-boisson-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P296
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: Dans quelles conditions peut-on proposer une boisson tiède non alcoolisée à un plongeur légèrement
+      refroidi ?
+    back: '**S’il est pleinement conscient, coopératif et peut avaler normalement.** Une boisson tiède
+      peut améliorer le confort et l’hydratation ; une boisson sucrée apporte aussi de l’énergie. En cas
+      de trouble de conscience, de difficulté à avaler ou de vomissement, ne rien donner par la bouche.'
+- id: n2-froid-parachute-001
+  type: basic
+  deck: Prévention des accidents
+  levels:
+  - N2
+  tags:
+  - chapitre::09
+  - froid
+  status: reviewed
+  source_id: P298
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
+    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
+    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    fact_check: pass
+  fr:
+    front: À faible profondeur en fin de plongée froide, un équipier n’arrive plus à manipuler le dévidoir
+      du parachute. Pourquoi ne faut-il pas multiplier les essais en le laissant seul ?
+    back: '**Cette maladresse peut traduire une perte de capacité liée au froid.** Prévenir et aider selon
+      le briefing, organiser ensemble la signalisation et la sortie ; prolonger les manipulations accroît
+      l’exposition et la consommation.'

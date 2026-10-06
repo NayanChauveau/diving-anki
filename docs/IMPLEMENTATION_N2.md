@@ -62,8 +62,8 @@ un chiffre. Les précisions utiles vont dans l’explication, sans transformer l
 
 **Un raisonnement complexe, plusieurs tâches distinctes.** Conserver les calculs direct et inverse,
 les conversions, l’erreur de modèle, les phases de profondeur différente et les contraintes collectives
-lorsqu’ils exigent une opération ou une décision nouvelle. Deux jeux de nombres se justifient
-seulement s’ils révèlent une difficulté différente ; ne pas multiplier les substitutions mécaniques.
+lorsqu’ils exigent une opération ou une décision nouvelle. Une courte série de valeurs variées aide aussi à automatiser une méthode de calcul ;
+combiner profondeurs, résultats entiers et décimaux, puis opérations directes et inverses.
 
 Pour un accident, mécanisme, reconnaissance, prévention et priorité de réponse peuvent être séparés.
 Un scénario reste utile s’il oblige à hiérarchiser une action avec une incertitude ou une contrainte ;
@@ -107,9 +107,9 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V06** — Boyle-Mariotte : température et quantité de gaz constantes, pressions absolues. Le stock calculé avec la pression nominale est une approximation de cours, pas une planification réelle. Tous les calculs sans réserve doivent être nommés « théoriques » ; obtenir une source pour les règles opérationnelles de réserve et de retour.
 
-- [ ] **V07** — Accidents, froid et essoufflement : vérifier mécanismes et conduites avec les supports de formation/secourisme actuels. Ne pas adopter automatiquement rinçage nasal à l’eau de mer, collyre, reprise de plongée après un délai fixe, boisson à toute victime, Valsalva forcé ou consigne de réimmersion sans contexte. Le tableau p.16 et les paragraphes p.13–16 ne sont pas entièrement équivalents.
+- [x] **V07** — Accidents, froid et essoufflement : vérifier mécanismes et conduites avec les supports de formation/secourisme actuels. Ne pas adopter automatiquement rinçage nasal à l’eau de mer, collyre, reprise de plongée après un délai fixe, boisson à toute victime, Valsalva forcé ou consigne de réimmersion sans contexte. Le tableau p.16 et les paragraphes p.13–16 ne sont pas entièrement équivalents.
 
-- [ ] **V08** — Narcose : seuils non universels ; ne pas reprendre « constante à 50 m » ni « pas de prévention » comme absolus. Composition détaillée de l’air et rôle des différents gaz à vérifier. Ne pas étendre ces documents à une formation nitrox ou à des limites de toxicité absentes.
+- [x] **V08** — Narcose : seuils non universels ; ne pas reprendre « constante à 50 m » ni « pas de prévention » comme absolus. Composition détaillée de l’air et rôle des différents gaz à vérifier. Ne pas étendre ces documents à une formation nitrox ou à des limites de toxicité absentes.
 
 - [ ] **V09** — ADD : vérifier symptômes et protocole de secours actuel, installation de la victime, débit et administration O2, hydratation, avion/altitude et effort après plongée. Ne pas enseigner un délai de 12 h comme exclusion ni une formule obligatoire d’hydratation. Le résumé physiologique sur les bulles est simplifié ; éviter de présenter tout retour de l’azote comme une formation nécessaire de microbulles.
 
@@ -348,54 +348,54 @@ Source : **S1 p.12–16**. Contrôle : **V07**. Fichier futur : `cards/n2/07-bar
 
 Source : **S1 p.17**. Contrôle : **V07**. Fichier futur : `cards/n2/08-essoufflement.yaml`.
 
-- [ ] **P261** · QCM · Rappel / application — Profondeur et effort ventilatoire.
-- [ ] **P262** · QCM · Rappel / application — Expliquer le cercle vicieux de l’essoufflement et pourquoi accélérer sa respiration ne suffit pas.
-- [ ] **P263** · QCM · Rappel / application — Effort excessif : facteur déclenchant.
-- [ ] **P265** · QCM · Rappel / application — Détendeur, robinet et ventilation : causes possibles.
-- [ ] **P266** · QCM · Rappel / application — Manque d’entraînement et mauvaise forme.
-- [ ] **P267** · QCM · Rappel / application — Air pollué : facteur cité à vérifier.
-- [ ] **P268** · QCM · Rappel / application — Signes de respiration haletante.
-- [ ] **P270** · QCM · Rappel / application — Risques de panique et d’arrachement d’embout.
-- [ ] **P272** · QCM · Rappel / application — Premiers signes : arrêter l’effort et prévenir.
-- [ ] **P274** · QCM · Rappel / application — Remontée assistée contrôlée : objectif.
-- [ ] **P277** · QCM · Rappel / application — Éviter de lutter contre un courant.
-- [ ] **P279** · QCM · Scénario — Scénario : réduire profondeur sans ignorer les autres contraintes.
-- [ ] **P280** · QCM · Rappel / application — Prise en charge en surface : protocole à vérifier.
+- [x] **P261** · QCM · Rappel / application — Profondeur et effort ventilatoire.
+- [x] **P262** · QCM · Rappel / application — Expliquer le cercle vicieux de l’essoufflement et pourquoi accélérer sa respiration ne suffit pas.
+- [x] **P263** · QCM · Rappel / application — Effort excessif : facteur déclenchant.
+- [x] **P265** · QCM · Rappel / application — Détendeur, robinet et ventilation : causes possibles.
+- [x] **P266** · QCM · Rappel / application — Manque d’entraînement et mauvaise forme.
+- [x] **P267** · QCM · Rappel / application — Air pollué : facteur cité à vérifier.
+- [x] **P268** · QCM · Rappel / application — Signes de respiration haletante.
+- [x] **P270** · QCM · Rappel / application — Risques de panique et d’arrachement d’embout.
+- [x] **P272** · QCM · Rappel / application — Premiers signes : arrêter l’effort et prévenir.
+- [x] **P274** · QCM · Rappel / application — Remontée assistée contrôlée : objectif.
+- [x] **P277** · QCM · Rappel / application — Éviter de lutter contre un courant.
+- [x] **P279** · QCM · Scénario — Scénario : réduire profondeur sans ignorer les autres contraintes.
+- [x] **P280** · QCM · Rappel / application — Prise en charge en surface : protocole à vérifier.
 
 ### 09-froid — Prévention des accidents
 
 Source : **S1 p.17–18**. Contrôle : **V07**. Fichier futur : `cards/n2/09-froid.yaml`.
 
-- [ ] **P281** · QCM · Rappel / application — Équilibre entre chaleur produite et perdue.
-- [ ] **P283** · QCM · Rappel / application — Repérer une dégradation liée au froid à partir d’un petit tableau de signes contextualisés.
-- [ ] **P286** · QCM · Rappel / application — Disparition progressive des frissons : pas un signe rassurant.
-- [ ] **P288** · QCM · Rappel / application — Froid : signaler et terminer la plongée.
-- [ ] **P289** · QCM · Rappel / application — Protection adaptée : combinaison, cagoule et chaussons.
-- [ ] **P291** · QCM · Rappel / application — Fatigue et alimentation : facteurs à considérer.
-- [ ] **P292** · QCM · Rappel / application — Froid, essoufflement et narcose : interaction.
-- [ ] **P293** · QCM · Rappel / application — Sortie : sécher et protéger du vent.
-- [ ] **P295** · QCM · Rappel / application — Éviter friction et alcool.
-- [ ] **P296** · QCM · Rappel / application — Boisson : conditions de conscience et déglutition à vérifier.
-- [ ] **P298** · QCM · Scénario — Scénario : doigts maladroits au moment du parachute.
+- [x] **P281** · QCM · Rappel / application — Équilibre entre chaleur produite et perdue.
+- [x] **P283** · QCM · Rappel / application — Repérer une dégradation liée au froid à partir d’un petit tableau de signes contextualisés.
+- [x] **P286** · QCM · Rappel / application — Disparition progressive des frissons : pas un signe rassurant.
+- [x] **P288** · QCM · Rappel / application — Froid : signaler et terminer la plongée.
+- [x] **P289** · QCM · Rappel / application — Protection adaptée : combinaison, cagoule et chaussons.
+- [x] **P291** · QCM · Rappel / application — Fatigue et alimentation : facteurs à considérer.
+- [x] **P292** · QCM · Rappel / application — Froid, essoufflement et narcose : interaction.
+- [x] **P293** · QCM · Rappel / application — Sortie : sécher et protéger du vent.
+- [x] **P295** · Basic · Scénario — Hypothermie avec confusion : manipulations douces, sans friction ; boisson non alcoolisée couverte avec P296.
+- [x] **P296** · QCM · Rappel / application — Boisson : conditions de conscience et déglutition à vérifier.
+- [x] **P298** · QCM · Scénario — Scénario : doigts maladroits au moment du parachute.
 
 ### 10-narcose — Prévention des accidents
 
 Source : **S1 p.18–19**. Contrôle : **V08**. Fichier futur : `cards/n2/10-narcose.yaml`.
 
-- [ ] **P299** · QCM · Rappel / application — Composition simplifiée de l’air 80/20.
-- [ ] **P302** · QCM · Rappel / application — Calculer une pression partielle avec fraction et pression absolue ; comprendre la somme en explication.
-- [ ] **P304** · Basic · Calcul — Calcul PpO2 à 30 m dans le modèle 20 %.
-- [ ] **P306** · Basic · Calcul — Calcul PpN2 à 40 m.
-- [ ] **P307** · QCM · Rappel / application — Pourcentage constant et pression partielle croissante.
-- [ ] **P308** · Basic · Compréhension — Narcose : lien avec la profondeur et les gaz.
-- [ ] **P309** · QCM · Rappel / application — Comprendre la variabilité de la narcose ; ne pas transformer une profondeur en seuil universel.
-- [ ] **P313** · QCM · Rappel / application — Attention et mémoire diminuées.
-- [ ] **P316** · QCM · Rappel / application — Fatigue, anxiété et manque d’expérience récente.
-- [ ] **P319** · QCM · Rappel / application — Médicaments : facteur cité à vérifier.
-- [ ] **P321** · Basic · Compréhension — Réduire la profondeur sous contrôle.
-- [ ] **P324** · QCM · Scénario — Scénario : euphorie prise pour un signe de bonne forme.
-- [ ] **P325** · QCM · Scénario — Scénario : équipier inhabituellement lent à répondre.
-- [ ] **P326** · QCM · Comparaison — Comparer narcose pendant immersion et symptômes après sortie.
+- [x] **P299** · QCM · Rappel / application — Composition simplifiée de l’air 80/20.
+- [x] **P302** · QCM · Rappel / application — Calculer une pression partielle avec fraction et pression absolue ; comprendre la somme en explication.
+- [x] **P304** · Basic · Calcul — Calcul PpO2 à 30 m dans le modèle 20 %.
+- [x] **P306** · Basic · Calcul — Calcul PpN2 à 40 m.
+- [x] **P307** · QCM · Rappel / application — Pourcentage constant et pression partielle croissante.
+- [x] **P308** · Basic · Compréhension — Narcose : lien avec la profondeur et les gaz.
+- [x] **P309** · QCM · Rappel / application — Comprendre la variabilité de la narcose ; ne pas transformer une profondeur en seuil universel.
+- [x] **P313** · QCM · Rappel / application — Attention et mémoire diminuées.
+- [x] **P316** · QCM · Rappel / application — Fatigue, anxiété et manque d’expérience récente.
+- [x] **P319** · QCM · Rappel / application — Médicaments : facteur cité à vérifier.
+- [x] **P321** · Basic · Compréhension — Réduire la profondeur sous contrôle.
+- [x] **P324** · QCM · Scénario — Scénario : euphorie prise pour un signe de bonne forme.
+- [x] **P325** · QCM · Scénario — Scénario : équipier inhabituellement lent à répondre.
+- [x] **P326** · QCM · Comparaison — Comparer narcose pendant immersion et symptômes après sortie.
 
 ### 11-add — Désaturation
 
@@ -692,3 +692,9 @@ victime ne respirant pas normalement. P221/P239 adaptés aux connaissances et re
 primaires vérifiées, sans procédure universelle de redescente. V07 vérifié pour ce chapitre ;
 reste ouvert pour essoufflement et froid. Voir [la revue](reviews/07-barotraumatismes.md).
 Total publié : 154 cartes ; 180 objectifs du catalogue encore à traiter.
+
+### Chapitres 08–10 — 6 octobre 2026
+
+11 cartes essoufflement, 11 froid et 14 narcose, vérifiées et relues. P266 → P263 ;
+P280 → secours P252 du chapitre 07 ; P324 → P313. V07 et V08 clôturés.
+Total : 190 cartes revues ; 142 objectifs encore à traiter.
