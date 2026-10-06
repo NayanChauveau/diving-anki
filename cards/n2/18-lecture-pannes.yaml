@@ -1,0 +1,68 @@
+cards:
+- id: n2-lecture-pannes-eau-bouche-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::18
+  - lecture-pannes
+  status: reviewed
+  source_id: P573
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
+    - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
+    - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    fact_check: pass
+  fr:
+    front: De l’eau entre dans la bouche à l’inspiration sur un second étage. Quelles parties peuvent
+      être en cause, au-delà de la seule purge ?
+    back: '**Un embout endommagé, la soupape d’expiration ou la membrane peuvent laisser entrer de l’eau.**
+      Le manuel cite aussi une saleté ou un mauvais fonctionnement de la soupape. Faire vérifier le matériel
+      ; ce symptôme ne permet pas de choisir une seule réparation.'
+- id: n2-lecture-pannes-chambre-humide-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::18
+  - lecture-pannes
+  status: reviewed
+  source_id: P578
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
+    - S1 p.31 et tableau p.34, conception avec chambre humide ouverte.
+    - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
+    - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    fact_check: pass
+  fr:
+    front: Dans un modèle de premier étage à piston dont la chambre humide est ouverte à l’eau, des bulles
+      d’air sortent durablement par ses orifices. Que suggère ce passage de gaz ?
+    back: '**Une perte d’étanchéité entre le circuit de gaz et la chambre humide.** Un joint peut être
+      en cause ; le modèle et l’observation doivent être contrôlés par un technicien. Une chambre humide
+      laisse entrer l’eau, mais n’est pas un échappement normal de l’air respiratoire.'
+- id: n2-lecture-pannes-flexible-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::18
+  - lecture-pannes
+  status: reviewed
+  source_id: P580
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
+    - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
+    - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    fact_check: pass
+  fr:
+    front: Un flexible présente une fissure ou un renflement visible. Pourquoi ne faut-il pas l’utiliser
+      jusqu’à l’apparition d’une fuite importante ?
+    back: '**Il peut perdre rapidement le gaz ou se rompre.** Retirer le matériel du service et faire
+      remplacer le flexible par une pièce compatible ; ruban ou serrage ne rétablissent pas sa tenue sous
+      pression.'

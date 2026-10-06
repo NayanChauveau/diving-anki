@@ -5,7 +5,7 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Les quatorze premiers chapitres contiennent 263 cartes revues : 21 sur les prérogatives N2,
+leurs cartes. Les chapitres 01–16 et 18 contiennent 301 cartes revues : 21 sur les prérogatives N2,
 20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement,
 24 sur les [pressions](docs/reviews/04-pression.md) et 25 sur la
 [flottabilité](docs/reviews/05-flottabilite.md), ainsi que 31 sur les
@@ -15,7 +15,10 @@ leurs cartes. Les quatorze premiers chapitres contiennent 263 cartes revues : 21
 [froid](docs/reviews/09-froid.md) et 14 sur la [narcose](docs/reviews/10-narcose.md), ainsi que 26 sur les
 [accidents de désaturation](docs/reviews/11-add.md) et 20 sur les
 [tables](docs/reviews/12-tables.md), 17 sur les [ordinateurs](docs/reviews/13-ordinateurs.md)
-et 10 sur les [remontées anormales](docs/reviews/14-remontees-anormales.md).
+et 10 sur les [remontées anormales](docs/reviews/14-remontees-anormales.md), 14 sur les
+[blocs et le gonflage](docs/reviews/15-gonflage-blocs.md), 21 sur les
+[détendeurs](docs/reviews/16-detendeurs.md) et 3 sur les
+[pannes complémentaires](docs/reviews/18-lecture-pannes.md).
 Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
 [l’organisation](docs/reviews/02-organisation.md) et des
 [documents et de l’environnement](docs/reviews/03-documents-environnement.md).
@@ -53,7 +56,7 @@ pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
 N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
 **Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-53 cartes sont regroupées dans Réglementation et 80 dans Physique et 57 dans Prévention des accidents ; 73 dans Désaturation ; Matériel et préparation apparaîtra avec ses premières cartes. Les fichiers et tags conservent le détail des chapitres.
+53 cartes sont regroupées dans Réglementation et 80 dans Physique et 57 dans Prévention des accidents ; 73 dans Désaturation ; 38 dans Matériel et préparation. Les fichiers et tags conservent le détail des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
 

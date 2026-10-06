@@ -1,0 +1,311 @@
+cards:
+- id: n2-gonflage-blocs-compresseur-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P474
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'DAN — Breathing Gas Contamination, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi une station de gonflage aspire-t-elle l’air loin de sources de fumées ou d’échappement
+      ?
+    back: '**Le compresseur comprime l’air aspiré pour remplir les blocs.** Des contaminants peuvent donc
+      se retrouver dans le gaz respiré ; les filtres ne rendent pas acceptable une prise d’air polluée.'
+- id: n2-gonflage-blocs-tampons-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P477
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - S1 p.29, compresseur et tampons.
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Quelle différence entre gonfler directement avec un compresseur et utiliser une batterie de
+      bouteilles tampons ?
+    back: '**En direct, le compresseur alimente le bloc ; avec les tampons, une réserve d’air déjà comprimé
+      est transvasée.** Le transfert dépend de la différence de pression et des réglages de la station
+      ; le tampon ne produit pas lui-même du gaz.'
+- id: n2-gonflage-blocs-pression-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P479
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Un bloc est marqué PS 230 bar et PT 345 bar. Quelle pression fixe sa limite admissible de gonflage
+      ?
+    back: '**PS 230 bar.** PS est la pression maximale admissible ; PT 345 bar est la pression d’épreuve,
+      pas une pression de remplissage autorisée.'
+- id: n2-gonflage-blocs-habilitation-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P480
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Arrêté du 20 novembre 2017, version en vigueur au 2026-10-06, articles 5, 15 et 18 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Le brevet N2 suffit-il à autoriser l’utilisation autonome d’une station de gonflage du club
+      ?
+    back: '**Non.** Le gonflage exige la compétence et l’autorisation prévues pour cette station, sous
+      la responsabilité de son exploitant. Le brevet de plongeur ne vaut pas habilitation de gonflage.'
+- id: n2-gonflage-blocs-materiau-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P483
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - S1 p.30 ; calcul de flottabilité du chapitre 05.
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Le seul mot « aluminium » suffit-il à conclure qu’un bloc sera plus léger et moins négatif
+      qu’un bloc acier ?
+    back: '**Non : il faut connaître sa masse, son volume extérieur et le gaz contenu.** Les épaisseurs
+      et dimensions varient avec la conception ; le matériau seul ne donne pas la flottabilité de l’ensemble.'
+- id: n2-gonflage-blocs-bi-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P484
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - S1 p.30, mono/bi ; configuration conceptuelle.
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Deux bouteilles réunies en bi-bloc garantissent-elles automatiquement deux réserves indépendantes
+      ?
+    back: '**Non : cela dépend de leur robinetterie et de leur liaison éventuelle.** Deux bouteilles reliées
+      peuvent partager le gaz ; deux volumes physiquement présents ne prouvent pas leur indépendance en
+      cas de fuite.'
+- id: n2-gonflage-blocs-chaleur-chocs-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P494
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi éviter de laisser un bloc gonflé dans un véhicule surchauffé et de le faire tomber
+      ?
+    back: '**La chaleur augmente la pression du gaz et un choc peut endommager bouteille ou robinetterie.**
+      Protéger le bloc des températures excessives et des impacts ; sa résistance à la pression ne le
+      rend pas insensible aux dégâts.'
+- id: n2-gonflage-blocs-eau-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P495
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi un bloc vide ne doit-il pas rester robinet ouvert dans l’eau ou au fond d’un bateau
+      mouillé ?
+    back: '**De l’eau peut entrer et favoriser corrosion et contamination.** Le protéger de l’eau ; s’il
+      s’est entièrement vidé en plongée, la notice Roth recommande de laisser le détendeur monté jusqu’à
+      sa mise à l’abri.'
+- id: n2-gonflage-blocs-vidange-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P496
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi ne faut-il pas vider brutalement un bloc en ouvrant grand son robinet à l’air libre
+      ?
+    back: '**La détente rapide refroidit fortement le gaz et la robinetterie**, avec risque de givrage
+      et de condensation. Le jet et le bruit ajoutent des dangers ; une dépressurisation se fait dans
+      les conditions adaptées par une personne compétente.'
+- id: n2-gonflage-blocs-corrosion-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P497
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Arrêté du 20 novembre 2017, version en vigueur au 2026-10-06, articles 5, 15 et 18 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Des éclats de peinture et de la rouille apparaissent sous le culot d’un bloc. Pourquoi ne suffit-il
+      pas de recouvrir la zone de peinture ?
+    back: '**Il faut faire vérifier l’état du métal et la corrosion**, avant de décider de l’entretien
+      ou du maintien en service. La peinture protège l’extérieur mais peut masquer une dégradation ; elle
+      ne restaure pas l’épaisseur perdue.'
+- id: n2-gonflage-blocs-periodicites-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P500
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Arrêté du 20 novembre 2017, version en vigueur au 2026-10-06, articles 5, 15 et 18 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632'
+    - 'FFESSM — Cahier des charges inspection des bouteilles métalliques, 4 décembre 2015 : https://tiv.ffessm.fr/Docs/CC-TIV-04-12-2015.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: En France, pour un bloc métallique de plongée suivi selon le cahier des charges donnant droit
+      au régime de six ans, quelles échéances distinguer de la requalification ordinaire ?
+    back: '**Requalification maximale de 6 ans au lieu de 2 ans en régime ordinaire.** Le régime de 6
+      ans exige les inspections et la traçabilité du cahier des charges : inspection au moins annuelle,
+      ou avant réutilisation si plus d’un an s’est écoulé. Une simple vérification informelle ne suffit
+      pas.'
+- id: n2-gonflage-blocs-transport-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P502
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'DAN Europe — Transport routier personnel de bouteilles : https://alertdiver.eu/fr_FR/articles/comment-transporter-une-bouteille-de-plongee-regles-a-respecter/'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Pour transporter personnellement un bloc d’air gonflé en voiture, quelle précaution matérielle
+      est essentielle ?
+    back: '**L’immobiliser pour éviter qu’il roule ou se projette, et protéger la robinetterie des chocs
+      et de l’ouverture accidentelle.** Éviter la chaleur excessive et respecter les règles du transport
+      concerné ; transport routier personnel et avion n’ont pas les mêmes conditions.'
+- id: n2-gonflage-blocs-date-depassee-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P505
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - 'Arrêté du 20 novembre 2017, version en vigueur au 2026-10-06, articles 5, 15 et 18 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632'
+    - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: La date de requalification d’un bloc a dépassé l’échéance de son régime de suivi, mais il garde
+      sa pression sans fuite. Peut-on le faire gonfler pour une dernière plongée ?
+    back: '**Non : le retirer du service jusqu’au contrôle requis et à une remise en service conforme.**
+      L’absence de fuite ne démontre pas la tenue du métal ni la validité du suivi.'
+- id: n2-gonflage-blocs-lestage-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::15
+  - gonflage-blocs
+  status: reviewed
+  source_id: P506
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
+    - S1 p.30 ; flottabilité chapitre 05.
+    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    fact_check: pass
+  fr:
+    front: Vous remplacez votre bloc habituel par un autre modèle de même capacité intérieure. Pourquoi
+      vérifier à nouveau le lestage ?
+    back: '**Sa masse et son volume extérieur peuvent différer**, donc sa flottabilité aussi. Contrôler
+      la configuration avec le matériel réellement porté et la situation de fin de plongée, pas la seule
+      indication en litres.'

@@ -119,9 +119,9 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V12** — Remontées anormales : S1 juxtapose procédures MN90 et préconisations fédérales dites nouvelles en 2024. Retrouver le texte primaire et sa version avant rédiger des cartes d’action (seuils, délais, profondeurs, paliers, réimmersion, observation). Aucune carte de réimmersion prête à publier sur le seul extrait.
 
-- [ ] **V13** — Blocs : S1 mentionne 2 ans / 5 ans avec TIV et « ne pas transporter sous pression ». Vérifier réglementation des équipements sous pression, régime TIV et consignes de transport actuels. Ne pas publier ces formulations telles quelles. Gonflage réservé aux opérateurs habilités.
+- [x] **V13** — Blocs : S1 mentionne 2 ans / 5 ans avec TIV et « ne pas transporter sous pression ». Vérifier réglementation des équipements sous pression, régime TIV et consignes de transport actuels. Ne pas publier ces formulations telles quelles. Gonflage réservé aux opérateurs habilités.
 
-- [ ] **V14** — Détendeurs : schémas et tableaux décrivent des conceptions particulières. Confirmer différences de MP, compensation, froid, entretien et stockage au manuel constructeur. Panne observée ≠ cause certaine ; ne pas transformer la colonne réparation en tutoriel de démontage. Les modèles commerciaux sont des exemples datés, pas une liste à apprendre.
+- [x] **V14** — Détendeurs : schémas et tableaux décrivent des conceptions particulières. Confirmer différences de MP, compensation, froid, entretien et stockage au manuel constructeur. Panne observée ≠ cause certaine ; ne pas transformer la colonne réparation en tutoriel de démontage. Les modèles commerciaux sont des exemples datés, pas une liste à apprendre.
 
 - [ ] **V15** — S2 énonce des compétences sans cours détaillé pour orientation, assistance et planification. Les cartes fondées sur ce flyer peuvent tester les objectifs et responsabilités ; obtenir une source supplémentaire pour les procédures techniques. Les cartes ne valident pas la maîtrise pratique.
 
@@ -501,48 +501,48 @@ Source : **S1 p.26–27**. Contrôle : **V12**. Fichier futur : `cards/n2/14-rem
 
 Source : **S1 p.29–30**. Contrôle : **V13**. Fichier futur : `cards/n2/15-gonflage-blocs.yaml`.
 
-- [ ] **P474** · QCM · Rappel / application — Compresseur : aspiration atmosphérique et compression.
-- [ ] **P477** · QCM · Comparaison — Gonflage direct versus bouteilles tampons.
-- [ ] **P479** · QCM · Rappel / application — Pression de gonflage : respecter la pression de service.
-- [ ] **P480** · QCM · Rappel / application — Habilitation et accès au local de gonflage.
-- [ ] **P482** · QCM · Rappel / application — Bloc : stockage du gaz respirable.
-- [ ] **P483** · QCM · Rappel / application — Acier et aluminium : matériaux.
-- [ ] **P484** · QCM · Rappel / application — Mono et bi : configurations.
-- [ ] **P488** · QCM · Rappel / application — Distinguer pression de service et pression d’épreuve ; choisir la donnée pertinente pour le gonflage.
-- [ ] **P494** · QCM · Rappel / application — Éviter chocs et grandes variations thermiques.
-- [ ] **P495** · QCM · Rappel / application — Robinetterie ouverte dans l’eau : risque.
-- [ ] **P496** · QCM · Rappel / application — Décharge brutale à l’air : risque.
-- [ ] **P497** · QCM · Rappel / application — Peinture et corrosion : surveillance.
+- [x] **P474** · QCM · Rappel / application — Compresseur : aspiration atmosphérique et compression.
+- [x] **P477** · QCM · Comparaison — Gonflage direct versus bouteilles tampons.
+- [x] **P479** · QCM · Rappel / application — Pression de gonflage : respecter la pression de service.
+- [x] **P480** · QCM · Rappel / application — Habilitation et accès au local de gonflage.
+- [x] **P482** · QCM · Rappel / application — Bloc : stockage du gaz respirable.
+- [x] **P483** · QCM · Rappel / application — Acier et aluminium : matériaux.
+- [x] **P484** · QCM · Rappel / application — Mono et bi : configurations.
+- [x] **P488** · QCM · Rappel / application — Distinguer pression de service et pression d’épreuve ; choisir la donnée pertinente pour le gonflage.
+- [x] **P494** · QCM · Rappel / application — Éviter chocs et grandes variations thermiques.
+- [x] **P495** · QCM · Rappel / application — Robinetterie ouverte dans l’eau : risque.
+- [x] **P496** · QCM · Rappel / application — Décharge brutale à l’air : risque.
+- [x] **P497** · QCM · Rappel / application — Peinture et corrosion : surveillance.
 - [x] **P498** · QCM · Comparaison — Inspection visuelle et requalification : distinction.
-- [ ] **P500** · QCM · Rappel / application — Périodicités et régime de suivi : vérifier la règle actuelle.
-- [ ] **P502** · QCM · Rappel / application — Transport d’un bloc gonflé : corriger la formulation générale du support.
-- [ ] **P504** · QCM · Scénario — Lire une inscription de bloc fictive : trouver capacité et pression de service parmi les autres marquages.
-- [ ] **P505** · QCM · Scénario — Scénario : bloc à requalification dépassée.
-- [ ] **P506** · QCM · Scénario — Scénario : changement de bloc et réévaluation du lestage.
+- [x] **P500** · QCM · Rappel / application — Périodicités et régime de suivi : vérifier la règle actuelle.
+- [x] **P502** · QCM · Rappel / application — Transport d’un bloc gonflé : corriger la formulation générale du support.
+- [x] **P504** · QCM · Scénario — Lire une inscription de bloc fictive : trouver capacité et pression de service parmi les autres marquages.
+- [x] **P505** · QCM · Scénario — Scénario : bloc à requalification dépassée.
+- [x] **P506** · QCM · Scénario — Scénario : changement de bloc et réévaluation du lestage.
 
 ### 16-detendeurs — Matériel et préparation
 
 Source : **S1 p.30–34**. Contrôle : **V14**. Fichier futur : `cards/n2/16-detendeurs.yaml`.
 
-- [ ] **P508** · QCM · Rappel / application — Sur un circuit bloc–détendeur, associer HP, MP et pression ambiante à leur position et aux deux étages.
-- [ ] **P512** · QCM · Comparaison — MP relative et MP absolue : distinction.
-- [ ] **P514** · QCM · Rappel / application — Fixation DIN et étrier : identifier.
-- [ ] **P515** · QCM · Rappel / application — Premier étage à membrane ou piston.
-- [ ] **P519** · QCM · Rappel / application — Expliquer l’ouverture puis la fermeture du premier étage dans une conception annoncée ; pièces en explication.
-- [ ] **P521** · QCM · Rappel / application — Second étage à l’inspiration : membrane et levier.
-- [ ] **P523** · QCM · Rappel / application — Bouton de purge : fonction.
-- [ ] **P524** · QCM · Rappel / application — Second étage immergé : évacuer l’eau avant inspiration.
-- [ ] **P525** · QCM · Rappel / application — Entrée premier étage : prévenir la pénétration d’eau.
-- [ ] **P526** · QCM · Comparaison — Détendeur simple versus compensé : rôle de la compensation.
-- [ ] **P532** · QCM · Rappel / application — Choisir un détendeur adapté au contexte à partir de caractéristiques constructeur ; éviter les slogans commerciaux.
-- [ ] **P537** · QCM · Rappel / application — Éviter soleil, chocs et écrasement.
-- [ ] **P539** · QCM · Rappel / application — Révision périodique selon constructeur et usage.
-- [ ] **P540** · QCM · Rappel / application — Débit continu : causes dans le tableau source à relever.
-- [ ] **P541** · QCM · Rappel / application — Fuite de robinetterie : joint et montage, tableau à relever.
-- [ ] **P542** · QCM · Rappel / application — Inspiration difficile : pression, ouverture, filtre ou réglage, à confirmer.
-- [ ] **P543** · QCM · Rappel / application — Incident de détendeur : priorité à la sécurité de la palanquée.
-- [ ] **P544** · QCM · Rappel / application — Tableau de pannes : séparer observation, cause possible et action autorisée.
-- [ ] **P545** · QCM · Scénario — Scénario : confusion entre MP et pression délivrée à la bouche.
+- [x] **P508** · QCM · Rappel / application — Sur un circuit bloc–détendeur, associer HP, MP et pression ambiante à leur position et aux deux étages.
+- [x] **P512** · QCM · Comparaison — MP relative et MP absolue : distinction.
+- [x] **P514** · QCM · Rappel / application — Fixation DIN et étrier : identifier.
+- [x] **P515** · QCM · Rappel / application — Premier étage à membrane ou piston.
+- [x] **P519** · QCM · Rappel / application — Expliquer l’ouverture puis la fermeture du premier étage dans une conception annoncée ; pièces en explication.
+- [x] **P521** · QCM · Rappel / application — Second étage à l’inspiration : membrane et levier.
+- [x] **P523** · QCM · Rappel / application — Bouton de purge : fonction.
+- [x] **P524** · QCM · Rappel / application — Second étage immergé : évacuer l’eau avant inspiration.
+- [x] **P525** · QCM · Rappel / application — Entrée premier étage : prévenir la pénétration d’eau.
+- [x] **P526** · QCM · Comparaison — Détendeur simple versus compensé : rôle de la compensation.
+- [x] **P532** · QCM · Rappel / application — Choisir un détendeur adapté au contexte à partir de caractéristiques constructeur ; éviter les slogans commerciaux.
+- [x] **P537** · QCM · Rappel / application — Éviter soleil, chocs et écrasement.
+- [x] **P539** · QCM · Rappel / application — Révision périodique selon constructeur et usage.
+- [x] **P540** · QCM · Rappel / application — Débit continu : causes dans le tableau source à relever.
+- [x] **P541** · QCM · Rappel / application — Fuite de robinetterie : joint et montage, tableau à relever.
+- [x] **P542** · QCM · Rappel / application — Inspiration difficile : pression, ouverture, filtre ou réglage, à confirmer.
+- [x] **P543** · QCM · Rappel / application — Incident de détendeur : priorité à la sécurité de la palanquée.
+- [x] **P544** · QCM · Rappel / application — Tableau de pannes : séparer observation, cause possible et action autorisée.
+- [x] **P545** · QCM · Scénario — Scénario : confusion entre MP et pression délivrée à la bouche.
 
 ### 17-competences-transversales — Matériel et préparation
 
@@ -569,12 +569,12 @@ Source : **S2 p.1–2 ; S1 p.3–5, 11–12, 23, 28**. Contrôle : **V15**. Fich
 
 Source : **S1 p.24–25, 31–34 (figures et tableau)**. Contrôle : **V14**. Fichier futur : `cards/n2/18-lecture-pannes.yaml`.
 
-- [ ] **P573** · QCM · Rappel / application — Entrée d’eau à l’inspiration : embout endommagé.
-- [ ] **P577** · QCM · Rappel / application — Absence d’air : premier étage bloqué, cause possible non exclusive.
-- [ ] **P578** · QCM · Rappel / application — Bulles chambre humide : défaut de joints, hypothèse source.
-- [ ] **P580** · QCM · Rappel / application — Flexible endommagé : fuite et vidange rapide.
-- [ ] **P581** · QCM · Rappel / application — Réparation interne : confier à une personne qualifiée.
-- [ ] **P585** · QCM · Lecture / repérage — Lire un schéma original : distinguer les fonctions des deux étages ; détails du modèle explicités.
+- [x] **P573** · QCM · Rappel / application — Entrée d’eau à l’inspiration : embout endommagé.
+- [x] **P577** · QCM · Rappel / application — Absence d’air : premier étage bloqué, cause possible non exclusive.
+- [x] **P578** · QCM · Rappel / application — Bulles chambre humide : défaut de joints, hypothèse source.
+- [x] **P580** · QCM · Rappel / application — Flexible endommagé : fuite et vidange rapide.
+- [x] **P581** · QCM · Rappel / application — Réparation interne : confier à une personne qualifiée.
+- [x] **P585** · QCM · Lecture / repérage — Lire un schéma original : distinguer les fonctions des deux étages ; détails du modèle explicités.
 
 ### Reprises complémentaires à répartir dans les fichiers existants
 
@@ -584,7 +584,7 @@ la revue de couverture, pas à imposer un ordre de révision. Même source et co
 - [ ] **P594** · QCM · Erreur · `04-pression.yaml` — Un calcul donne 2 bar à 20 m : identifier la pression oubliée.
 - [ ] **P606** · QCM · Comparaison · `07-barotraumatismes.yaml` — Distinguer équilibrage d’oreille à la descente et ventilation libre à la remontée.
 - [ ] **P622** · QCM · Erreur · `13-ordinateurs.yaml` — Différencier temps écoulé, NDL et DTR sur trois écrans fictifs.
-- [ ] **P627** · Basic · Calcul · `16-detendeurs.yaml` — Avec MP relative fournie, calculer MP absolue à 20 m dans un modèle fictif.
+- [x] **P627** · Basic · Calcul · `16-detendeurs.yaml` — Avec MP relative fournie, calculer MP absolue à 20 m dans un modèle fictif.
 
 ## Compléments nécessaires pour ne pas donner une fausse impression d’exhaustivité
 
@@ -718,3 +718,10 @@ Total : 236 cartes revues ; 90 objectifs encore à traiter.
 ### Chapitre 14 — 6 octobre 2026
 
 10 cartes revues. V12 clôturé. Total 263 cartes, 62 objectifs restants.
+
+### Chapitres 15, 16 et 18 — 6 octobre 2026
+
+14 cartes blocs/gonflage, 21 détendeurs dont trois calculs et un schéma original,
+3 pannes complémentaires. P488 → P479 ; P482 → P185/P195 ; P504 → P479/P195 ;
+P577 → P542/P544 ; P581 → P544 ; P585 → schéma P508. V13/V14 clôturés.
+Total : 301 cartes revues ; 19 objectifs encore à traiter.
