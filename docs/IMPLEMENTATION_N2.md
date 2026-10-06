@@ -401,40 +401,40 @@ Source : **S1 p.18–19**. Contrôle : **V08**. Fichier futur : `cards/n2/10-nar
 
 Source : **S1 p.20–23**. Contrôle : **V09**. Fichier futur : `cards/n2/11-add.yaml`.
 
-- [ ] **P328** · QCM · Rappel / application — Loi de Henry : relation qualitative avec la pression.
-- [ ] **P330** · QCM · Rappel / application — Analogie eau gazeuse : dépressurisation.
-- [ ] **P333** · QCM · Rappel / application — Profondeur et charge en azote.
-- [ ] **P334** · QCM · Rappel / application — Durée d’exposition et charge en azote.
-- [ ] **P335** · QCM · Rappel / application — Irrigation et différences entre tissus.
-- [ ] **P336** · QCM · Rappel / application — Élimination pendant remontée et après sortie.
-- [ ] **P337** · Basic · Compréhension — Rôle de la ventilation et des poumons.
-- [ ] **P338** · QCM · Rappel / application — Remontée rapide et formation de bulles.
-- [ ] **P341** · QCM · Rappel / application — Effort et froid : facteurs de risque à contextualiser.
-- [ ] **P342** · Basic · Compréhension — ADD et surpression pulmonaire : mécanismes différents.
-- [ ] **P343** · QCM · Rappel / application — ADD malgré le respect affiché du moyen de désaturation.
-- [ ] **P344** · QCM · Rappel / application — Apparition des signes immédiate ou retardée.
-- [ ] **P346** · QCM · Rappel / application — Manifestations cutanées : reconnaissance.
-- [ ] **P350** · QCM · Rappel / application — Oreille interne : vertiges et troubles auditifs.
-- [ ] **P351** · QCM · Rappel / application — Reconnaître des signes neurologiques suspects après plongée ; choisir l’alerte plutôt que l’autodiagnostic.
-- [ ] **P354** · QCM · Rappel / application — Fatigue inhabituelle et changement de comportement.
-- [ ] **P355** · QCM · Rappel / application — Signes respiratoires et douleur thoracique.
-- [ ] **P358** · QCM · Rappel / application — Déclencher les secours sans attendre une certitude.
-- [ ] **P359** · Basic · Compréhension — Oxygène : rôle et protocole applicable.
-- [ ] **P360** · QCM · Rappel / application — Installation de la victime : posture à vérifier.
-- [ ] **P361** · QCM · Rappel / application — Hydratation : conditions à vérifier, pas de règle universelle.
-- [ ] **P362** · QCM · Rappel / application — Paramètres de plongée à transmettre.
-- [ ] **P365** · QCM · Rappel / application — Surveiller les équipiers.
-- [ ] **P366** · QCM · Erreur / limite — Ne pas réimmerger une victime suspecte.
-- [ ] **P367** · QCM · Rappel / application — Amélioration apparente : ne pas interrompre l’alerte ou l’oxygène.
-- [ ] **P368** · QCM · Rappel / application — Évacuation décidée avec les secours.
-- [ ] **P369** · QCM · Rappel / application — Respecter paliers et consignes de remontée.
-- [ ] **P370** · QCM · Rappel / application — Éviter efforts importants après immersion.
-- [ ] **P371** · QCM · Rappel / application — Apnée après plongée : précautions à documenter.
-- [ ] **P374** · QCM · Rappel / application — Profils inversés et yoyos : contextualiser.
+- [x] **P328** · QCM · Rappel / application — Loi de Henry : relation qualitative avec la pression.
+- [x] **P330** · QCM · Rappel / application — Analogie eau gazeuse : dépressurisation.
+- [x] **P333** · QCM · Rappel / application — Profondeur et charge en azote.
+- [x] **P334** · QCM · Rappel / application — Durée d’exposition et charge en azote.
+- [x] **P335** · QCM · Rappel / application — Irrigation et différences entre tissus.
+- [x] **P336** · QCM · Rappel / application — Élimination pendant remontée et après sortie.
+- [x] **P337** · Basic · Compréhension — Rôle de la ventilation et des poumons.
+- [x] **P338** · QCM · Rappel / application — Remontée rapide et formation de bulles.
+- [x] **P341** · QCM · Rappel / application — Effort et froid : facteurs de risque à contextualiser.
+- [x] **P342** · Basic · Compréhension — ADD et surpression pulmonaire : mécanismes différents.
+- [x] **P343** · QCM · Rappel / application — ADD malgré le respect affiché du moyen de désaturation.
+- [x] **P344** · QCM · Rappel / application — Apparition des signes immédiate ou retardée.
+- [x] **P346** · QCM · Rappel / application — Manifestations cutanées : reconnaissance.
+- [x] **P350** · QCM · Rappel / application — Oreille interne : vertiges et troubles auditifs.
+- [x] **P351** · QCM · Rappel / application — Reconnaître des signes neurologiques suspects après plongée ; choisir l’alerte plutôt que l’autodiagnostic.
+- [x] **P354** · QCM · Rappel / application — Fatigue inhabituelle et changement de comportement.
+- [x] **P355** · QCM · Rappel / application — Signes respiratoires et douleur thoracique.
+- [x] **P358** · QCM · Rappel / application — Déclencher les secours sans attendre une certitude.
+- [x] **P359** · Basic · Compréhension — Oxygène : rôle et protocole applicable.
+- [x] **P360** · QCM · Rappel / application — Installation de la victime : posture à vérifier.
+- [x] **P361** · QCM · Rappel / application — Hydratation : conditions à vérifier, pas de règle universelle.
+- [x] **P362** · QCM · Rappel / application — Paramètres de plongée à transmettre.
+- [x] **P365** · QCM · Rappel / application — Surveiller les équipiers.
+- [x] **P366** · QCM · Erreur / limite — Ne pas réimmerger une victime suspecte.
+- [x] **P367** · QCM · Rappel / application — Amélioration apparente : ne pas interrompre l’alerte ou l’oxygène.
+- [x] **P368** · QCM · Rappel / application — Évacuation décidée avec les secours.
+- [x] **P369** · QCM · Rappel / application — Respecter paliers et consignes de remontée.
+- [x] **P370** · QCM · Rappel / application — Éviter efforts importants après immersion.
+- [x] **P371** · QCM · Rappel / application — Apnée après plongée : précautions à documenter.
+- [x] **P374** · QCM · Rappel / application — Oscillations de profondeur : effets et prévention ; pas d’interdiction absolue de tout profil inversé.
 - [ ] **P375** · QCM · Rappel / application — Nombre de plongées et intervalle : référentiel à préciser.
-- [ ] **P376** · QCM · Rappel / application — Avion et altitude : délai à documenter.
-- [ ] **P377** · QCM · Scénario — Scénario : douleur articulaire après retour au bateau.
-- [ ] **P380** · QCM · Scénario — Scénario : deux accidents possibles, même priorité d’alerte.
+- [x] **P376** · QCM · Rappel / application — Avion et altitude : délai à documenter.
+- [x] **P377** · QCM · Scénario — Scénario : douleur articulaire après retour au bateau.
+- [x] **P380** · QCM · Scénario — Scénario : deux accidents possibles, même priorité d’alerte.
 
 ### 12-tables — Désaturation
 
@@ -698,3 +698,9 @@ Total publié : 154 cartes ; 180 objectifs du catalogue encore à traiter.
 11 cartes essoufflement, 11 froid et 14 narcose, vérifiées et relues. P266 → P263 ;
 P280 → secours P252 du chapitre 07 ; P324 → P313. V07 et V08 clôturés.
 Total : 190 cartes revues ; 142 objectifs encore à traiter.
+
+### Chapitre 11 — 6 octobre 2026
+
+26 cartes nouvelles ; sept objectifs de reconnaissance/secours réutilisent le chapitre 07.
+Total : 216 cartes revues ; 109 objectifs encore à traiter. P375 sera couvert avec les tables ;
+V09 reste ouvert pour cette dernière précision de domaine d’emploi.

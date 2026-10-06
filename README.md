@@ -5,14 +5,15 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Les dix premiers chapitres contiennent 190 cartes revues : 21 sur les prérogatives N2,
+leurs cartes. Les onze premiers chapitres contiennent 216 cartes revues : 21 sur les prérogatives N2,
 20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement,
 24 sur les [pressions](docs/reviews/04-pression.md) et 25 sur la
 [flottabilité](docs/reviews/05-flottabilite.md), ainsi que 31 sur les
 [gaz et l’autonomie](docs/reviews/06-gaz-autonomie.md), dont 20 exercices, et 21 sur les
 [barotraumatismes](docs/reviews/07-barotraumatismes.md), 11 sur
 [l’essoufflement](docs/reviews/08-essoufflement.md), 11 sur le
-[froid](docs/reviews/09-froid.md) et 14 sur la [narcose](docs/reviews/10-narcose.md).
+[froid](docs/reviews/09-froid.md) et 14 sur la [narcose](docs/reviews/10-narcose.md), ainsi que 26 sur les
+[accidents de désaturation](docs/reviews/11-add.md).
 Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
 [l’organisation](docs/reviews/02-organisation.md) et des
 [documents et de l’environnement](docs/reviews/03-documents-environnement.md).
@@ -50,8 +51,7 @@ pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
 N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
 **Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-53 cartes sont regroupées dans Réglementation et 80 dans Physique et 57 dans Prévention des accidents ; les autres catégories
-apparaîtront avec leurs premières cartes. Les fichiers et tags conservent le détail des chapitres.
+53 cartes sont regroupées dans Réglementation et 80 dans Physique et 57 dans Prévention des accidents ; 26 dans Désaturation ; Matériel et préparation apparaîtra avec ses premières cartes. Les fichiers et tags conservent le détail des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
 

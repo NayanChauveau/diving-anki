@@ -1,0 +1,591 @@
+cards:
+- id: n2-add-henry-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P328
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: À température constante, quel effet a une augmentation de la pression partielle d’un gaz sur
+      sa quantité dissoute à l’équilibre dans un liquide ?
+    back: '**La quantité dissoute à l’équilibre augmente proportionnellement à cette pression partielle**,
+      pour le même gaz et le même liquide. Dans l’organisme, atteindre ce nouvel équilibre demande du
+      temps.'
+- id: n2-add-bouteille-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P330
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi des bulles apparaissent-elles à l’ouverture d’une bouteille d’eau gazeuse ?
+    back: '**La chute de pression rend le liquide sursaturé en gaz.** Une partie du gaz dissous quitte
+      alors la solution sous forme de bulles. La pression plus élevée dans la bouteille fermée permettait
+      de maintenir davantage de gaz dissous.'
+- id: n2-add-profondeur-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P333
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: À durée et mélange respiré comparables, pourquoi une plongée plus profonde tend-elle à augmenter
+      la charge en azote ?
+    back: '**La pression partielle d’azote respiré augmente.** Elle crée un écart plus grand avec l’azote
+      déjà dissous dans les tissus, favorisant son entrée dans l’organisme.'
+- id: n2-add-duree-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P334
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: À profondeur constante, pourquoi prolonger une plongée peut-il augmenter les obligations de
+      désaturation ?
+    back: '**Les tissus continuent à absorber de l’azote tant qu’ils n’ont pas atteint leur équilibre
+      avec le gaz respiré.** Une durée plus longue peut donc accroître la charge, même sans descendre
+      davantage.'
+- id: n2-add-tissus-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P335
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi tous les tissus ne se chargent-ils pas en azote à la même vitesse ?
+    back: '**Leur circulation sanguine et leurs propriétés de diffusion et de solubilité diffèrent.**
+      Les modèles de décompression représentent ces vitesses par plusieurs compartiments ; un compartiment
+      de calcul n’est pas un organe précis.'
+- id: n2-add-apres-sortie-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P336
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi sortir de l’eau ne signifie-t-il pas que tout l’azote supplémentaire a été éliminé
+      ?
+    back: '**L’élimination se poursuit après la plongée.** Certains tissus restent chargés au-delà de
+      leur équilibre de surface ; ce gaz résiduel influence une plongée suivante et l’exposition à une
+      altitude plus élevée.'
+- id: n2-add-poumons-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P337
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Par quel trajet l’azote dissous dans les tissus est-il éliminé pendant la désaturation ?
+    back: '**Tissus → sang → poumons → air expiré.** Le gaz passe vers les alvéoles lorsque l’écart de
+      pression le permet. Sa sortie n’exige pas qu’il forme d’abord de grosses bulles dans le sang.'
+- id: n2-add-bulles-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P338
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi une diminution trop rapide de pression favorise-t-elle un accident de désaturation
+      ?
+    back: '**Elle peut créer une sursaturation excessive et favoriser des bulles de gaz inerte.** Celles-ci
+      peuvent perturber les tissus et la circulation et provoquer des réactions inflammatoires. L’accident
+      ne se résume pas à un seul vaisseau bouché.'
+- id: n2-add-froid-effort-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P341
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi la température et l’effort doivent-ils être pris en compte dans le risque de désaturation
+      ?
+    back: '**Ils modifient la circulation sanguine, donc la prise et l’élimination du gaz inerte.** L’effort
+      au fond peut augmenter la prise d’azote ; un refroidissement pendant la remontée peut ralentir son
+      élimination. Leur effet dépend du moment et de l’intensité.'
+- id: n2-add-modele-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P343
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur a respecté les indications de son ordinateur. Pourquoi un accident de désaturation
+      reste-t-il possible ?
+    back: '**L’ordinateur applique un modèle, sans mesurer directement l’azote ni les bulles dans ses
+      tissus.** Le respect des indications réduit le risque sans garantir son absence ; l’état du plongeur
+      et les conditions de plongée comptent aussi.'
+- id: n2-add-retard-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P344
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi l’absence de symptôme immédiat au retour au bateau n’écarte-t-elle pas un accident
+      de désaturation ?
+    back: '**Des signes peuvent apparaître plus tard, souvent dans les heures suivantes.** Un symptôme
+      inhabituel doit être signalé en précisant la plongée récente ; douze heures n’est pas une limite
+      après laquelle toute origine liée à la plongée est exclue.'
+- id: n2-add-peau-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P346
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Après une plongée, des démangeaisons s’accompagnent de marbrures inhabituelles sur le tronc.
+      Pourquoi faut-il les signaler rapidement ?
+    back: '**Ces manifestations cutanées peuvent correspondre à un accident de désaturation.** Elles justifient
+      une évaluation et ne permettent pas de conclure à un problème bénin limité à la peau.'
+- id: n2-add-oreille-interne-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P350
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Un vertige persiste après la sortie de l’eau, avec baisse d’audition. Pourquoi ne faut-il pas
+      conclure à un simple problème d’équilibrage ?
+    back: '**Une atteinte de l’oreille interne est possible**, notamment par désaturation ou barotraumatisme.
+      Une évaluation urgente doit distinguer ces causes ; le seul symptôme ne permet pas de choisir un
+      traitement.'
+- id: n2-add-fatigue-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P354
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Après une plongée, un équipier devient anormalement épuisé et se comporte différemment d’habitude.
+      Pourquoi faut-il le signaler au responsable ?
+    back: '**Une fatigue inhabituelle ou un changement de comportement peuvent accompagner un accident
+      de plongée.** Comparer à son état habituel et transmettre l’heure d’apparition ; ne pas attendre
+      une paralysie ou une douleur importante pour demander une évaluation.'
+- id: n2-add-oxygene-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P359
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: En cas de suspicion d’accident de désaturation, pourquoi administrer de l’oxygène en surface
+      ?
+    back: '**Il améliore l’oxygénation et favorise l’élimination du gaz inerte.** Pour une victime qui
+      respire, la conduite fédérale prévoit un masque à haute concentration alimenté à 15 L/min, poursuivi
+      jusqu’au relais des secours spécialisés. L’oxygène accompagne l’alerte et l’évaluation médicale.'
+- id: n2-add-position-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P360
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Une victime consciente et qui respire présente un malaise après plongée. Quelle position lui
+      proposer, notamment si elle est gênée pour respirer ?
+    back: '**La laisser choisir une position confortable.** En cas de gêne respiratoire, une position
+      assise ou demi-assise facilite souvent la respiration. Ne pas imposer systématiquement jambes surélevées
+      ; adapter l’installation à son état.'
+- id: n2-add-eau-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P361
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Quelles conditions faut-il réunir avant de proposer de l’eau à une victime d’accident de plongée
+      ?
+    back: '**Elle doit être consciente, coopérative et pouvoir avaler sans risque.** Ne pas donner par
+      la bouche en cas de trouble de conscience, gêne respiratoire, nausées ou vomissements. L’hydratation
+      ne retarde ni l’alerte ni l’oxygène.'
+- id: n2-add-transmission-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P362
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Quelles informations conserver pour les secours lorsqu’un symptôme apparaît après une plongée
+      ?
+    back: '**Les paramètres et l’historique des plongées, l’heure et l’évolution des signes, ainsi que
+      les gestes déjà réalisés.** Transmettre aussi les données de l’ordinateur et les conditions de plongée
+      ; les secours ont besoin de la chronologie, pas seulement de la profondeur maximale.'
+- id: n2-add-equipiers-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P365
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi surveiller également les autres membres de la palanquée lorsqu’un accident de désaturation
+      est suspecté ?
+    back: '**Ils ont partagé une partie des conditions et du profil de plongée.** Rechercher et faire
+      signaler tout symptôme inhabituel, même s’ils paraissent bien. L’état d’un équipier ne permet pas
+      de prédire celui des autres.'
+- id: n2-add-evacuation-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P368
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi faut-il organiser l’évacuation d’un accidenté avec les secours plutôt que partir spontanément
+      vers le premier caisson trouvé ?
+    back: '**Les secours coordonnent l’évaluation médicale, le transport et l’établissement adapté.**
+      Il faut prendre en compte les autres urgences possibles et la disponibilité d’une prise en charge
+      hyperbare, tout en maintenant oxygène et surveillance.'
+- id: n2-add-remontee-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P369
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi respecter à la fois les paliers et la vitesse de remontée prévue par son moyen de
+      désaturation ?
+    back: '**Les deux font partie du profil de décompression.** Effectuer les paliers ne compense pas
+      automatiquement une remontée trop rapide entre les niveaux ; ordinateur ou tables supposent aussi
+      des conditions de remontée.'
+- id: n2-add-effort-surface-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P370
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi éviter de porter seul des charges lourdes juste après une plongée ?
+    back: '**Un effort intense sollicite la circulation et peut accroître le risque lié aux bulles pendant
+      la désaturation.** Organiser l’aide pour sortir le matériel ; une activité légère n’équivaut pas
+      à un effort lourd ou à une poussée en apnée.'
+- id: n2-add-apnee-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P371
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - https://dan.org/alert-diver/article/could-breath-hold-diving-after-scuba-cause-decompression-sickness/
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi éviter d’enchaîner une séance d’apnée profonde après une plongée bouteille ?
+    back: '**La charge résiduelle en gaz inerte peut se combiner aux variations de pression et aux contraintes
+      de l’apnée.** Organiser les deux activités séparément plutôt qu’utiliser l’apnée comme prolongement
+      de la plongée ; la faible durée d’une apnée ne garantit pas l’absence de risque.'
+- id: n2-add-yoyo-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P374
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
+    fact_check: pass
+  fr:
+    front: Pourquoi les remontées et redescendes répétées ne doivent-elles pas être considérées comme
+      équivalentes à une plongée stable à la même profondeur maximale ?
+    back: '**Elles multiplient les variations de pression pendant la charge et l’élimination des gaz.**
+      La profondeur maximale et la durée seules ne décrivent pas le profil ; limiter les oscillations
+      inutiles et planifier les exercices avec l’encadrant.'
+- id: n2-add-avion-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P376
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - https://world.dan.org/health-medicine/health-resource/health-safety-guidelines/guidelines-for-flying-after-diving/
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'DAN — Defensive Dive Profile Planning, consulté le 2026-10-06 : https://dan.org/alert-diver/article/defensive-dive-profile-planning/'
+    fact_check: pass
+  fr:
+    front: Pour un plongeur sans symptôme ayant fait plusieurs plongées sans palier dans la journée, quel
+      intervalle minimal de surface est recommandé par DAN avant un vol en cabine pressurisée ?
+    back: '**Au moins 18 heures.** Pour une seule plongée sans palier, le repère est 12 heures ; après
+      des plongées nécessitant des paliers, un délai nettement supérieur à 18 heures est recommandé. La
+      baisse de pression en cabine justifie ces intervalles, qui réduisent le risque sans le supprimer.
+      Un trajet en altitude après la plongée expose également à une baisse de pression ; tenir compte
+      de l’altitude prévue dans la planification.'
+- id: n2-add-articulation-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::11
+  - add
+  status: reviewed
+  source_id: P377
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
+    - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
+    - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    fact_check: pass
+  fr:
+    front: Une douleur profonde inhabituelle à l’épaule apparaît après une plongée. Le plongeur la met
+      sur le compte du portage du bloc. Quelle décision prendre ?
+    back: '**Signaler et faire évaluer rapidement la douleur en indiquant la plongée récente.** Une douleur
+      articulaire peut relever d’un accident de désaturation ; l’explication par un effort ne suffit pas
+      à l’écarter.'
