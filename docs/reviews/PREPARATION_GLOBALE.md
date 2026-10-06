@@ -487,3 +487,10 @@ Voir [la revue du chapitre](05-flottabilite.md).
 31 cartes dont 20 exercices pour 28 objectifs couverts. P202 → P201. Variantes numériques
 sous P179/P193/P195 conformément à la calibration d’entraînement. P205/P206 et P630–P636
 sont désormais documentés ; voir [la revue](06-gaz-autonomie.md).
+
+## Implémentation du chapitre 07 — 6 octobre 2026
+
+21 nouvelles cartes ; P226 déjà couvert par P189, P246 par P157/P245. Deux cas
+complémentaires sous P252 remplacent ces doublons sans nouveaux objectifs au catalogue.
+P221/P239 recentrés sur les recommandations primaires vérifiées, sans redescente chiffrée
+universelle. Voir [la revue](07-barotraumatismes.md).

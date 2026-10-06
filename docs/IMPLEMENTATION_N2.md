@@ -322,27 +322,27 @@ Toute phase omise limite le résultat au modèle annoncé ; pas d’autonomie op
 
 Source : **S1 p.12–16**. Contrôle : **V07**. Fichier futur : `cards/n2/07-barotraumatismes.yaml`.
 
-- [ ] **P207** · Basic · Compréhension — Barotraumatisme : mécanisme général.
-- [ ] **P211** · Basic · Compréhension — Placage du masque : effet ventouse.
-- [ ] **P215** · QCM · Rappel / application — Sinus : cavités et communication avec le nez.
-- [ ] **P218** · QCM · Rappel / application — Sinus : signes d’alerte.
-- [ ] **P220** · QCM · Rappel / application — Sinus : ne pas forcer devant une douleur.
-- [ ] **P221** · QCM · Rappel / application — Sinus à la remontée : conduite contextualisée à vérifier.
-- [ ] **P224** · QCM · Rappel / application — Trompe d’Eustache : communication et équilibrage.
-- [ ] **P226** · QCM · Rappel / application — Expliquer la prévention de la douleur d’oreille à la descente ; distinguer équilibrage précoce et manœuvre forcée.
-- [ ] **P230** · QCM · Rappel / application — Rhume et efficacité de l’équilibrage.
-- [ ] **P231** · QCM · Rappel / application — Descente tête haute : intérêt décrit.
-- [ ] **P233** · QCM · Rappel / application — Différence entre les deux oreilles : vertige alternobarique.
-- [ ] **P236** · Basic · Compréhension — Pourquoi les bouchons non adaptés posent problème.
-- [ ] **P237** · QCM · Rappel / application — Dents : poche de gaz et obstruction.
-- [ ] **P239** · QCM · Rappel / application — Dents : douleur à la remontée, conduite à vérifier.
-- [ ] **P240** · QCM · Rappel / application — Gaz digestifs : expansion à la remontée.
-- [ ] **P243** · QCM · Rappel / application — Expliquer la surpression pulmonaire par gaz piégé et baisse de pression ; ne pas invoquer la dissolution d’azote.
-- [ ] **P245** · QCM · Rappel / application — Surpression pulmonaire possible près de la surface.
-- [ ] **P246** · QCM · Rappel / application — Ventilation libre à la remontée.
-- [ ] **P249** · QCM · Rappel / application — Identifier des signes respiratoires suspects après plongée ; ne pas demander un diagnostic certain.
-- [ ] **P250** · QCM · Rappel / application — Surpression : signes neurologiques.
-- [ ] **P252** · QCM · Rappel / application — Suspicion de surpression : alerte et oxygène selon protocole.
+- [x] **P207** · Basic · Compréhension — Barotraumatisme : mécanisme général.
+- [x] **P211** · Basic · Compréhension — Placage du masque : effet ventouse.
+- [x] **P215** · QCM · Rappel / application — Sinus : cavités et communication avec le nez.
+- [x] **P218** · QCM · Rappel / application — Sinus : signes d’alerte.
+- [x] **P220** · QCM · Rappel / application — Sinus : ne pas forcer devant une douleur.
+- [x] **P221** · Basic · Compréhension — Blocage des sinus à la remontée et nécessité d’une évaluation ; pas de redescente automatique chiffrée.
+- [x] **P224** · QCM · Rappel / application — Trompe d’Eustache : communication et équilibrage.
+- [x] **P226** · Couvert par P189 (chapitre 06) — Équilibrage précoce et doux, arrêt de descente en cas d’échec ; anatomie complétée par P224.
+- [x] **P230** · QCM · Rappel / application — Rhume et efficacité de l’équilibrage.
+- [x] **P231** · QCM · Rappel / application — Descente tête haute : intérêt décrit.
+- [x] **P233** · QCM · Rappel / application — Différence entre les deux oreilles : vertige alternobarique.
+- [x] **P236** · Basic · Compréhension — Pourquoi les bouchons non adaptés posent problème.
+- [x] **P237** · QCM · Rappel / application — Dents : poche de gaz et obstruction.
+- [x] **P239** · Basic · Application — Douleur dentaire à la remontée : contrôle dentaire après la plongée avant reprise ; pas de redescente automatique.
+- [x] **P240** · QCM · Rappel / application — Gaz digestifs : expansion à la remontée.
+- [x] **P243** · QCM · Rappel / application — Expliquer la surpression pulmonaire par gaz piégé et baisse de pression ; ne pas invoquer la dissolution d’azote.
+- [x] **P245** · QCM · Rappel / application — Surpression pulmonaire possible près de la surface.
+- [x] **P246** · Couvert par P157 (chapitre 05) et P245 — Respiration libre et risque près de la surface.
+- [x] **P249** · QCM · Rappel / application — Identifier des signes respiratoires suspects après plongée ; ne pas demander un diagnostic certain.
+- [x] **P250** · QCM · Rappel / application — Surpression : signes neurologiques.
+- [x] **P252** · QCM · Rappel / application — Suspicion de surpression : alerte et oxygène selon protocole.
 
 ### 08-essoufflement — Prévention des accidents
 
@@ -683,3 +683,12 @@ de calcul pratiquent P179, P193 et P195. Compléments P205/P206 et P630–P636 s
 par les relations et principes BSAC, avec données fictives imposées. Aucune réserve
 universelle ou procédure de demi-tour n’est créée. Voir [la revue](reviews/06-gaz-autonomie.md).
 Total publié : 133 cartes.
+
+### Chapitre 07 — réalisé le 6 octobre 2026
+
+21 nouvelles cartes revues pour les 21 objectifs, dont deux déjà couverts : P226 par P189,
+P246 par P157/P245. Deux cas distincts complètent P252 : amélioration sous oxygène et
+victime ne respirant pas normalement. P221/P239 adaptés aux connaissances et recommandations
+primaires vérifiées, sans procédure universelle de redescente. V07 vérifié pour ce chapitre ;
+reste ouvert pour essoufflement et froid. Voir [la revue](reviews/07-barotraumatismes.md).
+Total publié : 154 cartes ; 180 objectifs du catalogue encore à traiter.
