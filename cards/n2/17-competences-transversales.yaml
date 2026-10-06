@@ -1,0 +1,207 @@
+cards:
+- id: n2-competences-transversales-communication-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P555
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'BSAC — Safe diving guide, Going diving, sections checks et separation, consulté le 2026-10-06 :
+      https://www.bsac.com/safety/safe-diving-guide/going-diving/'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: Deux équipiers utilisent des ordinateurs différents. Pourquoi convenir avant immersion de la
+      façon de communiquer profondeur et durée des paliers ?
+    back: '**Pour distinguer sans ambiguïté des mètres, des minutes et une obligation encore active.**
+      Choisir un code partagé et vérifier sa compréhension ; montrer un nombre avec les doigts sans préciser
+      ce qu’il mesure peut conduire à une mauvaise décision.'
+- id: n2-competences-transversales-retour-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P561
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'DAN — Current Dives : https://dan.org/alert-diver/article/current-dives/'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi faut-il prévoir le parcours de retour et une solution de sortie alternative avant
+      de descendre, plutôt qu’attendre le seuil de réserve pour décider ?
+    back: '**Le retour consomme du temps et du gaz et peut être gêné par le courant ou la visibilité.**
+      Repérer sortie, trajet et alternatives avec la palanquée ; la pression de fin de plongée doit encore
+      permettre d’achever la remontée et les obligations prévues.'
+- id: n2-competences-transversales-reperes-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P562
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Suunto SK-8, guide multilingue, p.11–13 en français, aides à la navigation : https://cdn.shopify.com/s/files/1/0850/4878/7229/files/SUUNTO_SK-SERIES_UG_MULTI.pdf?v=1714977581'
+    fact_check: pass
+  fr:
+    front: Pourquoi choisir plusieurs repères fixes alignés plutôt que suivre seulement une impression
+      de direction sous l’eau ?
+    back: '**Leur alignement aide à suivre une ligne par rapport au fond et à repérer une dérive.** À
+      mesure qu’un repère est atteint, en choisir un plus éloigné pour conserver l’alignement. Compléter
+      ces repères par la profondeur et le compas.'
+- id: n2-competences-transversales-cap-retour-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  - exercice::calcul
+  status: reviewed
+  source_id: P563
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap réciproque
+      permet de revenir sur la même ligne ?'
+    back: '**250° : 70 + 180.** Le retour inverse la direction sur la même ligne ; sous courant, ce cap
+      géométrique ne compense pas à lui seul la dérive.'
+- id: n2-competences-transversales-cap-retour-ouest-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  - exercice::calcul
+  status: reviewed
+  source_id: P563
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap réciproque
+      correspond au retour ?'
+    back: '**120° : 300 + 180 = 480, puis 480 − 360 = 120.** On exprime la direction dans l’intervalle
+      0° à moins de 360°.'
+- id: n2-competences-transversales-separation-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P564
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'BSAC — Safe diving guide, Going diving, sections checks et separation, consulté le 2026-10-06 :
+      https://www.bsac.com/safety/safe-diving-guide/going-diving/'
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi convenir d’une procédure de perte de palanquée avant immersion plutôt que prolonger
+      chacun une recherche improvisée ?
+    back: '**Pour limiter la recherche et organiser une remontée, un rendez-vous et une alerte cohérents.**
+      Le briefing précise la conduite adaptée au site et aux obligations de décompression ; s’enfoncer
+      ou poursuivre seul l’exploration augmente la difficulté à se retrouver.'
+- id: n2-competences-transversales-parachute-ligne-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P565
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'DAN World — Popping the Question: What is a DSMB?, section safety : https://world.dan.org/alert-diver/article/popping-the-question-what-is-a-dsmb/'
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi ne faut-il pas accrocher à soi le dévidoir ou la bobine pendant l’envoi d’un parachute
+      de palier ?
+    back: '**Si la ligne se bloque, la traction du parachute peut entraîner une remontée rapide.** Garder
+      la ligne à distance du corps et du matériel, maintenir sa profondeur et pratiquer le déploiement
+      avec l’encadrant.'
+- id: n2-competences-transversales-renoncer-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P569
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    fact_check: pass
+  fr:
+    front: Le directeur de plongée vous autorise une exploration conforme à vos aptitudes, mais vous vous
+      sentez inhabituellement fatigué et gêné pour respirer. Quelle décision vous appartient encore ?
+    back: '**Signaler votre état et renoncer à l’immersion.** L’autorisation et le brevet ne remplacent
+      pas l’évaluation de son état du jour ; une gêne respiratoire mérite d’être expliquée avant de plonger.'
+- id: n2-competences-transversales-paliers-profonds-air-001
+  type: basic
+  deck: Matériel et préparation
+  levels:
+  - N2
+  tags:
+  - chapitre::17
+  - competences-transversales
+  status: reviewed
+  source_id: P639
+  review:
+    sources:
+    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
+    - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: En planification PA20 FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
+      ?
+    back: '**Non : le MFT demande une planification sans paliers profonds à l’air.** Les distinguer des
+      paliers de décompression nécessaires et des arrêts prévus par une procédure de rattrapage après
+      incident.'

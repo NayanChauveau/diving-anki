@@ -7,7 +7,7 @@ Voir [la revue et la correspondance des IDs](reviews/01-prerogatives.md).
 
 Préparer un deck français solide, avec rappel, compréhension, calcul, correction d’erreur,
 lecture de schéma et mise en situation. Après revue globale, le catalogue contient **325 objectifs
-retenus**, dont 7 nouveaux exercices de gaz à documenter. Ils proviennent de 629 propositions
+retenus dans le catalogue initial**, complétés par trois objectifs MFT (P637–P639), dont 7 nouveaux exercices de gaz à documenter. Ils proviennent de 629 propositions
 initiales : 318 conservées, 297 fusionnées, 11 écartées et 3 transformées en tâches éditoriales.
 Ce sont des objectifs de préparation, pas un quota ni un nombre définitif de cartes : P020
 correspond déjà à deux cartes. Le chapitre 01 conserve ses **21 cartes actives**.
@@ -86,7 +86,7 @@ Lire [les règles de conception](CARD_DESIGN.md) et consigner les décisions dan
 8. Reprises retenues seulement si elles ajoutent une difficulté ; revoir la couverture sans viser un volume.
 
 Un lot peut contenir 15 à 25 cartes d’un même thème. Après chaque lot : revue factuelle,
-revue pédagogique, `make check`, build avec drafts et inspection dans Anki.
+revue pédagogique, `make check`, build et inspection des champs HTML et des schémas ; contrôle dans Anki si le rendu le nécessite.
 Le passage à `reviewed` n’est autorisé qu’après revue ; les contrôles techniques seuls ne suffisent pas.
 
 ## Registre des vérifications avant rédaction normative
@@ -123,7 +123,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V14** — Détendeurs : schémas et tableaux décrivent des conceptions particulières. Confirmer différences de MP, compensation, froid, entretien et stockage au manuel constructeur. Panne observée ≠ cause certaine ; ne pas transformer la colonne réparation en tutoriel de démontage. Les modèles commerciaux sont des exemples datés, pas une liste à apprendre.
 
-- [ ] **V15** — S2 énonce des compétences sans cours détaillé pour orientation, assistance et planification. Les cartes fondées sur ce flyer peuvent tester les objectifs et responsabilités ; obtenir une source supplémentaire pour les procédures techniques. Les cartes ne valident pas la maîtrise pratique.
+- [x] **V15** — S2 énonce des compétences sans cours détaillé pour orientation, assistance et planification. Les cartes fondées sur ce flyer peuvent tester les objectifs et responsabilités ; obtenir une source supplémentaire pour les procédures techniques. Les cartes ne valident pas la maîtrise pratique.
 
 ## Répartition et fichiers proposés
 
@@ -548,22 +548,22 @@ Source : **S1 p.30–34**. Contrôle : **V14**. Fichier futur : `cards/n2/16-det
 
 Source : **S2 p.1–2 ; S1 p.3–5, 11–12, 23, 28**. Contrôle : **V15**. Fichier futur : `cards/n2/17-competences-transversales.yaml`.
 
-- [ ] **P547** · QCM · Rappel / application — PE40 : vérifier son propre matériel.
-- [ ] **P549** · QCM · Rappel / application — PE40 : comprendre le briefing du GP.
-- [ ] **P550** · QCM · Rappel / application — Construire un briefing commun cohérent avec profondeur, gaz, désaturation et communication ; une décision contextualisée.
-- [ ] **P552** · Basic · Complément — Planification : stock de gaz et réserve, complément nécessaire.
-- [ ] **P555** · QCM · Rappel / application — Code de communication pour les paliers.
-- [ ] **P557** · QCM · Rappel / application — Expliquer la stabilisation pendant remontée et palier ; relier gestion du volume et contrôle de la profondeur.
-- [ ] **P560** · QCM · Rappel / application — PA20 : responsabilité collective d’assistance.
-- [ ] **P561** · Basic · Complément — Orientation et retour au bateau : compétence citée, cours absent.
-- [ ] **P562** · Basic · Complément — Repères naturels : complément à documenter.
-- [ ] **P563** · Basic · Complément — Boussole et cap retour : complément à documenter.
-- [ ] **P564** · Basic · Complément — Perte de palanquée : procédure absente à obtenir.
-- [ ] **P565** · QCM · Rappel / application — Parachute : compétence opérationnelle, support incomplet.
-- [ ] **P567** · QCM · Rappel / application — Signaler une difficulté avant aggravation.
-- [ ] **P569** · QCM · Scénario — Scénario : autorisation réglementaire mais état personnel défavorable.
-- [ ] **P570** · QCM · Scénario — Scénario : guide présent ne dispense pas de surveiller son ordinateur.
-- [ ] **P572** · QCM · Scénario — Scénario : choix collectif de la contrainte la plus protectrice.
+- [x] **P547** · QCM · Rappel / application — PE40 : vérifier son propre matériel.
+- [x] **P549** · QCM · Rappel / application — PE40 : comprendre le briefing du GP.
+- [x] **P550** · QCM · Rappel / application — Construire un briefing commun cohérent avec profondeur, gaz, désaturation et communication ; une décision contextualisée.
+- [x] **P552** · Basic · Complément — Planification : stock de gaz et réserve, complément nécessaire.
+- [x] **P555** · QCM · Rappel / application — Code de communication pour les paliers.
+- [x] **P557** · QCM · Rappel / application — Expliquer la stabilisation pendant remontée et palier ; relier gestion du volume et contrôle de la profondeur.
+- [x] **P560** · QCM · Rappel / application — PA20 : responsabilité collective d’assistance.
+- [x] **P561** · Basic · Complément — Orientation et retour au bateau : compétence citée, cours absent.
+- [x] **P562** · Basic · Complément — Repères naturels : complément à documenter.
+- [x] **P563** · Basic · Complément — Boussole et cap retour : complément à documenter.
+- [x] **P564** · Basic · Complément — Perte de palanquée : procédure absente à obtenir.
+- [x] **P565** · QCM · Rappel / application — Parachute : compétence opérationnelle, support incomplet.
+- [x] **P567** · QCM · Rappel / application — Signaler une difficulté avant aggravation.
+- [x] **P569** · QCM · Scénario — Scénario : autorisation réglementaire mais état personnel défavorable.
+- [x] **P570** · QCM · Scénario — Scénario : guide présent ne dispense pas de surveiller son ordinateur.
+- [x] **P572** · QCM · Scénario — Scénario : choix collectif de la contrainte la plus protectrice.
 
 ### 18-lecture-pannes — Matériel et préparation
 
@@ -581,22 +581,22 @@ Source : **S1 p.24–25, 31–34 (figures et tableau)**. Contrôle : **V14**. Fi
 Chaque reprise ci-dessous teste un autre angle ; le rapprochement avec la section sert à
 la revue de couverture, pas à imposer un ordre de révision. Même source et contrôle que la section.
 
-- [ ] **P594** · QCM · Erreur · `04-pression.yaml` — Un calcul donne 2 bar à 20 m : identifier la pression oubliée.
-- [ ] **P606** · QCM · Comparaison · `07-barotraumatismes.yaml` — Distinguer équilibrage d’oreille à la descente et ventilation libre à la remontée.
-- [ ] **P622** · QCM · Erreur · `13-ordinateurs.yaml` — Différencier temps écoulé, NDL et DTR sur trois écrans fictifs.
+- [x] **P594** · QCM · Erreur · `04-pression.yaml` — Un calcul donne 2 bar à 20 m : identifier la pression oubliée.
+- [x] **P606** · QCM · Comparaison · `07-barotraumatismes.yaml` — Distinguer équilibrage d’oreille à la descente et ventilation libre à la remontée.
+- [x] **P622** · QCM · Erreur · `13-ordinateurs.yaml` — Différencier temps écoulé, NDL et DTR sur trois écrans fictifs.
 - [x] **P627** · Basic · Calcul · `16-detendeurs.yaml` — Avec MP relative fournie, calculer MP absolue à 20 m dans un modèle fictif.
 
 ## Compléments nécessaires pour ne pas donner une fausse impression d’exhaustivité
 
-- [ ] Obtenir la version actuelle du MFT N2 et vérifier la matrice compétences/objectifs.
-- [ ] Identifier les textes primaires de réglementation, de suivi des blocs et de signalisation.
-- [ ] Obtenir les procédures fédérales actuelles de remontée anormale et de secours.
-- [ ] Documenter réserve, demi-tour et gestion collective du gaz ; les calculs du cours vident le bloc.
-- [ ] Documenter orientation, perte de palanquée et mise en œuvre du parachute.
-- [ ] Documenter les signes et procédures d’assistance attendus, avec un support de formation adapté.
-- [ ] Obtenir l’édition complète des tables si des exercices de majoration sont conservés.
-- [ ] Choisir un ou plusieurs manuels d’ordinateur pour des écrans pédagogiques précis.
-- [ ] Vérifier les modalités techniques d’intégration des illustrations : le builder actuel ne gère
+- [x] Obtenir la version actuelle du MFT N2 et vérifier la matrice compétences/objectifs.
+- [x] Identifier les textes primaires de réglementation, de suivi des blocs et de signalisation.
+- [x] Obtenir les procédures fédérales actuelles de remontée anormale et de secours.
+- [x] Documenter réserve, demi-tour et gestion collective du gaz ; les calculs du cours vident le bloc.
+- [x] Documenter orientation, perte de palanquée et mise en œuvre du parachute.
+- [x] Documenter les signes et procédures d’assistance attendus, avec un support de formation adapté.
+- [x] Obtenir l’édition complète des tables si des exercices de majoration sont conservés.
+- [x] Choisir un ou plusieurs manuels d’ordinateur pour des écrans pédagogiques précis.
+- [x] Vérifier les modalités techniques d’intégration des illustrations : le builder actuel ne gère
   pas encore une collection de médias embarquée. Prévoir ce travail uniquement si des cartes imagées
   sont retenues ; une version textuelle est possible sans modifier le builder.
 
@@ -604,18 +604,13 @@ Ces tâches ne sont pas comptées comme cartes supplémentaires au total du cata
 Aucune nouvelle matière (nitrox complet, navigation détaillée, médecine avancée N3/N4)
 à inventer pour atteindre un volume arbitraire.
 
-## Illustrations à créer si retenues
+## Illustrations — décisions finales
 
-Produire des schémas originaux, sans recopier les figures des supports :
-
-- [ ] Comparaison pression relative/absolue en surface, à 10 m et à 20 m.
-- [ ] Trois objets : flottabilité négative, neutre et positive, forces et convention de signe.
-- [ ] Ballon souple pendant descente et remontée, hypothèses de Boyle-Mariotte.
-- [ ] Oreille avec tympan, oreille moyenne et trompe d’Eustache, validation anatomique.
-- [ ] Schéma conceptuel de dissolution/désaturation, explicitement simplifié.
-- [ ] Profil carré de table et profil réel d’ordinateur.
-- [ ] Écran fictif avec profondeur, NDL, paliers et DTR, sans marque commerciale.
-- [ ] Circuit bloc → premier étage → flexible → second étage, avec HP/MP/PA.
+Le circuit du détendeur est intégré à P508 sous forme de SVG original autonome.
+Les autres illustrations envisagées ne sont pas retenues : les cartes de pression,
+flottabilité, volumes, anatomie et désaturation sont autonomes en texte ; les tables
+et affichages pédagogiques fournissent les données nécessaires dans leur énoncé.
+Aucune dépendance de médias externe ni travail de builder restant.
 
 ## Critères d’acceptation d’une carte
 
@@ -725,3 +720,18 @@ Total : 236 cartes revues ; 90 objectifs encore à traiter.
 3 pannes complémentaires. P488 → P479 ; P482 → P185/P195 ; P504 → P479/P195 ;
 P577 → P542/P544 ; P581 → P544 ; P585 → schéma P508. V13/V14 clôturés.
 Total : 301 cartes revues ; 19 objectifs encore à traiter.
+
+### Clôture du catalogue — 6 octobre 2026
+
+Chapitre 17 terminé : 9 cartes nouvelles. Reprises P594/P606/P622 et variantes de faits
+simples fusionnées avec les cartes identifiées dans l’audit final. V15 clôturé.
+
+- [x] **P637** · Basic · Complément MFT — Sens du pourcentage GF, distinct d’un risque personnel.
+- [x] **P638** · Basic · Complément MFT — GF bas = GF haut entre 85 et 90 % en PA20 FFESSM à l’air.
+- [x] **P639** · Basic · Complément MFT — Planification à l’air sans paliers profonds supplémentaires.
+
+312 cartes revues. Les 325 objectifs du catalogue initial sont couverts directement ou
+par fusion traçable ; trois compléments MFT portent le suivi à 328 objectifs.
+Aucun objectif du catalogue restant, aucun draft. Le programme pratique et les espèces
+locales restent travaillés en formation ; le catalogue théorique convenu est achevé.
+Voir [la couverture finale et ses limites](reviews/COUVERTURE_FINALE_N2.md).

@@ -374,3 +374,48 @@ cards:
     back: '**La présence d’un mode nitrox et les mélanges qu’il accepte.** Ce mode permet de renseigner
       la fraction d’oxygène ; son réglage doit correspondre au gaz analysé et aux limites apprises dans
       cette formation.'
+- id: n2-ordinateurs-gf-principe-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P637
+  review:
+    sources:
+    - Complément identifié par comparaison au MFT N2 actuel, absent du cours S1.
+    - 'Suunto — Nautic, Gradient Factors, définition du gradient et réglages : https://origin-www.suunto.com/en-ph/Support/Product-support/suunto_nautic/suunto_nautic/algorithm-settings/gradient-factors/'
+    - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: 'Dans un modèle Bühlmann utilisant des gradient factors, que représente le pourcentage GF :
+      un risque d’accident ou une marge dans le calcul ?'
+    back: '**Une fraction du gradient de sursaturation autorisé par le modèle.** 0 % correspond à la pression
+      ambiante et 100 % à la limite originale du modèle, appelée M-value. Ce pourcentage ne mesure pas
+      une probabilité personnelle d’accident. GF signifie Gradient Factor, ou facteur de gradient.'
+- id: n2-ordinateurs-gf-air-ffessm-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P638
+  review:
+    sources:
+    - Complément identifié par comparaison au MFT N2 actuel, absent du cours S1.
+    - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: Pour une planification PA20 FFESSM à l’air avec un ordinateur réglable par gradient factors,
+      quelle relation et quelle plage de valeurs sont indiquées pour GF bas et GF haut ?
+    back: '**GF bas = GF haut, avec une valeur entre 85 et 90 %.** Exemples : 85/85 ou 90/90. Ce repère
+      fédéral concerne la plongée à l’air ; certains ordinateurs utilisent d’autres réglages de conservatisme
+      plutôt que des GF.'

@@ -60,3 +60,8 @@ conservés. Comparaison avec les chapitres publiés, aucun ID existant renommé.
 `make check` réussi : 263 cartes valides, 13 tests, lint/types/schéma conformes.
 Build inspecté : 263 GUID uniques, 27 notes nouvelles avec champs HTML complets.
 `make push` réussi : import et synchronisation AnkiWeb.
+
+## Complément de clôture
+
+Deux cartes MFT, P637/P638, portent ce chapitre à 19 cartes. Vérification, sources et
+références dans COUVERTURE_FINALE_N2.md. Pas de modification des IDs publiés.

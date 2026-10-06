@@ -89,3 +89,14 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
 cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
 Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.
+
+## Points consolidés à la clôture N2
+
+- Consulter `docs/reviews/COUVERTURE_FINALE_N2.md` avant toute carte supplémentaire :
+  les objectifs du catalogue sont couverts, parfois par fusion entre plusieurs chapitres.
+  Ne pas recréer les objectifs fusionnés lors d’une extension N3/N4.
+- Une date de dépôt en ligne n’est pas une date d’édition ; relever les deux si nécessaire.
+- Distinguer les paramètres du fabricant et les repères fédéraux (GF, paliers profonds,
+  vitesse, verrouillage). Le contexte air/algorithme/modèle détermine la réponse.
+- Les schémas fonctionnels peuvent être des SVG autonomes intégrés au Markdown, comme
+  P508. Contrôler le rendu, la lisibilité et leur présence dans le package sans média externe.
