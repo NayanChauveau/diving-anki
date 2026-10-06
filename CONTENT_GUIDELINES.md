@@ -1,6 +1,6 @@
 # Règles de contenu
 
-Le deck prépare la théorie de plongée N2 en français ; N3 est en cours de réalisation et N4
+Le deck prépare la théorie de plongée N2 en français ; N3 est réalisé et N4
 est prévu pour la suite. Les sources convenues, leur périmètre et les vérifications nécessaires
 sont dans les plans [N2](docs/IMPLEMENTATION_N2.md) et [N3](docs/IMPLEMENTATION_N3.md).
 Ne pas inventer de programme ni de procédure.

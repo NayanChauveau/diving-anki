@@ -1,0 +1,472 @@
+cards:
+- id: n3-modeles-compartiment-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Dans un modèle de désaturation à compartiments, que représente un compartiment ?
+    choices:
+    - text: Une entité mathématique d’échange de gaz caractérisée par ses paramètres
+      correct: true
+    - text: Un organe identifié dont l’ordinateur mesure directement la charge en azote
+      correct: false
+    - text: Une zone anatomique dont tous les tissus ont la même vitesse d’échange
+      correct: false
+    explanation: Les compartiments représentent des vitesses d’échange et des limites du modèle. Ils ne
+      correspondent pas un pour un à des organes et leur charge est calculée, non mesurée dans le corps
+      du plongeur.
+- id: n3-modeles-periode-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: À pression de gaz inspiré constante, que signifie la période d’un compartiment dans un modèle
+      exponentiel ?
+    choices:
+    - text: Le temps nécessaire pour réduire de moitié son écart à l’équilibre
+      correct: true
+    - text: Le temps nécessaire pour éliminer la moitié de tout son gaz inerte
+      correct: false
+    - text: Le temps nécessaire pour atteindre complètement l’équilibre
+      correct: false
+    explanation: La période, ou demi-temps, porte sur l’écart entre la pression du compartiment et sa
+      pression d’équilibre. Après chaque période, la moitié de l’écart restant est comblée, en charge
+      comme en décharge.
+- id: n3-modeles-charge-une-periode-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Un compartiment fictif passe vers un équilibre maintenu à 4 bar de gaz inerte, depuis 2
+      bar. Quelle pression de gaz inerte a-t-il après une période ?
+    choices:
+    - text: 3 bar
+      correct: true
+    - text: 2 bar
+      correct: false
+    - text: 4 bar
+      correct: false
+    explanation: Écart initial = 4 − 2 = 2 bar ; après une période, il reste 1 bar d’écart. Pression =
+      4 − 1 = 3 bar. Il s’agit de pressions de gaz inerte dans un modèle, pas d’une profondeur ni d’un
+      temps de palier réel.
+- id: n3-modeles-decharge-deux-periodes-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Un compartiment fictif contient initialement 3 bar de gaz inerte. Son nouvel équilibre reste
+      à 1 bar. Après deux périodes, quelle pression contient-il ?
+    choices:
+    - text: 1,5 bar
+      correct: true
+    - text: 0,75 bar
+      correct: false
+    - text: 2 bar
+      correct: false
+    explanation: Écart initial = 2 bar ; après deux périodes il reste un quart, soit 0,5 bar. Pression
+      = 1 + 0,5 = 1,5 bar. Diviser toute la pression initiale par quatre donnerait 0,75 bar et oublierait
+      l’équilibre à 1 bar.
+- id: n3-modeles-rapide-lent-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Deux compartiments commencent à 1 bar et tendent vers 3 bar de gaz inerte. Leurs périodes
+      sont 5 min et 20 min. Après 5 min dans ces conditions constantes, lequel a comblé la plus grande
+      fraction de son écart initial ?
+    choices:
+    - text: Celui de période 5 min
+      correct: true
+    - text: Celui de période 20 min
+      correct: false
+    - text: Les deux, car leur équilibre est le même
+      correct: false
+    explanation: Le compartiment de période 5 min a comblé la moitié de son écart. Le compartiment de
+      20 min n’a parcouru qu’un quart de sa période et a comblé une fraction plus faible. La vitesse d’échange
+      et la pression d’équilibre sont deux paramètres différents.
+- id: n3-modeles-etats-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: À un instant donné, l’équilibre avec le gaz inspiré vaut 2 bar de gaz inerte. Les compartiments
+      A, B, C contiennent respectivement 1,5, 2 et 2,5 bar. Quel classement est correct ?
+    choices:
+    - text: A sous-saturé ; B saturé ; C sursaturé
+      correct: true
+    - text: A sursaturé ; B saturé ; C sous-saturé
+      correct: false
+    - text: A saturé ; B sous-saturé ; C sursaturé
+      correct: false
+    explanation: Sous ces conditions, A tend à se charger, B est à l’équilibre et C tend à se décharger.
+      La sursaturation exprime un état relatif à l’équilibre, pas à elle seule la présence d’un accident.
+- id: n3-modeles-compartiment-limitant-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Dans un exemple abstrait, le compartiment A exige une pression ambiante d’au moins 1,6 bar
+      ; B exige au moins 1,9 bar. Lequel fixe le plafond de remontée le plus profond ?
+    choices:
+    - text: B, car sa pression ambiante minimale est la plus élevée
+      correct: true
+    - text: A, car sa pression ambiante minimale est la plus faible
+      correct: false
+    - text: Les deux imposent le même plafond, puisque la palanquée remonte ensemble
+      correct: false
+    explanation: 'Les deux contraintes doivent être respectées : la pression ambiante reste au moins à
+      1,9 bar. Le compartiment limitant est celui qui impose la contrainte la plus restrictive, pas nécessairement
+      celui qui a la plus forte pression absolue de gaz inerte.'
+- id: n3-modeles-m-value-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Que représente une M-value à une pression ambiante donnée dans un modèle de décompression
+      à gaz dissous ?
+    choices:
+    - text: La pression de gaz inerte limite admise par le modèle dans un compartiment
+      correct: true
+    - text: La pression de gaz inerte mesurée dans le sang du plongeur
+      correct: false
+    - text: La pression ambiante minimale commune à tous les compartiments
+      correct: false
+    explanation: La M-value est une limite de pression de gaz inerte propre au compartiment et dépendante
+      de la pression ambiante. La charge calculée est comparée à cette limite ; elle ne fournit pas une
+      garantie individuelle d’absence d’accident.
+- id: n3-modeles-droite-limite-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-09
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Dans un modèle fictif, la droite limite est M = 1 + 0,8 × Pamb, avec les deux pressions
+      en bar absolus. À Pamb = 2 bar, un compartiment contient 2,8 bar de gaz inerte. Où se situe-t-il
+      par rapport à cette limite ?
+    choices:
+    - text: 'Au-dessus : M vaut 2,6 bar'
+      correct: true
+    - text: 'En dessous : M vaut 3,6 bar'
+      correct: false
+    - text: 'Sur la limite : M vaut 2,8 bar'
+      correct: false
+    explanation: M = 1 + 0,8 × 2 = 2,6 bar. La charge 2,8 bar dépasse cette limite de 0,2 bar. L’équation
+      et les valeurs sont fictives pour apprendre à lire la relation, sans calculer une remontée réelle.
+- id: n3-modeles-gf-calcul-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-11
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Dans une illustration mathématique, Pamb = 1,6 bar et M = 2,4 bar. Avec GF = 85 %, quelle
+      limite obtient-on par Pamb + GF × (M − Pamb) ?
+    choices:
+    - text: 2,28 bar
+      correct: true
+    - text: 2,04 bar
+      correct: false
+    - text: 0,68 bar
+      correct: false
+    explanation: Écart M − Pamb = 0,8 bar ; 85 % de l’écart = 0,68 bar. La limite est donc 1,6 + 0,68
+      = 2,28 bar. Multiplier directement M par 0,85 ne représente pas cette interpolation.
+- id: n3-modeles-gf-bas-haut-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-12
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Dans l’implémentation Bühlmann GF du Peregrine, quels rôles ont GF bas et GF haut ?
+    choices:
+    - text: GF bas intervient dans le premier arrêt ; GF haut fixe la limite à l’arrivée en surface
+      correct: true
+    - text: GF bas fixe la limite à la surface ; GF haut intervient dans le premier arrêt
+      correct: false
+    - text: Les deux GF fixent seulement la profondeur du premier arrêt
+      correct: false
+    explanation: Le GF bas participe à la profondeur du premier arrêt ; le GF haut détermine la sursaturation
+      admise à la surface. Les GF utilisés évoluent entre ces contraintes pendant la remontée. Ils ne
+      sont ni des vitesses ni un effacement de l’historique.
+- id: n3-modeles-buhlmann-zhl-gf-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-14
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Comment lire l’expression « Bühlmann ZHL-16C + GF » ?
+    choices:
+    - text: Bühlmann désigne la famille, ZHL-16C le modèle/jeu de paramètres et GF son ajustement de limites
+      correct: true
+    - text: Bühlmann désigne la famille, ZHL-16C le réglage GF et GF le nombre de compartiments
+      correct: false
+    - text: Bühlmann désigne la famille, ZHL-16C les paramètres et GF la correction de vitesse
+      correct: false
+    explanation: ZHL-16C utilise des compartiments et des coefficients du modèle de Bühlmann. Les gradient
+      factors ajustent les limites de sursaturation de ce calcul. Les trois termes ne sont pas synonymes
+      et aucun ne mesure une probabilité individuelle d’ADD.
+- id: n3-modeles-rgbm-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-15
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - Suunto Zoop Novo User Guide, Suunto RGBM, consulté 2026-10-06 ; https://us.suunto.com/pages/suunto-zoop-novo-user-guide
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Quel ajout la documentation du Suunto Zoop Novo attribue-t-elle à son RGBM par rapport à
+      un modèle classique ne suivant que le gaz dissous ?
+    choices:
+    - text: Une prise en compte calculée du gaz libre, en plus du gaz dissous
+      correct: true
+    - text: Une mesure directe des bulles par un capteur de l’ordinateur
+      correct: false
+    - text: Un effacement de la charge résiduelle entre deux plongées
+      correct: false
+    explanation: Le Suunto RGBM prédit gaz dissous et gaz libre. L’ordinateur ne mesure pas des bulles
+      dans le plongeur ; il calcule un modèle. Cette description vaut pour l’implémentation Suunto documentée,
+      sans rendre identiques tous les algorithmes portant le nom RGBM.
+- id: n3-modeles-successives-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-05-16
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.15
+    - N3-S12 — Erik Baker, Understanding M-values, p.1–3 ; modèle abstrait, aucune décompression opérationnelle
+      déduite
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.25 ; https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732
+    - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
+      p.32–34 ; MN90 FFESSM, tableau I/II
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
+      30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Après une première plongée, quelle différence décrit la prise en compte de l’azote résiduel
+      par les MN90 et par un ordinateur personnel qui a suivi toutes les plongées ?
+    choices:
+    - text: Les MN90 utilisent GPS/majoration ; l’ordinateur poursuit le calcul de ses compartiments
+      correct: true
+    - text: Les MN90 utilisent GPS/majoration ; l’ordinateur repart de zéro à chaque immersion
+      correct: false
+    - text: Les deux ajoutent obligatoirement la même majoration tabulaire au temps réel
+      correct: false
+    explanation: 'GPS est le groupe de plongée successive des MN90. Il sert à obtenir une majoration après
+      l’intervalle de surface. Un ordinateur suit sa propre charge calculée, y compris pendant l’intervalle
+      : les successives ne sont pas ignorées et la méthode n’est pas la même que la majoration tabulaire.'

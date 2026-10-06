@@ -583,6 +583,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::16
   - detendeurs
@@ -596,10 +597,11 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: À 20 m dans le modèle 1 bar en surface et +1 bar/10 m, un détendeur a une MP de 9,5 bar au-dessus
-      de l’ambiante. Délivre-t-il 12,5 bar absolus dans la bouche ?
+    question: À 20 m dans le modèle 1 bar en surface et +1 bar/10 m, un détendeur a une MP de 9,5 bar
+      au-dessus de l’ambiante. Délivre-t-il 12,5 bar absolus dans la bouche ?
     choices:
     - text: 'Non : 12,5 bar dans le flexible, environ 3 bar à la bouche'
       correct: true
@@ -616,6 +618,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::16
   - detendeurs
@@ -629,10 +632,11 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1 bar
-      en surface et +1 bar/10 m. Quelle est sa MP absolue ?'
+    question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1
+      bar en surface et +1 bar/10 m. Quelle est sa MP absolue ?'
     choices:
     - text: 12 bar absolus
       correct: true
@@ -648,6 +652,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::16
   - detendeurs
@@ -661,6 +666,7 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Prendre 1 bar en surface et +1 bar/10

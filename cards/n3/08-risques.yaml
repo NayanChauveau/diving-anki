@@ -1,0 +1,205 @@
+cards:
+- id: n3-risques-densite-partielle-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - DAN — Simon Mitchell, The Physiology of Compressed-Gas Diving, 01/08/2016, Mechanics of Diving ;
+      https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: À l’air, quel mécanisme relie directement la profondeur à l’augmentation du travail ventilatoire,
+      distinct de la narcose ?
+    choices:
+    - text: L’augmentation de densité du gaz et des résistances à son écoulement
+      correct: true
+    - text: La hausse de pression partielle d’azote agissant seule sur les muscles respiratoires
+      correct: false
+    - text: La baisse de fraction d’oxygène de l’air quand la profondeur augmente
+      correct: false
+    explanation: Le gaz devient plus dense sous pression, ce qui augmente les résistances ventilatoires.
+      La hausse de pression partielle des gaz concerne d’autres effets, notamment la narcose ; la fraction
+      d’oxygène de l’air ne diminue pas avec la profondeur.
+- id: n3-risques-po2-60-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Modèle sec : air à 21 % d’O₂, 1 bar en surface, +1 bar par 10 m. À 60 m, quelle pression
+      partielle d’oxygène obtient-on, sans correction de vapeur d’eau ?'
+    choices:
+    - text: 1,47 bar
+      correct: true
+    - text: 1,26 bar
+      correct: false
+    - text: 0,21 bar
+      correct: false
+    explanation: Pression absolue = 7 bar ; PO₂ = 0,21 × 7 = 1,47 bar. 1,26 utilise seulement 6 bar relatifs.
+      La pression partielle se calcule avec la pression absolue et la fraction du gaz.
+- id: n3-risques-dyspnee-persistante-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Après l’arrêt de l’effort, un plongeur reste anormalement gêné pour respirer et tousse ;
+      son gaz semble disponible. Quelle conclusion guide l’action ?
+    choices:
+    - text: Une difficulté respiratoire persistante impose assistance et fin de plongée, sans diagnostic
+        certain
+      correct: true
+    - text: L’arrêt de l’effort écarte l’essoufflement et prouve une surpression pulmonaire
+      correct: false
+    - text: Le gaz disponible écarte un accident et permet d’attendre la récupération au fond
+      correct: false
+    explanation: Un OPI ou d’autres causes peuvent provoquer ces signes. L’absence de diagnostic certain
+      ne retarde pas l’assistance, la sortie sécurisée et l’alerte/oxygène en surface. On ne force pas
+      une attribution à un simple essoufflement.
+- id: n3-risques-opi-mecanisme-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Quel mécanisme décrit l’œdème pulmonaire d’immersion (OPI) ?
+    choices:
+    - text: Du liquide venant de la circulation s’accumule dans le tissu pulmonaire et les alvéoles
+      correct: true
+    - text: Le gaz respiré dilate les alvéoles et rompt leur paroi à chaque descente
+      correct: false
+    - text: Des bulles d’azote obstruent nécessairement les vaisseaux pulmonaires après les paliers
+      correct: false
+    explanation: L’OPI est une accumulation de liquide dans les poumons en lien avec les contraintes circulatoires
+      et respiratoires de l’immersion. Il peut survenir sans inhalation d’eau et ne se confond pas avec
+      une noyade, une surpression pulmonaire ou un ADD.
+- id: n3-risques-opi-signes-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Quel tableau doit notamment faire évoquer un OPI, sans attendre la présence de crachats
+      rosés ?
+    choices:
+    - text: Gêne respiratoire brutale disproportionnée à l’effort, avec toux en immersion
+      correct: true
+    - text: Douleur d’oreille à la descente, avec vertige après équilibrage
+      correct: false
+    - text: Fourmillements isolés d’une jambe deux heures après la sortie
+      correct: false
+    explanation: L’OPI peut donner dyspnée et toux, parfois expectoration mousseuse ou sanglante, mais
+      celle-ci n’est pas indispensable. Ces signes ne suffisent pas à prouver le diagnostic ; leur gravité
+      commande l’assistance et l’évaluation médicale.
+- id: n3-risques-opi-priorites-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À bord, après une sortie sécurisée, un plongeur conscient garde une gêne respiratoire faisant
+      suspecter un OPI. Quelle prise en charge immédiate est adaptée ?
+    choices:
+    - text: Position de confort respiratoire, oxygène, alerte médicale et surveillance
+      correct: true
+    - text: Position allongée imposée, eau à boire et attente de disparition de la toux
+      correct: false
+    - text: Position assise, nouvelle immersion peu profonde et surveillance du manomètre
+      correct: false
+    explanation: La gêne respiratoire motive oxygène et alerte, sans attendre un diagnostic sur le bateau.
+      La position doit faciliter la respiration ; on surveille conscience et ventilation et suit les consignes
+      médicales. Une réimmersion n’est pas un traitement.
+- id: n3-risques-contraintes-cumulees-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-08-09
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.10–11,15
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
+    - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Au fond, le courant augmente, un équipier commence à frissonner et sa consommation dépasse
+      le budget. Quelle modification du plan répond simultanément à ces trois changements ?
+    choices:
+    - text: Déclencher le retour collectif avant les limites initiales et réévaluer le gaz restant
+      correct: true
+    - text: Garder la durée prévue en réduisant uniquement la vitesse de palmage
+      correct: false
+    - text: Attendre la DTR maximale prévue pour que le froid soit pris en compte par l’ordinateur
+      correct: false
+    explanation: La durée planifiée est une limite maximale, pas une obligation de poursuivre. Froid,
+      effort et gaz diminuent la marge du retour ; la palanquée reste ensemble et adapte le profil avant
+      que le budget ne soit dépassé.

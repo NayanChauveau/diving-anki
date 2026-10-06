@@ -4,6 +4,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::03
   - documents-environnement
@@ -20,9 +21,10 @@ cards:
       ; vérifié le 2026-10-05'
     - 'Revue : docs/reviews/03-documents-environnement.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Pour un adulte pratiquant la plongée N2 FFESSM à l’air, hors cas médical particulier, quelle
+    question: Pour un adulte pratiquant la plongée FFESSM à l’air, hors cas médical particulier, quelle
       ancienneté maximale du CACI et quelle exigence de médecin s’appliquent ?
     choices:
     - text: Moins d’un an ; médecin fédéral non obligatoire
@@ -261,6 +263,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::03
   - documents-environnement
@@ -274,6 +277,7 @@ cards:
       réglementation locale et pavillons : https://www.mer.gouv.fr/regles-de-securite-pour-les-loisirs-nautiques-en-mer
       ; vérifié le 2026-10-05'
     - 'Revue : docs/reviews/03-documents-environnement.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Quelles sont les couleurs du pavillon Alpha utilisé pour signaler la plongée depuis une
@@ -370,6 +374,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::03
   - documents-environnement
@@ -385,6 +390,7 @@ cards:
     - 'Revue : docs/reviews/03-documents-environnement.md'
     - 'FFESSM — MFT N2 mai 2026, couverture CTN et cursus p.2–4 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Dans le réseau FFESSM, qui définit le cursus fédéral et qui organise localement les formations
@@ -396,14 +402,16 @@ cards:
       correct: false
     - text: 'CMAS : cursus fédéral français ; FFESSM : activités locales'
       correct: false
-    explanation: La FFESSM, Fédération française d’études et de sports sous-marins, définit le cursus fédéral.
-      Les clubs et structures commerciales agréées organisent localement les activités dans ce cadre.
+    explanation: La FFESSM, Fédération française d’études et de sports sous-marins, définit le cursus
+      fédéral. Les clubs et structures commerciales agréées organisent localement les activités dans ce
+      cadre.
 - id: n2-documents-cmas-role-001
   type: mcq
   anki_model: basic
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::03
   - documents-environnement
@@ -419,6 +427,7 @@ cards:
       ; vérifié le 2026-10-05'
     - 'Revue : docs/reviews/03-documents-environnement.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Une certification de plongée porte une référence CMAS. À quoi renvoie cette référence ?

@@ -142,6 +142,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -154,6 +155,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: La limite de deux plongées par 24 heures des tables MN90 devient-elle automatiquement une
@@ -174,6 +176,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -187,6 +190,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Que signifie une durée située dans la zone sans palier obligatoire d’une table ?
@@ -197,15 +201,16 @@ cards:
       correct: false
     - text: Remontée avec un palier de confort obligatoire, même sans palier de décompression indiqué
       correct: false
-    explanation: '**Avec les hypothèses et règles de cette table, la remontée n’exige pas de palier de décompression.**
-      La vitesse de remontée reste à respecter ; « sans palier » ne signifie ni remontée instantanée ni
-      risque nul.'
+    explanation: '**Avec les hypothèses et règles de cette table, la remontée n’exige pas de palier de
+      décompression.** La vitesse de remontée reste à respecter ; « sans palier » ne signifie ni remontée
+      instantanée ni risque nul.'
 - id: n2-tables-dtr-001
   type: mcq
   anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -218,6 +223,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Que comprend la durée totale de remontée, ou DTR, d’un exercice de tables MN90 ?
@@ -270,6 +276,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -282,10 +289,11 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Dans les MN90 au niveau de la mer, quelles vitesses distingue-t-on pour remonter du fond puis
-      entre les paliers ?
+    question: Dans les MN90 au niveau de la mer, quelles vitesses distingue-t-on pour remonter du fond
+      puis entre les paliers ?
     choices:
     - text: 15 à 17 m/min jusqu’au premier palier, puis 6 m/min
       correct: true
@@ -302,6 +310,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -314,6 +323,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Un ordinateur impose une vitesse de remontée inférieure à celle des MN90. Quelle référence
@@ -333,6 +343,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -346,6 +357,7 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: Dans les exercices MN90, à quelles catégories appartiennent deux plongées séparées par exactement
@@ -357,10 +369,10 @@ cards:
       correct: false
     - text: '15 min : successive ; 12 h : successive'
       correct: false
-    explanation: '**15 min : successive ; 12 h : isolée.** Une consécutive est séparée de moins de 15 min
-      ; une successive, de 15 min à moins de 12 h ; une isolée, d’au moins 12 h. L’intervalle va de la sortie
-      de la première plongée au départ de la seconde ; cette classification n’atteste pas une élimination
-      totale de l’azote.'
+    explanation: '**15 min : successive ; 12 h : isolée.** Une consécutive est séparée de moins de 15
+      min ; une successive, de 15 min à moins de 12 h ; une isolée, d’au moins 12 h. L’intervalle va de
+      la sortie de la première plongée au départ de la seconde ; cette classification n’atteste pas une
+      élimination totale de l’azote.'
 - id: n2-tables-majoration-001
   type: mcq
   anki_model: basic
@@ -400,6 +412,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -413,10 +426,11 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: 'Exercice de successive : majoration 13 min, durée réelle de la deuxième plongée 22 min. Quelle
-      durée sert à lire ses paliers ?'
+    question: 'Exercice de successive : majoration 13 min, durée réelle de la deuxième plongée 22 min.
+      Quelle durée sert à lire ses paliers ?'
     choices:
     - text: 35 min
       correct: true
@@ -466,6 +480,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -479,6 +494,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: 'Exercice MN90 : 20 min jusqu’au départ du fond, puis 4 min de remontée lente jusqu’au premier
@@ -490,14 +506,15 @@ cards:
       correct: false
     - text: 16 min
       correct: false
-    explanation: '**24 min : 20 + 4.** Dans la procédure MN90 de remontée lente, cette phase jusqu’au premier
-      palier est intégrée à la durée de plongée. Elle ne se traite pas comme une remontée normale.'
+    explanation: '**24 min : 20 + 4.** Dans la procédure MN90 de remontée lente, cette phase jusqu’au
+      premier palier est intégrée à la durée de plongée. Elle ne se traite pas comme une remontée normale.'
 - id: n2-tables-courbe-001
   type: mcq
   anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -511,10 +528,11 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: 'Extrait MN90 à 20 m : 40 min sans palier ; 45 min avec 1 min à 3 m. Une plongée simple dure
-      41 min avant une remontée normale. Faut-il lire une ligne avec palier ?'
+    question: 'Extrait MN90 à 20 m : 40 min sans palier ; 45 min avec 1 min à 3 m. Une plongée simple
+      dure 41 min avant une remontée normale. Faut-il lire une ligne avec palier ?'
     choices:
     - text: 'Oui : lire 45 min et 1 min à 3 m'
       correct: true
@@ -530,6 +548,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -543,6 +562,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
     question: 'Exercice MN90 : départ de 30 m, un seul palier de 9 min à 3 m. Employer 15 m/min jusqu’au
@@ -667,6 +687,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::12
   - tables
@@ -680,11 +701,13 @@ cards:
       le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - Les arrêts de cet exercice sont des données imposées, pas une ligne réelle de la table.
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: 'Exercice MN90 de calcul de trajet : départ du fond à 28 m, arrêts imposés par l’énoncé de
-      1 min à 6 m puis 4 min à 3 m. Employer 15 m/min jusqu’au premier arrêt, puis 6 m/min entre les arrêts
-      et jusqu’à la surface. Arrondir la somme à la minute supérieure. Quelle durée totale de remontée ?'
+    question: 'Exercice MN90 de calcul de trajet : départ du fond à 28 m, arrêts imposés par l’énoncé
+      de 1 min à 6 m puis 4 min à 3 m. Employer 15 m/min jusqu’au premier arrêt, puis 6 m/min entre les
+      arrêts et jusqu’à la surface. Arrondir la somme à la minute supérieure. Quelle durée totale de remontée
+      ?'
     choices:
     - text: 8 min
       correct: true

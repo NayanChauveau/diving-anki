@@ -246,6 +246,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -257,9 +258,12 @@ cards:
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'MFT GP-N4 janvier 2026, p.25 : pas de paliers profonds à l’air ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/5432cb26-a2db-46a3-90bc-1a227f4d6667
+      ; confirme la recommandation air au-delà de PA20, vérifié 2026-10-06'
     fact_check: pass
   fr:
-    question: En planification PA20 FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
+    question: En planification FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
       ?
     choices:
     - text: 'Non : planifier sans paliers profonds supplémentaires à l’air'

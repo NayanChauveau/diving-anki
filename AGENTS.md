@@ -1,6 +1,6 @@
 # Instructions aux agents
 
-Projet de théorie de plongée en français : N2 réalisé, N3 en cours, structure prévue pour N4.
+Projet de théorie de plongée en français : N2 et N3 réalisés, structure prévue pour N4.
 Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
 et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
 pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les niveaux.
@@ -139,3 +139,11 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   une catégorie dont la définition est donnée au recto ne crée pas un exercice utile.
 - Un plafond d’ordinateur est une profondeur à ne pas franchir vers la surface ; deux
   plafonds différents ne se gèrent pas comme deux simples durées au même palier.
+
+## Extension après clôture N3
+
+Consulter [la couverture N3](docs/reviews/n3/COUVERTURE_N3.md) et son CSV des objectifs
+avant tout ajout. Le catalogue compte 426 notes, dont 204 communes et 118 créations N3.
+Les douze modules du plan ne sont pas douze nouveaux sous-decks. Réutiliser les cartes
+de tables, GF, secours et matériel à leur ID existant. Respecter les contextes fabricant,
+air et établissement ; ne pas faire des hypothèses numériques une procédure réelle.

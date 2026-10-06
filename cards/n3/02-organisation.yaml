@@ -1,0 +1,255 @@
+cards:
+- id: n3-organisation-recuperation-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une sortie sans DP est préparée depuis un bateau. Profils, gaz et paliers sont fixés ; le
+      pilote ne sait pas où chercher une palanquée qui remonte loin du mouillage. Quel point du briefing
+      manque précisément ?
+    choices:
+    - text: Le secteur de récupération, la signalisation et la conduite en cas de sortie décalée
+      correct: true
+    - text: La répartition des profondeurs maximales entre les trois plongeurs
+      correct: false
+    - text: Le choix de la vitesse de remontée commune aux ordinateurs
+      correct: false
+    explanation: La préparation inclut l’immersion et le retour en surface. Le pilote et les plongeurs
+      conviennent de la récupération, des signaux et du repli ; les seuls paramètres sous-marins ne suffisent
+      pas.
+- id: n3-organisation-vent-site-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Météo-France — dangers météorologiques vent : https://vigi.meteofrance.fr/fr/dangers-meteorologiques-vent
+      ; consulté 2026-10-06'
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un vent d’ouest est prévu. Le site A a sa mise à l’eau ouverte à l’ouest ; le site B est
+      protégé à l’ouest par un relief continu. Houle, courant, profondeur et accès sont par ailleurs équivalents
+      et favorables. Quel site est le moins exposé à ce vent ?
+    choices:
+    - text: B
+      correct: true
+    - text: A
+      correct: false
+    - text: Les deux, car un vent d’ouest se dirige vers l’ouest
+      correct: false
+    explanation: Un vent d’ouest vient de l’ouest et souffle vers l’est. Le relief placé à l’ouest de
+      B le protège dans les conditions fournies ; A est directement exposé. Le bulletin de houle se vérifie
+      séparément.
+- id: n3-organisation-vent-houle-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - Météo-France — Guide marine 2022, mer du vent et houle ; https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide-MARINE-2022.pdf
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Le vent local tombe, mais un bulletin annonce encore une houle d’ouest. Pourquoi la mise
+      à l’eau exposée à l’ouest peut-elle rester difficile ?
+    choices:
+    - text: La houle peut provenir d’une zone de vent éloignée et persister sans vent local
+      correct: true
+    - text: La direction de houle indique le sens du vent local prévu au même instant
+      correct: false
+    - text: La houle restante dépend uniquement du coefficient de marée local
+      correct: false
+    explanation: La mer du vent se forme sous l’action du vent local ; la houle peut avoir été produite
+      ailleurs et se propager. Une accalmie de vent ne démontre pas que les vagues à la mise à l’eau ont
+      disparu.
+- id: n3-organisation-surface-limitante-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Le fond du site reste abrité, mais les prévisions montrent que les vagues dépasseront la
+      limite de récupération fixée par le pilote avant le retour des plongeurs. Quel paramètre remet directement
+      en cause le départ ?
+    choices:
+    - text: La faisabilité du retour à bord à l’heure prévue
+      correct: true
+    - text: La profondeur maximale des plongeurs au fond
+      correct: false
+    - text: La présence d’un palier de sécurité facultatif
+      correct: false
+    explanation: L’évaluation porte sur toute la sortie, jusqu’à la récupération. Une exploration abritée
+      au fond ne résout pas un retour à bord devenu dangereux. Le profil doit être modifié pour un retour
+      réalisable ou la sortie reportée.
+- id: n3-organisation-fenetre-courant-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une fiche locale donne un courant inférieur à 0,5 nœud de 10 h 20 à 10 h 50. Le plan impose
+      que toute l’immersion dure 25 min et se déroule dans cette fenêtre. Parmi ces horaires de départ,
+      lequel convient ?
+    choices:
+    - text: 10 h 25
+      correct: true
+    - text: 10 h 15
+      correct: false
+    - text: 10 h 30
+      correct: false
+    explanation: À 10 h 25, le retour est à 10 h 50, dans la fenêtre fournie. À 10 h 15 le début précède
+      la fenêtre ; à 10 h 30, la fin la dépasse. L’heure de pleine mer seule ne permet pas de déduire
+      cette fenêtre de courant.
+- id: n3-organisation-sortie-repli-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Dans un exercice de retour du bord, le courant rend l’accès A inaccessible. Le repli B demande
+      6 min, C 10 min ; même profondeur et mêmes conditions. Le budget disponible après la marge de retour
+      permet encore 8 min de déplacement. Quel repli est compatible avec ce budget ?
+    choices:
+    - text: B seulement
+      correct: true
+    - text: C seulement
+      correct: false
+    - text: B et C
+      correct: false
+    explanation: Six minutes respectent le budget imposé de huit minutes ; dix minutes le dépassent. Le
+      repli est choisi avec les contraintes réelles du trajet, de la récupération et du gaz, puis communiqué
+      à toute la palanquée.
+- id: n3-organisation-contact-terre-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Pour une sortie du bord, un proche doit déclencher une alerte si le groupe n’est pas rentré.
+      Quelle information rend le dispositif utilisable ?
+    choices:
+    - text: Le site précis, les participants et l’heure convenue de déclenchement de l’alerte
+      correct: true
+    - text: La profondeur maximale, les marques des blocs et le niveau moyen du groupe
+      correct: false
+    - text: La durée maximale au fond, les réglages GF et la pression de départ
+      correct: false
+    explanation: Le proche doit savoir qui chercher, où et à partir de quand alerter, avec les coordonnées
+      de contact et les modalités de retour. Une simple durée de fond ne donne pas l’heure de retour à
+      terre.
+- id: n3-organisation-rotation-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Quatre N3 et un pilote non plongeur disposent d’un bateau. Le plan prévoit deux palanquées
+      de deux, mais le pilote a besoin d’une seconde personne à bord pour récupérer les plongeurs. Quelle
+      rotation assure cette organisation ?
+    choices:
+    - text: Une palanquée plonge pendant que les deux autres N3 restent avec le pilote
+      correct: true
+    - text: Les deux palanquées plongent ensemble pendant que le pilote attend
+      correct: false
+    - text: Une palanquée plonge pendant que les deux autres N3 s’immergent sous le bateau
+      correct: false
+    explanation: La disponibilité d’une aide à la récupération est une contrainte donnée. Une rotation
+      alternée garde les deux autres N3 en surface. Ce n’est pas un effectif de surveillance national
+      fixé pour toutes les sorties.
+- id: n3-organisation-equipements-distincts-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::02
+  status: reviewed
+  source_id: N3-02-13
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
+    - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-78 ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un bateau de plaisance est conforme pour sa navigation, mais aucun contrôle du matériel
+      de secours propre à la plongée n’a été fait. Quelle conclusion est correcte avant la sortie du club
+      ?
+    choices:
+    - text: La conformité nautique ne dispense pas du matériel de sécurité et d’assistance de plongée
+      correct: true
+    - text: La conformité nautique couvre les secours de plongée jusqu’à 40 m sans DP
+      correct: false
+    - text: Le matériel de plongée n’est obligatoire que si le bateau est à plus de 6 milles d’un abri
+      correct: false
+    explanation: Les obligations nautiques du bateau et celles de l’activité de plongée se cumulent. Il
+      faut vérifier séparément le matériel adapté à l’activité, dont l’oxygène et les moyens d’alerte,
+      ainsi que les équipements individuels.

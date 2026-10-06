@@ -1,0 +1,202 @@
+cards:
+- id: n3-assistance-sans-signe-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À 35 m, un équipier devient agité, ventile fortement et répond mal aux échanges, sans faire
+      de signe conventionnel. Quel indice justifie l’intervention ?
+    choices:
+    - text: L’ensemble des comportements anormaux, même sans demande volontaire
+      correct: true
+    - text: Le seul signe conventionnel de demande d’aide, indispensable pour intervenir
+      correct: false
+    - text: Le manomètre seul, car un gaz disponible écarte un besoin d’assistance
+      correct: false
+    explanation: La perte de vigilance et la ventilation anormale sont des manifestations observables
+      de difficulté. L’intervention n’attend pas un signe volontaire que l’équipier peut ne plus être
+      capable de faire ; elle reste calme et adaptée.
+- id: n3-assistance-cooperation-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: En immersion, quelle différence essentielle distingue un équipier conscient coopératif d’un
+      équipier qui ne réagit plus ?
+    choices:
+    - text: On peut s’appuyer sur la coopération du premier ; le second ne peut plus assurer sa propre
+        sécurité
+      correct: true
+    - text: La coopération permet d’utiliser l’ordinateur de l’équipier comme suivi personnel de secours
+      correct: false
+    - text: L’absence de réaction dispense de contrôler la source de gaz pendant la remontée
+      correct: false
+    explanation: La vigilance et la capacité à agir déterminent l’aide nécessaire. Un équipier non réactif
+      ne peut pas compter sur ses propres gestes ou communications ; sa prise en charge requiert une assistance
+      immédiate adaptée et une sortie sécurisée.
+- id: n3-assistance-stock-donneur-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un équipier passe sur la source de secours de son binôme. Quelle information devient déterminante
+      pour le gaz du retour partagé ?
+    choices:
+    - text: La pression et le volume du bloc qui alimente maintenant les deux plongeurs
+      correct: true
+    - text: La moyenne des pressions des deux blocs, y compris celui devenu inutilisable
+      correct: false
+    - text: La seule pression du bloc du receveur avant l’incident
+      correct: false
+    explanation: Le retour partagé est alimenté par le stock réellement accessible du donneur. Le débit
+      cumulé et toutes les phases de retour sont pris en compte ; la pression d’un bloc inutilisable n’augmente
+      pas le gaz disponible.
+- id: n3-assistance-flottabilite-double-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Pendant une remontée assistée à deux gilets, quel phénomène doit être surveillé dans les
+      équipements des deux plongeurs ?
+    choices:
+    - text: La dilatation du gaz, qui peut accélérer la remontée si elle n’est pas contrôlée
+      correct: true
+    - text: La compression du gaz, qui augmente la flottabilité à la remontée
+      correct: false
+    - text: La baisse de pression, qui garde constant le volume des deux gilets
+      correct: false
+    explanation: La baisse de pression ambiante fait augmenter le volume du gaz dans les deux gilets.
+      L’assistance exige un contrôle continu de flottabilité et de vitesse, en tenant compte des deux
+      équipements, sans attendre l’alarme de l’ordinateur.
+- id: n3-assistance-troisieme-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Dans une palanquée de trois, A assiste B en difficulté. C est disponible et dispose de gaz.
+      Quel rôle de C conserve la cohésion sans gêner l’assistance ?
+    choices:
+    - text: Rester avec eux, surveiller et communiquer les paramètres utiles du retour
+      correct: true
+    - text: Partir seul vers la surface pour prévenir sans rester en contact
+      correct: false
+    - text: Rester à proximité mais poursuivre son propre profil de décompression indépendamment
+      correct: false
+    explanation: 'Le troisième reste intégré au retour et apporte une observation ou une aide utile :
+      gaz, profondeur, désaturation, orientation, selon le cas. S’éloigner sans nécessité ajoute une séparation
+      à l’incident.'
+- id: n3-assistance-gaz-palier-insuffisant-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Dans un exercice de budget avant immersion, le retour partagé obligatoire demande 1 000
+      L à 1 bar ; le stock utilisable prévu est 800 L. Quelle modification résout cette incompatibilité
+      de plan ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul
+      le gaz respiré est compté.'
+    choices:
+    - text: Revoir avant départ le profil ou le stock utilisable pour couvrir tout le retour
+      correct: true
+    - text: Conserver le profil en réduisant arbitrairement les paliers à 80 %
+      correct: false
+    - text: Conserver le profil en supposant un débit réel inférieur au débit imposé
+      correct: false
+    explanation: 'Le manque de 200 L est une incompatibilité du plan : on adapte profil, stock et organisation
+      avant immersion. On ne raccourcit pas un palier obligatoire pour équilibrer un budget, ni ne remplace
+      une donnée par une consommation espérée.'
+- id: n3-assistance-surface-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::09
+  status: reviewed
+  source_id: N3-09-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À la surface, avant tractage d’un plongeur incapable de se maintenir seul, quels deux objectifs
+      doivent être assurés ensemble ?
+    choices:
+    - text: Flottabilité suffisante et voies aériennes hors de l’eau
+      correct: true
+    - text: Flottabilité suffisante et maintien du visage dans l’eau jusqu’au bateau
+      correct: false
+    - text: Dégonflage du gilet pour le tractage et voies aériennes hors de l’eau
+      correct: false
+    explanation: La mise en sécurité vise à empêcher une nouvelle submersion et à conserver les voies
+      aériennes dégagées. Le matériel est adapté à la récupération ; tractage et hissage se travaillent
+      en formation pratique.

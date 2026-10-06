@@ -1,0 +1,347 @@
+cards:
+- id: n3-orientation-retour-deux-branches-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Sans courant, une palanquée contourne un obstacle : 40 m au cap 090°, puis 30 m au cap
+      000°. Elle revient exactement par les mêmes deux segments en sens inverse. Quels caps suit-elle,
+      dans l’ordre du retour ?'
+    choices:
+    - text: 180° puis 270°
+      correct: true
+    - text: 270° puis 180°
+      correct: false
+    - text: 180° puis 090°
+      correct: false
+    explanation: 'Le dernier segment se refait d’abord : inverse de 000° = 180°. Puis inverse de 090°
+      = 270°. Inverser les caps sans inverser l’ordre des segments ne retrace pas le contour de l’obstacle.'
+- id: n3-orientation-courant-trajectoire-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Dans un exercice vu du dessus, un plongeur suit un cap 000° avec 20 m de déplacement vers
+      le nord par rapport à l’eau. Le courant le déplace de 10 m vers l’est par rapport au fond. Où se
+      trouve-t-il par rapport au départ ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" role="img" aria-label="Vue du dessus
+      : déplacement dans l’eau vers le nord et courant vers l’est" style="max-width:340px;width:100%;background:#fff"><g
+      fill="none" stroke="#243b53" stroke-width="3"><path d="M65 185 L65 55 M65 55 L59 67 M65 55 L71 67"/><path
+      d="M130 150 L250 150 M250 150 L238 144 M250 150 L238 156"/></g><g fill="#243b53" font-family="sans-serif"
+      font-size="16"><text x="55" y="32">N</text><text x="275" y="157">E</text><text x="85" y="82">20
+      m dans l’eau</text><text x="140" y="190">Courant : 10 m</text><text x="25" y="215">Départ</text></g><circle
+      cx="65" cy="185" r="5" fill="#243b53"/></svg>'
+    choices:
+    - text: 20 m au nord et 10 m à l’est
+      correct: true
+    - text: 20 m au nord et 10 m à l’ouest
+      correct: false
+    - text: 10 m au nord et 20 m à l’est
+      correct: false
+    explanation: Le déplacement réel au fond est la somme du déplacement dans l’eau et de l’entraînement
+      par le courant. Le compas indique l’orientation suivie, sans annuler la dérive.
+- id: n3-orientation-reperes-compas-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Le retour prévu suit une paroi au cap 270°. La visibilité baisse ; un équipier suit une
+      autre paroi au cap 090° en pensant avoir retrouvé la bonne. Quel contrôle met en évidence cette
+      erreur de route ?
+    choices:
+    - text: Comparer le cap suivi aux 270° prévus et aux repères mémorisés
+      correct: true
+    - text: Comparer seulement la profondeur actuelle à celle du départ
+      correct: false
+    - text: Comparer seulement l’orientation de la lumière à celle observée à l’aller
+      correct: false
+    explanation: La même profondeur ou une durée comparable ne prouvent pas le bon trajet. Le cap opposé
+      aux 270° attendus révèle une incohérence à confronter aux repères naturels, avant de poursuivre.
+- id: n3-orientation-relief-sortie-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Un relevé fourni décrit deux reliefs : A remonte de 20 m jusqu’à la côte ; B culmine à
+      8 m puis redescend à 20 m de tous côtés. En cherchant la sortie du bord, quel relief peut conduire
+      vers la côte ?'
+    choices:
+    - text: A
+      correct: true
+    - text: B
+      correct: false
+    - text: Les deux, puisqu’ils deviennent moins profonds
+      correct: false
+    explanation: A se prolonge jusqu’à la côte ; B est une roche isolée sous l’eau. Remonter le long d’un
+      relief moins profond ne démontre pas qu’il mène à une sortie. Le profil du terrain complète profondeur
+      et cap.
+- id: n3-orientation-perte-limite-gaz-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une palanquée perd ses repères. Le gaz permet encore le retour de repli convenu, mais pas
+      une recherche de 10 min suivie de ce même retour. Quel choix respecte le budget préparé ?
+    choices:
+    - text: Utiliser maintenant le repli convenu en gardant la cohésion
+      correct: true
+    - text: Chercher 10 min puis reprendre exactement le même repli
+      correct: false
+    - text: Répartir les plongeurs sur plusieurs axes pour raccourcir la recherche
+      correct: false
+    explanation: Une recherche consomme aussi le budget de retour. Le repli est déclenché avant de devenir
+      lui-même impossible ; la séparation ajoute un risque et ne crée pas du gaz disponible.
+- id: n3-orientation-trafic-surface-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Le plan de récupération prévoyait une remontée au mouillage ; une dérive impose des paliers
+      en pleine eau près d’un passage de bateaux. Quelle adaptation signale la palanquée au pilote et
+      aux usagers avant l’émersion ?
+    choices:
+    - text: Déployer le parachute de signalisation selon la procédure maîtrisée
+      correct: true
+    - text: Attendre l’émersion pour faire le signe OK au bateau
+      correct: false
+    - text: Remonter séparément pour que le pilote repère plus facilement un plongeur
+      correct: false
+    explanation: Le parachute signale la présence de la palanquée et son arrêt en pleine eau. La remontée
+      finale reste contrôlée, avec observation des dangers de surface et récupération préparée. Une distance
+      d’éloignement locale doit être vérifiée pour le secteur.
+- id: n3-milieu-sediments-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un passage sur fond meuble est bas et la palanquée commence à soulever des sédiments. Quel
+      ajustement réduit ce trouble sans prendre appui sur le fond ?
+    choices:
+    - text: Augmenter la distance au fond si le passage le permet, avec assiette et palmage adaptés
+      correct: true
+    - text: Dégonfler davantage pour avancer au plus près du sédiment
+      correct: false
+    - text: Accélérer le palmage pour traverser avant que le nuage ne s’étende
+      correct: false
+    explanation: La stabilisation, l’assiette et la direction du palmage limitent contact et remise en
+      suspension. Se rapprocher du fond ou accélérer un palmage dirigé vers le sédiment augmente le trouble
+      et diminue la visibilité.
+- id: n3-milieu-eclairage-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Pour observer une faune fixée à courte distance, quelle pratique d’éclairage limite le dérangement
+      tout en permettant l’observation ?
+    choices:
+    - text: Employer la lumière nécessaire et éviter une exposition forte et prolongée
+      correct: true
+    - text: Maintenir un éclairage maximal continu pour habituer les organismes
+      correct: false
+    - text: Maintenir le faisceau au même point jusqu’à ce que l’animal cesse de bouger
+      correct: false
+    explanation: Le MFT demande de limiter éclairage et nuisances et de rester discret. La lumière est
+      adaptée à l’observation, sans poursuivre ou stimuler volontairement les organismes.
+- id: n3-milieu-posidonie-nature-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-09
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
+    - DORIS — Posidonia oceanica, fiche 265, mise à jour 21/07/2026, description ; https://doris.ffessm.fr/ref/specie/265
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: En Méditerranée, qu’est-ce qui distingue biologiquement la posidonie d’une algue ?
+    choices:
+    - text: C’est une plante à fleurs avec racines, rhizomes et feuilles
+      correct: true
+    - text: C’est une algue dont les crampons sont appelés racines
+      correct: false
+    - text: C’est une colonie animale dont les polypes ressemblent à des feuilles
+      correct: false
+    explanation: Posidonia oceanica est une plante marine à fleurs, endémique de Méditerranée. Ses herbiers
+      forment un habitat ; l’aspect végétal d’un organisme ne suffit pas à dire qu’il s’agit d’une algue.
+- id: n3-milieu-posidonie-mouillage-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-10
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.12,14
+    - DORIS — Posidonia oceanica, fiche 265, biologie et menaces, mise à jour 21/07/2026 ; https://doris.ffessm.fr/ref/specie/265
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - OFB — Les herbiers de posidonies, pratiques de mouillage ; https://ofb.gouv.fr/les-herbiers-de-posidonies
+      ; vérifié 2026-10-06
+    fact_check: pass
+  fr:
+    question: Pourquoi le choix d’un mouillage hors d’un herbier de posidonie protège-t-il cet habitat
+      méditerranéen ?
+    choices:
+    - text: L’ancre et la chaîne peuvent arracher et fragmenter l’herbier à croissance lente
+      correct: true
+    - text: L’ancre crée seulement un nuage temporaire sans modifier les rhizomes
+      correct: false
+    - text: L’herbier repousse rapidement à partir des fragments dispersés par la chaîne
+      correct: false
+    explanation: La posidonie forme des herbiers sensibles, dont la restauration est lente. Ancre et chaîne
+      peuvent endommager les plantes et la structure du fond. On recherche les possibilités de mouillage
+      autorisées et les dispositifs prévus pour le site.
+- id: n3-milieu-anemone-contact-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-11
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
+    - DORIS — Anemonia viridis, fiche 111, mise à jour 24/08/2025, alimentation/cnidocytes ; https://doris.ffessm.fr/ref/specie/111
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Sur un site méditerranéen, une anémone verte (Anemonia viridis) porte des tentacules souples.
+      Quel risque justifie d’éviter leur contact ?
+    choices:
+    - text: Leurs cellules urticantes peuvent se déclencher au contact
+      correct: true
+    - text: Des pointes rigides sur les tentacules provoquent une perforation mécanique
+      correct: false
+    - text: Une morsure des tentacules, déclenchée quand on s’approche sans les toucher
+      correct: false
+    explanation: Les tentacules possèdent des cnidocytes, cellules urticantes servant notamment à capturer
+      les proies. Une apparence souple et une fixation au fond ne rendent pas le contact sans risque ;
+      on observe sans toucher.
+- id: n3-organisation-regles-locales-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-12
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une carte nautique montre un site adapté au profil ; le secteur appartient aussi à une aire
+      protégée. Quel complément faut-il vérifier avant de choisir le mouillage ?
+    choices:
+    - text: Les règles d’accès et de mouillage en vigueur dans cette zone
+      correct: true
+    - text: Les règles de mouillage des plaisanciers, à l’exclusion de celles de l’aire protégée
+      correct: false
+    - text: Les restrictions d’immersion seules, puisqu’un bateau de plongée est dispensé des règles de
+        mouillage
+      correct: false
+    explanation: 'La carte ne donne pas à elle seule toutes les règles de la zone. On consulte les textes/avis
+      en vigueur et les informations de l’autorité gestionnaire : accès, mouillage et restrictions d’activité.
+      Leur contenu dépend du secteur.'

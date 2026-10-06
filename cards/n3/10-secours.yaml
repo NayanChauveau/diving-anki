@@ -1,0 +1,485 @@
+cards:
+- id: n3-secours-repartition-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-01
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À bord, une personne prend en charge le bilan et l’oxygène, une autre appelle les secours.
+      Des plongeurs sont encore immergés et aucune personne ne s’occupe d’eux. Quelle tâche doit être
+      attribuée immédiatement à un équipier disponible ?
+    choices:
+    - text: Surveiller leur retour, les compter et organiser leur récupération
+      correct: true
+    - text: Recueillir d’abord les paramètres détaillés de la victime déjà prise en charge
+      correct: false
+    - text: Organiser d’abord le départ du bateau, sans attendre le retour des palanquées
+      correct: false
+    explanation: Les tâches sont réparties selon les compétences disponibles. La récupération des autres
+      palanquées et le comptage restent nécessaires pendant le secours de la victime ; leur absence pourrait
+      créer une seconde situation de danger.
+- id: n3-secours-bilan-diagnostic-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-04
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSC, juillet 2026, p.26–27,36–37
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À la sortie de l’eau, quel recueil guide d’abord les gestes immédiats, avant l’interprétation
+      médicale du profil de plongée ?
+    choices:
+    - text: La réponse de la victime et la présence d’une respiration normale
+      correct: true
+    - text: Le nombre total de plongées et le modèle d’ordinateur
+      correct: false
+    - text: La profondeur maximale et le type de tables utilisées
+      correct: false
+    explanation: 'Le bilan recherche en priorité une atteinte vitale : réponse, respiration normale et
+      signes de gravité. Les paramètres de plongée sont utiles aux secours, mais leur recueil et la recherche
+      d’un diagnostic ne retardent pas les gestes nécessaires.'
+- id: n3-secours-gasp-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-06
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSC, juillet 2026, p.26–27 ; PSE p.135–140
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Après récupération, une victime ne répond pas. Voies aériennes libérées, elle produit seulement
+      des inspirations lentes, bruyantes et inefficaces. Quelle branche de secours s’applique ?
+    choices:
+    - text: 'Arrêt cardiaque : réanimation, alerte et défibrillateur dès que disponible'
+      correct: true
+    - text: 'Perte de connaissance avec respiration normale : simple surveillance sur le côté'
+      correct: false
+    - text: 'Ventilation jugée suffisante : oxygène au masque et attente du bilan médical'
+      correct: false
+    explanation: Ces gasps, ou respiration agonique, ne sont pas une respiration normale. Avec absence
+      de réponse, ils font considérer un arrêt cardiaque. L’oxygène complète la réanimation ; il ne remplace
+      ni compressions ni défibrillation.
+- id: n3-secours-noyade-eau-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-07
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSE, juillet 2026, 08PR02 Noyade, p.273–274
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Après une noyade, une victime hors de l’eau ne respire pas normalement. Faut-il chercher
+      à évacuer l’eau par des compressions abdominales avant la réanimation ?
+    choices:
+    - text: 'Non : elles retardent la réanimation et peuvent provoquer régurgitation et inhalation'
+      correct: true
+    - text: 'Oui : l’eau doit sortir avant toute insufflation'
+      correct: false
+    - text: 'Oui : cinq compressions abdominales remplacent les premières insufflations'
+      correct: false
+    explanation: La quantité d’eau inhalée est souvent faible. La réanimation ne doit pas être retardée
+      par des manœuvres de désobstruction destinées à « vider » les poumons. Les gestes adaptés à la noyade,
+      la ventilation et l’oxygène sont mis en œuvre selon la formation.
+- id: n3-secours-hemorragie-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-08
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSC, juillet 2026, 02PR01/02FT01, p.15–18
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Sur le bateau, une plaie de l’avant-bras saigne abondamment sans s’arrêter. Aucun objet
+      n’est dans la plaie et le site est sûr. Quel premier geste local est adapté, avec protection des
+      mains si possible ?
+    choices:
+    - text: Comprimer directement et fermement la zone qui saigne
+      correct: true
+    - text: Rincer longuement avant de toucher la zone qui saigne
+      correct: false
+    - text: Poser d’emblée un garrot malgré une compression directe réalisable
+      correct: false
+    explanation: La compression directe est réalisée rapidement pour arrêter l’hémorragie, tout en faisant
+      alerter. Le garrot a des indications lorsque la compression est impossible ou inefficace ; le rinçage
+      ne doit pas retarder l’arrêt d’un saignement abondant.
+- id: n3-secours-traumatisme-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-09
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSC, juillet 2026, 02PR08 Traumatismes, p.47
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un plongeur conscient chute sur le pont et présente une douleur importante de nuque. Il
+      respire normalement, le site est sûr. Quelle conduite initiale limite l’aggravation ?
+    choices:
+    - text: Lui demander de ne pas bouger, alerter et surveiller en suivant les consignes
+      correct: true
+    - text: Lui demander de tester plusieurs rotations de tête pour préciser la douleur
+      correct: false
+    - text: Le relever rapidement en le tenant sous les bras pour l’installer assis
+      correct: false
+    explanation: Une atteinte du rachis peut exister. On limite les mouvements, protège la victime, alerte
+      et surveille ; on ne teste pas sa mobilité. Une détresse vitale ou un danger immédiat modifierait
+      les priorités.
+- id: n3-secours-inhalation-insufflation-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-10
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSE, juillet 2026, 05FT01 p.113–115 ; 05FT11 p.143 ; 05FT13
+      p.148
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une victime d’accident de plongée est consciente et respire spontanément de façon efficace.
+      Un sauveteur formé dispose du matériel d’oxygène. Quel dispositif convient pour l’apport d’oxygène
+      initial ?
+    choices:
+    - text: Masque à haute concentration pour inhalation
+      correct: true
+    - text: Insufflateur manuel actionné à chaque inspiration normale
+      correct: false
+    - text: Insufflateur manuel avec réservoir utilisé sans compression comme masque d’inhalation
+      correct: false
+    explanation: L’inhalation enrichit le gaz respiré spontanément ; le masque à haute concentration est
+      adapté. L’insufflation assiste une ventilation absente ou très inefficace, avec les gestes nécessaires.
+      Le BAVU avec réservoir n’est pas un masque d’inhalation et augmente la résistance inspiratoire.
+- id: n3-secours-oxygene-autonomie-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-12
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSE, juillet 2026, p.110–111 ; calcul indépendant
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Exercice nominal : bouteille d’O₂ de 5 L à 200 bar, résiduel imposé de 20 bar, débit constant
+      de 15 L/min. Gaz idéal, volume ramené à 1 bar. Quelle autonomie théorique utilisable reste-t-il
+      ?'
+    choices:
+    - text: 60 min
+      correct: true
+    - text: 66,7 min
+      correct: false
+    - text: 12 min
+      correct: false
+    explanation: Stock utilisable = 5 × (200 − 20) = 900 L ; 900 / 15 = 60 min. 66,7 min utiliserait tout
+      le stock jusqu’à zéro au lieu du résiduel imposé. Le volume du contenant n’est pas le volume de
+      gaz détendu.
+- id: n3-secours-oxygene-delai-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-13
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.27–29 ; calcul indépendant
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une réserve utilisable d’O₂ représente 900 L à 1 bar. Une victime doit recevoir 15 L/min
+      ; le scénario estime 75 min avant relais, avec 10 min de marge supplémentaires. Quel déficit nominal
+      faut-il anticiper ?
+    choices:
+    - text: 375 L
+      correct: true
+    - text: 225 L
+      correct: false
+    - text: 150 L
+      correct: false
+    explanation: Durée budgétée = 85 min ; besoin = 85 × 15 = 1 275 L, soit 375 L de plus que le stock.
+      L’organisation prévoit un complément ou un relais et communique l’autonomie aux secours ; on ne
+      diminue pas le débit prescrit pour faire durer le stock.
+- id: n3-secours-oxygene-deux-victimes-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-14
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSE, juillet 2026, p.110–112 ; calcul indépendant
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Exercice nominal : deux victimes reçoivent chacune 15 L/min d’O₂ pendant 40 min. On impose
+      20 bar finaux dans une bouteille de 5 L. À température constante et gaz idéal, quelle pression initiale
+      couvrirait mathématiquement ce besoin ?'
+    choices:
+    - text: 260 bar
+      correct: true
+    - text: 140 bar
+      correct: false
+    - text: 240 bar
+      correct: false
+    explanation: 'Besoin = 2 × 15 × 40 = 1 200 L. Pression = 1 200 / 5 + 20 = 260 bar. Ce résultat montre
+      qu’une bouteille limitée à 200 bar ne suffit pas : il faut prévoir davantage de stock, jamais dépasser
+      la pression admissible du matériel.'
+- id: n3-secours-oxygene-corps-gras-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-15
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSE, juillet 2026, 05AC01, p.110–112
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Lors de la préparation d’une bouteille d’oxygène de secours, pourquoi faut-il éviter les
+      corps gras sur les raccords et garder les mains propres ?
+    choices:
+    - text: L’oxygène favorise la combustion et peut enflammer des corps gras
+      correct: true
+    - text: L’oxygène est lui-même un gaz combustible qui s’enflamme au contact de graisse
+      correct: false
+    - text: La graisse réduit seulement l’étanchéité des raccords, sans risque d’incendie
+      correct: false
+    explanation: 'L’oxygène est un comburant : il entretient et accélère la combustion. Les corps gras
+      et les sources d’inflammation sont évités ; matériel, ouverture et stockage suivent les consignes
+      de la bouteille.'
+- id: n3-secours-alerte-eaux-interieures-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-16
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.31
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Après une plongée dans une carrière à l’intérieur des terres, une victime présente des signes
+      d’accident. Quel canal téléphonique convient pour déclencher l’aide médicale en indiquant le contexte
+      de plongée ?
+    choices:
+    - text: 15 ou 112
+      correct: true
+    - text: 196, réservé au sauvetage maritime
+      correct: false
+    - text: Numéro du port maritime le plus proche
+      correct: false
+    explanation: Dans les terres, le 15 ou le 112 déclenche les secours adaptés. Il faut annoncer l’accident
+      de plongée, le site précis, l’accès, les signes et les premiers gestes. Le CROSS traite les secours
+      en mer ; en mer, la VHF canal 16 est privilégiée.
+- id: n3-secours-message-position-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-17
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.32
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Un appel au CROSS donne les signes, l’oxygène administré et le nom du bateau, mais seulement
+      « près de l’épave ». Quelle information manque pour engager efficacement les moyens ?
+    choices:
+    - text: Une position précise et actualisée, avec coordonnées ou repères exploitables
+      correct: true
+    - text: La position mémorisée à l’immersion, même après une dérive du bateau
+      correct: false
+    - text: La profondeur et la durée de la plongée, utilisées pour déduire la position
+      correct: false
+    explanation: La localisation exploitable est essentielle ; vent et courant peuvent déplacer le bateau
+      depuis le site de plongée. On transmet coordonnées, description, nombre de personnes concernées
+      et situation des plongeurs encore dans l’eau.
+- id: n3-secours-radio-detresse-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-18
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - ANFR — Manuel CRR maritime, juin 2025 (V16), p.20–23,30–34 ; https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une personne en mer est sous la menace d’un danger grave et imminent et demande une assistance
+      immédiate. Quelle catégorie radio correspond à cette situation ?
+    choices:
+    - text: 'Détresse : MAYDAY ; DISTRESS pour l’alerte ASN'
+      correct: true
+    - text: 'Urgence : PAN-PAN ; URGENCY pour l’alerte ASN'
+      correct: false
+    - text: 'Sécurité : SÉCURITÉ ; SAFETY pour l’alerte ASN'
+      correct: false
+    explanation: MAYDAY concerne un navire ou une personne en danger grave et imminent. PAN-PAN concerne
+      une urgence touchant la sécurité sans relever de cette détresse. L’ASN est l’appel sélectif numérique
+      ; son bouton DISTRESS est réservé à la détresse. La gravité du cas, pas le seul mot « accident »,
+      détermine la catégorie.
+- id: n3-secours-aggravation-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-19
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.29,32,34–35
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Pendant l’attente des secours, une victime sous oxygène devient moins réactive et respire
+      plus difficilement. Que doit-on faire de cette évolution ?
+    choices:
+    - text: Adapter les gestes au nouveau bilan et prévenir immédiatement les secours en notant l’heure
+      correct: true
+    - text: Attendre leur arrivée, car le premier message décrit déjà un accident de plongée
+      correct: false
+    - text: Modifier seulement le débit pour préserver le stock jusqu’à l’heure annoncée
+      correct: false
+    explanation: La surveillance entraîne une réévaluation des gestes et une transmission de l’aggravation.
+      La chronologie est notée sur la fiche d’évacuation, avec traitements, nouvelles victimes éventuelles
+      et autonomie restante en oxygène.
+- id: n3-secours-rifap-maintien-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-20
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.7
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Que signifie le conseil fédéral de réactualiser les connaissances RIFAP aussi souvent que
+      nécessaire, avec une période maximale conseillée de trois ans ?
+    choices:
+    - text: Un entretien des compétences recommandé, sans expiration administrative du brevet à trois
+        ans
+      correct: true
+    - text: Une expiration de la carte RIFAP exactement trois ans après sa délivrance
+      correct: false
+    - text: Une validité médicale de trois ans qui prolonge automatiquement le CACI
+      correct: false
+    explanation: Le brevet atteste la formation ; les gestes et le matériel exigent un entraînement régulier.
+      Le RIFAP 2026 conseille une réactualisation fréquente et au maximum tous les trois ans, sans instituer
+      ici une date d’expiration du brevet.
+- id: n3-secours-inconscient-respire-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-10-21
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
+    - DGSCGC — Références techniques nationales PSC, juillet 2026, 02PR04, p.36–37
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: Une victime ne répond pas, mais respire normalement après libération des voies aériennes.
+      L’événement est identifié comme non traumatique. Quelle branche de secours s’applique ?
+    choices:
+    - text: Position latérale de sécurité, alerte et surveillance continue de la respiration
+      correct: true
+    - text: Compressions thoraciques immédiates malgré la respiration normale
+      correct: false
+    - text: Position assise sans maintien, puis interrogatoire sur la plongée
+      correct: false
+    explanation: La position latérale de sécurité facilite la liberté des voies aériennes et l’écoulement
+      des liquides. On alerte et surveille en continu. Si la respiration devient absente ou anormale,
+      la conduite d’arrêt cardiaque s’applique. Le contexte traumatique se traite selon une autre branche.

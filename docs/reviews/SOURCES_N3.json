@@ -155,6 +155,78 @@
       "pages": 9,
       "edition_observed": "Document historique ; date éditoriale non établie",
       "role": "Publication originale de théorie des M-values ; pas un guide de conduite médicale ni de réglage actuel"
+    },
+    {
+      "filename": "pse-juillet-2026.pdf",
+      "url": "https://www.securite-civile.interieur.gouv.fr/sites/securitecivile/files/medias/documents/2026-07/References-techniques-nationales-PSE_juillet-2026.pdf",
+      "downloaded": "2026-10-06",
+      "sha256": "2b60d2fcdaecf1ff279730d06d93427ee7384cd29d81ba9fa92ad3ed7d9c82bc",
+      "code": "N3-S13",
+      "bytes": 17667317,
+      "pages": 389,
+      "edition_observed": "Juillet 2026",
+      "role": "Gestes de secours en équipe",
+      "resolved_url": "https://www.securite-civile.interieur.gouv.fr/sites/securitecivile/files/medias/documents/2026-07/References-techniques-nationales-PSE_juillet-2026.pdf"
+    },
+    {
+      "filename": "psc-juillet-2026.pdf",
+      "url": "https://www.securite-civile.interieur.gouv.fr/sites/securitecivile/files/medias/documents/2026-07/References-techniques-nationales-PSC_juillet-2026.pdf",
+      "downloaded": "2026-10-06",
+      "sha256": "7f071f2ac460232335c5b5f503318dd18930250be5c0ff6ebe180664c9e0509d",
+      "code": "N3-S14",
+      "bytes": 6599453,
+      "pages": 50,
+      "edition_observed": "Juillet 2026",
+      "role": "Gestes de premiers secours",
+      "resolved_url": "https://www.securite-civile.interieur.gouv.fr/sites/securitecivile/files/medias/documents/2026-07/References-techniques-nationales-PSC_juillet-2026.pdf"
+    },
+    {
+      "filename": "peregrine-fr-2021.pdf",
+      "url": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732",
+      "downloaded": "2026-10-06",
+      "sha256": "f1cb53e6f5c8d389d5932a52eed212675f7d6b2c19e694fd423aa711672650df",
+      "code": "N3-S15",
+      "bytes": 5812698,
+      "pages": 52,
+      "edition_observed": "Doc.16001-SI-RevB (06/07/2020), fichier officiel nommé 2021",
+      "role": "Notice fabricant pour les exemples d’ordinateur",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine_Manual-metric_French_2021.pdf?v=1710186732"
+    },
+    {
+      "filename": "scubapro-detendeurs-juillet-2025.pdf",
+      "url": "https://johnsonoutdoors.widen.net/content/674le5usuw/original/SP_45101180_RevQ_Reg_manual_202507_FRA.pdf?download=true&u=trjrhb",
+      "downloaded": "2026-10-06",
+      "sha256": "6ebbbda93211df0547e92c6cc5af02ebbd6bbd933c5934dac4f97fe32581483b",
+      "code": "N3-S16",
+      "bytes": 590727,
+      "pages": 24,
+      "edition_observed": "RevQ, juillet 2025",
+      "role": "Configuration et limites du partage de gaz propres au fabricant",
+      "resolved_url": "https://johnsonoutdoors.widen.net/content/674le5usuw/original/SP_45101180_RevQ_Reg_manual_202507_FRA.pdf?download=true&u=trjrhb"
+    },
+    {
+      "filename": "ctn-recommandations-mai-2025.pdf",
+      "url": "https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d",
+      "downloaded": "2026-10-06",
+      "sha256": "e515818242b01dd35497df276a035c1a57bfa108ccdce7419ce81826c0f8029a",
+      "code": "N3-S17",
+      "bytes": 103405,
+      "pages": 4,
+      "edition_observed": "Mai 2025",
+      "role": "Confirmation actuelle des recommandations CTN de rattrapage 2024",
+      "resolved_url": "https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d"
+    },
+    {
+      "filename": "anfr-crr-juin-2025.pdf",
+      "url": "https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf",
+      "downloaded": "2026-10-06",
+      "sha256": "cb8af6bcc48c18ee388ec56b43be9327f3c2eb48a64400edef3aa8090c25cd16",
+      "code": "N3-S18",
+      "bytes": 5949885,
+      "pages": 59,
+      "edition_observed": "V16, juin 2025",
+      "role": "Catégories radio et ASN, priorité sur un exemple simplifié de message",
+      "resolved_url": "https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf"
     }
   ]
 }

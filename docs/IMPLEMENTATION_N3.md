@@ -1,3 +1,10 @@
+# N3 réalisé — bilan du 6 octobre 2026
+
+Le paquet contient **322 cartes N3**, dont **204 communes N2/N3** et **118 nouvelles**.
+[Couverture et revue finales](reviews/n3/COUVERTURE_N3.md) ·
+[Issue des 147 objectifs détaillés](reviews/n3/OBJECTIFS_N3.csv).
+Les estimations et le tri initial ci-dessous sont conservés comme historique de préparation.
+
 # Plan détaillé d’implémentation — théorie N3 FFESSM en français
 
 Préparé le **6 octobre 2026** à partir des documents téléchargés et du catalogue N2 au commit `3cf5bfd`. Statut initial : **préparation**. Mise à jour du 6 octobre 2026 : **164 reprises N2/N3 validées et intégrées**, aucune carte spécifique N3 encore rédigée.
@@ -491,16 +498,16 @@ Comparer **l’ensemble N2 + N3**, pas uniquement chaque fichier. Clore les doub
 
 ## Critères de clôture
 
-- [ ] Chaque ligne du catalogue a une issue : carte revue, reprise, fusion ou exclusion motivée.
-- [ ] Toutes les candidates communes ont une décision finale ; leur contexte N3 et leurs sources sont contrôlés.
-- [ ] Couverture MFT p.8–15 et sept capacités RIFAP tracée ; les connaissances pratiques non évaluables par Anki sont identifiées dans la documentation.
-- [ ] G01–G11 clos pour toutes les cartes publiées ; les éventuelles cartes écartées n’entraînent pas un manque essentiel non documenté.
-- [ ] Aucun fait simple décliné artificiellement ; aucun cas chiffré résolu par un indice donné dans sa formulation.
-- [ ] QCM plausibles, réponse vraie unique, contexte sans ambiguïté ; sigles développés et explications concrètes.
-- [ ] Calculs indépendamment vérifiés ; les réserves, débits, marges et temps de paliers ne sont jamais présentés comme universels.
-- [ ] Aucun conseil de secours ancien, diagnostic certain à signes non spécifiques, ni stratégie d’ordinateur inventée.
-- [ ] Statistiques exactes, tests/validation/build réussis, rendu vérifié, IDs et historique N2 préservés.
-- [ ] Sources privées et paquets hors Git ; publication accompagnée du bilan de revue.
+- [x] Chaque ligne du catalogue a une issue : carte revue, reprise, fusion ou exclusion motivée.
+- [x] Toutes les candidates communes ont une décision finale ; leur contexte N3 et leurs sources sont contrôlés.
+- [x] Couverture MFT p.8–15 et sept capacités RIFAP tracée ; les connaissances pratiques non évaluables par Anki sont identifiées dans la documentation.
+- [x] G01–G11 clos pour toutes les cartes publiées ; les éventuelles cartes écartées n’entraînent pas un manque essentiel non documenté.
+- [x] Aucun fait simple décliné artificiellement ; aucun cas chiffré résolu par un indice donné dans sa formulation.
+- [x] QCM plausibles, réponse vraie unique, contexte sans ambiguïté ; sigles développés et explications concrètes.
+- [x] Calculs indépendamment vérifiés ; les réserves, débits, marges et temps de paliers ne sont jamais présentés comme universels.
+- [x] Aucun conseil de secours ancien, diagnostic certain à signes non spécifiques, ni stratégie d’ordinateur inventée.
+- [x] Statistiques exactes, tests/validation/build réussis, rendu vérifié, IDs et historique N2 préservés.
+- [x] Sources privées et paquets hors Git ; publication accompagnée du bilan de revue.
 
 ## Estimation de complexité
 
@@ -514,4 +521,4 @@ Ordre de grandeur, pour une personne connaissant le dépôt et rédigeant soigne
 
 ## Bilan de la préparation
 
-Documents récupérés, versions et empreintes consignées ; tri provisoire de toutes les cartes N2 effectué ; objectifs, couverture, exercices pilotes et séquence de réalisation établis. Les compléments primaires et divergences listés dans G01–G11 restent du travail explicite avant la publication des cartes concernées. Les cartes N2 et le placeholder N3 ont été conservés inchangés pendant la préparation initiale. La première passe d’implémentation a ensuite partagé 164 cartes N2 avec N3 et ajusté deux formulations de contexte ; les nouvelles cartes N3 restent à rédiger.
+Documents récupérés, versions et empreintes consignées ; tri provisoire de toutes les cartes N2 effectué ; objectifs, couverture, exercices pilotes et séquence de réalisation établis. Les compléments primaires et divergences listés dans G01–G11 restent du travail explicite avant la publication des cartes concernées. Les cartes N2 et le placeholder N3 ont été conservés inchangés pendant la préparation initiale. La première passe d’implémentation a ensuite partagé 164 cartes N2 avec N3 et ajusté deux formulations de contexte ; la réalisation est désormais achevée selon le bilan de couverture lié en tête.

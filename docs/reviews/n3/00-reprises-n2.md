@@ -1,4 +1,4 @@
-# Reprise des cartes N2 pour le socle N3
+# Reprise initiale des cartes N2 pour le socle N3
 
 Revue du **6 octobre 2026**, sur le catalogue de 308 notes au commit `bfe402a`.
 
@@ -252,3 +252,10 @@ Paquet généré localement ; ce lot n’a pas été importé dans la collection
 
 La [passe QCM globale](../QCM_GLOBALE.md) effectuée ensuite change le format de
 présentation de certaines reprises, en conservant leurs modèles Anki et leur identité.
+
+## Suite et clôture
+
+Ce document conserve le bilan de la première passe (164 reprises). La clôture N3
+porte le nombre de cartes communes à **204** ; les sept A et huit V sont résolues,
+et 25 renforts P ajoutés. Voir [la couverture finale](COUVERTURE_N3.md) et les états
+actuels du CSV commun pour la décision finale.

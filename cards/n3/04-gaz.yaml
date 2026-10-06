@@ -1,0 +1,527 @@
+cards:
+- id: n3-gaz-bar-minute-40-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-01
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Bloc de 15 L, débit respiratoire de référence 18 L/min ramené à 1 bar, profondeur 40 m.
+      De combien baisse la pression du bloc par minute ? Modèle : gaz parfait à température constante,
+      1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 6 bar/min
+      correct: true
+    - text: 1,2 bar/min
+      correct: false
+    - text: 4,8 bar/min
+      correct: false
+    explanation: Pamb = 5 bar. Le gaz prélevé représente 18 × 5 = 90 L/min à 1 bar ; 90 / 15 = 6 bar/min.
+      1,2 oublie la profondeur ; 4,8 utilise la pression relative de 4 bar.
+- id: n3-gaz-bar-minute-55-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-02
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Bloc de 12 L, débit de référence 22 L/min ramené à 1 bar, profondeur 55 m. Quelle baisse
+      théorique de pression en bar/min ? Modèle : gaz parfait à température constante, 1 bar en surface
+      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 11,92 environ
+      correct: true
+    - text: 10,08 environ
+      correct: false
+    - text: 1,83 environ
+      correct: false
+    explanation: À 55 m, Pamb = 6,5 bar. 22 × 6,5 / 12 = 11,9167 bar/min. La pression relative 5,5 donnerait
+      10,0833 ; le calcul à la surface donnerait 1,8333.
+- id: n3-gaz-debit-reference-inverse-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'À 40 m, la pression d’un bloc de 12 L baisse de 9 bar/min. Quel débit de référence ramené
+      à 1 bar correspond à cette mesure ? Modèle : gaz parfait à température constante, 1 bar en surface
+      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 21,6 L/min
+      correct: true
+    - text: 108 L/min
+      correct: false
+    - text: 27 L/min
+      correct: false
+    explanation: La baisse représente 9 × 12 = 108 L/min ramenés à 1 bar pour la respiration à 40 m. Le
+      débit de référence est 108 / 5 = 21,6 L/min. Gilet, fuite ou changement de température rendraient
+      la mesure moins directement interprétable.
+- id: n3-gaz-comparer-bar-minute-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-04
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'À 40 m, A avec 12 L et B avec 15 L ont tous deux une baisse de 6 bar/min. Quels sont leurs
+      débits respiratoires de référence ramenés à 1 bar ? Modèle : gaz parfait à température constante,
+      1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 'A : 14,4 L/min ; B : 18 L/min'
+      correct: true
+    - text: 'A : 18 L/min ; B : 14,4 L/min'
+      correct: false
+    - text: 'A : 6 L/min ; B : 6 L/min'
+      correct: false
+    explanation: 'À Pamb = 5 bar : A = 6 × 12 / 5 = 14,4 ; B = 6 × 15 / 5 = 18 L/min. Une baisse identique
+      en bar/min n’est pas une quantité de gaz identique quand les volumes des blocs diffèrent.'
+- id: n3-gaz-trajet-partage-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Deux plongeurs respirent sur un même stock, avec des débits de référence 30 et 40 L/min
+      à 1 bar. Ils remontent linéairement de 50 à 6 m en 4,4 min, sans arrêt. Quel volume à 1 bar utilisent-ils
+      pour ce seul trajet ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par
+      10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 1 170,4 L
+      correct: true
+    - text: 1 848 L
+      correct: false
+    - text: 1 355,2 L
+      correct: false
+    explanation: 'Débit cumulé = 70 L/min ; pressions extrêmes = 6 et 1,6 bar. Leur moyenne vaut 3,8 bar
+      : 70 × 3,8 × 4,4 = 1 170,4 L. Le trajet est fourni pour le calcul ; la pression profonde n’est pas
+      appliquée à toute sa durée.'
+- id: n3-gaz-paliers-partages-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Deux consommateurs sur un même stock ont ensemble un débit de référence 70 L/min à 1 bar.
+      Deux arrêts sont imposés : 3 min à 6 m puis 5 min à 3 m. Sans compter les trajets, quel gaz à 1
+      bar ces arrêts demandent-ils ? Modèle : gaz parfait à température constante, 1 bar en surface et
+      +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 791 L
+      correct: true
+    - text: 560 L
+      correct: false
+    - text: 896 L
+      correct: false
+    explanation: 70 × (3 × 1,6 + 5 × 1,3) = 791 L. 560 utilise la pression de surface ; 896 applique la
+      pression du premier arrêt aux huit minutes. Les durées sont des données, pas une décompression calculée.
+- id: n3-gaz-attente-profonde-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Avant un retour partagé, deux plongeurs attendent 1 min à 50 m en respirant sur le bloc
+      donneur. Débits de référence imposés : 30 et 40 L/min à 1 bar. Quel volume à 1 bar ajouter au budget
+      du donneur pour cette attente ? Modèle : gaz parfait à température constante, 1 bar en surface et
+      +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 420 L
+      correct: true
+    - text: 240 L
+      correct: false
+    - text: 350 L
+      correct: false
+    explanation: (30 + 40) × 6 × 1 = 420 L. 240 ne compte qu’un équipier ; 350 utilise 5 bar relatifs
+      au lieu de 6 bar absolus. Une attente profonde se budgète avant les trajets et les paliers.
+- id: n3-gaz-retour-complet-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Deux plongeurs respirent sur un seul stock, débits de référence 30 et 40 L/min à 1 bar.
+      Quel gaz total à 1 bar demande le retour fourni ? Attente 1 min à 50 m ; trajet linéaire 50 → 6
+      m en 4,4 min ; arrêt 3 min à 6 m ; trajet linéaire 6 → 3 m en 0,5 min ; arrêt 5 min à 3 m ; trajet
+      linéaire 3 m → surface en 0,5 min. Modèle : gaz parfait à température constante, 1 bar en surface
+      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 2 472,4 L
+      correct: true
+    - text: 2 052,4 L
+      correct: false
+    - text: 1 412,8 L
+      correct: false
+    explanation: 'Somme des phases : 420 + 1 170,4 + 336 + 50,75 + 455 + 40,25 = 2 472,4 L. 2 052,4 omet
+      l’attente initiale ; 1 412,8 ne compte que le débit de 40 L/min. Les arrêts fournis ne sont pas
+      calculés par une table.'
+- id: n3-gaz-retour-pression-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-09
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Un retour à deux exige 2 472,4 L ramenés à 1 bar. Le bloc donneur a un volume de 15 L ;
+      l’exercice impose 20 bar encore présents à la fin. Quelle pression de départ minimale arrondie au
+      bar supérieur donne ce budget ? Modèle : gaz parfait à température constante, 1 bar en surface et
+      +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 185 bar
+      correct: true
+    - text: 165 bar
+      correct: false
+    - text: 226 bar
+      correct: false
+    explanation: 2 472,4 / 15 + 20 = 184,8267 bar, soit 185 bar au supérieur. 165 oublie les 20 bar finaux
+      ; 226 utilise un bloc de 12 L au lieu du donneur de 15 L. La pression finale est imposée pour cet
+      exercice.
+- id: n3-gaz-retour-deux-blocs-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-10
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Le même retour partagé exige 1 100 L à 1 bar. A a 12 L à 110 bar ; B, 15 L à 110 bar. L’exercice
+      garde 20 bar dans le bloc donneur à la fin. Quels stocks sont théoriquement suffisants ? Modèle
+      : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré
+      est compté.'
+    choices:
+    - text: B seulement
+      correct: true
+    - text: A et B
+      correct: false
+    - text: A seulement
+      correct: false
+    explanation: 'A : 12 × (110 − 20) = 1 080 L, insuffisant ; B : 15 × 90 = 1 350 L, suffisant. La même
+      pression initiale ne représente pas le même stock de gaz.'
+- id: n3-gaz-temps-fond-budget-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-12
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Bloc de 15 L à 200 bar. Le budget impose 1 200 L à 1 bar pour le retour complet et 20 bar
+      finaux. À 40 m, le débit de référence vaut 20 L/min à 1 bar. Combien de minutes au fond restent
+      théoriquement disponibles, hors descente et autres consommations ? Modèle : gaz parfait à température
+      constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 15 min
+      correct: true
+    - text: 18 min
+      correct: false
+    - text: 24 min
+      correct: false
+    explanation: Stock initial = 3 000 L ; gaz restant après retour et marge = 3 000 − 1 200 − 300 = 1
+      500 L. Au fond, 20 × 5 = 100 L/min ; 1 500 / 100 = 15 min. Ce budget définit ses propres phases
+      et marges.
+- id: n3-gaz-stress-sensibilite-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-13
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Un retour partagé consomme 1 600 L à 1 bar pour des débits de référence 30 + 40 L/min.
+      Sur les mêmes phases, les débits deviennent 40 + 50 L/min. Quel besoin total obtient-on ? Modèle
+      : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré
+      est compté.'
+    choices:
+    - text: Environ 2 057 L
+      correct: true
+    - text: Environ 1 778 L
+      correct: false
+    - text: Environ 2 743 L
+      correct: false
+    explanation: 'Le coût est proportionnel au débit cumulé : 1 600 × 90 / 70 = 2 057,14 L. Il augmente
+      de 28,6 %. Il faut sommer les deux débits avant de comparer ; ces valeurs sont imposées, sans consommation
+      de stress universelle.'
+- id: n3-gaz-palier-maximal-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-14
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Après avoir budgété trajet et pression finale, il reste 280 L à 1 bar pour un arrêt fictif
+      supplémentaire à 6 m. Deux consommateurs ont ensemble un débit de référence 70 L/min à 1 bar. Quelle
+      durée maximale théorique permet ce budget ? Modèle : gaz parfait à température constante, 1 bar
+      en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 2,5 min
+      correct: true
+    - text: 4 min
+      correct: false
+    - text: 1,67 min
+      correct: false
+    explanation: 'À 6 m, débit = 70 × 1,6 = 112 L/min ; 280 / 112 = 2,5 min. Ce maximum est un résultat
+      de budget : il ne permet pas de raccourcir un palier obligatoire affiché par le moyen de désaturation.'
+- id: n3-gaz-bloc-limitant-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-15
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Pour leur retour individuel complet, A (12 L, 160 bar) doit garder 900 L à 1 bar et 20
+      bar finaux ; B (15 L, 140 bar), 1 050 L et 20 bar finaux. À 40 m, chacun a un débit de référence
+      20 L/min à 1 bar. Qui a le moins de temps de fond disponible ? Modèle : gaz parfait à température
+      constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 'B : 7,5 min, contre 7,8 min pour A'
+      correct: true
+    - text: 'A : 7,5 min, contre 7,8 min pour B'
+      correct: false
+    - text: 'A et B : 10,5 min chacun'
+      correct: false
+    explanation: 'A : [12 × (160 − 20) − 900] / 100 = 7,8 min. B : [15 × (140 − 20) − 1 050] / 100 = 7,5
+      min. B est limitant, malgré son bloc plus grand. Le budget de retour complet et le débit en profondeur
+      comptent ensemble.'
+- id: n3-gaz-erreur-pression-constante-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-16
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Un trajet linéaire de 50 m à la surface dure 5 min. Pour un débit de référence 20 L/min
+      à 1 bar, un calcul applique 6 bar pendant les cinq minutes et trouve 600 L. Quel est le coût du
+      trajet dans le modèle, sans arrêt ? Modèle : gaz parfait à température constante, 1 bar en surface
+      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    choices:
+    - text: 350 L
+      correct: true
+    - text: 500 L
+      correct: false
+    - text: 600 L
+      correct: false
+    explanation: La pression moyenne vaut (6 + 1) / 2 = 3,5 bar ; 20 × 3,5 × 5 = 350 L. Appliquer 6 bar
+      tout le long surestime cette phase ; prendre 5 bar relatifs ne corrige pas l’erreur.
+- id: n3-gaz-mesure-reevaluation-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-18
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: À profondeur constante, la baisse observée du manomètre dépasse durablement la prévision,
+      sans fuite identifiée. Que doit-on recalculer en priorité avant de poursuivre l’exploration ?
+    choices:
+    - text: Le temps de fond encore compatible avec le retour prévu et le débit observé
+      correct: true
+    - text: Le temps de fond restant avec le débit prévu au briefing
+      correct: false
+    - text: Le temps de retour en ne comptant que les paliers affichés
+      correct: false
+    explanation: Le gaz disponible et le budget de retour sont réévalués avec les observations et les
+      consommations possibles des équipiers. La mesure peut aussi inclure gaz du gilet, fuite ou refroidissement
+      ; on en recherche la cause sans poursuivre sur un budget devenu insuffisant.
+- id: n3-gaz-tiers-contre-exemple-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-19
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Un bloc de 12 L contient encore 100 bar après consommation de la moitié de sa pression
+      initiale. Un retour à deux fourni exige 1 400 L à 1 bar, avant toute pression finale. Quelle conclusion
+      donne le modèle ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10
+      m ; seul le gaz respiré est compté.'
+    choices:
+    - text: Le stock restant de 1 200 L ne couvre pas ce retour
+      correct: true
+    - text: La moitié du bloc garantit le retour, car elle égale le gaz consommé à l’aller
+      correct: false
+    - text: Le retour est couvert si les deux plongeurs partagent les 100 bar également
+      correct: false
+    explanation: '12 × 100 = 1 200 L, moins que les 1 400 L requis. Une fraction fixe du bloc ne garantit
+      pas tout retour partagé : les phases et les deux débits déterminent le besoin. Une marge finale
+      augmenterait encore le stock requis.'
+- id: n3-gaz-meme-duree-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::04
+  status: reviewed
+  source_id: N3-04-20
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
+      imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    fact_check: pass
+  fr:
+    question: 'Deux profils fictifs durent 6 min hors transitions. A : 2 min à 40 m puis 4 min à 3 m.
+      B : 4 min à 40 m puis 2 min à 3 m. Débit de référence 20 L/min à 1 bar. Quels gaz à 1 bar demandent
+      A puis B ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul
+      le gaz respiré est compté.'
+    choices:
+    - text: 304 L puis 452 L
+      correct: true
+    - text: 452 L puis 304 L
+      correct: false
+    - text: 600 L puis 600 L
+      correct: false
+    explanation: A = 20 × (2 × 5 + 4 × 1,3) = 304 L ; B = 20 × (4 × 5 + 2 × 1,3) = 452 L. La même durée
+      totale n’implique pas le même gaz ; la répartition en profondeur intervient.

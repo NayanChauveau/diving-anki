@@ -42,6 +42,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -57,6 +58,9 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: En plongée à l’air avec ordinateur, quels critères définissent la remontée trop rapide dans
@@ -68,8 +72,8 @@ cards:
       correct: false
     - text: Plus de 15 m/min entre 30 m et la surface, sur au moins 3 m
       correct: false
-    explanation: '**Plus de 15 m/min entre la zone de 30 m et la surface, sur une distance d’au moins 10
-      m.** C’est le critère de cette procédure de rattrapage ; une alarme de l’ordinateur peut apparaître
+    explanation: '**Plus de 15 m/min entre la zone de 30 m et la surface, sur une distance d’au moins
+      10 m.** C’est le critère de cette procédure de rattrapage ; une alarme de l’ordinateur peut apparaître
       à une vitesse plus faible.'
 - id: n2-remontees-anormales-rattrapage-001
   type: mcq
@@ -77,6 +81,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -92,13 +97,17 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
-      quel rattrapage prévoit le texte si le plongeur n’a aucun signe d’accident et que la réimmersion est
-      réalisable avec assistance et gaz suffisants pour rejoindre la mi-profondeur en moins de 3 min ?
-    explanation: '**Rejoindre au moins la mi-profondeur et y rester 5 min**, puis réaliser au minimum 1
-      min à 6 m et 5 min à 3 m, en plus des obligations du moyen de désaturation. Une victime présentant
+      quel rattrapage prévoit le texte si le plongeur n’a aucun signe d’accident et que la réimmersion
+      est réalisable avec assistance et gaz suffisants pour rejoindre la mi-profondeur en moins de 3 min
+      ?
+    explanation: '**Rejoindre au moins la mi-profondeur et y rester 5 min**, puis réaliser au minimum
+      1 min à 6 m et 5 min à 3 m, en plus des obligations du moyen de désaturation. Une victime présentant
       des signes d’accident relève des secours, sans réimmersion thérapeutique.'
     choices:
     - text: Au moins mi-profondeur 5 min, puis au moins 1 min à 6 m et 5 min à 3 m
@@ -113,6 +122,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -129,6 +139,9 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
@@ -183,6 +196,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -198,6 +212,9 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: Pour des exercices comportant plusieurs remontées, quelle limite de proximité de la surface
@@ -256,6 +273,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -272,11 +290,14 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: Un palier obligatoire est interrompu lors d’une plongée à l’air avec ordinateur. Le plongeur
-      est sans signe d’accident ; le gaz et l’assistance permettent de regagner le palier en moins de 3
-      min. Quelle reprise prévoit la recommandation fédérale de 2024 ?
+      est sans signe d’accident ; le gaz et l’assistance permettent de regagner le palier en moins de
+      3 min. Quelle reprise prévoit la recommandation fédérale de 2024 ?
     explanation: '**Redescendre dans ce délai, poursuivre le palier et ajouter 3 min à 3 m.** Continuer
       à respecter les autres obligations ; le texte ne demande pas de refaire systématiquement tous les
       paliers depuis le début.'
@@ -293,6 +314,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -300,7 +322,8 @@ cards:
   source_id: P468
   review:
     sources:
-    - 'N3-S04 — RIFAP FFESSM, mai 2026, p.32 : avis médical pour tout incident ; complément au suivi 2024 vérifié le 2026-10-06.'
+    - 'N3-S04 — RIFAP FFESSM, mai 2026, p.32 : avis médical pour tout incident ; complément au suivi 2024
+      vérifié le 2026-10-06.'
     - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
@@ -311,6 +334,9 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
+      ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     fact_check: pass
   fr:
     question: En mer, jusqu’à 3 min de palier obligatoire ont été manquées à l’air avec ordinateur. Sans
@@ -325,11 +351,11 @@ cards:
     - text: Avis médical via le CROSS, observation 1 h et pas de nouvelle plongée pendant 12 h
       correct: false
     explanation: 'Le texte fédéral de 2024 prévoit 3 h d’observation et aucune nouvelle plongée pendant
-      24 h lorsque la durée de palier manquée ne dépasse pas 3 min et qu’aucun signe d’accident n’est présent.
-      Le RIFAP de mai 2026 demande aussi un avis médical pour tout incident de plongée : en mer, appeler
-      le CROSS pour joindre le médecin du SCMM (service de coordination médicale maritime). L’absence de
-      symptôme ne dispense donc pas de cet appel ; poursuivre la surveillance et suivre les consignes médicales.
-      Au-delà de 3 min manquées ou en présence de signes, déclencher les secours directement.'
+      24 h lorsque la durée de palier manquée ne dépasse pas 3 min et qu’aucun signe d’accident n’est
+      présent. Le RIFAP de mai 2026 demande aussi un avis médical pour tout incident de plongée : en mer,
+      appeler le CROSS pour joindre le médecin du SCMM (SAMU de coordination médicale maritime). L’absence
+      de symptôme ne dispense donc pas de cet appel ; poursuivre la surveillance et suivre les consignes
+      médicales. Au-delà de 3 min manquées ou en présence de signes, déclencher les secours directement.'
 - id: n2-remontees-anormales-symptomes-001
   type: mcq
   anki_model: basic
