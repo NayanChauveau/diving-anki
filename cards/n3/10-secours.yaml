@@ -99,7 +99,7 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Après une noyade, une victime hors de l’eau ne respire pas normalement. Faut-il chercher
+    question: Après une noyade, une victime hors de l’eau ne répond pas et ne respire pas normalement. Faut-il chercher
       à évacuer l’eau par des compressions abdominales avant la réanimation ?
     choices:
     - text: 'Non : elles retardent la réanimation et peuvent provoquer régurgitation et inhalation'
