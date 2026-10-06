@@ -1,0 +1,376 @@
+cards:
+- id: n2-ordinateurs-profil-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P415
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi un ordinateur peut-il donner une décompression différente d’une table pour une plongée
+      qui remonte progressivement le long d’un tombant ?
+    back: '**Il intègre les profondeurs successivement mesurées et leur durée**, au lieu d’attribuer toute
+      l’exploration à la profondeur maximale comme un profil carré. Le résultat dépend aussi de son modèle
+      et de l’historique enregistré.'
+- id: n2-ordinateurs-affichages-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P418
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Un écran affiche temps de plongée 24 min et temps restant sans palier 6 min à la profondeur
+      actuelle. Que représentent ces deux valeurs ?
+    back: '**24 min sont déjà écoulées ; 6 min sont une estimation du temps encore disponible à cette
+      profondeur avant décompression obligatoire.** Le second nombre évolue avec la profondeur, le profil
+      et les réglages ; ce n’est pas le temps nécessaire pour revenir au bateau.'
+- id: n2-ordinateurs-alarme-vitesse-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P422
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo, Ascent rate : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/ascent-rate/'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Suunto — Zoop Novo User Guide, Alarms, alerts and notifications : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    fact_check: pass
+  fr:
+    front: Sur un Suunto Zoop Novo, une alarme sonore s’accompagne du message SLOW. Que signale-t-elle
+      et quelle action attend-elle ?
+    back: '**La vitesse dépasse 10 m/min.** Ralentir la remontée conformément au manuel ; une vitesse
+      permise par une table ne neutralise pas cette alarme.'
+- id: n2-ordinateurs-gaz-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P423
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi vérifier le gaz sélectionné sur l’ordinateur avant de plonger, même si la profondeur
+      affichée paraît correcte ?
+    back: '**La fraction d’oxygène sélectionnée intervient dans les calculs de décompression et d’exposition
+      à l’oxygène.** Une profondeur juste ne prouve pas que le mélange paramétré correspond au gaz réellement
+      respiré.'
+- id: n2-ordinateurs-salinite-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P424
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Shearwater — Petrel 2 Support, conversion pression/profondeur et salinité : https://shearwater.com/en-eu/pages/petrel-2-support'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Sur un appareil offrant un réglage de salinité, à quoi sert ce réglage dans l’affichage de
+      profondeur ?
+    back: '**À convertir la pression mesurée en profondeur en fonction de la densité de l’eau.** À pression
+      identique, une densité plus élevée correspond à une profondeur moindre ; tous les modèles n’offrent
+      pas ce réglage.'
+- id: n2-ordinateurs-historique-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P427
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Entre deux plongées rapprochées, pourquoi remplacer son ordinateur par celui d’un équipier
+      peut-il fausser la décompression affichée ?
+    back: '**Il suivrait l’historique et la charge calculée de l’autre plongeur.** Conserver le même appareil
+      pour la série et ne pas échanger un ordinateur encore en cours de calcul de désaturation.'
+- id: n2-ordinateurs-controle-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P430
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Avant de s’immerger avec son ordinateur, quels contrôles évitent de découvrir un mauvais réglage
+      ou un affichage inutilisable sous l’eau ?
+    back: '**Vérifier l’écran, l’énergie disponible, le mode, le gaz et les réglages personnels ou d’altitude.**
+      Vérifier aussi l’absence d’erreur et la cohérence de l’historique ; savoir retrouver profondeur,
+      durée et obligations de remontée.'
+- id: n2-ordinateurs-collectif-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P432
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - S1 p.28 ; coordination des paliers dans la palanquée.
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Votre ordinateur n’indique plus de palier obligatoire, mais celui de votre équipier en impose
+      encore un. Pourquoi ne remontez-vous pas seul ?
+    back: '**La fin de plongée s’organise pour toute la palanquée.** Rester ensemble et respecter les
+      obligations de chacun, avec la profondeur plafond, le temps, l’air et le briefing ; la fin de ses
+      propres paliers ne clôture pas ceux de l’autre.'
+- id: n2-ordinateurs-differences-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P433
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Deux plongeurs restent côte à côte pendant une plongée mais leurs ordinateurs annoncent des
+      paliers différents. Quelles différences peuvent l’expliquer ?
+    back: '**Le modèle, les réglages et les plongées précédentes peuvent différer.** De petites différences
+      de profondeur enregistrée comptent aussi. Un même profil actuel ne garantit pas une même charge
+      calculée.'
+- id: n2-ordinateurs-deux-ecrans-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P437
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - S1 p.28 ; obligations collectives.
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: 'Deux équipiers doivent rester à 3 m : A affiche encore 2 min de palier obligatoire et B 5
+      min. Le gaz est suffisant et aucun autre plafond n’est indiqué. Après 2 min, comment organiser la
+      suite ?'
+    back: '**Rester ensemble pour terminer aussi les obligations de B.** Continuer à suivre les deux appareils
+      et leurs mises à jour ; ne pas remplacer leur suivi par un simple compte à rebours de 3 min décidé
+      une fois pour toutes.'
+- id: n2-ordinateurs-dtr-augmente-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P438
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Pendant l’exploration, la durée totale de remontée affichée augmente. Quelle conséquence pour
+      la décision de rester au fond ?
+    back: '**Il faut prévoir davantage de temps et de gaz pour sortir.** Prévenir et réévaluer la fin
+      de plongée avec la palanquée ; le gaz nécessaire dépend des profondeurs de remontée et des paliers,
+      pas seulement du temps d’exploration.'
+- id: n2-ordinateurs-ndl-air-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P439
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Un ordinateur annonce 12 min sans palier, mais la réserve de gaz convenue sera atteinte dans
+      4 min à la consommation actuelle. Quelle contrainte commande la décision de fin d’exploration ?
+    back: '**La contrainte de gaz impose d’anticiper la sortie.** Le temps sans palier concerne la décompression,
+      pas l’autonomie respiratoire ; les 12 min n’autorisent pas à consommer la réserve nécessaire à la
+      remontée.'
+- id: n2-ordinateurs-sonde-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P440
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - S1 p.27–29, sonde et gestion de l’air.
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi un ordinateur sans liaison de pression avec le bloc ne peut-il pas connaître directement
+      le gaz encore disponible ?
+    back: '**Il ne mesure pas la pression du bloc.** La gestion intégrée de l’air nécessite un capteur
+      compatible, souvent une sonde ; une estimation d’autonomie dépend en plus de la consommation et
+      des hypothèses du système.'
+- id: n2-ordinateurs-verrouillage-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P441
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo, Error state / algorithm lock : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/error-state-algorithm-lock/'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Un Suunto Zoop Novo reste plus de 3 min au-dessus de son plafond de décompression et affiche
+      ER. Quelle information de décompression devient indisponible et pour quelle durée annoncée par le
+      manuel ?
+    back: '**Le calcul de décompression est verrouillé pendant les 48 h suivant la sortie de l’eau.**
+      L’appareil conserve des informations telles que profondeur et durée, mais n’affiche plus les données
+      de décompression calculées. Ce comportement est propre à ce modèle.'
+- id: n2-ordinateurs-manuel-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P443
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Vous empruntez pour la première fois un modèle d’ordinateur différent. Quelles informations
+      de son manuel devez-vous maîtriser pour gérer la remontée ?
+    back: '**Reconnaître le temps sans palier, les obligations de décompression et le plafond, puis les
+      alarmes et leur conduite à tenir.** Connaître aussi les limites de vitesse et les conséquences d’une
+      erreur ; un symbole familier ne garantit pas une fonction identique.'
+- id: n2-ordinateurs-lisibilite-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P445
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - S1 p.29, acuité et lisibilité.
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi tester la lecture de l’écran avec son masque et sa correction visuelle avant de choisir
+      un ordinateur ?
+    back: '**Il faut pouvoir distinguer rapidement profondeur, plafond, durée et alarmes dans les conditions
+      de plongée.** Taille des caractères, contraste et éclairage comptent plus que la seule quantité
+      de fonctions.'
+- id: n2-ordinateurs-modes-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P446
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
+    - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
+    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    fact_check: pass
+  fr:
+    front: Si l’on envisage une formation nitrox plus tard, quel point vérifier dans les fonctions de
+      l’ordinateur ?
+    back: '**La présence d’un mode nitrox et les mélanges qu’il accepte.** Ce mode permet de renseigner
+      la fraction d’oxygène ; son réglage doit correspondre au gaz analysé et aux limites apprises dans
+      cette formation.'

@@ -115,9 +115,9 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V10** — MN90 : identifier l’édition, domaine d’emploi et tableaux complets avant exercices chiffrés. S1 p.25 montre un extrait et non les tables de calcul de successives. S1 p.24 contient une courbe illustrée : confirmer valeurs et conventions, notamment frontières d’intervalles. Pas d’utilisation comme consigne universelle de plongée.
 
-- [ ] **V11** — Ordinateurs : vitesses, fréquence de mesure, verrouillage, autonomie batterie, modes et algorithmes dépendent du modèle. Ne pas retenir « 24 h de verrouillage » ou « 2–3 plongées max » comme universels. Vérifier les écrans originaux et le manuel ; tenir compte des obligations de tous les équipiers.
+- [x] **V11** — Ordinateurs : vitesses, fréquence de mesure, verrouillage, autonomie batterie, modes et algorithmes dépendent du modèle. Ne pas retenir « 24 h de verrouillage » ou « 2–3 plongées max » comme universels. Vérifier les écrans originaux et le manuel ; tenir compte des obligations de tous les équipiers.
 
-- [ ] **V12** — Remontées anormales : S1 juxtapose procédures MN90 et préconisations fédérales dites nouvelles en 2024. Retrouver le texte primaire et sa version avant rédiger des cartes d’action (seuils, délais, profondeurs, paliers, réimmersion, observation). Aucune carte de réimmersion prête à publier sur le seul extrait.
+- [x] **V12** — Remontées anormales : S1 juxtapose procédures MN90 et préconisations fédérales dites nouvelles en 2024. Retrouver le texte primaire et sa version avant rédiger des cartes d’action (seuils, délais, profondeurs, paliers, réimmersion, observation). Aucune carte de réimmersion prête à publier sur le seul extrait.
 
 - [ ] **V13** — Blocs : S1 mentionne 2 ans / 5 ans avec TIV et « ne pas transporter sous pression ». Vérifier réglementation des équipements sous pression, régime TIV et consignes de transport actuels. Ne pas publier ces formulations telles quelles. Gonflage réservé aux opérateurs habilités.
 
@@ -463,39 +463,39 @@ Source : **S1 p.23–26**. Contrôle : **V10**. Fichier futur : `cards/n2/12-tab
 
 Source : **S1 p.27–29 ; S2 p.1–2**. Contrôle : **V11**. Fichier futur : `cards/n2/13-ordinateurs.yaml`.
 
-- [ ] **P415** · QCM · Rappel / application — Distinguer le profil suivi par un ordinateur et le profil carré d’une table ; calcul du modèle et historique expliqués.
-- [ ] **P418** · QCM · Rappel / application — Temps écoulé et temps restant sans palier.
-- [ ] **P422** · QCM · Rappel / application — Vitesse de remontée et alarme.
-- [ ] **P423** · QCM · Rappel / application — Affichage du gaz sélectionné.
-- [ ] **P424** · QCM · Rappel / application — Réglage eau douce/eau salée.
-- [ ] **P427** · QCM · Rappel / application — Garder le même ordinateur pour une série.
-- [ ] **P430** · QCM · Lecture / repérage — Avant immersion : vérifier écran, énergie et réglages.
-- [ ] **P432** · QCM · Rappel / application — Expliquer pourquoi la fin de ses propres obligations ne suffit pas à autoriser une remontée solitaire.
-- [ ] **P433** · QCM · Rappel / application — Algorithmes et réglages différents : résultats différents.
-- [ ] **P437** · QCM · Scénario — Lire deux ordinateurs aux obligations différentes et organiser une fin de plongée commune.
-- [ ] **P438** · QCM · Scénario — Scénario : DTR augmente pendant la plongée.
-- [ ] **P439** · QCM · Scénario — Scénario : confusion NDL et autonomie en air.
-- [ ] **P440** · QCM · Rappel / application — Gestion de l’air intégrée : dépend d’une sonde.
-- [ ] **P441** · QCM · Erreur / limite — Erreur ou verrouillage après incident : dépend du modèle.
-- [ ] **P443** · QCM · Lecture / repérage — Lire le manuel du modèle utilisé.
-- [ ] **P444** · QCM · Rappel / application — Pas de garantie de sécurité fournie par un ordinateur.
-- [ ] **P445** · QCM · Rappel / application — Choix : lisibilité et acuité visuelle.
-- [ ] **P446** · QCM · Rappel / application — Choix : air ou nitrox selon pratique future.
+- [x] **P415** · QCM · Rappel / application — Distinguer le profil suivi par un ordinateur et le profil carré d’une table ; calcul du modèle et historique expliqués.
+- [x] **P418** · QCM · Rappel / application — Temps écoulé et temps restant sans palier.
+- [x] **P422** · QCM · Rappel / application — Vitesse de remontée et alarme.
+- [x] **P423** · QCM · Rappel / application — Affichage du gaz sélectionné.
+- [x] **P424** · QCM · Rappel / application — Réglage eau douce/eau salée.
+- [x] **P427** · QCM · Rappel / application — Garder le même ordinateur pour une série.
+- [x] **P430** · QCM · Lecture / repérage — Avant immersion : vérifier écran, énergie et réglages.
+- [x] **P432** · QCM · Rappel / application — Expliquer pourquoi la fin de ses propres obligations ne suffit pas à autoriser une remontée solitaire.
+- [x] **P433** · QCM · Rappel / application — Algorithmes et réglages différents : résultats différents.
+- [x] **P437** · QCM · Scénario — Lire deux ordinateurs aux obligations différentes et organiser une fin de plongée commune.
+- [x] **P438** · QCM · Scénario — Scénario : DTR augmente pendant la plongée.
+- [x] **P439** · QCM · Scénario — Scénario : confusion NDL et autonomie en air.
+- [x] **P440** · QCM · Rappel / application — Gestion de l’air intégrée : dépend d’une sonde.
+- [x] **P441** · QCM · Erreur / limite — Erreur ou verrouillage après incident : dépend du modèle.
+- [x] **P443** · QCM · Lecture / repérage — Lire le manuel du modèle utilisé.
+- [x] **P444** · QCM · Rappel / application — Pas de garantie de sécurité fournie par un ordinateur.
+- [x] **P445** · QCM · Rappel / application — Choix : lisibilité et acuité visuelle.
+- [x] **P446** · QCM · Rappel / application — Choix : air ou nitrox selon pratique future.
 
 ### 14-remontees-anormales — Désaturation
 
 Source : **S1 p.26–27**. Contrôle : **V12**. Fichier futur : `cards/n2/14-remontees-anormales.yaml`.
 
-- [ ] **P454** · QCM · Comparaison — Distinguer MN90 historique et recommandation fédérale ordinateur.
-- [ ] **P456** · QCM · Rappel / application — Remontée trop rapide : critères de déclenchement à vérifier.
-- [ ] **P458** · QCM · Rappel / application — Réimmersion après remontée anormale : conditions à confirmer.
-- [ ] **P461** · QCM · Rappel / application — Réimmersion impossible : conduite du protocole validé.
-- [ ] **P463** · QCM · Rappel / application — Yoyos : identifier le profil.
-- [ ] **P464** · QCM · Rappel / application — Exercices d’assistance : limiter les remontées répétées selon recommandation.
-- [ ] **P465** · QCM · Comparaison — Palier obligatoire interrompu versus palier de confort.
-- [ ] **P466** · QCM · Rappel / application — Reprise après interruption : conditions à confirmer.
-- [ ] **P468** · QCM · Rappel / application — Expliquer le suivi après incident sans symptômes selon la référence validée ; aucune garantie d’absence d’accident.
-- [ ] **P472** · QCM · Scénario — Scénario : paliers non réalisés et symptômes.
+- [x] **P454** · QCM · Comparaison — Distinguer MN90 historique et recommandation fédérale ordinateur.
+- [x] **P456** · QCM · Rappel / application — Remontée trop rapide : critères de déclenchement à vérifier.
+- [x] **P458** · QCM · Rappel / application — Réimmersion après remontée anormale : conditions à confirmer.
+- [x] **P461** · QCM · Rappel / application — Réimmersion impossible : conduite du protocole validé.
+- [x] **P463** · QCM · Rappel / application — Yoyos : identifier le profil.
+- [x] **P464** · QCM · Rappel / application — Exercices d’assistance : limiter les remontées répétées selon recommandation.
+- [x] **P465** · QCM · Comparaison — Palier obligatoire interrompu versus palier de confort.
+- [x] **P466** · QCM · Rappel / application — Reprise après interruption : conditions à confirmer.
+- [x] **P468** · QCM · Rappel / application — Expliquer le suivi après incident sans symptômes selon la référence validée ; aucune garantie d’absence d’accident.
+- [x] **P472** · QCM · Scénario — Scénario : paliers non réalisés et symptômes.
 
 ### 15-gonflage-blocs — Matériel et préparation
 
@@ -710,3 +710,11 @@ V09 reste ouvert pour cette dernière précision de domaine d’emploi.
 20 cartes, dont huit exercices de lecture/calcul, avec tables complètes de juillet 2005
 contrôlées visuellement. P375 couvert, V09/V10 clôturés.
 Total : 236 cartes revues ; 90 objectifs encore à traiter.
+
+### Chapitre 13 — 6 octobre 2026
+
+17 cartes revues. P444 → P343 ; V11 clôturé. Total 253 cartes, 72 objectifs restants.
+
+### Chapitre 14 — 6 octobre 2026
+
+10 cartes revues. V12 clôturé. Total 263 cartes, 62 objectifs restants.
