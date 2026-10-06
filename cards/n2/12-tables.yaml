@@ -1,0 +1,456 @@
+cards:
+- id: n2-tables-profil-carre-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P381
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi une table de décompression utilise-t-elle la profondeur maximale plutôt qu’une simple
+      profondeur moyenne ?
+    back: '**Elle représente la plongée par un profil carré : toute la durée retenue est attribuée à la
+      profondeur maximale.** Cette convention permet de lire les paliers à partir de deux valeurs, avec
+      les règles propres à la table.'
+- id: n2-tables-duree-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P384
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Dans une plongée simple MN90 à remontée normale, entre quels instants compte-t-on la durée
+      utilisée pour entrer dans la table ?
+    back: '**Du départ de la surface au début de la remontée vers la surface.** La descente et le temps
+      d’exploration sont inclus ; les paliers et la remontée normale viennent ensuite dans la durée totale
+      d’immersion.'
+- id: n2-tables-arrondis-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P386
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice MN90 : la profondeur maximale est 19 m et la durée avant remontée 31 min 10 s. La
+      table comporte 18 et 20 m, puis 30 et 35 min à 20 m. Quelle ligne retenir ?'
+    back: '**20 m et 35 min.** 31 min 10 s compte d’abord pour 32 min, puis on choisit la durée tabulée
+      immédiatement supérieure. Même principe pour 19 m : retenir 20 m, sans interpolation.'
+- id: n2-tables-domaine-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P388
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Pour quelles conditions de gaz et d’effort les tables MN90 utilisées dans les exercices de
+      plongée à l’air sont-elles conçues ?
+    back: '**Respiration d’air et effort physique modéré.** Leur modèle et leurs règles d’emploi ne couvrent
+      pas automatiquement un autre mélange ou un effort important ; une profondeur admissible dans une
+      table ne donne pas une prérogative au plongeur.'
+- id: n2-tables-deux-plongees-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P375
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: La limite de deux plongées par 24 heures des tables MN90 devient-elle automatiquement une limite
+      identique pour tout ordinateur ?
+    back: '**Non : elle appartient au domaine d’emploi de ces tables.** Un ordinateur a son propre manuel
+      et son modèle ; le nombre de plongées se planifie aussi avec leurs profils, les intervalles, la
+      fatigue et les consignes du directeur de plongée.'
+- id: n2-tables-sans-palier-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P390
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Que signifie une durée située dans la zone sans palier obligatoire d’une table ?
+    back: '**Avec les hypothèses et règles de cette table, la remontée n’exige pas de palier de décompression.**
+      La vitesse de remontée reste à respecter ; « sans palier » ne signifie ni remontée instantanée ni
+      risque nul.'
+- id: n2-tables-dtr-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P394
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Que comprend la durée totale de remontée, ou DTR, d’un exercice de tables MN90 ?
+    back: '**Le trajet jusqu’au premier palier, les durées des paliers, les trajets entre eux et du dernier
+      palier à la surface.** Elle exclut la durée passée avant le début de remontée.'
+- id: n2-tables-gps-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P395
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: À quoi sert le groupe de plongée successive, ou GPS, donné par une lettre à la sortie d’une
+      plongée MN90 ?
+    back: '**À tenir compte du gaz résiduel pour une plongée suivante.** Avec l’intervalle de surface,
+      cette lettre permet de lire l’azote résiduel puis une majoration ; elle n’est ni une position géographique
+      ni une durée de palier.'
+- id: n2-tables-vitesses-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P396
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Dans les MN90 au niveau de la mer, quelles vitesses distingue-t-on pour remonter du fond puis
+      entre les paliers ?
+    back: '**15 à 17 m/min du fond au premier palier ; 6 m/min entre paliers et jusqu’à la surface.**
+      Dans les calculs de DTR, on emploie 15 m/min pour la première partie, puis 30 secondes par trajet
+      de 3 m.'
+- id: n2-tables-ordinateur-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P398
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Un ordinateur impose une vitesse de remontée inférieure à celle des MN90. Quelle référence
+      suivre pendant cette plongée conduite à l’ordinateur ?
+    back: '**Le manuel et les indications de cet ordinateur.** La vitesse MN90 est une hypothèse des tables
+      ; elle ne remplace pas la limite de l’appareil utilisé.'
+- id: n2-tables-intervalles-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P399
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Pour les exercices MN90, on classe les intervalles ainsi : consécutive <15 min ; successive
+      de 15 min à moins de 12 h ; isolée ≥12 h. Comment classer exactement 15 min et exactement 12 h ?'
+    back: '**15 min : successive ; 12 h : isolée.** L’intervalle va de la sortie de la première plongée
+      au départ de la seconde. Les bornes annoncées déterminent la catégorie ; elles ne mesurent pas une
+      absence réelle et totale d’azote résiduel.'
+- id: n2-tables-majoration-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P405
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Dans une plongée successive MN90, que représente la majoration ajoutée au temps de la deuxième
+      plongée ?
+    back: '**Un temps fictif équivalent à la charge résiduelle en azote**, à la profondeur retenue pour
+      la deuxième plongée. Ce n’est pas du temps supplémentaire à passer réellement au fond.'
+- id: n2-tables-temps-fictif-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P406
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice de successive : majoration 13 min, durée réelle de la deuxième plongée 22 min. Quelle
+      durée sert à lire ses paliers ?'
+    back: '**35 min : 13 + 22.** Les 13 min sont fictives ; la durée réelle avant remontée reste 22 min.'
+- id: n2-tables-variables-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  status: reviewed
+  source_id: P407
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: Quelles trois données faut-il connaître pour déterminer la majoration MN90 d’une deuxième plongée
+      ?
+    back: '**Le GPS de la première plongée, l’intervalle de surface et la profondeur prévue pour la deuxième.**
+      GPS + intervalle donnent l’azote résiduel au tableau I ; azote résiduel + profondeur donnent la
+      majoration au tableau II.'
+- id: n2-tables-remontee-lente-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P408
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice MN90 : 20 min jusqu’au départ du fond, puis 4 min de remontée lente jusqu’au premier
+      palier. Quelle durée retenir avant les arrondis de lecture ?'
+    back: '**24 min : 20 + 4.** Dans la procédure MN90 de remontée lente, cette phase jusqu’au premier
+      palier est intégrée à la durée de plongée. Elle ne se traite pas comme une remontée normale.'
+- id: n2-tables-lecture-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P411
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice : une ligne MN90 à 25 m indique durée 30 min, palier à 3 m = 2 min, DTR = 4 min et
+      GPS H. Quelle durée sépare le départ du fond de l’arrivée en surface ?'
+    back: '**4 min, la DTR.** Les 2 min sont seulement le palier ; le trajet ajoute du temps. La lettre
+      H sert à une plongée successive, pas à chronométrer la remontée.'
+- id: n2-tables-courbe-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P412
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Extrait MN90 à 20 m : 40 min sans palier ; 45 min avec 1 min à 3 m. Une plongée simple dure
+      41 min avant une remontée normale. Faut-il lire une ligne avec palier ?'
+    back: '**Oui : la ligne 45 min, avec 1 min à 3 m.** 41 min dépasse la dernière ligne sans palier et
+      on n’interpole pas entre 40 et 45 min.'
+- id: n2-tables-calcul-dtr-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P413
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice MN90 : départ de 30 m, un seul palier de 9 min à 3 m. Employer 15 m/min jusqu’au
+      palier, puis 6 m/min à la surface, et arrondir la somme à la minute supérieure. Quelle DTR ?'
+    back: '**12 min.** Trajet 30 → 3 m : 27/15 = 1,8 min ; palier : 9 min ; trajet 3 → 0 m : 3/6 = 0,5
+      min. Total 11,3 min, arrondi à 12 min.'
+- id: n2-tables-successive-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P414
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice MN90 : GPS H, intervalle de surface 2 h, deuxième plongée prévue à 20 m pendant 20
+      min. Extraits : H/2 h → azote résiduel 0,98 ; tableau II, 0,99/20 m → majoration 22 min ; à 20 m,
+      40 min → sans palier, 45 min → 1 min à 3 m. Quels paliers lire pour la seconde ?'
+    back: '**1 min à 3 m.** 0,98 est arrondi à 0,99 dans le tableau II ; majoration 22 min. Durée fictive
+      22 + 20 = 42 min, arrondie à la ligne 45 min. L’intervalle exact de 2 h est présent au tableau I.'
+- id: n2-tables-intervalle-arrondi-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::12
+  - tables
+  - exercice::calcul
+  status: reviewed
+  source_id: P414
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.23–26 ; tableaux p.24–25 inspectés visuellement.
+    - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
+      visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
+    - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    fact_check: pass
+  fr:
+    front: 'Exercice MN90 : GPS H, intervalle réel 2 h 10. Tableau I : H/2 h = 0,98 ; H/2 h 30 = 0,95.
+      Quel intervalle tabulé retenir pour lire l’azote résiduel ?'
+    back: '**2 h, donnant 0,98.** Pour l’intervalle de surface absent du tableau I, prendre la valeur
+      immédiatement inférieure ; 2 h 30 créditerait une élimination qui n’a pas eu lieu.'

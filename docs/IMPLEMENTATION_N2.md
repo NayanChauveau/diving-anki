@@ -111,9 +111,9 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V08** — Narcose : seuils non universels ; ne pas reprendre « constante à 50 m » ni « pas de prévention » comme absolus. Composition détaillée de l’air et rôle des différents gaz à vérifier. Ne pas étendre ces documents à une formation nitrox ou à des limites de toxicité absentes.
 
-- [ ] **V09** — ADD : vérifier symptômes et protocole de secours actuel, installation de la victime, débit et administration O2, hydratation, avion/altitude et effort après plongée. Ne pas enseigner un délai de 12 h comme exclusion ni une formule obligatoire d’hydratation. Le résumé physiologique sur les bulles est simplifié ; éviter de présenter tout retour de l’azote comme une formation nécessaire de microbulles.
+- [x] **V09** — ADD : vérifier symptômes et protocole de secours actuel, installation de la victime, débit et administration O2, hydratation, avion/altitude et effort après plongée. Ne pas enseigner un délai de 12 h comme exclusion ni une formule obligatoire d’hydratation. Le résumé physiologique sur les bulles est simplifié ; éviter de présenter tout retour de l’azote comme une formation nécessaire de microbulles.
 
-- [ ] **V10** — MN90 : identifier l’édition, domaine d’emploi et tableaux complets avant exercices chiffrés. S1 p.25 montre un extrait et non les tables de calcul de successives. S1 p.24 contient une courbe illustrée : confirmer valeurs et conventions, notamment frontières d’intervalles. Pas d’utilisation comme consigne universelle de plongée.
+- [x] **V10** — MN90 : identifier l’édition, domaine d’emploi et tableaux complets avant exercices chiffrés. S1 p.25 montre un extrait et non les tables de calcul de successives. S1 p.24 contient une courbe illustrée : confirmer valeurs et conventions, notamment frontières d’intervalles. Pas d’utilisation comme consigne universelle de plongée.
 
 - [ ] **V11** — Ordinateurs : vitesses, fréquence de mesure, verrouillage, autonomie batterie, modes et algorithmes dépendent du modèle. Ne pas retenir « 24 h de verrouillage » ou « 2–3 plongées max » comme universels. Vérifier les écrans originaux et le manuel ; tenir compte des obligations de tous les équipiers.
 
@@ -431,7 +431,7 @@ Source : **S1 p.20–23**. Contrôle : **V09**. Fichier futur : `cards/n2/11-add
 - [x] **P370** · QCM · Rappel / application — Éviter efforts importants après immersion.
 - [x] **P371** · QCM · Rappel / application — Apnée après plongée : précautions à documenter.
 - [x] **P374** · QCM · Rappel / application — Oscillations de profondeur : effets et prévention ; pas d’interdiction absolue de tout profil inversé.
-- [ ] **P375** · QCM · Rappel / application — Nombre de plongées et intervalle : référentiel à préciser.
+- [x] **P375** · QCM · Rappel / application — Nombre de plongées et intervalle : référentiel à préciser.
 - [x] **P376** · QCM · Rappel / application — Avion et altitude : délai à documenter.
 - [x] **P377** · QCM · Scénario — Scénario : douleur articulaire après retour au bateau.
 - [x] **P380** · QCM · Scénario — Scénario : deux accidents possibles, même priorité d’alerte.
@@ -440,24 +440,24 @@ Source : **S1 p.20–23**. Contrôle : **V09**. Fichier futur : `cards/n2/11-add
 
 Source : **S1 p.23–26**. Contrôle : **V10**. Fichier futur : `cards/n2/12-tables.yaml`.
 
-- [ ] **P381** · Basic · Compréhension — Tables : rôle historique et principe.
-- [ ] **P384** · QCM · Rappel / application — Temps table : début immersion à début remontée.
-- [ ] **P386** · QCM · Rappel / application — Minute commencée et arrondi supérieur.
-- [ ] **P388** · QCM · Rappel / application — Tables MN90 : domaine d’emploi à l’air.
-- [ ] **P390** · QCM · Rappel / application — Courbe sans palier : définition.
-- [ ] **P394** · QCM · Rappel / application — Durée totale de remontée : composants.
-- [ ] **P395** · Basic · Compréhension — GPS : rôle et lettre.
-- [ ] **P396** · QCM · Rappel / application — Vitesse fond-premier palier propre aux MN90.
-- [ ] **P398** · QCM · Erreur / limite — Ne pas transposer une vitesse table à tout ordinateur.
-- [ ] **P399** · QCM · Rappel / application — Distinguer les catégories d’intervalle dans une édition de tables fournie ; bornes précisées dans la question.
-- [ ] **P405** · QCM · Rappel / application — Majoration : définition.
-- [ ] **P406** · QCM · Comparaison — Durée théorique versus durée réelle.
-- [ ] **P407** · QCM · Rappel / application — Variables qui déterminent la majoration.
-- [ ] **P408** · QCM · Rappel / application — Remontée lente : temps pris en compte selon MN90.
-- [ ] **P411** · Basic · Complément — Exercice de lecture d’une ligne de table : données à obtenir.
-- [ ] **P412** · QCM · Rappel / application — Exercice de courbe sans palier : valeurs à vérifier visuellement.
-- [ ] **P413** · Basic · Complément — Exercice de calcul DTR : données complètes nécessaires.
-- [ ] **P414** · Basic · Complément — Exercice de successive : obtenir les tables complémentaires.
+- [x] **P381** · Basic · Compréhension — Tables : rôle historique et principe.
+- [x] **P384** · QCM · Rappel / application — Temps table : début immersion à début remontée.
+- [x] **P386** · QCM · Rappel / application — Minute commencée et arrondi supérieur.
+- [x] **P388** · QCM · Rappel / application — Tables MN90 : domaine d’emploi à l’air.
+- [x] **P390** · QCM · Rappel / application — Courbe sans palier : définition.
+- [x] **P394** · QCM · Rappel / application — Durée totale de remontée : composants.
+- [x] **P395** · Basic · Compréhension — GPS : rôle et lettre.
+- [x] **P396** · QCM · Rappel / application — Vitesse fond-premier palier propre aux MN90.
+- [x] **P398** · QCM · Erreur / limite — Ne pas transposer une vitesse table à tout ordinateur.
+- [x] **P399** · QCM · Rappel / application — Distinguer les catégories d’intervalle dans une édition de tables fournie ; bornes précisées dans la question.
+- [x] **P405** · QCM · Rappel / application — Majoration : définition.
+- [x] **P406** · QCM · Comparaison — Durée théorique versus durée réelle.
+- [x] **P407** · QCM · Rappel / application — Variables qui déterminent la majoration.
+- [x] **P408** · QCM · Rappel / application — Remontée lente : temps pris en compte selon MN90.
+- [x] **P411** · Basic · Complément — Exercice de lecture d’une ligne de table : données à obtenir.
+- [x] **P412** · QCM · Rappel / application — Exercice de courbe sans palier : valeurs à vérifier visuellement.
+- [x] **P413** · Basic · Complément — Exercice de calcul DTR : données complètes nécessaires.
+- [x] **P414** · Basic · Complément — Exercice de successive : obtenir les tables complémentaires.
 
 ### 13-ordinateurs — Désaturation
 
@@ -704,3 +704,9 @@ Total : 190 cartes revues ; 142 objectifs encore à traiter.
 26 cartes nouvelles ; sept objectifs de reconnaissance/secours réutilisent le chapitre 07.
 Total : 216 cartes revues ; 109 objectifs encore à traiter. P375 sera couvert avec les tables ;
 V09 reste ouvert pour cette dernière précision de domaine d’emploi.
+
+### Chapitre 12 — 6 octobre 2026
+
+20 cartes, dont huit exercices de lecture/calcul, avec tables complètes de juillet 2005
+contrôlées visuellement. P375 couvert, V09/V10 clôturés.
+Total : 236 cartes revues ; 90 objectifs encore à traiter.
