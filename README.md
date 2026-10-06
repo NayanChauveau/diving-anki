@@ -1,57 +1,320 @@
 # Anki — Théorie de plongée
 
-Socle repris de `anki-deck-wset-3` : YAML, Pydantic, genanki, modèles QCM/basic/cloze,
-Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, schéma JSON,
-pre-commit et CI avec artefacts et releases GitHub.
+Un deck Anki en français pour réviser la théorie du **niveau 2 de plongée**, dans le cadre
+français et du cursus FFESSM : réglementation, physique, prévention des accidents,
+désaturation, matériel et préparation de la plongée.
 
-Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Le deck N2 comprend **308 cartes revues**, réparties dans 18 fichiers de chapitre
-et cinq catégories Anki. La [revue finale](docs/reviews/REVUE_FINALE_N2.md) détaille
-les dix fusions, les six ajouts et les corrections de clarté.
-La [couverture](docs/reviews/COUVERTURE_FINALE_N2.md) relie les 334 objectifs suivis
-aux cartes actives. Les anciennes cartes fusionnées restent suspendues dans Anki pour
-conserver leur historique ; leur [registre](docs/reviews/RETIREMENTS_N2.yaml) empêche
-la réutilisation de leurs IDs. Un import de package ne suspend pas à lui seul les notes retirées.
+Le deck N2 comprend **308 cartes revues** : 240 questions à réponse libre et 68 QCM,
+avec des explications, des cas concrets et des exercices de calcul. Il peut être téléchargé
+et utilisé directement dans Anki. Le dépôt contient aussi les sources des cartes et les
+outils permettant de les vérifier, de les modifier et de construire les paquets.
 
-## Démarrage
+**[Télécharger le deck N2 français](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-n2-fr.apkg)**
+· [Voir la dernière build publiée](https://github.com/NayanChauveau/diving-anki/releases/tag/latest-main)
+· [Toutes les versions](https://github.com/NayanChauveau/diving-anki/releases)
+
+## Sommaire
+
+- [Installer le deck sans outils de développement](#installer-le-deck-sans-outils-de-développement)
+- [Réviser avec le deck](#réviser-avec-le-deck)
+- [Mettre à jour et conserver sa progression](#mettre-à-jour-et-conserver-sa-progression)
+- [Contenu et niveaux disponibles](#contenu-et-niveaux-disponibles)
+- [Construire le deck depuis les sources](#construire-le-deck-depuis-les-sources)
+- [Importer et synchroniser avec AnkiConnect](#importer-et-synchroniser-avec-ankiconnect)
+- [Contribuer ou signaler une erreur](#contribuer-ou-signaler-une-erreur)
+- [Organisation du dépôt](#organisation-du-dépôt)
+- [Builds et releases](#builds-et-releases)
+- [Licences](#licences)
+
+## Installer le deck sans outils de développement
+
+Il suffit d’Anki et du fichier `.apkg`. Aucun clonage du dépôt, Python, terminal ou
+module complémentaire n’est nécessaire pour cette installation.
+
+1. Installer **[Anki Desktop](https://apps.ankiweb.net/)** sur son ordinateur.
+2. Télécharger **[diving-n2-fr.apkg](https://github.com/NayanChauveau/diving-anki/releases/download/latest-main/diving-n2-fr.apkg)**.
+   Sur la page de release, le fichier se trouve dans **Assets**. Les archives
+   **Source code** contiennent le dépôt, pas le deck prêt à importer.
+3. Ouvrir Anki, puis choisir **Fichier → Importer** et sélectionner le fichier `.apkg`.
+4. Confirmer l’import. Le deck apparaît sous **Plongée → N2**, avec ses cinq catégories.
+5. Ouvrir **N2** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
+
+Le lien de téléchargement conserve le même nom et pointe vers la dernière build publiée
+avec succès depuis la branche `main`.
+
+### Réviser aussi sur téléphone ou sur un autre ordinateur
+
+Après l’import sur ordinateur, connecter le profil Anki à un compte
+**[AnkiWeb](https://ankiweb.net/)**, puis lancer **Synchroniser**. Utiliser le même compte
+sur les autres appareils et y synchroniser également.
+
+Les applications mobiles sont **AnkiMobile** sur iPhone/iPad et **AnkiDroid** sur Android ;
+leurs liens officiels figurent sur la [page de téléchargement d’Anki](https://apps.ankiweb.net/).
+Les cartes et la progression se synchronisent entre les appareils.
+Voir le [guide officiel de synchronisation](https://docs.ankiweb.net/syncing.html) pour
+la configuration initiale et les choix de synchronisation.
+
+### Si le téléchargement ou l’import ne fonctionne pas
+
+- **La page de release ne montre pas les fichiers :** ouvrir la rubrique **Assets**, ou
+  utiliser le lien direct vers `diving-n2-fr.apkg` ci-dessus.
+- **Le fichier téléchargé est un ZIP :** télécharger le `.apkg` plutôt que l’archive des sources.
+- **Le paquet est vide :** vérifier qu’il s’agit du **N2** ; les paquets N3 et N4 sont encore vides.
+- **Anki refuse le fichier :** utiliser une version récente de l’application officielle
+  et télécharger à nouveau le paquet. Le
+  [manuel d’import Anki](https://docs.ankiweb.net/importing/packaged-decks.html) décrit les options disponibles.
+
+## Réviser avec le deck
+
+Les cartes à réponse libre demandent de formuler sa réponse avant de la révéler.
+Pour les calculs, refaire le raisonnement et vérifier les unités avant de regarder la solution.
+
+Les QCM comportent **une seule bonne réponse**. L’ordre des choix est mélangé lors des
+révisions ; le verso indique la réponse et explique le raisonnement. On peut sélectionner
+un choix, puis afficher la réponse si elle ne s’ouvre pas automatiquement sur l’application utilisée.
+
+Après la correction, évaluer son rappel avec les boutons d’Anki. La sélection d’un choix
+ne note pas automatiquement la carte : c’est cette évaluation qui programme la prochaine
+révision. Le [guide d’étude Anki](https://docs.ankiweb.net/studying.html) explique ces boutons.
+
+Le deck accompagne les cours et la formation pratique. Les cartes précisent le contexte
+quand la réponse dépend du pays, du cursus, de l’âge, d’un modèle de matériel ou des
+hypothèses d’un exercice.
+
+## Mettre à jour et conserver sa progression
+
+1. Télécharger à nouveau `diving-n2-fr.apkg` depuis la dernière build publiée.
+2. L’importer **dans la même collection Anki**, sans supprimer le deck existant.
+3. Synchroniser ensuite les appareils utilisés.
+
+Les identifiants des cartes publiées et des modèles sont stables. Anki peut ainsi reconnaître
+les notes déjà importées, mettre à jour leur contenu et ajouter les nouvelles cartes,
+tout en conservant l’historique et les échéances des cartes existantes. Les options d’import
+et les modifications personnelles apportées aux notes ou aux modèles peuvent influencer
+la mise à jour ; voir le [manuel officiel](https://docs.ankiweb.net/importing/packaged-decks.html#updating).
+
+### Cartes fusionnées ou retirées dans une nouvelle version
+
+**Un import `.apkg` ne supprime ni ne suspend automatiquement les anciennes cartes absentes
+du nouveau paquet.** Une ancienne installation peut donc conserver plus de 308 cartes.
+
+La [revue finale N2](docs/reviews/REVUE_FINALE_N2.md#fusions--aucun-objectif-utile-abandonné)
+indique les questions fusionnées et leurs remplacements. Si elles figurent encore dans
+sa collection, les retrouver dans **Parcourir** et les suspendre. Elles restent consultables
+avec leur historique, mais ne reviennent plus dans les révisions.
+Les identifiants réservés sont conservés dans le [registre des retraits](docs/reviews/RETIREMENTS_N2.yaml).
+Une première installation du paquet actuel contient uniquement les 308 cartes actives.
+
+## Contenu et niveaux disponibles
+
+| Niveau | État | Paquet |
+| --- | --- | --- |
+| **N2** | 308 cartes revues, en français | `diving-n2-fr.apkg` |
+| N3 | Structure prête ; aucune carte rédigée | `diving-n3-fr.apkg`, vide |
+| N4 | Structure prête ; aucune carte rédigée | `diving-n4-fr.apkg`, vide |
+
+Seul le **N2** est actuellement proposé pour l’apprentissage. Les builds N3 et N4 permettent
+de vérifier le fonctionnement technique ; leur publication ne signifie pas que leur contenu est disponible.
+
+Les cartes N2 sont regroupées dans cinq sous-decks directement sous `Plongée::N2` :
+
+| Catégorie | Cartes | Thèmes |
+| --- | ---: | --- |
+| Réglementation | 52 | Prérogatives, âges, organisation, équipements requis, documents et environnement |
+| Physique | 82 | Pressions, flottabilité, compression des gaz, consommation et autonomie |
+| Prévention des accidents | 53 | Barotraumatismes, essoufflement, froid et narcose |
+| Désaturation | 77 | Mécanismes et accidents de désaturation, tables MN90, ordinateurs et remontées anormales |
+| Matériel et préparation | 44 | Blocs, gonflage, détendeurs, pannes, orientation et préparation collective |
+
+Les 18 chapitres restent identifiés dans les fichiers et les tags `chapitre::01` à
+`chapitre::18`, sans multiplier les petits sous-decks dans Anki.
+
+### Sources et qualité du contenu
+
+Les formulations sont originales. Les supports pédagogiques sont recroisés avec des références
+FFESSM, réglementaires, médicales et constructeurs selon le sujet. Les références et les
+vérifications sont conservées dans les sources des cartes et dans `docs/reviews/`.
+
+Un fait simple est interrogé une fois ; les raisonnements complexes reçoivent plusieurs
+angles ou exercices utiles. Les cartes nouvelles restent en `draft` et sont exclues des
+builds ordinaires jusqu’à leur revue factuelle et pédagogique.
+
+- [Plan d’implémentation N2](docs/IMPLEMENTATION_N2.md).
+- [Couverture des 334 objectifs suivis](docs/reviews/COUVERTURE_FINALE_N2.md).
+- [Dernière revue intégrale et corrections](docs/reviews/REVUE_FINALE_N2.md).
+- [Règles de contenu](CONTENT_GUIDELINES.md) et [guide de conception des cartes](docs/CARD_DESIGN.md).
+
+## Construire le deck depuis les sources
+
+Cette partie s’adresse aux personnes qui souhaitent modifier les cartes ou générer elles-mêmes
+les paquets. Pour utiliser le deck publié, les étapes d’installation ci-dessus suffisent.
+
+### Prérequis
+
+- [Git](https://git-scm.com/).
+- [Python 3.12 ou ultérieur](https://www.python.org/downloads/).
+- [uv](https://docs.astral.sh/uv/getting-started/installation/).
+- `make` pour les commandes courtes ; des équivalents directs sont donnés ci-dessous.
 
 ```sh
+git clone https://github.com/NayanChauveau/diving-anki.git
+cd diving-anki
 uv sync --extra dev
 make check
-make build                        # N2 → dist/diving-n2-fr.apkg
-make build ANKI_LEVEL=N3           # N3
-make build-all                    # trois packages indépendants
-make push ANKI_LEVEL=N2            # importe dans Anki et synchronise AnkiWeb
-uv run diving-anki build --level N2 --include-drafts
+make build
 ```
 
-`push` nécessite Anki Desktop et l’extension AnkiConnect. Il déclenche une synchronisation.
-Un build sans cartes produit un package vide destiné à vérifier le pipeline.
+Le paquet N2 est écrit dans `dist/diving-n2-fr.apkg`. Il peut être importé manuellement
+dans Anki comme le paquet téléchargé. Les documents sources privés ne sont pas nécessaires
+à la construction du deck depuis les YAML.
 
-## Organisation
+### Commandes utiles
 
-- `cards/n2/`, `cards/n3/`, `cards/n4/` : un fichier YAML par chapitre.
-- `sources/` : documents privés, ignorés par Git.
-- `src/diving_anki/` : validation, rendu, génération et import AnkiConnect.
-- `templates/` : modèles HTML/CSS et libellés français.
-- `schema/cards.schema.json` : schéma généré pour les éditeurs.
-- `tests/` : contrôles des formats, des niveaux et des packages Anki.
+| Commande | Fonction |
+| --- | --- |
+| `make check` | Lint, formatage, types, schéma, validation des cartes et tests |
+| `make build` | Construire le paquet N2 français |
+| `make build ANKI_LEVEL=N3` | Construire le paquet N3, actuellement vide |
+| `make build ANKI_LEVEL=N4` | Construire le paquet N4, actuellement vide |
+| `make build-all` | Construire les trois paquets indépendants |
+| `make push` | Construire N2, l’importer dans Anki et synchroniser AnkiWeb |
+| `make push ANKI_LEVEL=N3` | Même workflow pour N3, lorsqu’il aura du contenu |
+| `uv run diving-anki validate` | Valider uniquement les fichiers de cartes |
+| `make schema` | Régénérer le schéma après une modification du modèle de données |
 
-Chaque carte indique explicitement `levels: [N2]` ou, pour une carte commune,
-`levels: [N2, N3]`. Aucune inclusion automatique d’un niveau dans un autre.
-Le dossier sert à ranger les chapitres ; `levels` détermine les packages.
-Les IDs des cartes sont uniques dans tout le projet. Les GUIDs et IDs des modèles
-sont stables et distincts du projet WSET. Une carte partagée possède un GUID par niveau,
-pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux.
-Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
-N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
-**Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-52 cartes sont regroupées dans Réglementation, 82 dans Physique, 53 dans Prévention des accidents,
-77 dans Désaturation et 44 dans Matériel et préparation. Les fichiers et tags conservent le détail
-des chapitres.
+Sans `make`, depuis la racine du dépôt :
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
+```sh
+uv run diving-anki check
+uv run diving-anki build --level N2 --out dist
+uv run diving-anki build --level all --out dist
+```
 
-Le dépôt distant est [NayanChauveau/diving-anki](https://github.com/NayanChauveau/diving-anki).
-`git push origin main` publie les commits sur GitHub ; `make push` construit et synchronise
-le deck avec AnkiWeb. Ces deux commandes ont des destinations différentes.
+Pour une prévisualisation éditoriale incluant les brouillons :
+
+```sh
+uv run diving-anki build --level N2 --include-drafts --out dist
+```
+
+## Importer et synchroniser avec AnkiConnect
+
+`make push` automatise le build, l’ouverture d’Anki Desktop lorsque possible, l’import du
+paquet et la synchronisation AnkiWeb. **AnkiConnect est nécessaire uniquement pour ce
+workflow automatique**, pas pour importer un fichier `.apkg` manuellement.
+
+### Configuration initiale
+
+1. Installer [Anki Desktop](https://apps.ankiweb.net/) et connecter le profil voulu à AnkiWeb.
+2. Ouvrir **Outils → Greffons / Extensions → Télécharger des greffons** dans Anki.
+3. Saisir le code **`2055492159`**, correspondant à
+   [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
+4. Redémarrer Anki pour charger le module.
+
+Puis, depuis la racine du dépôt :
+
+```sh
+make push
+```
+
+Ou directement :
+
+```sh
+uv run diving-anki push --level N2 --out dist
+```
+
+La synchronisation porte sur **tout le profil Anki actif**. Ouvrir le profil et le compte
+souhaités avant la commande, et résoudre dans Anki les éventuelles demandes de synchronisation
+à sens unique. La commande ne gère pas les suspensions de cartes retirées : suivre la section de mise à jour.
+
+Par défaut, AnkiConnect est contacté sur `http://127.0.0.1:8765`. Une installation personnalisée
+peut utiliser les variables `ANKI_CONNECT_URL` et `ANKI_CONNECT_KEY`.
+Pour ouvrir Anki soi-même avant l’import :
+
+```sh
+uv run diving-anki push --level N2 --out dist --no-launch
+```
+
+### Dépannage AnkiConnect
+
+- **Connexion impossible :** vérifier l’installation du module, redémarrer Anki et le laisser ouvert.
+- **Ouverture automatique impossible :** ouvrir Anki manuellement, puis relancer avec `--no-launch`.
+- **Échec de synchronisation :** vérifier le compte du profil actif et terminer les éventuelles
+  demandes de confirmation ou de résolution de conflit dans Anki.
+- **Endpoint personnalisé :** vérifier `ANKI_CONNECT_URL` et, si une clé est configurée,
+  `ANKI_CONNECT_KEY`. Voir la [documentation AnkiConnect](https://github.com/FooSoft/anki-connect).
+
+## Contribuer ou signaler une erreur
+
+Une question imprécise, une réponse discutable ou un calcul incorrect peut être signalé
+sans modifier le dépôt : **[ouvrir une issue](https://github.com/NayanChauveau/diving-anki/issues/new)**.
+Indiquer le texte de la question, le thème, le problème constaté et, si possible, une source
+ou une capture de la carte. Pour un problème d’import, préciser l’application et sa version.
+
+Pour proposer une modification :
+
+1. Lire [CONTRIBUTING.md](CONTRIBUTING.md), [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
+   et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md).
+2. Créer une branche ou un fork et modifier le fichier de chapitre concerné.
+3. Donner des formulations originales et des références vérifiables ; garder les documents privés hors Git.
+4. Créer les nouvelles cartes en `draft`, puis documenter leur revue avant `reviewed`.
+5. Conserver les IDs publiés et consulter le registre des retraits avant tout ajout.
+6. Exécuter `make check`, construire le paquet et contrôler le rendu si le contenu change.
+7. Ouvrir une pull request expliquant la modification, son intérêt et les vérifications réalisées.
+
+Anki et AnkiConnect ne sont pas nécessaires pour modifier et valider les sources.
+
+## Organisation du dépôt
+
+Le socle technique reprend celui de `anki-deck-wset-3` : YAML, Pydantic, genanki,
+Markdown, modèles Anki, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest,
+schéma JSON, pre-commit et CI GitHub.
+
+```text
+cards/n2/              Cartes N2, un fichier YAML par chapitre
+cards/n3/              Emplacement prévu pour les cartes N3
+cards/n4/              Emplacement prévu pour les cartes N4
+docs/                  Plan, conception, schémas et revues de contenu
+sources/               Documents privés, ignorés par Git
+src/diving_anki/        Validation, rendu, génération et import AnkiConnect
+templates/             Modèles HTML/CSS/JavaScript et libellés français
+schema/                Schéma JSON généré pour les YAML
+tests/                 Contrôles des formats, niveaux et paquets Anki
+.github/workflows/     Vérifications, builds et publication des releases
+dist/                  Paquets générés localement, non committés
+```
+
+Les YAML sont la source de vérité. Une carte indique explicitement ses `levels`, par exemple
+`[N2]` ou `[N2, N3]` : aucune inclusion automatique d’un niveau dans un autre.
+Une carte commune possède un GUID Anki par niveau, pour permettre des imports séparés.
+Les GUIDs des notes et les IDs des modèles et decks sont déterministes et distincts de ceux du projet WSET.
+
+Le générateur prend en charge `basic`, `mcq` et `cloze` ; le contenu N2 actuel utilise
+les deux premiers formats. Les éditeurs YAML peuvent utiliser `schema/cards.schema.json`
+pour la validation. Après une modification de `src/diving_anki/schema.py`, régénérer
+et committer le schéma avec `make schema`.
+
+## Builds et releases
+
+Les pull requests et pushes passent les contrôles complets et construisent les trois paquets
+dans GitHub Actions. Les brouillons sont exclus des builds ordinaires.
+
+Chaque push réussi sur `main` met à jour la release **Latest main build**, portant le tag
+`latest-main`, et remplace ses fichiers `.apkg`. C’est la version utilisée par le lien de
+téléchargement en tête de ce README. Si un contrôle ou un build échoue, ce workflow ne publie
+pas de nouveau paquet : le téléchargement reste celui de la dernière publication réussie.
+
+Un tag `vX.Y.Z` déclenche une release versionnée distincte. La release `latest-main` est
+mobile ; les releases versionnées servent de points de référence séparés.
+
+`git push origin main` publie les commits du dépôt sur GitHub et déclenche la CI.
+`make push` construit et importe le deck dans Anki local, puis synchronise AnkiWeb.
+Ce sont deux destinations et deux workflows différents.
+
+## Licences
+
+- Code, modèles, tests et automatisation : **[MIT](LICENSE)**.
+- Contenu des cartes : **[CC BY-SA 4.0](LICENSE-CONTENT)**.
+
+Les cartes peuvent être partagées et adaptées avec attribution ; les adaptations de leur
+contenu doivent conserver la licence CC BY-SA 4.0. Les documents sources privés ne sont
+pas distribués avec le dépôt et ne sont pas couverts par cette licence.
