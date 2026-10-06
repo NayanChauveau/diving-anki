@@ -37,8 +37,8 @@ module complémentaire n’est nécessaire pour cette installation.
    Sur la page de release, le fichier se trouve dans **Assets**. Les archives
    **Source code** contiennent le dépôt, pas le deck prêt à importer.
 3. Ouvrir Anki, puis choisir **Fichier → Importer** et sélectionner le fichier `.apkg`.
-4. Confirmer l’import. Le deck apparaît sous **Plongée**, avec ses cinq catégories.
-5. Ouvrir **Plongée** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
+4. Confirmer l’import. Le deck apparaît sous **Plongée**, avec **Collection commune** et ses cinq catégories.
+5. Ouvrir **Collection commune** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
    Pour cibler un niveau dans le catalogue complet, suivre le guide ci-dessous.
 
 Le lien de téléchargement conserve le même nom et pointe vers la dernière build publiée
@@ -83,6 +83,19 @@ révision. Le [guide d’étude Anki](https://docs.ankiweb.net/studying.html) ex
 Le deck accompagne les cours et la formation pratique. Les cartes précisent le contexte
 quand la réponse dépend du pays, du cursus, de l’âge, d’un modèle de matériel ou des
 hypothèses d’un exercice.
+
+### Réviser N2 ou N3
+
+La structure dans Anki est **Plongée → Collection commune / N2 / N3**, avec
+les cinq catégories sous chacun. Collection commune contient les originaux ; les
+catégories sous N2 et N3 sont des **paquets filtrés** qui utilisent les mêmes cartes.
+Le `.apkg` installe les originaux. Créer les accès filtrés une fois dans Anki en suivant
+[le guide de configuration](docs/SHARED_COLLECTION.md#arborescence).
+
+Avant une séance, **Reconstruire** les catégories du niveau choisi. Avant de changer
+de niveau, **Vider** les catégories du précédent : une carte commune ne peut pas
+être chargée dans deux paquets filtrés simultanément. Conserver la reprogrammation
+selon les réponses pour poursuivre son historique normal.
 
 ### Passer de N2 à N3 ou N4
 
@@ -143,7 +156,7 @@ Le [plan détaillé de préparation N3](docs/IMPLEMENTATION_N3.md) décrit les s
 les objectifs, les reprises du N2 et les vérifications ; chaque objectif est tracé dans
 [le bilan de réalisation](docs/reviews/n3/OBJECTIFS_N3.csv).
 
-Les cartes sont regroupées dans cinq sous-decks directement sous `Plongée`, communs aux niveaux :
+Les cartes sont regroupées dans cinq sous-decks sous `Plongée::Collection commune`, communs aux niveaux :
 
 | Catégorie | Cartes | Thèmes |
 | --- | ---: | --- |

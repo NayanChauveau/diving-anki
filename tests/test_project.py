@@ -141,7 +141,7 @@ def test_shared_note_identity_and_membership():
     shared = card(levels=["N2", "N3", "N4"], status="reviewed")
     notes = [prepare([shared], level).notes[0] for level in ("N2", "N3", "N4", "combined")]
     assert len({note.guid for note in notes}) == 1
-    assert {note.deck for note in notes} == {"Plongée::Thème"}
+    assert {note.deck for note in notes} == {"Plongée::Collection commune::Thème"}
     for note in notes:
         assert {"level::N2", "level::N3", "level::N4"}.issubset(note.tags)
     n4_only = card(levels=["N4"], status="reviewed")

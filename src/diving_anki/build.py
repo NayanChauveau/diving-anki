@@ -10,6 +10,7 @@ import genanki
 from diving_anki.ids import (
     BASIC_MODEL_ID,
     CLOZE_MODEL_ID,
+    COLLECTION_DECK_NAME,
     MCQ_MODEL_ID,
     ancestor_paths,
     deck_id_for,
@@ -121,7 +122,7 @@ def prepare(
         result.notes.append(
             PreparedNote(
                 guid=note_guid(card.id),
-                deck=f"Plongée::{card.deck}",
+                deck=f"{COLLECTION_DECK_NAME}::{card.deck}",
                 tags=card_tags(card, ["lang::fr", *[f"level::{item}" for item in card.levels]]),
                 model=(
                     card.anki_model or "mcq"

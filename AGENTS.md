@@ -105,9 +105,15 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   Le sel historique N2 du GUID est permanent, même pour une nouvelle carte N3/N4.
   Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous
   les niveaux de la carte, dans le paquet unique `diving-fr.apkg`. Aucun export séparé par niveau.
-- Sous-decks : cinq catégories directement sous `Plongée` — Réglementation, Physique,
+- Sous-decks : cinq catégories sous `Plongée::Collection commune` — Réglementation, Physique,
   Prévention des accidents, Désaturation, Matériel et préparation. Ne pas créer de sous-deck
-  par chapitre ; conserver les fichiers et tags thématiques. Pour une réorganisation, déplacer
+  par chapitre ; conserver les fichiers et tags thématiques. Sous `Plongée::N2` et
+  `Plongée::N3`, les cinq catégories sont des paquets filtrés, jamais des copies.
+  Vider les filtres du précédent niveau avant de reconstruire le suivant. Conserver
+  reprogrammation, tags de niveau et sélection des cartes dues/nouvelles. Le paquet
+  exporté contient les originaux dans Collection commune ; les filtres se créent dans Anki.
+  Les catégories peuvent varier selon le niveau si le contenu le justifie ; garder les
+  trois dossiers racine Collection commune, N2 et N3. Pour une réorganisation, déplacer
   les cartes existantes dans Anki en conservant leurs IDs, historique et échéances, puis vérifier
   ces données avant/après. Un import de package ne garantit pas à lui seul leur déplacement.
 - Cartes nouvelles en `draft`, puis `reviewed` après revue factuelle et pédagogique.
