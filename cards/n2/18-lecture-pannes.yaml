@@ -1,6 +1,7 @@
 cards:
 - id: n2-lecture-pannes-eau-bouche-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
@@ -11,18 +12,28 @@ cards:
   source_id: P573
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
     fact_check: pass
   fr:
-    front: De l’eau entre dans la bouche à l’inspiration sur un second étage. Quelles parties peuvent
-      être en cause, au-delà de la seule purge ?
-    back: '**Un embout endommagé, la soupape d’expiration ou la membrane peuvent laisser entrer de l’eau.**
-      Le manuel cite aussi une saleté ou un mauvais fonctionnement de la soupape. Faire vérifier le matériel
-      ; ce symptôme ne permet pas de choisir une seule réparation.'
+    question: De l’eau entre dans la bouche à l’inspiration sur un second étage. Quelle interprétation est
+      justifiée avant contrôle du matériel ?
+    choices:
+    - text: Plusieurs défauts d’étanchéité du second étage sont possibles, pas seulement la purge
+      correct: true
+    - text: L’arrivée d’eau suffit à désigner la purge comme unique pièce défectueuse
+      correct: false
+    - text: L’arrivée d’eau suffit à désigner la compensation du premier étage comme défectueuse
+      correct: false
+    explanation: '**Un embout endommagé, la soupape d’expiration ou la membrane peuvent laisser entrer de
+      l’eau.** Le manuel cite aussi une saleté ou un mauvais fonctionnement de la soupape. Faire vérifier
+      le matériel ; ce symptôme ne permet pas de choisir une seule réparation.'
 - id: n2-lecture-pannes-chambre-humide-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
@@ -33,22 +44,33 @@ cards:
   source_id: P578
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
     - S1 p.31 et tableau p.34, conception avec chambre humide ouverte.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
     fact_check: pass
   fr:
-    front: Dans un modèle de premier étage à piston dont la chambre humide est ouverte à l’eau, des bulles
+    question: Dans un modèle de premier étage à piston dont la chambre humide est ouverte à l’eau, des bulles
       d’air sortent durablement par ses orifices. Que suggère ce passage de gaz ?
-    back: '**Une perte d’étanchéité entre le circuit de gaz et la chambre humide.** Un joint peut être
-      en cause ; le modèle et l’observation doivent être contrôlés par un technicien. Une chambre humide
+    choices:
+    - text: Une fuite de gaz vers la chambre humide est possible et doit être contrôlée
+      correct: true
+    - text: La chambre humide évacue normalement une partie du gaz respiratoire à chaque inspiration
+      correct: false
+    - text: Le passage de bulles durables est une purge normale de la chambre humide après immersion
+      correct: false
+    explanation: '**Une perte d’étanchéité entre le circuit de gaz et la chambre humide.** Un joint peut
+      être en cause ; le modèle et l’observation doivent être contrôlés par un technicien. Une chambre humide
       laisse entrer l’eau, mais n’est pas un échappement normal de l’air respiratoire.'
 - id: n2-lecture-pannes-flexible-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::18
   - lecture-pannes
@@ -56,13 +78,22 @@ cards:
   source_id: P580
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 12 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
     fact_check: pass
   fr:
-    front: Un flexible présente une fissure ou un renflement visible. Pourquoi ne faut-il pas l’utiliser
+    question: Un flexible présente une fissure ou un renflement visible. Pourquoi ne faut-il pas l’utiliser
       jusqu’à l’apparition d’une fuite importante ?
-    back: '**Il peut perdre rapidement le gaz ou se rompre.** Retirer le matériel du service et faire
+    choices:
+    - text: Il peut se rompre ou perdre rapidement le gaz
+      correct: true
+    - text: Le flexible fissuré ne risque qu’une hausse de pression intermédiaire
+      correct: false
+    - text: L’absence de fuite actuelle confirme sa tenue mécanique
+      correct: false
+    explanation: '**Il peut perdre rapidement le gaz ou se rompre.** Retirer le matériel du service et faire
       remplacer le flexible par une pièce compatible ; ruban ou serrage ne rétablissent pas sa tenue sous
       pression.'

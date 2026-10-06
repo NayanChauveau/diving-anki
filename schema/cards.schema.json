@@ -336,6 +336,20 @@
           "title": "Type",
           "type": "string"
         },
+        "anki_model": {
+          "anyOf": [
+            {
+              "const": "basic",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Keep the published Basic note model when converting an existing card to MCQ.",
+          "title": "Anki Model"
+        },
         "fr": {
           "$ref": "#/$defs/McqContent"
         }

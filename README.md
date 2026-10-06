@@ -4,7 +4,7 @@ Un deck Anki en français pour réviser la théorie du **niveau 2 de plongée**,
 français et du cursus FFESSM : réglementation, physique, prévention des accidents,
 désaturation, matériel et préparation de la plongée.
 
-Le deck N2 comprend **308 cartes revues** : 240 questions à réponse libre et 68 QCM,
+Le deck N2 comprend **308 cartes revues** : 308 QCM à réponse unique,
 avec des explications, des cas concrets et des exercices de calcul. Il peut être téléchargé
 et utilisé directement dans Anki. Le dépôt contient aussi les sources des cartes et les
 outils permettant de les vérifier, de les modifier et de construire les paquets.
@@ -69,8 +69,8 @@ la configuration initiale et les choix de synchronisation.
 
 ## Réviser avec le deck
 
-Les cartes à réponse libre demandent de formuler sa réponse avant de la révéler.
-Pour les calculs, refaire le raisonnement et vérifier les unités avant de regarder la solution.
+Pour les calculs, refaire le raisonnement et vérifier les unités avant de choisir une
+proposition, puis comparer sa méthode à la solution détaillée.
 
 Les QCM comportent **une seule bonne réponse**. L’ordre des choix est mélangé lors des
 révisions ; le verso indique la réponse et explique le raisonnement. On peut sélectionner
@@ -132,8 +132,11 @@ Une première installation du paquet actuel contient uniquement les 308 cartes a
 ## Contenu et niveaux disponibles
 
 Le fichier unique **`diving-fr.apkg`** contient les cartes revues de tous les niveaux.
-Actuellement, il contient **308 cartes N2** ; aucune carte N3/N4 n’est encore publiée.
-Le contenu N3/N4 rejoindra ce même fichier au fur et à mesure de sa validation.
+Le build actuel contient **308 notes uniques** : 308 cartes N2, dont **164 partagées avec N3**.
+Le N3 reste **en cours de réalisation** : ces reprises couvrent le socle commun, pas encore
+les connaissances spécifiques du niveau. Aucune carte N4 n’est encore incluse.
+Les nouveaux contenus validés rejoindront ce même fichier ; les reprises conservent leur
+identité et leur historique. La release en ligne reflète le dernier push ayant réussi la CI.
 
 Le [plan détaillé de préparation N3](docs/IMPLEMENTATION_N3.md) décrit les sources,
 les objectifs, les reprises du N2 et les vérifications avant rédaction.

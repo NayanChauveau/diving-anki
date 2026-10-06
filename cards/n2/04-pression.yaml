@@ -1,6 +1,7 @@
 cards:
 - id: n2-pression-force-surface-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -11,18 +12,27 @@ cards:
   source_id: P096
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NIST — Guide to the SI, Appendix B.9, unités de pression : https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9'
     fact_check: pass
   fr:
-    front: Une force perpendiculaire F est répartie uniformément sur une surface S. Quelle relation donne
+    question: Une force perpendiculaire F est répartie uniformément sur une surface S. Quelle relation donne
       la pression moyenne P ?
-    back: '**P = F / S**, avec F en newtons (N), S en mètres carrés (m²) et P en pascals (Pa). Une pression
-      mesure une force par unité de surface : 1 Pa = 1 N/m².'
+    choices:
+    - text: P = F / S
+      correct: true
+    - text: P = F × S
+      correct: false
+    - text: P = S / F
+      correct: false
+    explanation: '**P = F / S**, avec F en newtons (N), S en mètres carrés (m²) et P en pascals (Pa). Une
+      pression mesure une force par unité de surface : 1 Pa = 1 N/m².'
 - id: n2-pression-variation-force-surface-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -33,19 +43,28 @@ cards:
   source_id: P097
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     fact_check: pass
   fr:
-    front: On remplace une caisse par une autre deux fois plus lourde, dont la surface d’appui sur le
+    question: On remplace une caisse par une autre deux fois plus lourde, dont la surface d’appui sur le
       sol est trois fois plus grande. Par quel facteur la pression moyenne sur le sol est-elle multipliée
       ?
-    back: 'Par **2/3**. Avec P = F/S, le nouveau rapport vaut 2F/(3S) = (2/3)P : la pression diminue malgré
-      la force plus grande. À force constante, agrandir la surface d’appui diminue la pression ; à surface
-      constante, augmenter la force l’augmente.'
+    explanation: 'Par **2/3**. Avec P = F/S, le nouveau rapport vaut 2F/(3S) = (2/3)P : la pression diminue
+      malgré la force plus grande. À force constante, agrandir la surface d’appui diminue la pression ;
+      à surface constante, augmenter la force l’augmente.'
+    choices:
+    - text: × 2/3
+      correct: true
+    - text: × 3/2
+      correct: false
+    - text: × 6
+      correct: false
 - id: n2-pression-unites-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -56,15 +75,23 @@ cards:
   source_id: P101
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NIST — Guide to the SI, Appendix B.9, unités de pression : https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9'
     fact_check: pass
   fr:
-    front: Sur des instruments de plongée ou de météo, que mesurent les graduations bar, psi, hPa et mmHg
-      ?
-    back: '**La pression**, exprimée dans différentes unités. Le bar est usuel en plongée ; psi signifie
+    question: Sur des instruments de plongée ou de météo, que mesurent les graduations bar, psi, hPa et
+      mmHg ?
+    choices:
+    - text: Des pressions dans différentes unités
+      correct: true
+    - text: Des masses volumiques dans différentes unités
+      correct: false
+    - text: Des forces dans différentes unités
+      correct: false
+    explanation: '**La pression**, exprimée dans différentes unités. Le bar est usuel en plongée ; psi signifie
       livre-force par pouce carré. Le pascal (Pa), l’hectopascal (hPa) et le millimètre de mercure (mmHg)
       sont aussi des unités de pression. Une même pression porte des valeurs numériques différentes selon
       l’unité.'
@@ -101,7 +128,8 @@ cards:
       pression. Le raccourci « 1 kg/cm² = 1 bar » mélange masse et force : même 1 kgf/cm² vaut environ
       0,981 bar, pas exactement 1 bar.'
 - id: n2-pression-atmosphere-origine-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -112,22 +140,31 @@ cards:
   source_id: P103
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
     fact_check: pass
   fr:
-    front: Pourquoi subit-on une pression atmosphérique à la surface, même lorsqu’il n’y a pas de vent
+    question: Pourquoi subit-on une pression atmosphérique à la surface, même lorsqu’il n’y a pas de vent
       ?
-    back: '**Le poids de la colonne d’air au-dessus de nous exerce une pression.** Elle existe même dans
-      l’air immobile ; le vent n’en est pas la cause. Dans les exercices de plongée au niveau de la mer,
-      on prend souvent 1 bar comme valeur simplifiée.'
+    choices:
+    - text: Le poids de la colonne d’air située au-dessus
+      correct: true
+    - text: La vitesse de déplacement des masses d’air
+      correct: false
+    - text: La vapeur d’eau présente dans l’air uniquement
+      correct: false
+    explanation: '**Le poids de la colonne d’air au-dessus de nous exerce une pression.** Elle existe même
+      dans l’air immobile ; le vent n’en est pas la cause. Dans les exercices de plongée au niveau de la
+      mer, on prend souvent 1 bar comme valeur simplifiée.'
 - id: n2-pression-altitude-001
   type: mcq
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -135,6 +172,7 @@ cards:
   source_id: P105
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -153,7 +191,8 @@ cards:
     explanation: La colonne d’air située au-dessus du lac pèse moins à altitude élevée. La valeur simplifiée
       de 1 bar au niveau de la mer ne s’applique donc pas systématiquement à un lac d’altitude.
 - id: n2-pression-meteo-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -164,22 +203,32 @@ cards:
   source_id: P106
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
     fact_check: pass
   fr:
-    front: Au même endroit et à la même altitude, le passage d’un système dépressionnaire à un système
+    question: Au même endroit et à la même altitude, le passage d’un système dépressionnaire à un système
       anticyclonique fait-il varier la pression atmosphérique ? Dans quel sens ?
-    back: '**Oui, elle augmente** : une dépression correspond à des basses pressions, un anticyclone à
-      des hautes pressions. La pression atmosphérique réelle varie avec la météo ; 1 bar est une simplification
+    choices:
+    - text: Oui, elle augmente
+      correct: true
+    - text: Oui, elle diminue
+      correct: false
+    - text: Non, elle reste constante à altitude identique
+      correct: false
+    explanation: '**Oui, elle augmente** : une dépression correspond à des basses pressions, un anticyclone
+      à des hautes pressions. La pression atmosphérique réelle varie avec la météo ; 1 bar est une simplification
       de calcul, pas une valeur constamment mesurée.'
 - id: n2-pression-hydrostatique-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -187,23 +236,34 @@ cards:
   source_id: P107
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     fact_check: pass
   fr:
-    front: Dans une eau au repos, que représente la pression hydrostatique ajoutée à la pression atmosphérique
+    question: Dans une eau au repos, que représente la pression hydrostatique ajoutée à la pression atmosphérique
       ?
-    back: '**La pression due au poids de l’eau située au-dessus du point considéré.** Elle augmente avec
-      la profondeur. Dans le modèle simplifié de plongée, elle augmente de 1 bar par 10 m. Cette contribution
+    choices:
+    - text: La pression due au poids de l’eau au-dessus
+      correct: true
+    - text: La pression totale de l’eau et de l’atmosphère
+      correct: false
+    - text: La différence entre pression du bloc et pression ambiante
+      correct: false
+    explanation: '**La pression due au poids de l’eau située au-dessus du point considéré.** Elle augmente
+      avec la profondeur. Dans le modèle simplifié de plongée, elle augmente de 1 bar par 10 m. Cette contribution
       est la pression relative à la surface : elle vaut zéro à la surface, alors que la pression absolue
       y reste égale à la pression atmosphérique.'
 - id: n2-pression-absolue-six-metres-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -211,17 +271,26 @@ cards:
   source_id: P110
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     fact_check: pass
   fr:
-    front: À 6 m de profondeur, quelle est la pression absolue ambiante ? Prendre 1 bar de pression atmosphérique
+    question: À 6 m de profondeur, quelle est la pression absolue ambiante ? Prendre 1 bar de pression atmosphérique
       et une augmentation hydrostatique de 1 bar tous les 10 m.
-    back: '**1,6 bar absolu.** L’eau ajoute 6/10 = 0,6 bar à la pression atmosphérique : P absolue = 1
-      + 0,6 = 1,6 bar. À la surface, elle vaut déjà 1 bar ; elle augmente à la descente et diminue à la
-      remontée.'
+    explanation: '**1,6 bar absolu.** L’eau ajoute 6/10 = 0,6 bar à la pression atmosphérique : P absolue
+      = 1 + 0,6 = 1,6 bar. À la surface, elle vaut déjà 1 bar ; elle augmente à la descente et diminue à
+      la remontée.'
+    choices:
+    - text: 1,6 bar absolu
+      correct: true
+    - text: 0,6 bar absolu
+      correct: false
+    - text: 2,6 bars absolus
+      correct: false
 - id: n2-pression-meme-profondeur-001
   type: mcq
   deck: Physique
@@ -254,7 +323,8 @@ cards:
       la quantité d’eau restante sous le plongeur. Les deux plongeurs ont la même hauteur d’eau au-dessus
       d’eux.
 - id: n2-pression-hydrostatique-calcul-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -265,21 +335,31 @@ cards:
   source_id: P114
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     fact_check: pass
   fr:
-    front: À 3 m, quelle pression est ajoutée par l’eau seule ? Utiliser le modèle de 1 bar tous les 10
-      m.
-    back: '**0,3 bar de pression hydrostatique.** Le calcul est 3/10 = 0,3 bar. On n’ajoute pas la pression
-      atmosphérique ici, puisque la question porte sur la contribution de l’eau seule.'
+    question: À 3 m, quelle pression est ajoutée par l’eau seule ? Utiliser le modèle de 1 bar tous les
+      10 m.
+    explanation: '**0,3 bar de pression hydrostatique.** Le calcul est 3/10 = 0,3 bar. On n’ajoute pas la
+      pression atmosphérique ici, puisque la question porte sur la contribution de l’eau seule.'
+    choices:
+    - text: 0,3 bar
+      correct: true
+    - text: 1,3 bar
+      correct: false
+    - text: 3 bars
+      correct: false
 - id: n2-pression-profondeur-absolue-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -287,16 +367,25 @@ cards:
   source_id: P123
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     fact_check: pass
   fr:
-    front: À quelle profondeur la pression absolue vaut-elle 1,5 bar ? Prendre 1 bar à la surface et une
-      augmentation de 1 bar tous les 10 m.
-    back: '**5 m.** Retirer d’abord la pression atmosphérique : 1,5 − 1 = 0,5 bar dû à l’eau. La profondeur
-      vaut ensuite 0,5 × 10 = 5 m. Vérification : 1 + 5/10 = 1,5 bar.'
+    question: À quelle profondeur la pression absolue vaut-elle 1,5 bar ? Prendre 1 bar à la surface et
+      une augmentation de 1 bar tous les 10 m.
+    explanation: '**5 m.** Retirer d’abord la pression atmosphérique : 1,5 − 1 = 0,5 bar dû à l’eau. La
+      profondeur vaut ensuite 0,5 × 10 = 5 m. Vérification : 1 + 5/10 = 1,5 bar.'
+    choices:
+    - text: 5 m
+      correct: true
+    - text: 15 m
+      correct: false
+    - text: 0,5 m
+      correct: false
 - id: n2-pression-profondeur-relative-001
   type: mcq
   deck: Physique
@@ -328,10 +417,12 @@ cards:
       retirer 1 bar atmosphérique à cette valeur. Avec 1 bar à la surface, la pression absolue serait
       de 3 bars.'
 - id: n2-pression-double-atmosphere-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -339,22 +430,33 @@ cards:
   source_id: P127
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     fact_check: pass
   fr:
-    front: Sous l’eau, un capteur indique 3 bars de pression absolue. Un élève y ajoute 1 bar atmosphérique
-      pour obtenir la pression ambiante. Quelle erreur commet-il ?
-    back: '**Il compte deux fois la pression atmosphérique.** La pression absolue inclut déjà celle de
-      l’air et celle due à l’eau : la pression ambiante vaut donc 3 bars. Avec une pression atmosphérique
+    question: Sous l’eau, un capteur indique 3 bars de pression absolue. Un élève propose d’y ajouter 1
+      bar atmosphérique. Quelle pression ambiante faut-il finalement retenir ?
+    choices:
+    - text: '3 bars : la pression atmosphérique est déjà incluse'
+      correct: true
+    - text: '4 bars : il faut ajouter la pression atmosphérique'
+      correct: false
+    - text: '2 bars : il faut retirer la pression atmosphérique'
+      correct: false
+    explanation: '**Il compte deux fois la pression atmosphérique.** La pression absolue inclut déjà celle
+      de l’air et celle due à l’eau : la pression ambiante vaut donc 3 bars. Avec une pression atmosphérique
       de 1 bar, la pression relative à la surface serait de 2 bars.'
 - id: n2-pression-boyle-pressions-001
   type: mcq
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -362,6 +464,7 @@ cards:
   source_id: P128
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -415,10 +518,12 @@ cards:
       et 3/2 = 1,5. Chaque trajet ajoute le même 1 bar, mais la hausse proportionnelle est plus grande
       près de la surface. C’est le rapport qui diffère, pas l’augmentation en bars.'
 - id: n2-pression-absolue-vingt-metres-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -427,6 +532,8 @@ cards:
   source_id: P110
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -435,15 +542,24 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: 'Quelle est la pression absolue à 20 m de profondeur ? Utiliser le modèle simplifié : pression
+    question: 'Quelle est la pression absolue à 20 m de profondeur ? Utiliser le modèle simplifié : pression
       atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    back: '**3 bars absolus.** L’eau ajoute 20/10 = 2 bars. La pression totale vaut 1 + 2 = 3 bars. Les
-      2 bars dus à l’eau seuls correspondent à la pression relative à la surface.'
+    explanation: '**3 bars absolus.** L’eau ajoute 20/10 = 2 bars. La pression totale vaut 1 + 2 = 3 bars.
+      Les 2 bars dus à l’eau seuls correspondent à la pression relative à la surface.'
+    choices:
+    - text: 3 bars absolus
+      correct: true
+    - text: 2 bars absolus
+      correct: false
+    - text: 4 bars absolus
+      correct: false
 - id: n2-pression-absolue-trente-trois-metres-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -452,6 +568,8 @@ cards:
   source_id: P110
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -460,15 +578,24 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: 'Quelle est la pression absolue à 33 m de profondeur ? Utiliser le modèle simplifié : pression
+    question: 'Quelle est la pression absolue à 33 m de profondeur ? Utiliser le modèle simplifié : pression
       atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    back: '**4,3 bars absolus.** Pression hydrostatique : 33/10 = 3,3 bars. Ajouter la pression atmosphérique
+    explanation: '**4,3 bars absolus.** Pression hydrostatique : 33/10 = 3,3 bars. Ajouter la pression atmosphérique
       : 1 + 3,3 = 4,3 bars.'
+    choices:
+    - text: 4,3 bars absolus
+      correct: true
+    - text: 3,3 bars absolus
+      correct: false
+    - text: 5,3 bars absolus
+      correct: false
 - id: n2-pression-inverse-deux-huit-bars-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -477,6 +604,8 @@ cards:
   source_id: P123
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -485,15 +614,24 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: 'À quelle profondeur la pression absolue atteint-elle 2,8 bars ? Utiliser le modèle simplifié
+    question: 'À quelle profondeur la pression absolue atteint-elle 2,8 bars ? Utiliser le modèle simplifié
       : pression atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    back: '**18 m.** La contribution de l’eau vaut 2,8 − 1 = 1,8 bar. Profondeur = 1,8 × 10 = 18 m. Vérification
-      : 1 + 18/10 = 2,8 bars.'
+    explanation: '**18 m.** La contribution de l’eau vaut 2,8 − 1 = 1,8 bar. Profondeur = 1,8 × 10 = 18
+      m. Vérification : 1 + 18/10 = 2,8 bars.'
+    choices:
+    - text: 18 m
+      correct: true
+    - text: 28 m
+      correct: false
+    - text: 38 m
+      correct: false
 - id: n2-pression-inverse-quatre-bars-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -502,6 +640,8 @@ cards:
   source_id: P123
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -510,12 +650,20 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: 'À quelle profondeur la pression absolue atteint-elle 4 bars ? Utiliser le modèle simplifié
+    question: 'À quelle profondeur la pression absolue atteint-elle 4 bars ? Utiliser le modèle simplifié
       : pression atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    back: '**30 m.** Retirer le bar atmosphérique avant de convertir : (4 − 1) × 10 = 30 m. À 40 m, la
-      pression absolue serait de 5 bars.'
+    explanation: '**30 m.** Retirer le bar atmosphérique avant de convertir : (4 − 1) × 10 = 30 m. À 40
+      m, la pression absolue serait de 5 bars.'
+    choices:
+    - text: 30 m
+      correct: true
+    - text: 40 m
+      correct: false
+    - text: 50 m
+      correct: false
 - id: n2-pression-hydrostatique-vingt-sept-metres-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -527,6 +675,7 @@ cards:
   source_id: P114
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -535,12 +684,20 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: À 27 m de profondeur, quelle est la pression hydrostatique due à l’eau seule ? Prendre une
+    question: À 27 m de profondeur, quelle est la pression hydrostatique due à l’eau seule ? Prendre une
       augmentation de 1 bar tous les 10 m.
-    back: '**2,7 bars.** Pression hydrostatique = 27/10 = 2,7 bars. La pression atmosphérique n’entre
+    explanation: '**2,7 bars.** Pression hydrostatique = 27/10 = 2,7 bars. La pression atmosphérique n’entre
       pas dans ce calcul de la seule contribution de l’eau.'
+    choices:
+    - text: 2,7 bars
+      correct: true
+    - text: 3,7 bars
+      correct: false
+    - text: 1,7 bar
+      correct: false
 - id: n2-pression-variation-remontee-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
@@ -552,6 +709,7 @@ cards:
   source_id: P129
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -560,17 +718,26 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: 'Un plongeur remonte de 30 m à 12 m. De combien de bars la pression ambiante diminue-t-elle
+    question: 'Un plongeur remonte de 30 m à 12 m. De combien de bars la pression ambiante diminue-t-elle
       ? Utiliser le modèle simplifié : pression atmosphérique de 1 bar et augmentation hydrostatique de
       1 bar tous les 10 m.'
-    back: '**De 1,8 bar.** À 30 m : 1 + 30/10 = 4 bars. À 12 m : 1 + 12/10 = 2,2 bars. Diminution : 4
-      − 2,2 = 1,8 bar. On retrouve aussi (30 − 12)/10 = 1,8 bar, car la pression atmosphérique est la
+    explanation: '**De 1,8 bar.** À 30 m : 1 + 30/10 = 4 bars. À 12 m : 1 + 12/10 = 2,2 bars. Diminution
+      : 4 − 2,2 = 1,8 bar. On retrouve aussi (30 − 12)/10 = 1,8 bar, car la pression atmosphérique est la
       même aux deux profondeurs.'
+    choices:
+    - text: 1,8 bar
+      correct: true
+    - text: 2,8 bars
+      correct: false
+    - text: 0,8 bar
+      correct: false
 - id: n2-pression-absolue-lac-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -579,6 +746,8 @@ cards:
   source_id: P110
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -587,15 +756,24 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: Dans un lac, la pression atmosphérique à la surface vaut 0,8 bar. Quelle est la pression absolue
+    question: Dans un lac, la pression atmosphérique à la surface vaut 0,8 bar. Quelle est la pression absolue
       à 18 m ? Pour cet exercice, prendre une augmentation hydrostatique de 1 bar tous les 10 m.
-    back: '**2,6 bars absolus.** L’eau ajoute 18/10 = 1,8 bar. La pression totale vaut 0,8 + 1,8 = 2,6
-      bars. On utilise les 0,8 bar fournis, au lieu d’ajouter automatiquement 1 bar.'
+    explanation: '**2,6 bars absolus.** L’eau ajoute 18/10 = 1,8 bar. La pression totale vaut 0,8 + 1,8
+      = 2,6 bars. On utilise les 0,8 bar fournis, au lieu d’ajouter automatiquement 1 bar.'
+    choices:
+    - text: 2,6 bars absolus
+      correct: true
+    - text: 2,8 bars absolus
+      correct: false
+    - text: 1,8 bar absolu
+      correct: false
 - id: n2-pression-inverse-lac-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Physique
   levels:
   - N2
+  - N3
   tags:
   - chapitre::04
   - pressions
@@ -604,6 +782,8 @@ cards:
   source_id: P123
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.8, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
@@ -612,8 +792,15 @@ cards:
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
     fact_check: pass
   fr:
-    front: Dans un lac où la pression atmosphérique vaut 0,8 bar, un capteur indique 2,3 bars de pression
+    question: Dans un lac où la pression atmosphérique vaut 0,8 bar, un capteur indique 2,3 bars de pression
       absolue. À quelle profondeur se trouve-t-il ? Pour cet exercice, prendre une augmentation hydrostatique
       de 1 bar tous les 10 m.
-    back: '**15 m.** La contribution de l’eau vaut 2,3 − 0,8 = 1,5 bar. Profondeur = 1,5 × 10 = 15 m.
-      Vérification : 0,8 + 15/10 = 2,3 bars.'
+    explanation: '**15 m.** La contribution de l’eau vaut 2,3 − 0,8 = 1,5 bar. Profondeur = 1,5 × 10 = 15
+      m. Vérification : 0,8 + 15/10 = 2,3 bars.'
+    choices:
+    - text: 15 m
+      correct: true
+    - text: 13 m
+      correct: false
+    - text: 23 m
+      correct: false

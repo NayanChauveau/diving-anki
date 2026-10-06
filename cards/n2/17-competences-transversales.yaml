@@ -1,9 +1,11 @@
 cards:
 - id: n2-competences-transversales-communication-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -11,6 +13,9 @@ cards:
   source_id: P555
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'BSAC — Safe diving guide, Going diving, sections checks et separation, consulté le 2026-10-06 :
@@ -18,16 +23,25 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: Deux équipiers utilisent des ordinateurs différents. Pourquoi convenir avant immersion de la
-      façon de communiquer profondeur et durée des paliers ?
-    back: '**Pour distinguer sans ambiguïté des mètres, des minutes et une obligation encore active.**
+    question: Deux équipiers utilisent des ordinateurs différents. Pourquoi convenir avant immersion de
+      la façon de communiquer profondeur et durée des paliers ?
+    choices:
+    - text: Un même nombre doit être compris comme profondeur, durée ou obligation selon le code convenu
+      correct: true
+    - text: Un même nombre se comprend selon le signe personnel de chacun, sans convention commune
+      correct: false
+    - text: Un même nombre de minutes peut être fixé au fond puis conservé même si les appareils le modifient
+      correct: false
+    explanation: '**Pour distinguer sans ambiguïté des mètres, des minutes et une obligation encore active.**
       Choisir un code partagé et vérifier sa compréhension ; montrer un nombre avec les doigts sans préciser
       ce qu’il mesure peut conduire à une mauvaise décision.'
 - id: n2-competences-transversales-retour-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -35,22 +49,33 @@ cards:
   source_id: P561
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'DAN — Current Dives : https://dan.org/alert-diver/article/current-dives/'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: Pourquoi faut-il prévoir le parcours de retour et une solution de sortie alternative avant
+    question: Pourquoi faut-il prévoir le parcours de retour et une solution de sortie alternative avant
       de descendre, plutôt qu’attendre le seuil de réserve pour décider ?
-    back: '**Le retour consomme du temps et du gaz et peut être gêné par le courant ou la visibilité.**
+    choices:
+    - text: Le retour et les imprévus nécessitent encore temps et gaz
+      correct: true
+    - text: La réserve doit financer uniquement les paliers à 3 m
+      correct: false
+    - text: Le parcours de retour se décide après l’épuisement du temps sans palier
+      correct: false
+    explanation: '**Le retour consomme du temps et du gaz et peut être gêné par le courant ou la visibilité.**
       Repérer sortie, trajet et alternatives avec la palanquée ; la pression de fin de plongée doit encore
       permettre d’achever la remontée et les obligations prévues.'
 - id: n2-competences-transversales-reperes-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -58,6 +83,9 @@ cards:
   source_id: P562
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
@@ -65,16 +93,25 @@ cards:
     - 'Suunto SK-8, guide multilingue, p.11–13 en français, aides à la navigation : https://cdn.shopify.com/s/files/1/0850/4878/7229/files/SUUNTO_SK-SERIES_UG_MULTI.pdf?v=1714977581'
     fact_check: pass
   fr:
-    front: Pourquoi choisir plusieurs repères fixes alignés plutôt que suivre seulement une impression
+    question: Pourquoi choisir plusieurs repères fixes alignés plutôt que suivre seulement une impression
       de direction sous l’eau ?
-    back: '**Leur alignement aide à suivre une ligne par rapport au fond et à repérer une dérive.** À
-      mesure qu’un repère est atteint, en choisir un plus éloigné pour conserver l’alignement. Compléter
+    choices:
+    - text: Leur alignement aide à suivre une ligne et à détecter une dérive par rapport au fond
+      correct: true
+    - text: Leur alignement indique le cap magnétique sans avoir besoin d’un instrument
+      correct: false
+    - text: Leur alignement garantit le même trajet au retour, même si le courant change
+      correct: false
+    explanation: '**Leur alignement aide à suivre une ligne par rapport au fond et à repérer une dérive.**
+      À mesure qu’un repère est atteint, en choisir un plus éloigné pour conserver l’alignement. Compléter
       ces repères par la profondeur et le compas.'
 - id: n2-competences-transversales-cap-retour-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -83,20 +120,31 @@ cards:
   source_id: P563
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap réciproque
+    question: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap réciproque
       permet de revenir sur la même ligne ?'
-    back: '**250° : 70 + 180.** Le retour inverse la direction sur la même ligne ; sous courant, ce cap
-      géométrique ne compense pas à lui seul la dérive.'
+    choices:
+    - text: 250°
+      correct: true
+    - text: 110°
+      correct: false
+    - text: 290°
+      correct: false
+    explanation: '**250° : 70 + 180.** Le retour inverse la direction sur la même ligne ; sous courant,
+      ce cap géométrique ne compense pas à lui seul la dérive.'
 - id: n2-competences-transversales-cap-retour-ouest-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -105,20 +153,31 @@ cards:
   source_id: P563
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap réciproque
+    question: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap réciproque
       correspond au retour ?'
-    back: '**120° : 300 + 180 = 480, puis 480 − 360 = 120.** On exprime la direction dans l’intervalle
+    choices:
+    - text: 120°
+      correct: true
+    - text: 180°
+      correct: false
+    - text: 240°
+      correct: false
+    explanation: '**120° : 300 + 180 = 480, puis 480 − 360 = 120.** On exprime la direction dans l’intervalle
       0° à moins de 360°.'
 - id: n2-competences-transversales-separation-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -126,6 +185,8 @@ cards:
   source_id: P564
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'BSAC — Safe diving guide, Going diving, sections checks et separation, consulté le 2026-10-06 :
       https://www.bsac.com/safety/safe-diving-guide/going-diving/'
@@ -133,16 +194,25 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: Pourquoi convenir d’une procédure de perte de palanquée avant immersion plutôt que prolonger
+    question: Pourquoi convenir d’une procédure de perte de palanquée avant immersion plutôt que prolonger
       chacun une recherche improvisée ?
-    back: '**Pour limiter la recherche et organiser une remontée, un rendez-vous et une alerte cohérents.**
-      Le briefing précise la conduite adaptée au site et aux obligations de décompression ; s’enfoncer
-      ou poursuivre seul l’exploration augmente la difficulté à se retrouver.'
+    choices:
+    - text: Limiter la recherche et organiser un rendez-vous et une alerte cohérents
+      correct: true
+    - text: Prolonger la recherche jusqu’à la réserve avant de remonter
+      correct: false
+    - text: Prévoir que chacun termine seul la plongée selon son ordinateur
+      correct: false
+    explanation: '**Pour limiter la recherche et organiser une remontée, un rendez-vous et une alerte cohérents.**
+      Le briefing précise la conduite adaptée au site et aux obligations de décompression ; s’enfoncer ou
+      poursuivre seul l’exploration augmente la difficulté à se retrouver.'
 - id: n2-competences-transversales-renoncer-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::17
   - competences-transversales
@@ -150,18 +220,29 @@ cards:
   source_id: P569
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     fact_check: pass
   fr:
-    front: Le directeur de plongée vous autorise une exploration conforme à vos aptitudes, mais vous vous
-      sentez inhabituellement fatigué et gêné pour respirer. Quelle décision vous appartient encore ?
-    back: '**Signaler votre état et renoncer à l’immersion.** L’autorisation et le brevet ne remplacent
+    question: Le directeur de plongée vous autorise une exploration conforme à vos aptitudes, mais vous
+      vous sentez inhabituellement fatigué et gêné pour respirer. Quelle décision vous appartient encore
+      ?
+    choices:
+    - text: Signaler son état et renoncer à l’immersion
+      correct: true
+    - text: S’immerger puisque le DP a validé les aptitudes
+      correct: false
+    - text: Attendre les premiers paliers pour signaler la gêne
+      correct: false
+    explanation: '**Signaler votre état et renoncer à l’immersion.** L’autorisation et le brevet ne remplacent
       pas l’évaluation de son état du jour ; une gêne respiratoire mérite d’être expliquée avant de plonger.'
 - id: n2-competences-transversales-paliers-profonds-air-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Matériel et préparation
   levels:
   - N2
@@ -172,13 +253,21 @@ cards:
   source_id: P639
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: En planification PA20 FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
+    question: En planification PA20 FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
       ?
-    back: '**Non : le MFT demande une planification sans paliers profonds à l’air.** Les distinguer des
-      paliers de décompression nécessaires et des arrêts prévus par une procédure de rattrapage après
+    choices:
+    - text: 'Non : planifier sans paliers profonds supplémentaires à l’air'
+      correct: true
+    - text: 'Oui : ajouter des arrêts profonds quel que soit le profil'
+      correct: false
+    - text: 'Oui : remplacer les paliers peu profonds par des arrêts profonds'
+      correct: false
+    explanation: '**Non : le MFT demande une planification sans paliers profonds à l’air.** Les distinguer
+      des paliers de décompression nécessaires et des arrêts prévus par une procédure de rattrapage après
       incident.'

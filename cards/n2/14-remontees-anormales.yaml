@@ -1,9 +1,11 @@
 cards:
 - id: n2-remontees-anormales-references-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -11,6 +13,9 @@ cards:
   source_id: P454
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -20,12 +25,20 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Pourquoi distinguer les anciennes procédures MN90 et les préconisations fédérales de remontée
+    question: Pourquoi distinguer les anciennes procédures MN90 et les préconisations fédérales de remontée
       anormale à l’air avec ordinateur adoptées en 2024 ?
-    back: '**Elles ne donnent pas les mêmes rattrapages.** La recommandation fédérale de 2024 vise les
-      plongées à l’air conduites à l’ordinateur ; une recette ancienne de table ne la remplace pas.'
+    choices:
+    - text: Les rattrapages à l’ordinateur du texte 2024 diffèrent des anciennes recettes MN90
+      correct: true
+    - text: Les rattrapages du texte 2024 reprennent les recettes MN90 en changeant seulement leur nom
+      correct: false
+    - text: Le texte 2024 change l’alerte, mais laisse les rattrapages MN90 comme procédure à l’ordinateur
+      correct: false
+    explanation: '**Elles ne donnent pas les mêmes rattrapages.** La recommandation fédérale de 2024 vise
+      les plongées à l’air conduites à l’ordinateur ; une recette ancienne de table ne la remplace pas.'
 - id: n2-remontees-anormales-seuil-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -36,6 +49,7 @@ cards:
   source_id: P456
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -45,13 +59,21 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: En plongée à l’air avec ordinateur, quels critères définissent la remontée trop rapide dans
+    question: En plongée à l’air avec ordinateur, quels critères définissent la remontée trop rapide dans
       les préconisations fédérales de 2024 ?
-    back: '**Plus de 15 m/min entre la zone de 30 m et la surface, sur une distance d’au moins 10 m.**
-      C’est le critère de cette procédure de rattrapage ; une alarme de l’ordinateur peut apparaître à
-      une vitesse plus faible.'
+    choices:
+    - text: Plus de 15 m/min entre 30 m et la surface, sur au moins 10 m
+      correct: true
+    - text: Plus de 10 m/min entre 30 m et la surface, sur au moins 10 m
+      correct: false
+    - text: Plus de 15 m/min entre 30 m et la surface, sur au moins 3 m
+      correct: false
+    explanation: '**Plus de 15 m/min entre la zone de 30 m et la surface, sur une distance d’au moins 10
+      m.** C’est le critère de cette procédure de rattrapage ; une alarme de l’ordinateur peut apparaître
+      à une vitesse plus faible.'
 - id: n2-remontees-anormales-rattrapage-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -62,6 +84,7 @@ cards:
   source_id: P458
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -71,15 +94,22 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
-      quel rattrapage prévoit le texte si le plongeur n’a aucun signe d’accident et que la réimmersion
-      est réalisable avec assistance et gaz suffisants pour rejoindre la mi-profondeur en moins de 3 min
-      ?
-    back: '**Rejoindre au moins la mi-profondeur et y rester 5 min**, puis réaliser au minimum 1 min à
-      6 m et 5 min à 3 m, en plus des obligations du moyen de désaturation. Une victime présentant des
-      signes d’accident relève des secours, sans réimmersion thérapeutique.'
+    question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
+      quel rattrapage prévoit le texte si le plongeur n’a aucun signe d’accident et que la réimmersion est
+      réalisable avec assistance et gaz suffisants pour rejoindre la mi-profondeur en moins de 3 min ?
+    explanation: '**Rejoindre au moins la mi-profondeur et y rester 5 min**, puis réaliser au minimum 1
+      min à 6 m et 5 min à 3 m, en plus des obligations du moyen de désaturation. Une victime présentant
+      des signes d’accident relève des secours, sans réimmersion thérapeutique.'
+    choices:
+    - text: Au moins mi-profondeur 5 min, puis au moins 1 min à 6 m et 5 min à 3 m
+      correct: true
+    - text: Mi-profondeur 12 min, puis les paliers recalculés par une table
+      correct: false
+    - text: Au moins mi-profondeur 5 min, puis au moins 5 min à 6 m et 1 min à 3 m
+      correct: false
 - id: n2-remontees-anormales-impossible-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -90,6 +120,7 @@ cards:
   source_id: P461
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -100,15 +131,24 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
+    question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
       que prévoit le texte lorsque la réimmersion est impossible ?
-    back: '**Oxygène en surface et évacuation organisée avec les secours.** L’absence de symptôme immédiat
-      n’autorise pas à remplacer ce rattrapage impossible par une simple attente.'
+    choices:
+    - text: Oxygène en surface et évacuation coordonnée avec les secours
+      correct: true
+    - text: Observation seule pendant 3 h, sans autre mesure si aucun signe
+      correct: false
+    - text: Nouvelle tentative de réimmersion après 5 min de repos
+      correct: false
+    explanation: '**Oxygène en surface et évacuation organisée avec les secours.** L’absence de symptôme
+      immédiat n’autorise pas à remplacer ce rattrapage impossible par une simple attente.'
 - id: n2-remontees-anormales-yoyos-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -116,6 +156,8 @@ cards:
   source_id: P463
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -125,11 +167,19 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Quel profil appelle-t-on « multi-yoyos » lors d’exercices de remontée assistée ?
-    back: '**Plusieurs cycles de remontée puis redescente au cours de la plongée.** La répétition multiplie
-      les variations de pression et doit être prise en compte dans l’organisation et la décompression.'
+    question: Quel profil appelle-t-on « multi-yoyos » lors d’exercices de remontée assistée ?
+    choices:
+    - text: Des cycles répétés de remontée puis redescente
+      correct: true
+    - text: Des plongées successives séparées d’un court intervalle en surface
+      correct: false
+    - text: Une remontée continue interrompue par plusieurs paliers
+      correct: false
+    explanation: '**Plusieurs cycles de remontée puis redescente au cours de la plongée.** La répétition
+      multiplie les variations de pression et doit être prise en compte dans l’organisation et la décompression.'
 - id: n2-remontees-anormales-six-metres-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -140,6 +190,7 @@ cards:
   source_id: P464
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -149,16 +200,25 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Pour des exercices comportant plusieurs remontées, quelle limite de proximité de la surface
+    question: Pour des exercices comportant plusieurs remontées, quelle limite de proximité de la surface
       les préconisations fédérales de 2024 demandent-elles de respecter dans la mesure du possible ?
-    back: '**Ne pas remonter au-dessus de 6 m lors de ces remontées répétées.** Préparer les exercices
+    choices:
+    - text: Rester à 6 m ou plus profond autant que possible
+      correct: true
+    - text: Rester à 3 m ou plus profond autant que possible
+      correct: false
+    - text: Remonter en surface à chaque exercice autant que possible
+      correct: false
+    explanation: '**Ne pas remonter au-dessus de 6 m lors de ces remontées répétées.** Préparer les exercices
       avec l’encadrant pour limiter les variations de pression près de la surface ; ce repère n’autorise
       pas un nombre illimité de répétitions.'
 - id: n2-remontees-anormales-confort-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -166,6 +226,9 @@ cards:
   source_id: P465
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -175,13 +238,21 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Pourquoi un palier de décompression obligatoire manqué et un simple palier de confort interrompu
+    question: Pourquoi un palier de décompression obligatoire manqué et un simple palier de confort interrompu
       ne déclenchent-ils pas automatiquement la même procédure ?
-    back: '**La procédure fédérale d’interruption vise un palier obligatoire de décompression.** Un arrêt
-      recommandé peut avoir une autre fonction ; identifier l’indication exacte et le manuel, notamment
+    choices:
+    - text: La procédure vise une obligation de décompression, pas un simple arrêt facultatif
+      correct: true
+    - text: La procédure vise toute interruption d’un arrêt prévu, même sans obligation de décompression
+      correct: false
+    - text: La procédure vise seulement les arrêts profonds, car les arrêts à 3 m relèvent du confort
+      correct: false
+    explanation: '**La procédure fédérale d’interruption vise un palier obligatoire de décompression.**
+      Un arrêt recommandé peut avoir une autre fonction ; identifier l’indication exacte et le manuel, notamment
       les arrêts rendus obligatoires par certains ordinateurs après une anomalie.'
 - id: n2-remontees-anormales-interruption-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -192,6 +263,7 @@ cards:
   source_id: P466
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -202,14 +274,22 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Un palier obligatoire est interrompu lors d’une plongée à l’air avec ordinateur. Le plongeur
-      est sans signe d’accident ; le gaz et l’assistance permettent de regagner le palier en moins de
-      3 min. Quelle reprise prévoit la recommandation fédérale de 2024 ?
-    back: '**Redescendre dans ce délai, poursuivre le palier et ajouter 3 min à 3 m.** Continuer à respecter
-      les autres obligations ; le texte ne demande pas de refaire systématiquement tous les paliers depuis
-      le début.'
+    question: Un palier obligatoire est interrompu lors d’une plongée à l’air avec ordinateur. Le plongeur
+      est sans signe d’accident ; le gaz et l’assistance permettent de regagner le palier en moins de 3
+      min. Quelle reprise prévoit la recommandation fédérale de 2024 ?
+    explanation: '**Redescendre dans ce délai, poursuivre le palier et ajouter 3 min à 3 m.** Continuer
+      à respecter les autres obligations ; le texte ne demande pas de refaire systématiquement tous les
+      paliers depuis le début.'
+    choices:
+    - text: Reprendre le palier et ajouter 3 min à 3 m
+      correct: true
+    - text: Recommencer tous les paliers depuis leur début et ajouter 3 min à 3 m
+      correct: false
+    - text: Reprendre le palier et ajouter 3 min à 6 m
+      correct: false
 - id: n2-remontees-anormales-observation-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -220,6 +300,9 @@ cards:
   source_id: P468
   review:
     sources:
+    - 'N3-S04 — RIFAP FFESSM, mai 2026, p.32 : avis médical pour tout incident ; complément au suivi 2024 vérifié le 2026-10-06.'
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -230,17 +313,30 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: En plongée à l’air avec ordinateur, un maximum de 3 min de palier obligatoire n’a pas été fait.
-      Sans signe d’accident et avec réimmersion impossible, quel suivi prévoit la recommandation fédérale
-      de 2024 ?
-    back: '**Observation pendant 3 h et aucune nouvelle plongée pendant 24 h.** Au moindre signe évoquant
-      un accident, déclencher les secours ; au-delà de 3 min de palier manqué, les déclencher directement.
-      Ces 3 min mesurent la durée de palier non réalisée, pas le temps écoulé depuis la sortie de l’eau.'
+    question: En mer, jusqu’à 3 min de palier obligatoire ont été manquées à l’air avec ordinateur. Sans
+      signe d’accident et sans réimmersion possible, quel suivi associe le texte de 2024 et l’avis médical
+      demandé par le RIFAP 2026 ?
+    choices:
+    - text: Avis médical via le CROSS, observation 3 h et pas de nouvelle plongée pendant 24 h
+      correct: true
+    - text: Observation 3 h et pas de nouvelle plongée pendant 24 h ; avis médical seulement si un signe
+        apparaît
+      correct: false
+    - text: Avis médical via le CROSS, observation 1 h et pas de nouvelle plongée pendant 12 h
+      correct: false
+    explanation: 'Le texte fédéral de 2024 prévoit 3 h d’observation et aucune nouvelle plongée pendant
+      24 h lorsque la durée de palier manquée ne dépasse pas 3 min et qu’aucun signe d’accident n’est présent.
+      Le RIFAP de mai 2026 demande aussi un avis médical pour tout incident de plongée : en mer, appeler
+      le CROSS pour joindre le médecin du SCMM (service de coordination médicale maritime). L’absence de
+      symptôme ne dispense donc pas de cet appel ; poursuivre la surveillance et suivre les consignes médicales.
+      Au-delà de 3 min manquées ou en présence de signes, déclencher les secours directement.'
 - id: n2-remontees-anormales-symptomes-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::14
   - remontees-anormales
@@ -248,6 +344,8 @@ cards:
   source_id: P472
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.26–27.
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2, consulté
       le 2026-10-06 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
@@ -257,8 +355,15 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     fact_check: pass
   fr:
-    front: Après un palier obligatoire manqué, le plongeur présente une faiblesse ou des fourmillements.
+    question: Après un palier obligatoire manqué, le plongeur présente une faiblesse ou des fourmillements.
       Faut-il le réimmerger pour finir ses paliers ?
-    back: '**Non : déclencher les secours et la prise en charge en surface**, dont oxygène adapté à son
-      état et surveillance. Les signes d’accident excluent une réimmersion de rattrapage ; le temps de
-      palier manqué ne justifie pas d’attendre.'
+    choices:
+    - text: 'Non : secours, oxygène adapté et surveillance en surface'
+      correct: true
+    - text: 'Oui : terminer les paliers si moins de 3 min ont été manquées'
+      correct: false
+    - text: 'Oui : redescendre si l’équipier assure une assistance'
+      correct: false
+    explanation: '**Non : déclencher les secours et la prise en charge en surface**, dont oxygène adapté
+      à son état et surveillance. Les signes d’accident excluent une réimmersion de rattrapage ; le temps
+      de palier manqué ne justifie pas d’attendre.'

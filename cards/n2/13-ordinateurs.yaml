@@ -1,9 +1,11 @@
 cards:
 - id: n2-ordinateurs-profil-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -11,21 +13,32 @@ cards:
   source_id: P415
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Pourquoi un ordinateur peut-il donner une décompression différente d’une table pour une plongée
+    question: Pourquoi un ordinateur peut-il donner une décompression différente d’une table pour une plongée
       qui remonte progressivement le long d’un tombant ?
-    back: '**Il intègre les profondeurs successivement mesurées et leur durée**, au lieu d’attribuer toute
-      l’exploration à la profondeur maximale comme un profil carré. Le résultat dépend aussi de son modèle
-      et de l’historique enregistré.'
+    choices:
+    - text: Il intègre les profondeurs successives et le temps à chacune
+      correct: true
+    - text: Il applique toute la durée à la profondeur maximale
+      correct: false
+    - text: Il applique toute la durée à la dernière profondeur mesurée
+      correct: false
+    explanation: '**Il intègre les profondeurs successivement mesurées et leur durée**, au lieu d’attribuer
+      toute l’exploration à la profondeur maximale comme un profil carré. Le résultat dépend aussi de son
+      modèle et de l’historique enregistré.'
 - id: n2-ordinateurs-affichages-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -33,18 +46,28 @@ cards:
   source_id: P418
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Un écran affiche temps de plongée 24 min et temps restant sans palier 6 min à la profondeur
+    question: Un écran affiche temps de plongée 24 min et temps restant sans palier 6 min à la profondeur
       actuelle. Que représentent ces deux valeurs ?
-    back: '**24 min sont déjà écoulées ; 6 min sont une estimation du temps encore disponible à cette
+    choices:
+    - text: 24 min écoulées ; 6 min estimées avant palier à cette profondeur
+      correct: true
+    - text: 24 min écoulées ; 6 min de remontée jusqu’à la surface
+      correct: false
+    - text: 24 min d’autonomie gaz ; 6 min estimées avant palier
+      correct: false
+    explanation: '**24 min sont déjà écoulées ; 6 min sont une estimation du temps encore disponible à cette
       profondeur avant décompression obligatoire.** Le second nombre évolue avec la profondeur, le profil
       et les réglages ; ce n’est pas le temps nécessaire pour revenir au bateau.'
 - id: n2-ordinateurs-alarme-vitesse-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -55,21 +78,31 @@ cards:
   source_id: P422
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo, Ascent rate : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/ascent-rate/'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Suunto — Zoop Novo User Guide, Alarms, alerts and notifications : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     fact_check: pass
   fr:
-    front: Sur un Suunto Zoop Novo, une alarme sonore s’accompagne du message SLOW. Que signale-t-elle
+    question: Sur un Suunto Zoop Novo, une alarme sonore s’accompagne du message SLOW. Que signale-t-elle
       et quelle action attend-elle ?
-    back: '**La vitesse dépasse 10 m/min.** Ralentir la remontée conformément au manuel ; une vitesse
+    choices:
+    - text: 'Remontée au-delà de 10 m/min : ralentir'
+      correct: true
+    - text: 'Remontée au-delà de 15 m/min : ralentir'
+      correct: false
+    - text: 'Plafond franchi pendant 3 min : redescendre'
+      correct: false
+    explanation: '**La vitesse dépasse 10 m/min.** Ralentir la remontée conformément au manuel ; une vitesse
       permise par une table ne neutralise pas cette alarme.'
 - id: n2-ordinateurs-gaz-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -77,18 +110,28 @@ cards:
   source_id: P423
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Pourquoi vérifier le gaz sélectionné sur l’ordinateur avant de plonger, même si la profondeur
+    question: Pourquoi vérifier le gaz sélectionné sur l’ordinateur avant de plonger, même si la profondeur
       affichée paraît correcte ?
-    back: '**La fraction d’oxygène sélectionnée intervient dans les calculs de décompression et d’exposition
+    choices:
+    - text: Le gaz réglé influe sur désaturation et exposition à l’oxygène
+      correct: true
+    - text: Le gaz réglé influe uniquement sur l’exposition à l’oxygène
+      correct: false
+    - text: Le gaz réglé influe uniquement sur les calculs de désaturation
+      correct: false
+    explanation: '**La fraction d’oxygène sélectionnée intervient dans les calculs de décompression et d’exposition
       à l’oxygène.** Une profondeur juste ne prouve pas que le mélange paramétré correspond au gaz réellement
       respiré.'
 - id: n2-ordinateurs-salinite-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -99,21 +142,31 @@ cards:
   source_id: P424
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Shearwater — Petrel 2 Support, conversion pression/profondeur et salinité : https://shearwater.com/en-eu/pages/petrel-2-support'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Sur un appareil offrant un réglage de salinité, à quoi sert ce réglage dans l’affichage de
+    question: Sur un appareil offrant un réglage de salinité, à quoi sert ce réglage dans l’affichage de
       profondeur ?
-    back: '**À convertir la pression mesurée en profondeur en fonction de la densité de l’eau.** À pression
-      identique, une densité plus élevée correspond à une profondeur moindre ; tous les modèles n’offrent
-      pas ce réglage.'
+    choices:
+    - text: Convertir pression mesurée en profondeur selon la densité de l’eau
+      correct: true
+    - text: Appliquer un décalage fixe de profondeur quelle que soit la pression
+      correct: false
+    - text: Corriger l’altitude de référence avant de convertir la pression
+      correct: false
+    explanation: '**À convertir la pression mesurée en profondeur en fonction de la densité de l’eau.**
+      À pression identique, une densité plus élevée correspond à une profondeur moindre ; tous les modèles
+      n’offrent pas ce réglage.'
 - id: n2-ordinateurs-historique-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -121,20 +174,31 @@ cards:
   source_id: P427
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Entre deux plongées rapprochées, pourquoi remplacer son ordinateur par celui d’un équipier
+    question: Entre deux plongées rapprochées, pourquoi remplacer son ordinateur par celui d’un équipier
       peut-il fausser la décompression affichée ?
-    back: '**Il suivrait l’historique et la charge calculée de l’autre plongeur.** Conserver le même appareil
-      pour la série et ne pas échanger un ordinateur encore en cours de calcul de désaturation.'
+    choices:
+    - text: Il utilise l’historique et la charge calculée de l’équipier
+      correct: true
+    - text: Le changement remet automatiquement la charge calculée à zéro
+      correct: false
+    - text: La même profondeur maximale assure la même charge calculée
+      correct: false
+    explanation: '**Il suivrait l’historique et la charge calculée de l’autre plongeur.** Conserver le même
+      appareil pour la série et ne pas échanger un ordinateur encore en cours de calcul de désaturation.'
 - id: n2-ordinateurs-controle-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -142,21 +206,33 @@ cards:
   source_id: P430
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Avant de s’immerger avec son ordinateur, quels contrôles évitent de découvrir un mauvais réglage
-      ou un affichage inutilisable sous l’eau ?
-    back: '**Vérifier l’écran, l’énergie disponible, le mode, le gaz et les réglages personnels ou d’altitude.**
-      Vérifier aussi l’absence d’erreur et la cohérence de l’historique ; savoir retrouver profondeur,
-      durée et obligations de remontée.'
+    question: Avant immersion, quel ensemble de contrôles couvre le fonctionnement et les paramètres utilisés
+      par l’ordinateur pour la plongée prévue ?
+    choices:
+    - text: Écran, énergie, mode, gaz, réglages personnels ou d’altitude et historique
+      correct: true
+    - text: Écran, énergie, journal, profondeur maximale passée et heure locale
+      correct: false
+    - text: Écran, énergie, pression du bloc, journal et intervalle conseillé par un équipier
+      correct: false
+    explanation: '**Vérifier l’écran, l’énergie disponible, le mode, le gaz et les réglages personnels ou
+      d’altitude.** Vérifier aussi l’absence d’erreur et la cohérence de l’historique ; savoir retrouver
+      profondeur, durée et obligations de remontée.'
 - id: n2-ordinateurs-collectif-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -164,23 +240,34 @@ cards:
   source_id: P432
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - S1 p.28 ; coordination des paliers dans la palanquée.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Votre ordinateur n’indique plus de palier obligatoire, mais celui de votre équipier en impose
+    question: Votre ordinateur n’indique plus de palier obligatoire, mais celui de votre équipier en impose
       encore un. Comment organiser la fin de plongée, avec du gaz suffisant ?
-    back: '**Rester ensemble et terminer aussi les obligations de l’équipier, en suivant les mises à jour
-      des deux appareils.** Respecter les plafonds, les profondeurs de palier et les durées de chacun.
+    choices:
+    - text: Terminer ensemble les obligations des deux appareils
+      correct: true
+    - text: Remonter ensemble dès que le premier appareil libère son plongeur
+      correct: false
+    - text: Suivre ensemble celui qui a indiqué le moins de paliers au fond
+      correct: false
+    explanation: '**Rester ensemble et terminer aussi les obligations de l’équipier, en suivant les mises
+      à jour des deux appareils.** Respecter les plafonds, les profondeurs de palier et les durées de chacun.
       Un temps annoncé au départ ne devient pas un compte à rebours fixé une fois pour toutes ; il peut
       évoluer selon le profil réellement suivi.'
 - id: n2-ordinateurs-differences-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -188,21 +275,32 @@ cards:
   source_id: P433
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Deux plongeurs restent côte à côte pendant une plongée mais leurs ordinateurs annoncent des
+    question: Deux plongeurs restent côte à côte pendant une plongée mais leurs ordinateurs annoncent des
       paliers différents. Quelles différences peuvent l’expliquer ?
-    back: '**Le modèle, les réglages et les plongées précédentes peuvent différer.** De petites différences
-      de profondeur enregistrée comptent aussi. Un même profil actuel ne garantit pas une même charge
-      calculée.'
+    choices:
+    - text: Le profil actuel peut être voisin malgré des modèles, réglages ou historiques différents
+      correct: true
+    - text: Un profil actuel voisin suffit à imposer des paliers identiques, quel que soit l’historique
+      correct: false
+    - text: Un profil actuel voisin suffit à imposer des paliers identiques, quels que soient les réglages
+      correct: false
+    explanation: '**Le modèle, les réglages et les plongées précédentes peuvent différer.** De petites différences
+      de profondeur enregistrée comptent aussi. Un même profil actuel ne garantit pas une même charge calculée.'
 - id: n2-ordinateurs-dtr-augmente-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -210,21 +308,32 @@ cards:
   source_id: P438
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Pendant l’exploration, la durée totale de remontée affichée augmente. Quelle conséquence pour
+    question: Pendant l’exploration, la durée totale de remontée affichée augmente. Quelle conséquence pour
       la décision de rester au fond ?
-    back: '**Il faut prévoir davantage de temps et de gaz pour sortir.** Prévenir et réévaluer la fin
-      de plongée avec la palanquée ; le gaz nécessaire dépend des profondeurs de remontée et des paliers,
+    choices:
+    - text: Prévoir davantage de temps et de gaz pour sortir
+      correct: true
+    - text: Prolonger le fond car le temps sans palier augmente aussi
+      correct: false
+    - text: Conserver le budget de gaz si la profondeur maximale ne change pas
+      correct: false
+    explanation: '**Il faut prévoir davantage de temps et de gaz pour sortir.** Prévenir et réévaluer la
+      fin de plongée avec la palanquée ; le gaz nécessaire dépend des profondeurs de remontée et des paliers,
       pas seulement du temps d’exploration.'
 - id: n2-ordinateurs-ndl-air-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -232,21 +341,33 @@ cards:
   source_id: P439
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Un ordinateur annonce 12 min sans palier, mais la réserve de gaz convenue sera atteinte dans
+    question: Un ordinateur annonce 12 min sans palier, mais la réserve de gaz convenue sera atteinte dans
       4 min à la consommation actuelle. Quelle contrainte commande la décision de fin d’exploration ?
-    back: '**La contrainte de gaz impose d’anticiper la sortie.** Le temps sans palier concerne la décompression,
-      pas l’autonomie respiratoire ; les 12 min n’autorisent pas à consommer la réserve nécessaire à la
-      remontée.'
+    choices:
+    - text: La contrainte de gaz impose d’anticiper la fin d’exploration
+      correct: true
+    - text: Le temps sans palier permet de poursuivre jusqu’aux 12 min annoncées
+      correct: false
+    - text: Il faut attendre que le temps sans palier égale le temps avant réserve
+      correct: false
+    explanation: '**La contrainte de gaz impose d’anticiper la sortie.** Le temps sans palier concerne la
+      décompression, pas l’autonomie respiratoire ; les 12 min n’autorisent pas à consommer la réserve nécessaire
+      à la remontée.'
 - id: n2-ordinateurs-sonde-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -254,18 +375,28 @@ cards:
   source_id: P440
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - S1 p.27–29, sonde et gestion de l’air.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Pourquoi un ordinateur sans liaison de pression avec le bloc ne peut-il pas connaître directement
+    question: Pourquoi un ordinateur sans liaison de pression avec le bloc ne peut-il pas connaître directement
       le gaz encore disponible ?
-    back: '**Il ne mesure pas la pression du bloc.** La gestion intégrée de l’air nécessite un capteur
-      compatible, souvent une sonde ; une estimation d’autonomie dépend en plus de la consommation et
-      des hypothèses du système.'
+    choices:
+    - text: Il ne mesure pas la pression restante du bloc
+      correct: true
+    - text: Il déduit la pression restante de la profondeur mesurée
+      correct: false
+    - text: Il déduit la pression restante du temps sans palier
+      correct: false
+    explanation: '**Il ne mesure pas la pression du bloc.** La gestion intégrée de l’air nécessite un capteur
+      compatible, souvent une sonde ; une estimation d’autonomie dépend en plus de la consommation et des
+      hypothèses du système.'
 - id: n2-ordinateurs-verrouillage-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -276,22 +407,32 @@ cards:
   source_id: P441
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo, Error state / algorithm lock : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/error-state-algorithm-lock/'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Un Suunto Zoop Novo reste plus de 3 min au-dessus de son plafond de décompression et affiche
+    question: Un Suunto Zoop Novo reste plus de 3 min au-dessus de son plafond de décompression et affiche
       ER. Quelle information de décompression devient indisponible et pour quelle durée annoncée par le
       manuel ?
-    back: '**Le calcul de décompression est verrouillé pendant les 48 h suivant la sortie de l’eau.**
+    choices:
+    - text: Calcul de décompression indisponible pendant 48 h après sortie
+      correct: true
+    - text: Profondeur et durée indisponibles pendant 48 h après sortie
+      correct: false
+    - text: Calcul de décompression indisponible pendant 24 h après sortie
+      correct: false
+    explanation: '**Le calcul de décompression est verrouillé pendant les 48 h suivant la sortie de l’eau.**
       L’appareil conserve des informations telles que profondeur et durée, mais n’affiche plus les données
       de décompression calculées. Ce comportement est propre à ce modèle.'
 - id: n2-ordinateurs-manuel-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -299,18 +440,29 @@ cards:
   source_id: P443
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Vous empruntez pour la première fois un modèle d’ordinateur différent. Quelles informations
+    question: Vous empruntez pour la première fois un modèle d’ordinateur différent. Quelles informations
       de son manuel devez-vous maîtriser pour gérer la remontée ?
-    back: '**Reconnaître le temps sans palier, les obligations de décompression et le plafond, puis les
-      alarmes et leur conduite à tenir.** Connaître aussi les limites de vitesse et les conséquences d’une
-      erreur ; un symbole familier ne garantit pas une fonction identique.'
+    choices:
+    - text: Interpréter temps sans palier, plafond, paliers, limites de vitesse et alarmes du modèle
+      correct: true
+    - text: Interpréter profondeur et durée, puis appliquer les vitesses et alarmes du modèle précédent
+      correct: false
+    - text: Interpréter profondeur et durée, puis appliquer les procédures et vitesses des tables MN90
+      correct: false
+    explanation: '**Reconnaître le temps sans palier, les obligations de décompression et le plafond, puis
+      les alarmes et leur conduite à tenir.** Connaître aussi les limites de vitesse et les conséquences
+      d’une erreur ; un symbole familier ne garantit pas une fonction identique.'
 - id: n2-ordinateurs-lisibilite-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -321,18 +473,27 @@ cards:
   source_id: P445
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - S1 p.29, acuité et lisibilité.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Pourquoi tester la lecture de l’écran avec son masque et sa correction visuelle avant de choisir
+    question: Pourquoi tester la lecture de l’écran avec son masque et sa correction visuelle avant de choisir
       un ordinateur ?
-    back: '**Il faut pouvoir distinguer rapidement profondeur, plafond, durée et alarmes dans les conditions
-      de plongée.** Taille des caractères, contraste et éclairage comptent plus que la seule quantité
-      de fonctions.'
+    choices:
+    - text: Vérifier la lecture rapide des paramètres et alarmes en situation
+      correct: true
+    - text: Vérifier uniquement la lisibilité de la profondeur maximale
+      correct: false
+    - text: Vérifier uniquement la lisibilité à la surface en plein jour
+      correct: false
+    explanation: '**Il faut pouvoir distinguer rapidement profondeur, plafond, durée et alarmes dans les
+      conditions de plongée.** Taille des caractères, contraste et éclairage comptent plus que la seule
+      quantité de fonctions.'
 - id: n2-ordinateurs-modes-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -343,18 +504,28 @@ cards:
   source_id: P446
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    front: Si l’on envisage une formation nitrox plus tard, quel point vérifier dans les fonctions de
-      l’ordinateur ?
-    back: '**La présence d’un mode nitrox et les mélanges qu’il accepte.** Ce mode permet de renseigner
+    question: Vous voulez utiliser plus tard un mélange contenant plus de 21 % d’oxygène avec calcul de
+      décompression. Quelle fonction de l’ordinateur faut-il vérifier ?
+    choices:
+    - text: Un mode nitrox permettant de renseigner la fraction d’oxygène dans sa plage acceptée
+      correct: true
+    - text: Un mode profondimètre permettant d’afficher profondeur et durée sans décompression
+      correct: false
+    - text: Un mode air permettant d’augmenter le conservatisme sans renseigner le mélange
+      correct: false
+    explanation: '**La présence d’un mode nitrox et les mélanges qu’il accepte.** Ce mode permet de renseigner
       la fraction d’oxygène ; son réglage doit correspondre au gaz analysé et aux limites apprises dans
       cette formation.'
 - id: n2-ordinateurs-gf-principe-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -365,6 +536,7 @@ cards:
   source_id: P637
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - Complément identifié par comparaison au MFT N2 actuel, absent du cours S1.
     - 'Suunto — Nautic, Gradient Factors, définition du gradient et réglages : https://origin-www.suunto.com/en-ph/Support/Product-support/suunto_nautic/suunto_nautic/algorithm-settings/gradient-factors/'
     - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
@@ -372,13 +544,21 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Dans un modèle Bühlmann à gradient factors, que représente le pourcentage d’un GF par rapport
+    question: Dans un modèle Bühlmann à gradient factors, que représente le pourcentage d’un GF par rapport
       à la pression ambiante et à la limite du modèle ?
-    back: '**Une fraction du gradient de sursaturation autorisé par le modèle.** 0 % correspond à la pression
-      ambiante et 100 % à la limite originale du modèle, appelée M-value. Ce pourcentage ne mesure pas
-      une probabilité personnelle d’accident. GF signifie Gradient Factor, ou facteur de gradient.'
+    choices:
+    - text: Une fraction du gradient de sursaturation autorisé
+      correct: true
+    - text: La probabilité personnelle d’un accident en pourcentage
+      correct: false
+    - text: Une fraction de la M-value mesurée depuis zéro pression
+      correct: false
+    explanation: '**Une fraction du gradient de sursaturation autorisé par le modèle.** 0 % correspond à
+      la pression ambiante et 100 % à la limite originale du modèle, appelée M-value. Ce pourcentage ne
+      mesure pas une probabilité personnelle d’accident. GF signifie Gradient Factor, ou facteur de gradient.'
 - id: n2-ordinateurs-gf-air-ffessm-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
@@ -389,21 +569,31 @@ cards:
   source_id: P638
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - Complément identifié par comparaison au MFT N2 actuel, absent du cours S1.
     - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Pour une planification PA20 FFESSM à l’air avec un ordinateur réglable par gradient factors,
+    question: Pour une planification PA20 FFESSM à l’air avec un ordinateur réglable par gradient factors,
       quelle relation et quelle plage de valeurs sont indiquées pour GF bas et GF haut ?
-    back: '**GF bas = GF haut, avec une valeur entre 85 et 90 %.** Exemples : 85/85 ou 90/90. Ce repère
-      fédéral concerne la plongée à l’air ; certains ordinateurs utilisent d’autres réglages de conservatisme
+    choices:
+    - text: GF bas = GF haut, entre 85 et 90 %
+      correct: true
+    - text: GF bas = 30 %, GF haut entre 85 et 90 %
+      correct: false
+    - text: GF bas entre 85 et 90 %, GF haut = 100 %
+      correct: false
+    explanation: '**GF bas = GF haut, avec une valeur entre 85 et 90 %.** Exemples : 85/85 ou 90/90. Ce
+      repère fédéral concerne la plongée à l’air ; certains ordinateurs utilisent d’autres réglages de conservatisme
       plutôt que des GF.'
 - id: n2-ordinateurs-plafond-lecture-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -411,21 +601,32 @@ cards:
   source_id: P644
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - 'Suunto — Zoop Novo User Guide, Decompression dives, définition CEILING et actualisation, consulté
       le 2026-10-06 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7 m.
+    question: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7 m.
       Rejoindre 5 m respecterait-il ce plafond ?
-    back: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant : ne pas
-      passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait. Le plafond
-      évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
+    choices:
+    - text: 'Non : à 5 m il serait au-dessus du plafond de 6 m'
+      correct: true
+    - text: 'Oui : 5 m est plus proche de la surface que le plafond'
+      correct: false
+    - text: 'Oui : le plafond fixe une durée et non une profondeur limite'
+      correct: false
+    explanation: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant : ne
+      pas passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait. Le
+      plafond évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
 - id: n2-ordinateurs-plafonds-differents-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Désaturation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::13
   - ordinateurs
@@ -433,6 +634,8 @@ cards:
   source_id: P645
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 13, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - 'Suunto — Zoop Novo User Guide, Decompression dives, définition CEILING et actualisation, consulté
       le 2026-10-06 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
     - 'FFESSM — MFT N2, mai 2026, p.12–13 et 17 : gestion collective des différents moyens de désaturation.
@@ -440,10 +643,17 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Deux équipiers utilisent des ordinateurs avec un plafond de décompression à ne pas franchir.
+    question: Deux équipiers utilisent des ordinateurs avec un plafond de décompression à ne pas franchir.
       A indique 6 m, B indique 3 m. Ils sont ensemble à 7 m, avec du gaz suffisant. Peuvent-ils rejoindre
       ensemble 3 m à cet instant ?
-    back: '**Non : ils franchiraient le plafond de A.** Le groupe doit rester à 6 m ou plus profond tant
-      que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez B ne
-      signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
+    choices:
+    - text: 'Non : A impose encore de rester à 6 m ou plus profond'
+      correct: true
+    - text: 'Oui : les deux plafonds peuvent être moyennés à 4,5 m'
+      correct: false
+    - text: 'Oui : B autorise 3 m, donc la palanquée peut y aller ensemble'
+      correct: false
+    explanation: '**Non : ils franchiraient le plafond de A.** Le groupe doit rester à 6 m ou plus profond
+      tant que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez B
+      ne signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
       ses indications.'

@@ -51,12 +51,13 @@ def render_choices_back(choices: list[Choice], card_id: str = "") -> str:
     for index, choice in enumerate(choices):
         kind = "correct" if choice.correct else "incorrect"
         items.append(_choice_div(choice, index, kind=kind))
-    return _choices_box(items, card_id)
+    return _choices_box(items, card_id, answer=True)
 
 
-def _choices_box(items: list[str], card_id: str) -> str:
+def _choices_box(items: list[str], card_id: str, *, answer: bool = False) -> str:
     attr = f' data-card="{escape(card_id)}"' if card_id else ""
-    return f'<div class="choices"{attr}>' + "".join(items) + "</div>"
+    klass = "choices is-answer" if answer else "choices"
+    return f'<div class="{klass}"{attr}>' + "".join(items) + "</div>"
 
 
 def inject_mcq_shuffle(template: str, js: str, *, reveal: bool) -> str:

@@ -44,3 +44,13 @@
 .night_mode .divider {
   border-top-color: #3d342a;
 }
+
+/* Converted MCQs keep their two-field model and their existing card history. */
+.is-back .front .choices {
+  display: none;
+}
+
+.front .choices {
+  font-weight: normal;
+  font-size: 0.87em;
+}

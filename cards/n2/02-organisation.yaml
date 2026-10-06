@@ -4,6 +4,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -12,6 +13,7 @@ cards:
   source_id: P028
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -37,6 +39,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -45,6 +48,7 @@ cards:
   source_id: P030
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -229,6 +233,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -237,6 +242,7 @@ cards:
   source_id: P041
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -262,6 +268,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -270,6 +277,7 @@ cards:
   source_id: P043
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -325,6 +333,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -333,6 +342,7 @@ cards:
   source_id: P045
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -357,6 +367,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -365,6 +376,7 @@ cards:
   source_id: P047
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — Annexe III-19, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393435'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -390,6 +402,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -398,6 +411,7 @@ cards:
   source_id: P048
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -456,6 +470,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -464,6 +479,7 @@ cards:
   source_id: P050
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -491,6 +507,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -499,6 +516,7 @@ cards:
   source_id: P052
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -523,6 +541,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -531,6 +550,7 @@ cards:
   source_id: P053
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
@@ -550,7 +570,7 @@ cards:
       correct: false
     explanation: Chaque plongeur concerné doit pouvoir fournir du gaz à un équipier sans partager le même
       embout, par exemple avec un deuxième étage de secours. Deux sorties indépendantes et deux détendeurs
-      complets constituent l’exigence propre à l’encadrant, pas le minimum imposé à chaque plongeur N2.
+      complets constituent l’exigence propre à l’encadrant, pas le minimum imposé à chaque plongeur autonome ou encadré à plus de 20 m.
 - id: n2-organisation-parametres-personnels-001
   type: mcq
   deck: Réglementation
@@ -624,6 +644,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N3
   tags:
   - chapitre::02
   - organisation
@@ -632,6 +653,7 @@ cards:
   source_id: P056
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.9, 12, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.4–5 (support pédagogique)
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'

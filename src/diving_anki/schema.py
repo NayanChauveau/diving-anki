@@ -118,6 +118,10 @@ class CardBase(StrictModel):
 
 class McqCard(CardBase):
     type: Literal["mcq"] = "mcq"
+    anki_model: Literal["basic"] | None = Field(
+        default=None,
+        description="Keep the published Basic note model when converting an existing card to MCQ.",
+    )
     fr: McqContent
 
 

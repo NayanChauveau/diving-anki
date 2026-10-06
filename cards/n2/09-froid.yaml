@@ -1,6 +1,7 @@
 cards:
 - id: n2-froid-bilan-thermique-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -11,21 +12,32 @@ cards:
   source_id: P281
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Pourquoi peut-on se refroidir même en bougeant pendant une plongée ?
-    back: '**Les pertes de chaleur peuvent dépasser la chaleur produite par l’organisme.** L’eau, la durée,
-      la protection et l’activité modifient ce bilan. Faire davantage d’effort ne garantit pas de maintenir
-      la température centrale.'
+    question: Pourquoi peut-on se refroidir même en bougeant pendant une plongée ?
+    choices:
+    - text: Les pertes de chaleur peuvent rester supérieures à la chaleur produite par l’effort
+      correct: true
+    - text: Produire plus de chaleur par l’effort suffit à rendre positif le bilan thermique
+      correct: false
+    - text: La protection thermique rend les pertes indépendantes de la durée d’immersion
+      correct: false
+    explanation: '**Les pertes de chaleur peuvent dépasser la chaleur produite par l’organisme.** L’eau,
+      la durée, la protection et l’activité modifient ce bilan. Faire davantage d’effort ne garantit pas
+      de maintenir la température centrale.'
 - id: n2-froid-signes-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -33,6 +45,8 @@ cards:
   source_id: P283
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
@@ -40,17 +54,26 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: En eau froide, un plongeur frissonne et n’arrive plus à manipuler ses attaches ou le dévidoir
+    question: En eau froide, un plongeur frissonne et n’arrive plus à manipuler ses attaches ou le dévidoir
       du parachute. Que doit faire la palanquée ?
-    back: '**Prendre en compte une dégradation de ses capacités liée au froid, l’aider et terminer ensemble
-      la plongée de façon contrôlée.** Une réponse moins claire peut signaler aussi une altération du
-      jugement. Ne pas attendre une perte de contrôle ; la température de l’eau seule ne suffit pas à
+    choices:
+    - text: Aider le plongeur et terminer ensemble de façon contrôlée
+      correct: true
+    - text: Poursuivre plus haut dans l’eau jusqu’à disparition des frissons
+      correct: false
+    - text: Poursuivre en supprimant les manipulations difficiles
+      correct: false
+    explanation: '**Prendre en compte une dégradation de ses capacités liée au froid, l’aider et terminer
+      ensemble la plongée de façon contrôlée.** Une réponse moins claire peut signaler aussi une altération
+      du jugement. Ne pas attendre une perte de contrôle ; la température de l’eau seule ne suffit pas à
       juger son état.'
 - id: n2-froid-fin-frissons-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -58,22 +81,34 @@ cards:
   source_id: P286
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Un plongeur toujours très froid devient confus et cesse de frissonner. Pourquoi cela ne prouve-t-il
+    question: Un plongeur toujours très froid devient confus et cesse de frissonner. Pourquoi cela ne prouve-t-il
       pas qu’il se réchauffe ?
-    back: '**La disparition des frissons avec altération de la conscience peut annoncer une hypothermie
+    choices:
+    - text: La confusion avec disparition des frissons peut indiquer une aggravation de l’hypothermie
+      correct: true
+    - text: La disparition des frissons indique un réchauffement malgré la confusion persistante
+      correct: false
+    - text: La confusion permet d’attribuer l’arrêt des frissons à la seule narcose
+      correct: false
+    explanation: '**La disparition des frissons avec altération de la conscience peut annoncer une hypothermie
       aggravée.** Il faut le protéger du froid, le manipuler doucement et déclencher les secours ; l’absence
       de frissons n’est pas un critère de guérison.'
 - id: n2-froid-protection-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -81,19 +116,29 @@ cards:
   source_id: P289
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Pourquoi choisir une protection thermique en fonction de la température et de la durée prévues,
+    question: Pourquoi choisir une protection thermique en fonction de la température et de la durée prévues,
       plutôt que de la seule épaisseur écrite sur la combinaison ?
-    back: '**L’efficacité dépend aussi de l’ajustement, de l’état du vêtement et des protections des extrémités.**
-      Cagoule, chaussons et gants adaptés limitent certaines pertes ; une combinaison qui laisse circuler
-      beaucoup d’eau protège moins bien.'
+    choices:
+    - text: L’ajustement, l’état et les protections des extrémités comptent aussi
+      correct: true
+    - text: L’épaisseur nominale détermine à elle seule la protection
+      correct: false
+    - text: La profondeur maximale détermine à elle seule la protection
+      correct: false
+    explanation: '**L’efficacité dépend aussi de l’ajustement, de l’état du vêtement et des protections
+      des extrémités.** Cagoule, chaussons et gants adaptés limitent certaines pertes ; une combinaison
+      qui laisse circuler beaucoup d’eau protège moins bien.'
 - id: n2-froid-fatigue-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -104,22 +149,33 @@ cards:
   source_id: P291
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Pourquoi partir fatigué ou avec des apports alimentaires insuffisants réduit-il la marge face
+    question: Pourquoi partir fatigué ou avec des apports alimentaires insuffisants réduit-il la marge face
       au froid ?
-    back: '**La production de chaleur et les capacités de réaction peuvent être moins efficaces.** Préparer
-      la plongée avec repos et alimentation adaptés ; une boisson ou un aliment ne compense pas une protection
-      inadéquate.'
+    choices:
+    - text: Le manque d’énergie peut limiter la production de chaleur et les réactions
+      correct: true
+    - text: Les frissons suffisent à compenser le manque d’énergie tant qu’ils sont présents
+      correct: false
+    - text: Le repos avant immersion compense des apports insuffisants quelle que soit la durée
+      correct: false
+    explanation: '**La production de chaleur et les capacités de réaction peuvent être moins efficaces.**
+      Préparer la plongée avec repos et alimentation adaptés ; une boisson ou un aliment ne compense pas
+      une protection inadéquate.'
 - id: n2-froid-interactions-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -127,6 +183,9 @@ cards:
   source_id: P292
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
@@ -134,15 +193,24 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Pourquoi le froid peut-il compliquer une plongée profonde au-delà du seul inconfort ?
-    back: '**Il peut accroître les besoins ventilatoires et dégrader le jugement et les gestes.** Il peut
-      ainsi s’ajouter aux contraintes respiratoires et aux effets de la narcose ; ces facteurs se cumulent
-      sans seuil identique pour tous.'
+    question: Pourquoi le froid peut-il compliquer une plongée profonde au-delà du seul inconfort ?
+    choices:
+    - text: Les besoins ventilatoires peuvent augmenter et les gestes et le jugement se dégrader
+      correct: true
+    - text: Les gestes se dégradent, mais le froid laisse les besoins ventilatoires inchangés
+      correct: false
+    - text: La ventilation augmente, mais le froid protège le jugement des effets de la profondeur
+      correct: false
+    explanation: '**Il peut accroître les besoins ventilatoires et dégrader le jugement et les gestes.**
+      Il peut ainsi s’ajouter aux contraintes respiratoires et aux effets de la narcose ; ces facteurs se
+      cumulent sans seuil identique pour tous.'
 - id: n2-froid-sortie-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -150,22 +218,33 @@ cards:
   source_id: P293
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: À la sortie d’eau, quelles mesures limitent les pertes de chaleur d’un plongeur refroidi qui
+    question: À la sortie d’eau, quelles mesures limitent les pertes de chaleur d’un plongeur refroidi qui
       reste conscient ?
-    back: '**Le mettre à l’abri du vent, l’isoler et retirer les vêtements mouillés lorsqu’il peut être
-      protégé immédiatement.** Sécher et couvrir, notamment la tête ; éviter de le déshabiller longuement
+    choices:
+    - text: Abri du vent, isolation et changement au sec sans nouvelle exposition
+      correct: true
+    - text: Retrait immédiat des vêtements mouillés avant toute mise à l’abri
+      correct: false
+    - text: Marche rapide en combinaison mouillée pour se réchauffer
+      correct: false
+    explanation: '**Le mettre à l’abri du vent, l’isoler et retirer les vêtements mouillés lorsqu’il peut
+      être protégé immédiatement.** Sécher et couvrir, notamment la tête ; éviter de le déshabiller longuement
       en plein vent.'
 - id: n2-froid-rechauffement-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::09
   - froid
@@ -173,19 +252,30 @@ cards:
   source_id: P295
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Un plongeur hypothermique reste confus après sa sortie de l’eau. Pourquoi faut-il le manipuler
-      doucement et éviter de frictionner vigoureusement ses membres ?
-    back: '**Une hypothermie importante fragilise le fonctionnement cardiaque.** Les manipulations brutales
-      et la mobilisation peuvent aggraver son état. L’isoler du froid, alerter les secours et suivre leurs
-      consignes de réchauffement.'
+    question: Après sa sortie de l’eau, un plongeur hypothermique reste confus. Quelle prise en charge engager
+      en attendant les secours ?
+    choices:
+    - text: L’isoler du froid et le manipuler doucement en déclenchant l’alerte
+      correct: true
+    - text: L’isoler du froid et frictionner vigoureusement ses membres en déclenchant l’alerte
+      correct: false
+    - text: L’isoler du froid et le faire marcher pour produire de la chaleur en déclenchant l’alerte
+      correct: false
+    explanation: '**Une hypothermie importante fragilise le fonctionnement cardiaque.** Les manipulations
+      brutales et la mobilisation peuvent aggraver son état. L’isoler du froid, alerter les secours et suivre
+      leurs consignes de réchauffement.'
 - id: n2-froid-boisson-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -196,14 +286,22 @@ cards:
   source_id: P296
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
     fact_check: pass
   fr:
-    front: Dans quelles conditions peut-on proposer une boisson tiède non alcoolisée à un plongeur légèrement
+    question: Dans quelles conditions peut-on proposer une boisson tiède non alcoolisée à un plongeur légèrement
       refroidi ?
-    back: '**S’il est pleinement conscient, coopératif et peut avaler normalement.** Une boisson tiède
-      peut améliorer le confort et l’hydratation ; une boisson sucrée apporte aussi de l’énergie. En cas
-      de trouble de conscience, de difficulté à avaler ou de vomissement, ne rien donner par la bouche.'
+    choices:
+    - text: Conscience complète et déglutition normale, sans vomissements
+      correct: true
+    - text: Conscience même fluctuante, si la boisson reste tiède
+      correct: false
+    - text: Frissons présents, même avec difficulté à avaler
+      correct: false
+    explanation: '**S’il est pleinement conscient, coopératif et peut avaler normalement.** Une boisson
+      tiède peut améliorer le confort et l’hydratation ; une boisson sucrée apporte aussi de l’énergie.
+      En cas de trouble de conscience, de difficulté à avaler ou de vomissement, ne rien donner par la bouche.'

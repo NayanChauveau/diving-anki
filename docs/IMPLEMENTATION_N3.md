@@ -1,6 +1,6 @@
 # Plan détaillé d’implémentation — théorie N3 FFESSM en français
 
-Préparé le **6 octobre 2026** à partir des documents téléchargés et du catalogue N2 au commit `3cf5bfd`. Statut : **préparation**, aucune carte N3 rédigée ou publiée par ce travail.
+Préparé le **6 octobre 2026** à partir des documents téléchargés et du catalogue N2 au commit `3cf5bfd`. Statut initial : **préparation**. Mise à jour du 6 octobre 2026 : **164 reprises N2/N3 validées et intégrées**, aucune carte spécifique N3 encore rédigée.
 
 ## Décision de périmètre
 
@@ -14,7 +14,7 @@ Sont exclus du socle : cursus d’encadrement N4/N5, enseignement, diplôme nitr
 
 - **12 PDF, 290 pages**, téléchargés dans `sources/n3/`, avec manifeste local, URL d’origine, nombre de pages et empreinte SHA-256.
 - [Inventaire public des sources](reviews/SOURCES_N3.json) : mêmes références et empreintes, sans publier les documents eux-mêmes.
-- [Tri des 308 cartes N2](reviews/REUTILISATION_N2_N3.csv) : un enregistrement par ID publié, avec recto actuel, décision provisoire et motif.
+- [Tri des 308 cartes N2](reviews/REUTILISATION_N2_N3.csv) : un enregistrement par ID publié, avec recto actuel, décision initiale, motif et état de reprise N3.
 - Le présent document : périmètre, couverture, catalogue détaillé, exercices, vérifications, workflow, validation et estimation.
 
 Les PDF restent ignorés par Git. Les télécharger et extraire leurs textes n’équivaut pas à les valider intégralement. Les passages déterminants du MFT, du RIFAP et du cours 2024 ont été confrontés au périmètre ; les supports de Grenoble servent de compléments anciens, pas de références actuelles de sécurité. Les pages en tableaux doivent être contrôlées visuellement avant rédaction, en particulier les fiches et affichages. Les tableaux du MFT p.15 et du RIFAP p.28 ont déjà été inspectés visuellement pendant cette préparation.
@@ -73,11 +73,11 @@ Autres raccourcis du cours secondaire à écarter : lest fixe lors d’un change
 
 ## Réutilisation du N2 et absence de doublons
 
-Les **308 cartes existantes** ont reçu une décision éditoriale provisoire dans le CSV. Cela n’ajoute aucun niveau dans les YAML et ne garantit pas que toutes les candidates seront finalement retenues.
+Les **308 cartes existantes** ont reçu une décision éditoriale initiale dans le CSV. La [revue des reprises](reviews/n3/00-reprises-n2.md) a ensuite retenu les **164 R**, désormais explicitement N2/N3 dans les YAML. Les 7 A et 8 V restent à traiter ; les colonnes `etat_n3` et `revue_n3` distinguent la décision initiale de son résultat. Le paquet unique conserve 308 notes, dont 164 appartenant aussi au N3 ; ce socle ne constitue pas encore une préparation N3 complète.
 
 | Décision | Nombre | Signification |
 |---|---:|---|
-| R — Reprise candidate | 164 | Objectif utile au socle N3, déjà formulé ; relire l’intégralité de la carte et ses sources avant inclusion explicite. |
+| R — Reprise candidate | 164 | Objectif commun relu et validé : appartenance N3 ajoutée, sans nouvelle note. |
 | A — Adaptation | 7 | Recto cadré N2/PA20 ou autre contexte à généraliser avec prudence ; même objectif = préserver l’ID, sans copie. |
 | V — Revalidation | 8 | Secours/remontées concernés par les divergences ; inclusion suspendue à G03–G06. |
 | P — Acquis disponibles | 109 | Révision possible via N2 ; non inclus par défaut pour éviter d’alourdir N3. |
@@ -129,7 +129,7 @@ Garder des sous-decks larges, directement sous `Plongée` : **Réglementation**,
 
 Ce catalogue contient **147 objectifs**, dont **140 propositions nouvelles à instruire**, **6 reprises** et **1 adaptation**. Ce sont des objectifs de travail, **pas un quota de cartes à produire** : la revue peut fusionner, reprendre une carte existante ou écarter une proposition trop proche. Les 164 candidates communes du CSV ne sont pas autant de nouvelles cartes à rédiger.
 
-Formats proposés : **F** fait simple (basic généralement), **C** cas/décision (basic ou QCM crédible), **E** exercice chiffré (basic), **V** lecture visuelle originale (basic/QCM), **R** reprise existante, **A** adaptation. Un QCM ne sera choisi que s’il existe des confusions plausibles, de même catégorie, et une réponse unique. Tout cas de sécurité doit demander une action déterminable avec les données fournies ; quand plusieurs diagnostics sont possibles, ne pas demander d’en choisir un comme certain.
+Formats proposés : **F** fait simple (QCM par défaut), **C** cas/décision (QCM crédible par défaut), **E** exercice chiffré (QCM ou réponse libre justifiée), **V** lecture visuelle originale (QCM ou réponse libre justifiée), **R** reprise existante, **A** adaptation. Un QCM ne sera choisi que s’il existe des confusions plausibles, de même catégorie, et une réponse unique. Tout cas de sécurité doit demander une action déterminable avec les données fournies ; quand plusieurs diagnostics sont possibles, ne pas demander d’en choisir un comme certain.
 
 Chaque objectif neuf passe par : référence précise → comparaison N2/N3 → recto/verso → vérification factuelle → revue pédagogique distincte → rendu → `reviewed`. Les références ci-dessous sont des **points d’entrée** : compléter la page/section exacte dans `review.sources`, surtout pour les exercices originaux et les compléments primaires restant à acquérir.
 
@@ -444,7 +444,8 @@ Cette matrice couvre les **attendus théoriques et de préparation**, pas l’ex
 - [ ] Lire les sources primaires téléchargées dans leur intégralité pour le lot concerné ; contrôler les tables/figures et compléter le relevé de divergences.
 - [ ] Acquérir et dater Code du sport, CMPN, PSC/PSE, notices et sources locales nécessaires.
 - [ ] Clore G01 ; établir clairement les frontières FFESSM / réglementation / fabricant.
-- [ ] Relire les **versos et sources** des candidates N2 R/A/V ; ce plan a réalisé leur tri, pas leur validation N3 exhaustive.
+- [x] Relire les rectos, **versos, choix et sources** des 164 candidates R et valider leur appartenance N3 : [bilan](reviews/n3/00-reprises-n2.md).
+- [ ] Traiter les 7 adaptations A et les 8 revalidations V avant leur éventuelle inclusion N3.
 - [ ] Fixer la liste finale partagée et marquer chaque proposition nouvelle comme distincte/fusion/reprise/retrait, avec motif.
 - [ ] Conserver les retraits N2 et réserver les ID ; aucun renommage de cartes existantes.
 
@@ -505,7 +506,7 @@ Comparer **l’ensemble N2 + N3**, pas uniquement chaque fichier. Clore les doub
 
 **Technique : faible.** Le dépôt sait déjà filtrer N3, construire un package et partager explicitement une carte entre niveaux. Le travail attendu est surtout du contenu, des illustrations et de la revue ; aucun nouveau moteur de build n’est nécessaire.
 
-**Rédaction/relecture : moyenne à élevée.** Les 140 propositions nouvelles donnent un ordre de grandeur de **120 à 150 nouvelles cartes**, après les fusions et exclusions, sans quota. La sélection provisoire de 164 reprises donne un N3 complet autour de **280 à 315 cartes** si elle est conservée ; ce total peut baisser quand les acquis N2 simplement redondants sont retirés. Ces nombres ne sont ni une exigence du diplôme ni un résultat garanti avant la rédaction.
+**Rédaction/relecture : moyenne à élevée.** Les 140 propositions nouvelles donnent un ordre de grandeur de **120 à 150 nouvelles cartes**, après les fusions et exclusions, sans quota. La sélection validée de 164 reprises donne un N3 complet autour de **280 à 315 cartes** si elle est conservée ; ce total peut baisser quand les acquis N2 simplement redondants sont retirés. Ces nombres ne sont ni une exigence du diplôme ni un résultat garanti avant la rédaction.
 
 **Vérification : élevée sur quatre blocs.** Réglementation sans DP/mineurs ; gaz à deux avec phases et marges ; GF/modèles/écrans ; secours et divergences entre textes. Leur revue distincte doit faire partie du travail prévu, pas être ajoutée après la publication.
 
@@ -513,4 +514,4 @@ Ordre de grandeur, pour une personne connaissant le dépôt et rédigeant soigne
 
 ## Bilan de la préparation
 
-Documents récupérés, versions et empreintes consignées ; tri provisoire de toutes les cartes N2 effectué ; objectifs, couverture, exercices pilotes et séquence de réalisation établis. Les compléments primaires et divergences listés dans G01–G11 restent du travail explicite avant la publication des cartes concernées. Les cartes N2 et le placeholder N3 ont été conservés inchangés pendant cette préparation.
+Documents récupérés, versions et empreintes consignées ; tri provisoire de toutes les cartes N2 effectué ; objectifs, couverture, exercices pilotes et séquence de réalisation établis. Les compléments primaires et divergences listés dans G01–G11 restent du travail explicite avant la publication des cartes concernées. Les cartes N2 et le placeholder N3 ont été conservés inchangés pendant la préparation initiale. La première passe d’implémentation a ensuite partagé 164 cartes N2 avec N3 et ajusté deux formulations de contexte ; les nouvelles cartes N3 restent à rédiger.

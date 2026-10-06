@@ -1,9 +1,29 @@
 # Instructions aux agents
 
-Projet de théorie de plongée en français : N2 actuellement, structure prévue pour N3/N4.
+Projet de théorie de plongée en français : N2 réalisé, N3 en cours, structure prévue pour N4.
 Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
 et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
 pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les niveaux.
+
+## Format des cartes — calibration finale du 6 octobre 2026
+
+Le **QCM est le format à choisir dès que la question peut être posée clairement avec
+une réponse vraie unique et des distracteurs crédibles**. Cela vaut aussi pour les
+calculs, les schémas, les cas et les séquences. Ne pas réserver automatiquement ces
+familles à la réponse libre, ni viser un pourcentage fixe de cartes ouvertes.
+Tout autre format est possible s’il convient mieux à la tâche ; justifier ce gain
+précis carte par carte dans la revue. « C’est un calcul » ou « pour répondre sans
+indices » ne suffisent pas à écarter un QCM réalisable et pertinent.
+Ne pas fabriquer des distracteurs absurdes : revoir les choix, puis le recto si
+nécessaire. Comparer des réponses de même nature et de longueur voisine, sans indice
+lexical ni réponse correcte seule prudente. La difficulté vient du cours, pas du flou.
+Relire séparément **chaque** choix et son explication : une alternative qui décrit
+la même erreur que la bonne réponse peut elle aussi être vraie. Une question qui
+demande une cause appelle des causes ; une question qui demande une action appelle
+des actions. Retirer aussi les labels d’un schéma qui donnent déjà la réponse.
+Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
+`anki_model: basic` afin de préserver modèle, carte et historique lors de l’import.
+
 
 ## Sources et véracité
 
@@ -77,6 +97,10 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 
 - Les YAML de `cards/` sont la source de vérité, un fichier par chapitre ; `fr` obligatoire,
   `levels` explicite et aucun héritage automatique entre niveaux.
+- Pour partager une carte avec un nouveau niveau, relire recto, verso et tous les choix,
+  vérifier le champ d’application et consigner la décision dans la revue du lot. Garder
+  les sources factuelles N2 ; ajouter la référence de pertinence N3. Consulter
+  `docs/reviews/n3/00-reprises-n2.md` et les états du CSV avant toute nouvelle reprise.
 - Collection commune N2/N3/N4 : une identité Anki par ID de carte, indépendante des niveaux.
   Le sel historique N2 du GUID est permanent, même pour une nouvelle carte N3/N4.
   Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous

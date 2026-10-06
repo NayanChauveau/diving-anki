@@ -47,9 +47,10 @@ leurs catégories : une carte déjà dans un paquet filtré ne peut pas entrer d
 Les suspensions existantes restent respectées. Ces mécanismes sont décrits dans le
 [manuel des paquets filtrés](https://docs.ankiweb.net/filtered-decks.html).
 
-Actuellement, seules les 308 cartes N2 sont publiées. Les niveaux N3/N4 seront ajoutés
-aux cartes communes après revue ; le changement d’architecture n’attribue pas automatiquement
-N3 ou N4 à toutes les cartes N2.
+Le catalogue actuel contient 308 notes N2, dont **164 revues et partagées avec N3**.
+Le N3 reste incomplet ; aucune carte N4 n’est encore incluse. Les nouvelles appartenances
+sont ajoutées après revue explicite, sans héritage automatique de toutes les cartes N2.
+Voir le [bilan des reprises](reviews/n3/00-reprises-n2.md).
 
 ## Migrer une installation N2 existante
 
@@ -95,3 +96,10 @@ Les anciennes revues du dépôt décrivent les destinations sous `Plongée::N2` 
 - Les anciens GUIDs N3/N4 du prototype étaient différents. Aucun contenu N3/N4 n’avait
   été publié ; si une collection personnelle contient des essais de ce prototype, ils
   demandent une revue séparée. L’import ne fusionne pas automatiquement deux historiques.
+
+## Changer le format d’une carte existante
+
+Une Basic convertie en QCM conserve `anki_model: basic` dans son YAML. Le paquet met
+à jour les deux champs existants avec les choix interactifs ; le modèle et la carte
+Anki restent les mêmes. L’import est vérifié avec une collection d’essai contenant
+historique, échéances et suspensions. Voir la [revue QCM](reviews/QCM_GLOBALE.md).

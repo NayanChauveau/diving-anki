@@ -1,8 +1,9 @@
 # Règles de contenu
 
-Le deck prépare actuellement la théorie de plongée N2 en français ; N3 et N4 sont prévus
-pour la suite. Les sources convenues, leur périmètre et les vérifications nécessaires sont
-dans [le plan N2](docs/IMPLEMENTATION_N2.md). Ne pas inventer de programme ni de procédure.
+Le deck prépare la théorie de plongée N2 en français ; N3 est en cours de réalisation et N4
+est prévu pour la suite. Les sources convenues, leur périmètre et les vérifications nécessaires
+sont dans les plans [N2](docs/IMPLEMENTATION_N2.md) et [N3](docs/IMPLEMENTATION_N3.md).
+Ne pas inventer de programme ni de procédure.
 
 Rédiger des formulations originales depuis les sources fournies. Conserver une référence
 vérifiable dans `review.sources` et, si utile, `source_id`. Une question teste une notion
@@ -13,6 +14,26 @@ Vérifier les unités, hypothèses de calcul, limites des règles et dates des r
 réglementaires. Les éléments médicaux et de sécurité exigent une vérification attentive
 contre les sources. Le statut `reviewed` résulte d’une revue, jamais du seul passage des tests.
 Les cartes sont des aides à la révision, à utiliser avec la formation pratique encadrée.
+
+## Format des cartes — calibration finale du 6 octobre 2026
+
+Le **QCM est le format à choisir dès que la question peut être posée clairement avec
+une réponse vraie unique et des distracteurs crédibles**. Cela vaut aussi pour les
+calculs, les schémas, les cas et les séquences. Ne pas réserver automatiquement ces
+familles à la réponse libre, ni viser un pourcentage fixe de cartes ouvertes.
+Tout autre format est possible s’il convient mieux à la tâche ; justifier ce gain
+précis carte par carte dans la revue. « C’est un calcul » ou « pour répondre sans
+indices » ne suffisent pas à écarter un QCM réalisable et pertinent.
+Ne pas fabriquer des distracteurs absurdes : revoir les choix, puis le recto si
+nécessaire. Comparer des réponses de même nature et de longueur voisine, sans indice
+lexical ni réponse correcte seule prudente. La difficulté vient du cours, pas du flou.
+Relire séparément **chaque** choix et son explication : une alternative qui décrit
+la même erreur que la bonne réponse peut elle aussi être vraie. Une question qui
+demande une cause appelle des causes ; une question qui demande une action appelle
+des actions. Retirer aussi les labels d’un schéma qui donnent déjà la réponse.
+Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
+`anki_model: basic` afin de préserver modèle, carte et historique lors de l’import.
+
 
 ## Pertinence et répétition
 

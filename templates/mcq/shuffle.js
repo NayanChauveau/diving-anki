@@ -22,7 +22,7 @@ function divingShuffleChoices(reveal) {
 function divingWhenReady(fn) {
   var tries = 0;
   function tick() {
-    var box = document.querySelector(".choices");
+    var box = document.querySelector(".choices.is-answer") || document.querySelector(".choices");
     if (box) {
       fn(box);
       return;

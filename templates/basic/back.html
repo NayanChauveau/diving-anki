@@ -1,5 +1,9 @@
-<div class="card-shell">
+<div class="card-shell is-back">
   <div class="front">{{Front}}</div>
   <hr id="answer" class="divider">
   <div class="back">{{Back}}</div>
 </div>
+<script>
+DIVING_SHUFFLE_JS
+if (document.querySelector(".choices")) divingShuffleChoices(DIVING_SHUFFLE_REVEAL);
+</script>

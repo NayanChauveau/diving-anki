@@ -3,6 +3,26 @@
 Calibration convenue avec l’utilisateur le 5 octobre 2026. À appliquer à tous les niveaux,
 au plan de préparation et à chaque lot de cartes, en complément de [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md).
 
+## Format des cartes — calibration finale du 6 octobre 2026
+
+Le **QCM est le format à choisir dès que la question peut être posée clairement avec
+une réponse vraie unique et des distracteurs crédibles**. Cela vaut aussi pour les
+calculs, les schémas, les cas et les séquences. Ne pas réserver automatiquement ces
+familles à la réponse libre, ni viser un pourcentage fixe de cartes ouvertes.
+Tout autre format est possible s’il convient mieux à la tâche ; justifier ce gain
+précis carte par carte dans la revue. « C’est un calcul » ou « pour répondre sans
+indices » ne suffisent pas à écarter un QCM réalisable et pertinent.
+Ne pas fabriquer des distracteurs absurdes : revoir les choix, puis le recto si
+nécessaire. Comparer des réponses de même nature et de longueur voisine, sans indice
+lexical ni réponse correcte seule prudente. La difficulté vient du cours, pas du flou.
+Relire séparément **chaque** choix et son explication : une alternative qui décrit
+la même erreur que la bonne réponse peut elle aussi être vraie. Une question qui
+demande une cause appelle des causes ; une question qui demande une action appelle
+des actions. Retirer aussi les labels d’un schéma qui donnent déjà la réponse.
+Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
+`anki_model: basic` afin de préserver modèle, carte et historique lors de l’import.
+
+
 ## Décider si une carte mérite d’exister
 
 Un fait simple reçoit une carte : Anki assure sa répétition au fil des révisions.

@@ -97,6 +97,9 @@ def fill_fields(note: PreparedNote, *, ui_fr: dict[str, str]) -> None:
     card = note.card
     if isinstance(card, McqCard):
         note.fields = _mcq_fields(card, "fr", ui_fr)
+        if note.model == "basic":
+            question, front, back, explanation = note.fields
+            note.fields = [question + front, back + explanation]
     elif isinstance(card, BasicCard):
         note.fields = _basic_fields(card, "fr")
     else:
@@ -120,7 +123,11 @@ def prepare(
                 guid=note_guid(card.id),
                 deck=f"Plongée::{card.deck}",
                 tags=card_tags(card, ["lang::fr", *[f"level::{item}" for item in card.levels]]),
-                model=MONOLINGUAL_MODELS[card.type],
+                model=(
+                    card.anki_model or "mcq"
+                    if isinstance(card, McqCard)
+                    else MONOLINGUAL_MODELS[card.type]
+                ),
                 card=card,
                 lang="fr",
             )
@@ -145,6 +152,9 @@ def load_models(templates: Path) -> dict[str, genanki.Model]:
     )
     basic_front = read_template(templates, "basic", "front.html")
     basic_back = read_template(templates, "basic", "back.html")
+    basic_front = inject_mcq_shuffle(basic_front, shuffle_js, reveal=False)
+    basic_back = inject_mcq_shuffle(basic_back, shuffle_js, reveal=True)
+    basic_css += "\n" + mcq_css
     cloze_front = read_template(templates, "cloze", "front.html")
     cloze_back = read_template(templates, "cloze", "back.html")
 

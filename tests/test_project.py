@@ -7,7 +7,7 @@ import jsonschema
 import pytest
 from pydantic import ValidationError
 
-from diving_anki.build import build_collection, prepare
+from diving_anki.build import build_collection, fill_fields, prepare
 from diving_anki.cli import main
 from diving_anki.ids import MCQ_MODEL_ID, note_guid
 from diving_anki.json_schema import card_file_json_schema, schema_matches
@@ -48,6 +48,19 @@ def test_selection_and_drafts():
     assert len(prepare([shared, draft], "N3").notes) == 1
     assert not prepare([shared, draft], "N4").notes
     assert prepare([shared], "N2").notes[0].guid == prepare([shared], "N3").notes[0].guid
+
+
+def test_converted_mcq_keeps_two_field_model():
+    converted = card("mcq", anki_model="basic", status="reviewed")
+    note = prepare([converted], "combined").notes[0]
+    fill_fields(note, ui_fr={"explanation": "Explication"})
+    assert note.model == "basic"
+    assert len(note.fields) == 2
+    assert 'class="choices"' in note.fields[0]
+    assert 'class="choice correct"' not in note.fields[0]
+    assert 'class="choices is-answer"' in note.fields[1]
+    assert 'class="choice correct"' in note.fields[1]
+    assert "Explication" in note.fields[1]
 
 
 @pytest.mark.parametrize(

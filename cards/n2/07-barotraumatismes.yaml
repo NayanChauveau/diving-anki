@@ -1,9 +1,11 @@
 cards:
 - id: n2-barotraumatismes-mecanisme-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -11,15 +13,24 @@ cards:
   source_id: P207
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Ears and Diving, Chapter 2: Injuries : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ear-injuries/'
     - 'DAN — Back to Basics, barotraumatisme pulmonaire et embolie gazeuse artérielle : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Qu’est-ce qui provoque une lésion barotraumatique dans une cavité contenant du gaz ?
-    back: '**Un déséquilibre de pression entre le gaz de la cavité et son environnement.** Si l’air ne
-      peut pas entrer ou sortir suffisamment, la variation de pression déforme les tissus et peut les
+    question: Qu’est-ce qui provoque une lésion barotraumatique dans une cavité contenant du gaz ?
+    choices:
+    - text: Une différence de pression entre cavité gazeuse et environnement
+      correct: true
+    - text: Une pression ambiante élevée, même avec la cavité équilibrée
+      correct: false
+    - text: Une diminution de la quantité d’azote dissous dans les tissus
+      correct: false
+    explanation: '**Un déséquilibre de pression entre le gaz de la cavité et son environnement.** Si l’air
+      ne peut pas entrer ou sortir suffisamment, la variation de pression déforme les tissus et peut les
       léser. À la descente, le gaz se comprime ; à la remontée, un gaz piégé cherche à se dilater.'
 - id: n2-barotraumatismes-placage-masque-001
   type: mcq
@@ -79,7 +90,8 @@ cards:
     explanation: Ces ouvertures sont appelées ostia. Une muqueuse gonflée peut les obstruer et empêcher
       l’équilibrage. Les trompes d’Eustache relient l’oreille moyenne au nasopharynx, pas les sinus.
 - id: n2-barotraumatismes-sinus-alerte-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -90,22 +102,32 @@ cards:
   source_id: P218
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Sinus Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Quels signes peuvent faire suspecter un barotraumatisme des sinus pendant ou après une plongée
+    question: Quels signes peuvent faire suspecter un barotraumatisme des sinus pendant ou après une plongée
       ?
-    back: '**Une douleur faciale aiguë, notamment au front ou sous les pommettes, et parfois du sang au
-      nez.** La douleur peut apparaître à la descente ou à la remontée. Les sinus maxillaires peuvent
+    choices:
+    - text: Douleur faciale au front ou aux pommettes, parfois sang au nez
+      correct: true
+    - text: Marbrures du tronc et démangeaisons apparues après la sortie
+      correct: false
+    - text: Douleur profonde de l’épaule avec faiblesse d’un bras
+      correct: false
+    explanation: '**Une douleur faciale aiguë, notamment au front ou sous les pommettes, et parfois du sang
+      au nez.** La douleur peut apparaître à la descente ou à la remontée. Les sinus maxillaires peuvent
       aussi donner une douleur ressentie vers les dents supérieures ; ces signes nécessitent une évaluation,
       sans permettre à eux seuls un diagnostic certain.'
 - id: n2-barotraumatismes-sinus-descente-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -113,18 +135,29 @@ cards:
   source_id: P220
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Sinus Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Une douleur localisée aux sinus apparaît pendant la descente et ne s’efface pas spontanément.
-      Faut-il poursuivre pour voir si elle passe plus profond ?
-    back: '**Non : arrêter la descente et interrompre la plongée en remontant de façon contrôlée avec
-      son équipier.** Descendre davantage augmente le déséquilibre de pression et peut aggraver la lésion.
-      Une congestion ou une difficulté d’équilibrage est une raison de renoncer, pas de forcer.'
+    question: Une douleur localisée aux sinus apparaît pendant la descente et ne s’efface pas spontanément.
+      Quelle conduite adopter ?
+    choices:
+    - text: Arrêter la descente et terminer la plongée de façon contrôlée
+      correct: true
+    - text: Maintenir la profondeur et forcer plusieurs équilibrages
+      correct: false
+    - text: Descendre plus lentement en attendant que la douleur cesse
+      correct: false
+    explanation: '**Non : arrêter la descente et interrompre la plongée en remontant de façon contrôlée
+      avec son équipier.** Descendre davantage augmente le déséquilibre de pression et peut aggraver la
+      lésion. Une congestion ou une difficulté d’équilibrage est une raison de renoncer, pas de forcer.'
 - id: n2-barotraumatismes-sinus-remontee-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -135,16 +168,25 @@ cards:
   source_id: P221
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Sinus Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Une descente sans douleur exclut-elle un barotraumatisme des sinus pendant la remontée ?
-    back: '**Non.** L’air peut être entré à la descente puis rester piégé si un orifice s’obstrue. À la
-      remontée, il se dilate et peut créer un blocage inversé douloureux. Une douleur ou un saignement
-      après la plongée nécessite une évaluation médicale ; la disparition momentanée de la douleur ne
-      prouve pas la guérison.'
+    question: Une descente sans douleur exclut-elle un barotraumatisme des sinus pendant la remontée ?
+    choices:
+    - text: 'Non : un orifice peut s’obstruer et empêcher l’évacuation du gaz'
+      correct: true
+    - text: 'Oui : l’équilibrage à la descente suffit à maintenir les pressions égales à la remontée'
+      correct: false
+    - text: 'Oui : les trompes d’Eustache assurent l’évacuation du gaz des sinus à la remontée'
+      correct: false
+    explanation: '**Non.** L’air peut être entré à la descente puis rester piégé si un orifice s’obstrue.
+      À la remontée, il se dilate et peut créer un blocage inversé douloureux. Une douleur ou un saignement
+      après la plongée nécessite une évaluation médicale ; la disparition momentanée de la douleur ne prouve
+      pas la guérison.'
 - id: n2-barotraumatismes-trompe-eustache-001
   type: mcq
   deck: Prévention des accidents
@@ -175,10 +217,12 @@ cards:
       cavité du conduit auditif externe ; les canaux de l’oreille interne participent à l’équilibre, pas
       à cet apport d’air.
 - id: n2-barotraumatismes-rhume-equilibrage-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -186,19 +230,30 @@ cards:
   source_id: P230
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Ears and Diving, Chapter 2: Injuries : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ear-injuries/'
     - 'DAN — Sinus Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Pourquoi être capable de respirer par le nez malgré un rhume ne garantit-il pas que les oreilles
+    question: Pourquoi être capable de respirer par le nez malgré un rhume ne garantit-il pas que les oreilles
       et les sinus s’équilibreront correctement ?
-    back: '**Les passages utiles à l’équilibrage peuvent rester obstrués.** Le gonflement des muqueuses
-      peut fermer les trompes d’Eustache ou les petits orifices des sinus, même si les fosses nasales
-      laissent encore passer de l’air. Ne pas plonger congestionné ou si l’équilibrage est difficile.'
+    choices:
+    - text: Les fosses nasales peuvent rester ouvertes malgré des trompes ou des ostia obstrués
+      correct: true
+    - text: Les fosses nasales ouvertes garantissent une communication libre vers les oreilles et les sinus
+      correct: false
+    - text: Le passage d’air par le nez compense les cavités même si leurs petits conduits restent fermés
+      correct: false
+    explanation: '**Les passages utiles à l’équilibrage peuvent rester obstrués.** Le gonflement des muqueuses
+      peut fermer les trompes d’Eustache ou les petits orifices des sinus, même si les fosses nasales laissent
+      encore passer de l’air. Ne pas plonger congestionné ou si l’équilibrage est difficile.'
 - id: n2-barotraumatismes-position-descente-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -209,21 +264,30 @@ cards:
   source_id: P231
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Ears and Diving, Chapter 1: Key Information : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Pourquoi une descente lente tête en haut facilite-t-elle généralement l’équilibrage des oreilles
+    question: Pourquoi une descente lente tête en haut facilite-t-elle généralement l’équilibrage des oreilles
       par rapport à une descente tête en bas ?
-    back: '**Tête en haut, l’air se dirige plus facilement vers les trompes d’Eustache et l’oreille moyenne.**
-      Une descente lente permet de l’apporter tôt et progressivement, avant la douleur. Cette position
-      facilite l’équilibrage sans rendre acceptable une manœuvre forcée.'
+    choices:
+    - text: L’air rejoint plus facilement l’oreille moyenne via les trompes
+      correct: true
+    - text: Le tympan subit moins de pression extérieure à profondeur égale
+      correct: false
+    - text: La tête en haut évite d’avoir à ouvrir les trompes d’Eustache
+      correct: false
+    explanation: '**Tête en haut, l’air se dirige plus facilement vers les trompes d’Eustache et l’oreille
+      moyenne.** Une descente lente permet de l’apporter tôt et progressivement, avant la douleur. Cette
+      position facilite l’équilibrage sans rendre acceptable une manœuvre forcée.'
 - id: n2-barotraumatismes-vertige-alternobarique-001
   type: mcq
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -231,6 +295,7 @@ cards:
   source_id: P233
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Alternobaric Vertigo (2023) : https://dan.org/safety-prevention/diver-safety/divers-blog/alternobaric-vertigo/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
@@ -248,7 +313,8 @@ cards:
       provoquer rotation, nausée et désorientation. Un vertige persistant après la plongée doit faire
       rechercher d’autres atteintes, notamment de l’oreille interne.
 - id: n2-barotraumatismes-bouchons-oreilles-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -259,18 +325,27 @@ cards:
   source_id: P236
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Avoid Diving with Earplugs : https://dan.org/alert-diver/article/avoid-diving-with-earplugs/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Pourquoi des bouchons étanches dans les oreilles peuvent-ils provoquer un barotraumatisme malgré
-      un bon équilibrage de l’oreille moyenne ?
-    back: '**Ils peuvent enfermer de l’air entre le bouchon et le tympan, dans le conduit auditif externe.**
-      Cet espace fermé ne suit pas correctement les variations de pression. Équilibrer par la trompe d’Eustache
-      agit sur l’oreille moyenne, pas sur cette poche extérieure.'
+    question: Pourquoi des bouchons étanches dans les oreilles peuvent-ils provoquer un barotraumatisme
+      malgré un bon équilibrage de l’oreille moyenne ?
+    choices:
+    - text: Ils isolent une poche de gaz dans le conduit auditif externe
+      correct: true
+    - text: Ils isolent une poche de gaz dans l’oreille moyenne
+      correct: false
+    - text: Ils empêchent l’oreille moyenne d’être alimentée par les trompes
+      correct: false
+    explanation: '**Ils peuvent enfermer de l’air entre le bouchon et le tympan, dans le conduit auditif
+      externe.** Cet espace fermé ne suit pas correctement les variations de pression. Équilibrer par la
+      trompe d’Eustache agit sur l’oreille moyenne, pas sur cette poche extérieure.'
 - id: n2-barotraumatismes-dents-gaz-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -281,18 +356,28 @@ cards:
   source_id: P237
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Unexpected Air Pockets : https://dan.org/alert-diver/article/unexpected-air-pockets/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Comment une obturation dentaire défectueuse peut-elle provoquer une douleur liée à la pression
+    question: Comment une obturation dentaire défectueuse peut-elle provoquer une douleur liée à la pression
       pendant une plongée ?
-    back: '**Elle peut laisser une poche de gaz se former ou communiquer insuffisamment avec l’extérieur.**
+    choices:
+    - text: Une poche de gaz mal ventilée crée un déséquilibre de pression dans la dent
+      correct: true
+    - text: Une poche de gaz piégée garde le même volume et reste équilibrée à toute profondeur
+      correct: false
+    - text: Une baisse de pression ambiante comprime la poche de gaz et l’obturation
+      correct: false
+    explanation: '**Elle peut laisser une poche de gaz se former ou communiquer insuffisamment avec l’extérieur.**
       La pression du gaz ne suit alors pas correctement la pression ambiante. Sa compression ou son expansion
       peut provoquer une douleur ; à la remontée, le gaz piégé peut endommager la dent ou l’obturation.'
 - id: n2-barotraumatismes-douleur-dentaire-suivi-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -303,18 +388,27 @@ cards:
   source_id: P239
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Unexpected Air Pockets : https://dan.org/alert-diver/article/unexpected-air-pockets/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Après une douleur dentaire aiguë apparue à la remontée, pourquoi faut-il faire contrôler la
+    question: Après une douleur dentaire aiguë apparue à la remontée, pourquoi faut-il faire contrôler la
       dent avant de replonger, même si la douleur a cessé en surface ?
-    back: '**Une obturation ou une dent peut être endommagée et la cause rester présente.** La baisse
+    choices:
+    - text: La dent ou l’obturation peut rester endommagée
+      correct: true
+    - text: La disparition de douleur confirme que la poche de gaz est éliminée
+      correct: false
+    - text: La pression de surface empêche le défaut de se reproduire
+      correct: false
+    explanation: '**Une obturation ou une dent peut être endommagée et la cause rester présente.** La baisse
       de pression a pu faire se dilater une poche de gaz piégée. Un contrôle dentaire recherche et traite
       le défaut ; la fin de la douleur n’atteste pas que la dent est saine.'
 - id: n2-barotraumatismes-gaz-digestifs-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
@@ -325,21 +419,31 @@ cards:
   source_id: P240
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'NASA — Equation of State, expansion du gaz à température constante : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: À la remontée, pourquoi du gaz avalé ou déjà présent dans le tube digestif peut-il provoquer
+    question: À la remontée, pourquoi du gaz avalé ou déjà présent dans le tube digestif peut-il provoquer
       une distension douloureuse ?
-    back: '**La pression ambiante baisse et le gaz tend à augmenter de volume.** S’il ne s’évacue pas
-      facilement, cette expansion peut distendre l’estomac ou l’intestin. Une douleur abdominale n’a toutefois
-      pas une cause unique ; son intensité ou sa persistance doit être prise au sérieux.'
+    choices:
+    - text: Le gaz piégé tend à se dilater quand la pression baisse
+      correct: true
+    - text: Le gaz piégé tend à se comprimer quand la pression baisse
+      correct: false
+    - text: Le gaz piégé conserve son volume lorsque sa quantité reste constante
+      correct: false
+    explanation: '**La pression ambiante baisse et le gaz tend à augmenter de volume.** S’il ne s’évacue
+      pas facilement, cette expansion peut distendre l’estomac ou l’intestin. Une douleur abdominale n’a
+      toutefois pas une cause unique ; son intensité ou sa persistance doit être prise au sérieux.'
 - id: n2-barotraumatismes-surpression-mecanisme-001
   type: mcq
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -347,6 +451,7 @@ cards:
   source_id: P243
   review:
     sources:
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Back to Basics, barotraumatisme pulmonaire et embolie gazeuse artérielle : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
@@ -365,10 +470,12 @@ cards:
       peut léser les poumons et parfois faire passer du gaz dans la circulation artérielle. Ce mécanisme
       mécanique diffère de la formation de bulles à partir du gaz dissous lors d’un accident de désaturation.
 - id: n2-barotraumatismes-faible-profondeur-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -376,22 +483,33 @@ cards:
   source_id: P245
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN World — Shallow-Water Arterial Gas Embolisms : https://world.dan.org/alert-diver/article/shallow-water-arterial-gas-embolisms/'
     - 'DAN — Back to Basics, barotraumatisme pulmonaire et embolie gazeuse artérielle : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Une surpression pulmonaire est-elle possible après une remontée de quelques mètres seulement
+    question: Une surpression pulmonaire est-elle possible après une remontée de quelques mètres seulement
       en scaphandre, par exemple depuis le fond d’une piscine ?
-    back: '**Oui, si du gaz reste piégé dans les poumons.** Une faible profondeur ne protège pas : près
-      de la surface, une petite remontée produit déjà une augmentation proportionnelle importante du volume
-      du gaz. La respiration doit rester libre pendant la remontée.'
+    choices:
+    - text: 'Oui : du gaz piégé peut se dilater fortement près de la surface'
+      correct: true
+    - text: 'Non : il faut au moins 2 bars de pression hydrostatique'
+      correct: false
+    - text: 'Non : la faible durée en piscine empêche ce mécanisme'
+      correct: false
+    explanation: '**Oui, si du gaz reste piégé dans les poumons.** Une faible profondeur ne protège pas
+      : près de la surface, une petite remontée produit déjà une augmentation proportionnelle importante
+      du volume du gaz. La respiration doit rester libre pendant la remontée.'
 - id: n2-barotraumatismes-signes-respiratoires-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -399,6 +517,9 @@ cards:
   source_id: P249
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN World — Decompression Illness, signes AGE et prise en charge : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, page du 10 mars 2021 consultée le
@@ -406,17 +527,26 @@ cards:
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Après la plongée, une douleur thoracique et une difficulté respiratoire apparaissent, éventuellement
-      avec du sang dans les crachats. Pourquoi faut-il déclencher une prise en charge urgente sans attendre
-      un diagnostic précis ?
-    back: '**Ces signes peuvent accompagner une lésion pulmonaire grave.** Un barotraumatisme pulmonaire
-      fait partie des causes possibles, ainsi qu’un œdème pulmonaire d’immersion ou d’autres urgences.
-      Respecter les paliers ou avoir peu plongé ne suffit pas à les écarter : alerter les secours immédiatement.'
+    question: Après une plongée avec paliers respectés, une douleur thoracique et une difficulté respiratoire
+      apparaissent, parfois avec du sang dans les crachats. Quelle interprétation justifie une alerte urgente
+      ?
+    choices:
+    - text: Une lésion pulmonaire, notamment barotraumatique ou liée à un OPI, reste possible
+      correct: true
+    - text: Les paliers respectés excluent le barotraumatisme pulmonaire mais pas l’OPI
+      correct: false
+    - text: Les paliers respectés excluent l’OPI mais pas le barotraumatisme pulmonaire
+      correct: false
+    explanation: '**Ces signes peuvent accompagner une lésion pulmonaire grave.** Un barotraumatisme pulmonaire
+      fait partie des causes possibles, ainsi qu’un œdème pulmonaire d’immersion ou d’autres urgences. Respecter
+      les paliers ou avoir peu plongé ne suffit pas à les écarter : alerter les secours immédiatement.'
 - id: n2-barotraumatismes-signes-neurologiques-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -424,6 +554,8 @@ cards:
   source_id: P250
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN — Back to Basics, barotraumatisme pulmonaire et embolie gazeuse artérielle : https://dan.org/alert-diver/article/back-to-basics/'
     - 'DAN World — Decompression Illness, signes AGE et prise en charge : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
@@ -432,18 +564,27 @@ cards:
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Juste après la sortie de l’eau, un plongeur devient confus et perd la force d’un bras. Il ne
-      se plaint pas de douleur thoracique. Peut-on écarter une complication grave de surpression pulmonaire
+    question: Juste après la sortie de l’eau, un plongeur devient confus et perd la force d’un bras. Il
+      ne se plaint pas de douleur thoracique. Peut-on écarter une complication grave de surpression pulmonaire
       ?
-    back: '**Non : une embolie gazeuse artérielle peut provoquer des signes neurologiques sans plainte
+    choices:
+    - text: 'Non : une embolie gazeuse peut produire des signes neurologiques isolés'
+      correct: true
+    - text: 'Oui : une embolie d’origine pulmonaire impose une douleur thoracique'
+      correct: false
+    - text: 'Oui : une faiblesse isolée traduit seulement une fatigue musculaire'
+      correct: false
+    explanation: '**Non : une embolie gazeuse artérielle peut provoquer des signes neurologiques sans plainte
       thoracique.** Du gaz peut passer depuis les poumons lésés vers la circulation et atteindre le cerveau.
       Confusion, faiblesse, troubles de la sensibilité ou de la conscience imposent une alerte urgente,
       même si le diagnostic exact reste à établir.'
 - id: n2-barotraumatismes-alerte-oxygene-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -451,6 +592,8 @@ cards:
   source_id: P252
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, page du 10 mars 2021 consultée le
       2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
@@ -458,17 +601,26 @@ cards:
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: À la surface, un plongeur conscient qui respire présente des signes faisant suspecter un barotraumatisme
+    question: À la surface, un plongeur conscient qui respire présente des signes faisant suspecter un barotraumatisme
       pulmonaire. Quelles actions prioritaires faut-il engager ?
-    back: '**Alerter immédiatement les secours et administrer de l’oxygène normobare**, avec le matériel
-      adapté et selon la formation de secourisme. Prévenir le directeur de plongée, appliquer le plan
-      de secours, surveiller la victime et transmettre les paramètres de plongée. Ne pas tenter une recompression
-      en la réimmergeant.'
+    choices:
+    - text: Alerte immédiate et oxygène adapté, avec surveillance
+      correct: true
+    - text: Observation d’abord, puis alerte si les signes persistent
+      correct: false
+    - text: Réimmersion assistée d’abord, puis oxygène à la sortie
+      correct: false
+    explanation: '**Alerter immédiatement les secours et administrer de l’oxygène normobare**, avec le matériel
+      adapté et selon la formation de secourisme. Prévenir le directeur de plongée s’il est présent, appliquer
+      le plan de secours, surveiller la victime et transmettre les paramètres de plongée. Ne pas tenter
+      une recompression en la réimmergeant.'
 - id: n2-barotraumatismes-amelioration-symptomes-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -476,6 +628,8 @@ cards:
   source_id: P252
   review:
     sources:
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'DAN World — Decompression Illness, signes AGE et prise en charge : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, page du 10 mars 2021 consultée le
@@ -484,16 +638,25 @@ cards:
     - 'Revue et vérification du 2026-10-06 : docs/reviews/07-barotraumatismes.md'
     fact_check: pass
   fr:
-    front: Après une suspicion d’accident pulmonaire ou neurologique de plongée, les symptômes diminuent
+    question: Après une suspicion d’accident pulmonaire ou neurologique de plongée, les symptômes diminuent
       sous oxygène. Peut-on annuler l’évaluation médicale urgente ?
-    back: '**Non.** Une amélioration ne permet pas d’exclure une lésion ou une récidive des troubles.
+    choices:
+    - text: 'Non : poursuivre l’oxygène et maintenir l’évaluation urgente'
+      correct: true
+    - text: 'Oui : suspendre la prise en charge dès disparition des signes'
+      correct: false
+    - text: 'Oui : remplacer l’évaluation par une surveillance de la palanquée'
+      correct: false
+    explanation: '**Non.** Une amélioration ne permet pas d’exclure une lésion ou une récidive des troubles.
       Poursuivre l’oxygène jusqu’au relais des secours spécialisés et maintenir la prise en charge médicale
       urgente.'
 - id: n2-barotraumatismes-victime-non-respirante-001
-  type: basic
+  type: mcq
+  anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N3
   tags:
   - chapitre::07
   - barotraumatismes
@@ -501,6 +664,9 @@ cards:
   source_id: P252
   review:
     sources:
+    - 'Revue finale des formats, clarté et distracteurs du 2026-10-06 : docs/reviews/QCM_REVUE_FINALE.md'
+    - 'Conversion QCM et revue des choix du 2026-10-06 : docs/reviews/QCM_GLOBALE.md'
+    - 'N3-S01 — MFT N3 FFESSM, décembre 2025, p.10, 11, 15 ; pertinence N3 revue le 2026-10-06 : docs/reviews/n3/00-reprises-n2.md'
     - S1 — Théorie N2 Stade de Vanves 2024, p.12–16.
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, page du 10 mars 2021 consultée le
       2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
@@ -509,8 +675,15 @@ cards:
     - 'DAN World — Decompression Illness, réanimation et oxygène : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     fact_check: pass
   fr:
-    front: Une victime d’accident de plongée est inconsciente et ne respire pas normalement. Peut-on se
-      limiter à poser un masque à oxygène sur son visage ?
-    back: '**Non : il faut engager la réanimation cardio-respiratoire et l’alerte.** Un masque seul ne
-      fait pas respirer une victime qui ne respire pas. La ventilation assistée et l’oxygène s’intègrent
+    question: Une victime d’accident de plongée est inconsciente et ne respire pas normalement. Quels gestes
+      doivent être engagés en priorité ?
+    choices:
+    - text: Réanimation cardio-respiratoire et alerte des secours
+      correct: true
+    - text: Position latérale de sécurité, oxygène au masque et alerte
+      correct: false
+    - text: Oxygène au masque seul et alerte, avant de réévaluer la respiration
+      correct: false
+    explanation: '**Non : il faut engager la réanimation cardio-respiratoire et l’alerte.** Un masque seul
+      ne fait pas respirer une victime qui ne respire pas. La ventilation assistée et l’oxygène s’intègrent
       aux gestes de secourisme avec le matériel approprié.'

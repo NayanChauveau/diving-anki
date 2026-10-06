@@ -9,6 +9,7 @@ import genanki
 import pytest
 
 from diving_anki.build import build_collection, prepare, write_package
+from diving_anki.ids import BASIC_MODEL_ID
 from diving_anki.schema import CardAdapter
 
 anki = pytest.importorskip("anki.collection", reason="Optional real Anki import runtime")
@@ -29,7 +30,8 @@ def example(card_id: str, levels: list[str]):
 
 
 @pytest.mark.parametrize("legacy_n2", [True, False])
-def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2):
+@pytest.mark.parametrize("classic_import", [True, False])
+def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2, classic_import):
     shared = example("shared-test-001", ["N2", "N3", "N4"])
     suspended = example("suspended-test-001", ["N2", "N3", "N4"])
     initial = prepare([shared, suspended], "N2" if legacy_n2 else "N4")
@@ -46,6 +48,11 @@ def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2):
     try:
 
         def import_package(path):
+            if classic_import:
+                # AnkiConnect importPackage uses this importer in the installed add-on.
+                importing = pytest.importorskip("anki.importing")
+                importing.AnkiPackageImporter(col, str(path)).run()
+                return
             col.import_anki_package(
                 anki.ImportAnkiPackageRequest(
                     package_path=str(path),
@@ -86,9 +93,25 @@ def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2):
         before = col.db.all(state_sql)
         history = col.db.all("select * from revlog order by id")
         n4_only = example("n4-only-test-001", ["N4"])
+        converted = []
+        for original in (shared, suspended):
+            data = original.model_dump(mode="json")
+            data.update(
+                type="mcq",
+                anki_model="basic",
+                fr={
+                    "question": "Question convertie",
+                    "choices": [
+                        {"text": "Réponse correcte", "correct": True},
+                        {"text": "Confusion plausible", "correct": False},
+                    ],
+                    "explanation": "Explication convertie",
+                },
+            )
+            converted.append(CardAdapter.validate_python(data))
         for _ in range(3):
             package, _ = build_collection(
-                [shared, suspended, n4_only],
+                [*converted, n4_only],
                 templates=ROOT / "templates",
                 out_dir=tmp_path,
             )
@@ -100,5 +123,11 @@ def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2):
         for note_id in col.db.list("select nid from cards where id in (?,?)", *card_ids):
             tags = col.get_note(note_id).tags
             assert {"level::N2", "level::N3", "level::N4"}.issubset(tags)
+            note = col.get_note(note_id)
+            assert note.mid == BASIC_MODEL_ID
+            assert len(note.fields) == 2
+            assert "Question convertie" in note.fields[0]
+            assert "Explication convertie" in note.fields[1]
+            assert 'class="choices is-answer"' in note.fields[1]
     finally:
         col.close()
