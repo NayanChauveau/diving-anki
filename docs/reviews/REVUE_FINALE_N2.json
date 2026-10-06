@@ -1,0 +1,1635 @@
+{
+  "date": "2026-10-06",
+  "baseline": "806960e",
+  "before": 312,
+  "after": 308,
+  "decisions": [
+    {
+      "id": "n2-narcose-air-001",
+      "source_id": "P299",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-dalton-001",
+      "source_id": "P302",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-oxygene-trente-001",
+      "source_id": "P304",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-azote-quarante-001",
+      "source_id": "P306",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-partielle-vingt-001",
+      "source_id": "P302",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-fraction-pression-001",
+      "source_id": "P307",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-effets-001",
+      "source_id": "P308",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-variabilite-001",
+      "source_id": "P309",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-capacites-001",
+      "source_id": "P313",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-conditions-001",
+      "source_id": "P316",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-medicaments-001",
+      "source_id": "P319",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-reaction-001",
+      "source_id": "P321",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-equipier-001",
+      "source_id": "P325",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-narcose-apres-sortie-001",
+      "source_id": "P326",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-n2-aptitudes-001",
+      "source_id": "P001",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-prerogatives-qualifications-separees-001",
+      "source_id": "P004",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-autonomie-dp-001",
+      "source_id": "P006",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pa20-effectif-001",
+      "source_id": "P007",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pa20-equipiers-001",
+      "source_id": "P008",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-autonome-trente-001",
+      "source_id": "P010",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-prerogatives-aptitude-restrictive-001",
+      "source_id": "P012",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-prerogatives-age-pe40-001",
+      "source_id": "P013",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-age-certification-001",
+      "source_id": "P014",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-quinze-ans-n2-001",
+      "source_id": "P016",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-mineur-autorisation-001",
+      "source_id": "P017",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-mineur-information-001",
+      "source_id": "P018",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pe40-moins-seize-paliers-001",
+      "source_id": "P019",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pe40-moins-seize-nombre-001",
+      "source_id": "P020",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pe40-moins-seize-intervalle-001",
+      "source_id": "P020",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-pe40-moins-seize-seconde-001",
+      "source_id": "P021",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-documents-formation-001",
+      "source_id": "P022",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-prerogatives-prerequis-niveau-001",
+      "source_id": "P023",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-experience-naturel-001",
+      "source_id": "P024",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-cmas-etoiles-001",
+      "source_id": "P026",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-prerogatives-etranger-regles-001",
+      "source_id": "P027",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-lecture-pannes-eau-bouche-001",
+      "source_id": "P573",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-lecture-pannes-chambre-humide-001",
+      "source_id": "P578",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-lecture-pannes-flexible-001",
+      "source_id": "P580",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-profondeur-001",
+      "source_id": "P261",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-co2-001",
+      "source_id": "P262",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-effort-001",
+      "source_id": "P263",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-materiel-001",
+      "source_id": "P265",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-essoufflement-air-pollue-001",
+      "source_id": "P267",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-signes-001",
+      "source_id": "P268",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-panique-001",
+      "source_id": "P270",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-premiers-signes-001",
+      "source_id": "P272",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-essoufflement-assistance-001",
+      "source_id": "P274",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-essoufflement-courant-001",
+      "source_id": "P277",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-essoufflement-moins-profond-001",
+      "source_id": "P279",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-flottabilite-poids-reel-apparent-001",
+      "source_id": "P133",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-archimede-001",
+      "source_id": "P134",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-relation-poids-apparent-001",
+      "source_id": "P136",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-signe-001",
+      "source_id": "P138",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-calcul-cinq-kg-001",
+      "source_id": "P142",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-calcul-deux-kg-001",
+      "source_id": "P142",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-calcul-neutre-001",
+      "source_id": "P142",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-volume-portance-001",
+      "source_id": "P145",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-lest-caisson-001",
+      "source_id": "P146",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-volume-double-001",
+      "source_id": "P147",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-neoprene-001",
+      "source_id": "P151",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-gilet-001",
+      "source_id": "P154",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-poumon-ballast-001",
+      "source_id": "P155",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-respiration-001",
+      "source_id": "P157",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-bloc-consomme-001",
+      "source_id": "P158",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-combinaison-lest-001",
+      "source_id": "P162",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-eau-douce-mer-001",
+      "source_id": "P163",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-carnet-lestage-001",
+      "source_id": "P166",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-parachute-traction-001",
+      "source_id": "P168",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-flottabilite-perte-lest-001",
+      "source_id": "P169",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-surlestage-001",
+      "source_id": "P170",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-palier-bloc-allege-001",
+      "source_id": "P172",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-volume-neutre-001",
+      "source_id": "P145",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-volume-lest-001",
+      "source_id": "P146",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-flottabilite-calcul-eau-salee-001",
+      "source_id": "P163",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-pressions-001",
+      "source_id": "P508",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-detendeurs-relative-absolue-001",
+      "source_id": "P512",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-fixations-001",
+      "source_id": "P514",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-membrane-piston-001",
+      "source_id": "P515",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-cycle-001",
+      "source_id": "P519",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-inspiration-001",
+      "source_id": "P521",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-purge-001",
+      "source_id": "P523",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-eau-second-etage-001",
+      "source_id": "P524",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-rincage-001",
+      "source_id": "P525",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-compensation-001",
+      "source_id": "P526",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-eau-froide-001",
+      "source_id": "P532",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-soins-001",
+      "source_id": "P537",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-revision-001",
+      "source_id": "P539",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-debit-continu-001",
+      "source_id": "P540",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-fuite-montage-001",
+      "source_id": "P541",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-inspiration-difficile-001",
+      "source_id": "P542",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-detendeurs-incident-immersion-001",
+      "source_id": "P543",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-diagnostic-001",
+      "source_id": "P544",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-detendeurs-bouche-001",
+      "source_id": "P545",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-mp-vingt-001",
+      "source_id": "P627",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-detendeurs-mp-quarante-001",
+      "source_id": "P627",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-bilan-thermique-001",
+      "source_id": "P281",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-signes-001",
+      "source_id": "P283",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-froid-fin-frissons-001",
+      "source_id": "P286",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-interrompre-001",
+      "source_id": "P288",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-froid-protection-001",
+      "source_id": "P289",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-fatigue-001",
+      "source_id": "P291",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-interactions-001",
+      "source_id": "P292",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-sortie-001",
+      "source_id": "P293",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-rechauffement-001",
+      "source_id": "P295",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-boisson-001",
+      "source_id": "P296",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-froid-parachute-001",
+      "source_id": "P298",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-documents-caci-validite-medecin-001",
+      "source_id": "P061",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-licence-affiliation-001",
+      "source_id": "P063",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-assurance-rc-aia-001",
+      "source_id": "P064",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-zones-reglementees-001",
+      "source_id": "P069",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-prelevements-observation-001",
+      "source_id": "P070",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-decouverte-archeologique-001",
+      "source_id": "P071",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-peche-scaphandre-001",
+      "source_id": "P073",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-pavillon-alpha-001",
+      "source_id": "P074",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-distance-navires-locale-001",
+      "source_id": "P076",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-suivi-bloc-001",
+      "source_id": "P078",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-federation-role-001",
+      "source_id": "P079",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-documents-cmas-role-001",
+      "source_id": "P080",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-communication-001",
+      "source_id": "P555",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-retour-001",
+      "source_id": "P561",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-reperes-001",
+      "source_id": "P562",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-cap-retour-001",
+      "source_id": "P563",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-cap-retour-ouest-001",
+      "source_id": "P563",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-separation-001",
+      "source_id": "P564",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-parachute-ligne-001",
+      "source_id": "P565",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-competences-transversales-renoncer-001",
+      "source_id": "P569",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-competences-transversales-paliers-profonds-air-001",
+      "source_id": "P639",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-profil-001",
+      "source_id": "P415",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-affichages-001",
+      "source_id": "P418",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-alarme-vitesse-001",
+      "source_id": "P422",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-gaz-001",
+      "source_id": "P423",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-salinite-001",
+      "source_id": "P424",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-historique-001",
+      "source_id": "P427",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-controle-001",
+      "source_id": "P430",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-collectif-001",
+      "source_id": "P432",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-ordinateurs-differences-001",
+      "source_id": "P433",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-deux-ecrans-001",
+      "source_id": "P437",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-ordinateurs-dtr-augmente-001",
+      "source_id": "P438",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-ndl-air-001",
+      "source_id": "P439",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-sonde-001",
+      "source_id": "P440",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-verrouillage-001",
+      "source_id": "P441",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-manuel-001",
+      "source_id": "P443",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-lisibilite-001",
+      "source_id": "P445",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-modes-001",
+      "source_id": "P446",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-ordinateurs-gf-principe-001",
+      "source_id": "P637",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-ordinateurs-gf-air-ffessm-001",
+      "source_id": "P638",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-profil-carre-001",
+      "source_id": "P381",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-tables-duree-001",
+      "source_id": "P384",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-arrondis-001",
+      "source_id": "P386",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-domaine-001",
+      "source_id": "P388",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-deux-plongees-001",
+      "source_id": "P375",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-sans-palier-001",
+      "source_id": "P390",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-dtr-001",
+      "source_id": "P394",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-gps-001",
+      "source_id": "P395",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-vitesses-001",
+      "source_id": "P396",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-ordinateur-001",
+      "source_id": "P398",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-intervalles-001",
+      "source_id": "P399",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-tables-majoration-001",
+      "source_id": "P405",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-temps-fictif-001",
+      "source_id": "P406",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-variables-001",
+      "source_id": "P407",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-remontee-lente-001",
+      "source_id": "P408",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-lecture-001",
+      "source_id": "P411",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-tables-courbe-001",
+      "source_id": "P412",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-calcul-dtr-001",
+      "source_id": "P413",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-successive-001",
+      "source_id": "P414",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-tables-intervalle-arrondi-001",
+      "source_id": "P414",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-henry-001",
+      "source_id": "P328",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-bouteille-001",
+      "source_id": "P330",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-profondeur-001",
+      "source_id": "P333",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-duree-001",
+      "source_id": "P334",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-tissus-001",
+      "source_id": "P335",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-apres-sortie-001",
+      "source_id": "P336",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-poumons-001",
+      "source_id": "P337",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-bulles-001",
+      "source_id": "P338",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-froid-effort-001",
+      "source_id": "P341",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-modele-001",
+      "source_id": "P343",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-retard-001",
+      "source_id": "P344",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-peau-001",
+      "source_id": "P346",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-oreille-interne-001",
+      "source_id": "P350",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-fatigue-001",
+      "source_id": "P354",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-oxygene-001",
+      "source_id": "P359",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-position-001",
+      "source_id": "P360",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-eau-001",
+      "source_id": "P361",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-transmission-001",
+      "source_id": "P362",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-equipiers-001",
+      "source_id": "P365",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-evacuation-001",
+      "source_id": "P368",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-remontee-001",
+      "source_id": "P369",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-effort-surface-001",
+      "source_id": "P370",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-apnee-001",
+      "source_id": "P371",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-yoyo-001",
+      "source_id": "P374",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-add-avion-001",
+      "source_id": "P376",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-add-articulation-001",
+      "source_id": "P377",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-force-surface-001",
+      "source_id": "P096",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-variation-force-surface-001",
+      "source_id": "P097",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-unites-001",
+      "source_id": "P101",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-masse-force-001",
+      "source_id": "P102",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-atmosphere-origine-001",
+      "source_id": "P103",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-altitude-001",
+      "source_id": "P105",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-meteo-001",
+      "source_id": "P106",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-hydrostatique-001",
+      "source_id": "P107",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-absolue-six-metres-001",
+      "source_id": "P110",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-meme-profondeur-001",
+      "source_id": "P111",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-hydrostatique-calcul-001",
+      "source_id": "P114",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-profondeur-absolue-001",
+      "source_id": "P123",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-profondeur-relative-001",
+      "source_id": "P126",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-double-atmosphere-001",
+      "source_id": "P127",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-boyle-pressions-001",
+      "source_id": "P128",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-rapports-001",
+      "source_id": "P129",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-absolue-vingt-metres-001",
+      "source_id": "P110",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-absolue-trente-trois-metres-001",
+      "source_id": "P110",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-inverse-deux-huit-bars-001",
+      "source_id": "P123",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-inverse-quatre-bars-001",
+      "source_id": "P123",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-hydrostatique-vingt-sept-metres-001",
+      "source_id": "P114",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-variation-remontee-001",
+      "source_id": "P129",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-absolue-lac-001",
+      "source_id": "P110",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-pression-inverse-lac-001",
+      "source_id": "P123",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-palanquee-001",
+      "source_id": "P028",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-melanges-contraintes-001",
+      "source_id": "P030",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-dp-parametres-001",
+      "source_id": "P032",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-dp-secours-001",
+      "source_id": "P033",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-fiche-securite-001",
+      "source_id": "P035",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-guide-conduite-001",
+      "source_id": "P038",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-organisation-autonomie-collective-001",
+      "source_id": "P039",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-plan-secours-001",
+      "source_id": "P041",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-vhf-001",
+      "source_id": "P043",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-eau-couverture-001",
+      "source_id": "P044",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-organisation-oxygene-capacite-001",
+      "source_id": "P045",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-organisation-fiche-evacuation-001",
+      "source_id": "P047",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-bloc-secours-001",
+      "source_id": "P048",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-rappel-bateau-001",
+      "source_id": "P049",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-organisation-tables-assistance-001",
+      "source_id": "P050",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-gilet-surface-001",
+      "source_id": "P052",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-gaz-equipier-001",
+      "source_id": "P053",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-parametres-personnels-001",
+      "source_id": "P054",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-encadrant-detendeurs-001",
+      "source_id": "P055",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-organisation-parachute-palanquee-001",
+      "source_id": "P056",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-mecanisme-001",
+      "source_id": "P207",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-placage-masque-001",
+      "source_id": "P211",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-sinus-communication-001",
+      "source_id": "P215",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-sinus-alerte-001",
+      "source_id": "P218",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-sinus-descente-001",
+      "source_id": "P220",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-sinus-remontee-001",
+      "source_id": "P221",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-trompe-eustache-001",
+      "source_id": "P224",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-rhume-equilibrage-001",
+      "source_id": "P230",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-position-descente-001",
+      "source_id": "P231",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-vertige-alternobarique-001",
+      "source_id": "P233",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-bouchons-oreilles-001",
+      "source_id": "P236",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-dents-gaz-001",
+      "source_id": "P237",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-douleur-dentaire-suivi-001",
+      "source_id": "P239",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-gaz-digestifs-001",
+      "source_id": "P240",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-surpression-mecanisme-001",
+      "source_id": "P243",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-faible-profondeur-001",
+      "source_id": "P245",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-signes-respiratoires-001",
+      "source_id": "P249",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-signes-neurologiques-001",
+      "source_id": "P250",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-alerte-oxygene-001",
+      "source_id": "P252",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-amelioration-symptomes-001",
+      "source_id": "P252",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-barotraumatismes-victime-non-respirante-001",
+      "source_id": "P252",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-compresseur-001",
+      "source_id": "P474",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-tampons-001",
+      "source_id": "P477",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-pression-001",
+      "source_id": "P479",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-habilitation-001",
+      "source_id": "P480",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-materiau-001",
+      "source_id": "P483",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-gonflage-blocs-bi-001",
+      "source_id": "P484",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-chaleur-chocs-001",
+      "source_id": "P494",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-eau-001",
+      "source_id": "P495",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-vidange-001",
+      "source_id": "P496",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-corrosion-001",
+      "source_id": "P497",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-periodicites-001",
+      "source_id": "P500",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-transport-001",
+      "source_id": "P502",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-date-depassee-001",
+      "source_id": "P505",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gonflage-blocs-lestage-001",
+      "source_id": "P506",
+      "decision": "fusion"
+    },
+    {
+      "id": "n2-gaz-loi-boyle-001",
+      "source_id": "P175",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-conditions-001",
+      "source_id": "P176",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-ballon-surface-vingt-001",
+      "source_id": "P179",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-ballon-surface-dix-001",
+      "source_id": "P179",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-ballon-surface-quarante-001",
+      "source_id": "P179",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-ballon-remontee-001",
+      "source_id": "P182",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-ballon-entre-profondeurs-001",
+      "source_id": "P183",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-expansion-comparaison-001",
+      "source_id": "P184",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-bloc-rigide-001",
+      "source_id": "P185",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-gilet-descente-001",
+      "source_id": "P186",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-gilet-remontee-001",
+      "source_id": "P187",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-masque-descente-001",
+      "source_id": "P188",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-oreille-descente-001",
+      "source_id": "P189",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-detendeur-pression-001",
+      "source_id": "P190",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-debit-vingt-001",
+      "source_id": "P193",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-debit-trente-001",
+      "source_id": "P193",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-stock-nominal-001",
+      "source_id": "P195",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-stock-quinze-001",
+      "source_id": "P195",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-duree-stock-donne-001",
+      "source_id": "P197",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-rapport-autonomie-001",
+      "source_id": "P200",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-duree-fond-planification-001",
+      "source_id": "P201",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-debit-variable-001",
+      "source_id": "P203",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-chute-pression-001",
+      "source_id": "P205",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-comparaison-equipiers-001",
+      "source_id": "P206",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-stock-utilisable-001",
+      "source_id": "P630",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-duree-avec-seuil-001",
+      "source_id": "P631",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-pression-initiale-001",
+      "source_id": "P632",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-deux-phases-001",
+      "source_id": "P633",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-reserve-volumes-001",
+      "source_id": "P634",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-deux-equipiers-001",
+      "source_id": "P635",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-effort-recalcul-001",
+      "source_id": "P636",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-references-001",
+      "source_id": "P454",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-seuil-001",
+      "source_id": "P456",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-rattrapage-001",
+      "source_id": "P458",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-impossible-001",
+      "source_id": "P461",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-remontees-anormales-yoyos-001",
+      "source_id": "P463",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-six-metres-001",
+      "source_id": "P464",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-confort-001",
+      "source_id": "P465",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-remontees-anormales-interruption-001",
+      "source_id": "P466",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-remontees-anormales-observation-001",
+      "source_id": "P468",
+      "decision": "corrigee"
+    },
+    {
+      "id": "n2-remontees-anormales-symptomes-001",
+      "source_id": "P472",
+      "decision": "conservee"
+    },
+    {
+      "id": "n2-gaz-boyle-profondeur-inverse-001",
+      "source_id": "P640",
+      "decision": "ajoutee"
+    },
+    {
+      "id": "n2-gaz-consommation-remontee-001",
+      "source_id": "P641",
+      "decision": "ajoutee"
+    },
+    {
+      "id": "n2-tables-successive-duree-maximale-001",
+      "source_id": "P642",
+      "decision": "ajoutee"
+    },
+    {
+      "id": "n2-tables-dtr-plusieurs-paliers-001",
+      "source_id": "P643",
+      "decision": "ajoutee"
+    },
+    {
+      "id": "n2-ordinateurs-plafond-lecture-001",
+      "source_id": "P644",
+      "decision": "ajoutee"
+    },
+    {
+      "id": "n2-ordinateurs-plafonds-differents-001",
+      "source_id": "P645",
+      "decision": "ajoutee"
+    }
+  ],
+  "legacy_anki": [
+    {
+      "id": "n2-prerogatives-pe40-exploration-001",
+      "source_id": "P002",
+      "decision": "suspension_conservee"
+    },
+    {
+      "id": "n2-prerogatives-pa20-exploration-001",
+      "source_id": "P003",
+      "decision": "suspension_conservee"
+    },
+    {
+      "id": "n2-prerogatives-pe20-pe40-001",
+      "source_id": "P005",
+      "decision": "suspension_conservee"
+    },
+    {
+      "id": "n2-prerogatives-decision-dp-001",
+      "source_id": "P009",
+      "decision": "suspension_conservee"
+    },
+    {
+      "id": "n2-prerogatives-encadre-trentecinq-001",
+      "source_id": "P011",
+      "decision": "suspension_doublon_ancien"
+    },
+    {
+      "id": "n2-prerogatives-age-autonomie-001",
+      "source_id": "P015",
+      "decision": "suspension_doublon_ancien"
+    },
+    {
+      "id": "n2-prerogatives-autorisation-seule-001",
+      "source_id": "P025",
+      "decision": "suspension_conservee"
+    }
+  ]
+}

@@ -138,29 +138,6 @@ cards:
     back: '**Pour limiter la recherche et organiser une remontée, un rendez-vous et une alerte cohérents.**
       Le briefing précise la conduite adaptée au site et aux obligations de décompression ; s’enfoncer
       ou poursuivre seul l’exploration augmente la difficulté à se retrouver.'
-- id: n2-competences-transversales-parachute-ligne-001
-  type: basic
-  deck: Matériel et préparation
-  levels:
-  - N2
-  tags:
-  - chapitre::17
-  - competences-transversales
-  status: reviewed
-  source_id: P565
-  review:
-    sources:
-    - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
-    - 'DAN World — Popping the Question: What is a DSMB?, section safety : https://world.dan.org/alert-diver/article/popping-the-question-what-is-a-dsmb/'
-    - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
-    - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
-    fact_check: pass
-  fr:
-    front: Pourquoi ne faut-il pas accrocher à soi le dévidoir ou la bobine pendant l’envoi d’un parachute
-      de palier ?
-    back: '**Si la ligne se bloque, la traction du parachute peut entraîner une remontée rapide.** Garder
-      la ligne à distance du corps et du matériel, maintenir sa profondeur et pratiquer le déploiement
-      avec l’encadrant.'
 - id: n2-competences-transversales-renoncer-001
   type: basic
   deck: Matériel et préparation

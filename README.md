@@ -5,27 +5,13 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Le plan N2 est implémenté : 312 cartes revues dans les 18 chapitres.
-Elles comprennent 21 sur les prérogatives N2,
-20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement,
-24 sur les [pressions](docs/reviews/04-pression.md) et 25 sur la
-[flottabilité](docs/reviews/05-flottabilite.md), ainsi que 31 sur les
-[gaz et l’autonomie](docs/reviews/06-gaz-autonomie.md), dont 20 exercices, et 21 sur les
-[barotraumatismes](docs/reviews/07-barotraumatismes.md), 11 sur
-[l’essoufflement](docs/reviews/08-essoufflement.md), 11 sur le
-[froid](docs/reviews/09-froid.md) et 14 sur la [narcose](docs/reviews/10-narcose.md), ainsi que 26 sur les
-[accidents de désaturation](docs/reviews/11-add.md) et 20 sur les
-[tables](docs/reviews/12-tables.md), 19 sur les [ordinateurs](docs/reviews/13-ordinateurs.md)
-et 10 sur les [remontées anormales](docs/reviews/14-remontees-anormales.md), 14 sur les
-[blocs et le gonflage](docs/reviews/15-gonflage-blocs.md), 21 sur les
-[détendeurs](docs/reviews/16-detendeurs.md) et 3 sur les
-[pannes complémentaires](docs/reviews/18-lecture-pannes.md) et 9 sur la
-[préparation collective](docs/reviews/17-competences-transversales.md).
-La [couverture finale](docs/reviews/COUVERTURE_FINALE_N2.md) relie chacun des 328 objectifs
-aux cartes publiées et documente les fusions.
-Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
-[l’organisation](docs/reviews/02-organisation.md) et des
-[documents et de l’environnement](docs/reviews/03-documents-environnement.md).
+leurs cartes. Le deck N2 comprend **308 cartes revues**, réparties dans 18 fichiers de chapitre
+et cinq catégories Anki. La [revue finale](docs/reviews/REVUE_FINALE_N2.md) détaille
+les dix fusions, les six ajouts et les corrections de clarté.
+La [couverture](docs/reviews/COUVERTURE_FINALE_N2.md) relie les 334 objectifs suivis
+aux cartes actives. Les anciennes cartes fusionnées restent suspendues dans Anki pour
+conserver leur historique ; leur [registre](docs/reviews/RETIREMENTS_N2.yaml) empêche
+la réutilisation de leurs IDs. Un import de package ne suspend pas à lui seul les notes retirées.
 
 ## Démarrage
 
@@ -60,7 +46,9 @@ pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
 N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
 **Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-53 cartes sont regroupées dans Réglementation et 80 dans Physique et 57 dans Prévention des accidents ; 75 dans Désaturation ; 47 dans Matériel et préparation. Les fichiers et tags conservent le détail des chapitres.
+52 cartes sont regroupées dans Réglementation, 82 dans Physique, 53 dans Prévention des accidents,
+77 dans Désaturation et 44 dans Matériel et préparation. Les fichiers et tags conservent le détail
+des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
 

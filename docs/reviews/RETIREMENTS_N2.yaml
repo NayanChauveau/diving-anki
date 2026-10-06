@@ -1,0 +1,82 @@
+date: '2026-10-06'
+level: N2
+retired:
+- id: n2-prerogatives-autonome-trente-001
+  source_id: P010
+  replacement_ids:
+  - n2-prerogatives-n2-aptitudes-001
+- id: n2-essoufflement-materiel-001
+  source_id: P265
+  replacement_ids:
+  - n2-detendeurs-inspiration-difficile-001
+- id: n2-essoufflement-moins-profond-001
+  source_id: P279
+  replacement_ids:
+  - n2-essoufflement-profondeur-001
+  - n2-essoufflement-assistance-001
+- id: n2-froid-interrompre-001
+  source_id: P288
+  replacement_ids:
+  - n2-froid-signes-001
+- id: n2-froid-parachute-001
+  source_id: P298
+  replacement_ids:
+  - n2-froid-signes-001
+- id: n2-tables-lecture-001
+  source_id: P411
+  replacement_ids:
+  - n2-tables-dtr-001
+  - n2-tables-calcul-dtr-001
+- id: n2-ordinateurs-deux-ecrans-001
+  source_id: P437
+  replacement_ids:
+  - n2-ordinateurs-collectif-001
+- id: n2-gonflage-blocs-lestage-001
+  source_id: P506
+  replacement_ids:
+  - n2-gonflage-blocs-materiau-001
+- id: n2-detendeurs-diagnostic-001
+  source_id: P544
+  replacement_ids:
+  - n2-detendeurs-inspiration-difficile-001
+  - n2-lecture-pannes-eau-bouche-001
+- id: n2-competences-transversales-parachute-ligne-001
+  source_id: P565
+  replacement_ids:
+  - n2-flottabilite-parachute-traction-001
+- id: n2-prerogatives-pe40-exploration-001
+  source_id: P002
+  replacement_ids:
+  - n2-prerogatives-n2-aptitudes-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-pa20-exploration-001
+  source_id: P003
+  replacement_ids:
+  - n2-prerogatives-n2-aptitudes-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-pe20-pe40-001
+  source_id: P005
+  replacement_ids:
+  - n2-prerogatives-n2-aptitudes-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-decision-dp-001
+  source_id: P009
+  replacement_ids:
+  - n2-organisation-dp-parametres-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-encadre-trentecinq-001
+  source_id: P011
+  replacement_ids:
+  - n2-prerogatives-n2-aptitudes-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-age-autonomie-001
+  source_id: P015
+  replacement_ids:
+  - n2-prerogatives-quinze-ans-n2-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.
+- id: n2-prerogatives-autorisation-seule-001
+  source_id: P025
+  replacement_ids:
+  - n2-prerogatives-autonomie-dp-001
+  - n2-prerogatives-mineur-autorisation-001
+  origin: Retrait antérieur à la revue finale ; suspension vérifiée le 2026-10-06.

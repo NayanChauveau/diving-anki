@@ -65,29 +65,6 @@ cards:
     back: '**L’effort augmente la production de CO₂ et le besoin de ventilation.** Si la respiration ne
       suit pas, le CO₂ s’accumule. Une bonne forme, un rythme adapté et une préparation réaliste réduisent
       ce décalage.'
-- id: n2-essoufflement-materiel-001
-  type: basic
-  deck: Prévention des accidents
-  levels:
-  - N2
-  tags:
-  - chapitre::08
-  - essoufflement
-  status: reviewed
-  source_id: P265
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.17.
-    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
-    - https://dan.org/alert-diver/article/tank-valves-and-out-of-air-emergencies/
-    - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
-    fact_check: pass
-  fr:
-    front: Avant immersion, pourquoi faut-il contrôler que le bloc est ouvert et que le détendeur fournit
-      bien du gaz en respirant dessus ?
-    back: '**Un débit insuffisant ou une résistance anormale à l’inspiration peuvent gêner la ventilation.**
-      Ce contrôle ne remplace pas l’entretien du détendeur ; un problème persistant doit être résolu avant
-      de plonger.'
 - id: n2-essoufflement-air-pollue-001
   type: basic
   deck: Prévention des accidents
@@ -170,13 +147,14 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.17.
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Pendant un palmage soutenu, la respiration devient haletante. Quelle priorité avant de poursuivre
-      le déplacement ?
-    back: '**Arrêter l’effort et prévenir immédiatement l’équipier ou le guide.** Stabiliser la situation,
-      conserver le détendeur et retrouver une respiration efficace ; si la gêne persiste, terminer la
-      plongée avec assistance et remontée contrôlée.'
+    front: En immersion, un plongeur présente un essoufflement pendant un palmage soutenu. Quelles premières
+      actions engager avec la palanquée ?
+    back: '**Arrêter l’effort, signaler immédiatement la difficulté et organiser la fin de plongée avec
+      l’équipier ou le guide.** Conserver le détendeur, stabiliser la situation et faciliter une respiration
+      efficace. La remontée se fait de façon contrôlée, avec assistance pour réduire l’effort.'
 - id: n2-essoufflement-assistance-001
   type: basic
   deck: Prévention des accidents
@@ -193,12 +171,14 @@ cards:
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: Pourquoi une remontée assistée pour un plongeur essoufflé doit-elle rester contrôlée ?
-    back: '**L’assistance réduit son effort, mais la sortie conserve ses contraintes de respiration et
-      de désaturation.** Une fuite rapide vers la surface ajoute le risque de barotraumatisme et de décompression.
-      La palanquée aide le plongeur à sortir en maîtrisant la vitesse.'
+    back: '**L’assistance réduit l’effort, mais la remontée doit respecter la vitesse, la respiration
+      libre et les obligations de désaturation.** Un gaz moins dense à moindre profondeur peut faciliter
+      la ventilation ; cela ne justifie ni une fuite vers la surface ni une séparation. La palanquée organise
+      ensemble la sortie et surveille le gaz disponible.'
 - id: n2-essoufflement-courant-001
   type: basic
   deck: Prévention des accidents
@@ -221,26 +201,3 @@ cards:
     back: '**Le trajet et l’effort imposé par la plongée.** Adapter le parcours ou interrompre la plongée
       selon le briefing et les possibilités du site ; une lutte prolongée augmente besoins en air et risque
       d’essoufflement.'
-- id: n2-essoufflement-moins-profond-001
-  type: basic
-  deck: Prévention des accidents
-  levels:
-  - N2
-  tags:
-  - chapitre::08
-  - essoufflement
-  status: reviewed
-  source_id: P279
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.17.
-    - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
-    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
-    - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
-    fact_check: pass
-  fr:
-    front: Un plongeur essoufflé souhaite remonter de quelques mètres pour respirer un gaz moins dense.
-      Pourquoi cela doit-il être organisé avec son équipier ?
-    back: '**Le bénéfice d’une profondeur moindre ne supprime pas les autres contraintes.** Il faut gérer
-      l’assistance, la vitesse, la flottabilité, l’air et les obligations de désaturation, sans abandonner
-      la palanquée. Une gêne persistante impose de terminer la plongée.'

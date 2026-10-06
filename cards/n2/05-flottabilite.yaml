@@ -488,13 +488,15 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN World — Popping the Question: What is a DSMB? : https://world.dan.org/alert-diver/article/popping-the-question-what-is-a-dsmb/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: Pourquoi ne faut-il pas accrocher le dévidoir à soi pendant le lancement d’un parachute de
       palier ?
     back: '**Un fil bloqué peut transmettre la traction du parachute au plongeur et l’entraîner vers la
-      surface.** Le gaz ajouté rend le parachute flottant ; cette poussée vers le haut doit pouvoir être
-      dissociée du plongeur. Le dévidoir reste décroché du plongeur pendant le lancement.'
+      surface.** Le dévidoir reste décroché du plongeur pendant le lancement. Garder la ligne à distance
+      du corps et du matériel, et maintenir sa profondeur ; le gaz ajouté au parachute produit une poussée
+      vers le haut.'
 - id: n2-flottabilite-perte-lest-001
   type: basic
   deck: Physique

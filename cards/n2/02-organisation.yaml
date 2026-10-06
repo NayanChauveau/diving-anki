@@ -178,18 +178,17 @@ cards:
     - 'Code du sport — A322-74, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393871'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     question: Pendant une exploration PE40 en milieu naturel, comment le guide doit-il conduire la palanquée
       dans le cadre fixé par le DP ?
     choices:
-    - text: Adapter la conduite de la plongée aux circonstances et aux aptitudes, dans le cadre du DP
+    - text: Adapter la conduite aux circonstances et aux aptitudes, dans les limites fixées par le DP
       correct: true
-    - text: Appliquer le profil prévu sans l’adapter une fois l’immersion commencée
+    - text: Adapter la conduite aux circonstances, dans les limites PE40 même au-delà de celles du DP
       correct: false
-    - text: Adapter le profil aux circonstances en s’affranchissant des limites fixées par le DP
-      correct: false
-    - text: Assurer l’orientation en laissant chaque plongeur gérer individuellement profondeur et durée
+    - text: Respecter les paramètres du DP, en lui laissant seul l’adaptation aux aptitudes des équipiers
       correct: false
     explanation: Le guide est responsable du déroulement de la plongée encadrée. Il adapte la conduite
       du groupe dans le cadre fixé par le DP. La présence du guide ne dispense pas chaque plongeur de
@@ -307,6 +306,7 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     question: Pour une plongée organisée en France par un établissement, quelle combinaison d’eau et de
@@ -317,8 +317,6 @@ cards:
     - text: De l’eau douce potable, la couverture isothermique étant facultative
       correct: false
     - text: Une couverture isothermique, l’eau potable étant facultative
-      correct: false
-    - text: De l’eau potable et une couverture isothermique seulement si des paliers sont prévus
       correct: false
     explanation: L’eau douce potable et la couverture isothermique doivent être disponibles sur le lieu
       de mise à l’eau ou d’immersion, parmi le matériel de secours.
@@ -339,6 +337,7 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     question: Pour une plongée organisée en France, jusqu’à quel moment la réserve d’oxygène médical doit-elle
@@ -346,11 +345,9 @@ cards:
     choices:
     - text: Jusqu’à l’arrivée des secours médicaux
       correct: true
-    - text: Jusqu’au retour du bateau à son point de départ
+    - text: Jusqu’au retour du bateau au port
       correct: false
-    - text: Jusqu’au premier appel aux secours
-      correct: false
-    - text: Jusqu’à la première amélioration des symptômes
+    - text: Jusqu’au début du transport vers le centre de soins
       correct: false
     explanation: La quantité d’oxygène disponible doit permettre une prise en charge adaptée jusqu’à l’arrivée
       des secours médicaux. Elle dépend notamment du délai attendu. L’ensemble d’oxygénothérapie et ses
@@ -438,10 +435,11 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    question: Pour une plongée organisée en France, quelle condition suffit à rendre obligatoire un moyen
-      de rappel des plongeurs depuis la surface ?
+    question: Pour une plongée organisée en France, dans quel ensemble de situations un moyen de rappel
+      des plongeurs depuis la surface est-il obligatoire ?
     choices:
     - text: Une plongée en milieu naturel au départ d’une embarcation
       correct: true

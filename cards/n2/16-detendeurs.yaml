@@ -16,6 +16,7 @@ cards:
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Schéma original intégré : docs/diagrams/circuit-detendeur.svg ; P585 fusionné avec P508.'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: 'Sur ce schéma conceptuel d’un détendeur à deux étages, quelle réduction de pression réalise
@@ -34,9 +35,9 @@ cards:
       font-size="18"><text x="65" y="96">Bloc</text><text x="245" y="96">Étage A</text><text x="425" y="96">Étage
       B</text><text x="588" y="96">Bouche</text><text x="150" y="43">HP</text><text x="335" y="43">MP</text><text
       x="510" y="43">PA</text><text x="335" y="152">Flexible</text></g></svg>'
-    back: '**Haute pression à l’entrée du premier étage ; pression intermédiaire dans le flexible vers
-      le second ; pression proche de l’ambiante à la bouche.** Le premier étage réduit HP vers MP, le
-      second MP vers pression respirable à la profondeur actuelle.'
+    back: '**A, le premier étage : haute pression du bloc → pression intermédiaire (MP). B, le second
+      étage : MP → pression proche de l’ambiante à la bouche.** Le flexible entre A et B transporte le
+      gaz à la pression intermédiaire ; la pression respirée suit la profondeur du plongeur.'
 - id: n2-detendeurs-relative-absolue-001
   type: basic
   deck: Matériel et préparation
@@ -368,13 +369,15 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: Avant de plonger, respirer sur le détendeur demande un effort inhabituel. Que faut-il contrôler
       avant de décider de s’immerger ?
-    back: '**La pression disponible, l’ouverture du bloc et le bon fonctionnement du système.** Si la
-      difficulté persiste, arrêter la préparation et faire contrôler le matériel ; le symptôme ne désigne
-      pas à lui seul une pièce à remplacer.'
+    back: '**Contrôler la pression disponible, l’ouverture du bloc et le fonctionnement en respirant sur
+      le détendeur.** Un débit insuffisant ou une résistance anormale gênent la ventilation. Si la difficulté
+      persiste, renoncer à l’immersion et faire contrôler le matériel ; le symptôme ne désigne pas à lui
+      seul une pièce défectueuse.'
 - id: n2-detendeurs-incident-immersion-001
   type: basic
   deck: Matériel et préparation
@@ -398,28 +401,6 @@ cards:
     back: '**Assurer une source de gaz respirable et organiser immédiatement une sortie contrôlée avec
       l’équipier.** Signaler l’incident et appliquer l’assistance apprise ; ne pas prolonger l’exploration
       pour chercher la panne sous l’eau.'
-- id: n2-detendeurs-diagnostic-001
-  type: basic
-  deck: Matériel et préparation
-  levels:
-  - N2
-  tags:
-  - chapitre::16
-  - detendeurs
-  status: reviewed
-  source_id: P544
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
-    - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
-      : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
-    - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
-    fact_check: pass
-  fr:
-    front: Dans un tableau de dépannage, que signifie « cause probable » face à un symptôme tel qu’une
-      fuite ou l’absence d’air ?
-    back: '**Une hypothèse à contrôler, pas un diagnostic certain.** Plusieurs défauts peuvent produire
-      le même symptôme ; les réparations internes relèvent d’un technicien qualifié.'
 - id: n2-detendeurs-bouche-001
   type: basic
   deck: Matériel et préparation

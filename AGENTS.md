@@ -86,10 +86,6 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
   Inspecter les rectos/versos après build quand le contenu ou le rendu des cartes change.
 - Documents privés dans `sources/`, jamais dans Git ; packages générés non committés.
 
-Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
-cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
-Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.
-
 ## Points consolidés à la clôture N2
 
 - Consulter `docs/reviews/COUVERTURE_FINALE_N2.md` avant toute carte supplémentaire :
@@ -100,3 +96,15 @@ Cette répétition d’entraînement est distincte des paraphrases d’un fait s
   vitesse, verrouillage). Le contexte air/algorithme/modèle détermine la réponse.
 - Les schémas fonctionnels peuvent être des SVG autonomes intégrés au Markdown, comme
   P508. Contrôler le rendu, la lisibilité et leur présence dans le package sans média externe.
+
+## Revue finale et retraits de cartes
+
+- Consulter `docs/reviews/REVUE_FINALE_N2.md` et `RETIREMENTS_N2.yaml` : 17 IDs
+  publiés sont réservés hors catalogue actif, dont dix retirés pendant cette revue. Ne jamais les recycler ou recréer leurs doublons.
+- Retirer un YAML ne retire pas la note déjà importée. Pour une fusion, identifier exactement
+  les notes concernées et les suspendre en conservant leurs révisions ; vérifier IDs, échéances
+  et historique avant/après. Ne pas supprimer les notes ni réactiver les suspensions existantes.
+- Une situation chiffrée doit mobiliser un raisonnement : un nombre déjà nommé DTR ou
+  une catégorie dont la définition est donnée au recto ne crée pas un exercice utile.
+- Un plafond d’ordinateur est une profondeur à ne pas franchir vers la surface ; deux
+  plafonds différents ne se gèrent pas comme deux simples durées au même palier.

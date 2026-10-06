@@ -37,13 +37,15 @@ cards:
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Un plongeur frissonne, manipule moins bien ses attaches et répond moins clairement. Que signifie
-      cette association en eau froide ?
-    back: '**Un refroidissement avec dégradation des capacités motrices et intellectuelles est possible.**
-      Signaler la difficulté et terminer la plongée de façon contrôlée ; la température de l’eau seule
-      ne permet pas d’évaluer l’état du plongeur.'
+    front: En eau froide, un plongeur frissonne et n’arrive plus à manipuler ses attaches ou le dévidoir
+      du parachute. Que doit faire la palanquée ?
+    back: '**Prendre en compte une dégradation de ses capacités liée au froid, l’aider et terminer ensemble
+      la plongée de façon contrôlée.** Une réponse moins claire peut signaler aussi une altération du
+      jugement. Ne pas attendre une perte de contrôle ; la température de l’eau seule ne suffit pas à
+      juger son état.'
 - id: n2-froid-fin-frissons-001
   type: basic
   deck: Prévention des accidents
@@ -67,29 +69,6 @@ cards:
     back: '**La disparition des frissons avec altération de la conscience peut annoncer une hypothermie
       aggravée.** Il faut le protéger du froid, le manipuler doucement et déclencher les secours ; l’absence
       de frissons n’est pas un critère de guérison.'
-- id: n2-froid-interrompre-001
-  type: basic
-  deck: Prévention des accidents
-  levels:
-  - N2
-  tags:
-  - chapitre::09
-  - froid
-  status: reviewed
-  source_id: P288
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
-    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
-    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
-    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
-    fact_check: pass
-  fr:
-    front: Pourquoi signaler le froid et interrompre une plongée avant de perdre la précision des gestes
-      ?
-    back: '**Le refroidissement altère progressivement la coordination et le jugement.** Une sortie maîtrisée
-      devient plus difficile si l’on attend ; la fin de plongée reste collective et respecte les obligations
-      de remontée.'
 - id: n2-froid-protection-001
   type: basic
   deck: Prévention des accidents
@@ -228,27 +207,3 @@ cards:
     back: '**S’il est pleinement conscient, coopératif et peut avaler normalement.** Une boisson tiède
       peut améliorer le confort et l’hydratation ; une boisson sucrée apporte aussi de l’énergie. En cas
       de trouble de conscience, de difficulté à avaler ou de vomissement, ne rien donner par la bouche.'
-- id: n2-froid-parachute-001
-  type: basic
-  deck: Prévention des accidents
-  levels:
-  - N2
-  tags:
-  - chapitre::09
-  - froid
-  status: reviewed
-  source_id: P298
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.17–18.
-    - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
-    - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
-    - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
-    - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
-    fact_check: pass
-  fr:
-    front: À faible profondeur en fin de plongée froide, un équipier n’arrive plus à manipuler le dévidoir
-      du parachute. Pourquoi ne faut-il pas multiplier les essais en le laissant seul ?
-    back: '**Cette maladresse peut traduire une perte de capacité liée au froid.** Prévenir et aider selon
-      le briefing, organiser ensemble la signalisation et la sortie ; prolonger les manipulations accroît
-      l’exposition et la consommation.'

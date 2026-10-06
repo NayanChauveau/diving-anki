@@ -764,3 +764,54 @@ cards:
     back: '**300 L supplémentaires.** Besoin initial : 20 × 3 × 10 = 600 L. Besoin révisé : 30 × 3 × 10
       = 900 L. Différence : 900 − 600 = 300 L. Une hausse de 50 % du débit augmente ici le besoin de 50
       %.'
+- id: n2-gaz-boyle-profondeur-inverse-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P640
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.10–12.
+    - 'NASA — Equation of State, relation gaz parfait, consulté le 2026-10-06 : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: Un ballon souple fermé contient 3 L à 10 m, puis 2 L à une profondeur inconnue. Quelle est
+      cette profondeur ? Gaz parfait, quantité et température constantes, paroi sans effet mécanique ;
+      prendre 1 bar en surface et +1 bar tous les 10 m.
+    back: '**20 m.** À 10 m, P₁ = 2 bars absolus. P₂ = P₁V₁/V₂ = 2 × 3/2 = 3 bars absolus. Retirer ensuite
+      le bar atmosphérique : profondeur = (3 − 1) × 10 = 20 m.'
+- id: n2-gaz-consommation-remontee-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P641
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.10–12.
+    - 'NASA — Equation of State, relation gaz parfait, consulté le 2026-10-06 : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'BSAC — Gas reserves, consommation dépendante de la profondeur : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'BSAC — How much gas do you use?, débit × pression absolue × durée puis somme des phases, consulté
+      le 2026-10-06 : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    fact_check: pass
+  fr:
+    front: Un exercice comporte seulement une remontée régulière de 20 m à la surface en 2 min, sans arrêt.
+      Le débit respiratoire de référence reste 20 L/min à 1 bar. Quel volume de gaz ramené à 1 bar est
+      consommé sur ce trajet ? Gaz parfait, température constante, 1 bar en surface et +1 bar/10 m ; profondeur
+      décroissant linéairement avec le temps.
+    back: '**80 L ramenés à 1 bar.** La pression absolue passe linéairement de 3 à 1 bar ; sa moyenne
+      sur le trajet vaut (3 + 1)/2 = 2 bars. Besoin = 20 × 2 × 2 = 80 L. Employer 3 bars pendant tout
+      le trajet donnerait 120 L ; employer 1 bar, 40 L.'

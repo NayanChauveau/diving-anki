@@ -167,13 +167,15 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - S1 p.28 ; coordination des paliers dans la palanquée.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: Votre ordinateur n’indique plus de palier obligatoire, mais celui de votre équipier en impose
-      encore un. Pourquoi ne remontez-vous pas seul ?
-    back: '**La fin de plongée s’organise pour toute la palanquée.** Rester ensemble et respecter les
-      obligations de chacun, avec la profondeur plafond, le temps, l’air et le briefing ; la fin de ses
-      propres paliers ne clôture pas ceux de l’autre.'
+      encore un. Comment organiser la fin de plongée, avec du gaz suffisant ?
+    back: '**Rester ensemble et terminer aussi les obligations de l’équipier, en suivant les mises à jour
+      des deux appareils.** Respecter les plafonds, les profondeurs de palier et les durées de chacun.
+      Un temps annoncé au départ ne devient pas un compte à rebours fixé une fois pour toutes ; il peut
+      évoluer selon le profil réellement suivi.'
 - id: n2-ordinateurs-differences-001
   type: basic
   deck: Désaturation
@@ -196,29 +198,6 @@ cards:
     back: '**Le modèle, les réglages et les plongées précédentes peuvent différer.** De petites différences
       de profondeur enregistrée comptent aussi. Un même profil actuel ne garantit pas une même charge
       calculée.'
-- id: n2-ordinateurs-deux-ecrans-001
-  type: basic
-  deck: Désaturation
-  levels:
-  - N2
-  tags:
-  - chapitre::13
-  - ordinateurs
-  status: reviewed
-  source_id: P437
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
-    - S1 p.28 ; obligations collectives.
-    - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
-    fact_check: pass
-  fr:
-    front: 'Deux équipiers doivent rester à 3 m : A affiche encore 2 min de palier obligatoire et B 5
-      min. Le gaz est suffisant et aucun autre plafond n’est indiqué. Après 2 min, comment organiser la
-      suite ?'
-    back: '**Rester ensemble pour terminer aussi les obligations de B.** Continuer à suivre les deux appareils
-      et leurs mises à jour ; ne pas remplacer leur suivi par un simple compte à rebours de 3 min décidé
-      une fois pour toutes.'
 - id: n2-ordinateurs-dtr-augmente-001
   type: basic
   deck: Désaturation
@@ -390,10 +369,11 @@ cards:
     - 'Suunto — Nautic, Gradient Factors, définition du gradient et réglages : https://origin-www.suunto.com/en-ph/Support/Product-support/suunto_nautic/suunto_nautic/algorithm-settings/gradient-factors/'
     - 'FFESSM — MFT N2 mai 2026, p.12–13 et 19–20 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue complémentaire du 2026-10-06 : docs/reviews/COUVERTURE_FINALE_N2.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: 'Dans un modèle Bühlmann utilisant des gradient factors, que représente le pourcentage GF :
-      un risque d’accident ou une marge dans le calcul ?'
+    front: Dans un modèle Bühlmann à gradient factors, que représente le pourcentage d’un GF par rapport
+      à la pression ambiante et à la limite du modèle ?
     back: '**Une fraction du gradient de sursaturation autorisé par le modèle.** 0 % correspond à la pression
       ambiante et 100 % à la limite originale du modèle, appelée M-value. Ce pourcentage ne mesure pas
       une probabilité personnelle d’accident. GF signifie Gradient Factor, ou facteur de gradient.'
@@ -419,3 +399,51 @@ cards:
     back: '**GF bas = GF haut, avec une valeur entre 85 et 90 %.** Exemples : 85/85 ou 90/90. Ce repère
       fédéral concerne la plongée à l’air ; certains ordinateurs utilisent d’autres réglages de conservatisme
       plutôt que des GF.'
+- id: n2-ordinateurs-plafond-lecture-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P644
+  review:
+    sources:
+    - 'Suunto — Zoop Novo User Guide, Decompression dives, définition CEILING et actualisation, consulté
+      le 2026-10-06 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7 m.
+      Rejoindre 5 m respecterait-il ce plafond ?
+    back: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant : ne pas
+      passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait. Le plafond
+      évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
+- id: n2-ordinateurs-plafonds-differents-001
+  type: basic
+  deck: Désaturation
+  levels:
+  - N2
+  tags:
+  - chapitre::13
+  - ordinateurs
+  status: reviewed
+  source_id: P645
+  review:
+    sources:
+    - 'Suunto — Zoop Novo User Guide, Decompression dives, définition CEILING et actualisation, consulté
+      le 2026-10-06 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
+    - 'FFESSM — MFT N2, mai 2026, p.12–13 et 17 : gestion collective des différents moyens de désaturation.
+      https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    fact_check: pass
+  fr:
+    front: Deux équipiers utilisent des ordinateurs avec un plafond de décompression à ne pas franchir.
+      A indique 6 m, B indique 3 m. Ils sont ensemble à 7 m, avec du gaz suffisant. Peuvent-ils rejoindre
+      ensemble 3 m à cet instant ?
+    back: '**Non : ils franchiraient le plafond de A.** Le groupe doit rester à 6 m ou plus profond tant
+      que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez B ne
+      signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
+      ses indications.'

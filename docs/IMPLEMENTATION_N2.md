@@ -169,7 +169,7 @@ Source : **S1 p.3–4 ; S2 p.1–2**. Contrôle : **V01**. Fichier futur : `card
 - [x] **P006** · QCM · Comparaison — Distinguer autonomie et absence de directeur de plongée.
 - [x] **P007** · QCM · Rappel / application — Composition d’une palanquée PA20 : nombre d’équipiers.
 - [x] **P008** · QCM · Rappel / application — Compétences minimales des équipiers PA20.
-- [x] **P010** · QCM · Scénario — Scénario : N2 demandant une exploration autonome à 30 m.
+- [x] **P010** · Fusion après revue finale — Couvert par P001 ; voir REVUE_FINALE_N2.md.
 - [x] **P012** · QCM · Scénario — Scénario : N2 autonome avec un équipier aux aptitudes plus restrictives.
 - [x] **P013** · QCM · Rappel / application — Âge d’entrée en formation PE40.
 - [x] **P014** · QCM · Rappel / application — Âge de délivrance PA20 et N2.
@@ -224,7 +224,7 @@ Source : **S1 p.5–7 ; S2 p.2**. Contrôle : **V03**. Fichier futur : `cards/n2
 - [x] **P073** · QCM · Comparaison — Chasse sous-marine et scaphandre : distinguer les interdictions.
 - [x] **P074** · QCM · Rappel / application — Signalisation depuis un bateau.
 - [x] **P076** · Basic · Rappel / application — Distance de sécurité des navires : règle locale à vérifier.
-- [x] **P077** · Application — Respect des prérogatives. Couvert par P010/P012, pas de nouvelle carte.
+- [x] **P077** · Application — Respect des prérogatives. Couvert par P001/P012, pas de nouvelle carte.
 - [x] **P078** · Basic · Rappel / application — Requalification des blocs : responsabilité.
 - [x] **P079** · Basic · Rappel / application — Identifier le rôle de la FFESSM et situer club, structure et commissions en explication ; éviter les listes à réciter.
 - [x] **P080** · Basic · Compréhension — Signification et rôle de la CMAS.
@@ -351,7 +351,7 @@ Source : **S1 p.17**. Contrôle : **V07**. Fichier futur : `cards/n2/08-essouffl
 - [x] **P261** · QCM · Rappel / application — Profondeur et effort ventilatoire.
 - [x] **P262** · QCM · Rappel / application — Expliquer le cercle vicieux de l’essoufflement et pourquoi accélérer sa respiration ne suffit pas.
 - [x] **P263** · QCM · Rappel / application — Effort excessif : facteur déclenchant.
-- [x] **P265** · QCM · Rappel / application — Détendeur, robinet et ventilation : causes possibles.
+- [x] **P265** · Fusion après revue finale — Couvert par P542 ; voir REVUE_FINALE_N2.md.
 - [x] **P266** · QCM · Rappel / application — Manque d’entraînement et mauvaise forme.
 - [x] **P267** · QCM · Rappel / application — Air pollué : facteur cité à vérifier.
 - [x] **P268** · QCM · Rappel / application — Signes de respiration haletante.
@@ -359,7 +359,7 @@ Source : **S1 p.17**. Contrôle : **V07**. Fichier futur : `cards/n2/08-essouffl
 - [x] **P272** · QCM · Rappel / application — Premiers signes : arrêter l’effort et prévenir.
 - [x] **P274** · QCM · Rappel / application — Remontée assistée contrôlée : objectif.
 - [x] **P277** · QCM · Rappel / application — Éviter de lutter contre un courant.
-- [x] **P279** · QCM · Scénario — Scénario : réduire profondeur sans ignorer les autres contraintes.
+- [x] **P279** · Fusion après revue finale — Couvert par P261/P274 ; voir REVUE_FINALE_N2.md.
 - [x] **P280** · QCM · Rappel / application — Prise en charge en surface : protocole à vérifier.
 
 ### 09-froid — Prévention des accidents
@@ -369,14 +369,14 @@ Source : **S1 p.17–18**. Contrôle : **V07**. Fichier futur : `cards/n2/09-fro
 - [x] **P281** · QCM · Rappel / application — Équilibre entre chaleur produite et perdue.
 - [x] **P283** · QCM · Rappel / application — Repérer une dégradation liée au froid à partir d’un petit tableau de signes contextualisés.
 - [x] **P286** · QCM · Rappel / application — Disparition progressive des frissons : pas un signe rassurant.
-- [x] **P288** · QCM · Rappel / application — Froid : signaler et terminer la plongée.
+- [x] **P288** · Fusion après revue finale — Couvert par P283 ; voir REVUE_FINALE_N2.md.
 - [x] **P289** · QCM · Rappel / application — Protection adaptée : combinaison, cagoule et chaussons.
 - [x] **P291** · QCM · Rappel / application — Fatigue et alimentation : facteurs à considérer.
 - [x] **P292** · QCM · Rappel / application — Froid, essoufflement et narcose : interaction.
 - [x] **P293** · QCM · Rappel / application — Sortie : sécher et protéger du vent.
 - [x] **P295** · Basic · Scénario — Hypothermie avec confusion : manipulations douces, sans friction ; boisson non alcoolisée couverte avec P296.
 - [x] **P296** · QCM · Rappel / application — Boisson : conditions de conscience et déglutition à vérifier.
-- [x] **P298** · QCM · Scénario — Scénario : doigts maladroits au moment du parachute.
+- [x] **P298** · Fusion après revue finale — Couvert par P283 ; voir REVUE_FINALE_N2.md.
 
 ### 10-narcose — Prévention des accidents
 
@@ -454,7 +454,7 @@ Source : **S1 p.23–26**. Contrôle : **V10**. Fichier futur : `cards/n2/12-tab
 - [x] **P406** · QCM · Comparaison — Durée théorique versus durée réelle.
 - [x] **P407** · QCM · Rappel / application — Variables qui déterminent la majoration.
 - [x] **P408** · QCM · Rappel / application — Remontée lente : temps pris en compte selon MN90.
-- [x] **P411** · Basic · Complément — Exercice de lecture d’une ligne de table : données à obtenir.
+- [x] **P411** · Fusion après revue finale — Couvert par P394/P413 ; voir REVUE_FINALE_N2.md.
 - [x] **P412** · QCM · Rappel / application — Exercice de courbe sans palier : valeurs à vérifier visuellement.
 - [x] **P413** · Basic · Complément — Exercice de calcul DTR : données complètes nécessaires.
 - [x] **P414** · Basic · Complément — Exercice de successive : obtenir les tables complémentaires.
@@ -472,7 +472,7 @@ Source : **S1 p.27–29 ; S2 p.1–2**. Contrôle : **V11**. Fichier futur : `ca
 - [x] **P430** · QCM · Lecture / repérage — Avant immersion : vérifier écran, énergie et réglages.
 - [x] **P432** · QCM · Rappel / application — Expliquer pourquoi la fin de ses propres obligations ne suffit pas à autoriser une remontée solitaire.
 - [x] **P433** · QCM · Rappel / application — Algorithmes et réglages différents : résultats différents.
-- [x] **P437** · QCM · Scénario — Lire deux ordinateurs aux obligations différentes et organiser une fin de plongée commune.
+- [x] **P437** · Fusion après revue finale — Couvert par P432 ; voir REVUE_FINALE_N2.md.
 - [x] **P438** · QCM · Scénario — Scénario : DTR augmente pendant la plongée.
 - [x] **P439** · QCM · Scénario — Scénario : confusion NDL et autonomie en air.
 - [x] **P440** · QCM · Rappel / application — Gestion de l’air intégrée : dépend d’une sonde.
@@ -518,7 +518,7 @@ Source : **S1 p.29–30**. Contrôle : **V13**. Fichier futur : `cards/n2/15-gon
 - [x] **P502** · QCM · Rappel / application — Transport d’un bloc gonflé : corriger la formulation générale du support.
 - [x] **P504** · QCM · Scénario — Lire une inscription de bloc fictive : trouver capacité et pression de service parmi les autres marquages.
 - [x] **P505** · QCM · Scénario — Scénario : bloc à requalification dépassée.
-- [x] **P506** · QCM · Scénario — Scénario : changement de bloc et réévaluation du lestage.
+- [x] **P506** · Fusion après revue finale — Couvert par P483 ; voir REVUE_FINALE_N2.md.
 
 ### 16-detendeurs — Matériel et préparation
 
@@ -541,7 +541,7 @@ Source : **S1 p.30–34**. Contrôle : **V14**. Fichier futur : `cards/n2/16-det
 - [x] **P541** · QCM · Rappel / application — Fuite de robinetterie : joint et montage, tableau à relever.
 - [x] **P542** · QCM · Rappel / application — Inspiration difficile : pression, ouverture, filtre ou réglage, à confirmer.
 - [x] **P543** · QCM · Rappel / application — Incident de détendeur : priorité à la sécurité de la palanquée.
-- [x] **P544** · QCM · Rappel / application — Tableau de pannes : séparer observation, cause possible et action autorisée.
+- [x] **P544** · Fusion après revue finale — Couvert par P542/P573 ; voir REVUE_FINALE_N2.md.
 - [x] **P545** · QCM · Scénario — Scénario : confusion entre MP et pression délivrée à la bouche.
 
 ### 17-competences-transversales — Matériel et préparation
@@ -559,7 +559,7 @@ Source : **S2 p.1–2 ; S1 p.3–5, 11–12, 23, 28**. Contrôle : **V15**. Fich
 - [x] **P562** · Basic · Complément — Repères naturels : complément à documenter.
 - [x] **P563** · Basic · Complément — Boussole et cap retour : complément à documenter.
 - [x] **P564** · Basic · Complément — Perte de palanquée : procédure absente à obtenir.
-- [x] **P565** · QCM · Rappel / application — Parachute : compétence opérationnelle, support incomplet.
+- [x] **P565** · Fusion après revue finale — Couvert par P168 ; voir REVUE_FINALE_N2.md.
 - [x] **P567** · QCM · Rappel / application — Signaler une difficulté avant aggravation.
 - [x] **P569** · QCM · Scénario — Scénario : autorisation réglementaire mais état personnel défavorable.
 - [x] **P570** · QCM · Scénario — Scénario : guide présent ne dispense pas de surveiller son ordinateur.
@@ -735,3 +735,19 @@ par fusion traçable ; trois compléments MFT portent le suivi à 328 objectifs.
 Aucun objectif du catalogue restant, aucun draft. Le programme pratique et les espèces
 locales restent travaillés en formation ; le catalogue théorique convenu est achevé.
 Voir [la couverture finale et ses limites](reviews/COUVERTURE_FINALE_N2.md).
+
+## Dernière revue intégrale — 6 octobre 2026
+
+308 cartes actives après relecture des 312 cartes initiales, retrait de dix répétitions
+et ajout de six cartes. Les fusions ci-dessus maintiennent la couverture du catalogue.
+Le total des objectifs suivis est désormais 334. Les bilans de lots précédents sont historiques.
+
+- [x] **P640** · Basic · Calcul inverse — Déduire la profondeur de deux volumes de gaz.
+- [x] **P641** · Basic · Calcul par trajet — Consommation pendant une remontée à vitesse constante.
+- [x] **P642** · Basic · Calcul inverse — Durée réelle maximale avec majoration MN90 donnée.
+- [x] **P643** · Basic · Calcul — DTR avec deux paliers et arrondi final.
+- [x] **P644** · Basic · Lecture — Plafond : distinguer profondeur plus faible et plus grande.
+- [x] **P645** · Basic · Coordination — Deux plafonds différents et crédit du temps de palier.
+
+Voir [la revue finale](reviews/REVUE_FINALE_N2.md) et
+[le registre des IDs retirés](reviews/RETIREMENTS_N2.yaml).

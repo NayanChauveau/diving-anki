@@ -557,15 +557,16 @@ cards:
     - https://world.dan.org/health-medicine/health-resource/health-safety-guidelines/guidelines-for-flying-after-diving/
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
     - 'DAN — Defensive Dive Profile Planning, consulté le 2026-10-06 : https://dan.org/alert-diver/article/defensive-dive-profile-planning/'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Pour un plongeur sans symptôme ayant fait plusieurs plongées sans palier dans la journée, quel
-      intervalle minimal de surface est recommandé par DAN avant un vol en cabine pressurisée ?
-    back: '**Au moins 18 heures.** Pour une seule plongée sans palier, le repère est 12 heures ; après
-      des plongées nécessitant des paliers, un délai nettement supérieur à 18 heures est recommandé. La
-      baisse de pression en cabine justifie ces intervalles, qui réduisent le risque sans le supprimer.
-      Un trajet en altitude après la plongée expose également à une baisse de pression ; tenir compte
-      de l’altitude prévue dans la planification.'
+    front: Un plongeur sans symptôme a fait plusieurs plongées sans palier dans la journée. Quel intervalle
+      minimal de surface recommande DAN avant un vol dont la pression en cabine correspond à une altitude
+      de 610 à 2 438 m ?
+    back: '**Au moins 18 heures.** Le repère est 12 heures après une seule plongée sans palier. Ces délais
+      visent les plongeurs sans symptôme et la plage de pression cabine annoncée ; un intervalle plus
+      long réduit davantage le risque. La baisse de pression pendant un trajet en altitude doit aussi
+      être prise en compte.'
 - id: n2-add-articulation-001
   type: basic
   deck: Désaturation

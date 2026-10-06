@@ -41,7 +41,3 @@ se vérifient ensemble. Voir la grille de revue dans docs/CARD_DESIGN.md.
 La difficulté ne doit pas provenir du flou. Chaque QCM demande une chose précise dans un
 contexte explicite ; tous les choix répondent à cette même demande. Distinguer minimum imposé,
 configuration possible et condition obligatoire pour éviter plusieurs réponses défendables.
-
-Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
-cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
-Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.

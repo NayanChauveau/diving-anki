@@ -17,6 +17,7 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
   fr:
     question: Quelles aptitudes d’exploration le brevet N2 FFESSM atteste-t-il ?
     choices:
@@ -28,9 +29,9 @@ cards:
       correct: false
     - text: Plongée encadrée jusqu’à 40 m (PE40) et autonomie jusqu’à 40 m (PA40)
       correct: false
-    explanation: Le N2 combine une capacité d’exploration autonome dans la zone 0–20 m et une capacité
-      d’exploration encadrée dans la zone 0–40 m. Les conditions de réalisation restent fixées par le
-      directeur de plongée.
+    explanation: Le N2 atteste PA20 pour l’exploration autonome jusqu’à 20 m et PE40 pour l’exploration
+      encadrée jusqu’à 40 m. Le directeur de plongée peut retenir des limites plus basses ; son accord
+      ne permet pas d’exercer PA20 à 30 m. Les aptitudes plus profondes doivent être justifiées séparément.
 - id: n2-prerogatives-qualifications-separees-001
   type: mcq
   deck: Réglementation
@@ -161,38 +162,6 @@ cards:
       correct: false
     explanation: Chaque équipier doit avoir les aptitudes d’autonomie jusqu’à 20 m. PE20 et PE40 sont
       des aptitudes de plongée encadrée ; PA12 limite l’autonomie à 12 m.
-- id: n2-prerogatives-autonome-trente-001
-  type: mcq
-  deck: Réglementation
-  levels:
-  - N2
-  tags:
-  - chapitre::01
-  - prerogatives
-  - angle::scenario
-  status: reviewed
-  source_id: P010
-  review:
-    fact_check: pass
-    sources:
-    - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
-    - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
-    - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
-    - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
-  fr:
-    question: Trois plongeurs majeurs ne justifient que des aptitudes N2. Peuvent-ils explorer à 30 m
-      ensemble sans guide en France ?
-    choices:
-    - text: 'Non : leurs aptitudes N2 limitent l’autonomie à 20 m'
-      correct: true
-    - text: 'Oui : PE40 suffit puisque 30 m reste inférieur à 40 m'
-      correct: false
-    - text: 'Oui : un DP peut autoriser PA20 jusqu’à 30 m avec trois N2'
-      correct: false
-    - text: 'Oui : le même brevet chez les trois plongeurs permet de dépasser 20 m'
-      correct: false
-    explanation: Les aptitudes N2 comprennent PA20 pour l’autonomie et PE40 pour la plongée encadrée.
-      À 30 m, PE40 nécessite un guide. L’accord du DP ne suffit pas à étendre PA20 au-delà de 20 m.
 - id: n2-prerogatives-aptitude-restrictive-001
   type: mcq
   deck: Réglementation
@@ -212,18 +181,17 @@ cards:
     - 'Code du sport — A322-73 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
   fr:
     question: En France, un PA20 et un plongeur ayant seulement PA12 plongent ensemble en autonomie. Le
       DP autorise cette palanquée. Quelle profondeur maximale leurs aptitudes permettent-elles pour le
       groupe ?
     choices:
-    - text: 12 m pour toute la palanquée
+    - text: 12 m, même si le PA20 assume l’assistance
       correct: true
-    - text: 20 m pour toute la palanquée si le PA20 conduit le groupe
+    - text: 20 m, si le PA20 assume l’assistance
       correct: false
-    - text: 20 m pour toute la palanquée si les deux possèdent leur équipement d’autonomie
-      correct: false
-    - text: 12 m à l’aller puis 20 m au retour si le DP l’a prévu
+    - text: 20 m, si le DP donne son accord explicite
       correct: false
     explanation: La palanquée reste dans la zone du plongeur aux aptitudes les plus restrictives. Le DP
       peut encore fixer une limite plus basse.
@@ -531,23 +499,24 @@ cards:
     - 'FFESSM — règles générales formation et certification, janvier 2025, p.2 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/fb0d17fd-84a2-40ef-a59a-48ee2ab230e3'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
   fr:
-    question: Un candidat remplit déjà les conditions de niveau, d’expérience et d’âge pour la formation
-      N2 FFESSM. Quelle paire complète son dossier pour la licence et le certificat médical ?
+    question: Un candidat satisfait déjà aux conditions de niveau, d’expérience et d’âge pour la formation
+      N2 FFESSM. Quelle paire de documents justifie son affiliation fédérale et l’absence de contre-indication
+      médicale ?
     choices:
-    - text: Licence FFESSM en cours de validité + CACI conforme aux règles fédérales
+    - text: Licence FFESSM valide + CACI conforme aux règles fédérales
       correct: true
-    - text: Licence FFESSM en cours de validité + carnet de plongée, sans CACI
+    - text: Carte N1 + CACI conforme aux règles fédérales
       correct: false
-    - text: CACI conforme + carnet de plongée, sans licence FFESSM
+    - text: Licence FFESSM valide + carnet de plongée
       correct: false
-    - text: Licence FFESSM en cours de validité + carte N1, sans CACI
+    - text: Carte N1 + carnet de plongée
       correct: false
-    explanation: 'CACI signifie certificat d’absence de contre-indication : c’est le certificat médical
-      requis pour la plongée. Il atteste l’absence de contre-indication médicale ; le N1 ou une certification
-      équivalente atteste le niveau préalable. La licence doit être en cours de validité. Le choix « licence
-      et carte N1, sans CACI » est faux parce qu’il manque le certificat médical. Les conditions d’expérience
-      et d’âge s’ajoutent à ces exigences.'
+    explanation: 'Le CACI est le **certificat d’absence de contre-indication** : il atteste l’absence
+      de contre-indication médicale à la plongée. La licence valide justifie l’affiliation FFESSM. Le
+      N1 ou une certification équivalente atteste le niveau préalable, déjà supposé acquis ici ; le carnet
+      retrace l’expérience. Ni le brevet ni le carnet ne remplacent le CACI ou la licence.'
 - id: n2-prerogatives-prerequis-niveau-001
   type: mcq
   deck: Réglementation
@@ -665,17 +634,16 @@ cards:
     - 'FFESSM — présentation N2 : https://ffessm.fr/plongeur-niveau-2'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
   fr:
     question: À l’étranger, une structure reconnaît la carte N2/CMAS d’un plongeur. Comment déterminer
       dans quelles conditions il pourra y plonger ?
     choices:
-    - text: Vérifier les conditions locales et celles de la structure, même si la carte est reconnue
+    - text: Appliquer les conditions locales et celles de la structure d’accueil
       correct: true
-    - text: Appliquer PA20 dès que la structure reconnaît la carte CMAS, sans vérifier ses conditions
+    - text: Appliquer les prérogatives françaises du N2 dans toute structure qui reconnaît la carte
       correct: false
-    - text: Appliquer PE40 dès que la structure reconnaît la carte CMAS, sans vérifier ses conditions
-      correct: false
-    - text: Appliquer les prérogatives du brevet local portant le même numéro de niveau
+    - text: Appliquer les prérogatives CMAS comme règles communes à tous les pays
       correct: false
     explanation: La reconnaissance d’une formation et l’autorisation d’une plongée précise sont deux questions
       différentes. Il faut se renseigner auprès de la structure et respecter le cadre local.

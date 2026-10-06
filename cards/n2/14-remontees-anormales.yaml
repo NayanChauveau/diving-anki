@@ -97,10 +97,11 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Après une remontée trop rapide répondant aux critères fédéraux de 2024, que prévoit le texte
-      lorsque la réimmersion est impossible ?
+    front: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
+      que prévoit le texte lorsque la réimmersion est impossible ?
     back: '**Oxygène en surface et évacuation organisée avec les secours.** L’absence de symptôme immédiat
       n’autorise pas à remplacer ce rattrapage impossible par une simple attente.'
 - id: n2-remontees-anormales-yoyos-001
@@ -198,11 +199,12 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
-    front: Un palier de décompression obligatoire est interrompu lors d’une plongée à l’air avec ordinateur.
-      Le plongeur est sans signe d’accident et la réimmersion est réalisable en moins de 3 min. Quelle
-      reprise prévoit la recommandation fédérale de 2024 ?
+    front: Un palier obligatoire est interrompu lors d’une plongée à l’air avec ordinateur. Le plongeur
+      est sans signe d’accident ; le gaz et l’assistance permettent de regagner le palier en moins de
+      3 min. Quelle reprise prévoit la recommandation fédérale de 2024 ?
     back: '**Redescendre dans ce délai, poursuivre le palier et ajouter 3 min à 3 m.** Continuer à respecter
       les autres obligations ; le texte ne demande pas de refaire systématiquement tous les paliers depuis
       le début.'
@@ -225,14 +227,15 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: En plongée à l’air avec ordinateur, un maximum de 3 min de palier obligatoire n’a pas été fait.
       Sans signe d’accident et avec réimmersion impossible, quel suivi prévoit la recommandation fédérale
       de 2024 ?
     back: '**Observation pendant 3 h et aucune nouvelle plongée pendant 24 h.** Au moindre signe évoquant
-      un accident, déclencher les secours. Au-delà de 3 min de palier manqué, le texte prévoit directement
-      leur déclenchement.'
+      un accident, déclencher les secours ; au-delà de 3 min de palier manqué, les déclencher directement.
+      Ces 3 min mesurent la durée de palier non réalisée, pas le temps écoulé depuis la sortie de l’eau.'
 - id: n2-remontees-anormales-symptomes-001
   type: basic
   deck: Désaturation

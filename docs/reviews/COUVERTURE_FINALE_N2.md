@@ -1,9 +1,13 @@
 # Couverture finale N2 — 6 octobre 2026
 
-312 cartes françaises revues, 18 chapitres de fichiers et cinq catégories Anki.
-328 objectifs traités : 325 du catalogue initial, plus P637–P639 issus du MFT actuel.
+308 cartes françaises revues, 18 chapitres de fichiers et cinq catégories Anki.
+334 objectifs traités : 325 du catalogue initial, trois compléments MFT et six compléments de revue finale.
 Aucun draft ni objectif du catalogue en attente. « Couvert » signifie carte dédiée ou
 fusion vérifiée, et non une carte supplémentaire pour chaque objectif.
+
+La [dernière revue intégrale](REVUE_FINALE_N2.md) a retiré dix répétitions et ajouté six exercices
+et lectures ciblées. Les IDs retirés sont conservés dans [le registre](RETIREMENTS_N2.yaml)
+et leurs objectifs restent couverts par fusion.
 
 ## Comparaison au MFT et compléments
 
@@ -50,7 +54,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P006 | n2-prerogatives-autonomie-dp-001 | Directe |
 | P007 | n2-prerogatives-pa20-effectif-001 | Directe |
 | P008 | n2-prerogatives-pa20-equipiers-001 | Directe |
-| P010 | n2-prerogatives-autonome-trente-001 | Directe |
+| P010 | n2-prerogatives-n2-aptitudes-001 | Fusion — revue finale |
 | P012 | n2-prerogatives-aptitude-restrictive-001 | Directe |
 | P013 | n2-prerogatives-age-pe40-001 | Directe |
 | P014 | n2-prerogatives-age-certification-001 | Directe |
@@ -95,7 +99,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P073 | n2-documents-peche-scaphandre-001 | Directe |
 | P074 | n2-documents-pavillon-alpha-001 | Directe |
 | P076 | n2-documents-distance-navires-locale-001 | Directe |
-| P077 | n2-prerogatives-aptitude-restrictive-001, n2-prerogatives-autonome-trente-001 | Fusion |
+| P077 | n2-prerogatives-aptitude-restrictive-001, n2-prerogatives-n2-aptitudes-001 | Fusion — revue finale |
 | P078 | n2-documents-suivi-bloc-001 | Directe |
 | P079 | n2-documents-federation-role-001 | Directe |
 | P080 | n2-documents-cmas-role-001 | Directe |
@@ -192,7 +196,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P261 | n2-essoufflement-profondeur-001 | Directe |
 | P262 | n2-essoufflement-co2-001 | Directe |
 | P263 | n2-essoufflement-effort-001 | Directe |
-| P265 | n2-essoufflement-materiel-001 | Directe |
+| P265 | n2-detendeurs-inspiration-difficile-001 | Fusion — revue finale |
 | P266 | n2-essoufflement-effort-001 | Fusion |
 | P267 | n2-essoufflement-air-pollue-001 | Directe |
 | P268 | n2-essoufflement-signes-001 | Directe |
@@ -200,19 +204,19 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P272 | n2-essoufflement-premiers-signes-001 | Directe |
 | P274 | n2-essoufflement-assistance-001 | Directe |
 | P277 | n2-essoufflement-courant-001 | Directe |
-| P279 | n2-essoufflement-moins-profond-001 | Directe |
+| P279 | n2-essoufflement-profondeur-001, n2-essoufflement-assistance-001 | Fusion — revue finale |
 | P280 | n2-barotraumatismes-alerte-oxygene-001, n2-barotraumatismes-amelioration-symptomes-001, n2-barotraumatismes-victime-non-respirante-001 | Fusion |
 | P281 | n2-froid-bilan-thermique-001 | Directe |
 | P283 | n2-froid-signes-001 | Directe |
 | P286 | n2-froid-fin-frissons-001 | Directe |
-| P288 | n2-froid-interrompre-001 | Directe |
+| P288 | n2-froid-signes-001 | Fusion — revue finale |
 | P289 | n2-froid-protection-001 | Directe |
 | P291 | n2-froid-fatigue-001 | Directe |
 | P292 | n2-froid-interactions-001 | Directe |
 | P293 | n2-froid-sortie-001 | Directe |
 | P295 | n2-froid-rechauffement-001 | Directe |
 | P296 | n2-froid-boisson-001 | Directe |
-| P298 | n2-froid-parachute-001 | Directe |
+| P298 | n2-froid-signes-001 | Fusion — revue finale |
 | P299 | n2-narcose-air-001 | Directe |
 | P302 | n2-narcose-dalton-001, n2-narcose-partielle-vingt-001 | Directe |
 | P304 | n2-narcose-oxygene-trente-001 | Directe |
@@ -275,7 +279,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P406 | n2-tables-temps-fictif-001 | Directe |
 | P407 | n2-tables-variables-001 | Directe |
 | P408 | n2-tables-remontee-lente-001 | Directe |
-| P411 | n2-tables-lecture-001 | Directe |
+| P411 | n2-tables-dtr-001, n2-tables-calcul-dtr-001 | Fusion — revue finale |
 | P412 | n2-tables-courbe-001 | Directe |
 | P413 | n2-tables-calcul-dtr-001 | Directe |
 | P414 | n2-tables-intervalle-arrondi-001, n2-tables-successive-001 | Directe |
@@ -288,7 +292,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P430 | n2-ordinateurs-controle-001 | Directe |
 | P432 | n2-ordinateurs-collectif-001 | Directe |
 | P433 | n2-ordinateurs-differences-001 | Directe |
-| P437 | n2-ordinateurs-deux-ecrans-001 | Directe |
+| P437 | n2-ordinateurs-collectif-001 | Fusion — revue finale |
 | P438 | n2-ordinateurs-dtr-augmente-001 | Directe |
 | P439 | n2-ordinateurs-ndl-air-001 | Directe |
 | P440 | n2-ordinateurs-sonde-001 | Directe |
@@ -324,7 +328,7 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P502 | n2-gonflage-blocs-transport-001 | Directe |
 | P504 | n2-gaz-stock-nominal-001, n2-gaz-stock-quinze-001, n2-gonflage-blocs-pression-001 | Fusion |
 | P505 | n2-gonflage-blocs-date-depassee-001 | Directe |
-| P506 | n2-gonflage-blocs-lestage-001 | Directe |
+| P506 | n2-gonflage-blocs-materiau-001 | Fusion — revue finale |
 | P508 | n2-detendeurs-pressions-001 | Directe |
 | P512 | n2-detendeurs-relative-absolue-001 | Directe |
 | P514 | n2-detendeurs-fixations-001 | Directe |
@@ -342,9 +346,9 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P541 | n2-detendeurs-fuite-montage-001 | Directe |
 | P542 | n2-detendeurs-inspiration-difficile-001 | Directe |
 | P543 | n2-detendeurs-incident-immersion-001 | Directe |
-| P544 | n2-detendeurs-diagnostic-001 | Directe |
+| P544 | n2-detendeurs-inspiration-difficile-001, n2-lecture-pannes-eau-bouche-001 | Fusion — revue finale |
 | P545 | n2-detendeurs-bouche-001 | Directe |
-| P547 | n2-essoufflement-materiel-001, n2-ordinateurs-controle-001 | Fusion |
+| P547 | n2-detendeurs-inspiration-difficile-001, n2-ordinateurs-controle-001 | Fusion — revue finale |
 | P549 | n2-competences-transversales-retour-001, n2-organisation-autonomie-collective-001 | Fusion |
 | P550 | n2-competences-transversales-retour-001, n2-ordinateurs-collectif-001, n2-organisation-autonomie-collective-001 | Fusion |
 | P552 | n2-gaz-deux-equipiers-001, n2-gaz-duree-fond-planification-001, n2-gaz-effort-recalcul-001, n2-gaz-stock-utilisable-001 | Fusion |
@@ -355,16 +359,16 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 | P562 | n2-competences-transversales-reperes-001 | Directe |
 | P563 | n2-competences-transversales-cap-retour-001, n2-competences-transversales-cap-retour-ouest-001 | Directe |
 | P564 | n2-competences-transversales-separation-001 | Directe |
-| P565 | n2-competences-transversales-parachute-ligne-001 | Directe |
+| P565 | n2-flottabilite-parachute-traction-001 | Fusion — revue finale |
 | P567 | n2-essoufflement-premiers-signes-001 | Fusion |
 | P569 | n2-competences-transversales-renoncer-001 | Directe |
 | P570 | n2-organisation-parametres-personnels-001 | Fusion |
-| P572 | n2-ordinateurs-collectif-001, n2-ordinateurs-deux-ecrans-001 | Fusion |
+| P572 | n2-ordinateurs-collectif-001 | Fusion — revue finale |
 | P573 | n2-lecture-pannes-eau-bouche-001 | Directe |
-| P577 | n2-detendeurs-diagnostic-001, n2-detendeurs-inspiration-difficile-001 | Fusion |
+| P577 | n2-detendeurs-inspiration-difficile-001, n2-lecture-pannes-eau-bouche-001 | Fusion — revue finale |
 | P578 | n2-lecture-pannes-chambre-humide-001 | Directe |
 | P580 | n2-lecture-pannes-flexible-001 | Directe |
-| P581 | n2-detendeurs-diagnostic-001 | Fusion |
+| P581 | n2-detendeurs-inspiration-difficile-001, n2-lecture-pannes-eau-bouche-001 | Fusion — revue finale |
 | P585 | n2-detendeurs-pressions-001 | Fusion |
 | P594 | n2-pression-absolue-lac-001, n2-pression-absolue-six-metres-001, n2-pression-absolue-trente-trois-metres-001, n2-pression-absolue-vingt-metres-001, n2-pression-double-atmosphere-001 | Fusion |
 | P606 | n2-barotraumatismes-surpression-mecanisme-001, n2-flottabilite-respiration-001, n2-gaz-oreille-descente-001 | Fusion |
@@ -388,3 +392,9 @@ Les fusions anciennes de PREPARATION_GLOBALE.md restent valables pour les propos
 
 Inspection de la sortie HTML et des tableaux/schémas rendus ; pas de revendication
 d’une relecture humaine indépendante ni d’un contrôle visuel de chaque carte dans Anki.
+| P640 | n2-gaz-boyle-profondeur-inverse-001 | Complément — revue finale |
+| P641 | n2-gaz-consommation-remontee-001 | Complément — revue finale |
+| P642 | n2-tables-successive-duree-maximale-001 | Complément — revue finale |
+| P643 | n2-tables-dtr-plusieurs-paliers-001 | Complément — revue finale |
+| P644 | n2-ordinateurs-plafond-lecture-001 | Complément — revue finale |
+| P645 | n2-ordinateurs-plafonds-differents-001 | Complément — revue finale |

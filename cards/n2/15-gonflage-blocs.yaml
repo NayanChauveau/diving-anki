@@ -101,12 +101,15 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
     - S1 p.30 ; calcul de flottabilité du chapitre 05.
     - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     fact_check: pass
   fr:
     front: Le seul mot « aluminium » suffit-il à conclure qu’un bloc sera plus léger et moins négatif
       qu’un bloc acier ?
     back: '**Non : il faut connaître sa masse, son volume extérieur et le gaz contenu.** Les épaisseurs
-      et dimensions varient avec la conception ; le matériau seul ne donne pas la flottabilité de l’ensemble.'
+      et dimensions varient selon le modèle. Deux blocs de même capacité intérieure peuvent donc avoir
+      des flottabilités différentes ; changer de bloc nécessite de vérifier le lestage, notamment avec
+      la pression de fin de plongée.'
 - id: n2-gonflage-blocs-bi-001
   type: basic
   deck: Matériel et préparation
@@ -287,25 +290,3 @@ cards:
       sa pression sans fuite. Peut-on le faire gonfler pour une dernière plongée ?
     back: '**Non : le retirer du service jusqu’au contrôle requis et à une remise en service conforme.**
       L’absence de fuite ne démontre pas la tenue du métal ni la validité du suivi.'
-- id: n2-gonflage-blocs-lestage-001
-  type: basic
-  deck: Matériel et préparation
-  levels:
-  - N2
-  tags:
-  - chapitre::15
-  - gonflage-blocs
-  status: reviewed
-  source_id: P506
-  review:
-    sources:
-    - S1 — Théorie N2 Stade de Vanves 2024, p.29–30 ; tableau p.34 inspecté visuellement.
-    - S1 p.30 ; flottabilité chapitre 05.
-    - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
-    fact_check: pass
-  fr:
-    front: Vous remplacez votre bloc habituel par un autre modèle de même capacité intérieure. Pourquoi
-      vérifier à nouveau le lestage ?
-    back: '**Sa masse et son volume extérieur peuvent différer**, donc sa flottabilité aussi. Contrôler
-      la configuration avec le matériel réellement porté et la situation de fin de plongée, pas la seule
-      indication en litres.'

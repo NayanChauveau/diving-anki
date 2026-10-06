@@ -139,8 +139,5 @@ les mêmes hypothèses. Si deux choix peuvent être vrais selon une lecture rais
 - Si la clarté rend les mauvais choix trop évidents, reconstruire des distracteurs plausibles.
   Ne jamais réintroduire du flou pour rendre la question difficile.
 
-La revue intégrale des 53 cartes est consignée dans reviews/CLARTE_GLOBALE.md.
-
-Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
-cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
-Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.
+La première passe de clarté sur 53 cartes est consignée dans reviews/CLARTE_GLOBALE.md.
+La dernière revue de l’ensemble du N2 est dans [reviews/REVUE_FINALE_N2.md](reviews/REVUE_FINALE_N2.md).
