@@ -23,7 +23,7 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 - Un fait simple = une carte : Anki assure les répétitions. Fusionner paraphrases, cartes inverses
   du même fait et scénarios qui ne changent qu’un nom ou une profondeur dans une définition.
 - Pour un sujet complexe, conserver plusieurs angles ou exemples si chacun ajoute une opération,
-  une erreur à comprendre, une hypothèse ou une contrainte. Pas de substitutions numériques en série.
+  une erreur à comprendre, une hypothèse ou une contrainte. Pour les calculs, une courte série de valeurs variées est utile pour automatiser la méthode.
 - Comparer chaque proposition aux cartes de tous les chapitres et au catalogue. Noter son apport
   distinct dans la revue du lot ; sinon fusionner ou écarter. Une fusion ne doit pas produire
   un recto qui empile des questions indépendantes.
@@ -85,3 +85,7 @@ pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les ni
 - Exécuter `make check` après changement ; `make schema` après changement de schéma.
   Inspecter les rectos/versos après build quand le contenu ou le rendu des cartes change.
 - Documents privés dans `sources/`, jamais dans Git ; packages générés non committés.
+
+Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
+cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
+Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.

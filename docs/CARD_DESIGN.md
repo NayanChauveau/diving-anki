@@ -13,8 +13,10 @@ Le nombre de cartes n’est jamais un objectif de production.
 Un sujet complexe peut recevoir plusieurs cartes si chacune exige un raisonnement distinct :
 relation physique, calcul direct, calcul inverse, conversion, erreur de modèle,
 lecture de données, combinaison de phases ou décision avec une contrainte supplémentaire.
-Changer seulement les nombres ou le nom du plongeur ne suffit pas. Plusieurs exemples sont
-bienvenus quand leurs hypothèses ou leurs difficultés diffèrent réellement.
+Une courte série de calculs avec des valeurs différentes est utile pour pratiquer la méthode,
+même sans nouvelle opération à chaque carte : profondeurs rondes et intermédiaires, résultats
+entiers et décimaux, calcul direct et inverse. Cette préférence a été précisée le 6 octobre 2026.
+Éviter les longues séries mécaniques ; garder aussi des exercices aux hypothèses différentes.
 
 Avant chaque nouvelle carte, rechercher les objectifs voisins dans tout le catalogue et les YAML,
 y compris les autres chapitres. Écrire dans la revue du lot une phrase précisant son apport.
@@ -137,3 +139,7 @@ les mêmes hypothèses. Si deux choix peuvent être vrais selon une lecture rais
   Ne jamais réintroduire du flou pour rendre la question difficile.
 
 La revue intégrale des 53 cartes est consignée dans reviews/CLARTE_GLOBALE.md.
+
+Pour les exercices numériques, prévoir plusieurs applications à des valeurs différentes lorsque
+cela aide à maîtriser la méthode. Une seule application par formule peut être insuffisante.
+Cette répétition d’entraînement est distincte des paraphrases d’un fait simple.

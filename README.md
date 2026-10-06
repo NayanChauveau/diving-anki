@@ -5,8 +5,9 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Les trois premiers chapitres contiennent 53 cartes revues : 21 sur les prérogatives N2,
-20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement.
+leurs cartes. Les quatre premiers chapitres contiennent 77 cartes revues : 21 sur les prérogatives N2,
+20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement,
+24 sur les [pressions](docs/reviews/04-pression.md).
 Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
 [l’organisation](docs/reviews/02-organisation.md) et des
 [documents et de l’environnement](docs/reviews/03-documents-environnement.md).
@@ -44,7 +45,7 @@ pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
 N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
 **Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-Les 53 cartes actuelles sont regroupées dans Réglementation ; les autres catégories
+53 cartes sont regroupées dans Réglementation et 24 dans Physique ; les autres catégories
 apparaîtront avec leurs premières cartes. Les fichiers et tags conservent le détail des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).

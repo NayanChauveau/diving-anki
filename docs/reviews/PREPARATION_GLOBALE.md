@@ -469,3 +469,8 @@ La couverture et la véracité priment sur le volume final.
 12 cartes nouvelles. P059 couvert par P022/P023 ; P077 par P010/P012 ; P498 par P078.
 Ces objectifs restent dans le catalogue comme couverture validée, sans nouveaux IDs YAML
 pour les variantes. Détails et sources dans [la revue du chapitre](03-documents-environnement.md).
+
+## Implémentation du chapitre 04 — 6 octobre 2026
+
+16 cartes pour 18 objectifs couverts : P118 → P110 et P132 → P101. Les objectifs
+restent cochés au catalogue pour la traçabilité. Voir [la revue](04-pression.md).

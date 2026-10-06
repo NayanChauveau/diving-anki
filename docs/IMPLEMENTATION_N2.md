@@ -101,7 +101,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V03** — CACI, licence, chasse, signalisation et patrimoine : vérifier textes fédéraux et règles applicables au lieu. Les chiffres de licenciés, structures et gouvernance sont datés et de faible priorité. La reconnaissance CMAS ne donne pas une autorisation universelle de plonger.
 
-- [ ] **V04** — Erreur confirmée dans S3 p.3, exercice à 6 m : le corrigé indique 2,5 bar alors que sa propre formule 1 + 6/10 donne 1,6 bar. kg n’est pas une unité de force ; kgf/cm² et bar ne sont pas strictement identiques. Les calculs doivent annoncer le modèle pédagogique simplifié.
+- [x] **V04** — Erreur confirmée dans S3 p.3, exercice à 6 m : le corrigé indique 2,5 bar alors que sa propre formule 1 + 6/10 donne 1,6 bar. kg n’est pas une unité de force ; kgf/cm² et bar ne sont pas strictement identiques. Les calculs doivent annoncer le modèle pédagogique simplifié.
 
 - [ ] **V05** — Incohérence confirmée S3 p.6 : eau de mer plus porteuse, mais le support propose de retirer du lest lors du passage eau douce vers mer. Vérifier puis corriger la direction ; aucun décalage fixe universel. Les différences acier/alu, 12/15 L et bloc plein/vide dépendent du matériel. Le lest ajouté a lui-même un volume : préciser si négligé dans les exercices.
 
@@ -233,24 +233,24 @@ Source : **S1 p.5–7 ; S2 p.2**. Contrôle : **V03**. Fichier futur : `cards/n2
 
 Source : **S1 p.9–10 ; S3 p.2–3 (imprimées 4–5)**. Contrôle : **V04**. Fichier futur : `cards/n2/04-pression.yaml`.
 
-- [ ] **P096** · Cloze · Relation — Relation P = F / S.
-- [ ] **P097** · Basic · Compréhension — Expliquer l’effet de la force et de la surface sur la pression à partir d’un seul exemple concret.
-- [ ] **P101** · QCM · Rappel / application — Unité usuelle en plongée : bar.
-- [ ] **P102** · QCM · Comparaison — Distinguer masse, force et pression.
-- [ ] **P103** · Basic · Compréhension — Pression atmosphérique : origine.
-- [ ] **P105** · QCM · Rappel / application — Altitude : évolution qualitative de la pression atmosphérique.
-- [ ] **P106** · QCM · Rappel / application — Météo : variation qualitative de la pression atmosphérique.
-- [ ] **P107** · Basic · Compréhension — Pression hydrostatique : origine.
-- [ ] **P110** · QCM · Rappel / application — Calculer la pression absolue en distinguant pression atmosphérique et hydrostatique ; annoncer le modèle simplifié.
-- [ ] **P111** · QCM · Rappel / application — À même profondeur : pression identique dans le modèle.
-- [ ] **P114** · Basic · Calcul — Phyd à 3 m.
-- [ ] **P118** · Basic · Calcul — Pabs à 6 m : corriger l’exercice du support.
-- [ ] **P123** · Basic · Calcul — Profondeur correspondant à 1,5 bar absolu.
-- [ ] **P126** · Basic · Calcul — Profondeur correspondant à 2 bars relatifs.
-- [ ] **P127** · QCM · Erreur / limite — Erreur : ajouter deux fois la pression atmosphérique.
-- [ ] **P128** · QCM · Erreur / limite — Erreur : appliquer une pression relative à Boyle-Mariotte.
-- [ ] **P129** · QCM · Comparaison — Comparer les rapports de pression 0–10 m et 10–20 m.
-- [ ] **P132** · QCM · Rappel / application — Reconnaître hPa, mmHg et PSI sans apprendre les conversions.
+- [x] **P096** · Cloze · Relation — Relation P = F / S.
+- [x] **P097** · Basic · Compréhension — Expliquer l’effet de la force et de la surface sur la pression à partir d’un seul exemple concret.
+- [x] **P101** · QCM · Rappel / application — Unité usuelle en plongée : bar.
+- [x] **P102** · QCM · Comparaison — Distinguer masse, force et pression.
+- [x] **P103** · Basic · Compréhension — Pression atmosphérique : origine.
+- [x] **P105** · QCM · Rappel / application — Altitude : évolution qualitative de la pression atmosphérique.
+- [x] **P106** · QCM · Rappel / application — Météo : variation qualitative de la pression atmosphérique.
+- [x] **P107** · Basic · Compréhension — Pression hydrostatique : origine.
+- [x] **P110** · QCM · Rappel / application — Calculer la pression absolue en distinguant pression atmosphérique et hydrostatique ; annoncer le modèle simplifié.
+- [x] **P111** · QCM · Rappel / application — À même profondeur : pression identique dans le modèle.
+- [x] **P114** · Basic · Calcul — Phyd à 3 m.
+- [x] **P118** · Couvert par P110 — Calcul absolu à 6 m et correction du support ; pas de carte supplémentaire.
+- [x] **P123** · Basic · Calcul — Profondeur correspondant à 1,5 bar absolu.
+- [x] **P126** · Basic · Calcul — Profondeur correspondant à 2 bars relatifs.
+- [x] **P127** · QCM · Erreur / limite — Erreur : ajouter deux fois la pression atmosphérique.
+- [x] **P128** · QCM · Erreur / limite — Erreur : appliquer une pression relative à Boyle-Mariotte.
+- [x] **P129** · QCM · Comparaison — Comparer les rapports de pression 0–10 m et 10–20 m.
+- [x] **P132** · Couvert par P101 — Reconnaître les unités de pression, sans carte supplémentaire ni conversions à mémoriser.
 
 ### 05-flottabilite — Physique
 
@@ -659,3 +659,12 @@ les textes actuels. Voir [la revue du chapitre](reviews/02-organisation.md).
 12 nouvelles cartes revues ; P059 et P077 couverts par les chapitres précédents, P498 couvert
 par P078. V03 vérifié dans le périmètre rédigé ; pas de distance locale chiffrée ni d’interdiction
 universelle de prélèvement. Voir [la revue du chapitre](reviews/03-documents-environnement.md).
+
+### Chapitre 04 — réalisé le 6 octobre 2026
+
+24 cartes revues dans Physique couvrent les 18 objectifs : P118 absorbé par P110, P132 par P101.
+V04 vérifié ; voir [la revue](reviews/04-pression.md). Total publié : 77 cartes.
+
+Complément du chapitre 04 : huit exercices supplémentaires demandés pour pratiquer à plusieurs
+profondeurs. Ils approfondissent P110, P114, P123 et P129 sans créer de nouveaux objectifs
+au catalogue. Voir la revue du chapitre pour les cas et leur validation.
