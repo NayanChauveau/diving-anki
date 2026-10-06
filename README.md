@@ -5,10 +5,11 @@ Markdown, mélange des choix QCM, AnkiConnect, Ruff, basedpyright, pytest, sché
 pre-commit et CI avec artefacts et releases GitHub.
 
 Le contenu est en français. N2 est le niveau par défaut ; N3 et N4 sont prêts à recevoir
-leurs cartes. Les cinq premiers chapitres contiennent 102 cartes revues : 21 sur les prérogatives N2,
+leurs cartes. Les six premiers chapitres contiennent 133 cartes revues : 21 sur les prérogatives N2,
 20 sur l’organisation et les équipements, 12 sur les documents, la responsabilité et l’environnement,
 24 sur les [pressions](docs/reviews/04-pression.md) et 25 sur la
-[flottabilité](docs/reviews/05-flottabilite.md).
+[flottabilité](docs/reviews/05-flottabilite.md), ainsi que 31 sur les
+[gaz et l’autonomie](docs/reviews/06-gaz-autonomie.md), dont 20 exercices.
 Voir les revues des [prérogatives](docs/reviews/01-prerogatives.md) et de
 [l’organisation](docs/reviews/02-organisation.md) et des
 [documents et de l’environnement](docs/reviews/03-documents-environnement.md).
@@ -46,7 +47,11 @@ pour pouvoir importer plusieurs decks sans déplacer ses notes entre les niveaux
 Les sous-decks suivent `Plongée::N2::Physique`, par exemple.
 N2 comporte cinq catégories sans sous-deck par chapitre : **Réglementation**, **Physique**,
 **Prévention des accidents**, **Désaturation**, **Matériel et préparation**.
-53 cartes sont regroupées dans Réglementation et 49 dans Physique ; les autres catégories
+53 cartes sont regroupées dans Réglementation et 80 dans Physique ; les autres catégories
 apparaîtront avec leurs premières cartes. Les fichiers et tags conservent le détail des chapitres.
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
+
+Le dépôt distant est [NayanChauveau/diving-anki](https://github.com/NayanChauveau/diving-anki).
+`git push origin main` publie les commits sur GitHub ; `make push` construit et synchronise
+le deck avec AnkiWeb. Ces deux commandes ont des destinations différentes.

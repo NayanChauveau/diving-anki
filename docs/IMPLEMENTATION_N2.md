@@ -105,7 +105,7 @@ fait partie de l’implémentation future. Ne pas choisir arbitrairement un supp
 
 - [x] **V05** — Incohérence confirmée S3 p.6 : eau de mer plus porteuse, mais le support propose de retirer du lest lors du passage eau douce vers mer. Vérifier puis corriger la direction ; aucun décalage fixe universel. Les différences acier/alu, 12/15 L et bloc plein/vide dépendent du matériel. Le lest ajouté a lui-même un volume : préciser si négligé dans les exercices.
 
-- [ ] **V06** — Boyle-Mariotte : température et quantité de gaz constantes, pressions absolues. Le stock calculé avec la pression nominale est une approximation de cours, pas une planification réelle. Tous les calculs sans réserve doivent être nommés « théoriques » ; obtenir une source pour les règles opérationnelles de réserve et de retour.
+- [x] **V06** — Boyle-Mariotte : température et quantité de gaz constantes, pressions absolues. Le stock calculé avec la pression nominale est une approximation de cours, pas une planification réelle. Tous les calculs sans réserve doivent être nommés « théoriques » ; obtenir une source pour les règles opérationnelles de réserve et de retour.
 
 - [ ] **V07** — Accidents, froid et essoufflement : vérifier mécanismes et conduites avec les supports de formation/secourisme actuels. Ne pas adopter automatiquement rinçage nasal à l’eau de mer, collyre, reprise de plongée après un délai fixe, boisson à toute victime, Valsalva forcé ou consigne de réimmersion sans contexte. Le tableau p.16 et les paragraphes p.13–16 ne sont pas entièrement équivalents.
 
@@ -284,39 +284,39 @@ Source : **S1 p.8–9 ; S3 p.4–6 (imprimées 6–8)**. Contrôle : **V05**. Fi
 
 Source : **S1 p.10–12**. Contrôle : **V06**. Fichier futur : `cards/n2/06-gaz-autonomie.yaml`.
 
-- [ ] **P175** · QCM · Rappel / application — Boyle-Mariotte : relation inverse volume-pression.
-- [ ] **P176** · QCM · Rappel / application — Conditions du modèle : température et quantité de gaz constantes.
-- [ ] **P179** · Basic · Calcul — Calcul direct de volume d’un gaz souple en descente ; température et quantité de gaz constantes.
-- [ ] **P182** · Basic · Calcul — Gaz de 2 L à 20 m : volume en surface.
-- [ ] **P183** · Basic · Calcul — Gaz de 4 L à 10 m : volume à 30 m.
-- [ ] **P184** · QCM · Comparaison — Comparer expansion 10–0 m et 20–10 m.
-- [ ] **P185** · QCM · Rappel / application — Bloc rigide et ballon souple : ne pas confondre volumes.
-- [ ] **P186** · QCM · Rappel / application — Gilet à la descente : compensation de compression.
-- [ ] **P187** · QCM · Rappel / application — Gilet à la remontée : purge et expansion.
-- [ ] **P188** · QCM · Rappel / application — Masque à la descente : apport d’air.
-- [ ] **P189** · QCM · Rappel / application — Oreille à la descente : équilibrage.
-- [ ] **P190** · QCM · Rappel / application — Détendeur : gaz délivré à la pression ambiante.
-- [ ] **P193** · Basic · Calcul — Convertir un débit ambiant en consommation ramenée surface à une profondeur donnée ; unités explicites.
-- [ ] **P195** · Basic · Calcul — Calculer le stock théorique depuis volume intérieur et pression du bloc ; hypothèses explicites.
-- [ ] **P197** · Basic · Calcul — Calculer une autonomie théorique à profondeur constante ; identifier ce que le modèle omet.
-- [ ] **P200** · QCM · Comparaison — Rapport d’autonomie surface versus 40 m.
-- [ ] **P201** · Basic · Compréhension — Pourquoi les exemples sans réserve ne constituent pas une planification.
-- [ ] **P202** · QCM · Rappel / application — Air consommé pendant remontée et paliers : ne pas l’oublier.
-- [ ] **P203** · QCM · Rappel / application — Effort, stress et froid : limites de la consommation constante.
-- [ ] **P205** · Basic · Complément — Complément à documenter : calcul inverse d’une chute de pression.
-- [ ] **P206** · Basic · Complément — Complément à documenter : comparer deux équipiers avant le demi-tour.
+- [x] **P175** · QCM · Rappel / application — Boyle-Mariotte : relation inverse volume-pression.
+- [x] **P176** · QCM · Rappel / application — Conditions du modèle : température et quantité de gaz constantes.
+- [x] **P179** · Basic · Calcul — Calcul direct de volume d’un gaz souple en descente ; température et quantité de gaz constantes.
+- [x] **P182** · Basic · Calcul — Gaz de 2 L à 20 m : volume en surface.
+- [x] **P183** · Basic · Calcul — Gaz de 4 L à 10 m : volume à 30 m.
+- [x] **P184** · QCM · Comparaison — Comparer expansion 10–0 m et 20–10 m.
+- [x] **P185** · QCM · Rappel / application — Bloc rigide et ballon souple : ne pas confondre volumes.
+- [x] **P186** · QCM · Rappel / application — Gilet à la descente : compensation de compression.
+- [x] **P187** · QCM · Rappel / application — Gilet à la remontée : purge et expansion.
+- [x] **P188** · QCM · Rappel / application — Masque à la descente : apport d’air.
+- [x] **P189** · QCM · Rappel / application — Oreille à la descente : équilibrage.
+- [x] **P190** · QCM · Rappel / application — Détendeur : gaz délivré à la pression ambiante.
+- [x] **P193** · Basic · Calcul — Convertir un débit ambiant en consommation ramenée surface à une profondeur donnée ; unités explicites.
+- [x] **P195** · Basic · Calcul — Calculer le stock théorique depuis volume intérieur et pression du bloc ; hypothèses explicites.
+- [x] **P197** · Basic · Calcul — Calculer une autonomie théorique à profondeur constante ; identifier ce que le modèle omet.
+- [x] **P200** · QCM · Comparaison — Rapport d’autonomie surface versus 40 m.
+- [x] **P201** · Basic · Compréhension — Pourquoi les exemples sans réserve ne constituent pas une planification.
+- [x] **P202** · Couvert par P201 — Air des phases de retour, remontée et paliers inclus dans les besoins à prévoir.
+- [x] **P203** · QCM · Rappel / application — Effort, stress et froid : limites de la consommation constante.
+- [x] **P205** · Basic · Complément — Complément à documenter : calcul inverse d’une chute de pression.
+- [x] **P206** · Basic · Complément — Complément à documenter : comparer deux équipiers avant le demi-tour.
 
-Réserve et calculs composés : **complément de source nécessaire (V06/V15)**. Les nombres
+Réserve et calculs composés : **complément BSAC consulté le 6 octobre 2026 (V06)** ; voir la revue du chapitre. Les nombres
 ci-dessous sont des données d’exercice, jamais une réserve ou une procédure universelle.
 Toute phase omise limite le résultat au modèle annoncé ; pas d’autonomie opérationnelle implicite.
 
-- [ ] **P630** · Basic · Calcul · Complément — Calculer le gaz théoriquement utilisable d’un bloc de 12 L de 200 à 70 bar, réserve de 70 bar imposée dans l’énoncé ; distinguer stock total et stock utilisable.
-- [ ] **P631** · Basic · Calcul · Complément — Avec stock utilisable et débit surface donnés, calculer une durée à 20 m ; convertir avec la pression absolue avant la division.
-- [ ] **P632** · Basic · Calcul inverse · Complément — Retrouver la pression minimale initiale pour une phase à profondeur constante, avec durée, débit surface, volume de bloc et réserve imposés.
-- [ ] **P633** · Basic · Calcul par phases · Complément — Additionner le gaz nécessaire pour deux phases à profondeurs constantes différentes, durées et débits fournis ; phases fictives, pas une consigne de remontée.
-- [ ] **P634** · Basic · Comparaison · Complément — Comparer une même réserve en bar dans des blocs de 12 et 15 L ; expliquer pourquoi elle ne représente pas le même volume de gaz.
-- [ ] **P635** · Basic · Calcul / équipiers · Complément — Calculer le besoin théorique de deux équipiers respirant sur le même stock durant une phase fictive ; débits distincts donnés, puis comparer au stock disponible.
-- [ ] **P636** · Basic · Erreur / marge · Complément — Recalculer un besoin avec un débit augmenté fourni dans l’énoncé ; expliquer pourquoi une autonomie calculée au repos ne suffit pas pour une situation d’effort.
+- [x] **P630** · Basic · Calcul · Complément — Calculer le gaz théoriquement utilisable d’un bloc de 12 L de 200 à 70 bar, réserve de 70 bar imposée dans l’énoncé ; distinguer stock total et stock utilisable.
+- [x] **P631** · Basic · Calcul · Complément — Avec stock utilisable et débit surface donnés, calculer une durée à 20 m ; convertir avec la pression absolue avant la division.
+- [x] **P632** · Basic · Calcul inverse · Complément — Retrouver la pression minimale initiale pour une phase à profondeur constante, avec durée, débit surface, volume de bloc et réserve imposés.
+- [x] **P633** · Basic · Calcul par phases · Complément — Additionner le gaz nécessaire pour deux phases à profondeurs constantes différentes, durées et débits fournis ; phases fictives, pas une consigne de remontée.
+- [x] **P634** · Basic · Comparaison · Complément — Comparer une même réserve en bar dans des blocs de 12 et 15 L ; expliquer pourquoi elle ne représente pas le même volume de gaz.
+- [x] **P635** · Basic · Calcul / équipiers · Complément — Calculer le besoin théorique de deux équipiers respirant sur le même stock durant une phase fictive ; débits distincts donnés, puis comparer au stock disponible.
+- [x] **P636** · Basic · Erreur / marge · Complément — Recalculer un besoin avec un débit augmenté fourni dans l’énoncé ; expliquer pourquoi une autonomie calculée au repos ne suffit pas pour une situation d’effort.
 
 ### 07-barotraumatismes — Prévention des accidents
 
@@ -675,3 +675,11 @@ au catalogue. Voir la revue du chapitre pour les cas et leur validation.
 P152 → P151 et P171 → P172 ; les exercices supplémentaires pratiquent les objectifs existants.
 V05 vérifié : eau salée, unités, volume du lest et limites des généralités sur le matériel.
 Voir [la revue](reviews/05-flottabilite.md). Total publié après ce chapitre : 102 cartes.
+
+### Chapitre 06 — réalisé le 6 octobre 2026
+
+31 cartes revues, dont 20 exercices, couvrent les 28 objectifs. P202 → P201 ; les variantes
+de calcul pratiquent P179, P193 et P195. Compléments P205/P206 et P630–P636 sourcés
+par les relations et principes BSAC, avec données fictives imposées. Aucune réserve
+universelle ou procédure de demi-tour n’est créée. Voir [la revue](reviews/06-gaz-autonomie.md).
+Total publié : 133 cartes.

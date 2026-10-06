@@ -1,0 +1,766 @@
+cards:
+- id: n2-gaz-loi-boyle-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P175
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    question: Une quantité fixe de gaz parfait reste à température constante. Si sa pression absolue est
+      multipliée par 3, que devient son volume ?
+    choices:
+    - text: Il est divisé par 3
+      correct: true
+    - text: Il est multiplié par 3
+      correct: false
+    - text: Il est divisé par 2
+      correct: false
+    explanation: 'La loi de Boyle-Mariotte donne P₁ × V₁ = P₂ × V₂ : le produit pression absolue × volume
+      reste constant. Les gaz sont compressibles ; l’eau est approximativement incompressible aux pressions
+      usuelles de plongée.'
+- id: n2-gaz-conditions-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P176
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    question: Pour utiliser P₁V₁ = P₂V₂ entre deux états d’un même gaz parfait, quelles grandeurs doivent
+      rester constantes ?
+    choices:
+    - text: La température et la quantité de gaz
+      correct: true
+    - text: La température et la pression
+      correct: false
+    - text: La quantité de gaz et le volume
+      correct: false
+    explanation: 'Les pressions utilisées sont absolues. Ajouter du gaz dans un gilet ou en purger change
+      la quantité de gaz : on ne peut plus relier les deux états avec un même produit PV constant.'
+- id: n2-gaz-ballon-surface-vingt-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P179
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un ballon contient 12 L d’air à la surface. Quel volume occupe cet air à 20 m ? Le ballon est
+      souple et fermé ; la température est constante et la tension de sa paroi négligeable. Prendre 1
+      bar à la surface et +1 bar tous les 10 m. Assimiler l’air à un gaz parfait.
+    back: '**4 L.** La pression passe de 1 à 3 bars absolus : V₂ = 12 × 1/3 = 4 L. Le gaz occupe moins
+      de place, mais sa quantité est inchangée.'
+- id: n2-gaz-ballon-surface-dix-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P179
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un ballon contient 6 L d’air à la surface. Quel volume occupe cet air à 10 m ? Le ballon est
+      souple et fermé ; la température est constante et la tension de sa paroi négligeable. Prendre 1
+      bar à la surface et +1 bar tous les 10 m. Assimiler l’air à un gaz parfait.
+    back: '**3 L.** À 10 m, la pression absolue vaut 2 bars : V₂ = 6 × 1/2 = 3 L.'
+- id: n2-gaz-ballon-surface-quarante-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P179
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un ballon contient 10 L d’air à la surface. Quel volume occupe cet air à 40 m ? Le ballon est
+      souple et fermé ; la température est constante et la tension de sa paroi négligeable. Prendre 1
+      bar à la surface et +1 bar tous les 10 m. Assimiler l’air à un gaz parfait.
+    back: '**2 L.** À 40 m, la pression absolue vaut 5 bars : V₂ = 10 × 1/5 = 2 L. Utiliser seulement
+      les 4 bars hydrostatiques donnerait un résultat erroné.'
+- id: n2-gaz-ballon-remontee-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P182
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un ballon contient 2 L d’air à 20 m. Quel volume occuperait cet air à la surface ? Supposer
+      une enveloppe assez extensible pour ne pas limiter l’expansion. Le ballon est souple et fermé ;
+      la température est constante et la tension de sa paroi négligeable. Prendre 1 bar à la surface et
+      +1 bar tous les 10 m. Assimiler l’air à un gaz parfait.
+    back: '**6 L.** La pression passe de 3 à 1 bar absolu : V₂ = 2 × 3/1 = 6 L.'
+- id: n2-gaz-ballon-entre-profondeurs-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P183
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un ballon contient 4 L d’air à 10 m. Quel sera son volume à 30 m ? Le ballon est souple et
+      fermé ; la température est constante et la tension de sa paroi négligeable. Prendre 1 bar à la surface
+      et +1 bar tous les 10 m. Assimiler l’air à un gaz parfait.
+    back: '**2 L.** À 10 m : 2 bars absolus ; à 30 m : 4 bars absolus. V₂ = 4 × 2/4 = 2 L. C’est le rapport
+      des pressions absolues qui compte, pas le rapport des profondeurs.'
+- id: n2-gaz-expansion-comparaison-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P184
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    question: Deux ballons souples fermés contiennent chacun 2 L à leur profondeur de départ. L’un remonte
+      de 10 m à la surface ; l’autre de 20 m à 10 m. Quels volumes atteignent-ils, respectivement ? Température
+      constante, parois sans effet mécanique et assez extensibles. Prendre 1 bar à la surface et +1 bar
+      tous les 10 m. Assimiler l’air à un gaz parfait.
+    choices:
+    - text: 4 L et 3 L
+      correct: true
+    - text: 4 L et 4 L
+      correct: false
+    - text: 3 L et 4 L
+      correct: false
+    explanation: 'Premier ballon : 2 × 2/1 = 4 L. Second ballon : 2 × 3/2 = 3 L. Pour une même remontée
+      de 10 m, l’expansion proportionnelle est plus forte près de la surface.'
+- id: n2-gaz-bloc-rigide-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P185
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'NASA — Equation of State, Boyle à température et masse constantes : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un bloc fermé de volume intérieur 12 L est descendu de la surface à 20 m, sans fuite et à température
+      constante. Son volume intérieur devient-il 4 L comme celui d’un ballon souple ?
+    back: '**Non : il reste pratiquement de 12 L.** La paroi rigide empêche une compression comparable
+      à celle du ballon. Le gaz enfermé garde presque le même volume et la même pression interne absolue
+      ; il ne se met pas à la pression de l’eau environnante.'
+- id: n2-gaz-gilet-descente-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P186
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'DAN — Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur stabilisé descend de quelques mètres et devient plus négatif sans avoir modifié
+      le gaz de son gilet. Quel ajustement du gilet permet de retrouver la stabilisation, et pourquoi
+      procéder progressivement ?
+    back: '**Ajouter de petites quantités d’air, en contrôlant le résultat.** La pression accrue comprime
+      le gaz du gilet et le néoprène, ce qui réduit la poussée. Des apports progressifs permettent de
+      compenser sans gonfler excessivement et déclencher une remontée.'
+- id: n2-gaz-gilet-remontee-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P187
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'DAN — Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur commence une remontée avec du gaz dans son gilet. Pourquoi peut-il devoir purger
+      plusieurs fois pendant cette remontée ?
+    back: '**La baisse de pression fait se dilater le gaz restant.** Une purge ne supprime pas l’expansion
+      qui se poursuit en remontant. Il faut ajuster progressivement le volume du gilet en surveillant
+      la vitesse et la stabilisation.'
+- id: n2-gaz-masque-descente-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P188
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'DAN World — Preventing Mask Squeeze During Your Dives : https://world.dan.org/id/alert-diver/article/preventing-mask-squeeze/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: À la descente, comment remettre l’intérieur du masque à la pression ambiante pour éviter son
+      placage sur le visage ?
+    back: '**Souffler doucement de l’air par le nez dans le masque.** La pression de l’eau augmente à
+      la descente ; cet apport compense la compression du gaz à l’intérieur. Expirer par la bouche dans
+      le détendeur n’alimente pas le masque.'
+- id: n2-gaz-oreille-descente-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P189
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'DAN — Ears and Diving, Chapter 1: Key Information : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Pourquoi faut-il équilibrer les oreilles régulièrement et sans forcer pendant la descente ?
+    back: '**Pour faire entrer de l’air dans l’oreille moyenne et équilibrer la pression de part et d’autre
+      du tympan.** La pression extérieure augmente avec la profondeur. On équilibre tôt, avant la douleur
+      ; si l’équilibrage ne passe pas, on arrête de descendre plutôt que de forcer.'
+- id: n2-gaz-detendeur-pression-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P190
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'DAN — Breathe In, Breathe Out, fonction du deuxième étage : https://dan.org/alert-diver/article/breathe-in-breathe-out/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    question: À 20 m, à quelle pression absolue le deuxième étage d’un détendeur délivre-t-il approximativement
+      l’air respiré ? Prendre 1 bar à la surface et +1 bar tous les 10 m.
+    choices:
+    - text: 3 bars
+      correct: true
+    - text: 1 bar
+      correct: false
+    - text: 2 bars
+      correct: false
+    explanation: Le deuxième étage fournit l’air à une pression proche de celle de l’eau autour du plongeur.
+      À 20 m, cette pression ambiante vaut 1 + 20/10 = 3 bars absolus.
+- id: n2-gaz-debit-vingt-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P193
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: À 20 m, un plongeur ventile 20 L d’air par minute mesurés à la pression ambiante. À quel débit
+      d’air ramené à 1 bar cela correspond-il ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Température
+      supposée constante.
+    back: '**60 L/min ramenés à 1 bar.** À 20 m : 3 bars absolus. Chaque litre respiré à cette profondeur
+      équivaut à 3 L à 1 bar : 20 × 3 = 60 L/min.'
+- id: n2-gaz-debit-trente-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P193
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: À 30 m, un plongeur ventile 18 L/min mesurés à la pression ambiante. Quel est le débit correspondant
+      ramené à 1 bar ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Température supposée constante.
+    back: '**72 L/min ramenés à 1 bar.** La pression absolue vaut 4 bars : 18 × 4 = 72 L/min.'
+- id: n2-gaz-stock-nominal-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P195
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un bloc de volume intérieur 12 L affiche 200 bars au manomètre. Quel stock nominal d’air ramené
+      à 1 bar obtient-on avec l’approximation de cours volume intérieur × pression manométrique ?
+    back: '**Environ 2 400 L à 1 bar.** 12 × 200 = 2 400. Les 12 L sont le volume intérieur du bloc ;
+      2 400 L représentent un volume de gaz ramené à 1 bar. Le stock utilisable avant une réserve donnée
+      se calcule avec la différence de pression, pas avec les 200 bars entiers.'
+- id: n2-gaz-stock-quinze-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P195
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un bloc de volume intérieur 15 L affiche 180 bars au manomètre. Quel stock nominal ramené à
+      1 bar donne l’approximation de cours volume intérieur × pression manométrique ?
+    back: '**Environ 2 700 L à 1 bar.** 15 × 180 = 2 700. À pression identique, un bloc de plus grand
+      volume intérieur contient davantage de gaz.'
+- id: n2-gaz-duree-stock-donne-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P197
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Une phase théorique se déroule uniquement à 10 m. On lui alloue 1 200 L d’air ramenés à 1 bar.
+      Le débit respiratoire de référence est de 20 L/min à 1 bar et la ventilation reste identique à cette
+      profondeur. Combien de minutes couvre ce stock pour cette seule phase ? Prendre 1 bar à la surface
+      et +1 bar tous les 10 m.
+    back: '**30 min.** À 10 m, la pression vaut 2 bars : consommation = 20 × 2 = 40 L/min ramenés à 1
+      bar. Durée = 1 200/40 = 30 min. Seule la phase à 10 m est comptée.'
+- id: n2-gaz-rapport-autonomie-001
+  type: mcq
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P200
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    question: Un même stock d’air alimente un plongeur dont le volume ventilé par minute reste identique.
+      Dans un modèle à profondeur constante, quelle fraction de la durée obtenue à la surface obtient-on
+      à 40 m ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Gaz parfait et température constante.
+    choices:
+    - text: Un cinquième
+      correct: true
+    - text: Un quart
+      correct: false
+    - text: La moitié
+      correct: false
+    explanation: 'À 40 m, la pression absolue vaut 5 bars. Pour une même ventilation, le prélèvement d’air
+      ramené à 1 bar est cinq fois plus grand : la durée fournie par le même stock est divisée par cinq.'
+- id: n2-gaz-duree-fond-planification-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P201
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — Safe diving guide, Gas reserves, variabilité et besoins des équipiers : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un calcul divise tout le stock nominal du bloc par la consommation à la profondeur du fond.
+      Pourquoi le résultat ne donne-t-il pas directement le temps disponible pour explorer ?
+    back: '**Il ne réserve pas l’air nécessaire aux autres phases et aux imprévus.** Il faut compter la
+      descente, le retour, la remontée et les éventuels paliers, puis prévoir une réserve adaptée. Le
+      calcul doit aussi tenir compte des besoins des équipiers et des variations de consommation.'
+- id: n2-gaz-debit-variable-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  status: reviewed
+  source_id: P203
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — Safe diving guide, Gas reserves, variabilité et besoins des équipiers : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Un plongeur a mesuré une consommation faible pendant une plongée calme. Pourquoi ne peut-il
+      pas reprendre cette valeur sans adaptation pour une plongée froide, fatigante ou stressante ?
+    back: '**Son besoin ventilatoire peut augmenter.** À profondeur identique, l’effort, le froid ou le
+      stress peuvent accroître la consommation. Le débit mesuré décrit des conditions données ; il faut
+      prévoir les besoins de la plongée et suivre la pression réellement restante.'
+- id: n2-gaz-chute-pression-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P205
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    fact_check: pass
+  fr:
+    front: Sur une phase de 10 min à 20 m, un bloc de 12 L passe de 180 à 130 bars. Quelle consommation
+      de référence, ramenée à une pression ambiante de 1 bar, cela représente-t-il ? Prendre 3 bars absolus
+      à 20 m ; gaz parfait, température constante, tout l’air perdu ayant été respiré.
+    back: '**20 L/min à 1 bar.** Chute du manomètre : 50 bars, soit 12 × 50 = 600 L ramenés à 1 bar. Débit
+      prélevé : 600/10 = 60 L/min. Débit de référence : 60/3 = 20 L/min. On divise par la pression ambiante
+      après avoir calculé le gaz consommé.'
+- id: n2-gaz-comparaison-equipiers-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P206
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Pour une même phase théorique à 20 m, A a un bloc de 12 L à 150 bars et un débit de référence
+      de 20 L/min à 1 bar ; B, un bloc de 15 L à 150 bars et un débit de 30 L/min. Chacun doit conserver
+      60 bars à la fin de cette phase. Qui atteint ce seuil le premier ? Gaz parfait à température constante
+      ; prendre 3 bars absolus à 20 m.
+    back: '**B, après 15 min ; A après 18 min.** A : 12 × (150 − 60) = 1 080 L utilisables, puis 1 080/(20
+      × 3) = 18 min. B : 15 × 90 = 1 350 L, puis 1 350/(30 × 3) = 15 min. Le bloc le plus gros ne garantit
+      pas la durée la plus longue.'
+- id: n2-gaz-stock-utilisable-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P630
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Un bloc de 12 L affiche 200 bars. Un exercice impose de conserver 70 bars. Quel volume d’air
+      peut-on prélever avant d’atteindre ce seuil ? Modèle de gaz parfait à température constante ; volumes
+      d’air exprimés à 1 bar.
+    back: '**1 560 L à 1 bar.** La baisse utilisable vaut 200 − 70 = 130 bars. Volume = 12 × 130 = 1 560
+      L. Les 70 bars restent dans le bloc ; ils ne font pas partie de ce stock utilisable.'
+- id: n2-gaz-duree-avec-seuil-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P631
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Un bloc de 12 L à 200 bars alimente une phase théorique uniquement à 20 m. Il doit rester au
+      moins 70 bars à la fin. Le débit respiratoire de référence est 20 L/min à 1 bar. Quelle durée couvre
+      le gaz alloué à cette phase ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Modèle de gaz
+      parfait à température constante ; volumes d’air exprimés à 1 bar.
+    back: '**26 min.** Stock alloué : 12 × (200 − 70) = 1 560 L à 1 bar. Consommation : 20 × 3 = 60 L/min
+      à 1 bar. Durée : 1 560/60 = 26 min. Cette durée couvre uniquement la phase définie.'
+- id: n2-gaz-pression-initiale-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P632
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Une phase théorique de 15 min à 20 m doit se terminer avec au moins 60 bars dans un bloc de
+      12 L. Le débit respiratoire de référence vaut 20 L/min à 1 bar. Quelle pression manométrique initiale
+      minimale faut-il pour cette seule phase ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Modèle
+      de gaz parfait à température constante ; volumes d’air exprimés à 1 bar.
+    back: '**135 bars.** Besoin : 20 × 3 × 15 = 900 L à 1 bar. Cela représente une baisse de 900/12 =
+      75 bars. Ajouter les 60 bars à conserver : 75 + 60 = 135 bars.'
+- id: n2-gaz-deux-phases-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P633
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: 'Un exercice comporte deux phases : 8 min à 20 m, puis 6 min à 10 m, avec un débit respiratoire
+      de référence de 20 L/min à 1 bar. Quel volume d’air faut-il pour ces deux phases seules, hors transitions
+      et réserve ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Modèle de gaz parfait à température
+      constante ; volumes d’air exprimés à 1 bar.'
+    back: '**720 L à 1 bar.** Phase à 20 m : 20 × 3 × 8 = 480 L. Phase à 10 m : 20 × 2 × 6 = 240 L. Total
+      : 480 + 240 = 720 L. Chaque phase se calcule à sa propre pression absolue.'
+- id: n2-gaz-reserve-volumes-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P634
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Une baisse de pression de 50 bars dans un bloc de 12 L fournit-elle le même volume d’air qu’une
+      baisse de 50 bars dans un bloc de 15 L ? Calculer les deux volumes. Modèle de gaz parfait à température
+      constante ; volumes d’air exprimés à 1 bar.
+    back: '**Non : 600 L contre 750 L à 1 bar.** 12 × 50 = 600 L ; 15 × 50 = 750 L. Une même quantité
+      de bars représente davantage d’air dans le plus grand bloc. Comparer des réserves en bars nécessite
+      donc de connaître les volumes intérieurs.'
+- id: n2-gaz-deux-equipiers-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P635
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Deux équipiers respirent sur le même stock pendant une phase théorique de 3 min à 20 m. Leurs
+      débits de référence sont 30 et 40 L/min à 1 bar. Le stock alloué est de 600 L à 1 bar. Suffit-il
+      pour cette phase seule ? Prendre 3 bars absolus, gaz parfait et température constante.
+    back: '**Non : il faut 630 L, soit 30 L de plus.** Additionner les débits : 30 + 40 = 70 L/min de
+      référence. À 20 m : 70 × 3 = 210 L/min ramenés à 1 bar. En 3 min : 210 × 3 = 630 L. Les deux équipiers
+      puisent simultanément dans le même stock.'
+- id: n2-gaz-effort-recalcul-001
+  type: basic
+  deck: Physique
+  levels:
+  - N2
+  tags:
+  - chapitre::06
+  - gaz-autonomie
+  - exercice::calcul
+  status: reviewed
+  source_id: P636
+  review:
+    sources:
+    - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
+    - 'BSAC — So, you think you use too much gas?, section How much gas do you use?, débit × pression
+      absolue × durée et somme des phases : https://www.bsac.com/news-and-blog/so-you-think-you-use-too-much-gas/'
+    - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'BSAC — Safe diving guide, Gas reserves, réserve adaptée aux équipiers et à la plongée : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    fact_check: pass
+  fr:
+    front: Une phase théorique de 10 min à 20 m était calculée avec un débit de référence de 20 L/min
+      à 1 bar. On porte cette hypothèse à 30 L/min. Quel volume supplémentaire faut-il pour cette phase
+      ? Prendre 3 bars absolus ; gaz parfait à température constante, volumes ramenés à 1 bar.
+    back: '**300 L supplémentaires.** Besoin initial : 20 × 3 × 10 = 600 L. Besoin révisé : 30 × 3 × 10
+      = 900 L. Différence : 900 − 600 = 300 L. Une hausse de 50 % du débit augmente ici le besoin de 50
+      %.'

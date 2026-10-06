@@ -481,3 +481,9 @@ restent cochés au catalogue pour la traçabilité. Voir [la revue](04-pression.
 P171 → P172. Les exercices sous P142 reprennent les cas P143/P144 comme entraînement
 numérique autorisé par la calibration du 6 octobre, sans nouveaux objectifs au catalogue.
 Voir [la revue du chapitre](05-flottabilite.md).
+
+## Implémentation du chapitre 06 — 6 octobre 2026
+
+31 cartes dont 20 exercices pour 28 objectifs couverts. P202 → P201. Variantes numériques
+sous P179/P193/P195 conformément à la calibration d’entraînement. P205/P206 et P630–P636
+sont désormais documentés ; voir [la revue](06-gaz-autonomie.md).
