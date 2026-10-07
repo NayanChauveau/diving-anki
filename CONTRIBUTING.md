@@ -10,7 +10,11 @@ Après modification du modèle Pydantic, exécuter `make schema`.
 Les cartes sont en français, une collection `cards:` par fichier de chapitre.
 Une connaissance partagée conserve le même ID et indique `levels: [N2, N3, N4]`
 selon sa pertinence vérifiée. Le paquet unique utilise la même identité de note Anki,
-les mêmes catégories sous `Plongée::Collection commune` et les tags de tous ses niveaux.
+les catégories sous le premier niveau concerné (N2 avant N3 avant N4) et les tags de
+tous ses niveaux. N2 est la base ; N3 et N4 sont des compléments, sans copie.
+Tous les paquets sont classiques. Le préréglage quotidien vient de `config/study.json`
+et est embarqué dans le `.apkg`. Ne jamais configurer Anki via son interface :
+`make push` importe, déplace les cartes existantes et synchronise via AnkiConnect.
 `make build` génère `diving-fr.apkg`, contenant tous les niveaux ; `make build-all` est un alias.
 Les types pris en charge sont `mcq`, `basic` et `cloze`.
 Exemple de structure (contenu fictif, à adapter aux documents) :

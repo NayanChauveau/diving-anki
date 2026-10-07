@@ -1,6 +1,9 @@
 from __future__ import annotations
 
-from collections.abc import Iterable
+import copy
+import json
+import sqlite3
+from collections.abc import Iterable, Iterator
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Literal
@@ -10,8 +13,8 @@ import genanki
 from diving_anki.ids import (
     BASIC_MODEL_ID,
     CLOZE_MODEL_ID,
-    COLLECTION_DECK_NAME,
     MCQ_MODEL_ID,
+    ROOT_DECK_NAME,
     ancestor_paths,
     deck_id_for,
     note_guid,
@@ -64,7 +67,13 @@ def select_cards(cards: Iterable[Card], *, include_drafts: bool) -> tuple[list[C
 
 
 def card_tags(card: Card, extra: list[str] | None = None) -> list[str]:
-    tags = ["diving-theory", f"type::{card.type}", f"status::{card.status.value}", *card.tags]
+    tags = [
+        "diving-theory",
+        f"card-id::{card.id}",
+        f"type::{card.type}",
+        f"status::{card.status.value}",
+        *card.tags,
+    ]
     if extra:
         tags.extend(extra)
     return [tag.replace(" ", "-") for tag in tags]
@@ -107,6 +116,41 @@ def fill_fields(note: PreparedNote, *, ui_fr: dict[str, str]) -> None:
         note.fields = _cloze_fields(card, "fr")
 
 
+def classic_deck_path(card: Card) -> str:
+    first_level = next(level for level in ("N2", "N3", "N4") if level in card.levels)
+    root = f"{ROOT_DECK_NAME}::{first_level}"
+    return f"{root}::{card.deck}"
+
+
+class ConfiguredPackage(genanki.Package):
+    """Embed the repository's study preset in the generated package only."""
+
+    def __init__(self, decks: list[genanki.Deck], settings: dict[str, object]):
+        super().__init__(decks)
+        self.settings = settings
+
+    def write_to_db(self, cursor: sqlite3.Cursor, timestamp: float, id_gen: Iterator[int]) -> None:
+        super().write_to_db(cursor, timestamp, id_gen)
+        configs = json.loads(cursor.execute("SELECT dconf FROM col").fetchone()[0])
+        preset = copy.deepcopy(configs["1"])
+        preset.update(
+            id=self.settings["preset_id"],
+            name=self.settings["preset_name"],
+            mod=int(timestamp),
+            usn=-1,
+        )
+        preset["new"]["perDay"] = self.settings["new_cards_per_day"]
+        preset["rev"]["perDay"] = self.settings["reviews_per_day"]
+        configs[str(preset["id"])] = preset
+        decks = json.loads(cursor.execute("SELECT decks FROM col").fetchone()[0])
+        for deck in decks.values():
+            if deck["name"] == ROOT_DECK_NAME or deck["name"].startswith(ROOT_DECK_NAME + "::"):
+                deck["conf"] = preset["id"]
+                for counter in ("newToday", "revToday", "lrnToday", "timeToday"):
+                    deck[counter] = [0, 0]
+        cursor.execute("UPDATE col SET decks=?, dconf=?", (json.dumps(decks), json.dumps(configs)))
+
+
 def prepare(
     cards: Iterable[Card],
     level: BuildSelection,
@@ -122,7 +166,7 @@ def prepare(
         result.notes.append(
             PreparedNote(
                 guid=note_guid(card.id),
-                deck=f"{COLLECTION_DECK_NAME}::{card.deck}",
+                deck=classic_deck_path(card),
                 tags=card_tags(card, ["lang::fr", *[f"level::{item}" for item in card.levels]]),
                 model=(
                     card.anki_model or "mcq"
@@ -212,7 +256,13 @@ def write_package(
     for note in result.notes:
         fill_fields(note, ui_fr=ui_fr)
 
-    decks = _ensure_decks(note.deck for note in result.notes)
+    decks = _ensure_decks(
+        [
+            *[note.deck for note in result.notes],
+            f"{ROOT_DECK_NAME}::N2",
+            f"{ROOT_DECK_NAME}::N3",
+        ]
+    )
     for prepared in result.notes:
         decks[prepared.deck].add_note(
             genanki.Note(
@@ -224,7 +274,8 @@ def write_package(
         )
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    package = genanki.Package(list(decks.values()))
+    settings = json.loads((templates.parent / "config" / "study.json").read_text())
+    package = ConfiguredPackage(list(decks.values()), settings)
     package.write_to_file(str(output))
     return output
 

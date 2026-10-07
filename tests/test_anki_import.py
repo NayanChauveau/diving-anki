@@ -131,3 +131,28 @@ def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2, classic_impor
             assert 'class="choices is-answer"' in note.fields[1]
     finally:
         col.close()
+
+
+def test_real_import_installs_daily_preset(tmp_path):
+    path, _ = build_collection(
+        [example("preset-test-001", ["N2"])],
+        templates=ROOT / "templates",
+        out_dir=tmp_path,
+    )
+    col = anki.Collection(str(tmp_path / "preset.anki2"))
+    try:
+        col.import_anki_package(
+            anki.ImportAnkiPackageRequest(
+                package_path=str(path),
+                options=anki.ImportAnkiPackageOptions(
+                    with_scheduling=False, with_deck_configs=True
+                ),
+            )
+        )
+        deck = col.decks.by_name("Plongée::N2::Physique")
+        assert deck and deck["dyn"] == 0
+        config = col.decks.config_dict_for_deck_id(deck["id"])
+        assert config["new"]["perDay"] == 10
+        assert col.decks.config_dict_for_deck_id(1)["new"]["perDay"] == 20
+    finally:
+        col.close()

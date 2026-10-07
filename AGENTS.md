@@ -101,21 +101,24 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   vérifier le champ d’application et consigner la décision dans la revue du lot. Garder
   les sources factuelles N2 ; ajouter la référence de pertinence N3. Consulter
   `docs/reviews/n3/00-reprises-n2.md` et les états du CSV avant toute nouvelle reprise.
-- Collection commune N2/N3/N4 : une identité Anki par ID de carte, indépendante des niveaux.
+- Identité partagée N2/N3/N4 : une identité Anki par ID de carte, indépendante des niveaux.
   Le sel historique N2 du GUID est permanent, même pour une nouvelle carte N3/N4.
   Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous
   les niveaux de la carte, dans le paquet unique `diving-fr.apkg`. Aucun export séparé par niveau.
-- Sous-decks : cinq catégories sous `Plongée::Collection commune` — Réglementation, Physique,
-  Prévention des accidents, Désaturation, Matériel et préparation. Ne pas créer de sous-deck
-  par chapitre ; conserver les fichiers et tags thématiques. Sous `Plongée::N2` et
-  `Plongée::N3`, les cinq catégories sont des paquets filtrés, jamais des copies.
-  Vider les filtres du précédent niveau avant de reconstruire le suivant. Conserver
-  reprogrammation, tags de niveau et sélection des cartes dues/nouvelles. Le paquet
-  exporté contient les originaux dans Collection commune ; les filtres se créent dans Anki.
-  Les catégories peuvent varier selon le niveau si le contenu le justifie ; garder les
-  trois dossiers racine Collection commune, N2 et N3. Pour une réorganisation, déplacer
-  les cartes existantes dans Anki en conservant leurs IDs, historique et échéances, puis vérifier
-  ces données avant/après. Un import de package ne garantit pas à lui seul leur déplacement.
+- Paquets classiques uniquement : `Plongée::N2` contient la base N2 (308 cartes),
+  `Plongée::N3` les compléments N3 (118 cartes). Une carte commune reste au plus petit
+  niveau de `levels` (N2 avant N3 avant N4), avec tous ses tags de niveau et un seul
+  historique. Aucun dossier Collection commune, aucun paquet filtré dans le workflow.
+  Catégories thématiques sous chaque niveau ; elles peuvent différer si nécessaire.
+- Tout fonctionnement livré doit venir du dépôt : cartes, arborescence et préréglage
+  de révision dans le `.apkg`. `config/study.json` règle les limites quotidiennes.
+  Ne jamais utiliser l’interface d’Anki pour créer/modifier un paquet, des options ou
+  une configuration locale. Pour importer, migrer et synchroniser, utiliser le code
+  du dépôt via AnkiConnect. Aucun test manuel de séance à la place de l’utilisateur.
+- Une migration conserve IDs de note/carte, modèles, historique, échéances et suspensions.
+  Ne retirer que des paquets vides, jamais leurs cartes. `make push` replace les cartes
+  à leur destination prévue après import, grâce aux tags stables `card-id::<id>`.
+  Un import seul ne garantit pas le déplacement des anciennes cartes.
 - Cartes nouvelles en `draft`, puis `reviewed` après revue factuelle et pédagogique.
 - IDs publiés permanents ; ne pas renommer ni réutiliser un ID pour un autre objectif.
   Les IDs Anki de `src/diving_anki/ids.py` restent stables.

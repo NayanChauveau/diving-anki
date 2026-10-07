@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 from collections.abc import Sequence
@@ -121,6 +122,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                 endpoint=args.anki_connect_url,
                 launch=not args.no_launch,
                 startup_timeout=args.startup_timeout,
+                card_decks={note.card.id: note.deck for note in result.notes},
+                study_settings=json.loads((root / "config" / "study.json").read_text()),
             )
         except AnkiConnectError as exc:
             print(f"error: {exc}", file=sys.stderr)

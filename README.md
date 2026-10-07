@@ -37,8 +37,10 @@ module complémentaire n’est nécessaire pour cette installation.
    Sur la page de release, le fichier se trouve dans **Assets**. Les archives
    **Source code** contiennent le dépôt, pas le deck prêt à importer.
 3. Ouvrir Anki, puis choisir **Fichier → Importer** et sélectionner le fichier `.apkg`.
-4. Confirmer l’import. Le deck apparaît sous **Plongée**, avec **Collection commune** et ses cinq catégories.
-5. Ouvrir **Collection commune** pour réviser l’ensemble, ou une catégorie pour travailler un thème.
+4. Confirmer l’import. Le deck apparaît sous **Plongée**, avec **N2** et **N3**, chacun contenant ses catégories.
+5. Ouvrir **N2** pour la base, **N3** pour ses compléments, ou une catégorie pour travailler un thème.
+6. Activer l’import des **préréglages de paquet** pour recevoir la configuration fournie :
+   **10 nouvelles cartes par jour**, plus les révisions dues (limite de 200).
    Pour cibler un niveau dans le catalogue complet, suivre le guide ci-dessous.
 
 Le lien de téléchargement conserve le même nom et pointe vers la dernière build publiée
@@ -84,32 +86,29 @@ Le deck accompagne les cours et la formation pratique. Les cartes précisent le 
 quand la réponse dépend du pays, du cursus, de l’âge, d’un modèle de matériel ou des
 hypothèses d’un exercice.
 
-### Réviser N2 ou N3
+### Réviser N2, puis les compléments N3
 
-La structure dans Anki est **Plongée → Collection commune / N2 / N3**, avec
-les cinq catégories sous chacun. Collection commune contient les originaux ; les
-catégories sous N2 et N3 sont des **paquets filtrés** qui utilisent les mêmes cartes.
-Le `.apkg` installe les originaux. Créer les accès filtrés une fois dans Anki en suivant
-[le guide de configuration](docs/SHARED_COLLECTION.md#arborescence).
+```text
+Plongée
+├── N2 — 308 cartes de base
+│   └── Catégories thématiques
+└── N3 — 118 cartes supplémentaires
+    └── Catégories thématiques
+```
 
-Avant une séance, **Reconstruire** les catégories du niveau choisi. Avant de changer
-de niveau, **Vider** les catégories du précédent : une carte commune ne peut pas
-être chargée dans deux paquets filtrés simultanément. Conserver la reprogrammation
-selon les réponses pour poursuivre son historique normal.
+Ce sont des **paquets classiques** : pas de filtre à reconstruire, ni de cartes
+à vider. Le dossier N3 complète N2 ; il ne constitue pas seul tout le programme N3.
+Continuer les révisions N2 au rythme d’Anki pendant l’apprentissage du complément N3.
 
-### Passer de N2 à N3 ou N4
+Une carte commune reste dans N2 et porte aussi le tag `level::N3` : elle conserve
+son historique et n’est jamais copiée dans N3. Le programme N3 comprend **322 cartes**,
+dont 204 déjà présentes dans N2 et les 118 compléments. Les tags précisent la pertinence
+pour chaque niveau ; aucune inclusion automatique de tout N2 en N3/N4.
 
-Une connaissance commune est **une seule note**, portant plusieurs tags, par exemple
-`level::N2`, `level::N3` et `level::N4`. Importer une nouvelle version du paquet dans la même collection
-conserve ses échéances et ses révisions ; seules les connaissances nouvelles créent de nouvelles notes.
-Les niveaux sont attribués explicitement après revue : aucune inclusion automatique de tout N2 en N3/N4.
-
-Dans **Parcourir**, `tag:diving-theory tag:level::N4` montre les cartes utiles au N4.
-Pour les réviser au rythme normal, créer un **paquet filtré** avec
-`tag:diving-theory tag:level::N4 (is:due or is:new)` et conserver l’option de reprogrammation
-selon les réponses. Les cartes communes ne sont reprises que lorsqu’elles sont dues.
-Le [guide de la collection partagée](docs/SHARED_COLLECTION.md) détaille l’usage et la migration.
-Le [manuel Anki](https://docs.ankiweb.net/filtered-decks.html) décrit les paquets filtrés.
+Dans **Parcourir**, `tag:diving-theory tag:level::N3` permet de consulter l’ensemble
+du programme N3. Le [guide des niveaux](docs/SHARED_COLLECTION.md) détaille le rangement,
+les réglages embarqués et la migration. La future partie N4 suivra la même logique
+pour ses connaissances supplémentaires, sans promettre un nombre de cartes à ce stade.
 
 ## Mettre à jour et conserver sa progression
 
@@ -126,7 +125,7 @@ la mise à jour ; voir le [manuel officiel](https://docs.ankiweb.net/importing/p
 ### Ancienne installation sous Plongée → N2
 
 Les identités des notes N2 sont conservées. L’import ne garantit pas le déplacement des
-cartes déjà présentes vers les catégories communes : suivre le
+cartes déjà présentes vers les catégories classiques du niveau prévu : suivre le
 [guide de migration](docs/SHARED_COLLECTION.md#migrer-une-installation-n2-existante).
 Le déplacement conserve les notes et leur progression.
 
@@ -156,7 +155,8 @@ Le [plan détaillé de préparation N3](docs/IMPLEMENTATION_N3.md) décrit les s
 les objectifs, les reprises du N2 et les vérifications ; chaque objectif est tracé dans
 [le bilan de réalisation](docs/reviews/n3/OBJECTIFS_N3.csv).
 
-Les cartes sont regroupées dans cinq sous-decks sous `Plongée::Collection commune`, communs aux niveaux :
+Les cartes sont regroupées par catégorie sous chaque niveau. Le tableau ci-dessous
+compte les connaissances uniques de toute la collection, N2 et compléments N3 réunis :
 
 | Catégorie | Cartes | Thèmes |
 | --- | ---: | --- |

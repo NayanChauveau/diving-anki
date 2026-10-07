@@ -141,7 +141,7 @@ def test_shared_note_identity_and_membership():
     shared = card(levels=["N2", "N3", "N4"], status="reviewed")
     notes = [prepare([shared], level).notes[0] for level in ("N2", "N3", "N4", "combined")]
     assert len({note.guid for note in notes}) == 1
-    assert {note.deck for note in notes} == {"Plongée::Collection commune::Thème"}
+    assert {note.deck for note in notes} == {"Plongée::N2::Thème"}
     for note in notes:
         assert {"level::N2", "level::N3", "level::N4"}.issubset(note.tags)
     n4_only = card(levels=["N4"], status="reviewed")
@@ -163,3 +163,25 @@ def test_published_n2_guids_are_preserved():
     cards = load_cards(ROOT / "cards")
     for note in prepare(cards, "N2").notes:
         assert note.guid == genanki.guid_for("diving-theory", note.card.id, "N2", "fr")
+
+
+def test_package_embeds_classic_decks_and_daily_preset(tmp_path):
+    import json
+
+    path, _ = build_collection(
+        [card(levels=["N2", "N3"], status="reviewed")],
+        templates=ROOT / "templates",
+        out_dir=tmp_path,
+    )
+    with zipfile.ZipFile(path) as archive:
+        archive.extract("collection.anki2", tmp_path)
+    with sqlite3.connect(tmp_path / "collection.anki2") as db:
+        decks_json, configs_json = db.execute("select decks,dconf from col").fetchone()
+    decks = json.loads(decks_json)
+    configs = json.loads(configs_json)
+    project = [d for d in decks.values() if d["name"].startswith("Plongée")]
+    assert project
+    assert all(d["dyn"] == 0 for d in project)
+    for deck in project:
+        assert configs[str(deck["conf"])]["new"]["perDay"] == 10
+    assert configs["1"]["new"]["perDay"] == 20  # Never change unrelated Default decks.
