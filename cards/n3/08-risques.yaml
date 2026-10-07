@@ -203,3 +203,33 @@ cards:
     explanation: La durée planifiée est une limite maximale, pas une obligation de poursuivre. Froid,
       effort et gaz diminuent la marge du retour ; la palanquée reste ensemble et adapte le profil avant
       que le budget ne soit dépassé.
+- id: n3-risques-hyperoxie-cerveau-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::08
+  status: reviewed
+  source_id: N3-PDF-22
+  review:
+    sources:
+    - N3-S07 — accidents 1 Grenoble, p.39–40, source secondaire ancienne
+    - 'DAN — Emergency Oxygen and Oxygen Toxicity : https://dan.org/alert-diver/article/emergency-oxygen-and-oxygen-toxicity/
+      ; vérifié le 2026-10-07'
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Quel événement caractérise le risque aigu de toxicité de l’oxygène sur le système nerveux
+      central lors d’une exposition hyperbare ?
+    choices:
+    - text: Une crise convulsive, pouvant entraîner une noyade en immersion
+      correct: true
+    - text: Une narcose dont la cause est uniquement la pression partielle d’azote
+      correct: false
+    - text: Un accident de désaturation dont la cause est uniquement le gaz inerte dissous
+      correct: false
+    explanation: Une pression partielle d’oxygène élevée peut provoquer une toxicité neurologique, notamment
+      une crise convulsive. La perte de contrôle en immersion expose à la noyade. Le risque dépend aussi
+      de la durée et des conditions d’exposition ; une valeur de PO2 n’est pas une frontière garantissant
+      l’absence de crise.

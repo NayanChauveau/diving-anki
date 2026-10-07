@@ -470,3 +470,62 @@ cards:
     explanation: 'GPS est le groupe de plongée successive des MN90. Il sert à obtenir une majoration après
       l’intervalle de surface. Un ordinateur suit sa propre charge calculée, y compris pendant l’intervalle
       : les successives ne sont pas ignorées et la méthode n’est pas la même que la majoration tabulaire.'
+- id: n3-modeles-profil-inverse-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-PDF-17
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: 'Deux plongées sont prévues dans la journée : la première atteint 20 m, la seconde 35 m.
+      Quelle caractéristique en fait une succession de plongées à profil inversé ?'
+    choices:
+    - text: La seconde plongée atteint une profondeur maximale supérieure à la première
+      correct: true
+    - text: La seconde commence avant l’élimination complète de l’azote résiduel
+      correct: false
+    - text: La seconde impose plus de temps de palier que la première
+      correct: false
+    explanation: 'L’ordre des profondeurs maximales est inversé : la plongée la plus profonde vient après
+      la moins profonde. C’est distinct du seul caractère successif et de la durée des paliers. Le MFT
+      classe les profils inversés parmi les comportements à risques à éviter ; leur évaluation ne se réduit
+      pas à lire la durée affichée.'
+- id: n3-modeles-acclimatation-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::05
+  status: reviewed
+  source_id: N3-PDF-18
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Influence of repeated daily diving on decompression stress, 2013 : https://pubmed.ncbi.nlm.nih.gov/23771833/'
+    - 'Acclimatization to diving: a systematic review, 2021 : https://pubmed.ncbi.nlm.nih.gov/33975403/
+      ; vérifiés le 2026-10-07'
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Que désigne l’acclimatation à la désaturation étudiée lors d’expositions répétées à la plongée
+      ?
+    choices:
+    - text: Une adaptation physiologique possible de la réponse à la décompression
+      correct: true
+    - text: Une élimination plus rapide de tout l’azote grâce à un changement de demi-périodes de l’ordinateur
+      correct: false
+    - text: Une habituation aux sensations de narcose, sans modification physiologique
+      correct: false
+    explanation: 'L’acclimatation concerne la réponse physiologique aux expositions répétées, notamment
+      la production de bulles observée après plongée. Les résultats varient selon les protocoles et les
+      individus : ce phénomène ne permet ni de supposer une protection acquise contre l’ADD ni de raccourcir
+      les procédures de décompression.'

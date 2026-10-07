@@ -1,6 +1,14 @@
-# Clôture du contenu N3 — 6 octobre 2026
+# Clôture du plan N3 — 6 octobre 2026
 
-Le paquet commun contient **426 notes uniques** : 308 N2 et **322 N3**, dont
+> Complété par le [recoupement direct des PDF du 7 octobre](RECOUPEMENT_PDF_2026-10-07.md).
+> La réalisation du plan initial ne garantit pas une couverture exhaustive des PDF :
+> ce nouvel audit identifie des compléments de secours, environnement et quelques
+> objectifs du MFT encore absents ou partiels.
+
+> Implémentation du 7 octobre : [22 compléments relus](COMPLEMENTS_PDF_2026-10-07.md),
+> 448 cartes au total, dont 140 compléments N3. Le bilan ci-dessous décrit le lot initial.
+
+Le paquet du 6 octobre contenait **426 notes uniques** : 308 N2 et **322 N3**, dont
 **204 communes N2/N3 et 118 nouvelles**. Les 118 nouvelles cartes sont des QCM à
 réponse unique. Le format a été choisi pour chaque tâche, sans quota : calculs,
 comparaison de contraintes, lecture d’instruments et cas de secours s’y prêtent.
@@ -57,7 +65,8 @@ et GF reçoivent définitions et applications distinctes ; les profils et coeffi
 mathématiques imposés sont fictifs. Aucun chiffre d’exercice n’est une réserve universelle.
 
 Le fichier de tables demeure dans N2 avec les appartenances communes ; créer un fichier
-N3 vide ou recopier ces cartes n’apporterait rien. Les cinq sous-decks restent communs.
+N3 vide ou recopier ces cartes n’apporterait rien. Les cartes partagées restent dans les catégories de N2 ; N3 contient ses compléments,
+sans Collection commune et sans paquet filtré.
 
 ## Vérifications G01–G11
 

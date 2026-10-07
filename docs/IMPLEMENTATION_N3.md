@@ -1,6 +1,7 @@
-# N3 réalisé — bilan du 6 octobre 2026
+# N3 réalisé — bilan actualisé le 7 octobre 2026
 
-Le paquet contient **322 cartes N3**, dont **204 communes N2/N3** et **118 nouvelles**.
+Le paquet contient **344 cartes N3**, dont **204 communes N2/N3** et **140 nouvelles**.
+[Compléments du recoupement PDF](reviews/n3/COMPLEMENTS_PDF_2026-10-07.md) ·
 [Couverture et revue finales](reviews/n3/COUVERTURE_N3.md) ·
 [Issue des 147 objectifs détaillés](reviews/n3/OBJECTIFS_N3.csv).
 Les estimations et le tri initial ci-dessous sont conservés comme historique de préparation.

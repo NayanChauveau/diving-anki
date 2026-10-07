@@ -106,7 +106,7 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous
   les niveaux de la carte, dans le paquet unique `diving-fr.apkg`. Aucun export séparé par niveau.
 - Paquets classiques uniquement : `Plongée::N2` contient la base N2 (308 cartes),
-  `Plongée::N3` les compléments N3 (118 cartes). Une carte commune reste au plus petit
+  `Plongée::N3` les compléments N3 (140 cartes). Une carte commune reste au plus petit
   niveau de `levels` (N2 avant N3 avant N4), avec tous ses tags de niveau et un seul
   historique. Aucun dossier Collection commune, aucun paquet filtré dans le workflow.
   Catégories thématiques sous chaque niveau ; elles peuvent différer si nécessaire.
@@ -151,8 +151,19 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
 
 ## Extension après clôture N3
 
-Consulter [la couverture N3](docs/reviews/n3/COUVERTURE_N3.md) et son CSV des objectifs
-avant tout ajout. Le catalogue compte 426 notes, dont 204 communes et 118 créations N3.
+Consulter [la couverture N3](docs/reviews/n3/COUVERTURE_N3.md),
+[le recoupement des PDF](docs/reviews/n3/RECOUPEMENT_PDF_2026-10-07.md) et le CSV des objectifs
+avant tout ajout. Le catalogue compte 448 notes, dont 204 communes et 140 créations N3.
 Les douze modules du plan ne sont pas douze nouveaux sous-decks. Réutiliser les cartes
 de tables, GF, secours et matériel à leur ID existant. Respecter les contextes fabricant,
 air et établissement ; ne pas faire des hypothèses numériques une procédure réelle.
+
+Une clôture de plan ne prouve pas l’exhaustivité des sources. Pour un audit de couverture,
+partir des PDF et de leurs objectifs, comparer questions et corrigés du catalogue N2+N3,
+et distinguer objectif interrogé, simple mention, compétence pratique et hors périmètre.
+L’absence d’un terme exact ne suffit pas : vérifier les descriptions équivalentes avant
+de proposer une carte. Revalider les cours anciens avec les sources primaires actuelles.
+
+Les compléments issus du recoupement PDF du 7 octobre sont suivis dans
+[COMPLEMENTS_PDF_2026-10-07.md](docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md).
+Le catalogue courant compte 448 cartes : 308 de base N2 et 140 compléments N3.

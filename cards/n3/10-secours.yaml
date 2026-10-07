@@ -99,8 +99,8 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Après une noyade, une victime hors de l’eau ne répond pas et ne respire pas normalement. Faut-il chercher
-      à évacuer l’eau par des compressions abdominales avant la réanimation ?
+    question: Après une noyade, une victime hors de l’eau ne répond pas et ne respire pas normalement.
+      Faut-il chercher à évacuer l’eau par des compressions abdominales avant la réanimation ?
     choices:
     - text: 'Non : elles retardent la réanimation et peuvent provoquer régurgitation et inhalation'
       correct: true
@@ -483,3 +483,299 @@ cards:
     explanation: La position latérale de sécurité facilite la liberté des voies aériennes et l’écoulement
       des liquides. On alerte et surveille en continu. Si la respiration devient absente ou anormale,
       la conduite d’arrêt cardiaque s’applique. Le contexte traumatique se traite selon une autre branche.
+- id: n3-secours-noyade-ventilation-initiale-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-01
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.25–28
+    - N3-S13 — Références techniques nationales PSE, juillet 2026, p.113–115,143–145,273–274,305–308 ;
+      vérifiées le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Une victime de noyade vient d’être sortie de l’eau. Elle ne répond pas et ne respire pas
+      normalement. Un sauveteur formé peut pratiquer les insufflations et un équipier alerte. Quelle particularité
+      intervient au début de la réanimation ?
+    choices:
+    - text: Des insufflations initiales précèdent les compressions thoraciques
+      correct: true
+    - text: Les compressions précèdent les premières insufflations, comme dans toute situation
+      correct: false
+    - text: L’oxygène par masque d’inhalation précède la ventilation artificielle
+      correct: false
+    explanation: 'La noyade provoque un manque d’oxygène : la ventilation initiale est prioritaire avant
+      les compressions. Elle s’intègre à la réanimation, avec alerte et oxygène dès que possible. Un masque
+      d’inhalation seul ne ventile pas une victime qui ne respire pas.'
+- id: n3-secours-rcp-adulte-alternance-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-02
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Pendant la réanimation d’un adulte en arrêt cardiaque, les sauveteurs formés réalisent compressions
+      et insufflations. Hors analyse du défibrillateur et après les éventuelles insufflations initiales,
+      quelle alternance utilisent-ils ?
+    choices:
+    - text: 30 compressions puis 2 insufflations
+      correct: true
+    - text: 15 compressions puis 2 insufflations
+      correct: false
+    - text: 30 compressions puis 5 insufflations
+      correct: false
+    explanation: Chez l’adulte, les cycles associent 30 compressions à 2 insufflations. L’alternance 15/2
+      concerne l’enfant et le nourrisson dans les référentiels cités ; elle ne remplace pas 30/2 chez
+      l’adulte.
+- id: n3-secours-rcp-frequence-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-03
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: À quelle fréquence réalise-t-on les compressions thoraciques pendant la réanimation d’un
+      adulte ?
+    choices:
+    - text: 100 à 120 compressions par minute
+      correct: true
+    - text: 80 à 100 compressions par minute
+      correct: false
+    - text: 120 à 140 compressions par minute
+      correct: false
+    explanation: Les compressions sont réalisées entre 100 et 120 par minute, avec relâchement permettant
+      au thorax de reprendre sa forme. Il faut limiter les interruptions et maintenir la qualité des gestes.
+- id: n3-secours-rcp-profondeur-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-04
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Sur un adulte en arrêt cardiaque, quelle profondeur de compression thoracique recherche-t-on
+      ?
+    choices:
+    - text: Environ 5 cm, sans dépasser 6 cm
+      correct: true
+    - text: Environ 3 cm, sans dépasser 4 cm
+      correct: false
+    - text: Environ 7 cm, sans dépasser 8 cm
+      correct: false
+    explanation: Le sternum est comprimé verticalement d’environ 5 cm, sans dépasser 6 cm. Le thorax doit
+      reprendre sa forme entre les compressions ; les mains restent au contact sans maintenir une pression
+      qui empêche ce relâchement.
+- id: n3-secours-oxygene-reservoir-mhc-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-05
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.25–28
+    - N3-S13 — Références techniques nationales PSE, juillet 2026, p.113–115,143–145,273–274,305–308 ;
+      vérifiées le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Avant de poser un masque à haute concentration sur une victime d’accident de plongée qui
+      respire efficacement, comment prépare-t-on son ballon-réserve après raccordement et ouverture de
+      l’oxygène ?
+    choices:
+    - text: Le remplir d’oxygène en obturant la valve du masque avec les doigts
+      correct: true
+    - text: 'Le laisser vide : il se remplit grâce à la première expiration de la victime'
+      correct: false
+    - text: 'Le comprimer pour le vider : il doit recevoir surtout l’air expiré'
+      correct: false
+    explanation: Le ballon-réserve accumule l’oxygène avant l’inspiration. On le remplit avant la pose
+      du masque ; la valve antiretour empêche l’air expiré d’y revenir. Dans ce contexte de plongée, le
+      débit initial est de 15 L/min.
+- id: n3-secours-bavu-efficacite-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-06
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.25–28
+    - N3-S13 — Références techniques nationales PSE, juillet 2026, p.113–115,143–145,273–274,305–308 ;
+      vérifiées le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Un sauveteur formé ventile une victime au BAVU, voies aériennes libérées. Quel signe montre
+      qu’une insufflation apporte effectivement du gaz aux poumons ?
+    choices:
+    - text: Le début de soulèvement du thorax, sans fuite au masque
+      correct: true
+    - text: L’écrasement complet du ballon, même si le thorax ne bouge pas
+      correct: false
+    - text: Le bruit du flux d’oxygène, même si l’air fuit autour du masque
+      correct: false
+    explanation: Une insufflation progressive dure environ une seconde et cesse dès le début du soulèvement
+      du thorax. L’efficacité dépend des voies aériennes et de l’étanchéité du masque, pas du seul mouvement
+      du ballon ni du débit d’oxygène.
+- id: n3-secours-hemorragie-garrot-indication-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-07
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Une plaie de la jambe saigne abondamment. Malgré une compression directe correctement maintenue,
+      l’hémorragie continue. Un sauveteur formé dispose d’un garrot ; l’alerte est en cours. Quelle adaptation
+      locale est indiquée ?
+    choices:
+    - text: Poser le garrot en amont de la plaie, hors articulation, jusqu’à l’arrêt du saignement
+      correct: true
+    - text: Placer le garrot en aval de la plaie, vers le pied, jusqu’à l’arrêt du saignement
+      correct: false
+    - text: Passer à un pansement peu serré pour éviter de bloquer la circulation
+      correct: false
+    explanation: Une hémorragie d’un membre avec compression inefficace ou impossible indique le garrot.
+      Il se place entre la plaie et la racine du membre, jamais sur une articulation ; son serrage doit
+      arrêter le saignement. Noter l’heure de pose et la transmettre aux secours.
+- id: n3-secours-plaie-objet-penetrant-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-08
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Sur le pont, un éclat de verre est resté profondément fiché dans l’avant-bras d’un plongeur.
+      Il n’y a pas d’hémorragie abondante. Quelle conduite concernant cet objet accompagne l’alerte et
+      la protection de la victime ?
+    choices:
+    - text: Le laisser en place en attendant la prise en charge des secours
+      correct: true
+    - text: Le retirer avant de protéger la plaie, pour réduire le risque d’infection
+      correct: false
+    - text: Le repousser entièrement sous la peau, pour pouvoir couvrir la plaie
+      correct: false
+    explanation: 'Un corps étranger pénétrant ne doit pas être retiré : son extraction peut aggraver la
+      plaie et provoquer un saignement. La présence de cet objet fait traiter la plaie comme grave, même
+      sans hémorragie abondante.'
+- id: n3-secours-brulure-refroidissement-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-09
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.24–28
+    - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
+      2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Un plongeur adulte se brûle l’avant-bras contre une pièce chaude du moteur. La brûlure vient
+      de se produire ; il reste conscient, sans autre détresse. Quelle action immédiate limite l’aggravation
+      locale ?
+    choices:
+    - text: Arroser à l’eau courante tempérée et à faible pression
+      correct: true
+    - text: Appliquer de la glace directement sur la peau brûlée
+      correct: false
+    - text: Recouvrir de crème grasse avant tout refroidissement
+      correct: false
+    explanation: L’arrosage débute immédiatement, pendant au moins 10 minutes, idéalement 20. Retirer
+      vêtements et bijoux proches s’ils n’adhèrent pas à la peau ; apprécier la gravité et demander les
+      secours selon la brûlure. Refroidir la zone brûlée tout en protégeant le reste du corps du froid.
+- id: n3-secours-meduse-rincage-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::10
+  status: reviewed
+  source_id: N3-PDF-10
+  review:
+    sources:
+    - N3-S04 — RIFAP FFESSM, mai 2026, p.25–28
+    - N3-S13 — Références techniques nationales PSE, juillet 2026, p.113–115,143–145,273–274,305–308 ;
+      vérifiées le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Après un contact avec des filaments de méduse, une victime présente une douleur locale sans
+      signe de détresse. Avant leur retrait avec une main protégée, quel liquide utilise-t-on pour le
+      premier rinçage de la zone ?
+    choices:
+    - text: De l’eau de mer
+      correct: true
+    - text: De l’eau douce froide
+      correct: false
+    - text: De l’alcool à désinfecter
+      correct: false
+    explanation: 'Le premier rinçage se fait à l’eau de mer : l’eau douce peut déclencher les cellules
+      urticantes encore présentes. Retirer les filaments en protégeant la main, sans frotter la peau.
+      Surveiller la victime et demander un avis médical selon les signes et leur évolution.'

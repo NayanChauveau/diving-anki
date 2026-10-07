@@ -4,7 +4,7 @@ Un deck Anki en français pour réviser la théorie des **niveaux 2 et 3 de plon
 français et du cursus FFESSM : réglementation, physique, prévention des accidents,
 désaturation, matériel et préparation de la plongée.
 
-Le paquet comprend **426 cartes revues**, toutes en QCM à réponse unique,
+Le paquet comprend **448 cartes revues**, toutes en QCM à réponse unique,
 avec des explications, des cas concrets et des exercices de calcul. Il peut être téléchargé
 et utilisé directement dans Anki. Le dépôt contient aussi les sources des cartes et les
 outils permettant de les vérifier, de les modifier et de construire les paquets.
@@ -92,7 +92,7 @@ hypothèses d’un exercice.
 Plongée
 ├── N2 — 308 cartes de base
 │   └── Catégories thématiques
-└── N3 — 118 cartes supplémentaires
+└── N3 — 140 cartes supplémentaires
     └── Catégories thématiques
 ```
 
@@ -101,8 +101,8 @@ Ce sont des **paquets classiques** : pas de filtre à reconstruire, ni de cartes
 Continuer les révisions N2 au rythme d’Anki pendant l’apprentissage du complément N3.
 
 Une carte commune reste dans N2 et porte aussi le tag `level::N3` : elle conserve
-son historique et n’est jamais copiée dans N3. Le programme N3 comprend **322 cartes**,
-dont 204 déjà présentes dans N2 et les 118 compléments. Les tags précisent la pertinence
+son historique et n’est jamais copiée dans N3. Le programme N3 comprend **344 cartes**,
+dont 204 déjà présentes dans N2 et les 140 compléments. Les tags précisent la pertinence
 pour chaque niveau ; aucune inclusion automatique de tout N2 en N3/N4.
 
 Dans **Parcourir**, `tag:diving-theory tag:level::N3` permet de consulter l’ensemble
@@ -132,21 +132,21 @@ Le déplacement conserve les notes et leur progression.
 ### Cartes fusionnées ou retirées dans une nouvelle version
 
 **Un import `.apkg` ne supprime ni ne suspend automatiquement les anciennes cartes absentes
-du nouveau paquet.** Une ancienne installation peut donc conserver plus de 426 cartes.
+du nouveau paquet.** Une ancienne installation peut donc conserver plus de 448 cartes.
 
 La [revue finale N2](docs/reviews/REVUE_FINALE_N2.md#fusions--aucun-objectif-utile-abandonné)
 indique les questions fusionnées et leurs remplacements. Si elles figurent encore dans
 sa collection, les retrouver dans **Parcourir** et les suspendre. Elles restent consultables
 avec leur historique, mais ne reviennent plus dans les révisions.
 Les identifiants réservés sont conservés dans le [registre des retraits](docs/reviews/RETIREMENTS_N2.yaml).
-Une première installation du paquet actuel contient uniquement les 426 cartes actives.
+Une première installation du paquet actuel contient uniquement les 448 cartes actives.
 
 ## Contenu et niveaux disponibles
 
 Le fichier unique **`diving-fr.apkg`** contient les cartes revues de tous les niveaux.
-Le build actuel contient **426 notes uniques** : **308 N2** et **322 N3**, dont
-**204 communes N2/N3** et **118 nouvelles cartes N3**. Le contenu théorique N3 est réalisé
-et relu ; sa [revue de couverture](docs/reviews/n3/COUVERTURE_N3.md) détaille les reprises,
+Le build actuel contient **448 notes uniques** : **308 N2** et **344 N3**, dont
+**204 communes N2/N3** et **140 nouvelles cartes N3**. Le contenu théorique N3 est réalisé
+et complété après recoupement des PDF ; la [revue de couverture](docs/reviews/n3/COUVERTURE_N3.md) détaille les reprises,
 fusions, sources et limites pratiques. Aucune carte N4 n’est encore incluse.
 Les nouveaux contenus validés rejoindront ce même fichier ; les reprises conservent leur
 identité et leur historique. La release en ligne reflète le dernier push ayant réussi la CI.
@@ -160,11 +160,11 @@ compte les connaissances uniques de toute la collection, N2 et compléments N3 r
 
 | Catégorie | Cartes | Thèmes |
 | --- | ---: | --- |
-| Réglementation | 65 | Prérogatives, âges, organisation, équipements requis, documents et environnement |
+| Réglementation | 68 | Prérogatives, âges, organisation, équipements requis, documents et environnement |
 | Physique | 100 | Pressions, flottabilité, compression des gaz, consommation et autonomie |
-| Prévention des accidents | 84 | Barotraumatismes, essoufflement, froid et narcose |
-| Désaturation | 100 | Mécanismes et accidents de désaturation, tables MN90, ordinateurs et remontées anormales |
-| Matériel et préparation | 77 | Blocs, gonflage, détendeurs, pannes, orientation et préparation collective |
+| Prévention des accidents | 95 | Barotraumatismes, essoufflement, froid et narcose |
+| Désaturation | 102 | Mécanismes et accidents de désaturation, tables MN90, ordinateurs et remontées anormales |
+| Matériel et préparation | 83 | Blocs, gonflage, détendeurs, pannes, orientation et préparation collective |
 
 Les chapitres restent identifiés dans les fichiers et les tags : `chapitre::01` à
 `chapitre::18` pour N2, `chapitre-n3::01` à `chapitre-n3::12` pour les compléments N3.

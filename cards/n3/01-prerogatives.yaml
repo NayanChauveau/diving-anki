@@ -378,3 +378,82 @@ cards:
     explanation: Dans cet espace, la formation technique se déroule sous la responsabilité d’un E4. Le
       MFT prévoit l’enseignement et la validation ordinaires des compétences N3 dans 0–40 m avec E3 minimum,
       et une accoutumance progressive à la profondeur.
+- id: n3-formation-delai-competences-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::01
+  status: reviewed
+  source_id: N3-PDF-19
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Pour la formation N3 FFESSM, quel délai maximal sépare la délivrance de la première compétence
+      de l’acquisition de l’ensemble des compétences ?
+    choices:
+    - text: 15 mois
+      correct: true
+    - text: 12 mois
+      correct: false
+    - text: 18 mois
+      correct: false
+    explanation: Le délai est de quinze mois à compter de la délivrance de la première compétence. Ce
+      point de départ est distinct de la première plongée du candidat ou du renouvellement de sa licence.
+- id: n3-formation-validation-milieu-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::01
+  status: reviewed
+  source_id: N3-PDF-20
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Dans quel cadre les compétences N3 FFESSM doivent-elles être obtenues ?
+    choices:
+    - text: 'En milieu naturel : mer, lac ou carrière'
+      correct: true
+    - text: En milieu naturel ou en fosse si elle atteint 40 m
+      correct: false
+    - text: En milieu naturel ou en piscine si la profondeur convient à l’exercice
+      correct: false
+    explanation: Le MFT impose le milieu naturel et exclut piscines et fosses, quelle que soit leur profondeur.
+      La profondeur disponible ne suffit donc pas à rendre le lieu conforme pour l’obtention des compétences.
+- id: n3-formation-delivrance-responsabilite-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::01
+  status: reviewed
+  source_id: N3-PDF-21
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Pour la délivrance du N3 FFESSM dans un club affilié, quelle organisation associe l’encadrant
+      délivrant le brevet et le responsable du club ?
+    choices:
+    - text: Un encadrant habilité d’au moins niveau E3, sous la responsabilité du président du club
+      correct: true
+    - text: Un encadrant habilité d’au moins niveau E2, sous la responsabilité du président du club
+      correct: false
+    - text: Un encadrant habilité d’au moins niveau E3, sous la seule responsabilité du DP de la dernière
+        plongée
+      correct: false
+    explanation: Le brevet est délivré dans le club par un encadrant habilité au minimum E3, sous la responsabilité
+      du président. Dans une structure commerciale agréée, cette responsabilité revient à son responsable.
+      L’encadrement d’une plongée et la responsabilité de délivrance ne sont pas le même rôle.

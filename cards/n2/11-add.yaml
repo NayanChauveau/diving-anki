@@ -388,6 +388,7 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'N3-S01 — MFT N3, décembre 2025, p.11 : cutis marmorata ; vocabulaire vérifié le 2026-10-07'
     fact_check: pass
   fr:
     question: Après une plongée, des démangeaisons s’accompagnent de marbrures inhabituelles sur le tronc.
@@ -400,7 +401,7 @@ cards:
     - text: Des marbrures seules prouvent une allergie à la combinaison
       correct: false
     explanation: '**Ces manifestations cutanées peuvent correspondre à un accident de désaturation.** Elles
-      justifient une évaluation et ne permettent pas de conclure à un problème bénin limité à la peau.'
+      justifient une évaluation et ne permettent pas de conclure à un problème bénin limité à la peau. Les marbrures cutanées de ce type sont appelées « cutis marmorata ».'
 - id: n2-add-oreille-interne-001
   type: mcq
   anki_model: basic

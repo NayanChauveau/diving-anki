@@ -345,3 +345,169 @@ cards:
     explanation: 'La carte ne donne pas à elle seule toutes les règles de la zone. On consulte les textes/avis
       en vigueur et les informations de l’autorité gestionnaire : accès, mouillage et restrictions d’activité.
       Leur contenu dépend du secteur.'
+- id: n3-orientation-tour-horizon-trois-metres-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-11
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: La palanquée termine sa remontée, sans palier obligatoire restant. Pour contrôler les dangers
+      de surface avant l’émersion, à quelle profondeur effectue-t-elle l’arrêt et le tour d’horizon de
+      sécurité enseignés ?
+    choices:
+    - text: À 3 m
+      correct: true
+    - text: À 6 m
+      correct: false
+    - text: À 1 m
+      correct: false
+    explanation: L’arrêt et le tour d’horizon se font à 3 m avant la remontée finale contrôlée. Ils servent
+      à observer les dangers de surface ; le parachute signale la palanquée mais ne dispense pas de cette
+      observation.
+- id: n3-milieu-nourrissage-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-12
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Lors d’une plongée d’observation, quelle règle s’applique au nourrissage des poissons par
+      les plongeurs ?
+    choices:
+    - text: S’en abstenir, même avec un aliment consommé naturellement par l’espèce
+      correct: true
+    - text: Le permettre si l’aliment appartient au régime naturel de l’espèce
+      correct: false
+    - text: Le permettre si aucun contact physique n’est imposé aux poissons
+      correct: false
+    explanation: Le comportement responsable inclut le refus du nourrissage. L’observation se fait sans
+      attirer les animaux avec de la nourriture ; la nature de l’aliment ou l’absence de contact ne rendent
+      pas ce nourrissage conforme.
+- id: n3-milieu-discretion-sonore-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-13
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Pour filmer un animal qui reste dans une cavité, quel choix respecte sa tranquillité tout
+      en permettant l’observation ?
+    choices:
+    - text: Attendre à distance, sans tapoter la roche ni bloquer sa sortie
+      correct: true
+    - text: Tapoter doucement la roche, sans toucher directement l’animal
+      correct: false
+    - text: Fermer son issue avec la main, sans toucher directement l’animal
+      correct: false
+    explanation: Rester discret implique de limiter aussi les nuisances sonores et de laisser l’animal
+      libre de ses déplacements. L’absence de contact direct ne suffit pas si le plongeur provoque une
+      réaction ou bloque un refuge.
+- id: n3-milieu-sar-tete-noire-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-14
+  review:
+    sources:
+    - 'FFESSM DORIS — Diplodus vulgaris, clé d’identification et espèces ressemblantes : https://doris.ffessm.fr/Especes/Diplodus-vulgaris-Sar-a-tete-noire-161
+      ; consulté le 2026-10-07'
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: 'En Méditerranée, un poisson argenté au corps ovale présente deux larges barres noires :
+      l’une sur la nuque, l’autre à la base de la queue. Parmi ces sars, lequel correspond à ces caractères
+      ?'
+    choices:
+    - text: Le sar à tête noire (Diplodus vulgaris)
+      correct: true
+    - text: Le sar commun (Diplodus sargus)
+      correct: false
+    - text: Le sar tambour (Diplodus cervinus)
+      correct: false
+    explanation: Le sar à tête noire porte deux barres caractéristiques, sur la nuque et à la base de
+      la queue. Le sar commun a une tache caudale sans la barre de nuque ; le sar tambour porte cinq à
+      six larges bandes transversales brunes. La disposition des marques distingue ces poissons proches.
+- id: n3-milieu-girelle-male-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-15
+  review:
+    sources:
+    - 'FFESSM DORIS — Coris julis, clé et espèces ressemblantes : https://doris.ffessm.fr/Especes/Coris-julis-Girelle-commune-651
+      ; consulté le 2026-10-07'
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: En Méditerranée, un poisson élancé a le dos vert et une bande orange longitudinale en zigzag,
+      avec une large tache noire sur le flanc. Quelle identification correspond à cette livrée ?
+    choices:
+    - text: Un mâle de girelle commune (Coris julis)
+      correct: true
+    - text: Une femelle de girelle commune (Coris julis)
+      correct: false
+    - text: Une femelle de girelle-paon (Thalassoma pavo)
+      correct: false
+    explanation: Chez la girelle commune, le mâle porte cette livrée ; la femelle a le dos brun et une
+      bande blanche longitudinale. La girelle-paon possède d’autres marques, notamment des bandes verticales
+      chez la femelle.
+- id: n3-milieu-spirographe-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-PDF-16
+  review:
+    sources:
+    - 'FFESSM DORIS — Sabella spallanzanii, description et classification : https://doris.ffessm.fr/Especes/Sabella-spallanzanii-Spirographe-403
+      ; consulté le 2026-10-07'
+    - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    fact_check: pass
+  fr:
+    question: Un animal fixé sort d’un long tube souple un panache spiralé qu’il rétracte rapidement à
+      l’approche d’un plongeur. De quel groupe fait partie le spirographe ainsi observé ?
+    choices:
+    - text: Des vers annélides
+      correct: true
+    - text: Des cnidaires, comme les anémones
+      correct: false
+    - text: Des mollusques, comme les bivalves
+      correct: false
+    explanation: Le spirographe (Sabella spallanzanii) est un ver annélide tubicole. Son panache sert
+      à la respiration et à la collecte de particules ; il ne s’agit pas des tentacules d’une anémone.
