@@ -20,6 +20,9 @@ cards:
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un bloc fermé paraît moins lourd lorsqu’on le tient immobile sous l’eau. Quelle proposition
@@ -50,6 +53,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un objet entièrement immergé dans une eau au repos déplace 4 L d’eau. De quoi dépend la
@@ -82,6 +88,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: En prenant le sens vers le bas comme positif, quelle relation donne le poids apparent d’un
@@ -94,8 +103,9 @@ cards:
     - text: Poids apparent = poussée − poids réel
       correct: false
     explanation: '**Poids apparent = poids réel − poussée d’Archimède.** Les trois termes sont des forces,
-      exprimées en newtons (N). Le poids vaut m × g ; la poussée vaut masse de l’eau déplacée × g. Le kilogramme
-      (kg) exprime une masse, pas une force. Ici, g est l’intensité de la pesanteur, exprimée en N/kg.'
+      exprimées en newtons (N). Le poids vaut m × g ; la poussée vaut masse de l’eau déplacée × g. Le
+      kilogramme (kg) exprime une masse, pas une force. Ici, g est l’intensité de la pesanteur, exprimée
+      en N/kg.'
 - id: n2-flottabilite-signe-001
   type: mcq
   deck: Physique
@@ -112,6 +122,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un objet entièrement immergé est initialement immobile et libre de bouger. Son poids apparent,
@@ -146,13 +159,16 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un objet a une masse de 5 kg et un volume extérieur de 3 L. Quel est son poids apparent ?
-      Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids apparent
-      est défini par poids réel moins poussée d’Archimède.
-    explanation: '**+20 N**, soit une tendance à couler. Poids réel : 5 × 10 = 50 N. Poussée : 3 × 10 =
-      30 N. Poids apparent : 50 − 30 = 20 N.'
+    question: Un objet a une masse de 5 kg et un volume extérieur de 3 L. Quel est son poids apparent
+      ? Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids
+      apparent est défini par poids réel moins poussée d’Archimède.
+    explanation: '**+20 N**, soit une tendance à couler. Poids réel : 5 × 10 = 50 N. Poussée : 3 × 10
+      = 30 N. Poids apparent : 50 − 30 = 20 N.'
     choices:
     - text: +20 N
       correct: true
@@ -179,11 +195,14 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un objet a une masse de 2 kg et un volume extérieur de 3 L. Quel est son poids apparent ?
-      Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids apparent
-      est défini par poids réel moins poussée d’Archimède.
+    question: Un objet a une masse de 2 kg et un volume extérieur de 3 L. Quel est son poids apparent
+      ? Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids
+      apparent est défini par poids réel moins poussée d’Archimède.
     explanation: '**−10 N**, soit une tendance à remonter. Poids réel : 2 × 10 = 20 N. Poussée : 3 × 10
       = 30 N. Poids apparent : 20 − 30 = −10 N.'
     choices:
@@ -212,13 +231,16 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un objet a une masse de 3 kg et un volume extérieur de 3 L. Quel est son poids apparent ?
-      Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids apparent
-      est défini par poids réel moins poussée d’Archimède.
-    explanation: '**0 N : flottabilité neutre.** Son poids vaut 3 × 10 = 30 N et la poussée vaut aussi 30
-      N. Les deux forces se compensent ; elles ne disparaissent pas.'
+    question: Un objet a une masse de 3 kg et un volume extérieur de 3 L. Quel est son poids apparent
+      ? Objet entièrement immergé en eau douce ; prendre 1 kg par litre d’eau et g = 10 N/kg. Le poids
+      apparent est défini par poids réel moins poussée d’Archimède.
+    explanation: '**0 N : flottabilité neutre.** Son poids vaut 3 × 10 = 30 N et la poussée vaut aussi
+      30 N. Les deux forces se compensent ; elles ne disparaissent pas.'
     choices:
     - text: 0 N
       correct: true
@@ -245,14 +267,17 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un objet de 8 kg et de volume extérieur 5 L est entièrement immergé en eau douce. Quel volume
-      supplémentaire doit déplacer un flotteur fixé à l’objet pour rendre l’ensemble neutre ? Prendre 1
-      kg par litre d’eau ; négliger la masse du flotteur et du gaz qu’il contient.
+      supplémentaire doit déplacer un flotteur fixé à l’objet pour rendre l’ensemble neutre ? Prendre
+      1 kg par litre d’eau ; négliger la masse du flotteur et du gaz qu’il contient.
     explanation: '**3 L supplémentaires à la profondeur considérée.** L’ensemble doit déplacer 8 L d’eau
-      pour équilibrer 8 kg. L’objet en déplace déjà 5 L : il manque 8 − 5 = 3 L. Avec g = 10 N/kg, ces 3
-      L procurent les 30 N de poussée manquants.'
+      pour équilibrer 8 kg. L’objet en déplace déjà 5 L : il manque 8 − 5 = 3 L. Avec g = 10 N/kg, ces
+      3 L procurent les 30 N de poussée manquants.'
     choices:
     - text: 3 L supplémentaires
       correct: true
@@ -279,11 +304,14 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un caisson étanche de masse 1,5 kg et de volume extérieur 3 L est entièrement immergé en eau
-      douce. Quelle masse de lest faut-il ajouter pour rendre l’ensemble neutre ? Prendre 1 kg par litre
-      d’eau et négliger le volume du lest ajouté.
+    question: Un caisson étanche de masse 1,5 kg et de volume extérieur 3 L est entièrement immergé en
+      eau douce. Quelle masse de lest faut-il ajouter pour rendre l’ensemble neutre ? Prendre 1 kg par
+      litre d’eau et négliger le volume du lest ajouté.
     explanation: '**1,5 kg de lest.** Le caisson déplace 3 kg d’eau ; la masse totale doit donc atteindre
       3 kg. Il manque 3 − 1,5 = 1,5 kg. Le volume du lest est négligé uniquement dans ce modèle de calcul.'
     choices:
@@ -309,6 +337,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un objet entièrement immergé conserve la même masse, mais son volume extérieur double. Dans
@@ -344,9 +375,13 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Mistake #4: Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: À la descente, pourquoi une combinaison humide en néoprène perd-elle de sa flottabilité ?
+    question: À la descente, pourquoi une combinaison humide en néoprène perd-elle de sa flottabilité
+      ?
     choices:
     - text: Le volume diminue alors que la masse change très peu
       correct: true
@@ -354,9 +389,9 @@ cards:
       correct: false
     - text: Le volume reste constant alors que la masse diminue
       correct: false
-    explanation: '**Le gaz contenu dans les cellules du néoprène se comprime.** La combinaison occupe moins
-      de volume et déplace moins d’eau : sa poussée d’Archimède diminue. À la remontée, le néoprène reprend
-      du volume et sa flottabilité augmente.'
+    explanation: '**Le gaz contenu dans les cellules du néoprène se comprime.** La combinaison occupe
+      moins de volume et déplace moins d’eau : sa poussée d’Archimède diminue. À la remontée, le néoprène
+      reprend du volume et sa flottabilité augmente.'
 - id: n2-flottabilite-gilet-001
   type: mcq
   deck: Physique
@@ -373,6 +408,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Mistake #4: Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: À profondeur constante, on transfère de l’air du bloc vers le gilet, sans rejet de gaz.
@@ -403,6 +441,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: En plongée en scaphandre à circuit ouvert, que devient la flottabilité pendant une inspiration
@@ -440,20 +481,23 @@ cards:
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
     - 'DAN World — Decompression Illness, prévention AGE, respiration normale à la remontée, recroisé
       le 2026-10-06 : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède ; DAN Lung
+      Expansion Injuries ; variation du volume sans apnée ; chaque distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: En scaphandre à circuit ouvert, comment utiliser le poumon-ballast pour ajuster sa flottabilité
-      ?
+    question: En scaphandre à circuit ouvert, quel paramètre respiratoire module directement la flottabilité
+      lorsqu’on utilise le poumon-ballast en continuant à respirer normalement ?
     choices:
-    - text: Moduler son volume pulmonaire en poursuivant le cycle respiratoire
+    - text: Le volume pulmonaire moyen au fil des cycles respiratoires
       correct: true
-    - text: Bloquer après inspiration tant que le gilet reste entièrement purgé
+    - text: La fréquence des cycles à volume pulmonaire moyen inchangé
       correct: false
-    - text: Bloquer après expiration tant que la profondeur reste constante
+    - text: La résistance à l’inspiration du détendeur
       correct: false
-    explanation: '**Le poumon-ballast s’utilise en continuant à respirer.** Si le plongeur remonte en retenant
-      l’air, la baisse de pression fait se dilater le gaz pulmonaire et expose à une surpression pulmonaire.
-      La stabilisation doit permettre une respiration normale, sans apnée.'
+    explanation: 'C’est le volume des poumons, donc le volume d’eau déplacée par le thorax, qui modifie
+      la poussée. La fréquence seule ou le réglage d’effort du détendeur ne remplace pas cette variation
+      de volume. Les ajustements se font en poursuivant la respiration : retenir l’air pendant une remontée
+      expose à la surpression pulmonaire.'
 - id: n2-flottabilite-bloc-consomme-001
   type: mcq
   deck: Physique
@@ -472,6 +516,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Entre le début et la fin d’une plongée à circuit ouvert, le même bloc rigide contient moins
@@ -506,21 +553,27 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un plongeur remplace sa combinaison humide par une autre, plus épaisse. Peut-il déterminer
-      exactement son nouveau lestage à partir de la seule différence d’épaisseur ?
+    question: 'Un plongeur est neutre avec la combinaison A. À la même profondeur, deux combinaisons entièrement
+      immergées ont ces données fictives : A, masse 3 kg et volume extérieur 6 L ; B, masse 4 kg et volume
+      extérieur 8 L. En remplaçant A par B, quelle variation de lest rend l’ensemble à nouveau neutre
+      ? Eau à 1 kg/L, autres éléments inchangés ; négliger le volume du lest.'
     choices:
-    - text: 'Non : réévaluer le lestage avec l’équipement complet'
+    - text: Ajouter 1 kg de lest
       correct: true
-    - text: 'Oui : appliquer une correction fixe par millimètre ajouté'
+    - text: Ajouter 2 kg de lest
       correct: false
-    - text: 'Oui : conserver le lestage si la taille est identique'
+    - text: Ajouter 3 kg de lest
       correct: false
-    explanation: '**Non : il doit réévaluer son lestage avec cette configuration.** Davantage de néoprène
-      apporte généralement davantage de flottabilité, mais le volume, le matériau, l’état de la combinaison
-      et le reste de l’équipement comptent aussi. Il n’existe pas de correction universelle en kilogrammes
-      par millimètre d’épaisseur.'
+    explanation: 'A déplace 6 kg d’eau pour une masse de 3 kg : son apport vers le haut équivaut à 3 kg.
+      B apporte 8 − 4 = 4 kg. Le gain de flottabilité est donc de 1 kg, à compenser par 1 kg de lest dans
+      ce modèle. Les 2 kg comptent seulement le volume supplémentaire ; les 3 kg additionnent à tort les
+      variations de volume et de masse. L’épaisseur seule ne permet pas ce calcul : les propriétés réelles
+      et le lestage de la configuration doivent être vérifiés.'
 - id: n2-flottabilite-eau-douce-mer-001
   type: mcq
   deck: Physique
@@ -539,6 +592,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un plongeur correctement lesté en eau douce garde le même équipement pour plonger en mer,
@@ -571,10 +627,13 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Pour pouvoir réutiliser un réglage de lestage noté dans son carnet, quelles informations faut-il
-      conserver en plus des kilogrammes de lest ?
+    question: Pour pouvoir réutiliser un réglage de lestage noté dans son carnet, quelles informations
+      faut-il conserver en plus des kilogrammes de lest ?
     choices:
     - text: Eau, équipement et conditions du contrôle, dont pression du bloc
       correct: true
@@ -608,21 +667,24 @@ cards:
     - 'DAN World — Popping the Question: What is a DSMB? : https://world.dan.org/alert-diver/article/popping-the-question-what-is-a-dsmb/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; DAN World DSMB ;
+      bilan original des forces opposées, modèle instantané ; chaque distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un dévidoir accroché au plongeur se bloque pendant le lancement du parachute. Quel risque
-      motive la consigne de le garder décroché de soi ?
+    question: Dans un modèle instantané, un plongeur initialement immobile a un poids apparent de 10 N
+      vers le bas. Le fil bloqué d’un parachute lui transmet une traction de 30 N vers le haut. Quelle
+      est la résultante verticale sur le plongeur à cet instant ? Négliger palmage, traînée et tout changement
+      de volume du gilet.
     choices:
-    - text: La traction du parachute peut provoquer une remontée incontrôlée
+    - text: 20 N vers le haut
       correct: true
-    - text: La traction du parachute peut provoquer une descente incontrôlée
+    - text: 20 N vers le bas
       correct: false
-    - text: La traction est absorbée par le gilet et modifie surtout l’équilibre horizontal
+    - text: 40 N vers le haut
       correct: false
-    explanation: '**Un fil bloqué peut transmettre la traction du parachute au plongeur et l’entraîner vers
-      la surface.** Le dévidoir reste décroché du plongeur pendant le lancement. Garder la ligne à distance
-      du corps et du matériel, et maintenir sa profondeur ; le gaz ajouté au parachute produit une poussée
-      vers le haut.'
+    explanation: 'La traction et le poids apparent s’opposent : 30 − 10 = 20 N vers le haut. Le fil peut
+      donc entraîner le plongeur vers la surface ; ajouter les deux valeurs donnerait à tort 40 N. Pendant
+      le lancement, le dévidoir reste décroché du plongeur et la ligne à distance du corps et du matériel.'
 - id: n2-flottabilite-perte-lest-001
   type: mcq
   anki_model: basic
@@ -641,20 +703,26 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Mistake #4: Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un plongeur stabilisé perd accidentellement une poche de plombs. Pourquoi risque-t-il de partir
-      vers la surface ?
+    question: Un plongeur perd une poche de lest de masse 2 kg et de volume extérieur 0,2 L. De combien
+      varie le poids apparent de l’ensemble plongeur-équipement juste après cette perte ? Ensemble entièrement
+      immergé, eau à 1 kg/L, g = 10 N/kg ; poids apparent = poids réel − poussée. Les autres masses et
+      volumes restent inchangés.
     choices:
-    - text: La perte de poids dépasse la perte de poussée
+    - text: −18 N
       correct: true
-    - text: La perte de poids est compensée par la perte de poussée
+    - text: −20 N
       correct: false
-    - text: La perte de plomb augmente le volume d’eau déplacé
+    - text: +2 N
       correct: false
-    explanation: '**Il perd du poids sans perdre autant de poussée d’Archimède.** Le plomb est beaucoup
-      plus dense que l’eau : sa perte rend l’ensemble plus flottant. Si une remontée commence, l’expansion
-      du gaz du gilet et du néoprène peut encore accentuer cette tendance.'
+    explanation: La poche représentait 20 N de poids et 2 N de poussée, soit 18 N vers le bas. Sa perte
+      diminue donc le poids apparent de 18 N et rend le plongeur plus flottant. Compter seulement le poids
+      donnerait −20 N ; compter seulement la poussée perdue donnerait une variation de +2 N. Une remontée
+      amorcée peut ensuite être accentuée par l’expansion du gaz du gilet et du néoprène.
 - id: n2-flottabilite-surlestage-001
   type: mcq
   anki_model: basic
@@ -676,6 +744,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Pourquoi porter trop de lest peut-il augmenter l’effort et la consommation d’air, même lorsque
@@ -710,12 +781,15 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'DAN — Weight Up!, lestage et changement de milieu/configuration : https://dan.org/alert-diver/article/weight-up/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un plongeur était correctement stabilisé en début de plongée. En fin de plongée, il doit palmer
-      pour rester immergé à faible profondeur, avec un gilet entièrement purgé, une combinaison humide et
-      une respiration normale. Pourquoi un lestage vérifié seulement avec le bloc plein peut-il expliquer
-      cette difficulté ?
+    question: Un plongeur était correctement stabilisé en début de plongée. En fin de plongée, il doit
+      palmer pour rester immergé à faible profondeur, avec un gilet entièrement purgé, une combinaison
+      humide et une respiration normale. Pourquoi un lestage vérifié seulement avec le bloc plein peut-il
+      expliquer cette difficulté ?
     choices:
     - text: Le bloc a perdu la masse du gaz consommé
       correct: true
@@ -723,10 +797,10 @@ cards:
       correct: false
     - text: Le gaz consommé a réduit le volume extérieur du bloc
       correct: false
-    explanation: '**Le bloc a perdu la masse du gaz consommé : le lestage peut être insuffisant en fin de
-      plongée.** Son volume extérieur a très peu changé, donc la poussée reçue reste presque identique.
-      Le lestage doit permettre de tenir la faible profondeur avec le bloc moins chargé, pas seulement de
-      s’immerger au départ.'
+    explanation: '**Le bloc a perdu la masse du gaz consommé : le lestage peut être insuffisant en fin
+      de plongée.** Son volume extérieur a très peu changé, donc la poussée reçue reste presque identique.
+      Le lestage doit permettre de tenir la faible profondeur avec le bloc moins chargé, pas seulement
+      de s’immerger au départ.'
 - id: n2-flottabilite-volume-neutre-001
   type: mcq
   anki_model: basic
@@ -746,12 +820,16 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un objet rigide de masse 6 kg est entièrement immergé dans de l’eau de masse volumique 1 kg/L.
-      Quel volume extérieur doit-il avoir pour être de flottabilité neutre ?
-    explanation: '**6 L.** À l’équilibre, la masse d’eau déplacée doit égaler la masse de l’objet : 6 kg.
-      Avec 1 kg/L, cela correspond à 6 L. En prenant g = 10 N/kg, poids et poussée valent chacun 60 N.'
+    question: Un objet rigide de masse 6 kg est entièrement immergé dans de l’eau de masse volumique 1
+      kg/L. Quel volume extérieur doit-il avoir pour être de flottabilité neutre ? Prendre g = 10 N/kg.
+    explanation: '**6 L.** À l’équilibre, la masse d’eau déplacée doit égaler la masse de l’objet : 6
+      kg. Avec 1 kg/L, cela correspond à 6 L. En prenant g = 10 N/kg, poids et poussée valent chacun 60
+      N.'
     choices:
     - text: 6 L
       correct: true
@@ -778,10 +856,14 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
-    question: Un caisson de 1,5 kg et 3 L reçoit un lest dont le volume extérieur est de 0,1 L. Quelle masse
-      doit avoir ce lest pour rendre l’ensemble neutre, entièrement immergé dans de l’eau à 1 kg/L ?
+    question: Un caisson de 1,5 kg et 3 L reçoit un lest dont le volume extérieur est de 0,1 L. Quelle
+      masse doit avoir ce lest pour rendre l’ensemble neutre, entièrement immergé dans de l’eau à 1 kg/L
+      ?
     explanation: '**1,6 kg.** L’ensemble déplace 3 + 0,1 = 3,1 L d’eau, soit 3,1 kg. Sa masse totale doit
       donc être de 3,1 kg : masse du lest = 3,1 − 1,5 = 1,6 kg. Le lest ajouté reçoit lui aussi une poussée
       ; son volume compte cette fois.'
@@ -813,10 +895,14 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
+      University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
+      distracteur analysé dans le CSV'
     fact_check: pass
   fr:
     question: Un objet de 4 kg et 4 L est entièrement immergé dans une eau salée de masse volumique 1,025
-      kg/L. Quel est son poids apparent ? Prendre g = 10 N/kg et poids apparent = poids réel − poussée d’Archimède.
+      kg/L. Quel est son poids apparent ? Prendre g = 10 N/kg et poids apparent = poids réel − poussée
+      d’Archimède.
     explanation: '**−1 N**, soit une tendance à remonter. L’objet déplace 4 × 1,025 = 4,1 kg d’eau. Son
       poids vaut 40 N, la poussée 41 N : 40 − 41 = −1 N. Dans une eau à 1 kg/L, ce même objet serait neutre.'
     choices:

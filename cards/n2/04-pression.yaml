@@ -17,10 +17,13 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NIST — Guide to the SI, Appendix B.9, unités de pression : https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: Une force perpendiculaire F est répartie uniformément sur une surface S. Quelle relation donne
-      la pression moyenne P ?
+    question: Une force perpendiculaire F est répartie uniformément sur une surface S. Quelle relation
+      donne la pression moyenne P ?
     choices:
     - text: P = F / S
       correct: true
@@ -28,8 +31,8 @@ cards:
       correct: false
     - text: P = S / F
       correct: false
-    explanation: '**P = F / S**, avec F en newtons (N), S en mètres carrés (m²) et P en pascals (Pa). Une
-      pression mesure une force par unité de surface : 1 Pa = 1 N/m².'
+    explanation: '**P = F / S**, avec F en newtons (N), S en mètres carrés (m²) et P en pascals (Pa).
+      Une pression mesure une force par unité de surface : 1 Pa = 1 N/m².'
 - id: n2-pression-variation-force-surface-001
   type: mcq
   anki_model: basic
@@ -47,14 +50,17 @@ cards:
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.9–10.
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: On remplace une caisse par une autre deux fois plus lourde, dont la surface d’appui sur le
-      sol est trois fois plus grande. Par quel facteur la pression moyenne sur le sol est-elle multipliée
+    question: On remplace une caisse par une autre deux fois plus lourde, dont la surface d’appui sur
+      le sol est trois fois plus grande. Par quel facteur la pression moyenne sur le sol est-elle multipliée
       ?
     explanation: 'Par **2/3**. Avec P = F/S, le nouveau rapport vaut 2F/(3S) = (2/3)P : la pression diminue
-      malgré la force plus grande. À force constante, agrandir la surface d’appui diminue la pression ;
-      à surface constante, augmenter la force l’augmente.'
+      malgré la force plus grande. À force constante, agrandir la surface d’appui diminue la pression
+      ; à surface constante, augmenter la force l’augmente.'
     choices:
     - text: × 2/3
       correct: true
@@ -80,6 +86,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NIST — Guide to the SI, Appendix B.9, unités de pression : https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Sur des instruments de plongée ou de météo, que mesurent les graduations bar, psi, hPa et
@@ -91,10 +100,10 @@ cards:
       correct: false
     - text: Des forces dans différentes unités
       correct: false
-    explanation: '**La pression**, exprimée dans différentes unités. Le bar est usuel en plongée ; psi signifie
-      livre-force par pouce carré. Le pascal (Pa), l’hectopascal (hPa) et le millimètre de mercure (mmHg)
-      sont aussi des unités de pression. Une même pression porte des valeurs numériques différentes selon
-      l’unité.'
+    explanation: '**La pression**, exprimée dans différentes unités. Le bar est usuel en plongée ; psi
+      signifie livre-force par pouce carré. Le pascal (Pa), l’hectopascal (hPa) et le millimètre de mercure
+      (mmHg) sont aussi des unités de pression. Une même pression porte des valeurs numériques différentes
+      selon l’unité.'
 - id: n2-pression-masse-force-001
   type: mcq
   deck: Physique
@@ -111,6 +120,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NIST — Guide to the SI, Appendix B.9, unités de pression : https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Dans la phrase « une masse de 1 kg exerce son poids sur une surface de 1 cm² », quelles
@@ -147,19 +159,24 @@ cards:
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: Quel phénomène explique la pression atmosphérique exercée à la surface de la Terre ?
+    question: Dans une atmosphère en équilibre, quelle grandeur détermine sa pression totale à la surface
+      de la Terre ?
     choices:
-    - text: Le poids de la colonne d’air située au-dessus
+    - text: Le poids de la colonne d’air au-dessus du point considéré
       correct: true
-    - text: La vitesse de déplacement des masses d’air
+    - text: La pression liée au déplacement horizontal de l’air
       correct: false
-    - text: La vapeur d’eau présente dans l’air uniquement
+    - text: La pression partielle de la vapeur d’eau présente dans l’air
       correct: false
-    explanation: '**Le poids de la colonne d’air au-dessus de nous exerce une pression.** Elle existe
-      même dans l’air immobile ; le vent n’en est pas la cause. Dans les exercices de plongée au niveau
-      de la mer, on prend souvent 1 bar comme valeur simplifiée.'
+    explanation: 'La colonne d’air pèse sur la surface : son poids par unité de surface explique la pression
+      atmosphérique en équilibre. Le vent correspond à un mouvement et la vapeur d’eau n’est qu’un constituant
+      de l’air. Dans les exercices au niveau de la mer, 1 bar est une valeur simplifiée, pas une mesure
+      constante.'
 - id: n2-pression-altitude-001
   type: mcq
   deck: Physique
@@ -178,6 +195,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: À conditions météorologiques comparables, la pression atmosphérique réelle à la surface
@@ -209,20 +229,23 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: Au même endroit et à la même altitude, le passage d’un système dépressionnaire à un système
-      anticyclonique fait-il varier la pression atmosphérique ? Dans quel sens ?
+    question: Au même endroit et à la même altitude, comment évolue généralement la pression atmosphérique
+      lorsque le système dépressionnaire laisse place à un anticyclone ?
     choices:
-    - text: Oui, elle augmente
+    - text: Elle augmente
       correct: true
-    - text: Oui, elle diminue
+    - text: Elle diminue
       correct: false
-    - text: Non, elle reste constante à altitude identique
+    - text: Elle reste identique
       correct: false
-    explanation: '**Oui, elle augmente** : une dépression correspond à des basses pressions, un anticyclone
-      à des hautes pressions. La pression atmosphérique réelle varie avec la météo ; 1 bar est une simplification
-      de calcul, pas une valeur constamment mesurée.'
+    explanation: 'Une dépression correspond à des basses pressions et un anticyclone à des hautes pressions.
+      L’altitude constante ne rend pas la pression atmosphérique constante : la situation météorologique
+      compte aussi. La valeur de 1 bar utilisée dans les exercices reste une approximation.'
 - id: n2-pression-hydrostatique-001
   type: mcq
   anki_model: basic
@@ -245,6 +268,9 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Dans une eau au repos, que représente la pression hydrostatique ajoutée à la pression atmosphérique
@@ -280,13 +306,16 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: À 6 m de profondeur, quelle est la pression absolue ambiante ? Prendre 1 bar de pression atmosphérique
-      et une augmentation hydrostatique de 1 bar tous les 10 m.
+    question: À 6 m de profondeur, quelle est la pression absolue ambiante ? Prendre 1 bar de pression
+      atmosphérique et une augmentation hydrostatique de 1 bar tous les 10 m.
     explanation: '**1,6 bar absolu.** L’eau ajoute 6/10 = 0,6 bar à la pression atmosphérique : P absolue
-      = 1 + 0,6 = 1,6 bar. À la surface, elle vaut déjà 1 bar ; elle augmente à la descente et diminue à
-      la remontée.'
+      = 1 + 0,6 = 1,6 bar. À la surface, elle vaut déjà 1 bar ; elle augmente à la descente et diminue
+      à la remontée.'
     choices:
     - text: 1,6 bar absolu
       correct: true
@@ -310,6 +339,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'Deux plongeurs sont à 10 m sous la même surface : l’un au-dessus d’un fond de 12 m, l’autre
@@ -343,12 +375,15 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: À 3 m, quelle pression est ajoutée par l’eau seule ? Utiliser le modèle de 1 bar tous les
       10 m.
-    explanation: '**0,3 bar de pression hydrostatique.** Le calcul est 3/10 = 0,3 bar. On n’ajoute pas la
-      pression atmosphérique ici, puisque la question porte sur la contribution de l’eau seule.'
+    explanation: '**0,3 bar de pression hydrostatique.** Le calcul est 3/10 = 0,3 bar. On n’ajoute pas
+      la pression atmosphérique ici, puisque la question porte sur la contribution de l’eau seule.'
     choices:
     - text: 0,3 bar
       correct: true
@@ -376,6 +411,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: À quelle profondeur la pression absolue vaut-elle 1,5 bar ? Prendre 1 bar à la surface et
@@ -405,6 +443,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Un capteur mesure 2 bars de pression relative à la surface, c’est-à-dire 2 bars ajoutés
@@ -440,20 +481,23 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: Sous l’eau, un capteur indique 3 bars de pression absolue. Un élève propose d’y ajouter 1
-      bar atmosphérique. Quelle pression ambiante faut-il finalement retenir ?
+    question: Un capteur sous l’eau indique 3 bar de pression absolue, avec 1 bar atmosphérique à la surface.
+      Un élève retient 4 bar comme pression ambiante. Quelle contribution a-t-il comptée deux fois ?
     choices:
-    - text: '3 bars : la pression atmosphérique est déjà incluse'
+    - text: La pression atmosphérique
       correct: true
-    - text: '4 bars : il faut ajouter la pression atmosphérique'
+    - text: La pression hydrostatique
       correct: false
-    - text: '2 bars : il faut retirer la pression atmosphérique'
+    - text: La pression absolue totale
       correct: false
-    explanation: '**Il compte deux fois la pression atmosphérique.** La pression absolue inclut déjà celle
-      de l’air et celle due à l’eau : la pression ambiante vaut donc 3 bars. Avec une pression atmosphérique
-      de 1 bar, la pression relative à la surface serait de 2 bars.'
+    explanation: Les 3 bar absolus contiennent 1 bar atmosphérique et 2 bar dus à l’eau. Ajouter à nouveau
+      le bar atmosphérique donne 4 bar. Doubler la contribution de l’eau aurait donné 1 + 2 × 2 = 5 bar
+      ; doubler toute la pression absolue aurait donné 6 bar.
 - id: n2-pression-boyle-pressions-001
   type: mcq
   deck: Physique
@@ -473,6 +517,9 @@ cards:
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — Outta Gas, pressions absolues dans Boyle : https://oceanexplorer.noaa.gov/explorations/07philippines/background/edu/media/outtagas.pdf'
     - 'NASA — Equation of State, Boyle et conditions du modèle : https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state/'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Pour appliquer P₁V₁ = P₂V₂ à un gaz passant de 10 à 20 m, quelles pressions utiliser ? La
@@ -504,6 +551,9 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Dans le modèle de 1 bar à la surface et +1 bar par 10 m, par quels facteurs la pression
@@ -543,6 +593,9 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'Quelle est la pression absolue à 20 m de profondeur ? Utiliser le modèle simplifié : pression
@@ -579,12 +632,15 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'Quelle est la pression absolue à 33 m de profondeur ? Utiliser le modèle simplifié : pression
       atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    explanation: '**4,3 bars absolus.** Pression hydrostatique : 33/10 = 3,3 bars. Ajouter la pression atmosphérique
-      : 1 + 3,3 = 4,3 bars.'
+    explanation: '**4,3 bars absolus.** Pression hydrostatique : 33/10 = 3,3 bars. Ajouter la pression
+      atmosphérique : 1 + 3,3 = 4,3 bars.'
     choices:
     - text: 4,3 bars absolus
       correct: true
@@ -615,6 +671,9 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'À quelle profondeur la pression absolue atteint-elle 2,8 bars ? Utiliser le modèle simplifié
@@ -651,6 +710,9 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'À quelle profondeur la pression absolue atteint-elle 4 bars ? Utiliser le modèle simplifié
@@ -685,6 +747,9 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: À 27 m de profondeur, quelle est la pression hydrostatique due à l’eau seule ? Prendre une
@@ -719,14 +784,17 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: 'Un plongeur remonte de 30 m à 12 m. De combien de bars la pression ambiante diminue-t-elle
       ? Utiliser le modèle simplifié : pression atmosphérique de 1 bar et augmentation hydrostatique de
       1 bar tous les 10 m.'
     explanation: '**De 1,8 bar.** À 30 m : 1 + 30/10 = 4 bars. À 12 m : 1 + 12/10 = 2,2 bars. Diminution
-      : 4 − 2,2 = 1,8 bar. On retrouve aussi (30 − 12)/10 = 1,8 bar, car la pression atmosphérique est la
-      même aux deux profondeurs.'
+      : 4 − 2,2 = 1,8 bar. On retrouve aussi (30 − 12)/10 = 1,8 bar, car la pression atmosphérique est
+      la même aux deux profondeurs.'
     choices:
     - text: 1,8 bar
       correct: true
@@ -757,10 +825,14 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
-    question: Dans un lac, la pression atmosphérique à la surface vaut 0,8 bar. Quelle est la pression absolue
-      à 18 m ? Pour cet exercice, prendre une augmentation hydrostatique de 1 bar tous les 10 m.
+    question: Dans un lac, la pression atmosphérique à la surface vaut 0,8 bar. Quelle est la pression
+      absolue à 18 m ? Pour cet exercice, prendre une augmentation hydrostatique de 1 bar tous les 10
+      m.
     explanation: '**2,6 bars absolus.** L’eau ajoute 18/10 = 1,8 bar. La pression totale vaut 0,8 + 1,8
       = 2,6 bars. On utilise les 0,8 bar fournis, au lieu d’ajouter automatiquement 1 bar.'
     choices:
@@ -793,13 +865,16 @@ cards:
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
     - 'Complément d’entraînement demandé le 2026-10-06 : calculs directs et inverses à plusieurs profondeurs
       ; même modèle S1/S3, données de lac fournies par l’énoncé.'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
+      Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
+      dans le CSV'
     fact_check: pass
   fr:
     question: Dans un lac où la pression atmosphérique vaut 0,8 bar, un capteur indique 2,3 bars de pression
       absolue. À quelle profondeur se trouve-t-il ? Pour cet exercice, prendre une augmentation hydrostatique
       de 1 bar tous les 10 m.
-    explanation: '**15 m.** La contribution de l’eau vaut 2,3 − 0,8 = 1,5 bar. Profondeur = 1,5 × 10 = 15
-      m. Vérification : 0,8 + 15/10 = 2,3 bars.'
+    explanation: '**15 m.** La contribution de l’eau vaut 2,3 − 0,8 = 1,5 bar. Profondeur = 1,5 × 10 =
+      15 m. Vérification : 0,8 + 15/10 = 2,3 bars.'
     choices:
     - text: 15 m
       correct: true
