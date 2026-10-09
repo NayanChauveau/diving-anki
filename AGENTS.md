@@ -34,6 +34,27 @@ Les consignes bilingues, d’import de l’ancien deck et d’organisation des a
 WSET3 ne s’appliquent pas à ce dépôt français. Conserver les règles de sources,
 d’identité et d’AnkiConnect propres à la plongée.
 
+## Distracteurs — calibration renforcée du 9 octobre 2026
+
+- Une réponse fausse doit attirer un apprenant ayant une **confusion précise du cours**.
+  La revue nomme cette confusion pour chaque leurre, puis la condition qui le rend faux.
+  « C’est une erreur possible », « c’est dangereux » ou « c’est l’inverse » ne suffisent pas.
+- Interdire les QCM où la clé est la seule réponse prudente, coopérative, conditionnelle
+  ou médicalement sérieuse. Comparer des conduites plausibles au même stade, des mécanismes
+  voisins ou des paramètres concurrents ; ne pas opposer les secours à une imprudence caricaturale.
+- Ne pas rendre un leurre reconnaissable en lui ajoutant « automatiquement », « seulement »,
+  « quelle que soit », « sans alerter » ou une justification manifestement incohérente.
+  Vérifier aussi la crédibilité d'une inversion : toute négation de la clé n'est pas un leurre.
+- Si le fait initial ne permet que des leurres faibles, reconstruire le recto autour d'une
+  application ou d'une distinction du **même objectif**, sans multiplier les questions.
+  Pour un calcul, les résultats faux doivent découler d'opérations erronées identifiées.
+- Tester chaque choix séparément : pourquoi un candidat hésiterait-il, et quelle connaissance
+  précise permet de l'écarter ? Rejeter la carte si la logique ordinaire, la prudence ou le style
+  suffisent à répondre. Trois choix solides valent mieux que quatre, sans quota de difficulté.
+- Dans la revue par ID, consigner les deux justifications de chaque distracteur (attrait et
+  réfutation), puis refaire une lecture après réécriture. Un tableau générique de critères
+  « pass » ne remplace pas cette analyse. Vérifier l'unicité de la clé avec les mêmes hypothèses.
+
 ## Format des cartes — calibration finale du 6 octobre 2026
 
 Le **QCM est le format à choisir dès que la question peut être posée clairement avec

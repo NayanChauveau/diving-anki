@@ -10,6 +10,9 @@ fait partie des règles de publication : **ISOLATION, CREDIBILITY, LENGTH, WHY, 
 Une seule défaillance exige une réécriture, même si la bonne réponse est exacte.
 Chaque leurre doit correspondre à une confusion plausible dans le cadre du recto ;
 le corrigé doit expliquer la distinction sans recopier systématiquement la clé.
+Documenter pour chaque leurre son attrait et sa réfutation précise. Une clé seule
+prudente face à deux imprudences, une inversion grossière ou un choix hors sujet
+échoue au contrôle : reconstruire aussi le recto si nécessaire, au même objectif.
 Ne jamais renvoyer à la lettre ou au numéro d’un choix : l’ordre peut changer.
 Consigner une passe pédagogique distincte du contrôle factuel avant `reviewed`.
 

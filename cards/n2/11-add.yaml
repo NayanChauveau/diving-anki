@@ -19,19 +19,22 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: À température constante, quel effet a une augmentation de la pression partielle d’un gaz sur
-      sa quantité dissoute à l’équilibre dans un liquide ?
+    question: Pour le même gaz et le même liquide, à température constante, la pression partielle du gaz
+      est doublée. Que devient sa quantité dissoute une fois le nouvel équilibre atteint ?
     choices:
-    - text: Elle augmente proportionnellement à la pression partielle
+    - text: Elle est multipliée par 2
       correct: true
-    - text: Elle augmente proportionnellement à la pression totale, quel que soit le mélange
+    - text: Elle reste identique
       correct: false
-    - text: Elle dépend du temps mais pas de la pression partielle à l’équilibre
+    - text: Elle est divisée par 2
       correct: false
-    explanation: '**La quantité dissoute à l’équilibre augmente proportionnellement à cette pression partielle**,
-      pour le même gaz et le même liquide. Dans l’organisme, atteindre ce nouvel équilibre demande du temps.'
+    explanation: 'La loi de Henry relie la quantité dissoute à l’équilibre à la pression partielle du
+      gaz : doubler cette pression double cette quantité, à température constante. Cela ne décrit pas
+      le volume d’une poche gazeuse, régi par Boyle-Mariotte ; atteindre le nouvel équilibre demande du
+      temps.'
 - id: n2-add-bouteille-001
   type: mcq
   anki_model: basic
@@ -50,19 +53,20 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Pourquoi des bulles apparaissent-elles à l’ouverture d’une bouteille d’eau gazeuse ?
     choices:
-    - text: La baisse de pression rend le liquide sursaturé
+    - text: Du CO₂ auparavant dissous quitte le liquide devenu sursaturé
       correct: true
-    - text: L’ouverture augmente la quantité de gaz dissous à l’équilibre
+    - text: De la vapeur d’eau se forme dans le liquide sous l’effet de l’ouverture
       correct: false
-    - text: La baisse de pression augmente la solubilité du gaz
+    - text: De l’air extérieur pénètre dans le liquide et forme les bulles
       correct: false
-    explanation: '**La chute de pression rend le liquide sursaturé en gaz.** Une partie du gaz dissous quitte
-      alors la solution sous forme de bulles. La pression plus élevée dans la bouteille fermée permettait
-      de maintenir davantage de gaz dissous.'
+    explanation: 'L’eau gazeuse contient du CO₂ dissous sous pression. À l’ouverture, la baisse de pression
+      réduit la quantité qui peut rester dissoute à l’équilibre : du CO₂ sort de la solution. Ce dégazage
+      se distingue de l’ébullition de l’eau et de l’entrée d’air extérieur.'
 - id: n2-add-profondeur-001
   type: mcq
   anki_model: basic
@@ -84,6 +88,7 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: À durée et mélange respiré comparables, pourquoi une plongée plus profonde tend-elle à augmenter
@@ -93,10 +98,12 @@ cards:
       correct: true
     - text: La fraction d’azote dans l’air augmente, favorisant son entrée dans les tissus
       correct: false
-    - text: À mélange identique, la pression partielle reste constante et seule la durée compte
+    - text: Le gaz déjà présent est comprimé, ce qui augmente la quantité d’azote sans échange
       correct: false
-    explanation: '**La pression partielle d’azote respiré augmente.** Elle crée un écart plus grand avec
-      l’azote déjà dissous dans les tissus, favorisant son entrée dans l’organisme.'
+    explanation: À composition identique, la pression absolue plus élevée augmente la pression partielle
+      d’azote respiré. L’écart avec l’azote dissous dans les tissus favorise son entrée. La fraction d’azote
+      reste identique ; une augmentation de quantité dissoute suppose des échanges, pas la compression
+      d’une poche gazeuse.
 - id: n2-add-duree-001
   type: mcq
   anki_model: basic
@@ -117,19 +124,21 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: À profondeur constante, pourquoi prolonger une plongée peut-il augmenter les obligations de
-      désaturation ?
+    question: À profondeur constante et mélange inchangé, pourquoi prolonger le séjour peut-il augmenter
+      les obligations de désaturation ?
     choices:
-    - text: Des tissus continuent à se charger avant leur nouvel équilibre
+    - text: La charge d’azote de tissus encore hors équilibre continue à augmenter
       correct: true
-    - text: La charge est fixée dès que la profondeur ne change plus
+    - text: Le stock d’air respiré cumulé fixe la charge d’azote à éliminer
       correct: false
-    - text: La saturation dépend de la profondeur maximale uniquement
+    - text: La pression partielle d’azote respiré augmente avec le temps passé
       correct: false
-    explanation: '**Les tissus continuent à absorber de l’azote tant qu’ils n’ont pas atteint leur équilibre
-      avec le gaz respiré.** Une durée plus longue peut donc accroître la charge, même sans descendre davantage.'
+    explanation: À cette profondeur, la pression partielle respirée reste constante, mais les tissus encore
+      hors équilibre continuent à se charger. La charge dépend du profil et des vitesses d’échange, pas
+      directement du volume total consommé dans le bloc.
 - id: n2-add-tissus-001
   type: mcq
   anki_model: basic
@@ -150,19 +159,22 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi tous les tissus ne se chargent-ils pas en azote à la même vitesse ?
+    question: Quel ensemble de propriétés intervient directement dans les échanges d’azote et contribue
+      aux différences de vitesse de charge entre tissus ?
     choices:
-    - text: Circulation, diffusion et solubilité diffèrent selon les tissus
+    - text: Leur irrigation sanguine et leurs propriétés de diffusion et de solubilité
       correct: true
-    - text: La pression ambiante est différente dans chaque organe
+    - text: Leur taille anatomique et leur distance par rapport aux poumons
       correct: false
-    - text: Tous les tissus se chargent à la même vitesse mais pas en même quantité
+    - text: Leur consommation d’oxygène et leur production locale de CO₂
       correct: false
-    explanation: '**Leur circulation sanguine et leurs propriétés de diffusion et de solubilité diffèrent.**
-      Les modèles de décompression représentent ces vitesses par plusieurs compartiments ; un compartiment
-      de calcul n’est pas un organe précis.'
+    explanation: La circulation sanguine apporte et emporte le gaz inerte ; diffusion et solubilité participent
+      aux différences de vitesse de charge. La consommation d’oxygène concerne le métabolisme, pas la
+      définition d’une vitesse d’échange d’azote. Les compartiments du modèle ne sont pas chacun un organe
+      déterminé.
 - id: n2-add-apres-sortie-001
   type: mcq
   anki_model: basic
@@ -184,20 +196,21 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi sortir de l’eau ne signifie-t-il pas que tout l’azote supplémentaire a été éliminé
-      ?
+    question: À la sortie d’une plongée, certains tissus contiennent plus d’azote qu’à l’équilibre de
+      surface. Comment évolue cet azote supplémentaire après le retour à 1 bar ?
     choices:
-    - text: Le retour à 1 bar change l’équilibre visé, mais les tissus l’atteignent progressivement
+    - text: Il est éliminé progressivement par les échanges avec le sang et les poumons
       correct: true
-    - text: Le retour à 1 bar change l’équilibre et les tissus l’atteignent immédiatement
+    - text: Il est éliminé dès que la pression respirée retrouve celle de la surface
       correct: false
-    - text: Le retour à 1 bar n’affecte pas les échanges tant qu’une autre plongée ne commence pas
+    - text: Il reste stocké jusqu’à ce qu’une autre immersion relance les échanges
       correct: false
-    explanation: '**L’élimination se poursuit après la plongée.** Certains tissus restent chargés au-delà
-      de leur équilibre de surface ; ce gaz résiduel influence une plongée suivante et l’exposition à une
-      altitude plus élevée.'
+    explanation: Le retour en surface change la pression d’équilibre, mais pas instantanément la charge
+      des tissus. L’azote supplémentaire continue à passer vers le sang puis les poumons. Cet azote résiduel
+      intervient dans une plongée suivante ou un trajet en altitude.
 - id: n2-add-poumons-001
   type: mcq
   anki_model: basic
@@ -218,18 +231,22 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Par quel trajet l’azote dissous dans les tissus est-il éliminé pendant la désaturation ?
+    question: Quel trajet décrit l’élimination du gaz inerte dissous dans les tissus lors d’une désaturation
+      normale ?
     choices:
-    - text: Tissus → sang → poumons → air expiré
+    - text: Tissus → transport dissous dans le sang → alvéoles → expiration
       correct: true
-    - text: Tissus → sang → reins → urine
+    - text: Tissus → formation de bulles veineuses → filtre pulmonaire → expiration
       correct: false
-    - text: Tissus → bulles obligatoires → poumons → air expiré
+    - text: Tissus → transport dissous dans le sang → reins → urine
       correct: false
-    explanation: '**Tissus → sang → poumons → air expiré.** Le gaz passe vers les alvéoles lorsque l’écart
-      de pression le permet. Sa sortie n’exige pas qu’il forme d’abord de grosses bulles dans le sang.'
+    explanation: Le gaz inerte peut passer des tissus au sang puis aux alvéoles par différences de pression
+      partielle, sans formation préalable de bulles. Les poumons filtrent aussi des bulles veineuses,
+      mais ce n’est pas une étape nécessaire de toute désaturation. L’excrétion urinaire des déchets azotés
+      du métabolisme est un autre phénomène.
 - id: n2-add-bulles-001
   type: mcq
   anki_model: basic
@@ -251,20 +268,20 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi une diminution trop rapide de pression favorise-t-elle un accident de désaturation
-      ?
+    question: Quel mécanisme relie une baisse trop rapide de pression à un accident de désaturation ?
     choices:
-    - text: Un excès de sursaturation peut favoriser des bulles et des lésions
+    - text: Une sursaturation excessive en gaz inerte favorise des bulles et des lésions
       correct: true
-    - text: La baisse de pression comprime le gaz dissous et les tissus qui le contiennent
+    - text: L’expansion de gaz bloqué dans les poumons provoque une rupture alvéolaire
       correct: false
-    - text: Les bulles sont une étape nécessaire d’élimination que la remontée rapide rend plus efficace
+    - text: La production de CO₂ dépasse son élimination par la ventilation
       correct: false
-    explanation: '**Elle peut créer une sursaturation excessive et favoriser des bulles de gaz inerte.**
-      Celles-ci peuvent perturber les tissus et la circulation et provoquer des réactions inflammatoires.
-      L’accident ne se résume pas à un seul vaisseau bouché.'
+    explanation: L’azote dissous peut former des bulles lorsque la sursaturation devient excessive. Bulles,
+      perturbations circulatoires et inflammation participent aux lésions. L’expansion d’un gaz pulmonaire
+      piégé relève du barotraumatisme ; le défaut d’élimination du CO₂ relève de l’hypercapnie.
 - id: n2-add-froid-effort-001
   type: mcq
   anki_model: basic
@@ -285,20 +302,24 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
     - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi la température et l’effort doivent-ils être pris en compte dans le risque de désaturation
-      ?
+    question: Pourquoi l’effet de l’effort et du froid sur la désaturation dépend-il aussi du moment où
+      ils surviennent ?
     choices:
-    - text: Ils modifient la circulation, avec un effet différent selon la phase de plongée
+    - text: Une perfusion accrue au fond peut augmenter la charge ; un refroidissement à la remontée peut
+        ralentir son élimination
       correct: true
-    - text: Ils influent sur le confort mais pas sur les échanges d’azote à profil identique
+    - text: Une perfusion accrue au fond augmente la charge ; l’élimination est ensuite accélérée dans
+        la même proportion
       correct: false
-    - text: Ils facilitent autant l’élimination à la remontée que la prise d’azote au fond
+    - text: Une perfusion accrue au fond augmente la charge ; un refroidissement à la remontée accélère
+        son élimination
       correct: false
-    explanation: '**Ils modifient la circulation sanguine, donc la prise et l’élimination du gaz inerte.**
-      L’effort au fond peut augmenter la prise d’azote ; un refroidissement pendant la remontée peut ralentir
-      son élimination. Leur effet dépend du moment et de l’intensité.'
+    explanation: Les échanges dépendent notamment de la circulation sanguine. Un effort au fond peut augmenter
+      l’entrée d’azote ; un refroidissement à la remontée peut réduire son élimination. L’effet n’est
+      pas symétrique entre charge et décharge et dépend de l’intensité et du moment.
 - id: n2-add-modele-001
   type: mcq
   anki_model: basic
@@ -320,20 +341,24 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'Suunto — Zoop Novo, Decompression dives, modèle et profil ; vérifié le 2026-10-09 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
     fact_check: pass
   fr:
-    question: Un plongeur a respecté les indications de son ordinateur. Pourquoi un accident de désaturation
-      reste-t-il possible ?
+    question: Un Suunto Zoop Novo a suivi une plongée sans erreur et calcule sa désaturation. Quel lien
+      entre son calcul et le plongeur explique qu’un ADD reste possible malgré le respect des indications
+      ?
     choices:
-    - text: Il modélise la charge sans mesurer directement l’azote ou les bulles des tissus
+    - text: Il applique des paramètres physiologiques du modèle au profil du plongeur
       correct: true
-    - text: Il mesure directement la charge des tissus mais peut manquer les symptômes tardifs
+    - text: Il ajuste ses paramètres tissulaires à partir de la réponse physiologique mesurée
       correct: false
-    - text: Il adapte automatiquement sa charge calculée à la fatigue et à la température corporelle
+    - text: Il adapte sa charge calculée à partir de la fatigue et de l’hydratation évaluées
       correct: false
-    explanation: '**L’ordinateur applique un modèle, sans mesurer directement l’azote ni les bulles dans
-      ses tissus.** Le respect des indications réduit le risque sans garantir son absence ; l’état du plongeur
-      et les conditions de plongée comptent aussi.'
+    explanation: L’appareil utilise le profil mesuré et des paramètres physiologiques de modèle, sans
+      mesurer directement l’azote, les bulles ou l’état de chaque tissu. Les réglages personnels ne constituent
+      pas une mesure automatique de fatigue ou d’hydratation. Le calcul réduit le risque sans représenter
+      toute la réponse individuelle.
 - id: n2-add-retard-001
   type: mcq
   anki_model: basic
@@ -354,20 +379,21 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi l’absence de symptôme immédiat au retour au bateau n’écarte-t-elle pas un accident
-      de désaturation ?
+    question: Un plongeur va bien à sa sortie de l’eau, puis présente des signes inhabituels deux heures
+      plus tard. Que permet de conclure ce délai sur une éventuelle origine liée à la désaturation ?
     choices:
-    - text: Les signes peuvent apparaître après un délai en surface
+    - text: Il reste compatible avec un accident de désaturation
       correct: true
-    - text: Le retour à la pression atmosphérique exclut une origine de désaturation
+    - text: Il indique une cause extérieure à la plongée, après la fin de la désaturation
       correct: false
-    - text: Les signes doivent commencer au dernier palier pour évoquer un ADD
+    - text: Il oriente vers un barotraumatisme plutôt que vers un accident de désaturation
       correct: false
-    explanation: '**Des signes peuvent apparaître plus tard, souvent dans les heures suivantes.** Un symptôme
-      inhabituel doit être signalé en précisant la plongée récente ; douze heures n’est pas une limite après
-      laquelle toute origine liée à la plongée est exclue.'
+    explanation: Des signes d’ADD peuvent apparaître après un délai en surface. Le moment d’apparition
+      ne suffit pas à choisir un diagnostic ; transmettre la plongée récente et la chronologie aux secours.
+      Douze heures ne constituent pas une frontière excluant toute origine liée à la plongée.
 - id: n2-add-peau-001
   type: mcq
   anki_model: basic
@@ -389,19 +415,23 @@ cards:
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
     - 'N3-S01 — MFT N3, décembre 2025, p.11 : cutis marmorata ; vocabulaire vérifié le 2026-10-07'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'DAN — Barotrauma in Bonaire, emphysème sous-cutané et crépitements ; vérifié le 2026-10-09 : https://dan.org/alert-diver/article/barotrauma-in-bonaire/'
     fact_check: pass
   fr:
-    question: Après une plongée, des démangeaisons s’accompagnent de marbrures inhabituelles sur le tronc.
-      Pourquoi faut-il les signaler rapidement ?
+    question: Des marbrures en réseau et des démangeaisons inhabituelles apparaissent sur le tronc après
+      une plongée. Quelle forme d’accident de plongée peut présenter ce tableau ?
     choices:
-    - text: Un ADD cutané est possible et nécessite une évaluation
+    - text: Un accident de désaturation cutané
       correct: true
-    - text: Une localisation cutanée exclut une atteinte liée à la désaturation
+    - text: Un barotraumatisme pulmonaire avec emphysème sous-cutané
       correct: false
-    - text: Des marbrures seules prouvent une allergie à la combinaison
+    - text: Un œdème pulmonaire d’immersion avec mauvaise oxygénation
       correct: false
-    explanation: '**Ces manifestations cutanées peuvent correspondre à un accident de désaturation.** Elles
-      justifient une évaluation et ne permettent pas de conclure à un problème bénin limité à la peau. Les marbrures cutanées de ce type sont appelées « cutis marmorata ».'
+    explanation: Des marbrures appelées cutis marmorata peuvent accompagner un ADD cutané et doivent être
+      évaluées rapidement. L’emphysème sous-cutané est de l’air passé dans les tissus, souvent associé
+      à un gonflement et des crépitements au toucher ; ce n’est pas ce motif de marbrures. L’OPI donne
+      surtout une gêne respiratoire et une toux. Ces signes seuls ne permettent pas un diagnostic certain.
 - id: n2-add-oreille-interne-001
   type: mcq
   anki_model: basic
@@ -422,19 +452,22 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Un vertige persiste après la sortie de l’eau, avec baisse d’audition. Pourquoi ne faut-il
-      pas conclure à un simple problème d’équilibrage ?
+    question: Un vertige persiste après la sortie de l’eau et s’accompagne d’une baisse d’audition. Quelle
+      localisation peut associer ces deux fonctions et être atteinte par un ADD comme par un barotraumatisme
+      ?
     choices:
-    - text: Désaturation et barotraumatisme de l’oreille interne sont possibles
+    - text: L’oreille interne
       correct: true
-    - text: La baisse d’audition prouve une atteinte limitée à l’oreille moyenne
+    - text: Le conduit auditif externe
       correct: false
-    - text: Le retour en surface exclut une atteinte vestibulaire de désaturation
+    - text: L’oreille moyenne
       correct: false
-    explanation: '**Une atteinte de l’oreille interne est possible**, notamment par désaturation ou barotraumatisme.
-      Une évaluation urgente doit distinguer ces causes ; le seul symptôme ne permet pas de choisir un traitement.'
+    explanation: L’oreille interne intervient dans l’audition et l’équilibre. Désaturation et barotraumatisme
+      peuvent l’atteindre ; ces signes persistants imposent une évaluation urgente pour distinguer les
+      causes. Le seul tableau ne permet pas de choisir un traitement.
 - id: n2-add-fatigue-001
   type: mcq
   anki_model: basic
@@ -455,20 +488,21 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Après une plongée, un équipier devient anormalement épuisé et se comporte différemment d’habitude.
-      Pourquoi faut-il le signaler au responsable ?
+    question: Après une plongée, un équipier paraît épuisé et son comportement a changé. Quel critère
+      justifie de signaler ces observations comme une possible alerte de plongée ?
     choices:
-    - text: Ces changements peuvent accompagner un accident de plongée
+    - text: Leur caractère inhabituel par rapport à son état normal
       correct: true
-    - text: L’absence de douleur permet d’écarter un accident de plongée
+    - text: Leur association à une douleur ou à une paralysie déjà identifiée
       correct: false
-    - text: L’absence de paralysie permet d’attendre la prochaine plongée
+    - text: Leur survenue chez un plongeur encore peu expérimenté
       correct: false
-    explanation: '**Une fatigue inhabituelle ou un changement de comportement peuvent accompagner un accident
-      de plongée.** Comparer à son état habituel et transmettre l’heure d’apparition ; ne pas attendre une
-      paralysie ou une douleur importante pour demander une évaluation.'
+    explanation: Une fatigue disproportionnée ou un changement de comportement peut accompagner un accident
+      de plongée, même sans douleur ni paralysie. Comparer avec l’état habituel, noter l’apparition et
+      demander une évaluation ; le brevet n’écarte pas ce changement.
 - id: n2-add-oxygene-001
   type: mcq
   anki_model: basic
@@ -491,6 +525,9 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'FFESSM CMPN — PEC accident de plongée, oxygène normobare et ventilation ; vérifié le 2026-10-09
+      : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     fact_check: pass
   fr:
     question: En cas de suspicion d’accident de désaturation, pourquoi administrer de l’oxygène en surface
@@ -498,13 +535,14 @@ cards:
     choices:
     - text: Améliorer l’oxygénation et favoriser l’élimination du gaz inerte
       correct: true
-    - text: Comprimer les bulles grâce à une pression respirée plus élevée
+    - text: Améliorer l’oxygénation et recomprimer les bulles par la pression du masque
       correct: false
-    - text: Compenser le CO₂ accumulé au fond sans modifier les échanges de gaz inerte
+    - text: Améliorer l’oxygénation et stimuler la ventilation pour évacuer le gaz inerte
       correct: false
-    explanation: '**Il améliore l’oxygénation et favorise l’élimination du gaz inerte.** Pour une victime
-      qui respire, la conduite fédérale prévoit un masque à haute concentration alimenté à 15 L/min, poursuivi
-      jusqu’au relais des secours spécialisés. L’oxygène accompagne l’alerte et l’évaluation médicale.'
+    explanation: L’oxygène améliore l’oxygénation et favorise l’élimination du gaz inerte en modifiant
+      les échanges gazeux. Ce n’est ni une recompression par le masque ni une stimulation ventilatoire
+      destinée à chasser l’azote. Pour une victime qui respire, le repère fédéral est le masque à haute
+      concentration à 15 L/min, avec alerte et poursuite jusqu’au relais des secours spécialisés.
 - id: n2-add-position-001
   type: mcq
   anki_model: basic
@@ -526,20 +564,22 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'DGSCGC — PSC juillet 2026, p.40–41 : malaise, position assise si difficulté respiratoire, sinon
       confortable ; vérifié 2026-10-06'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Une victime consciente et qui respire présente un malaise après plongée. Quelle position
-      lui proposer, notamment si elle est gênée pour respirer ?
+    question: Une victime de plongée consciente présente une gêne respiratoire, sans traumatisme identifié.
+      En attendant les secours, quelle installation accompagne l’oxygène et la surveillance ?
     choices:
-    - text: Position confortable choisie, souvent assise si gêne respiratoire
+    - text: Une position choisie pour son confort respiratoire, souvent demi-assise
       correct: true
-    - text: Position allongée jambes surélevées, même si gêne respiratoire
+    - text: Une position allongée avec jambes surélevées pour favoriser le retour du sang
       correct: false
-    - text: Position latérale systématique pour toute victime consciente
+    - text: Une position latérale de sécurité pour protéger les voies aériennes
       correct: false
-    explanation: '**La laisser choisir une position confortable.** En cas de gêne respiratoire, une position
-      assise ou demi-assise facilite souvent la respiration. Ne pas imposer systématiquement jambes surélevées
-      ; adapter l’installation à son état.'
+    explanation: Une victime consciente gênée pour respirer peut préférer une position assise ou demi-assise
+      ; adapter à son confort. La surélévation des jambes n’est pas une position à imposer en cas de gêne
+      respiratoire. La PLS s’applique dans la branche d’une victime inconsciente qui respire normalement,
+      selon le contexte.
 - id: n2-add-eau-001
   type: mcq
   anki_model: basic
@@ -563,24 +603,21 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'RIFAP mai 2026 p.28 et CMPN — PEC accident de plongée, trois exclusions et réflexes oropharyngés/dyspnée
       : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur ; vérifié 2026-10-06'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Quelles conditions faut-il réunir avant de proposer de l’eau à une victime d’accident de
-      plongée ?
+    question: Oxygène et alerte sont déjà engagés pour des victimes de plongée. Dans quel cas peut-on
+      proposer de l’eau par petites prises, sans suspicion de lésion digestive ?
     choices:
-    - text: Consciente, coopérative, déglutition sûre, sans gêne respiratoire, nausées/vomissements ni
-        suspicion de lésion digestive
+    - text: Victime pleinement consciente, coopérative, avalant normalement, sans dyspnée ni nausées
       correct: true
-    - text: Consciente, coopérative, déglutition sûre, sans nausées/vomissements, y compris avec gêne
-        respiratoire
+    - text: Victime pleinement consciente, coopérative, avalant normalement, avec une dyspnée persistante
       correct: false
-    - text: Consciente, coopérative, déglutition sûre, sans gêne respiratoire ni nausées/vomissements,
-        y compris avec lésion digestive suspectée
+    - text: Victime pleinement consciente, coopérative, avalant normalement, avec des nausées persistantes
       correct: false
-    explanation: La victime doit être consciente, coopérative et pouvoir avaler sans risque. Les exclusions
-      fédérales sont le défaut de coopération/conscience, les nausées ou vomissements et une lésion digestive
-      suspectée. La CMPN précise aussi le risque d’inhalation en cas de déglutition compromise, notamment
-      avec dyspnée. L’hydratation ne retarde ni l’alerte ni l’oxygène.
+    explanation: La conscience, la coopération et une déglutition sûre sont nécessaires. Ne pas proposer
+      de boisson avec nausées ou vomissements, suspicion de lésion digestive ou risque d’inhalation, notamment
+      en cas de dyspnée. L’hydratation ne retarde ni l’alerte ni l’oxygène.
 - id: n2-add-transmission-001
   type: mcq
   anki_model: basic
@@ -603,20 +640,22 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Lors d’un appel pour un symptôme survenu après une plongée, quel ensemble décrit le mieux
-      la chronologie utile à l’évaluation médicale ?
+    question: Après sa sortie, un plongeur devient anormalement silencieux et répond lentement aux échanges.
+      Plus tard, il signale une douleur. Quel événement faut-il dater comme début des signes transmis
+      aux secours ?
     choices:
-    - text: Profils des plongées, apparition et évolution des signes, gestes réalisés
+    - text: Le changement de comportement observé par l’équipier
       correct: true
-    - text: Brevet, nombre total de plongées et date de la dernière visite médicale
+    - text: Le premier signalement de douleur par le plongeur
       correct: false
-    - text: Profondeur maximale, type de combinaison et pression restante dans le bloc
+    - text: La confirmation d’un accident par l’évaluation médicale
       correct: false
-    explanation: '**Les paramètres et l’historique des plongées, l’heure et l’évolution des signes, ainsi
-      que les gestes déjà réalisés.** Transmettre aussi les données de l’ordinateur et les conditions
-      de plongée ; les secours ont besoin de la chronologie, pas seulement de la profondeur maximale.'
+    explanation: Un changement inhabituel de comportement fait partie des signes à transmettre, même avant
+      une plainte de douleur. Dater cette observation, puis l’apparition de la douleur et les gestes réalisés.
+      Ne pas attendre un diagnostic pour relever la chronologie des anomalies.
 - id: n2-add-equipiers-001
   type: mcq
   anki_model: basic
@@ -637,20 +676,21 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi surveiller également les autres membres de la palanquée lorsqu’un accident de désaturation
-      est suspecté ?
+    question: Un ADD est suspecté chez un plongeur ; secours et oxygène sont engagés. Ses équipiers ont
+      suivi un profil proche et ne présentent pas de signe. Quel suivi des équipiers reste adapté ?
     choices:
-    - text: Ils partagent une partie du profil mais peuvent réagir différemment
+    - text: Rechercher chez chacun l’apparition de signes inhabituels et les transmettre aux secours
       correct: true
-    - text: Le premier accident prouve que tous ont la même atteinte
+    - text: Leur attribuer la même atteinte et la même gravité sur la base du profil commun
       correct: false
-    - text: L’absence de signes chez eux exclut un problème du profil commun
+    - text: Concentrer la recherche de signes sur le plongeur atteint, le profil commun étant déjà connu
       correct: false
-    explanation: '**Ils ont partagé une partie des conditions et du profil de plongée.** Rechercher et faire
-      signaler tout symptôme inhabituel, même s’ils paraissent bien. L’état d’un équipier ne permet pas
-      de prédire celui des autres.'
+    explanation: Un profil commun ne produit pas une réponse identique chez tous. Surveiller chaque équipier
+      et transmettre toute anomalie, même retardée ; l’état de l’un ne permet pas de diagnostiquer ni
+      d’écarter une atteinte chez les autres.
 - id: n2-add-evacuation-001
   type: mcq
   anki_model: basic
@@ -672,20 +712,21 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi faut-il organiser l’évacuation d’un accidenté avec les secours plutôt que partir
-      spontanément vers le premier caisson trouvé ?
+    question: Après l’alerte pour un accident de plongée, qui détermine la destination médicale de l’évacuation,
+      en tenant compte de la disponibilité d’une prise en charge adaptée ?
     choices:
-    - text: La régulation médicale choisit le transport et une structure adaptée et disponible
+    - text: La régulation médicale, en coordination avec les secours
       correct: true
-    - text: Le caisson géographiquement le plus proche est prioritaire même si sa disponibilité reste inconnue
+    - text: Le DP, en choisissant le caisson le plus proche du site
       correct: false
-    - text: L’équipe sur place choisit le caisson et le trajet, les secours étant informés après le départ
+    - text: Le pilote du bateau, en choisissant le port le plus proche du site
       correct: false
-    explanation: '**Les secours coordonnent l’évaluation médicale, le transport et l’établissement adapté.**
-      Il faut prendre en compte les autres urgences possibles et la disponibilité d’une prise en charge
-      hyperbare, tout en maintenant oxygène et surveillance.'
+    explanation: La régulation médicale organise une orientation adaptée à l’état de la victime et aux
+      possibilités de prise en charge. DP et pilote transmettent les informations et coopèrent, sans remplacer
+      cette décision par la seule proximité d’un caisson ou d’un port. Oxygène et surveillance sont maintenus.
 - id: n2-add-remontee-001
   type: mcq
   anki_model: basic
@@ -706,20 +747,21 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi respecter à la fois les paliers et la vitesse de remontée prévue par son moyen de
-      désaturation ?
+    question: Un profil calculé prévoit une limite de vitesse et des paliers obligatoires. Quelle conduite
+      conserve les conditions de ce calcul pendant une remontée normale ?
     choices:
-    - text: Vitesse et paliers font tous deux partie du profil de décompression
+    - text: Respecter la limite de vitesse et les obligations de paliers
       correct: true
-    - text: Les paliers compensent une vitesse excessive entre les arrêts
+    - text: Rallonger le dernier palier pour compenser une vitesse supérieure à la limite
       correct: false
-    - text: Une remontée lente dispense des paliers annoncés au fond
+    - text: Ralentir davantage entre les niveaux pour raccourcir les paliers indiqués
       correct: false
-    explanation: '**Les deux font partie du profil de décompression.** Effectuer les paliers ne compense
-      pas automatiquement une remontée trop rapide entre les niveaux ; ordinateur ou tables supposent aussi
-      des conditions de remontée.'
+    explanation: Vitesse et paliers sont deux conditions du profil de décompression. On ne les échange
+      pas par une compensation improvisée ; en cas d’anomalie, la procédure prévue s’applique. Les indications
+      de l’ordinateur ou les règles des tables restent la référence utilisée.
 - id: n2-add-effort-surface-001
   type: mcq
   anki_model: basic
@@ -740,19 +782,24 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
     - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'DAN — Factors Contributing to Decompression Stress, Physical activity ; vérifié le 2026-10-09 :
+      https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
     fact_check: pass
   fr:
-    question: Pourquoi éviter de porter seul des charges lourdes juste après une plongée ?
+    question: Pourquoi un effort intense juste après une plongée ne doit-il pas être utilisé pour accélérer
+      la désaturation ?
     choices:
-    - text: L’effort intense peut accroître le risque lié aux bulles pendant la désaturation
+    - text: Il peut accroître le risque lié aux bulles pendant l’élimination du gaz inerte
       correct: true
-    - text: L’effort intense accélère l’élimination sans autre effet sur le risque de désaturation
+    - text: Il augmente la charge d’azote par la hausse du volume d’air respiré en surface
       correct: false
-    - text: L’effort intense ne modifie le risque que s’il est réalisé avant la sortie de l’eau
+    - text: Il bloque la diffusion d’azote entre les tissus et le sang pendant l’effort
       correct: false
-    explanation: '**Un effort intense sollicite la circulation et peut accroître le risque lié aux bulles
-      pendant la désaturation.** Organiser l’aide pour sortir le matériel ; une activité légère n’équivaut
-      pas à un effort lourd ou à une poussée en apnée.'
+    explanation: L’effort intense peut modifier la circulation et accroître le risque lié aux bulles pendant
+      la désaturation. Le risque n’est pas décrit comme une nouvelle charge proportionnelle au volume
+      respiré à 1 bar, ni comme l’arrêt complet des échanges. Organiser l’aide au portage ; une activité
+      légère n’équivaut pas à cet effort.
 - id: n2-add-apnee-001
   type: mcq
   anki_model: basic
@@ -772,19 +819,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.20–23.
     - https://dan.org/alert-diver/article/could-breath-hold-diving-after-scuba-cause-decompression-sickness/
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi éviter d’enchaîner une séance d’apnée profonde après une plongée bouteille ?
+    question: Après une plongée bouteille, pourquoi une séance d’apnée profonde peut-elle ajouter un risque
+      de désaturation ?
     choices:
-    - text: L’apnée ajoute des variations de pression à une charge résiduelle
+    - text: La charge résiduelle se combine à de nouvelles variations de pression
       correct: true
-    - text: L’apnée accélère l’élimination de l’azote sans nouvelle contrainte
+    - text: La redescente comprime les bulles et élimine la charge résiduelle
       correct: false
-    - text: L’absence de détendeur supprime le risque de désaturation
+    - text: L’arrêt de la respiration empêche les échanges du gaz résiduel dans les tissus
       correct: false
-    explanation: '**La charge résiduelle en gaz inerte peut se combiner aux variations de pression et aux
-      contraintes de l’apnée.** Organiser les deux activités séparément plutôt qu’utiliser l’apnée comme
-      prolongement de la plongée ; la faible durée d’une apnée ne garantit pas l’absence de risque.'
+    explanation: L’apnée profonde impose de nouvelles variations de pression alors que l’élimination du
+      gaz inerte se poursuit. Comprimer du gaz ne l’élimine pas et ne remet pas les tissus à leur état
+      initial. Organiser les activités séparément ; la courte durée d’une apnée ne garantit pas l’absence
+      de risque.
 - id: n2-add-yoyo-001
   type: mcq
   anki_model: basic
@@ -807,20 +857,22 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
     - 'FFESSM — Préconisations en plongée à l’air avec ordinateur, newsletter novembre 2024 p.1–2 : https://ffessm.fr/uploads/media/docs/0001/12/1e862af90f137e0c9bf98859c31092e14b8a3c5e.pdf'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi les remontées et redescendes répétées ne doivent-elles pas être considérées comme
-      équivalentes à une plongée stable à la même profondeur maximale ?
+    question: Deux plongées ont la même durée et la même profondeur maximale, mais l’une comporte plusieurs
+      remontées et redescendes. Quelle donnée supplémentaire décrit les échanges de gaz liés à ces oscillations
+      ?
     choices:
-    - text: L’ordre des variations de pression influe sur la charge et l’élimination des gaz
+    - text: L’ordre des profondeurs successives et le temps passé à chacune
       correct: true
-    - text: Une même lecture de table prouve que les échanges physiologiques des deux profils sont identiques
+    - text: La profondeur maximale, appliquée à chaque phase du trajet
       correct: false
-    - text: La redescente rétablit automatiquement l’état des tissus précédant chaque remontée
+    - text: Le nombre de cycles, appliqué indépendamment de leur profondeur
       correct: false
-    explanation: '**Elles multiplient les variations de pression pendant la charge et l’élimination des
-      gaz.** La profondeur maximale et la durée seules ne décrivent pas le profil ; limiter les oscillations
-      inutiles et planifier les exercices avec l’encadrant.'
+    explanation: Les échanges dépendent de la pression rencontrée et du temps à chaque phase. Un maximum
+      et une durée totale, ou le nombre de cycles seul, ne décrivent pas les oscillations. Limiter les
+      variations inutiles et organiser les exercices avec l’encadrant.
 - id: n2-add-avion-001
   type: mcq
   anki_model: basic
@@ -878,17 +930,18 @@ cards:
     - 'DAN World — Decompression Illness : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Une douleur profonde inhabituelle à l’épaule apparaît après une plongée. Le plongeur la met
-      sur le compte du portage du bloc. Quelle décision prendre ?
+    question: Une douleur profonde inhabituelle à l’épaule apparaît après plongée et portage du bloc.
+      Comment articuler cette explication par l’effort et la demande d’évaluation ?
     choices:
-    - text: Signaler la douleur et demander une évaluation rapidement
+    - text: Signaler la douleur et la plongée récente sans attendre de confirmer une cause musculaire
       correct: true
-    - text: Attendre une douleur thoracique pour demander une évaluation
+    - text: Faire reposer l’épaule puis demander une évaluation si la douleur persiste
       correct: false
-    - text: Écarter l’ADD si la douleur suit un effort de portage
+    - text: Tester les mouvements de l’épaule puis demander une évaluation si la douleur ne change pas
       correct: false
-    explanation: '**Signaler et faire évaluer rapidement la douleur en indiquant la plongée récente.** Une
-      douleur articulaire peut relever d’un accident de désaturation ; l’explication par un effort ne suffit
-      pas à l’écarter.'
+    explanation: Une douleur articulaire peut accompagner un ADD et le portage ne suffit pas à l’écarter.
+      Signaler rapidement la douleur, son heure d’apparition et la plongée récente ; la réponse au repos
+      ou au mouvement ne fournit pas un diagnostic fiable.

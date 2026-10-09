@@ -132,6 +132,10 @@ ajoutés uniquement aux mauvaises réponses pour les rendre faciles à éliminer
 Avant validation, faire une passe en lecteur sans connaissances de plongée : peut-il répondre
 par bon sens, par répétition des mots du recto ou par différence de style ? Refaire le QCM
 si oui. Trois choix crédibles valent mieux que quatre dont un est de remplissage.
+Pour chaque leurre, la revue doit expliquer son attrait et sa réfutation : confusion
+de mécanismes, de phases, de conventions, de statuts ou de calcul. Une clé seule prudente
+face à deux imprudences, ou deux négations grossières de la clé, impose une réécriture.
+Si les choix restent faibles, reconstruire le recto au même objectif et au même ID.
 Les faits chiffrés restent des objectifs de mémorisation : choisir des valeurs plausibles ;
 ne pas ajouter de complexité artificielle ni transformer le rappel en longue énigme.
 Une seule réponse incontestable dans le contexte donné reste obligatoire.

@@ -1,5 +1,12 @@
 # Revue pédagogique complète — 9 octobre 2026
 
+**Suivi du retour utilisateur sur les leurres trop évidents :** la
+[revue approfondie de désaturation N2](DESATURATION_N2_DISTRACTEURS_2026-10-09.md)
+reprend les 77 cartes de cette catégorie et corrige 52 cartes. Ses analyses par
+distracteur remplacent les verdicts pédagogiques précédents pour ces IDs.
+Le présent relevé reste la photographie de la première passe ; ses empreintes
+ne représentent plus le contenu actuel des cartes réécrites ensuite.
+
 ## Périmètre et résultat
 
 Les **448 cartes actives** ont été lues intégralement : question, chaque choix et

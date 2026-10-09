@@ -87,6 +87,7 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Suunto — Zoop Novo User Guide, Alarms, alerts and notifications : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Sur un Suunto Zoop Novo, une alarme sonore s’accompagne du message SLOW. Que signale-t-elle
@@ -96,7 +97,7 @@ cards:
       correct: true
     - text: 'Remontée au-delà de 15 m/min : ralentir'
       correct: false
-    - text: 'Plafond franchi pendant 3 min : redescendre'
+    - text: 'Remontée au-delà de 6 m/min : ralentir'
       correct: false
     explanation: '**La vitesse dépasse 10 m/min.** Ralentir la remontée conformément au manuel ; une vitesse
       permise par une table ne neutralise pas cette alarme.'
@@ -185,19 +186,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Entre deux plongées rapprochées, pourquoi remplacer son ordinateur par celui d’un équipier
-      peut-il fausser la décompression affichée ?
+    question: A a plongé séparément de B le matin. Avant l’immersion de l’après-midi, A met au poignet
+      l’ordinateur de B, encore en suivi de désaturation. Quel historique cet appareil utilise-t-il pour
+      le calcul ?
     choices:
-    - text: Il utilise l’historique et la charge calculée de l’équipier
+    - text: Les immersions que l’appareil a suivies avec B
       correct: true
-    - text: Le changement remet automatiquement la charge calculée à zéro
+    - text: Les immersions effectuées par A, qui porte maintenant l’appareil
       correct: false
-    - text: La même profondeur maximale assure la même charge calculée
+    - text: Un état de surface neuf lors du changement d’utilisateur
       correct: false
-    explanation: '**Il suivrait l’historique et la charge calculée de l’autre plongeur.** Conserver le même
-      appareil pour la série et ne pas échanger un ordinateur encore en cours de calcul de désaturation.'
+    explanation: L’appareil continue le calcul des immersions qu’il a enregistrées avec B. Il ne reconnaît
+      ni le changement de porteur ni le profil antérieur de A et ne remet pas automatiquement sa charge
+      à zéro. Conserver son propre suivi pendant la série.
 - id: n2-ordinateurs-controle-001
   type: mcq
   anki_model: basic
@@ -218,20 +222,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Avant immersion, quel ensemble de contrôles couvre le fonctionnement et les paramètres utilisés
-      par l’ordinateur pour la plongée prévue ?
+    question: Un ordinateur s’allume, dispose d’énergie et mesure la profondeur. Quel ensemble de données
+      faut-il encore vérifier pour que ses calculs correspondent à la plongée prévue et au plongeur ?
     choices:
-    - text: Écran, énergie, mode, gaz, réglages personnels ou d’altitude et historique
+    - text: Mode actif, mélange sélectionné, réglages et suivi des immersions personnelles
       correct: true
-    - text: Écran, énergie, journal, profondeur maximale passée et heure locale
+    - text: Mode actif, pression du bloc, réglages et nombre de plongées mémorisées
       correct: false
-    - text: Écran, énergie, pression du bloc, journal et intervalle conseillé par un équipier
+    - text: Mélange sélectionné, pression du bloc, heure locale et modèle du détendeur
       correct: false
-    explanation: '**Vérifier l’écran, l’énergie disponible, le mode, le gaz et les réglages personnels ou
-      d’altitude.** Vérifier aussi l’absence d’erreur et la cohérence de l’historique ; savoir retrouver
-      profondeur, durée et obligations de remontée.'
+    explanation: Le calcul dépend du mode, du gaz et des réglages actifs, avec un historique personnel
+      cohérent. Le nombre d’entrées au journal ne garantit pas le bon suivi résiduel ; pression du bloc
+      et modèle du détendeur n’établissent pas la charge de désaturation. Vérifier aussi absence d’erreur
+      et lisibilité des indications.
 - id: n2-ordinateurs-collectif-001
   type: mcq
   anki_model: basic
@@ -252,21 +258,21 @@ cards:
     - S1 p.28 ; coordination des paliers dans la palanquée.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Votre ordinateur n’indique plus de palier obligatoire, mais celui de votre équipier en impose
-      encore un. Comment organiser la fin de plongée, avec du gaz suffisant ?
+    question: Votre ordinateur n’indique plus de palier, celui de votre équipier en impose encore. Le
+      gaz permet de respecter les deux. Quelle conduite règle la fin de plongée de la palanquée ?
     choices:
-    - text: Terminer ensemble les obligations des deux appareils
+    - text: Rester ensemble et suivre les obligations actualisées des deux appareils
       correct: true
-    - text: Remonter ensemble dès que le premier appareil libère son plongeur
+    - text: Rester ensemble et appliquer jusqu’au bout les durées relevées au départ du fond
       correct: false
-    - text: Suivre ensemble celui qui a indiqué le moins de paliers au fond
+    - text: Terminer chacun les obligations de son appareil et se retrouver en surface
       correct: false
-    explanation: '**Rester ensemble et terminer aussi les obligations de l’équipier, en suivant les mises
-      à jour des deux appareils.** Respecter les plafonds, les profondeurs de palier et les durées de chacun.
-      Un temps annoncé au départ ne devient pas un compte à rebours fixé une fois pour toutes ; il peut
-      évoluer selon le profil réellement suivi.'
+    explanation: Les appareils actualisent profondeur de plafond, arrêts et durées pendant la remontée.
+      La palanquée reste ensemble et confronte les deux indications ; le plan relevé au fond n’est pas
+      un compte à rebours fixe. Une absence de palier chez l’un n’autorise pas à se séparer.
 - id: n2-ordinateurs-differences-001
   type: mcq
   anki_model: basic
@@ -287,19 +293,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Deux plongeurs restent côte à côte pendant une plongée mais leurs ordinateurs annoncent des
-      paliers différents. Quelles différences peuvent l’expliquer ?
+    question: Deux équipiers sont restés côte à côte pendant l’exploration mais ont des paliers différents.
+      Quel ensemble de données permet de rechercher une explication dans leurs calculs ?
     choices:
-    - text: Le profil actuel peut être voisin malgré des modèles, réglages ou historiques différents
+    - text: Modèles, réglages, gaz sélectionnés et historiques personnels
       correct: true
-    - text: Un profil actuel voisin suffit à imposer des paliers identiques, quel que soit l’historique
+    - text: Modèles, réglages, volumes des blocs et pressions de départ
       correct: false
-    - text: Un profil actuel voisin suffit à imposer des paliers identiques, quels que soient les réglages
+    - text: Profondeurs maximales, durées de l’exploration et pressions restantes
       correct: false
-    explanation: '**Le modèle, les réglages et les plongées précédentes peuvent différer.** De petites différences
-      de profondeur enregistrée comptent aussi. Un même profil actuel ne garantit pas une même charge calculée.'
+    explanation: Les modèles, réglages, gaz sélectionnés et immersions antérieures peuvent différer. Même
+      un profil actuel proche ne garantit pas une charge calculée identique ; de petites différences de
+      profondeur enregistrée comptent aussi. Les volumes et pressions des blocs relèvent du budget respiratoire,
+      pas directement du calcul de désaturation.
 - id: n2-ordinateurs-dtr-augmente-001
   type: mcq
   anki_model: basic
@@ -319,20 +328,21 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pendant l’exploration, la durée totale de remontée affichée augmente. Quelle conséquence pour
-      la décision de rester au fond ?
+    question: À profondeur constante, la DTR augmente de 3 min pendant l’exploration. Comment prendre
+      en compte cette évolution dans le budget de gaz du retour ?
     choices:
-    - text: Prévoir davantage de temps et de gaz pour sortir
+    - text: Recalculer les phases de retour et d’arrêt aux profondeurs où le gaz sera respiré
       correct: true
-    - text: Prolonger le fond car le temps sans palier augmente aussi
+    - text: Ajouter 3 min de consommation à la profondeur actuelle à tout le budget de retour
       correct: false
-    - text: Conserver le budget de gaz si la profondeur maximale ne change pas
+    - text: Ajouter 3 min de consommation de surface à tout le budget de retour
       correct: false
-    explanation: '**Il faut prévoir davantage de temps et de gaz pour sortir.** Prévenir et réévaluer la
-      fin de plongée avec la palanquée ; le gaz nécessaire dépend des profondeurs de remontée et des paliers,
-      pas seulement du temps d’exploration.'
+    explanation: Le gaz nécessaire dépend du temps et de la pression à chaque phase de retour. L’augmentation
+      de DTR ne s’affecte pas automatiquement tout entière au fond ni à 1 bar. Reprendre les phases actualisées
+      avec la palanquée ; cela peut commander une fin d’exploration plus précoce.
 - id: n2-ordinateurs-ndl-air-001
   type: mcq
   anki_model: basic
@@ -353,20 +363,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Un ordinateur annonce 12 min sans palier, mais la réserve de gaz convenue sera atteinte dans
-      4 min à la consommation actuelle. Quelle contrainte commande la décision de fin d’exploration ?
+    question: À profondeur constante, un ordinateur sans sonde affiche 12 min de NDL ; le manomètre et
+      la consommation observée indiquent 4 min avant le seuil de retour convenu. Que représentent respectivement
+      ces deux durées ?
     choices:
-    - text: La contrainte de gaz impose d’anticiper la fin d’exploration
+    - text: 12 min avant palier estimé ; 4 min avant déclenchement du retour lié au gaz
       correct: true
-    - text: Le temps sans palier permet de poursuivre jusqu’aux 12 min annoncées
+    - text: 12 min avant déclenchement du retour lié au gaz ; 4 min avant palier estimé
       correct: false
-    - text: Il faut attendre que le temps sans palier égale le temps avant réserve
+    - text: 12 min de trajet jusqu’à la surface ; 4 min avant déclenchement du retour lié au gaz
       correct: false
-    explanation: '**La contrainte de gaz impose d’anticiper la sortie.** Le temps sans palier concerne la
-      décompression, pas l’autonomie respiratoire ; les 12 min n’autorisent pas à consommer la réserve nécessaire
-      à la remontée.'
+    explanation: NDL est le temps estimé encore possible à cette profondeur sans décompression obligatoire.
+      Les quatre minutes relèvent du gaz et du seuil convenu pour conserver le budget de retour. Le seuil
+      de gaz peut commander la fin d’exploration avant d’atteindre la limite sans palier.
 - id: n2-ordinateurs-sonde-001
   type: mcq
   anki_model: basic
@@ -388,20 +400,22 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Quelle donnée mesurée doit recevoir un ordinateur pour suivre directement le gaz restant
-      dans le bloc ?
+    question: Un ordinateur personnel a suivi toutes les plongées et mesure profondeur et durée, sans
+      capteur relié au bloc. Laquelle de ces informations échappe à son suivi de désaturation ?
     choices:
-    - text: La pression du gaz dans le bloc
+    - text: La pression actuelle du gaz dans le bloc
       correct: true
-    - text: La pression ambiante autour du plongeur
+    - text: La charge de gaz inerte estimée par ses compartiments
       correct: false
-    - text: La durée écoulée depuis le début de la plongée
+    - text: Le temps sans palier estimé à la profondeur actuelle
       correct: false
-    explanation: Un capteur de pression compatible, souvent une sonde fixée au premier étage, transmet
-      la pression du bloc à l’ordinateur. Profondeur et durée ne mesurent pas ce stock ; une estimation
-      de son autonomie dépend aussi de la consommation et des hypothèses du système.
+    explanation: La pression du bloc demande un capteur compatible, souvent une sonde au premier étage.
+      Le profil mesuré permet d’estimer la charge de désaturation et le temps sans palier, mais pas de
+      connaître directement la pression de gaz restante. L’autonomie respiratoire exige aussi une estimation
+      de consommation.
 - id: n2-ordinateurs-verrouillage-001
   type: mcq
   anki_model: basic
@@ -456,20 +470,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Vous empruntez pour la première fois un modèle d’ordinateur différent. Quelles informations
-      de son manuel devez-vous maîtriser pour gérer la remontée ?
+    question: Vous utilisez un nouveau modèle d’ordinateur. Son écran peut demander un arrêt de sécurité
+      ou un arrêt obligatoire après une anomalie. Quelle distinction faut-il savoir lire dans son manuel
+      pour appliquer la conduite adaptée ?
     choices:
-    - text: Interpréter temps sans palier, plafond, paliers, limites de vitesse et alarmes du modèle
+    - text: Le symbole et le message correspondant à l’arrêt dans ce modèle
       correct: true
-    - text: Interpréter profondeur et durée, puis appliquer les vitesses et alarmes du modèle précédent
+    - text: La profondeur à laquelle cet arrêt est affiché
       correct: false
-    - text: Interpréter profondeur et durée, puis appliquer les procédures et vitesses des tables MN90
+    - text: Le nombre de minutes affiché pour cet arrêt
       correct: false
-    explanation: '**Reconnaître le temps sans palier, les obligations de décompression et le plafond, puis
-      les alarmes et leur conduite à tenir.** Connaître aussi les limites de vitesse et les conséquences
-      d’une erreur ; un symbole familier ne garantit pas une fonction identique.'
+    explanation: 'Le manuel associe symboles et messages au statut de l’arrêt et à sa conduite à tenir.
+      La profondeur ou la durée seules ne distinguent pas confort et obligation : un arrêt peu profond
+      peut être rendu obligatoire après une anomalie. Maîtriser ces indications avant immersion.'
 - id: n2-ordinateurs-lisibilite-001
   type: mcq
   anki_model: basic
@@ -491,20 +507,22 @@ cards:
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pour choisir un ordinateur, quel essai évalue le mieux la lisibilité de ses informations
-      pendant la plongée ?
+    question: Avec votre masque et votre correction visuelle, vous devez lire rapidement profondeur, durée
+      et alarmes. Quels critères d’affichage comptent directement pour choisir l’ordinateur ?
     choices:
-    - text: Lire paramètres et alarmes avec masque et correction visuelle, dans un éclairage représentatif
+    - text: Taille des caractères, contraste et éclairage de l’écran
       correct: true
-    - text: Lire le journal de plongée sans masque sur un écran éclairé en magasin
+    - text: Diagonale de l’écran, nombre de fonctions et mémoire du journal
       correct: false
-    - text: Comparer la diagonale des écrans, indépendamment de la taille des caractères
+    - text: Résolution de l’écran, nombre de modes et durée de la batterie
       correct: false
-    explanation: '**Il faut pouvoir distinguer rapidement profondeur, plafond, durée et alarmes dans les
-      conditions de plongée.** Taille des caractères, contraste et éclairage comptent plus que la seule
-      quantité de fonctions.'
+    explanation: La taille des caractères, le contraste et l’éclairage influencent directement la lecture.
+      Diagonale ou résolution seules ne garantissent pas qu’un nombre soit lisible ; le nombre de fonctions
+      et la mémoire ne le garantissent pas davantage. Tester avec masque et correction dans un éclairage
+      représentatif.
 - id: n2-ordinateurs-modes-001
   type: mcq
   anki_model: basic
@@ -523,16 +541,17 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Vous voulez utiliser plus tard un mélange contenant plus de 21 % d’oxygène avec calcul de
-      décompression. Quelle fonction de l’ordinateur faut-il vérifier ?
+    question: Un futur projet utilise un mélange de plus de 21 % d’oxygène et demande des calculs de décompression
+      correspondant à ce mélange. Quelle fonction faut-il vérifier sur l’ordinateur ?
     choices:
-    - text: Un mode nitrox permettant de renseigner la fraction d’oxygène dans sa plage acceptée
+    - text: Un mode nitrox couvrant la fraction d’oxygène prévue
       correct: true
-    - text: Un mode profondimètre permettant d’afficher profondeur et durée sans décompression
+    - text: Un mode air avec réglage de conservatisme personnel
       correct: false
-    - text: Un mode air permettant d’augmenter le conservatisme sans renseigner le mélange
+    - text: Un mode profondimètre avec alarmes de durée et profondeur
       correct: false
     explanation: '**La présence d’un mode nitrox et les mélanges qu’il accepte.** Ce mode permet de renseigner
       la fraction d’oxygène ; son réglage doit correspondre au gaz analysé et aux limites apprises dans
@@ -627,20 +646,21 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7
-      m. Rejoindre 5 m respecterait-il ce plafond ?
+    question: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Parmi ces positions
+      à un instant où ce plafond reste affiché, laquelle respecte cette limite ?
     choices:
-    - text: 'Non : 6 m est la profondeur minimale autorisée à cet instant'
+    - text: Se maintenir entre 6 et 7 m
       correct: true
-    - text: 'Oui : 6 m est la profondeur maximale autorisée à cet instant'
+    - text: Se maintenir entre 5 et 6 m
       correct: false
-    - text: 'Oui : le plafond de 6 m autorise une marge de 1 m vers la surface'
+    - text: Osciller entre 5 et 7 m
       correct: false
-    explanation: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant :
-      ne pas passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait.
-      Le plafond évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
+    explanation: 'CEILING indique la profondeur la plus faible autorisée à cet instant. Entre 6 et 7 m,
+      on reste sous le plafond ; à 5 m on le franchit. Ce n’est pas une zone centrée sur 6 m. Le plafond
+      évolue : suivre l’appareil jusqu’à la fin.'
 - id: n2-ordinateurs-plafonds-differents-001
   type: mcq
   anki_model: basic
@@ -664,19 +684,19 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Deux équipiers utilisent des ordinateurs avec un plafond de décompression à ne pas franchir.
-      A indique 6 m, B indique 3 m. Ils sont ensemble à 7 m, avec du gaz suffisant. Peuvent-ils rejoindre
-      ensemble 3 m à cet instant ?
+    question: Deux équipiers sont à 7 m, avec du gaz suffisant. Les plafonds de décompression de leurs
+      ordinateurs indiquent 6 m pour A et 3 m pour B. Quelle est la profondeur la plus faible qu’ils puissent
+      rejoindre ensemble à cet instant en respectant les deux plafonds ?
     choices:
-    - text: 'Non : A impose encore de rester à 6 m ou plus profond'
+    - text: 6 m
       correct: true
-    - text: 'Oui : le plafond le moins profond détermine le palier commun'
+    - text: 4,5 m
       correct: false
-    - text: 'Oui : les minutes supplémentaires à 3 m compensent le plafond de A'
+    - text: 3 m
       correct: false
-    explanation: '**Non : ils franchiraient le plafond de A.** Le groupe doit rester à 6 m ou plus profond
-      tant que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez
-      B ne signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
-      ses indications.'
+    explanation: 'La palanquée reste à 6 m ou plus profond tant que A impose ce plafond. Ni la moyenne
+      4,5 m ni le plafond 3 m de B ne satisfont A. Contrôler ensuite l’évolution des deux appareils :
+      le temps de B n’est pas nécessairement crédité comme à son niveau prévu.'

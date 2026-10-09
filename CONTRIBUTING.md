@@ -49,6 +49,8 @@ Faire une critique distincte de la rédaction avec les cinq critères de la gril
 sur toutes les cartes du lot (40 au plus), puis corriger et relire les IDs rejetés.
 Consigner les verdicts et motifs par ID dans `docs/reviews/` ; une mention globale
 « QCM relus » sans examen des leurres, de la forme et du corrigé ne suffit pas.
+Consigner aussi, pour chaque mauvaise réponse, la confusion qui la rend attirante
+et le fait précis qui la réfute. Réécrire les rectos si les choix restent manifestement faux.
 Ne jamais renommer ni réutiliser un ID publié, ni changer les IDs des modèles.
 Ne pas committer les documents privés ou les packages générés.
 La CI contrôle le projet et construit le paquet unique ; les pushes sur main

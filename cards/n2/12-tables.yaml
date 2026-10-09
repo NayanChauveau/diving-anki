@@ -123,6 +123,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Pour quelles conditions de gaz et d’effort les tables MN90 ont-elles été établies ?
@@ -131,7 +132,7 @@ cards:
       correct: true
     - text: Air et effort physique intense
       correct: false
-    - text: Tout mélange suroxygéné et effort modéré
+    - text: Nitrox et effort physique modéré
       correct: false
     explanation: '**Respiration d’air et effort physique modéré.** Leur modèle et leurs règles d’emploi
       ne couvrent pas automatiquement un autre mélange ou un effort important ; une profondeur admissible
@@ -156,20 +157,21 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: La limite de deux plongées par 24 heures des tables MN90 devient-elle automatiquement une
-      limite identique pour tout ordinateur ?
+    question: À quel champ d’application se rattache la limite de deux plongées par 24 heures étudiée
+      avec les MN90 ?
     choices:
-    - text: 'Non : consulter les limites du modèle d’ordinateur utilisé'
+    - text: Au domaine d’emploi des tables MN90
       correct: true
-    - text: 'Oui : cette limite des MN90 s’applique à tous les algorithmes'
+    - text: Au nombre réglementaire de plongées à l’air en établissement
       correct: false
-    - text: 'Non : l’usage d’un ordinateur supprime la prise en compte des successives'
+    - text: Au domaine d’emploi commun des ordinateurs à gaz dissous
       correct: false
-    explanation: '**Non : elle appartient au domaine d’emploi de ces tables.** Un ordinateur a son propre
-      manuel et son modèle ; le nombre de plongées se planifie aussi avec leurs profils, les intervalles,
-      la fatigue et les consignes du directeur de plongée.'
+    explanation: Cette limite appartient aux règles d’utilisation des MN90. Elle ne se transpose pas automatiquement
+      à un ordinateur ni au cadre réglementaire de toute plongée adulte. Pour un appareil, consulter son
+      manuel et préparer la série avec profils, intervalles, fatigue et consignes du DP.
 - id: n2-tables-sans-palier-001
   type: mcq
   anki_model: basic
@@ -191,19 +193,22 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Que signifie une durée située dans la zone sans palier obligatoire d’une table ?
+    question: Une plongée simple à 20 m est lue sur une ligne MN90 ne donnant aucun palier. Quelle remontée
+      normale correspond à cette lecture, sans arrêt facultatif ajouté ?
     choices:
-    - text: Remontée sans palier obligatoire, en respectant la vitesse prévue par la table
+    - text: Remonter vers la surface à la vitesse MN90 de 15 à 17 m/min
       correct: true
-    - text: Remontée sans palier obligatoire, avec une vitesse laissée au choix du plongeur
+    - text: Remonter vers la surface à 6 m/min, comme entre deux paliers
       correct: false
-    - text: Remontée avec un palier de confort obligatoire, même sans palier de décompression indiqué
+    - text: Remonter jusqu’à 3 m à 15 à 17 m/min, puis y rester 3 min
       correct: false
-    explanation: '**Avec les hypothèses et règles de cette table, la remontée n’exige pas de palier de
-      décompression.** La vitesse de remontée reste à respecter ; « sans palier » ne signifie ni remontée
-      instantanée ni risque nul.'
+    explanation: La zone sans palier dispense de palier de décompression obligatoire, pas de la vitesse
+      prévue. En MN90, la remontée normale du fond suit 15 à 17 m/min ; les 6 m/min concernent les trajets
+      entre paliers et du dernier palier à la surface. Un arrêt facultatif ajouté ne fait pas partie de
+      la lecture demandée.
 - id: n2-tables-dtr-001
   type: mcq
   anki_model: basic
@@ -224,18 +229,20 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Que comprend la durée totale de remontée, ou DTR, d’un exercice de tables MN90 ?
     choices:
-    - text: Trajets de remontée et durées des paliers
+    - text: Trajet du fond au premier palier, arrêts et trajets jusqu’à la surface
       correct: true
-    - text: Durée du fond et durées des paliers
+    - text: Trajet du fond au premier palier et somme des durées d’arrêt
       correct: false
-    - text: Descente, fond et remontée complète
+    - text: Somme des durées d’arrêt aux différentes profondeurs de palier
       correct: false
-    explanation: '**Le trajet jusqu’au premier palier, les durées des paliers, les trajets entre eux et
-      du dernier palier à la surface.** Elle exclut la durée passée avant le début de remontée.'
+    explanation: La DTR additionne les trajets de remontée et les durées des paliers. Les déplacements
+      entre paliers et du dernier palier à la surface comptent aussi ; elle n’est ni la seule somme des
+      arrêts ni le seul accès au premier palier.
 - id: n2-tables-gps-001
   type: mcq
   anki_model: basic
@@ -256,20 +263,21 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: À quoi sert le groupe de plongée successive, ou GPS, donné par une lettre à la sortie d’une
-      plongée MN90 ?
+    question: À la sortie d’une plongée MN90, comment utilise-t-on la lettre du groupe de plongée successive
+      (GPS) pour préparer la suivante ?
     choices:
-    - text: Tenir compte du gaz résiduel pour la plongée suivante
+    - text: Avec l’intervalle de surface, lire l’azote résiduel avant de déterminer la majoration
       correct: true
-    - text: Donner directement la durée du dernier palier
+    - text: La convertir en majoration à ajouter à la durée réelle de la suivante
       correct: false
-    - text: Donner directement la durée maximale de la seconde plongée
+    - text: La convertir en intervalle minimal permettant de traiter la suivante comme isolée
       correct: false
-    explanation: '**À tenir compte du gaz résiduel pour une plongée suivante.** Avec l’intervalle de surface,
-      cette lettre permet de lire l’azote résiduel puis une majoration ; elle n’est ni une position géographique
-      ni une durée de palier.'
+    explanation: La lettre caractérise un état résiduel du modèle. GPS et intervalle servent à lire l’azote
+      résiduel au tableau I ; cette valeur et la profondeur de la suivante donnent ensuite la majoration
+      au tableau II. La lettre seule n’est ni un temps fictif ni un délai de récupération.
 - id: n2-tables-vitesses-001
   type: mcq
   anki_model: basic
@@ -324,19 +332,21 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Un ordinateur impose une vitesse de remontée inférieure à celle des MN90. Quelle référence
-      suivre pendant cette plongée conduite à l’ordinateur ?
+    question: Pourquoi la vitesse MN90 de 15 à 17 m/min ne définit-elle pas automatiquement la limite
+      à suivre pour une plongée conduite à l’ordinateur ?
     choices:
-    - text: La limite de l’ordinateur utilisé pendant la plongée
+    - text: La limite de vitesse fait partie des conditions du modèle utilisé pendant cette plongée
       correct: true
-    - text: La limite MN90 dès que le plongeur a déjà appris les tables
+    - text: La vitesse MN90 sert de référence commune aux calculs de toutes les méthodes
       correct: false
-    - text: La moyenne entre les deux limites de vitesse
+    - text: La vitesse utilisée peut être changée en conservant le temps total des paliers
       correct: false
-    explanation: '**Le manuel et les indications de cet ordinateur.** La vitesse MN90 est une hypothèse
-      des tables ; elle ne remplace pas la limite de l’appareil utilisé.'
+    explanation: La décompression calculée par l’appareil suppose ses propres conditions de remontée,
+      dont la vitesse. Une vitesse issue des tables MN90 n’est pas interchangeable avec celle de l’ordinateur
+      ; conserver les paliers ne suffit pas à conserver ces hypothèses.
 - id: n2-tables-intervalles-001
   type: mcq
   anki_model: basic
@@ -563,6 +573,7 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: 'Exercice MN90 : départ de 30 m, un seul palier de 9 min à 3 m. Employer 15 m/min jusqu’au
@@ -574,8 +585,9 @@ cards:
       correct: false
     - text: 13 min
       correct: false
-    explanation: '**12 min.** Trajet 30 → 3 m : 27/15 = 1,8 min ; palier : 9 min ; trajet 3 → 0 m : 3/6
-      = 0,5 min. Total 11,3 min, arrondi à 12 min.'
+    explanation: 'Trajet 30 → 3 m : 27/15 = 1,8 min ; palier : 9 min ; trajet 3 → 0 m : 3/6 = 0,5 min.
+      Total = 11,3 min, arrondi au supérieur à 12 min. Un arrondi au plus proche donnerait 11 min ; employer
+      10 m/min depuis le fond donnerait 2,7 + 9 + 0,5 = 12,2 min, soit 13 min.'
 - id: n2-tables-successive-001
   type: mcq
   anki_model: basic
@@ -597,6 +609,7 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: 'Exercice MN90 : GPS H, intervalle de surface 2 h, deuxième plongée prévue à 20 m pendant
@@ -607,11 +620,11 @@ cards:
       correct: true
     - text: Aucun palier obligatoire
       correct: false
-    - text: 22 min à 3 m
+    - text: 24 s à 3 m
       correct: false
-    explanation: '**1 min à 3 m.** 0,98 est arrondi à 0,99 dans le tableau II ; majoration 22 min. Durée
-      fictive 22 + 20 = 42 min, arrondie à la ligne 45 min. L’intervalle exact de 2 h est présent au tableau
-      I.'
+    explanation: 'GPS H et 2 h donnent 0,98, puis on retient 0,99 au tableau II : majoration 22 min. Temps
+      fictif = 22 + 20 = 42 min ; lire la ligne supérieure 45 min, soit 1 min à 3 m. On n’interpole pas
+      un palier de 24 s entre les lignes 40 et 45 min.'
 - id: n2-tables-intervalle-arrondi-001
   type: mcq
   anki_model: basic

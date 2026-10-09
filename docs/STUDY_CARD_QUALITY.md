@@ -74,6 +74,30 @@ la rendre attirante. « C’est faux » ne justifie pas sa qualité pédagogique
   ordinaire, politesse ou prudence générale, reconstruire le recto et les choix.
   Préférer trois alternatives solides à quatre dont une sert de remplissage.
 
+### Contrôle approfondi de chaque distracteur
+
+Calibration renforcée après le retour utilisateur du 9 octobre 2026 : la revue
+globale précédente acceptait encore trop de réponses évidemment fausses.
+
+Pour chaque leurre, écrire dans la revue **pourquoi il peut attirer** un candidat
+et **quel fait précis le réfute**. Exemples : appliquer 6 m/min à tout le trajet
+MN90 ; traiter la majoration comme du palier ; prendre le plafond le moins profond
+des équipiers ; confondre oxygénothérapie normobare et recompression hyperbare.
+Une simple inversion, une imprudence ou un mot technique ne prouvent pas la plausibilité.
+
+Les alternatives doivent être concurrentes dans le contexte. Pour un calcul,
+résoudre l'opération erronée qui produit chaque nombre proposé. Pour les secours,
+opposer des protocoles ou interprétations voisins plutôt que « aider et alerter »
+à « abandonner ou attendre ». La clé ne doit pas être seule prudente ou nuancée.
+Retirer les qualifications qui trahissent les leurres ; rendre tous les choix
+affirmatifs, conditionnels ou détaillés de façon comparable.
+
+Si le recto conduit à deux mauvais choix caricaturaux, le réécrire : une situation,
+une distinction, le même objectif et le même ID. Ne pas ajouter une ambiguïté pour
+créer de l'hésitation. Vérifier chaque alternative comme si elle était la clé :
+si elle peut être vraie sous une lecture raisonnable, préciser le contexte ou la changer.
+Un test de crédibilité échoué impose une correction, même après une revue antérieure.
+
 ## 3. LENGTH — aucun indice de forme
 
 Lire d’abord le bloc des choix sans chercher à résoudre la question. La bonne réponse

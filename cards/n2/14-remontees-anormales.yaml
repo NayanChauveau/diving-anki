@@ -102,21 +102,23 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
-      quel rattrapage prévoit le texte si le plongeur n’a aucun signe d’accident et que la réimmersion
-      est réalisable avec assistance et gaz suffisants pour rejoindre la mi-profondeur en moins de 3 min
-      ?
-    explanation: '**Rejoindre au moins la mi-profondeur et y rester 5 min**, puis réaliser au minimum
-      1 min à 6 m et 5 min à 3 m, en plus des obligations du moyen de désaturation. Une victime présentant
-      des signes d’accident relève des secours, sans réimmersion thérapeutique.'
+      le plongeur est sans signe d’accident. Le gaz et l’assistance permettent la réimmersion dans le
+      délai requis. Quelle séquence minimale de rattrapage s’applique, en conservant toute obligation
+      de l’ordinateur plus importante ?
+    explanation: Rejoindre au moins la mi-profondeur en moins de 3 min et y rester 5 min, puis faire au
+      minimum 1 min à 6 m et 5 min à 3 m. Conserver les obligations plus importantes de l’ordinateur.
+      Les 12 min à mi-profondeur appartiennent à l’ancienne procédure MN90 ; des signes d’accident imposent
+      les secours en surface, sans réimmersion thérapeutique.
     choices:
-    - text: Au moins mi-profondeur 5 min, puis au moins 1 min à 6 m et 5 min à 3 m
+    - text: 5 min au moins à mi-profondeur ou plus profond, puis 1 min à 6 m et 5 min à 3 m
       correct: true
-    - text: Mi-profondeur 12 min, puis les paliers recalculés par une table
+    - text: 12 min à mi-profondeur, puis paliers recalculés avec les tables MN90
       correct: false
-    - text: Au moins mi-profondeur 5 min, puis au moins 5 min à 6 m et 1 min à 3 m
+    - text: 5 min au moins à mi-profondeur ou plus profond, puis 5 min à 6 m et 1 min à 3 m
       correct: false
 - id: n2-remontees-anormales-impossible-001
   type: mcq
@@ -144,19 +146,23 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
     question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
-      que prévoit le texte lorsque la réimmersion est impossible ?
+      la réimmersion est impossible. Quel dispositif prévu par ce texte faut-il engager avec l’avis médical
+      ?
     choices:
     - text: Oxygène en surface et évacuation coordonnée avec les secours
       correct: true
-    - text: Observation seule pendant 3 h, sans autre mesure si aucun signe
+    - text: Oxygène en surface, observation de 3 h et arrêt des plongées pendant 24 h
       correct: false
-    - text: Nouvelle tentative de réimmersion après 5 min de repos
+    - text: Oxygène en surface pendant 30 min, puis surveillance par les équipiers
       correct: false
-    explanation: '**Oxygène en surface et évacuation organisée avec les secours.** L’absence de symptôme
-      immédiat n’autorise pas à remplacer ce rattrapage impossible par une simple attente.'
+    explanation: 'Pour cette remontée trop rapide avec réimmersion impossible, le texte prévoit oxygène
+      et évacuation. La branche observation de 3 h et absence de nouvelle plongée pendant 24 h concerne
+      un autre incident : jusqu’à 3 min de palier manquées, sans signe d’accident et sans réimmersion
+      possible. Ne pas échanger ces deux branches.'
 - id: n2-remontees-anormales-yoyos-001
   type: mcq
   anki_model: basic
@@ -180,18 +186,22 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Quel profil appelle-t-on « multi-yoyos » lors d’exercices de remontée assistée ?
+    question: Pendant une même immersion d’exercices, la palanquée suit 20 m → 6 m → 20 m → 6 m → 20 m
+      avant sa sortie finale. Comment classe-t-on ces variations de profondeur ?
     choices:
-    - text: Des cycles répétés de remontée puis redescente
+    - text: Un profil multi-yoyos
       correct: true
-    - text: Des plongées successives séparées d’un court intervalle en surface
+    - text: Une série de plongées successives
       correct: false
-    - text: Une remontée continue interrompue par plusieurs paliers
+    - text: Une série de plongées consécutives
       correct: false
-    explanation: '**Plusieurs cycles de remontée puis redescente au cours de la plongée.** La répétition
-      multiplie les variations de pression et doit être prise en compte dans l’organisation et la décompression.'
+    explanation: 'Les cycles de remontée puis redescente ont lieu dans la même immersion : c’est un profil
+      multi-yoyos. Successives et consécutives classent des plongées distinctes séparées par un intervalle
+      en surface. Les répétitions se préparent avec l’encadrant, en limitant les variations proches de
+      la surface.'
 - id: n2-remontees-anormales-six-metres-001
   type: mcq
   anki_model: basic
@@ -217,16 +227,18 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pour des exercices comportant plusieurs remontées, quelle limite de proximité de la surface
-      les préconisations fédérales de 2024 demandent-elles de respecter dans la mesure du possible ?
+    question: Pour des exercices comportant plusieurs remontées, quelle profondeur limite les préconisations
+      fédérales de 2024 demandent-elles de ne pas dépasser vers la surface, dans la mesure du possible
+      ?
     choices:
-    - text: Rester à 6 m ou plus profond autant que possible
+    - text: 6 m
       correct: true
-    - text: Rester à 3 m ou plus profond autant que possible
+    - text: 3 m
       correct: false
-    - text: Remonter en surface à chaque exercice autant que possible
+    - text: 9 m
       correct: false
     explanation: '**Ne pas remonter au-dessus de 6 m lors de ces remontées répétées.** Préparer les exercices
       avec l’encadrant pour limiter les variations de pression près de la surface ; ce repère n’autorise
@@ -255,20 +267,22 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Pourquoi un palier de décompression obligatoire manqué et un simple palier de confort interrompu
-      ne déclenchent-ils pas automatiquement la même procédure ?
+    question: Pendant une plongée normale à l’air avec ordinateur, quel arrêt interrompu à 3 m relève
+      de la procédure fédérale de palier de décompression manqué ?
     choices:
-    - text: La procédure vise une obligation de décompression, pas un simple arrêt facultatif
+    - text: L’arrêt de décompression indiqué après dépassement du temps sans palier
       correct: true
-    - text: La procédure vise toute interruption d’un arrêt prévu, même sans obligation de décompression
+    - text: L’arrêt de confort ajouté à un profil resté dans le temps sans palier
       correct: false
-    - text: La procédure vise seulement les arrêts profonds, car les arrêts à 3 m relèvent du confort
+    - text: L’arrêt de stabilisation choisi pour déployer le parachute avant la sortie
       correct: false
-    explanation: '**La procédure fédérale d’interruption vise un palier obligatoire de décompression.**
-      Un arrêt recommandé peut avoir une autre fonction ; identifier l’indication exacte et le manuel, notamment
-      les arrêts rendus obligatoires par certains ordinateurs après une anomalie.'
+    explanation: Le dépassement du temps sans palier peut entraîner une obligation de décompression. Un
+      arrêt ajouté pour le confort ou une manipulation ne possède pas ce statut. La profondeur de 3 m
+      ne suffit pas à définir l’obligation ; identifier l’indication exacte et le manuel, notamment après
+      anomalie.
 - id: n2-remontees-anormales-interruption-001
   type: mcq
   anki_model: basic
@@ -381,17 +395,20 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
     fact_check: pass
   fr:
-    question: Après un palier obligatoire manqué, le plongeur présente une faiblesse ou des fourmillements.
-      Faut-il le réimmerger pour finir ses paliers ?
+    question: Après 2 min de palier obligatoire manquées, un plongeur présente faiblesse et fourmillements.
+      Gaz et équipier permettraient une réimmersion rapide. Quelle branche de prise en charge s’applique
+      ?
     choices:
-    - text: 'Non : secours, oxygène adapté et surveillance en surface'
+    - text: Secours, oxygène adapté et surveillance en surface
       correct: true
-    - text: 'Oui : terminer les paliers si moins de 3 min ont été manquées'
+    - text: Reprise du palier en moins de 3 min et ajout de 3 min à 3 m
       correct: false
-    - text: 'Oui : redescendre si l’équipier assure une assistance'
+    - text: Rattrapage de 5 min à mi-profondeur, puis arrêts à 6 et 3 m
       correct: false
-    explanation: '**Non : déclencher les secours et la prise en charge en surface**, dont oxygène adapté
-      à son état et surveillance. Les signes d’accident excluent une réimmersion de rattrapage ; le temps
-      de palier manqué ne justifie pas d’attendre.'
+    explanation: Des signes d’accident imposent les secours en surface, avec oxygène adapté au bilan et
+      surveillance. La possibilité technique de redescendre et une courte durée de palier manquée ne rendent
+      pas applicable la branche prévue pour un plongeur sans signe. Ne pas réimmerger une victime pour
+      finir ses paliers.
