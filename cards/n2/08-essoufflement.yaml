@@ -19,19 +19,27 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.17.
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: À ventilation comparable, pourquoi respirer devient-il plus exigeant lorsque la profondeur
-      augmente ?
+    question: À effort et débit ventilé comparables, quel changement du gaz explique l’augmentation du
+      travail respiratoire en profondeur ?
     choices:
-    - text: La densité du gaz augmente et accroît les résistances à la ventilation
+    - text: Sa densité augmente et accroît la résistance à son écoulement
       correct: true
-    - text: Le débit ventilé est multiplié par la pression absolue, même à effort comparable
+    - text: Sa fraction d’oxygène diminue et impose davantage de ventilation
       correct: false
-    - text: La densité du gaz diminue et réduit l’efficacité de chaque inspiration
+    - text: Sa pression partielle d’oxygène diminue et impose davantage de ventilation
       correct: false
-    explanation: '**Le gaz devient plus dense**, ce qui augmente les résistances à son écoulement et le
-      travail respiratoire. L’immersion et le matériel peuvent aussi contribuer à cet effort.'
+    explanation: 'En profondeur, le gaz est plus dense : son écoulement dans les voies aériennes et le
+      matériel demande davantage de travail. Dans l’air de composition inchangée, la fraction d’oxygène
+      reste constante et sa pression partielle augmente. Le débit en litres ambiants se distingue du débit
+      ramené à la surface.'
 - id: n2-essoufflement-co2-001
   type: mcq
   anki_model: basic
@@ -53,20 +61,29 @@ cards:
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'DAN — Factors Contributing to Decompression Stress : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Pourquoi une respiration très rapide et superficielle peut-elle entretenir l’essoufflement
-      au lieu de l’arrêter ?
+    question: 'Dans un modèle simplifié, 150 mL de chaque inspiration ventilent les voies de passage sans
+      atteindre les alvéoles. Deux respirations fournissent 7,5 L/min au total : 30 inspirations de 250
+      mL ou 15 de 500 mL. Quels débits atteignent les alvéoles, respectivement ?'
     choices:
-    - text: Le débit alvéolaire peut rester insuffisant malgré un débit ventilé élevé
+    - text: 3 L/min et 5,25 L/min
       correct: true
-    - text: La fréquence respiratoire suffit à mesurer l’élimination alvéolaire du CO₂
+    - text: 7,5 L/min et 7,5 L/min
       correct: false
-    - text: Le débit total ventilé et le débit utile aux alvéoles sont équivalents
+    - text: 5,25 L/min et 3 L/min
       correct: false
-    explanation: '**Elle peut ventiler insuffisamment les alvéoles tout en augmentant l’effort respiratoire.**
-      Le dioxyde de carbone produit par l’effort est alors moins bien éliminé ; son accumulation stimule
-      encore la respiration. La fréquence seule ne garantit pas une ventilation efficace.'
+    explanation: 'Pour les petites inspirations : (250 − 150) × 30 = 3 000 mL/min, soit 3 L/min. Pour
+      les grandes : (500 − 150) × 15 = 5 250 mL/min, soit 5,25 L/min. À débit total identique, de petites
+      inspirations fréquentes renouvellent moins d’air dans les alvéoles, où le CO₂ est éliminé. Le volume
+      des voies de passage constitue l’espace mort ; ce modèle explique pourquoi la fréquence seule ne
+      garantit pas une ventilation efficace.'
 - id: n2-essoufflement-effort-001
   type: mcq
   anki_model: basic
@@ -87,20 +104,28 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.17.
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Un plongeur peu entraîné accélère fortement son palmage pour suivre une palanquée. Pourquoi
-      cela favorise-t-il l’essoufflement ?
+    question: Pendant un palmage plus intense, le détendeur fonctionne mais la ventilation ne parvient
+      plus à suivre l’effort. Pourquoi le CO₂ peut-il s’accumuler ?
     choices:
-    - text: La production de CO₂ augmente et peut dépasser les capacités d’élimination
+    - text: La production métabolique de CO₂ dépasse ce que la ventilation élimine
       correct: true
-    - text: La fréquence respiratoire augmente et garantit alors l’élimination du CO₂
+    - text: Le CO₂ est moins produit par les muscles, mais sa pression partielle augmente avec le palmage
+        à profondeur égale
       correct: false
-    - text: L’effort modifie surtout la quantité d’azote dissous, sans augmenter le CO₂ produit
+    - text: Le CO₂ est davantage produit par les muscles, mais la ventilation totale suffit à assurer
+        son élimination
       correct: false
-    explanation: '**L’effort augmente la production de CO₂ et le besoin de ventilation.** Si la respiration
-      ne suit pas, le CO₂ s’accumule. Une bonne forme, un rythme adapté et une préparation réaliste réduisent
-      ce décalage.'
+    explanation: Les muscles produisent davantage de CO₂ pendant l’effort. Si la ventilation ne l’élimine
+      pas suffisamment, il s’accumule même si le détendeur fonctionne. La consommation d’un bloc d’air
+      ne remplace pas son oxygène par l’azote des tissus ni par le CO₂ expiré.
 - id: n2-essoufflement-air-pollue-001
   type: mcq
   anki_model: basic
@@ -121,20 +146,26 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.17.
     - 'DAN — Breathing Gas Contamination, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Plusieurs plongeurs dont les blocs ont été gonflés au même endroit présentent un malaise ou
-      une gêne respiratoire. Quelle hypothèse supplémentaire faut-il transmettre aux secours ?
+    question: Plusieurs plongeurs présentent céphalées ou malaise après utilisation de blocs gonflés au
+      même endroit. Quel élément empêche d’écarter une contamination au monoxyde de carbone ?
     choices:
-    - text: Une contamination du gaz doit être envisagée, même sans odeur inhabituelle
+    - text: Le monoxyde de carbone peut être présent sans odeur particulière du gaz
       correct: true
-    - text: Une contamination du gaz doit être envisagée seulement si son odeur est inhabituelle
+    - text: Le monoxyde de carbone nécessite une odeur huileuse perceptible dans le gaz
       correct: false
-    - text: Une contamination du gaz peut être écartée si la pression de gonflage était normale
+    - text: Le monoxyde de carbone nécessite une pression de gonflage anormalement élevée
       correct: false
-    explanation: '**Une contamination du gaz respiré est possible.** Les symptômes peuvent être peu spécifiques
-      ; l’origine commune du gonflage est un indice utile. Faire évaluer les victimes et préserver les blocs
-      pour analyse, sans conclure à partir de la seule odeur.'
+    explanation: 'Le monoxyde de carbone (CO) est inodore : une absence d’odeur ne l’exclut pas. Une pression
+      de gonflage normale ne renseigne pas sur la composition du gaz. Transmettre l’origine commune du
+      gonflage aux secours et conserver les blocs pour analyse, sans conclure à une cause certaine.'
 - id: n2-essoufflement-signes-001
   type: mcq
   anki_model: basic
@@ -155,19 +186,27 @@ cards:
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Quels signes peuvent annoncer un essoufflement en immersion avant une perte de contrôle ?
+    question: Après un palmage soutenu, quel tableau indique surtout une difficulté ventilatoire à signaler
+      immédiatement ?
     choices:
-    - text: Respiration haletante, manque d’air et récupération difficile
+    - text: Respiration haletante, sensation de manque d’air et récupération difficile à l’arrêt
       correct: true
-    - text: Douleur faciale et saignement nasal lors de la descente
+    - text: Respiration régulière, euphorie inhabituelle et répétition d’une manipulation
       correct: false
-    - text: Marbrures cutanées et douleur articulaire après la sortie
+    - text: Respiration régulière, vertige rotatoire et sensation d’oreille bouchée
       correct: false
-    explanation: '**Respiration rapide ou haletante, sensation de manquer d’air et difficulté à récupérer.**
-      Une consommation qui augmente ou une agitation peuvent l’accompagner. Ces signes doivent être signalés
-      tôt ; ils ne permettent pas d’exclure un problème de matériel ou une autre cause.'
+    explanation: 'Une respiration haletante avec manque d’air et difficulté à récupérer annonce une difficulté
+      ventilatoire. Une euphorie et des gestes répétitifs orientent plutôt vers une altération du jugement
+      ; un vertige avec oreille bouchée évoque une atteinte auriculaire. Un essoufflement n’établit pas
+      à lui seul sa cause : effort, matériel et autres problèmes doivent être considérés.'
 - id: n2-essoufflement-panique-001
   type: mcq
   anki_model: basic
@@ -189,20 +228,27 @@ cards:
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Un plongeur essoufflé ressent une envie de retirer son détendeur et de remonter précipitamment.
-      Pourquoi doit-il conserver une source de gaz et demander de l’aide ?
+    question: Pourquoi retirer son détendeur pendant un essoufflement ne facilite-t-il pas l’élimination
+      du CO₂ en immersion ?
     choices:
-    - text: Retrait et fuite peuvent associer inhalation d’eau et remontée incontrôlée
+    - text: Il supprime l’accès au gaz respirable sans corriger la ventilation alvéolaire
       correct: true
-    - text: Le retrait du détendeur laisse expirer le CO₂ et dispense d’une assistance
+    - text: Il augmente la fraction d’oxygène disponible en diminuant la résistance du gaz
       correct: false
-    - text: La fuite vers moins profond permet d’ignorer les contraintes de vitesse et de paliers
+    - text: Il diminue la pression ambiante des alvéoles en supprimant la résistance du détendeur
       correct: false
-    explanation: '**Cela peut entraîner une inhalation d’eau ou une remontée incontrôlée.** L’essoufflement
-      et la panique peuvent altérer le jugement ; conserver une source de gaz et obtenir l’aide de l’équipier
-      permettent de maîtriser la sortie.'
+    explanation: Éliminer le CO₂ demande une ventilation efficace avec une source de gaz respirable. Retirer
+      le détendeur expose à l’inhalation d’eau et ne réduit ni la pression ambiante ni ne fournit davantage
+      d’oxygène. Signaler la difficulté et demander l’aide de l’équipier permet d’organiser une sortie
+      contrôlée.
 - id: n2-essoufflement-premiers-signes-001
   type: mcq
   anki_model: basic
@@ -223,20 +269,27 @@ cards:
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: En immersion, un plongeur présente un essoufflement pendant un palmage soutenu. Quelles premières
-      actions engager avec la palanquée ?
+    question: Une respiration haletante apparaît pendant un palmage soutenu, avec du gaz disponible et
+      un détendeur fonctionnel. Quel enchaînement initial convient ?
     choices:
-    - text: Stopper l’effort, signaler et organiser une sortie assistée
+    - text: Signaler, stopper le palmage et se stabiliser avec l’équipier pour organiser la sortie
       correct: true
-    - text: Maintenir le palmage et ralentir volontairement sa respiration
+    - text: Signaler, poursuivre le palmage et se concentrer sur une expiration plus lente
       correct: false
-    - text: S’écarter de la palanquée pour rejoindre directement la surface
+    - text: Signaler, poursuivre le palmage et passer sur le détendeur de secours
       correct: false
-    explanation: '**Arrêter l’effort, signaler immédiatement la difficulté et organiser la fin de plongée
-      avec l’équipier ou le guide.** Conserver le détendeur, stabiliser la situation et faciliter une respiration
-      efficace. La remontée se fait de façon contrôlée, avec assistance pour réduire l’effort.'
+    explanation: Réduire la demande ventilatoire commence par l’arrêt de l’effort. Signaler immédiatement,
+      se stabiliser avec l’aide de l’équipier et organiser la fin de plongée. Un contrôle respiratoire
+      ou un changement de détendeur ne compense pas le maintien de l’effort dans ce cas où la source de
+      gaz est fonctionnelle.
 - id: n2-essoufflement-assistance-001
   type: mcq
   anki_model: basic
@@ -260,21 +313,27 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Lors d’une remontée assistée pour essoufflement, comment associer la réduction de l’effort
-      et la gestion de la remontée ?
+    question: Un plongeur essoufflé est assisté pendant une remontée avec un ordinateur. Quel principe
+      permet de réduire son effort tout en gérant la désaturation ?
     choices:
-    - text: Réduire l’effort en respectant vitesse et obligations de remontée
+    - text: L’assistant prend en charge l’effort et contrôle vitesse et paliers indiqués
       correct: true
-    - text: Remonter à la vitesse MN90 indépendamment de l’ordinateur
+    - text: L’assistant prend en charge l’effort et applique la vitesse des tables à la place de l’ordinateur
       correct: false
-    - text: Viser la disparition de l’essoufflement avant de surveiller la vitesse
+    - text: L’assistant prend en charge l’effort et transforme les paliers obligatoires en arrêt de sécurité
       correct: false
-    explanation: '**L’assistance réduit l’effort, mais la remontée doit respecter la vitesse, la respiration
-      libre et les obligations de désaturation.** Un gaz moins dense à moindre profondeur peut faciliter
-      la ventilation ; cela ne justifie ni une fuite vers la surface ni une séparation. La palanquée organise
-      ensemble la sortie et surveille le gaz disponible.'
+    explanation: L’assistance vise à réduire l’effort tout en gardant une remontée contrôlée, une respiration
+      libre et le respect des obligations de désaturation. Les indications de l’ordinateur ne sont pas
+      remplacées par une vitesse de tables ou par un palier de sécurité facultatif. La palanquée surveille
+      aussi le gaz disponible.
 - id: n2-essoufflement-courant-001
   type: mcq
   anki_model: basic
@@ -294,17 +353,23 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.17.
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
+    - 'Vérifié le 2026-10-09 — DAN World — Your Lungs and Diving, Increased Dead Space / Gas Density /
+      Carbon Dioxide Retention : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Vérifié le 2026-10-09 — BSAC — Safe diving guide, Carbon dioxide : https://www.bsac.com/safety/safe-diving-guide/gas/'
+    - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
+    - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
+      ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: La palanquée rencontre un courant contre lequel elle doit palmer fortement pour maintenir
-      le trajet. Que faut-il remettre en cause avant l’épuisement ?
+    question: Dans un courant, le palmage nécessaire au trajet augmente fortement l’effort et la ventilation.
+      Sur quel critère décider d’adapter le parcours avant l’épuisement ?
     choices:
-    - text: Adapter le trajet ou interrompre la plongée avec la palanquée
+    - text: L’effort devenu excessif et la difficulté à récupérer, même avec une pression de bloc élevée
       correct: true
-    - text: Conserver le trajet en utilisant le gaz jusqu’à la réserve habituelle
+    - text: L’atteinte de la pression de réserve prévue, si la profondeur reste inchangée
       correct: false
-    - text: Accélérer le palmage pour réduire le temps passé dans le courant
+    - text: L’atteinte du temps de demi-tour prévu, si la pression du bloc reste élevée
       correct: false
-    explanation: '**Le trajet et l’effort imposé par la plongée.** Adapter le parcours ou interrompre la
-      plongée selon le briefing et les possibilités du site ; une lutte prolongée augmente besoins en air
-      et risque d’essoufflement.'
+    explanation: Les marges respiratoires peuvent devenir insuffisantes avant d’atteindre le seuil de
+      gaz ou le temps de demi-tour. Un effort excessif conduit à adapter le trajet ou à terminer ensemble
+      selon les possibilités du site. Disposer de gaz ne garantit pas de pouvoir le ventiler efficacement.
