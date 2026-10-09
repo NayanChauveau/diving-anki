@@ -5,5 +5,12 @@
 </div>
 <script>
 DIVING_SHUFFLE_JS
+// Converted MCQs retain the Basic model, but use the MCQ answer layout.
+var answerChoices = document.querySelector(".back .choices.is-answer");
+if (answerChoices) {
+  var divider = document.getElementById("answer");
+  answerChoices.parentNode.insertBefore(divider, answerChoices.nextSibling);
+  document.querySelector(".card-shell").classList.add("is-mcq");
+}
 if (document.querySelector(".choices")) divingShuffleChoices(DIVING_SHUFFLE_REVEAL);
 </script>

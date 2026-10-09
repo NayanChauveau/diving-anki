@@ -50,6 +50,10 @@
   display: none;
 }
 
+.is-back.is-mcq .front {
+  margin-bottom: 1.1rem;
+}
+
 .front .choices {
   font-weight: normal;
   font-size: 0.87em;
