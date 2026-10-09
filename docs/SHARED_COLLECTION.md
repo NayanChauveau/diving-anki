@@ -50,24 +50,21 @@ révise le parent. Le préréglage Default des autres paquets n’est pas modifi
 
 Tout est versionné et généré depuis le dépôt. Aucun paquet filtré, configuration
 manuelle locale ou manipulation de l’interface Anki ne fait partie du workflow.
-`make push` importe via AnkiConnect, applique les destinations prévues et les limites
-du dépôt, puis synchronise avec AnkiWeb. Le GUID, le modèle et les IDs des cartes
-existantes restent identiques ; les tags `card-id::<id>` permettent leur déplacement.
+`make push` importe via AnkiConnect puis synchronise avec AnkiWeb, comme WSET 3.
+Il ne déplace pas les cartes ni ne réécrit les options après import. L'arborescence
+et les limites du dépôt sont embarquées dans le paquet. Le GUID, le modèle et les
+IDs des cartes existantes restent identiques.
 
 ## Migrer une installation N2 existante
 
 Importer le nouveau `.apkg` dans la même collection, sans supprimer les notes.
-Pour les personnes qui utilisent le dépôt et AnkiConnect, `make push` effectue aussi
-la migration de l’ancienne structure. Un import seul ne garantit pas le déplacement
+`make push` ne migre plus automatiquement l’ancienne structure. Un import seul ne garantit pas le déplacement
 des cartes déjà importées ; cette limite des mises à jour concerne les anciennes
 installations, pas une première installation du paquet actuel.
 
-Les paquets filtrés de l’organisation temporaire sont vidés en déplaçant leurs cartes
-vers des paquets classiques, puis retirés uniquement s’ils sont vides. Les notes
-actives retrouvent leur destination déterminée par `levels`. Les 17 cartes historiques
-retirées restent suspendues et conservées dans leur catégorie N2, avec leurs révisions.
-Le dossier Collection commune est retiré lorsqu’il est vide. Des cartes personnelles
-étrangères au projet ne sont pas supprimées.
+La migration des paquets filtrés de l’organisation temporaire a été réalisée séparément.
+Toute nouvelle migration doit conserver les échéances, suspensions et révisions,
+et ne retirer que des paquets vides. Elle ne fait pas partie du push courant.
 
 Les anciennes revues décrivent l’organisation à leur date ; ce guide fait référence
 pour la structure actuelle. Une Basic convertie en QCM conserve `anki_model: basic`,

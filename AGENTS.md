@@ -166,9 +166,12 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   une configuration locale. Pour importer, migrer et synchroniser, utiliser le code
   du dépôt via AnkiConnect. Aucun test manuel de séance à la place de l’utilisateur.
 - Une migration conserve IDs de note/carte, modèles, historique, échéances et suspensions.
-  Ne retirer que des paquets vides, jamais leurs cartes. `make push` replace les cartes
-  à leur destination prévue après import, grâce aux tags stables `card-id::<id>`.
-  Un import seul ne garantit pas le déplacement des anciennes cartes.
+  Ne retirer que des paquets vides, jamais leurs cartes. Comme WSET 3, `make push`
+  fait uniquement l'import du paquet puis la synchronisation AnkiWeb : aucun déplacement
+  systématique de cartes ni réécriture d'options après import. Ces écritures marquent
+  des états locaux comme récents et peuvent concurrencer les révisions d'un autre appareil.
+  Une migration exceptionnelle doit être distincte ; un import seul ne garantit pas
+  le déplacement des anciennes cartes.
 - Cartes nouvelles en `draft`, puis `reviewed` après revue factuelle et pédagogique.
 - IDs publiés permanents ; ne pas renommer ni réutiliser un ID pour un autre objectif.
   Les IDs Anki de `src/diving_anki/ids.py` restent stables.

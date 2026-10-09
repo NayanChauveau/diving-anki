@@ -87,7 +87,7 @@ def test_imports_keep_history_and_suspensions(tmp_path, legacy_n2, classic_impor
         # Ensure the new package is newer, as with a regular released update.
         col.db.execute("update notes set mod=1")
         state_sql = (
-            "select id,nid,type,queue,due,ivl,factor,reps,lapses,left,flags,data "
+            "select id,nid,type,queue,due,ivl,factor,reps,lapses,left,flags,data,mod "
             "from cards order by id"
         )
         before = col.db.all(state_sql)

@@ -15,7 +15,9 @@ les catégories sous le premier niveau concerné (N2 avant N3 avant N4) et les t
 tous ses niveaux. N2 est la base ; N3 et N4 sont des compléments, sans copie.
 Tous les paquets sont classiques. Le préréglage quotidien vient de `config/study.json`
 et est embarqué dans le `.apkg`. Ne jamais configurer Anki via son interface :
-`make push` importe, déplace les cartes existantes et synchronise via AnkiConnect.
+`make push` importe puis synchronise via AnkiConnect, comme le deck WSET 3.
+Il ne déplace pas les cartes ni ne réécrit les options après import. Les éventuelles
+migrations d'anciennes installations sont distinctes du push courant.
 `make build` génère `diving-fr.apkg`, contenant tous les niveaux ; `make build-all` est un alias.
 Les types pris en charge sont `mcq`, `basic` et `cloze`.
 Exemple de structure (contenu fictif, à adapter aux documents) :
