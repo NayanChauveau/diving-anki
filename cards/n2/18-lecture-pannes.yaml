@@ -17,20 +17,23 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: De l’eau entre dans la bouche à l’inspiration sur un second étage. Quelle interprétation est
-      justifiée avant contrôle du matériel ?
+    question: De l’eau arrive à l’inspiration dans un second étage. Quel ensemble de défauts peut expliquer
+      cette entrée d’eau dans sa chambre ?
     choices:
-    - text: Plusieurs défauts d’étanchéité du second étage sont possibles, pas seulement la purge
+    - text: Embout, membrane ou soupape d’expiration défectueux
       correct: true
-    - text: L’arrivée d’eau suffit à désigner la purge comme unique pièce défectueuse
+    - text: Joint du raccord au bloc ou siège haute pression défectueux
       correct: false
-    - text: L’arrivée d’eau suffit à désigner la compensation du premier étage comme défectueuse
+    - text: Joint du manomètre ou raccord de son flexible défectueux
       correct: false
-    explanation: '**Un embout endommagé, la soupape d’expiration ou la membrane peuvent laisser entrer de
-      l’eau.** Le manuel cite aussi une saleté ou un mauvais fonctionnement de la soupape. Faire vérifier
-      le matériel ; ce symptôme ne permet pas de choisir une seule réparation.'
+    explanation: 'L’embout, la membrane et la soupape d’expiration bordent la chambre du second étage
+      : un défaut peut y laisser pénétrer l’eau. Un défaut des raccords haute pression se manifeste ailleurs
+      dans le circuit. Ce symptôme ne désigne pas une seule pièce ; le matériel doit être contrôlé.'
 - id: n2-lecture-pannes-chambre-humide-001
   type: mcq
   anki_model: basic
@@ -50,20 +53,24 @@ cards:
     - S1 p.31 et tableau p.34, conception avec chambre humide ouverte.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Dans un modèle de premier étage à piston dont la chambre humide est ouverte à l’eau, des bulles
-      d’air sortent durablement par ses orifices. Que suggère ce passage de gaz ?
+    question: Sur un premier étage à piston avec chambre humide ouverte à l’eau, des bulles sortent durablement
+      des orifices de cette chambre. Entre quelles zones une perte d’étanchéité est-elle alors suspectée
+      ?
     choices:
-    - text: Une fuite de gaz vers la chambre humide est possible et doit être contrôlée
+    - text: Le circuit de gaz et la chambre humide
       correct: true
-    - text: La chambre humide évacue normalement une partie du gaz respiratoire à chaque inspiration
+    - text: La chambre humide et l’eau environnante
       correct: false
-    - text: Le passage de bulles durables est une purge normale de la chambre humide après immersion
+    - text: Le flexible haute pression et le manomètre
       correct: false
-    explanation: '**Une perte d’étanchéité entre le circuit de gaz et la chambre humide.** Un joint peut
-      être en cause ; le modèle et l’observation doivent être contrôlés par un technicien. Une chambre humide
-      laisse entrer l’eau, mais n’est pas un échappement normal de l’air respiratoire.'
+    explanation: La chambre humide communique normalement avec l’eau pour transmettre la pression ambiante.
+      Elle ne sert pas à évacuer le gaz respiratoire. Des bulles durables à cet endroit suggèrent une
+      fuite depuis le circuit de gaz ; un contrôle du modèle par un technicien est nécessaire.
 - id: n2-lecture-pannes-flexible-001
   type: mcq
   anki_model: basic
@@ -83,17 +90,20 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.30–34 ; tableau p.34 inspecté visuellement.
     - 'SCUBAPRO — Manuel détendeurs 2025 Rev Q, p.6–9 et 20 : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/18-lecture-pannes.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Un flexible présente une fissure ou un renflement visible. Pourquoi ne faut-il pas l’utiliser
-      jusqu’à l’apparition d’une fuite importante ?
+    question: Un flexible de détendeur présente un renflement sans fuite visible. Pourquoi son étanchéité
+      actuelle ne permet-elle pas de le garder en service ?
     choices:
-    - text: Il peut se rompre ou perdre rapidement le gaz
+    - text: Elle ne prouve pas l’intégrité de sa structure résistante
       correct: true
-    - text: Le flexible fissuré ne risque qu’une hausse de pression intermédiaire
+    - text: Elle prouve sa résistance mais pas le réglage de moyenne pression
       correct: false
-    - text: L’absence de fuite actuelle confirme sa tenue mécanique
+    - text: Elle prouve sa résistance mais pas l’étanchéité du second étage
       correct: false
-    explanation: '**Il peut perdre rapidement le gaz ou se rompre.** Retirer le matériel du service et faire
-      remplacer le flexible par une pièce compatible ; ruban ou serrage ne rétablissent pas sa tenue sous
-      pression.'
+    explanation: Un flexible peut rester étanche tout en présentant une détérioration mécanique. La notice
+      SCUBAPRO demande son remplacement avant utilisation lorsqu’il présente notamment un gonflement,
+      une fissure ou une coupure. L’absence de fuite ne démontre pas sa tenue sous pression.

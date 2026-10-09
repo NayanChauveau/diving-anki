@@ -21,6 +21,9 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Schéma original intégré : docs/diagrams/circuit-detendeur.svg ; P585 fusionné avec P508.'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: 'Sur ce schéma conceptuel d’un détendeur à deux étages, quelle réduction de pression réalise
@@ -29,17 +32,17 @@ cards:
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-label="Bloc vers étage
       A, flexible vers étage B, puis bouche" style="width:100%;max-width:640px;height:auto"><rect width="640"
-      height="180" fill="#ffffff"/><defs><marker id="fleche" markerWidth="8" markerHeight="8" refX="7" refY="4"
-      orient="auto"><path d="M0,0 L8,4 L0,8" fill="#2878a0"/></marker></defs><g fill="#eaf5fa" stroke="#2878a0"
-      stroke-width="2"><rect x="10" y="55" width="110" height="70" rx="8"/><rect x="190" y="55" width="110"
-      height="70" rx="8"/><rect x="370" y="55" width="110" height="70" rx="8"/><rect x="545" y="55" width="85"
-      height="70" rx="8"/></g><g stroke="#2878a0" stroke-width="3" marker-end="url(#fleche)"><path d="M120
-      90 H180"/><path d="M300 90 H360"/><path d="M480 90 H535"/></g><g fill="#16394a" text-anchor="middle"
+      height="180" fill="#ffffff"/><defs><marker id="fleche" markerWidth="8" markerHeight="8" refX="7"
+      refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#2878a0"/></marker></defs><g fill="#eaf5fa"
+      stroke="#2878a0" stroke-width="2"><rect x="10" y="55" width="110" height="70" rx="8"/><rect x="190"
+      y="55" width="110" height="70" rx="8"/><rect x="370" y="55" width="110" height="70" rx="8"/><rect
+      x="545" y="55" width="85" height="70" rx="8"/></g><g stroke="#2878a0" stroke-width="3" marker-end="url(#fleche)"><path
+      d="M120 90 H180"/><path d="M300 90 H360"/><path d="M480 90 H535"/></g><g fill="#16394a" text-anchor="middle"
       font-family="sans-serif" font-size="18"><text x="65" y="96">Bloc</text><text x="245" y="96">Étage
       A</text><text x="425" y="96">Étage B</text><text x="588" y="96">Bouche</text><text x="335" y="152">Flexible</text></g></svg>'
-    explanation: '**A, le premier étage : haute pression du bloc → pression intermédiaire (MP). B, le second
-      étage : MP → pression proche de l’ambiante à la bouche.** Le flexible entre A et B transporte le gaz
-      à la pression intermédiaire ; la pression respirée suit la profondeur du plongeur.'
+    explanation: '**A, le premier étage : haute pression du bloc → pression intermédiaire (MP). B, le
+      second étage : MP → pression proche de l’ambiante à la bouche.** Le flexible entre A et B transporte
+      le gaz à la pression intermédiaire ; la pression respirée suit la profondeur du plongeur.'
     choices:
     - text: A réduit HP vers MP ; B réduit MP vers la pression ambiante
       correct: true
@@ -69,6 +72,9 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: Un premier étage maintient sa pression intermédiaire à 9,5 bar au-dessus de l’ambiante.
@@ -100,10 +106,13 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Quelle différence mécanique entre une fixation DIN et une fixation par étrier du premier étage
-      ?
+    question: Quelle différence mécanique entre une fixation DIN et une fixation par étrier du premier
+      étage ?
     choices:
     - text: 'DIN : vissage dans le robinet ; étrier : serrage autour du robinet'
       correct: true
@@ -132,20 +141,24 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Dans un premier étage, quelle distinction entre un mécanisme à piston et un mécanisme à membrane
-      ?
+    question: Quelle association décrit correctement le rôle des mécanismes à piston et à membrane dans
+      un détendeur à deux étages ?
     choices:
-    - text: 'Piston : pièce mobile rigide ; membrane : pièce déformable transmettant une force'
+    - text: Piston et membrane peuvent commander l’admission de gaz au premier étage
       correct: true
-    - text: 'Piston : pièce déformable transmettant une force ; membrane : pièce mobile rigide'
+    - text: Le piston commande le premier étage ; la membrane sert au second étage seulement
       correct: false
-    - text: 'Piston : mécanisme de premier étage ; membrane : mécanisme réservé au second étage'
+    - text: Le piston règle la pression respirée ; la membrane règle la pression intermédiaire
       correct: false
-    explanation: '**Le piston transmet l’équilibre des forces par une pièce mobile rigide ; la membrane
-      se déforme et transmet son mouvement au mécanisme du clapet.** Cette distinction ne suffit pas à déterminer
-      compensation, performances en eau froide ou entretien.'
+    explanation: Un premier étage peut transmettre l’équilibre des forces au clapet par une pièce rigide
+      mobile, le piston, ou par une membrane déformable. Ces deux architectures réalisent la détente vers
+      la pression intermédiaire. Une membrane peut aussi commander un second étage ; cela ne la réserve
+      pas à cet étage.
 - id: n2-detendeurs-cycle-001
   type: mcq
   anki_model: basic
@@ -165,6 +178,9 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: Dans un modèle conceptuel de premier étage à membrane, comment la consommation d’air déclenche-t-elle
@@ -197,10 +213,13 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Comment l’inspiration commande-t-elle l’arrivée de gaz dans un second étage classique à membrane
-      et levier ?
+    question: Comment l’inspiration commande-t-elle l’arrivée de gaz dans un second étage classique à
+      membrane et levier ?
     choices:
     - text: Une légère dépression interne agit sur membrane, levier et clapet
       correct: true
@@ -228,6 +247,9 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: Comment le bouton de purge d’un second étage provoque-t-il un débit sans inspiration ?
@@ -260,20 +282,24 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Un second étage a été immergé hors de la bouche. Que faut-il faire avant d’inspirer à nouveau
-      dedans ?
+    question: Après avoir remis en bouche un second étage rempli d’eau, une expiration ou une purge permet
+      de le vider. Par quel passage l’eau est-elle principalement chassée ?
     choices:
-    - text: Expirer ou purger pour chasser l’eau, puis reprendre la respiration avec précaution
+    - text: Par la soupape d’expiration vers l’eau environnante
       correct: true
-    - text: Inspirer pour chasser l’eau, puis reprendre la respiration avec précaution
+    - text: Par le flexible de moyenne pression vers le premier étage
       correct: false
-    - text: Reprendre la respiration, l’eau s’évacue spontanément par le flexible moyenne pression
+    - text: Par le clapet d’admission vers le flexible de moyenne pression
       correct: false
-    explanation: '**Évacuer l’eau, par expiration ou purge selon la technique apprise, puis reprendre la
-      respiration avec précaution.** La chambre du second étage peut contenir de l’eau ; ce n’est pas le
-      même cas qu’une entrée d’eau dans le circuit du premier étage.'
+    explanation: L’expiration ou le gaz fourni par la purge chasse l’eau de la chambre du second étage
+      vers l’extérieur, par la soupape d’expiration. Le flexible de moyenne pression et le clapet d’admission
+      amènent le gaz ; ils ne servent pas de retour d’eau au bloc. Reprendre ensuite la respiration avec
+      précaution.
 - id: n2-detendeurs-rincage-001
   type: mcq
   anki_model: basic
@@ -293,6 +319,9 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: Le manuel SCUBAPRO prévoit le rinçage d’un détendeur démonté du bloc, avec un second étage
@@ -304,9 +333,9 @@ cards:
       correct: false
     - text: Entrée haute pression ouverte ; dispositif anti-marquage non engagé
       correct: false
-    explanation: Pour le rinçage, fermer l’entrée haute pression du premier étage avec son bouchon et vérifier
-      que le dispositif anti-marquage du R195 ou G260 n’est pas engagé. Les réglages de stockage de ce dispositif
-      sont différents de ceux du rinçage.
+    explanation: Pour le rinçage, fermer l’entrée haute pression du premier étage avec son bouchon et
+      vérifier que le dispositif anti-marquage du R195 ou G260 n’est pas engagé. Les réglages de stockage
+      de ce dispositif sont différents de ceux du rinçage.
 - id: n2-detendeurs-compensation-001
   type: mcq
   anki_model: basic
@@ -327,6 +356,9 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: Quel intérêt a la compensation d’un premier étage lorsque la pression du bloc diminue ?
@@ -337,8 +369,8 @@ cards:
       correct: false
     - text: Limiter les variations de pression ambiante au second étage
       correct: false
-    explanation: '**Réduire l’influence des variations de haute pression sur la pression intermédiaire et
-      le fonctionnement.** Elle favorise une fourniture plus régulière ; piston/membrane et compensé/non
+    explanation: '**Réduire l’influence des variations de haute pression sur la pression intermédiaire
+      et le fonctionnement.** Elle favorise une fourniture plus régulière ; piston/membrane et compensé/non
       compensé sont deux distinctions différentes.'
 - id: n2-detendeurs-eau-froide-001
   type: mcq
@@ -363,20 +395,23 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Quel élément permet de vérifier qu’un détendeur est adapté à la température d’une plongée
-      en eau froide ?
+    question: Un détendeur possède un premier étage à membrane et une fixation DIN. Sur quoi faut-il s’appuyer
+      pour vérifier son adaptation à une plongée en eau froide ?
     choices:
-    - text: La certification et les conditions d’usage de l’ensemble premier/second étage
+    - text: Les conditions d’usage de l’ensemble premier et second étage
       correct: true
-    - text: Le mécanisme à membrane du premier étage, quelle que soit la configuration
+    - text: Les conditions d’usage du premier étage pris séparément
       correct: false
-    - text: La connexion DIN du premier étage, quelle que soit la configuration
+    - text: Les conditions d’usage du second étage pris séparément
       correct: false
-    explanation: '**Il faut vérifier la certification et les conditions d’utilisation de l’ensemble premier/second
-      étage.** La résistance au froid dépend du modèle et de la configuration ; le nom du mécanisme ne
-      prouve pas l’adaptation à la température prévue.'
+    explanation: La certification et la notice concernent une configuration précise de premier étage,
+      second étage et flexible. Un mécanisme à membrane ou un raccord DIN ne suffit pas à garantir cette
+      adaptation. Vérifier l’ensemble et les limites de température documentées par le fabricant.
 - id: n2-detendeurs-soins-001
   type: mcq
   anki_model: basic
@@ -395,19 +430,23 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Pourquoi sécher et ranger son détendeur loin de la chaleur, du soleil direct et des contraintes
-      sur les flexibles ?
+    question: Un détendeur SCUBAPRO a été rincé et entièrement séché. Pour son rangement au sec et à l’ombre,
+      quelle configuration respecte les soins prévus pour l’entrée haute pression et les flexibles ?
     choices:
-    - text: Limiter le vieillissement des élastomères et les contraintes sur les tuyaux
+    - text: Entrée haute pression protégée ; flexibles sans courbure forcée
       correct: true
-    - text: Empêcher le gaz enfermé de modifier durablement le réglage de MP
+    - text: Entrée haute pression ouverte pour ventiler ; flexibles sans courbure forcée
       correct: false
-    - text: Empêcher le sel résiduel de se dissoudre pendant le stockage
+    - text: Entrée haute pression protégée ; flexibles pliés serré pour limiter leurs mouvements
       correct: false
-    explanation: '**Cela limite le vieillissement et les détériorations des pièces et des tuyaux.** Éviter
-      chocs, écrasement et courbures forcées ; le rinçage seul ne protège pas d’un stockage inadapté.'
+    explanation: La notice demande de conserver le bouchon de protection de l’entrée haute pression correctement
+      placé, au sec, loin de la chaleur et du soleil. Les flexibles se rangent sans écrasement ni courbure
+      forcée. Le détendeur étant déjà sec, laisser son entrée ouverte ne remplace pas cette protection.
 - id: n2-detendeurs-revision-001
   type: mcq
   anki_model: basic
@@ -429,10 +468,12 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.17–18, entretien ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Pour les détendeurs concernés par le manuel SCUBAPRO de juillet 2025, quelle échéance de révision
-      agréée est indiquée, avec un suivi plus rapproché en usage fréquent ?
+    question: Pour un détendeur SCUBAPRO concerné par la notice de juillet 2025, hors usage fréquent de
+      100 plongées par an ou plus, quelle échéance de révision par un technicien agréé est indiquée ?
     choices:
     - text: Tous les 2 ans
       correct: true
@@ -440,9 +481,10 @@ cards:
       correct: false
     - text: Tous les 5 ans
       correct: false
-    explanation: '**Suivre la notice constructeur et tenir compte de l’intensité d’usage et des anomalies.**
-      Par exemple, le manuel SCUBAPRO 2025 demande une révision agréée tous les 2 ans, avec un suivi plus
-      rapproché pour un usage fréquent ; un défaut impose un contrôle sans attendre cette échéance.'
+    explanation: La notice indique une révision agréée tous les 2 ans. À partir de 100 plongées par an,
+      elle recommande une inspection tous les 6 mois et une révision annuelle. Les 5 ans concernent un
+      critère de remplacement des flexibles, avec une autre limite à 500 plongées ; ce n’est pas l’échéance
+      de révision du détendeur.
 - id: n2-detendeurs-debit-continu-001
   type: mcq
   anki_model: basic
@@ -464,20 +506,24 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Un détendeur se met en débit continu hors de la bouche. Pourquoi ce constat ne permet-il pas
-      de diagnostiquer à lui seul un givrage ?
+    question: Un second étage hors de la bouche se met en débit continu après une pression sur la purge,
+      sans givrage. Quel mécanisme peut entretenir ce débit ?
     choices:
-    - text: Venturi ou défaut mécanique peuvent aussi provoquer un débit continu
+    - text: L’effet Venturi dans la chambre du second étage
       correct: true
-    - text: La température de l’eau suffit à distinguer Venturi, défaut mécanique et givrage
+    - text: L’ouverture de la soupape d’expiration du second étage
       correct: false
-    - text: La position hors de la bouche exclut l’effet Venturi comme cause du débit continu
+    - text: La compensation de haute pression du premier étage
       correct: false
-    explanation: '**L’effet Venturi ou un défaut de mécanisme peuvent aussi provoquer un débit continu.**
-      Les circonstances, notamment la température et la persistance, orientent le contrôle ; le gaz se perd
-      quelle que soit la cause.'
+    explanation: 'L’écoulement peut entretenir une dépression qui maintient la membrane et le clapet en
+      position d’ouverture : c’est l’effet Venturi. La soupape d’expiration évacue le gaz ; la compensation
+      du premier étage régule l’influence de la pression du bloc. Un débit continu persistant peut aussi
+      signaler un défaut mécanique et impose l’arrêt de la plongée.'
 - id: n2-detendeurs-fuite-montage-001
   type: mcq
   anki_model: basic
@@ -497,20 +543,24 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Des bulles sortent au raccord bloc–premier étage après montage. Pourquoi faut-il contrôler
-      l’étanchéité et le montage plutôt que serrer toujours plus fort ?
+    question: Des bulles apparaissent à la jonction entre le robinet du bloc et le premier étage après
+      montage. Quelle cause est compatible avec cet emplacement de fuite ?
     choices:
-    - text: Un joint ou un assemblage incorrect peut rester fuyard malgré le serrage
+    - text: Un joint de raccord endommagé ou un montage incorrect
       correct: true
-    - text: Un serrage supplémentaire corrige une hausse de MP en réduisant le passage HP
+    - text: Une soupape d’expiration du second étage endommagée
       correct: false
-    - text: Un raccord qui fuit devient étanche dès que le second étage est mis en bouche
+    - text: Une membrane de commande du second étage endommagée
       correct: false
-    explanation: '**Un joint endommagé ou un raccord incorrect peut être en cause.** Un serrage excessif
-      peut détériorer les pièces sans supprimer la fuite. Résoudre le défaut avant immersion ; une fuite
-      persistante nécessite un contrôle qualifié.'
+    explanation: La localisation oriente vers l’étanchéité du raccord ou son montage. La soupape d’expiration
+      et la membrane du second étage se trouvent à l’autre extrémité du flexible. Contrôler le montage
+      et faire traiter une fuite persistante ; un serrage excessif peut détériorer les pièces sans supprimer
+      le défaut.
 - id: n2-detendeurs-inspiration-difficile-001
   type: mcq
   anki_model: basic
@@ -532,21 +582,24 @@ cards:
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Avant de plonger, respirer sur le détendeur demande un effort inhabituel. Que faut-il contrôler
-      avant de décider de s’immerger ?
+    question: Avant immersion, quel contrôle vérifie effectivement qu’un détendeur fournit du gaz à la
+      demande pendant une respiration complète ?
     choices:
-    - text: Vérifier gaz, ouverture et fonctionnement ; renoncer si le défaut persiste
+    - text: Respirer plusieurs cycles sur chaque second étage, robinet ouvert
       correct: true
-    - text: S’immerger pour vérifier si la pression ambiante corrige le défaut
+    - text: Lire une pression stable sur le manomètre, sans respirer
       correct: false
-    - text: Valider le détendeur si son débit à la purge paraît suffisant
+    - text: Obtenir un débit en appuyant sur la purge, sans respirer
       correct: false
-    explanation: '**Contrôler la pression disponible, l’ouverture du bloc et le fonctionnement en respirant
-      sur le détendeur.** Un débit insuffisant ou une résistance anormale gênent la ventilation. Si la difficulté
-      persiste, renoncer à l’immersion et faire contrôler le matériel ; le symptôme ne désigne pas à lui
-      seul une pièce défectueuse.'
+    explanation: Plusieurs inspirations et expirations testent le fonctionnement à la demande. Une pression
+      statique ou un débit à la purge ne teste pas à lui seul ce cycle. Vérifier aussi le gaz disponible
+      et l’ouverture du bloc ; un effort inhabituel persistant conduit à renoncer à l’immersion et à faire
+      contrôler le matériel.
 - id: n2-detendeurs-incident-immersion-001
   type: mcq
   anki_model: basic
@@ -567,20 +620,24 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: En immersion, un débit continu persistant fait chuter rapidement la pression du bloc. Quelle
-      priorité pour la palanquée ?
+    question: En immersion, un débit continu persistant vide rapidement le bloc. Pourquoi passer sur son
+      octopus, alimenté par ce même bloc, ne suffit-il pas à résoudre la perte de gaz ?
     choices:
-    - text: Assurer du gaz respirable et organiser une sortie contrôlée
+    - text: Les deux embouts puisent dans le même stock, qui continue à se vider
       correct: true
-    - text: Continuer en alternant respiration et fermeture du robinet
+    - text: Chaque sortie moyenne pression dispose d’un stock de gaz isolé dans le premier étage
       correct: false
-    - text: Isoler la palanquée puis identifier la panne avant de remonter
+    - text: Le passage sur l’octopus ferme automatiquement l’alimentation du second étage principal
       correct: false
-    explanation: '**Assurer une source de gaz respirable et organiser immédiatement une sortie contrôlée
-      avec l’équipier.** Signaler l’incident et appliquer l’assistance apprise ; ne pas prolonger l’exploration
-      pour chercher la panne sous l’eau.'
+    explanation: 'L’octopus est un second embout, pas une réserve indépendante : la fuite continue à consommer
+      le gaz du même bloc. Assurer du gaz respirable avec l’équipier selon l’assistance apprise et organiser
+      ensemble une sortie contrôlée respectant les obligations de décompression. Le changement d’embout
+      ne justifie pas de prolonger la plongée.'
 - id: n2-detendeurs-bouche-001
   type: mcq
   anki_model: basic
@@ -602,20 +659,24 @@ cards:
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: À 20 m dans le modèle 1 bar en surface et +1 bar/10 m, un détendeur a une MP de 9,5 bar
-      au-dessus de l’ambiante. Délivre-t-il 12,5 bar absolus dans la bouche ?
+    question: À 20 m, un premier étage maintient une MP de 9,5 bar au-dessus de l’ambiante. Prendre 1
+      bar en surface et +1 bar par 10 m. Quelle pression absolue le second étage fournit-il approximativement
+      à la bouche ?
     choices:
-    - text: 'Non : 12,5 bar dans le flexible, environ 3 bar à la bouche'
+    - text: 3 bar
       correct: true
-    - text: 'Oui : 12,5 bar sont délivrés dans le flexible et à la bouche'
+    - text: 9,5 bar
       correct: false
-    - text: 'Non : 9,5 bar sont délivrés à la bouche à toute profondeur'
+    - text: 12,5 bar
       correct: false
-    explanation: '**Non : 12,5 bar est la pression intermédiaire du flexible.** Le second étage fournit
-      du gaz proche des 3 bar ambiants à cette profondeur ; les deux réductions de pression ont des rôles
-      distincts.'
+    explanation: À 20 m, la pression ambiante vaut 3 bar. Le flexible transporte le gaz à 3 + 9,5 = 12,5
+      bar absolus ; le second étage le détend jusqu’à une pression proche de l’ambiante à la bouche. Les
+      9,5 bar décrivent une surpression intermédiaire, pas la pression respirée.
 - id: n2-detendeurs-mp-vingt-001
   type: mcq
   anki_model: basic
@@ -637,6 +698,9 @@ cards:
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1
@@ -671,6 +735,9 @@ cards:
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
+      références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
     question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Prendre 1 bar en surface et +1 bar/10

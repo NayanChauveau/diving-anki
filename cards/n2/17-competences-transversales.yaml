@@ -21,20 +21,23 @@ cards:
     - 'BSAC — Safe diving guide, Going diving, sections checks et separation, consulté le 2026-10-06 :
       https://www.bsac.com/safety/safe-diving-guide/going-diving/'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Deux équipiers utilisent des ordinateurs différents. Pourquoi convenir avant immersion de
-      la façon de communiquer profondeur et durée des paliers ?
+    question: Au palier, un équipier montre le nombre « 6 » sans préciser l’unité. Quelle convention de
+      communication aurait permis de distinguer son obligation de décompression ?
     choices:
-    - text: Un même nombre doit être compris comme profondeur, durée ou obligation selon le code convenu
+    - text: Des signes distinguant profondeur de palier et durée restante
       correct: true
-    - text: Un même nombre se comprend selon le signe personnel de chacun, sans convention commune
+    - text: Des signes distinguant pression du bloc et réserve de gaz
       correct: false
-    - text: Un même nombre de minutes peut être fixé au fond puis conservé même si les appareils le modifient
+    - text: Des signes distinguant profondeur maximale et temps de fond
       correct: false
-    explanation: '**Pour distinguer sans ambiguïté des mètres, des minutes et une obligation encore active.**
-      Choisir un code partagé et vérifier sa compréhension ; montrer un nombre avec les doigts sans préciser
-      ce qu’il mesure peut conduire à une mauvaise décision.'
+    explanation: Le code partagé doit permettre de comprendre si le nombre annonce une profondeur de palier
+      en mètres ou une durée restante en minutes. Pression de bloc, profondeur maximale et temps de fond
+      sont d’autres informations utiles, mais ne lèvent pas cette ambiguïté de décompression. La convention
+      se prépare au briefing.
 - id: n2-competences-transversales-retour-001
   type: mcq
   anki_model: basic
@@ -55,20 +58,23 @@ cards:
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'DAN — Current Dives : https://dan.org/alert-diver/article/current-dives/'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Pourquoi faut-il prévoir le parcours de retour et une solution de sortie alternative avant
-      de descendre, plutôt qu’attendre le seuil de réserve pour décider ?
+    question: Une sortie de repli est plus proche à vol d’oiseau que la sortie prévue, mais impose un
+      trajet différent sous l’eau. Que faut-il recalculer pour vérifier que ce repli tient dans le budget
+      de gaz ?
     choices:
-    - text: Le retour et les imprévus nécessitent encore temps et gaz
+    - text: Le gaz du trajet de repli, de la remontée et des paliers requis
       correct: true
-    - text: La réserve doit financer uniquement les paliers à 3 m
+    - text: Le gaz du trajet horizontal, en conservant les seuls arrêts facultatifs
       correct: false
-    - text: Le parcours de retour se décide après l’épuisement du temps sans palier
+    - text: Le gaz correspondant à la différence de distance mesurée à vol d’oiseau
       correct: false
-    explanation: '**Le retour consomme du temps et du gaz et peut être gêné par le courant ou la visibilité.**
-      Repérer sortie, trajet et alternatives avec la palanquée ; la pression de fin de plongée doit encore
-      permettre d’achever la remontée et les obligations prévues.'
+    explanation: 'La distance apparente ne suffit pas : trajet réel, profondeur, courant, remontée et
+      paliers déterminent le gaz nécessaire. On vérifie que le budget couvre ce retour complet avec les
+      marges retenues. Les paliers obligatoires ne disparaissent pas parce que la sortie est plus proche.'
 - id: n2-competences-transversales-reperes-001
   type: mcq
   anki_model: basic
@@ -91,20 +97,22 @@ cards:
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Suunto SK-8, guide multilingue, p.11–13 en français, aides à la navigation : https://cdn.shopify.com/s/files/1/0850/4878/7229/files/SUUNTO_SK-SERIES_UG_MULTI.pdf?v=1714977581'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : Suunto SK-series UG multilingue, p.11–13, navigation par repères ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Pourquoi choisir plusieurs repères fixes alignés plutôt que suivre seulement une impression
-      de direction sous l’eau ?
+    question: Lors d’un déplacement sous l’eau, quelle information fournit le maintien de deux repères
+      fixes dans le même alignement ?
     choices:
-    - text: Leur alignement aide à suivre une ligne et à détecter une dérive par rapport au fond
+    - text: Le maintien d’une ligne de déplacement par rapport au fond
       correct: true
-    - text: Leur alignement indique le cap magnétique sans avoir besoin d’un instrument
+    - text: Le maintien d’un cap magnétique mesuré par rapport au nord
       correct: false
-    - text: Leur alignement garantit le même trajet au retour, même si le courant change
+    - text: Le maintien d’une vitesse de déplacement par rapport à l’eau
       correct: false
-    explanation: '**Leur alignement aide à suivre une ligne par rapport au fond et à repérer une dérive.**
-      À mesure qu’un repère est atteint, en choisir un plus éloigné pour conserver l’alignement. Compléter
-      ces repères par la profondeur et le compas.'
+    explanation: L’alignement de repères fixes donne une ligne par rapport au fond et aide à détecter
+      un déplacement latéral. Il ne mesure ni le cap magnétique ni la vitesse dans l’eau. Renouveler les
+      repères au fil du trajet et les confronter au compas et à la profondeur.
 - id: n2-competences-transversales-cap-retour-001
   type: mcq
   anki_model: basic
@@ -125,10 +133,12 @@ cards:
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : Suunto SK-8 ; calcul géométrique indépendant ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap réciproque
-      permet de revenir sur la même ligne ?'
+    question: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap
+      réciproque permet de revenir sur la même ligne ?'
     choices:
     - text: 250°
       correct: true
@@ -158,10 +168,12 @@ cards:
     - S2 — Flyer N2 FFESSM 2021, p.1–2 ; compétences, complétées par MFT mai 2026.
     - 'Suunto — SK-8 Dive Compass User Guide, orientation : https://us.suunto.com/pages/suunto-sk-8-dive-compass-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : Suunto SK-8 ; calcul géométrique indépendant ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap réciproque
-      correspond au retour ?'
+    question: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap
+      réciproque correspond au retour ?'
     choices:
     - text: 120°
       correct: true
@@ -192,20 +204,23 @@ cards:
       https://www.bsac.com/safety/safe-diving-guide/going-diving/'
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : MFT N2 mai 2026 ; BSAC Going diving, Separation ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Pourquoi convenir d’une procédure de perte de palanquée avant immersion plutôt que prolonger
-      chacun une recherche improvisée ?
+    question: Quels paramètres faut-il définir au briefing pour que des équipiers séparés appliquent une
+      procédure cohérente jusqu’aux retrouvailles et à l’alerte ?
     choices:
-    - text: Limiter la recherche et organiser un rendez-vous et une alerte cohérents
+    - text: Durée de recherche, modalités de remontée et lieu de rendez-vous
       correct: true
-    - text: Prolonger la recherche jusqu’à la réserve avant de remonter
+    - text: Profondeur maximale, durée au fond et pression de départ
       correct: false
-    - text: Prévoir que chacun termine seul la plongée selon son ordinateur
+    - text: Cap d’exploration, distance parcourue et vitesse de palmage
       correct: false
-    explanation: '**Pour limiter la recherche et organiser une remontée, un rendez-vous et une alerte cohérents.**
-      Le briefing précise la conduite adaptée au site et aux obligations de décompression ; s’enfoncer ou
-      poursuivre seul l’exploration augmente la difficulté à se retrouver.'
+    explanation: La procédure doit borner la recherche et organiser une remontée adaptée, un rendez-vous
+      et une alerte cohérents. Elle tient compte du site et des obligations de décompression de chacun.
+      Les paramètres du profil et de l’orientation sont utiles au briefing, mais ne définissent pas à
+      eux seuls cette conduite en cas de séparation.
 - id: n2-competences-transversales-renoncer-001
   type: mcq
   anki_model: basic
@@ -228,20 +243,22 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
     fact_check: pass
   fr:
-    question: Le directeur de plongée vous autorise une exploration conforme à vos aptitudes, mais vous
-      vous sentez inhabituellement fatigué et gêné pour respirer. Quelle décision vous appartient encore
-      ?
+    question: Le directeur de plongée autorise un profil conforme à vos aptitudes. Qui doit encore apprécier
+      votre état du jour et peut décider de ne pas s’immerger ?
     choices:
-    - text: Signaler votre état et renoncer à l’immersion
+    - text: Vous-même, même si le profil est autorisé par le DP
       correct: true
-    - text: Vous immerger puisque le DP a validé vos aptitudes
+    - text: Le DP seul, puisqu’il a déjà autorisé le profil
       correct: false
-    - text: Attendre les premiers paliers pour signaler votre gêne
+    - text: L’équipier le plus expérimenté, puisqu’il assure la cohésion
       correct: false
-    explanation: '**Signaler votre état et renoncer à l’immersion.** L’autorisation et le brevet ne remplacent
-      pas l’évaluation de son état du jour ; une gêne respiratoire mérite d’être expliquée avant de plonger.'
+    explanation: Le directeur de plongée (DP) fixe le cadre de la plongée, mais son autorisation ne remplace
+      pas votre appréciation de votre fatigue, de votre respiration et de votre aisance du jour. Vous
+      pouvez signaler une difficulté et renoncer à l’immersion ; la palanquée adapte alors son organisation.
 - id: n2-competences-transversales-paliers-profonds-air-001
   type: mcq
   anki_model: basic
@@ -263,17 +280,23 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'MFT GP-N4 janvier 2026, p.25 : pas de paliers profonds à l’air ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/5432cb26-a2db-46a3-90bc-1a227f4d6667
       ; confirme la recommandation air au-delà de PA20, vérifié 2026-10-06'
+    - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
+      factuel : MFT N2 mai 2026 p.19–20 ; MFT GP-N4 mai 2026 p.25, arrêt ajouté vs rattrapage ; choix
+      relus individuellement'
+    - 'FFESSM — MFT GP-N4 version mai 2026, p.25, pas de paliers profonds à l’air ; PDF actuel contrôlé
+      2026-10-09 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/5432cb26-a2db-46a3-90bc-1a227f4d6667
+      ; le lien historique janvier 2026 sert désormais la version mai 2026'
     fact_check: pass
   fr:
-    question: En planification FFESSM à l’air, faut-il programmer des paliers profonds supplémentaires
-      ?
+    question: En planification fédérale à l’air, quel type d’arrêt ne doit pas être ajouté au profil de
+      décompression prévu ?
     choices:
-    - text: 'Non : planifier sans paliers profonds supplémentaires à l’air'
+    - text: Un palier profond supplémentaire choisi pour rendre le profil plus conservateur
       correct: true
-    - text: 'Oui : ajouter des arrêts profonds quel que soit le profil'
+    - text: Un palier obligatoire peu profond indiqué par l’ordinateur ou les tables
       correct: false
-    - text: 'Oui : remplacer les paliers peu profonds par des arrêts profonds'
+    - text: Un arrêt prévu par une procédure de rattrapage après un incident
       correct: false
-    explanation: '**Non : le MFT demande une planification sans paliers profonds à l’air.** Les distinguer
-      des paliers de décompression nécessaires et des arrêts prévus par une procédure de rattrapage après
-      incident.'
+    explanation: La planification FFESSM à l’air se fait sans paliers profonds supplémentaires. Cette
+      règle ne supprime ni les paliers de décompression obligatoires ni les arrêts d’une procédure de
+      rattrapage applicable à un incident. Le contexte de l’arrêt est donc déterminant.
