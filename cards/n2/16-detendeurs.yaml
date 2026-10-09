@@ -67,10 +67,12 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Une pression intermédiaire est annoncée « 9,5 bar au-dessus de l’ambiante ». Pourquoi sa valeur
-      absolue augmente-t-elle avec la profondeur ?
+    question: Un premier étage maintient sa pression intermédiaire à 9,5 bar au-dessus de l’ambiante.
+      Quelle expression donne cette pression intermédiaire en valeur absolue ?
     choices:
     - text: Pression ambiante + 9,5 bar de surpression
       correct: true
@@ -359,20 +361,22 @@ cards:
     - 'SCUBAPRO — Manuel détendeurs, 2025 Rev Q (juillet), p.6–9, 13–17 et 20 ; consulté le 2026-10-06
       : https://johnsonoutdoors.widen.net/s/hlkmf7vhpb/sp_45101180_revq_reg_manual_202507_fra'
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pour déterminer si un détendeur est adapté à une plongée en eau froide, quel élément faut-il
-      vérifier au-delà du type piston ou membrane ?
+    question: Quel élément permet de vérifier qu’un détendeur est adapté à la température d’une plongée
+      en eau froide ?
     choices:
     - text: La certification et les conditions d’usage de l’ensemble premier/second étage
       correct: true
-    - text: La seule présence d’une membrane dans le premier étage
+    - text: Le mécanisme à membrane du premier étage, quelle que soit la configuration
       correct: false
-    - text: La seule présence d’une connexion DIN sur le premier étage
+    - text: La connexion DIN du premier étage, quelle que soit la configuration
       correct: false
     explanation: '**Il faut vérifier la certification et les conditions d’utilisation de l’ensemble premier/second
-      étage.** La résistance au froid dépend du modèle et de la configuration ; le nom du mécanisme ne prouve
-      pas l’adaptation à la température prévue.'
+      étage.** La résistance au froid dépend du modèle et de la configuration ; le nom du mécanisme ne
+      prouve pas l’adaptation à la température prévue.'
 - id: n2-detendeurs-soins-001
   type: mcq
   anki_model: basic

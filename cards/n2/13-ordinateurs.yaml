@@ -51,10 +51,12 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Un écran affiche temps de plongée 24 min et temps restant sans palier 6 min à la profondeur
-      actuelle. Que représentent ces deux valeurs ?
+    question: Un ordinateur affiche « DIVE TIME 24 min » et « NDL 6 min ». Que représentent ces deux valeurs
+      à la profondeur actuelle ?
     choices:
     - text: 24 min écoulées ; 6 min estimées avant palier à cette profondeur
       correct: true
@@ -62,9 +64,9 @@ cards:
       correct: false
     - text: 24 min d’autonomie gaz ; 6 min estimées avant palier
       correct: false
-    explanation: '**24 min sont déjà écoulées ; 6 min sont une estimation du temps encore disponible à cette
-      profondeur avant décompression obligatoire.** Le second nombre évolue avec la profondeur, le profil
-      et les réglages ; ce n’est pas le temps nécessaire pour revenir au bateau.'
+    explanation: '**24 min sont déjà écoulées ; 6 min sont une estimation du temps encore disponible à
+      cette profondeur avant décompression obligatoire.** Le second nombre évolue avec la profondeur,
+      le profil et les réglages ; ce n’est pas le temps nécessaire pour revenir au bateau.'
 - id: n2-ordinateurs-alarme-vitesse-001
   type: mcq
   anki_model: basic
@@ -384,20 +386,22 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.27–29.
     - S1 p.27–29, sonde et gestion de l’air.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi un ordinateur sans liaison de pression avec le bloc ne peut-il pas connaître directement
-      le gaz encore disponible ?
+    question: Quelle donnée mesurée doit recevoir un ordinateur pour suivre directement le gaz restant
+      dans le bloc ?
     choices:
-    - text: Il ne mesure pas la pression restante du bloc
+    - text: La pression du gaz dans le bloc
       correct: true
-    - text: Il déduit la pression restante de la profondeur mesurée
+    - text: La pression ambiante autour du plongeur
       correct: false
-    - text: Il déduit la pression restante du temps sans palier
+    - text: La durée écoulée depuis le début de la plongée
       correct: false
-    explanation: '**Il ne mesure pas la pression du bloc.** La gestion intégrée de l’air nécessite un capteur
-      compatible, souvent une sonde ; une estimation d’autonomie dépend en plus de la consommation et des
-      hypothèses du système.'
+    explanation: Un capteur de pression compatible, souvent une sonde fixée au premier étage, transmet
+      la pression du bloc à l’ordinateur. Profondeur et durée ne mesurent pas ce stock ; une estimation
+      de son autonomie dépend aussi de la consommation et des hypothèses du système.
 - id: n2-ordinateurs-verrouillage-001
   type: mcq
   anki_model: basic
@@ -485,16 +489,18 @@ cards:
     - S1 p.29, acuité et lisibilité.
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi tester la lecture de l’écran avec son masque et sa correction visuelle avant de
-      choisir un ordinateur ?
+    question: Pour choisir un ordinateur, quel essai évalue le mieux la lisibilité de ses informations
+      pendant la plongée ?
     choices:
-    - text: Vérifier la lecture rapide des paramètres et alarmes en situation
+    - text: Lire paramètres et alarmes avec masque et correction visuelle, dans un éclairage représentatif
       correct: true
-    - text: Vérifier uniquement la lisibilité de la profondeur maximale
+    - text: Lire le journal de plongée sans masque sur un écran éclairé en magasin
       correct: false
-    - text: Vérifier uniquement la lisibilité à la surface en plein jour
+    - text: Comparer la diagonale des écrans, indépendamment de la taille des caractères
       correct: false
     explanation: '**Il faut pouvoir distinguer rapidement profondeur, plafond, durée et alarmes dans les
       conditions de plongée.** Taille des caractères, contraste et éclairage comptent plus que la seule
@@ -619,20 +625,22 @@ cards:
     - 'Suunto — Zoop Novo User Guide, Decompression dives, définition CEILING et actualisation, consulté
       le 2026-10-06 : https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7 m.
-      Rejoindre 5 m respecterait-il ce plafond ?
+    question: Pendant une décompression, un Suunto Zoop Novo affiche CEILING 6 m. Le plongeur est à 7
+      m. Rejoindre 5 m respecterait-il ce plafond ?
     choices:
-    - text: 'Non : à 5 m il serait au-dessus du plafond de 6 m'
+    - text: 'Non : 6 m est la profondeur minimale autorisée à cet instant'
       correct: true
-    - text: 'Oui : 5 m est plus proche de la surface que le plafond'
+    - text: 'Oui : 6 m est la profondeur maximale autorisée à cet instant'
       correct: false
-    - text: 'Oui : le plafond fixe une durée et non une profondeur limite'
+    - text: 'Oui : le plafond de 6 m autorise une marge de 1 m vers la surface'
       correct: false
-    explanation: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant : ne
-      pas passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait. Le
-      plafond évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
+    explanation: '**Non.** CEILING 6 m indique la profondeur la plus faible autorisée à cet instant :
+      ne pas passer au-dessus de 6 m. À 7 m, le plongeur est sous le plafond ; à 5 m, il le franchirait.
+      Le plafond évolue : suivre l’appareil plutôt que conserver cette valeur jusqu’à la fin.'
 - id: n2-ordinateurs-plafonds-differents-001
   type: mcq
   anki_model: basic
@@ -654,6 +662,8 @@ cards:
     - 'FFESSM — MFT N2, mai 2026, p.12–13 et 17 : gestion collective des différents moyens de désaturation.
       https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Deux équipiers utilisent des ordinateurs avec un plafond de décompression à ne pas franchir.
@@ -662,11 +672,11 @@ cards:
     choices:
     - text: 'Non : A impose encore de rester à 6 m ou plus profond'
       correct: true
-    - text: 'Oui : les deux plafonds peuvent être moyennés à 4,5 m'
+    - text: 'Oui : le plafond le moins profond détermine le palier commun'
       correct: false
-    - text: 'Oui : B autorise 3 m, donc la palanquée peut y aller ensemble'
+    - text: 'Oui : les minutes supplémentaires à 3 m compensent le plafond de A'
       correct: false
     explanation: '**Non : ils franchiraient le plafond de A.** Le groupe doit rester à 6 m ou plus profond
-      tant que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez B
-      ne signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
+      tant que A impose ce plafond, puis suivre l’évolution des deux appareils. Un plafond à 3 m chez
+      B ne signifie pas que son temps de palier à 3 m sera crédité intégralement en restant à 6 m ; contrôler
       ses indications.'

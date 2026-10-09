@@ -106,21 +106,22 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: 'Un relevé fourni décrit deux reliefs : A remonte de 20 m jusqu’à la côte ; B culmine à
-      8 m puis redescend à 20 m de tous côtés. En cherchant la sortie du bord, quel relief peut conduire
-      vers la côte ?'
+    question: Pour retrouver une sortie du bord, une palanquée suit un relief qui monte de 20 à 8 m. Un
+      relevé indique qu’il redescend ensuite à 20 m de tous côtés. Que permet de conclure ce relief ?
     choices:
-    - text: A
+    - text: Il s’agit d’un relief isolé ; sa remontée ne donne pas à elle seule la direction de la côte
       correct: true
-    - text: B
+    - text: Son sommet indique la direction de la côte ; il suffit de continuer dans le sens de la montée
       correct: false
-    - text: Les deux, puisqu’ils deviennent moins profonds
+    - text: Sa pente indique la direction du mouillage ; il suffit de la suivre en sens inverse
       correct: false
-    explanation: A se prolonge jusqu’à la côte ; B est une roche isolée sous l’eau. Remonter le long d’un
-      relief moins profond ne démontre pas qu’il mène à une sortie. Le profil du terrain complète profondeur
-      et cap.
+    explanation: 'Un relief qui redescend de tous côtés forme une élévation isolée sous l’eau. Remonter
+      sa pente ne démontre pas qu’elle mène à la côte : il faut confronter le relief aux repères et au
+      cap du retour.'
 - id: n3-orientation-perte-limite-gaz-001
   type: mcq
   deck: Matériel et préparation
@@ -302,16 +303,18 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
     - DORIS — Anemonia viridis, fiche 111, mise à jour 24/08/2025, alimentation/cnidocytes ; https://doris.ffessm.fr/ref/specie/111
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Sur un site méditerranéen, une anémone verte (Anemonia viridis) porte des tentacules souples.
-      Quel risque justifie d’éviter leur contact ?
+    question: Sur un site méditerranéen, quel mécanisme rend le contact avec les tentacules d’une anémone
+      verte (Anemonia viridis) irritant ?
     choices:
-    - text: Leurs cellules urticantes peuvent se déclencher au contact
+    - text: Le déclenchement de cellules urticantes au contact
       correct: true
-    - text: Des pointes rigides sur les tentacules provoquent une perforation mécanique
+    - text: La libération de bactéries qui provoquent immédiatement la brûlure
       correct: false
-    - text: Une morsure des tentacules, déclenchée quand on s’approche sans les toucher
+    - text: La pénétration de minuscules épines calcaires dans la peau
       correct: false
     explanation: Les tentacules possèdent des cnidocytes, cellules urticantes servant notamment à capturer
       les proies. Une apparence souple et une fixation au fond ne rendent pas le contact sans risque ;

@@ -97,17 +97,19 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Un retour prévoit 4 min de trajets, 6 min de décompression obligatoire et 3 min de sécurité
-      facultative. Le budget insuffisant est détecté avant l’immersion. Quelle partie des arrêts ne peut
-      pas être retirée en conservant ce même profil de décompression ?
+    question: Avant immersion, le budget de gaz s’avère insuffisant pour un profil prévoyant 4 min de
+      trajets, 6 min de décompression obligatoire et 3 min de sécurité facultative. Quelle modification
+      des arrêts peut être étudiée en conservant les obligations de ce profil ?
     choices:
-    - text: Les 6 min obligatoires
+    - text: Retirer les 3 min facultatives, puis recalculer le budget complet
       correct: true
-    - text: Les 3 min facultatives
+    - text: Répartir les 6 min obligatoires sur 3 min, puis recalculer le budget complet
       correct: false
-    - text: Les 9 min, car les deux types d’arrêt sont équivalents
+    - text: Remplacer les 6 min obligatoires par les 3 min de sécurité, puis recalculer le budget complet
       correct: false
     explanation: Un palier obligatoire doit être respecté si ce profil est réalisé. Avant le départ, on
       revoit le profil et le budget au lieu de supprimer les obligations de décompression. Le palier de
@@ -184,17 +186,19 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: En fin de plongée, après avoir quitté 45 m, un équipier propose de redescendre chercher
       une ancre à 40 m. Le plan de retour n’a prévu ni ce détour ni une nouvelle exposition profonde.
       Quelle vérification manque avant toute décision ?
     choices:
-    - text: Le gaz et la désaturation après ce changement de profil, pour toute la palanquée
+    - text: Le gaz et la désaturation du profil modifié pour toute la palanquée
       correct: true
-    - text: La seule conformité de 40 m aux aptitudes du plongeur le plus expérimenté
+    - text: La conformité de 40 m aux aptitudes du plongeur le plus expérimenté
       correct: false
-    - text: La seule diminution de profondeur par rapport au maximum déjà atteint
+    - text: La position de 40 m par rapport à la profondeur maximale déjà atteinte
       correct: false
     explanation: Une profondeur inférieure au maximum déjà atteint ne rend pas le détour neutre. Une exposition
       profonde ajoutée modifie gaz, durée et calculs de désaturation. Le plan initial ne constitue plus
@@ -239,16 +243,18 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Pendant la remontée, l’ordinateur d’un équipier ajoute un arrêt obligatoire plus profond.
       Quelle information doit-il faire comprendre aux autres pour adapter ensemble le retour ?
     choices:
-    - text: La profondeur et la durée de l’arrêt imposé, puis son évolution
+    - text: La profondeur et la durée de l’arrêt, puis leur évolution
       correct: true
-    - text: La durée totale de la plongée uniquement
+    - text: La durée écoulée et la profondeur maximale atteinte
       correct: false
-    - text: Le réglage GF uniquement, sans les nouvelles obligations affichées
+    - text: Le réglage GF et le modèle de l’ordinateur utilisé
       correct: false
     explanation: Un réglage ou un temps total ne dit pas où attendre ni combien de temps. La palanquée
       confronte les obligations concrètes de chacun, maintient sa cohésion et vérifie le gaz disponible

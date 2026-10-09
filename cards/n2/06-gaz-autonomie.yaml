@@ -298,11 +298,12 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
     - 'DAN — Lack of Buoyancy Control : https://dan.org/health-medicine/health-resource/smart-guides/7-mistakes-divers-make-and-how-to-avoid-them/4-lack-of-buoyancy-control/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Un plongeur stabilisé descend de quelques mètres et devient plus négatif sans avoir modifié
-      le gaz de son gilet. Quel ajustement du gilet permet de retrouver la stabilisation, et pourquoi procéder
-      progressivement ?
+      le gaz de son gilet. Quel ajustement du gilet permet de retrouver la stabilisation ?
     choices:
     - text: Ajouter de petites quantités de gaz et contrôler l’effet
       correct: true
@@ -656,20 +657,23 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
     - 'BSAC — Safe diving guide, Gas reserves, variabilité et besoins des équipiers : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Un calcul divise tout le stock nominal du bloc par la consommation à la profondeur du fond.
       Pourquoi le résultat ne donne-t-il pas directement le temps disponible pour explorer ?
     choices:
-    - text: Il alloue à l’exploration le gaz qui doit aussi servir au retour, à la remontée et aux imprévus
+    - text: Il affecte aussi à l’exploration le gaz nécessaire au retour, à la remontée et aux imprévus
       correct: true
-    - text: Il suffit d’en retrancher le temps des paliers, sans recalculer le gaz nécessaire à leurs profondeurs
+    - text: Il sous-estime le gaz disponible, car la baisse de pression à la remontée ajoute du gaz au
+        bloc
       correct: false
-    - text: Il suffit d’en retrancher la réserve en bars comme s’il s’agissait de minutes
+    - text: Il surestime la consommation, car le débit ramené à la surface diminue avec la profondeur
       correct: false
     explanation: '**Il ne réserve pas l’air nécessaire aux autres phases et aux imprévus.** Il faut compter
-      la descente, le retour, la remontée et les éventuels paliers, puis prévoir une réserve adaptée. Le
-      calcul doit aussi tenir compte des besoins des équipiers et des variations de consommation.'
+      la descente, le retour, la remontée et les éventuels paliers, puis prévoir une réserve adaptée.
+      Le calcul doit aussi tenir compte des besoins des équipiers et des variations de consommation.'
 - id: n2-gaz-debit-variable-001
   type: mcq
   anki_model: basic
@@ -690,20 +694,23 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.10–12.
     - 'BSAC — Safe diving guide, Gas reserves, variabilité et besoins des équipiers : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/06-gaz-autonomie.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: On utilise une consommation mesurée au calme pour prévoir une plongée froide avec du courant.
       Quelle limite de cette estimation doit-on prendre en compte ?
     choices:
-    - text: Le débit respiratoire de référence peut augmenter avec l’effort, le froid ou le stress
+    - text: Le débit de référence peut augmenter avec l’effort, le froid ou le stress
       correct: true
-    - text: Seul le facteur de profondeur change le débit ramené à 1 bar, pas les conditions de plongée
+    - text: Le débit de référence reste constant ; seule la profondeur modifie le prélèvement dans le
+        bloc
       correct: false
-    - text: La consommation en bars par minute reste transposable, même si le volume du bloc change
+    - text: Le débit de référence diminue avec l’effort ; seule la fréquence respiratoire augmente
       correct: false
     explanation: '**Son besoin ventilatoire peut augmenter.** À profondeur identique, l’effort, le froid
-      ou le stress peuvent accroître la consommation. Le débit mesuré décrit des conditions données ; il
-      faut prévoir les besoins de la plongée et suivre la pression réellement restante.'
+      ou le stress peuvent accroître la consommation. Le débit mesuré décrit des conditions données ;
+      il faut prévoir les besoins de la plongée et suivre la pression réellement restante.'
 - id: n2-gaz-chute-pression-001
   type: mcq
   anki_model: basic

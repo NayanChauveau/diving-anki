@@ -1,7 +1,8 @@
 # Contribution
 
 Avant de rédiger ou modifier le contenu, lire [AGENTS.md](AGENTS.md),
-[CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md) et [le guide de conception](docs/CARD_DESIGN.md).
+[CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md), [le guide de conception](docs/CARD_DESIGN.md)
+et [la grille de qualité](docs/STUDY_CARD_QUALITY.md).
 
 Installer avec `uv sync --extra dev`. Exécuter `make check` après les changements :
 lint, formatage, types, schéma JSON, validation des cartes et tests.
@@ -44,6 +45,10 @@ et `fr.explanation`. Une cloze exige `fr.text` avec `{{c1::…}}` et peut avoir 
 
 Les cartes nouvelles sont `draft` par défaut et exclues des builds ordinaires.
 Après vérification factuelle et pédagogique, passer à `reviewed`.
+Faire une critique distincte de la rédaction avec les cinq critères de la grille,
+sur toutes les cartes du lot (40 au plus), puis corriger et relire les IDs rejetés.
+Consigner les verdicts et motifs par ID dans `docs/reviews/` ; une mention globale
+« QCM relus » sans examen des leurres, de la forme et du corrigé ne suffit pas.
 Ne jamais renommer ni réutiliser un ID publié, ni changer les IDs des modèles.
 Ne pas committer les documents privés ou les packages générés.
 La CI contrôle le projet et construit le paquet unique ; les pushes sur main

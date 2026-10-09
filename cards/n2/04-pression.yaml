@@ -145,10 +145,11 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA/NWS — Pressure, poids de l’air, altitude et météo : https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi subit-on une pression atmosphérique à la surface, même lorsqu’il n’y a pas de vent
-      ?
+    question: Quel phénomène explique la pression atmosphérique exercée à la surface de la Terre ?
     choices:
     - text: Le poids de la colonne d’air située au-dessus
       correct: true
@@ -156,9 +157,9 @@ cards:
       correct: false
     - text: La vapeur d’eau présente dans l’air uniquement
       correct: false
-    explanation: '**Le poids de la colonne d’air au-dessus de nous exerce une pression.** Elle existe même
-      dans l’air immobile ; le vent n’en est pas la cause. Dans les exercices de plongée au niveau de la
-      mer, on prend souvent 1 bar comme valeur simplifiée.'
+    explanation: '**Le poids de la colonne d’air au-dessus de nous exerce une pression.** Elle existe
+      même dans l’air immobile ; le vent n’en est pas la cause. Dans les exercices de plongée au niveau
+      de la mer, on prend souvent 1 bar comme valeur simplifiée.'
 - id: n2-pression-altitude-001
   type: mcq
   deck: Physique
@@ -242,6 +243,8 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.2–3 (imprimées 4–5).
     - 'Vérification et revue du 2026-10-06 : docs/reviews/04-pression.md'
     - 'NOAA — How does pressure change with ocean depth? : https://oceanservice.noaa.gov/facts/pressure.html'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Dans une eau au repos, que représente la pression hydrostatique ajoutée à la pression atmosphérique
@@ -251,12 +254,12 @@ cards:
       correct: true
     - text: La pression totale de l’eau et de l’atmosphère
       correct: false
-    - text: La différence entre pression du bloc et pression ambiante
+    - text: La pression atmosphérique transmise par la surface
       correct: false
     explanation: '**La pression due au poids de l’eau située au-dessus du point considéré.** Elle augmente
-      avec la profondeur. Dans le modèle simplifié de plongée, elle augmente de 1 bar par 10 m. Cette contribution
-      est la pression relative à la surface : elle vaut zéro à la surface, alors que la pression absolue
-      y reste égale à la pression atmosphérique.'
+      avec la profondeur. Dans le modèle simplifié de plongée, elle augmente de 1 bar par 10 m. Cette
+      contribution est la pression relative à la surface : elle vaut zéro à la surface, alors que la pression
+      absolue y reste égale à la pression atmosphérique.'
 - id: n2-pression-absolue-six-metres-001
   type: mcq
   anki_model: basic

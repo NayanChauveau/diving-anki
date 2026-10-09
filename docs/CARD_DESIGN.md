@@ -3,6 +3,12 @@
 Calibration convenue avec l’utilisateur le 5 octobre 2026. À appliquer à tous les niveaux,
 au plan de préparation et à chaque lot de cartes, en complément de [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md).
 
+Depuis le 9 octobre 2026, appliquer aussi [STUDY_CARD_QUALITY.md](STUDY_CARD_QUALITY.md),
+adapté de la passe qualité du WSET3. Ce document détaille les cinq critères de rejet,
+les exemples et le brief de critique. La conception ci-dessous prépare les objectifs ;
+la grille contrôle chaque question, chaque choix et chaque corrigé avant publication.
+Une revue factuelle réussie ne valide pas à elle seule la qualité pédagogique.
+
 ## Format des cartes — calibration finale du 6 octobre 2026
 
 Le **QCM est le format à choisir dès que la question peut être posée clairement avec

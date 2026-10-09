@@ -17,10 +17,12 @@ cards:
     - S1 — Théorie N2 Stade de Vanves 2024, p.18–19.
     - https://www.noaa.gov/jetstream/atmosphere
     - 'Revue du 2026-10-06 : docs/reviews/10-narcose.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Quelle composition approximative de l’air sec faut-il distinguer du modèle simplifié utilisé
-      dans certains exercices ?
+    question: Quelle composition de l’air sec, arrondie au pour cent le plus proche pour chaque composant,
+      est correcte ?
     choices:
     - text: L’air sec est proche de 78 % N₂, 21 % O₂ et 1 % d’autres gaz
       correct: true
@@ -28,9 +30,9 @@ cards:
       correct: false
     - text: L’air sec est proche de 75 % N₂, 24 % O₂ et 1 % d’autres gaz
       correct: false
-    explanation: '**C’est un arrondi de calcul.** L’air sec contient environ 78 % d’azote, 21 % d’oxygène
-      et environ 1 % d’autres gaz, surtout l’argon. Pour les exercices, employer les fractions annoncées
-      dans l’énoncé.'
+    explanation: 'L’air sec contient environ 78 % d’azote, 21 % d’oxygène et 1 % d’autres gaz, surtout
+      l’argon. Le modèle 80 % / 20 % est un arrondi utilisé dans certains exercices : employer les fractions
+      annoncées dans l’énoncé.'
 - id: n2-narcose-dalton-001
   type: mcq
   anki_model: basic

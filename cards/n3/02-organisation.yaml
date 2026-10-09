@@ -12,17 +12,18 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Une sortie sans DP est préparée depuis un bateau. Profils, gaz et paliers sont fixés ; le
-      pilote ne sait pas où chercher une palanquée qui remonte loin du mouillage. Quel point du briefing
-      manque précisément ?
+    question: Une sortie sans DP est préparée depuis un bateau. Quelle coordination entre pilote et plongeurs
+      prépare le mieux la récupération d’une palanquée remontant loin du mouillage ?
     choices:
-    - text: Le secteur de récupération, la signalisation et la conduite en cas de sortie décalée
+    - text: Convenir du secteur de sortie, de la signalisation et de la conduite en cas de sortie décalée
       correct: true
-    - text: La répartition des profondeurs maximales entre les trois plongeurs
+    - text: Convenir de l’heure de fin d’immersion et rechercher la palanquée uniquement autour du mouillage
       correct: false
-    - text: Le choix de la vitesse de remontée commune aux ordinateurs
+    - text: Convenir de la profondeur maximale et attendre que la palanquée rejoigne le bateau à la nage
       correct: false
     explanation: La préparation inclut l’immersion et le retour en surface. Le pilote et les plongeurs
       conviennent de la récupération, des signaux et du repli ; les seuls paramètres sous-marins ne suffisent
@@ -98,17 +99,19 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Le fond du site reste abrité, mais les prévisions montrent que les vagues dépasseront la
-      limite de récupération fixée par le pilote avant le retour des plongeurs. Quel paramètre remet directement
-      en cause le départ ?
+    question: Le fond d’un site est abrité, mais les vagues devraient se renforcer pendant l’immersion.
+      Quel état de mer faut-il confronter à la limite de récupération du bateau pour décider du départ
+      ?
     choices:
-    - text: La faisabilité du retour à bord à l’heure prévue
+    - text: L’état de mer prévu à l’heure et au lieu de récupération
       correct: true
-    - text: La profondeur maximale des plongeurs au fond
+    - text: L’état de mer observé à l’heure de la mise à l’eau
       correct: false
-    - text: La présence d’un palier de sécurité facultatif
+    - text: L’état de mer au mouillage au début de la descente
       correct: false
     explanation: L’évaluation porte sur toute la sortie, jusqu’à la récupération. Une exploration abritée
       au fond ne résout pas un retour à bord devenu dangereux. Le profil doit être modifié pour un retour
@@ -209,17 +212,20 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; cas originaux aux données locales imposées
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Quatre N3 et un pilote non plongeur disposent d’un bateau. Le plan prévoit deux palanquées
       de deux, mais le pilote a besoin d’une seconde personne à bord pour récupérer les plongeurs. Quelle
       rotation assure cette organisation ?
     choices:
-    - text: Une palanquée plonge pendant que les deux autres N3 restent avec le pilote
+    - text: Alterner les palanquées pour garder des plongeurs disponibles à bord
       correct: true
-    - text: Les deux palanquées plongent ensemble pendant que le pilote attend
+    - text: Décaler les mises à l’eau de quelques minutes puis faire plonger les quatre N3
       correct: false
-    - text: Une palanquée plonge pendant que les deux autres N3 s’immergent sous le bateau
+    - text: Faire plonger les deux palanquées ensemble et compter sur la première sortie pour aider le
+        pilote
       correct: false
     explanation: La disponibilité d’une aide à la récupération est une contrainte donnée. Une rotation
       alternée garde les deux autres N3 en surface. Ce n’est pas un effectif de surveillance national

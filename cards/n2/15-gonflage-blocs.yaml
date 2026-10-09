@@ -309,10 +309,12 @@ cards:
     - 'Roth Mions — Notice FC244 révision 9 janvier 2020, p.1, consultée le 2026-10-06 : https://roth2.com/wp-content/uploads/2021/06/Notice_FR-2020-V9-2.pdf'
     - 'Arrêté du 20 novembre 2017, version en vigueur au 2026-10-06, articles 5, 15 et 18 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632'
     - 'Revue du 2026-10-06 : docs/reviews/15-gonflage-blocs.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Des éclats de peinture et de la rouille apparaissent sous le culot d’un bloc. Pourquoi ne
-      suffit-il pas de recouvrir la zone de peinture ?
+    question: Des éclats de peinture et de la rouille apparaissent sous le culot d’un bloc. Quelle conduite
+      adopter avant sa remise en état ?
     choices:
     - text: Contrôler le métal et la corrosion avant remise en état
       correct: true

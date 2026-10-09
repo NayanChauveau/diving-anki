@@ -2,8 +2,37 @@
 
 Projet de théorie de plongée en français : N2 et N3 réalisés, structure prévue pour N4.
 Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
-et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
+et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md), puis la
+[grille de relecture qualité](docs/STUDY_CARD_QUALITY.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
 pour le workflow. Ces règles s’appliquent à toutes les cartes et tous les niveaux.
+
+## Critères de qualité obligatoires — adaptation WSET3 du 9 octobre 2026
+
+La référence de la passe pédagogique est [docs/STUDY_CARD_QUALITY.md](docs/STUDY_CARD_QUALITY.md).
+Appliquer ses cinq critères à **chaque** carte : **ISOLATION, CREDIBILITY, LENGTH,
+WHY, SENSE**. Un échec sur un seul critère impose une correction ; une réponse
+factuellement exacte ne compense jamais un QCM facile à deviner.
+
+- Pour chaque leurre, identifier une confusion crédible d’un candidat qui connaît
+  imparfaitement le cours. Rejeter un choix hors cadre ou contradictoire avec le recto,
+  même s’il contient une affirmation vraie dans une autre situation.
+- La clé ne doit pas être dévoilée par les mots du recto, une légende, sa longueur,
+  son style ou sa prudence. Ne pas remplacer un mauvais leurre par du remplissage.
+- Le corrigé explique la distinction posée : mécanisme, hypothèse, erreur ou exemple
+  vérifiable. Ne pas recopier systématiquement la clé ni renvoyer à « option B ».
+- Relire le français comme un texte autonome ; réécrire les phrases abstraites ou
+  incompréhensibles, pas seulement les mots isolés.
+- Rédaction puis critique distincte, correction puis nouvelle critique des IDs rejetés.
+  Lots d’au plus 40 cartes ; revue de toutes les cartes du chapitre, pas un échantillon.
+  Documenter par ID les verdicts et défauts concrets dans `docs/reviews/`.
+  `review.fact_check: pass`, tests et build ne constituent pas une acceptation pédagogique.
+- Une nouvelle carte reste `draft` jusqu’à réussite des contrôles factuel et pédagogique.
+  Ne pas présenter une seconde passe du même agent comme une relecture indépendante,
+  ni déclarer les cartes anciennes conformes à cette grille sans les avoir relues.
+
+Les consignes bilingues, d’import de l’ancien deck et d’organisation des agents du
+WSET3 ne s’appliquent pas à ce dépôt français. Conserver les règles de sources,
+d’identité et d’AnkiConnect propres à la plongée.
 
 ## Format des cartes — calibration finale du 6 octobre 2026
 

@@ -18,6 +18,8 @@ cards:
     - S3 — CPDA, Notions de physique 2024, p.4–6 (imprimées 6–8).
     - 'OpenStax, University Physics 1, 14.4 — Archimedes’ Principle and Buoyancy : https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy'
     - 'Vérifié le 2026-10-06 ; revue : docs/reviews/05-flottabilite.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Un bloc fermé paraît moins lourd lorsqu’on le tient immobile sous l’eau. Quelle proposition
@@ -29,9 +31,9 @@ cards:
       correct: false
     - text: Masse et poids réel réduits ; poussée d’Archimède inchangée
       correct: false
-    explanation: '**Non.** Sa masse reste la même, ainsi que son poids réel à gravité identique. L’eau exerce
-      une poussée vers le haut qui compense une partie du poids : la force nécessaire pour soutenir le bloc,
-      son poids apparent, est plus faible.'
+    explanation: 'À gravité identique, la masse du bloc et son poids réel restent les mêmes. La poussée
+      de l’eau compense une partie de ce poids : la force nécessaire pour soutenir le bloc, son poids
+      apparent, diminue.'
 - id: n2-flottabilite-archimede-001
   type: mcq
   deck: Physique

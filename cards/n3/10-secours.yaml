@@ -327,17 +327,19 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
     - N3-S04 — RIFAP FFESSM, mai 2026, p.31
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Après une plongée dans une carrière à l’intérieur des terres, une victime présente des signes
       d’accident. Quel canal téléphonique convient pour déclencher l’aide médicale en indiquant le contexte
       de plongée ?
     choices:
-    - text: 15 ou 112
+    - text: Le 15 ou le 112
       correct: true
-    - text: 196, réservé au sauvetage maritime
+    - text: Le 196
       correct: false
-    - text: Numéro du port maritime le plus proche
+    - text: La capitainerie du port maritime le plus proche
       correct: false
     explanation: Dans les terres, le 15 ou le 112 déclenche les secours adaptés. Il faut annoncer l’accident
       de plongée, le site précis, l’accès, les signes et les premiers gestes. Le CROSS traite les secours
@@ -469,6 +471,8 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
     - DGSCGC — Références techniques nationales PSC, juillet 2026, 02PR04, p.36–37
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Une victime ne répond pas, mais respire normalement après libération des voies aériennes.
@@ -476,9 +480,9 @@ cards:
     choices:
     - text: Position latérale de sécurité, alerte et surveillance continue de la respiration
       correct: true
-    - text: Compressions thoraciques immédiates malgré la respiration normale
+    - text: Réanimation cardio-respiratoire, alerte et défibrillateur dès que disponible
       correct: false
-    - text: Position assise sans maintien, puis interrogatoire sur la plongée
+    - text: Maintien sur le dos sans geste sur les voies aériennes, alerte et surveillance
       correct: false
     explanation: La position latérale de sécurité facilite la liberté des voies aériennes et l’écoulement
       des liquides. On alerte et surveille en continu. Si la respiration devient absente ou anormale,
@@ -704,6 +708,8 @@ cards:
     - N3-S14 — Références techniques nationales PSC, juillet 2026, p.16–19,26–33,43–46 ; vérifiées le
       2026-10-07
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Sur le pont, un éclat de verre est resté profondément fiché dans l’avant-bras d’un plongeur.
@@ -714,7 +720,7 @@ cards:
       correct: true
     - text: Le retirer avant de protéger la plaie, pour réduire le risque d’infection
       correct: false
-    - text: Le repousser entièrement sous la peau, pour pouvoir couvrir la plaie
+    - text: Le mobiliser légèrement pour vérifier s’il bloque un mouvement du bras
       correct: false
     explanation: 'Un corps étranger pénétrant ne doit pas être retiré : son extraction peut aggraver la
       plaie et provoquer un saignement. La présence de cet objet fait traiter la plaie comme grave, même

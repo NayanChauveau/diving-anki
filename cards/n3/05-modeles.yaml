@@ -222,16 +222,18 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Dans un exemple abstrait, le compartiment A exige une pression ambiante d’au moins 1,6 bar
       ; B exige au moins 1,9 bar. Lequel fixe le plafond de remontée le plus profond ?
     choices:
-    - text: B, car sa pression ambiante minimale est la plus élevée
+    - text: 'B : la pression ambiante doit rester au moins à 1,9 bar'
       correct: true
-    - text: A, car sa pression ambiante minimale est la plus faible
+    - text: 'A : la pression ambiante doit rester au moins à 1,6 bar'
       correct: false
-    - text: Les deux imposent le même plafond, puisque la palanquée remonte ensemble
+    - text: 'Leur moyenne : la pression ambiante doit rester au moins à 1,75 bar'
       correct: false
     explanation: 'Les deux contraintes doivent être respectées : la pression ambiante reste au moins à
       1,9 bar. Le compartiment limitant est celui qui impose la contrainte la plus restrictive, pas nécessairement

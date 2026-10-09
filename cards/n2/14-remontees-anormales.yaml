@@ -23,19 +23,21 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi distinguer les anciennes procédures MN90 et les préconisations fédérales de remontée
-      anormale à l’air avec ordinateur adoptées en 2024 ?
+    question: Une plongée à l’air est conduite à l’ordinateur. Quel rapport existe entre les rattrapages
+      fédéraux de 2024 et les anciennes procédures MN90 ?
     choices:
-    - text: Les rattrapages à l’ordinateur du texte 2024 diffèrent des anciennes recettes MN90
+    - text: Les rattrapages de 2024 sont distincts des anciennes procédures MN90
       correct: true
-    - text: Les rattrapages du texte 2024 reprennent les recettes MN90 en changeant seulement leur nom
+    - text: Les rattrapages de 2024 reprennent les procédures MN90 avec de nouveaux intitulés
       correct: false
-    - text: Le texte 2024 change l’alerte, mais laisse les rattrapages MN90 comme procédure à l’ordinateur
+    - text: Les rattrapages restent ceux des MN90 ; le texte de 2024 modifie seulement l’alerte
       correct: false
-    explanation: '**Elles ne donnent pas les mêmes rattrapages.** La recommandation fédérale de 2024 vise
-      les plongées à l’air conduites à l’ordinateur ; une recette ancienne de table ne la remplace pas.'
+    explanation: La recommandation fédérale de 2024 vise les plongées à l’air conduites à l’ordinateur
+      et prévoit ses propres rattrapages. Les anciennes procédures de tables MN90 ne s’y substituent pas.
 - id: n2-remontees-anormales-seuil-001
   type: mcq
   anki_model: basic

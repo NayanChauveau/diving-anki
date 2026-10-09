@@ -5,6 +5,14 @@ est prévu pour la suite. Les sources convenues, leur périmètre et les vérifi
 sont dans les plans [N2](docs/IMPLEMENTATION_N2.md) et [N3](docs/IMPLEMENTATION_N3.md).
 Ne pas inventer de programme ni de procédure.
 
+La [grille de qualité des cartes](docs/STUDY_CARD_QUALITY.md), adaptée du WSET3,
+fait partie des règles de publication : **ISOLATION, CREDIBILITY, LENGTH, WHY, SENSE**.
+Une seule défaillance exige une réécriture, même si la bonne réponse est exacte.
+Chaque leurre doit correspondre à une confusion plausible dans le cadre du recto ;
+le corrigé doit expliquer la distinction sans recopier systématiquement la clé.
+Ne jamais renvoyer à la lettre ou au numéro d’un choix : l’ordre peut changer.
+Consigner une passe pédagogique distincte du contrôle factuel avant `reviewed`.
+
 Rédiger des formulations originales depuis les sources fournies. Conserver une référence
 vérifiable dans `review.sources` et, si utile, `source_id`. Une question teste une notion
 précise et contient tout le contexte nécessaire. Pour les QCM : une seule bonne réponse,

@@ -88,10 +88,12 @@ cards:
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Un plongeur toujours très froid devient confus et cesse de frissonner. Pourquoi cela ne prouve-t-il
-      pas qu’il se réchauffe ?
+    question: Un plongeur toujours très froid devient confus et cesse de frissonner. Comment interpréter
+      cette évolution ?
     choices:
     - text: La confusion avec disparition des frissons peut indiquer une aggravation de l’hypothermie
       correct: true
@@ -122,16 +124,18 @@ cards:
     - 'DAN — Avoid the Chill, consulté le 2026-10-06 : https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/'
     - 'DAN — Exposure-Related Injuries, hypothermie, consulté le 2026-10-06 : https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/'
     - 'Revue du 2026-10-06 : docs/reviews/09-froid.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi choisir une protection thermique en fonction de la température et de la durée prévues,
-      plutôt que de la seule épaisseur écrite sur la combinaison ?
+    question: Deux combinaisons humides ont la même épaisseur nominale. Que faut-il comparer pour évaluer
+      leur protection thermique à température, durée et profondeur identiques ?
     choices:
-    - text: L’ajustement, l’état et les protections des extrémités comptent aussi
+    - text: Leur ajustement et leur état, avec les protections des extrémités
       correct: true
-    - text: L’épaisseur nominale détermine à elle seule la protection
+    - text: Leur flottabilité à la surface, qui détermine leur isolation en profondeur
       correct: false
-    - text: La profondeur maximale détermine à elle seule la protection
+    - text: Leur poids sec, qui détermine la chaleur conservée pendant la plongée
       correct: false
     explanation: '**L’efficacité dépend aussi de l’ajustement, de l’état du vêtement et des protections
       des extrémités.** Cagoule, chaussons et gants adaptés limitent certaines pertes ; une combinaison

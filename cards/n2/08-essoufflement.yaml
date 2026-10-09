@@ -258,9 +258,12 @@ cards:
     - 'FFESSM CMPN — CAT accident de plongée bouteille ou recycleur, consulté le 2026-10-06 : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/08-essoufflement.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
-    question: Pourquoi une remontée assistée pour un plongeur essoufflé doit-elle rester contrôlée ?
+    question: Lors d’une remontée assistée pour essoufflement, comment associer la réduction de l’effort
+      et la gestion de la remontée ?
     choices:
     - text: Réduire l’effort en respectant vitesse et obligations de remontée
       correct: true

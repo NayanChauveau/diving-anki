@@ -226,17 +226,19 @@ cards:
     - 'FFESSM — MFT N2 version mai 2026, p.5–6, 12–13 et 15–18 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'BSAC — Safe diving guide, Gas, consulté le 2026-10-06 : https://www.bsac.com/safety/safe-diving-guide/gas/'
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: Le directeur de plongée vous autorise une exploration conforme à vos aptitudes, mais vous
       vous sentez inhabituellement fatigué et gêné pour respirer. Quelle décision vous appartient encore
       ?
     choices:
-    - text: Signaler son état et renoncer à l’immersion
+    - text: Signaler votre état et renoncer à l’immersion
       correct: true
-    - text: S’immerger puisque le DP a validé les aptitudes
+    - text: Vous immerger puisque le DP a validé vos aptitudes
       correct: false
-    - text: Attendre les premiers paliers pour signaler la gêne
+    - text: Attendre les premiers paliers pour signaler votre gêne
       correct: false
     explanation: '**Signaler votre état et renoncer à l’immersion.** L’autorisation et le brevet ne remplacent
       pas l’évaluation de son état du jour ; une gêne respiratoire mérite d’être expliquée avant de plonger.'

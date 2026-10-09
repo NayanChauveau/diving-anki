@@ -41,17 +41,19 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: En immersion, quelle différence essentielle distingue un équipier conscient coopératif d’un
       équipier qui ne réagit plus ?
     choices:
-    - text: On peut s’appuyer sur la coopération du premier ; le second ne peut plus assurer sa propre
-        sécurité
+    - text: Le premier peut participer aux gestes ; le second nécessite une prise en charge de sa sécurité
       correct: true
-    - text: La coopération permet d’utiliser l’ordinateur de l’équipier comme suivi personnel de secours
+    - text: Le premier nécessite la prise en charge de ses gestes ; le second peut suivre les consignes
+        tactiles
       correct: false
-    - text: L’absence de réaction dispense de contrôler la source de gaz pendant la remontée
+    - text: Les deux peuvent suivre les mêmes consignes dès que leur détendeur fournit du gaz
       correct: false
     explanation: La vigilance et la capacité à agir déterminent l’aide nécessaire. Un équipier non réactif
       ne peut pas compter sur ses propres gestes ou communications ; sa prise en charge requiert une assistance
@@ -186,16 +188,18 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
     fact_check: pass
   fr:
     question: À la surface, avant tractage d’un plongeur incapable de se maintenir seul, quels deux objectifs
       doivent être assurés ensemble ?
     choices:
-    - text: Flottabilité suffisante et voies aériennes hors de l’eau
+    - text: Assurer la flottabilité et maintenir les voies aériennes hors de l’eau
       correct: true
-    - text: Flottabilité suffisante et maintien du visage dans l’eau jusqu’au bateau
+    - text: Assurer la flottabilité et laisser la position du visage dépendre du gilet
       correct: false
-    - text: Dégonflage du gilet pour le tractage et voies aériennes hors de l’eau
+    - text: Maintenir les voies aériennes hors de l’eau et dégonfler le gilet pour faciliter le tractage
       correct: false
     explanation: La mise en sécurité vise à empêcher une nouvelle submersion et à conserver les voies
       aériennes dégagées. Le matériel est adapté à la récupération ; tractage et hissage se travaillent
