@@ -110,22 +110,26 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
+    - 'DAN World — Your Lungs and Diving, Alert Diver Q2 2017, ventilation alvéolaire et rétention de
+      CO₂, consulté le 2026-10-10 : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
     fact_check: pass
   fr:
-    question: Pendant un palmage plus intense, le détendeur fonctionne mais la ventilation ne parvient
-      plus à suivre l’effort. Pourquoi le CO₂ peut-il s’accumuler ?
+    question: Pendant un palmage intense, le détendeur fonctionne et la fréquence respiratoire augmente.
+      Quel bilan explique néanmoins une accumulation de CO₂ ?
     choices:
-    - text: La production métabolique de CO₂ dépasse ce que la ventilation élimine
+    - text: La production musculaire de CO₂ dépasse son élimination par la ventilation alvéolaire
       correct: true
-    - text: Le CO₂ est moins produit par les muscles, mais sa pression partielle augmente avec le palmage
-        à profondeur égale
+    - text: La ventilation totale augmente et garantit une élimination égale à la production musculaire
+        de CO₂
       correct: false
-    - text: Le CO₂ est davantage produit par les muscles, mais la ventilation totale suffit à assurer
-        son élimination
+    - text: La consommation d’oxygène augmente et remplace l’élimination pulmonaire du CO₂
       correct: false
-    explanation: Les muscles produisent davantage de CO₂ pendant l’effort. Si la ventilation ne l’élimine
-      pas suffisamment, il s’accumule même si le détendeur fonctionne. La consommation d’un bloc d’air
-      ne remplace pas son oxygène par l’azote des tissus ni par le CO₂ expiré.
+    explanation: 'Les muscles produisent davantage de CO₂ pendant l’effort. Une respiration plus fréquente
+      ne garantit pas que la ventilation des alvéoles suive ce besoin : si l’élimination reste inférieure
+      à la production, le CO₂ s’accumule. Consommer de l’oxygène et éliminer le CO₂ sont deux échanges
+      différents ; un détendeur fonctionnel ne corrige pas ce déséquilibre.'
 - id: n2-essoufflement-air-pollue-001
   type: mcq
   anki_model: basic

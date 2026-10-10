@@ -367,21 +367,26 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
     fact_check: pass
   fr:
-    question: À profil identique, pourquoi fatigue, anxiété et manque de pratique récente peuvent-ils
-      rendre une plongée profonde plus difficile à gérer ?
+    question: Pour une plongée profonde à l’air, comment intégrer fatigue, anxiété et manque de pratique
+      récente dans le choix du profil ?
     choices:
-    - text: Ils diminuent les capacités disponibles pour gérer les contraintes respiratoires et cognitives
+    - text: Les considérer aussi comme des limites de vigilance et de coordination pour choisir la profondeur
+        et les tâches
       correct: true
-    - text: Ils augmentent la fraction d’azote de l’air respiré et donc son effet narcotique
+    - text: Les intégrer au budget de gaz, en conservant la profondeur et les tâches validées lors d’une
+        plongée reposée
       correct: false
-    - text: Ils diminuent la pression partielle d’oxygène de l’air respiré à profondeur égale
+    - text: Les intégrer à l’intervalle de surface, en conservant la profondeur et les tâches validées
+        lors d’une plongée reposée
       correct: false
-    explanation: L’état du jour peut réduire les marges de vigilance, de coordination et de gestion de
-      l’effort. Ces difficultés se cumulent avec les contraintes de profondeur. À mélange et profondeur
-      identiques, fatigue et anxiété ne modifient pas les fractions ni les pressions partielles du gaz
-      respiré.
+    explanation: L’état du jour peut réduire les capacités de vigilance, de coordination et de gestion
+      de l’effort. Il faut en tenir compte dans le choix de profondeur et des tâches, pas seulement dans
+      le budget de gaz ou l’intervalle de surface. Une plongée bien vécue au même profil dans d’autres
+      conditions ne garantit pas les mêmes capacités aujourd’hui.
 - id: n2-narcose-medicaments-001
   type: mcq
   anki_model: basic

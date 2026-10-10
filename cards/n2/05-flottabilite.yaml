@@ -747,6 +747,8 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
     fact_check: pass
   fr:
     question: Pourquoi porter trop de lest peut-il augmenter l’effort et la consommation d’air, même lorsque
@@ -756,11 +758,10 @@ cards:
       correct: true
     - text: Une fois neutre, le plongeur doit encore porter sous l’eau tout le poids du lest ajouté
       correct: false
-    - text: À profondeur égale, le lest supplémentaire augmente la pression du gaz respiré
-      correct: false
-    explanation: '**Le poids supplémentaire impose davantage de gaz dans le gilet pour rester neutre.**
-      L’équilibre et la position peuvent devenir moins favorables, avec plus de résistance à l’avancement.
-      Le plongeur fournit alors davantage d’effort et peut consommer plus d’air.'
+    explanation: 'Le poids supplémentaire du lest dépasse la poussée due à son propre volume : il faut
+      davantage de gaz dans le gilet pour rester neutre. Ce volume peut dégrader la position et augmenter
+      la résistance à l’avancement. À l’équilibre, le poids total est compensé par la poussée ; l’effort
+      supplémentaire ne consiste pas à soutenir tout ce poids en palmant.'
 - id: n2-flottabilite-palier-bloc-allege-001
   type: mcq
   anki_model: basic

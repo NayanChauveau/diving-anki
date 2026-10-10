@@ -20,8 +20,8 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     fact_check: pass
   fr:
-    question: Pourquoi un ordinateur peut-il donner une décompression différente d’une table pour une plongée
-      qui remonte progressivement le long d’un tombant ?
+    question: Pourquoi un ordinateur peut-il donner une décompression différente d’une table pour une
+      plongée qui remonte progressivement le long d’un tombant ?
     choices:
     - text: Il intègre les profondeurs successives et le temps à chacune
       correct: true
@@ -30,8 +30,8 @@ cards:
     - text: Il applique toute la durée à la dernière profondeur mesurée
       correct: false
     explanation: '**Il intègre les profondeurs successivement mesurées et leur durée**, au lieu d’attribuer
-      toute l’exploration à la profondeur maximale comme un profil carré. Le résultat dépend aussi de son
-      modèle et de l’historique enregistré.'
+      toute l’exploration à la profondeur maximale comme un profil carré. Le résultat dépend aussi de
+      son modèle et de l’historique enregistré.'
 - id: n2-ordinateurs-affichages-001
   type: mcq
   anki_model: basic
@@ -131,9 +131,9 @@ cards:
       correct: false
     - text: Le gaz réglé influe uniquement sur les calculs de désaturation
       correct: false
-    explanation: '**La fraction d’oxygène sélectionnée intervient dans les calculs de décompression et d’exposition
-      à l’oxygène.** Une profondeur juste ne prouve pas que le mélange paramétré correspond au gaz réellement
-      respiré.'
+    explanation: '**La fraction d’oxygène sélectionnée intervient dans les calculs de décompression et
+      d’exposition à l’oxygène.** Une profondeur juste ne prouve pas que le mélange paramétré correspond
+      au gaz réellement respiré.'
 - id: n2-ordinateurs-salinite-001
   type: mcq
   anki_model: basic
@@ -329,20 +329,24 @@ cards:
     - 'Suunto — Zoop Novo User Guide, fonctions et contrôles, consulté le 2026-10-06 : https://us.suunto.com/pages/suunto-zoop-novo-user-guide'
     - 'Revue du 2026-10-06 : docs/reviews/13-ordinateurs.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
     fact_check: pass
   fr:
-    question: À profondeur constante, la DTR augmente de 3 min pendant l’exploration. Comment prendre
-      en compte cette évolution dans le budget de gaz du retour ?
+    question: À profondeur constante, la durée totale de remontée (DTR) augmente de 3 min pendant l’exploration.
+      Pour calculer le gaz consommé par le profil de retour actualisé, à quelle pression faut-il compter
+      chacune de ses phases ?
     choices:
-    - text: Recalculer les phases de retour et d’arrêt aux profondeurs où le gaz sera respiré
+    - text: À la pression ambiante de la profondeur de chaque phase
       correct: true
-    - text: Ajouter 3 min de consommation à la profondeur actuelle à tout le budget de retour
+    - text: À la pression ambiante de la profondeur d’exploration pour toutes les phases
       correct: false
-    - text: Ajouter 3 min de consommation de surface à tout le budget de retour
+    - text: À la pression atmosphérique de surface pour toutes les phases
       correct: false
-    explanation: Le gaz nécessaire dépend du temps et de la pression à chaque phase de retour. L’augmentation
-      de DTR ne s’affecte pas automatiquement tout entière au fond ni à 1 bar. Reprendre les phases actualisées
-      avec la palanquée ; cela peut commander une fin d’exploration plus précoce.
+    explanation: 'Le gaz nécessaire dépend du temps et de la pression à chaque phase : trajets, remontée
+      et arrêts. Une hausse de DTR ne signifie pas trois minutes de plus au fond ni trois minutes à 1
+      bar. Reprendre les phases actualisées avec la palanquée ; cela peut commander une fin d’exploration
+      plus précoce.'
 - id: n2-ordinateurs-ndl-air-001
   type: mcq
   anki_model: basic

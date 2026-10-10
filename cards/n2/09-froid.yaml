@@ -185,20 +185,24 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
+    - 'OpenStax — Biology 2e, 33.3 Homeostasis, éd.2018, thermorégulation, contractions/frissons et vasoconstriction,
+      consulté le 2026-10-10 : https://openstax.org/books/biology-2e/pages/33-3-homeostasis'
     fact_check: pass
   fr:
-    question: Pourquoi des apports énergétiques insuffisants diminuent-ils la capacité à résister au froid
-      en plongée ?
+    question: En lutte contre le froid, quelle réponse dépend directement de réserves énergétiques suffisantes
+      pour produire de la chaleur ?
     choices:
-    - text: La production métabolique de chaleur, notamment par les frissons, exige de l’énergie
+    - text: Les frissons, par contractions musculaires involontaires
       correct: true
-    - text: L’isolation du néoprène dépend de l’énergie fournie par l’alimentation du plongeur
+    - text: La vasoconstriction, par réduction du débit sanguin vers la peau
       correct: false
-    - text: La température de l’eau emprisonnée reste égale à celle du corps sans dépense d’énergie
-      correct: false
-    explanation: Les frissons sont une activité musculaire qui consomme de l’énergie. Des apports insuffisants
-      peuvent limiter la production de chaleur ; fatigue et baisse de vigilance réduisent aussi les capacités
-      de réaction. Repos et alimentation adaptés complètent la protection thermique sans la remplacer.
+    explanation: 'Les frissons sont des contractions musculaires répétées : ils consomment de l’énergie
+      et produisent de la chaleur. La vasoconstriction limite les pertes en réduisant l’irrigation de
+      la peau ; elle ne produit pas la chaleur manquante. Des apports énergétiques insuffisants peuvent
+      limiter la thermogenèse musculaire. Repos et alimentation adaptés complètent la protection thermique
+      sans la remplacer.'
 - id: n2-froid-interactions-001
   type: mcq
   anki_model: basic

@@ -741,17 +741,18 @@ cards:
     - 'Vérification du 2026-10-10 — FFESSM — présentation N2 : https://ffessm.fr/plongeur-niveau-2'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
   fr:
-    question: À l’étranger, une structure reconnaît un N2/CMAS deux étoiles, mais limite ses sorties encadrées
-      à 30 m. Quelle profondeur maximale s’applique à ces sorties pour ce plongeur ?
+    question: À l’étranger, un centre reconnaît le N2/CMAS deux étoiles. Quel cadre détermine les plongées
+      que ce titulaire peut y effectuer ?
     choices:
-    - text: 30 m, dans les conditions de la structure et du cadre local
+    - text: La réglementation locale et les conditions de plongée du centre
       correct: true
-    - text: 40 m, dans les conditions des prérogatives françaises PE40
+    - text: Les prérogatives françaises du N2 et les conditions de plongée du centre
       correct: false
-    - text: 20 m, dans les conditions françaises d’autonomie PA20
+    - text: Les standards CMAS de formation et les conditions de plongée du centre
       correct: false
-    explanation: La reconnaissance de la formation ne transpose pas les prérogatives françaises à l’étranger.
-      Sur les sorties encadrées décrites, la limite de la structure est 30 m, sous réserve du cadre local
-      et de conditions éventuellement plus restrictives. Les 20 m concernent l’autonomie PA20 française,
-      pas la sortie encadrée de ce cas.
+    explanation: La reconnaissance du brevet atteste une formation. Les possibilités de plongée sur place
+      dépendent de la réglementation locale et des conditions du centre. Ni les prérogatives françaises
+      ni une équivalence CMAS ne se substituent à ce cadre.

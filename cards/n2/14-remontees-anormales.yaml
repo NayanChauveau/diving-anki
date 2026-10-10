@@ -103,16 +103,24 @@ cards:
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
+    - 'FFESSM — MFT Résolutions de la CTN, version mai 2025 p.2, texte consolidé des recommandations en
+      vigueur, vérifié le 2026-10-10 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d'
+    - 'FFESSM Subaqua — rattrapages, publié le 2024-11-14, modifié le 2025-12-08, initiative du DP et
+      paliers minimaux, consulté le 2026-10-10 : https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur
+      ; omission des 5 min dans cet article, vérifiées dans le MFT consolidé p.2'
     fact_check: pass
   fr:
-    question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
-      le plongeur est sans signe d’accident. Le gaz et l’assistance permettent la réimmersion dans le
-      délai requis. Quelle séquence minimale de rattrapage s’applique, en conservant toute obligation
-      de l’ordinateur plus importante ?
-    explanation: Rejoindre au moins la mi-profondeur en moins de 3 min et y rester 5 min, puis faire au
-      minimum 1 min à 6 m et 5 min à 3 m. Conserver les obligations plus importantes de l’ordinateur.
-      Les 12 min à mi-profondeur appartiennent à l’ancienne procédure MN90 ; des signes d’accident imposent
-      les secours en surface, sans réimmersion thérapeutique.
+    question: À l’air avec ordinateur, le DP engage un rattrapage après une remontée trop rapide répondant
+      aux critères fédéraux. Le plongeur est sans signe d’accident ; gaz et assistance permettent de rejoindre
+      la profondeur requise dans le délai prévu. Quelle séquence minimale s’applique, en conservant les
+      obligations de l’ordinateur plus importantes ?
+    explanation: Rejoindre au moins la mi-profondeur dans les 3 min et y rester 5 min, puis faire au minimum
+      1 min à 6 m et 5 min à 3 m, tout en conservant les obligations de l’ordinateur plus importantes.
+      Le directeur de plongée (DP) décide de ce rattrapage en fonction de la situation. Les 12 min à mi-profondeur
+      appartiennent à l’ancienne procédure MN90 ; la présence de signes d’accident impose les secours
+      en surface.
     choices:
     - text: 5 min au moins à mi-profondeur ou plus profond, puis 1 min à 6 m et 5 min à 3 m
       correct: true

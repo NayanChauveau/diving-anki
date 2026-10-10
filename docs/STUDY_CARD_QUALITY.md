@@ -98,6 +98,25 @@ créer de l'hésitation. Vérifier chaque alternative comme si elle était la cl
 si elle peut être vraie sous une lecture raisonnable, préciser le contexte ou la changer.
 Un test de crédibilité échoué impose une correction, même après une revue antérieure.
 
+### Points de contrôle issus de la passe finale N2 du 10 octobre 2026
+
+- Une limite numérique annoncée suivie de deux valeurs qui la dépassent peut donner
+  la réponse sans connaissance du cours. Tester la responsabilité ou la règle visée,
+  plutôt que fabriquer un exercice d'application qui se résout au seul recto.
+- Un guide explicitement absent ne peut servir de destinataire aux deux mauvaises
+  réponses d'une question d'autonomie. Comparer des limites de compétence plausibles.
+- Pour un budget de gaz, distinguer le calcul du profil réel d'une majoration prudente :
+  une estimation conservatrice n'est pas fausse simplement parce qu'elle est moins exacte.
+- Ne pas attribuer à un rhume, au lest ou à la fatigue un changement fantaisiste des
+  lois physiques ou de la composition du gaz. Chercher une confusion du cours ; si un
+  troisième choix reste faible, deux choix solides sont préférables au remplissage.
+- Ne pas justifier artificiellement un leurre chiffré par une confusion inventée
+  entre une profondeur et une durée. Une valeur proche mal mémorisée peut suffire
+  pour un fait de rappel ; la revue doit décrire cette raison honnêtement.
+- Devant des formulations différentes d'une procédure, rechercher le référentiel
+  consolidé et consigner la différence. Une newsletter ou un article peut omettre
+  une étape ; conserver les dates d'édition et de consultation distinctes.
+
 ## 3. LENGTH — aucun indice de forme
 
 Lire d’abord le bloc des choix sans chercher à résoudre la question. La bonne réponse

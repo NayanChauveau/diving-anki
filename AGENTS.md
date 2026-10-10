@@ -57,6 +57,13 @@ d’identité et d’AnkiConnect propres à la plongée.
 
 ## Format des cartes — calibration finale du 6 octobre 2026
 
+Pour une nouvelle rédaction ou revue, appliquer aussi les
+[points du contrôle final N2 du 10 octobre](docs/STUDY_CARD_QUALITY.md#points-de-contrôle-issus-de-la-passe-finale-n2-du-10-octobre-2026) :
+réponse donnée par le recto, leurres contredisant ses acteurs, distinction calcul réel /
+majoration prudente, mécanismes crédibles et résolution des divergences de versions.
+Le [journal par sujet](docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md)
+et son CSV complètent les revues précédentes ; leurs corrections ne changent aucun ID.
+
 Le **QCM est le format à choisir dès que la question peut être posée clairement avec
 une réponse vraie unique et des distracteurs crédibles**. Cela vaut aussi pour les
 calculs, les schémas, les cas et les séquences. Ne pas réserver automatiquement ces

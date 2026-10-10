@@ -292,20 +292,27 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
+      ; objectif et identité conservés'
+    - 'DAN — Ears and Diving, Key Information, petits conduits et congestion, consulté le 2026-10-10 :
+      https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/'
     fact_check: pass
   fr:
     question: Un plongeur enrhumé respire encore par le nez. Pourquoi cela ne suffit-il pas à établir
       que ses oreilles moyennes et ses sinus pourront s’équilibrer ?
     choices:
-    - text: Leurs petits conduits peuvent être obstrués malgré le passage d’air dans les fosses nasales
+    - text: Les trompes d’Eustache ou les ostia peuvent être obstrués malgré un passage nasal libre
       correct: true
-    - text: Leurs conduits sont ouverts, mais le rhume empêche l’air de se comprimer dans les cavités
+    - text: Les trompes d’Eustache et les ostia forment un conduit commun, libéré dès que l’air traverse
+        le nez
       correct: false
-    - text: Leurs conduits sont ouverts, mais le mucus change la pression ambiante subie par les cavités
+    - text: Les oreilles moyennes et les sinus reçoivent l’air directement par les fosses nasales, sans
+        conduit distinct
       correct: false
-    explanation: Le gonflement des muqueuses peut fermer les trompes d’Eustache ou les ostia des sinus
-      sans fermer complètement le nez. L’air doit atteindre chaque cavité par son propre conduit. Ne pas
-      plonger congestionné ou avec un équilibrage difficile.
+    explanation: 'Le gonflement des muqueuses peut fermer les trompes d’Eustache, qui alimentent les oreilles
+      moyennes, ou les ostia, qui ventilent les sinus, sans fermer complètement le nez. Ces voies sont
+      distinctes : respirer par le nez ne prouve pas qu’elles soient libres. Ne pas plonger congestionné
+      ou avec un équilibrage difficile.'
 - id: n2-barotraumatismes-position-descente-001
   type: mcq
   anki_model: basic
