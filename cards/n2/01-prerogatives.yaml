@@ -18,6 +18,10 @@ cards:
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Quelles aptitudes d’exploration le brevet N2 FFESSM atteste-t-il ?
     choices:
@@ -50,20 +54,24 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: Un plongeur FFESSM obtient PA20 après avoir déjà obtenu PE40. Quel brevet peut alors lui
-      être délivré ?
+    question: Un plongeur FFESSM titulaire de PE40 obtient ensuite PA20. Que permet cette seconde qualification
+      pour la délivrance du N2 ?
     choices:
-    - text: Le N2, grâce à la réunion de PE40 et PA20
+    - text: La réunion des deux qualifications permet la délivrance du N2
       correct: true
-    - text: Le N2 seulement après une formation N2 supplémentaire complète
+    - text: La réunion des deux qualifications permet l’entrée dans une formation N2 à reprendre intégralement
       correct: false
-    - text: Le N2 seulement après l’obtention de PA40
+    - text: La réunion des deux qualifications permet la délivrance du N2 après obtention complémentaire
+        de PA40
       correct: false
-    - text: 'Aucun brevet N2 : PE40 et PA20 restent deux qualifications séparées'
-      correct: false
-    explanation: Les deux qualifications peuvent être acquises séparément. L’obtention de la seconde complète
-      les compétences nécessaires au brevet N2, selon les règles fédérales de délivrance.
+    explanation: 'PE40 et PA20 peuvent être obtenus séparément. L’acquisition de la seconde qualification
+      entraîne la délivrance du brevet et de la carte N2 : leurs compétences réunies constituent le N2.
+      PA40 correspond à une autonomie plus profonde et n’est pas un prérequis du N2.'
 - id: n2-prerogatives-autonomie-dp-001
   type: mcq
   deck: Réglementation
@@ -85,21 +93,26 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: Pour une exploration PA20 organisée en France par un établissement, quelle organisation
-      respecte le cadre de l’autonomie ?
+    question: En France, un établissement organise une exploration PA20. Quelle présence est requise pour
+      l’organisation de cette plongée autonome ?
     choices:
-    - text: Sans guide dans la palanquée ; un DP présent sur le site fixe le cadre
+    - text: Un DP au lieu de mise à l’eau ou d’immersion, sans guide conduisant la palanquée
       correct: true
-    - text: Sans guide ni DP sur le site si tous les équipiers ont le N2
+    - text: Un guide conduisant la palanquée sous l’eau, sans DP au lieu de mise à l’eau ou d’immersion
       correct: false
-    - text: Sans guide ; un N2 de la palanquée exerce la fonction de DP
+    - text: Un DP joignable à distance, sans guide conduisant la palanquée
       correct: false
-    - text: Sans guide ; un DP absent du site fixe le cadre par téléphone
-      correct: false
-    explanation: DP signifie directeur de plongée. L’autonomie signifie que les équipiers plongent ensemble
-      sans guide qui conduit leur palanquée. Le DP reste présent sur le lieu de mise à l’eau ou d’immersion
-      ; il organise l’activité et autorise la plongée dans le cadre qu’il fixe.
+    explanation: Le directeur de plongée (DP) est présent sur le lieu de mise à l’eau ou d’immersion et
+      fixe le cadre. L’autonomie concerne la conduite de la palanquée sans guide ; elle ne supprime pas
+      le DP pour cette exploration PA20 en établissement. Le guide et le DP exercent des fonctions différentes.
 - id: n2-prerogatives-pa20-effectif-001
   type: mcq
   deck: Réglementation
@@ -118,6 +131,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Quelle plage d’effectifs est autorisée pour une palanquée d’exploration autonome PA20 en
       France, en comptant tous ses membres ?
@@ -150,6 +167,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Pour explorer ensemble jusqu’à 20 m en autonomie en France, quelles aptitudes chaque membre
       de la palanquée doit-il au minimum justifier ?
@@ -184,19 +205,26 @@ cards:
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: En France, un PA20 et un plongeur ayant seulement PA12 plongent ensemble en autonomie. Le
-      DP autorise cette palanquée. Quelle profondeur maximale leurs aptitudes permettent-elles pour le
-      groupe ?
+    question: En France, le DP autorise une palanquée autonome comprenant un PA20 et un PA12. Il n’ajoute
+      pas de limite de profondeur plus basse. Quelle règle fixe la profondeur maximale du groupe ?
     choices:
-    - text: 12 m, même si le PA20 assume l’assistance
+    - text: 12 m, d’après les aptitudes les plus restrictives de la palanquée
       correct: true
-    - text: 20 m, si le PA20 assume l’assistance
+    - text: 20 m, d’après les aptitudes du plongeur qui assure l’assistance
       correct: false
-    - text: 20 m, si le DP donne son accord explicite
+    - text: 20 m, d’après les aptitudes du plongeur le plus qualifié
       correct: false
-    explanation: La palanquée reste dans la zone du plongeur aux aptitudes les plus restrictives. Le DP
-      peut encore fixer une limite plus basse.
+    explanation: Les aptitudes PA12 limitent le groupe à 12 m. La capacité du PA20 à assister son équipier
+      ne lui transfère pas ses prérogatives. Le DP peut imposer une limite plus basse, mais son accord
+      ne dépasse pas celle des aptitudes du groupe.
 - id: n2-prerogatives-age-pe40-001
   type: mcq
   deck: Réglementation
@@ -214,6 +242,10 @@ cards:
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Dans le cursus FFESSM, quel est l’âge minimal pour entrer en formation et obtenir la qualification
       PE40 ?
@@ -246,6 +278,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Dans le cursus FFESSM, quel est l’âge minimal de délivrance de PA20 ou du N2, une fois les
       compétences acquises ?
@@ -283,6 +319,13 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Un plongeur FFESSM de 15 ans vient d’obtenir son N2. À partir de quel âge pourra-t-il exercer
       l’autonomie PA20 en France, si les autres conditions sont remplies ?
@@ -319,6 +362,10 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Pour un plongeur FFESSM de 16 ans, que doit viser l’autorisation du responsable légal nécessaire
       à une exploration PA20 ?
@@ -355,6 +402,10 @@ cards:
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Une palanquée PA20 FFESSM autorisée accueille un plongeur de 16 ans. Qui doit être informé
       de la présence d’un mineur ?
@@ -386,22 +437,24 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: Pour un PE40 FFESSM âgé de moins de 16 ans, une plongée d’exploration peut-elle être planifiée
-      avec des paliers de décompression obligatoires ?
+    question: Quelle contrainte de désaturation doit respecter la planification d’une exploration PE40
+      FFESSM pour un plongeur de moins de 16 ans ?
     choices:
-    - text: 'Non : la plongée doit être prévue sans palier de décompression obligatoire'
+    - text: Aucun palier de décompression obligatoire prévu par l’ordinateur ou les tables
       correct: true
-    - text: 'Oui : des paliers obligatoires sont possibles avec une autorisation parentale spécifique'
+    - text: Un palier de décompression à 3 m au plus, prévu par l’ordinateur ou les tables
       correct: false
-    - text: 'Oui : un seul palier obligatoire à 3 m est admis'
+    - text: Trois minutes de décompression au plus, prévues par l’ordinateur ou les tables
       correct: false
-    - text: 'Oui : les paliers obligatoires sont admis si leur durée totale ne dépasse pas trois minutes'
-      correct: false
-    explanation: L’ordinateur de plongée ou les tables servent à déterminer si la profondeur et la durée
-      prévues imposent des paliers de décompression. Pour un PE40 de moins de 16 ans, il faut prévoir
-      une plongée pour laquelle cet outil n’impose aucun palier obligatoire. Si des paliers obligatoires
-      apparaissent malgré cette planification, cette restriction n’autorise pas à les ignorer.
+    explanation: La profondeur et la durée doivent être choisies de sorte que l’ordinateur ou les tables
+      n’imposent aucun palier de décompression obligatoire. Un arrêt de sécurité facultatif est une autre
+      notion. Si des paliers obligatoires apparaissent malgré la planification, cette restriction ne permet
+      pas de les ignorer.
 - id: n2-prerogatives-pe40-moins-seize-nombre-001
   type: mcq
   deck: Réglementation
@@ -420,6 +473,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Dans le cursus FFESSM, combien de plongées par jour au maximum peut effectuer un PE40 âgé
       de moins de 16 ans ?
@@ -453,6 +510,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Dans le cursus FFESSM, quelle durée minimale doit séparer les deux plongées de la journée
       d’un PE40 âgé de moins de 16 ans ?
@@ -484,20 +545,24 @@ cards:
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: Un PE40 FFESSM de 15 ans a atteint 32 m à sa première plongée de la journée. Quel plafond
-      s’applique à sa seconde plongée, si toutes les autres conditions sont réunies ?
+    question: Un PE40 FFESSM de 15 ans a atteint 32 m lors de sa première plongée du jour. Quelle profondeur
+      maximale s’applique à sa seconde plongée si les autres conditions sont réunies ?
     choices:
     - text: 20 m
       correct: true
-    - text: 25 m
-      correct: false
     - text: 30 m
       correct: false
     - text: 40 m
       correct: false
-    explanation: 'La première plongée a dépassé 30 m : la seconde est limitée à 20 m. Il faut aussi respecter
-      au moins trois heures entre les deux plongées et rester sans palier obligatoire.'
+    explanation: Après une première plongée au-delà de 30 m, la seconde est limitée à 20 m. La valeur
+      de 30 m est le seuil de déclenchement de la restriction, pas la limite de la seconde plongée ; 40
+      m est la limite PE40 générale. Respecter aussi trois heures d’intervalle et une planification sans
+      palier obligatoire.
 - id: n2-prerogatives-documents-formation-001
   type: mcq
   deck: Réglementation
@@ -520,6 +585,10 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Les justificatifs de niveau, d’expérience et d’âge d’un candidat à la formation N2 FFESSM
       ont déjà été vérifiés. Quelle paire complémentaire doit encore être vérifiée pour son admission
@@ -555,21 +624,23 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: Quel brevet ou certification doit-on avoir au minimum pour commencer une formation N2 FFESSM
-      ?
+    question: Pour l’entrée en formation N2 FFESSM avec une certification d’un autre organisme, à quel
+      niveau doit se rapporter l’équivalence minimale attendue ?
     choices:
-    - text: Le N1 FFESSM ou une certification aux aptitudes jugées équivalentes
+    - text: Des aptitudes jugées équivalentes au N1 FFESSM
       correct: true
-    - text: Le N1 FFESSM exclusivement, sans équivalence acceptée
+    - text: Des aptitudes jugées équivalentes au PE40 FFESSM
       correct: false
-    - text: Une qualification PE40 est exigée avant toute entrée en formation N2
+    - text: Des aptitudes jugées équivalentes au PA20 FFESSM
       correct: false
-    - text: Une qualification PA20 est exigée avant toute entrée en formation N2
-      correct: false
-    explanation: Il faut le N1 FFESSM ou une certification dont les aptitudes sont jugées équivalentes.
-      PE40 et PA20 peuvent se préparer dans le cursus N2 ; les posséder avant l’entrée en formation n’est
-      pas exigé.
+    explanation: Le niveau préalable est le N1 FFESSM ou une certification dont les aptitudes sont jugées
+      équivalentes. L’équivalence se rapporte au N1 ; PE40 et PA20 sont les qualifications que le cursus
+      N2 permet d’acquérir. Les autres prérequis d’accès restent à vérifier.
 - id: n2-prerogatives-experience-naturel-001
   type: mcq
   deck: Réglementation
@@ -588,6 +659,10 @@ cards:
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: Combien de plongées attestées en milieu naturel sont demandées au minimum pour débuter une
       formation PA20, PE40 ou N2 FFESSM ?
@@ -624,6 +699,12 @@ cards:
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — FFESSM — présentation N2 et certification CMAS ; utilisée pour la
+      correspondance, pas pour les âges : https://ffessm.fr/plongeur-niveau-2'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
     question: À quelle certification CMAS le N2 FFESSM est-il associé dans le cursus fédéral ?
     choices:
@@ -655,15 +736,22 @@ cards:
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — FFESSM — présentation N2 : https://ffessm.fr/plongeur-niveau-2'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
   fr:
-    question: À l’étranger, une structure reconnaît la carte N2/CMAS d’un plongeur. Comment déterminer
-      dans quelles conditions il pourra y plonger ?
+    question: À l’étranger, une structure reconnaît un N2/CMAS deux étoiles, mais limite ses sorties encadrées
+      à 30 m. Quelle profondeur maximale s’applique à ces sorties pour ce plongeur ?
     choices:
-    - text: Appliquer les conditions locales et celles de la structure d’accueil
+    - text: 30 m, dans les conditions de la structure et du cadre local
       correct: true
-    - text: Appliquer les prérogatives françaises du N2 dans toute structure qui reconnaît la carte
+    - text: 40 m, dans les conditions des prérogatives françaises PE40
       correct: false
-    - text: Appliquer les prérogatives CMAS comme règles communes à tous les pays
+    - text: 20 m, dans les conditions françaises d’autonomie PA20
       correct: false
-    explanation: La reconnaissance d’une formation et l’autorisation d’une plongée précise sont deux questions
-      différentes. Il faut se renseigner auprès de la structure et respecter le cadre local.
+    explanation: La reconnaissance de la formation ne transpose pas les prérogatives françaises à l’étranger.
+      Sur les sorties encadrées décrites, la limite de la structure est 30 m, sous réserve du cadre local
+      et de conditions éventuellement plus restrictives. Les 20 m concernent l’autonomie PA20 française,
+      pas la sortie encadrée de ce cas.

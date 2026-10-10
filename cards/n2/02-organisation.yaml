@@ -18,6 +18,11 @@ cards:
     - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En France, quels paramètres doivent caractériser la plongée effectuée en commun par les
@@ -53,6 +58,11 @@ cards:
     - 'Code du sport — A322-73, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En France, une palanquée regroupe des plongeurs aux aptitudes différentes utilisant des
@@ -90,6 +100,11 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Pour une plongée avec DP organisée en France par un établissement, quelle fonction est chargée
@@ -126,6 +141,11 @@ cards:
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Dans une plongée avec DP organisée en France par un établissement, quelle fonction porte
@@ -161,22 +181,26 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Pour une sortie en établissement avec DP, ou une sortie N3 sans DP préparée dans le cadre
-      FFESSM, quels paramètres inscrit-on sur la fiche de sécurité, en plus des noms, aptitudes et rôles
-      ?
+    question: Lors d’une sortie en établissement avec DP, quels paramètres la fiche de sécurité doit-elle
+      retracer en plus des noms, aptitudes et fonctions dans la palanquée ?
     choices:
-    - text: Les paramètres prévus et ceux réellement réalisés
+    - text: Les paramètres prévus avant immersion et ceux réellement réalisés
       correct: true
-    - text: Les paramètres prévus uniquement
+    - text: Les paramètres prévus avant immersion et ceux des plongées précédentes
       correct: false
-    - text: Les paramètres réellement réalisés uniquement
+    - text: Les paramètres réellement réalisés et ceux des plongées précédentes
       correct: false
-    explanation: La fiche rassemble les noms, prénoms, aptitudes et rôles dans chaque palanquée, ainsi
-      que les paramètres prévus puis réalisés, notamment profondeur et durée. Avec DP, il l’établit et
-      l’établissement la conserve un an. L’organisation N3 sans DP enseignée par la FFESSM comprend aussi
-      la rédaction de cette fiche.
+    explanation: Le DP établit une fiche de sécurité retraçant notamment profondeur et durée prévues puis
+      réalisées, ainsi que les membres et leurs fonctions. L’établissement la conserve un an. Les plongées
+      précédentes peuvent être utiles à la planification et au suivi individuel, mais ne remplacent ni
+      la prévision ni la réalisation de cette sortie.
 - id: n2-organisation-guide-conduite-001
   type: mcq
   deck: Réglementation
@@ -195,20 +219,25 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Pendant une exploration PE40 en milieu naturel, comment le guide doit-il conduire la palanquée
-      dans le cadre fixé par le DP ?
+    question: En France, le DP limite une exploration PE40 à 30 m. Pendant l’immersion, les circonstances
+      justifient de rester à 20 m. Quelle décision relève du guide ?
     choices:
-    - text: Adapter la conduite aux circonstances et aux aptitudes, dans les limites fixées par le DP
+    - text: Réduire la profondeur à 20 m en adaptant la conduite au groupe
       correct: true
-    - text: Adapter la conduite aux circonstances, dans les limites PE40 même au-delà de celles du DP
+    - text: Maintenir l’objectif de 30 m en laissant au DP toute adaptation du profil
       correct: false
-    - text: Respecter les paramètres du DP, en lui laissant seul l’adaptation aux aptitudes des équipiers
+    - text: Porter l’objectif à 40 m si les aptitudes PE40 du groupe le permettent
       correct: false
-    explanation: Le guide est responsable du déroulement de la plongée encadrée. Il adapte la conduite
-      du groupe dans le cadre fixé par le DP. La présence du guide ne dispense pas chaque plongeur de
-      surveiller son matériel et de signaler une difficulté.
+    explanation: Le guide est responsable du déroulement de la plongée et adapte sa conduite aux circonstances
+      et aux aptitudes. Il peut retenir moins profond que la limite fixée ; celle-ci n’est pas une profondeur
+      à atteindre. Il ne peut pas dépasser le cadre du DP en invoquant la limite générale de PE40.
 - id: n2-organisation-autonomie-collective-001
   type: mcq
   deck: Réglementation
@@ -227,21 +256,28 @@ cards:
     - 'FFESSM — MFT N2, mai 2026, p.3 et compétences PA20 p.5, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Vérification du 2026-10-10 — FFESSM — MFT N2 mai 2026, p.3–4 (prérogatives/accès/délivrance), p.5
+      et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Dans une palanquée autonome, quelle responsabilité collective s’ajoute à la maîtrise de
-      sa propre plongée ?
+    question: Dans une palanquée autonome PA20 sans guide conduisant la plongée, quelle compétence d’assistance
+      chacun doit-il avoir acquise ?
     choices:
-    - text: Planifier en commun et être capable d’intervenir auprès d’un équipier en difficulté
+    - text: Intervenir et porter assistance à un équipier en difficulté
       correct: true
-    - text: Planifier en commun, l’assistance restant une compétence propre au guide
+    - text: Intervenir en relais d’un guide qui conduit la palanquée
       correct: false
-    - text: Surveiller son matériel, le contrôle du matériel des équipiers relevant seulement du DP
+    - text: Signaler au guide la difficulté et suivre sa conduite de la palanquée
       correct: false
-    - text: Maîtriser sa remontée, l’assistance étant exigée seulement pour l’aptitude PE40
-      correct: false
-    explanation: Les équipiers autonomes planifient ensemble leur plongée et participent à leur sécurité
-      collective. Leur formation comprend notamment l’intervention auprès d’un équipier en difficulté.
+    explanation: Les équipiers PA20 organisent leur plongée en commun et sont formés à intervenir et porter
+      assistance à un équipier en difficulté. En PE40 encadré, l’intervention en relais s’inscrit dans
+      une palanquée conduite par un guide. L’autonomie implique la participation de chacun à la sécurité
+      collective.
 - id: n2-organisation-plan-secours-001
   type: mcq
   deck: Réglementation
@@ -263,20 +299,26 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: En France, à quels groupes le plan de secours d’une plongée en établissement doit-il au
-      minimum être porté à connaissance ?
+    question: En France, quelle liste complète de fonctions doit connaître le plan de secours d’une plongée
+      en établissement ?
     choices:
-    - text: Au DP, aux encadrants et aux plongeurs autonomes
+    - text: Le DP, les personnes encadrant les palanquées et les plongeurs autonomes
       correct: true
-    - text: Au DP et aux encadrants, sans obligation envers les autonomes
+    - text: Le DP, les personnes encadrant les palanquées et les responsables légaux des mineurs
       correct: false
-    - text: Au DP et aux autonomes, sans obligation envers les encadrants
+    - text: Le DP, les plongeurs autonomes et les responsables légaux des mineurs
       correct: false
-    explanation: Le plan est écrit, adapté au lieu et à la plongée, régulièrement actualisé, et porté
-      à la connaissance du DP, des encadrants et des autonomes. Il précise comment alerter les secours,
-      leurs coordonnées et les procédures d’urgence en surface.
+    explanation: 'Le plan écrit, adapté au site et régulièrement actualisé, est porté à la connaissance
+      du directeur de plongée, des encadrants et des autonomes. L’autorisation éclairée du responsable
+      légal d’un mineur est une autre condition : elle ne remplace pas l’information des acteurs de cette
+      liste.'
 - id: n2-organisation-vhf-001
   type: mcq
   deck: Réglementation
@@ -296,21 +338,26 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: En France, un bateau support organise une plongée en mer et dispose d’un téléphone avec
-      du réseau. Quelle exigence de communication reste applicable ?
+    question: En France, dans quelle situation la VHF est-elle exigée pour la plongée en établissement,
+      en plus de l’exigence générale de moyen d’alerte ?
     choices:
-    - text: Une radio VHF doit être disponible à bord
+    - text: En mer, au départ d’une embarcation support de plongée
       correct: true
-    - text: Le téléphone dispense de VHF tant que le réseau est disponible
+    - text: En milieu naturel, au départ de toute embarcation support de plongée
       correct: false
-    - text: La VHF n’est exigée que si le bateau s’éloigne de la côte
+    - text: En mer, pour toute mise à l’eau même depuis le rivage
       correct: false
-    - text: La VHF n’est exigée que si des paliers sont prévus
-      correct: false
-    explanation: Une radio VHF est nécessaire pour une plongée en mer au départ d’une embarcation support.
-      La présence d’un téléphone avec du réseau ne remplace pas cette exigence.
+    explanation: La VHF est nécessaire en mer au départ d’une embarcation support. Le texte exige plus
+      généralement un moyen de communication permettant de prévenir les secours. Le champ VHF ne doit
+      pas être confondu avec celui du rappel depuis une embarcation en milieu naturel ; un téléphone ne
+      remplace pas la VHF dans son champ obligatoire.
 - id: n2-organisation-eau-couverture-001
   type: mcq
   deck: Réglementation
@@ -331,19 +378,26 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Pour une plongée organisée en France par un établissement, quelle combinaison d’eau et de
-      protection thermique doit être disponible avec le matériel de secours ?
+    question: En France, quelle paire fait partie du matériel de secours à tenir disponible pour une plongée
+      en établissement ?
     choices:
-    - text: De l’eau douce potable et une couverture isothermique
+    - text: Eau douce potable et couverture isothermique
       correct: true
-    - text: De l’eau douce potable, la couverture isothermique étant facultative
+    - text: Eau douce potable et couverture chauffante électrique
       correct: false
-    - text: Une couverture isothermique, l’eau potable étant facultative
+    - text: Sérum physiologique et couverture isothermique
       correct: false
-    explanation: L’eau douce potable et la couverture isothermique doivent être disponibles sur le lieu
-      de mise à l’eau ou d’immersion, parmi le matériel de secours.
+    explanation: Le matériel prévu comprend de l’eau douce potable et une couverture isothermique sur
+      le lieu de mise à l’eau ou d’immersion. Une couverture chauffante ne remplace pas l’équipement nommé
+      ; du sérum physiologique ne remplace pas l’eau potable destinée à être disponible. Les autres éléments
+      de secours restent également requis.
 - id: n2-organisation-oxygene-capacite-001
   type: mcq
   deck: Réglementation
@@ -364,6 +418,11 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Pour une plongée organisée en France, jusqu’à quel moment la réserve d’oxygène médical doit-elle
@@ -400,20 +459,26 @@ cards:
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Pour une plongée en établissement en France, quand faut-il disposer d’un modèle de fiche
-      d’évacuation ?
+    question: En France, quel modèle de document fait partie du matériel d’assistance à tenir disponible
+      pour une plongée en établissement ?
     choices:
-    - text: Dès l’organisation de la plongée, parmi le matériel d’assistance disponible
+    - text: Le modèle réglementaire de fiche d’évacuation d’une victime
       correct: true
-    - text: Lorsqu’un accident est confirmé, en demandant alors le modèle aux secours
+    - text: Le modèle fédéral de déclaration d’accident à l’assureur
       correct: false
-    - text: Lorsqu’une évacuation est décidée, en utilisant alors le document fourni par le transporteur
+    - text: Le modèle médical de certificat d’absence de contre-indication
       correct: false
-    explanation: Le modèle de fiche d’évacuation fait partie du matériel d’assistance à tenir disponible.
-      Il sert à transmettre les renseignements utiles à la prise en charge d’une victime ; sa disponibilité
-      ne dépend pas de la survenue d’un accident.
+    explanation: Des fiches d’évacuation conformes au modèle réglementaire doivent être disponibles avant
+      la plongée. Elles transmettent les renseignements utiles à la prise en charge d’une victime. Une
+      déclaration à l’assureur ou un certificat d’absence de contre-indication (CACI) remplit une autre
+      fonction et ne remplace pas ces fiches.
 - id: n2-organisation-bloc-secours-001
   type: mcq
   deck: Réglementation
@@ -433,22 +498,26 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: Pour une plongée organisée à l’air en France, quelle configuration répond à l’exigence de
-      bouteille de secours disponible sur le site ?
+    question: Pour une plongée à l’air organisée en France, quelle configuration satisfait l’exigence
+      de bouteille de secours du matériel d’assistance sur le site ?
     choices:
-    - text: Un bloc d’air de secours avec son détendeur monté
+    - text: Un bloc d’air disponible avec un détendeur complet monté
       correct: true
-    - text: Un bloc d’air de secours sans détendeur, avec transfert prévu depuis un bloc personnel
+    - text: Un bloc d’air disponible avec un premier étage monté mais sans deuxième étage
       correct: false
-    - text: Un bloc d’oxygène médical en remplacement du bloc d’air de secours
+    - text: Un bloc d’oxygène médical disponible avec son manodétendeur d’oxygénothérapie
       correct: false
-    - text: Un bloc d’air personnel supplémentaire sans détendeur monté
-      correct: false
-    explanation: La bouteille d’air de secours doit être équipée de son détendeur. Pour une plongée avec
-      d’autres mélanges, le matériel de secours en gaz doit être adapté à la plongée et prévu par le plan
-      de secours ; le stock d’oxygène médical a une autre fonction.
+    explanation: La bouteille d’air de secours est équipée de son détendeur pour fournir un gaz respirable.
+      Un premier étage sans deuxième étage ne constitue pas un détendeur complet utilisable par un plongeur.
+      L’oxygène médical et son manodétendeur servent à l’oxygénothérapie de secours en surface et ne remplacent
+      pas cette bouteille d’air.
 - id: n2-organisation-rappel-bateau-001
   type: mcq
   deck: Réglementation
@@ -471,6 +540,11 @@ cards:
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Pour une plongée organisée en France par un établissement, quel est le champ complet des
@@ -503,6 +577,11 @@ cards:
     - 'Code du sport — A322-78, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En milieu naturel en France, le jeu de tables collectif doit être disponible sur le lieu
@@ -540,6 +619,11 @@ cards:
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En milieu naturel en France, quelle exigence minimale s’applique au système permettant à
@@ -574,22 +658,27 @@ cards:
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: En milieu naturel en France, quelle est l’exigence minimale de fourniture de gaz à un équipier
-      pour chaque plongeur autonome, et pour chaque plongeur encadré à plus de 20 m ?
+    question: En milieu naturel en France, quelle configuration représente le minimum imposé à un autonome
+      pour alimenter un équipier, en complément de son détendeur principal ?
     choices:
-    - text: Un dispositif fournissant du gaz à un équipier par un embout distinct
+    - text: Un deuxième étage de secours raccordé au premier étage personnel
       correct: true
-    - text: Deux détendeurs complets sur deux sorties indépendantes pour chaque plongeur
+    - text: Un détendeur complet supplémentaire raccordé à une autre sortie du bloc
       correct: false
-    - text: Un embout unique que les deux plongeurs utilisent alternativement
+    - text: Un détendeur complet supplémentaire raccordé à un deuxième bloc
       correct: false
-    - text: Un équipement de gaz uniquement chez le guide, quand la palanquée est encadrée
-      correct: false
-    explanation: Chaque plongeur concerné doit pouvoir fournir du gaz à un équipier sans partager le même
-      embout, par exemple avec un deuxième étage de secours. Deux sorties indépendantes et deux détendeurs
-      complets constituent l’exigence propre à l’encadrant, pas le minimum imposé à chaque plongeur autonome ou encadré à plus de 20 m.
+    explanation: L’exigence pour l’autonome est de fournir du gaz à un équipier sans partage d’embout.
+      Un deuxième étage de secours sur le même premier étage peut y répondre. Deux détendeurs complets
+      sur sorties indépendantes sont exigés pour l’encadrant ; un second bloc n’est pas le minimum imposé
+      à chaque autonome. L’exigence sans partage concerne aussi chaque plongeur encadré au-delà de 20
+      m.
 - id: n2-organisation-parametres-personnels-001
   type: mcq
   deck: Réglementation
@@ -609,24 +698,27 @@ cards:
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: En milieu naturel en France, deux plongeurs autonomes partagent le même profil de plongée.
-      Un seul équipement de contrôle, porté par l’un et consulté par les deux, suffit-il pour la profondeur,
-      la durée et la remontée ?
+    question: En milieu naturel en France, deux autonomes suivent le même profil. Quelle répartition répond
+      à l’obligation de contrôler les caractéristiques personnelles de leur plongée et de leur remontée
+      ?
     choices:
-    - text: 'Non : chacun doit disposer de ses équipements de contrôle personnels'
+    - text: Chacun porte ses équipements de contrôle, même si leurs profils sont identiques
       correct: true
-    - text: 'Oui : un ordinateur commun suffit avec la même profondeur et la même durée'
+    - text: Un équipier porte les équipements communs, si leurs plongées précédentes sont identiques
       correct: false
-    - text: 'Oui : un ordinateur commun suffit si les plongées précédentes ont été identiques'
+    - text: Un équipier porte les équipements communs, si tous deux restent sans palier obligatoire
       correct: false
-    - text: 'Oui : un ordinateur commun suffit si les deux plongeurs restent sans palier obligatoire'
-      correct: false
-    explanation: Chaque plongeur autonome et chaque plongeur encadré au-delà de 20 m doit disposer de
-      ses équipements personnels pour contrôler sa plongée et sa remontée. Un ordinateur personnel est
-      une solution courante. Le bloc doit aussi avoir un manomètre ou un système équivalent pour indiquer
-      sa pression. L’ordinateur du guide ou de l’équipier ne remplace pas le contrôle personnel requis.
+    explanation: Chaque autonome doit disposer de ses équipements de contrôle personnels ; le même profil
+      ne dispense pas l’autre de cette obligation. Un ordinateur personnel est une solution courante.
+      La règle s’applique aussi à chaque plongeur encadré au-delà de 20 m. Le contrôle de pression de
+      la bouteille par manomètre ou système équivalent est une exigence distincte.
 - id: n2-organisation-encadrant-detendeurs-001
   type: mcq
   deck: Réglementation
@@ -644,6 +736,11 @@ cards:
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En milieu naturel en France, quelle est la configuration respiratoire minimale exigée pour
@@ -679,6 +776,11 @@ cards:
     - 'Code du sport — A322-80, vérifié le 2026-10-05 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393859'
     - 'Revue factuelle et pédagogique : docs/reviews/02-organisation.md'
     - 'Revue intégrale de clarté et d’unicité du 2026-10-06 : docs/reviews/CLARTE_GLOBALE.md'
+    - 'Vérification du 2026-10-10 — Code du sport — A322-72/73/74/78/80, section en vigueur affichée au
+      2026-10-08, consultation 2026-10-10 ; dispositions citées datées 2012 sauf A322-73 depuis 2025-10-31
+      : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
+    - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
+      ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En milieu naturel en France, quel est le minimum exigé pour la disponibilité d’un parachute
