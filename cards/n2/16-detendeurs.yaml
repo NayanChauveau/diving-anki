@@ -798,3 +798,33 @@ cards:
     explanation: '**9 bar : 14 − 5.** L’ambiante est 5 bar absolus ; l’écart MP–ambiante reste distinct
       de chacune des deux pressions absolues. 10 bar utilise 4 bar hydrostatiques au lieu des 5 bar absolus
       ; 14 bar conserve à tort la valeur absolue comme écart.'
+- id: n2-detendeurs-membrane-isolation-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::16
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 33
+    - 'SCUBAPRO — notice des détendeurs, juillet 2020 §5.1, Balanced diaphragm, p.8 : https://scubapro.johnsonoutdoors.com/sites/default/files/2022-08/scp_productmanual_regulator_vL2020-07_en.pdf
+      ; §4.1–4.2 ; architecture vérifiée le 2026-10-11.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C1 le 2026-10-11 : sens des échanges optiques, calcul inverse 3/(3/4),
+      absorption, flottabilité et mécanismes ; leurres faibles retirés avant validation.'
+    fact_check: pass
+  fr:
+    question: Dans un premier étage SCUBAPRO à membrane compensée, quelle partie est isolée de l’eau ambiante
+      par la membrane de commande ?
+    choices:
+    - text: Le mécanisme interne qui commande le passage du gaz de haute à moyenne pression
+      correct: true
+    - text: L’ensemble du premier étage, y compris sa chambre de compensation extérieure
+      correct: false
+    explanation: 'La membrane transmet l’effort de commande tout en séparant le mécanisme interne de l’eau
+      ambiante. Une chambre extérieure peut rester en contact avec l’eau : une membrane ne signifie pas
+      que tout le premier étage est étanche à l’eau.'

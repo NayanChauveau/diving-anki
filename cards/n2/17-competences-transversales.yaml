@@ -334,3 +334,342 @@ cards:
     explanation: La planification FFESSM à l’air se fait sans paliers profonds supplémentaires. Cette
       règle ne supprime ni les paliers de décompression obligatoires ni les arrêts d’une procédure de
       rattrapage applicable à un incident. Le contexte de l’arrêt est donc déterminant.
+- id: n3-orientation-reperes-compas-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-03
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
+      recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
+      mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: La palanquée doit revenir en sens inverse le long du même tombant. À l’aller elle suivait
+      le cap 090°. La visibilité baisse ; un équipier reconnaît une paroi semblable et propose de la longer
+      au cap 090°. Quel contrôle du retour est pertinent ?
+    choices:
+    - text: Rechercher le cap 270° et confronter la paroi aux repères mémorisés
+      correct: true
+    - text: Rechercher le cap 090° et confronter la paroi à la profondeur de l’aller
+      correct: false
+    - text: Rechercher le cap 000° et confronter la paroi à la lumière venant de surface
+      correct: false
+    explanation: 'Le retour en sens inverse demande le cap opposé : 090° + 180° = 270°. Une paroi ressemblante
+      et une profondeur identique ne prouvent pas qu’on a retrouvé le bon tombant. Confronter le compas
+      et les repères naturels ; 090° conserve le sens de l’aller, et 000° n’est pas son cap inverse.'
+- id: n3-orientation-perte-limite-gaz-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-05
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
+      recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
+      mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: 'Exercice de recherche après perte de repères : une palanquée dispose de 550 L de gaz utilisable,
+      dont 400 L nécessaires au repli convenu. La recherche reste à 20 m, avec 1 bar en surface, 1 bar
+      ajouté tous les 10 m et un débit respiratoire de 20 L/min ramené à la surface. Quelle durée maximale
+      de recherche ce budget nominal laisse-t-il ?'
+    choices:
+    - text: 2,5 min
+      correct: true
+    - text: 3,75 min
+      correct: false
+    - text: 9,17 min
+      correct: false
+    explanation: 'La recherche dispose de 550 − 400 = 150 L. À 20 m, la pression absolue vaut 3 bar et
+      la consommation 20 × 3 = 60 L/min : 150 / 60 = 2,5 min. Les 3,75 min utilisent la pression relative
+      de 2 bar ; 9,17 min consomme aussi le gaz réservé au repli. La perte de repères ne rend pas disponible
+      le gaz nécessaire au retour.'
+- id: n3-orientation-trafic-surface-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-06
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
+      recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
+      mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: Une dérive impose des paliers en pleine eau loin du mouillage, près d’un passage de bateaux.
+      Quel moyen permet de signaler depuis la palanquée sa position avant l’émersion ?
+    choices:
+    - text: Un parachute de signalisation déployé selon la procédure maîtrisée
+      correct: true
+    - text: Le pavillon Alpha maintenu sur le bateau de plongée au mouillage
+      correct: false
+    explanation: Le parachute matérialise la position de la palanquée sous l’eau. Le pavillon Alpha annonce
+      une activité de plongée autour du bateau qui le porte ; resté au mouillage, il ne localise pas la
+      palanquée dérivée. La remontée finale reste contrôlée, avec observation des dangers de surface et
+      récupération préparée.
+- id: n3-milieu-sediments-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-07
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
+      le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
+      ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: Une palanquée traverse un fond meuble et commence à soulever des sédiments. L’espace au-dessus
+      est libre. Quelle combinaison d’assiette et de palmage limite la remise en suspension ?
+    choices:
+    - text: Corps horizontal, palmes éloignées du fond, propulsion dirigée loin des sédiments
+      correct: true
+    - text: Tête relevée, palmes plus basses que le corps, battements dirigés vers les sédiments
+      correct: false
+    - text: Corps horizontal, palmes au ras du fond, battements plus rapides et plus courts
+      correct: false
+    explanation: L’assiette horizontale, une distance suffisante au fond et une propulsion dirigée loin
+      du sédiment limitent sa remise en suspension. Une tête relevée avec des palmes basses dirige le
+      palmage vers le fond ; des battements plus courts mais rapides au ras du fond peuvent également
+      soulever les sédiments.
+- id: n3-milieu-eclairage-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-08
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
+      explicites
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
+      le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
+      ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: Pour observer une faune fixée à courte distance, quelle pratique d’éclairage limite le dérangement
+      tout en permettant l’observation ?
+    choices:
+    - text: Adapter l’intensité au besoin et limiter la durée d’exposition
+      correct: true
+    - text: Maintenir une forte intensité pour provoquer une habituation des organismes
+      correct: false
+    explanation: Même fixés, les organismes peuvent subir une nuisance due à l’éclairage. Adapter la lumière
+      à l’observation et limiter l’exposition ; maintenir volontairement un faisceau puissant pour provoquer
+      une habituation n’est pas un comportement respectueux du milieu. Le MFT demande de limiter l’éclairage
+      et de rester discret.
+- id: n3-milieu-posidonie-nature-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-09
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
+    - DORIS — Posidonia oceanica, fiche 265, mise à jour 21/07/2026, description ; https://doris.ffessm.fr/ref/specie/265
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
+      le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
+      ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: À quel groupe biologique appartient la posidonie méditerranéenne, Posidonia oceanica ?
+    choices:
+    - text: Aux plantes à fleurs
+      correct: true
+    - text: Aux algues vertes
+      correct: false
+    - text: Aux algues brunes
+      correct: false
+    explanation: La posidonie est une plante marine à fleurs, avec racines, rhizomes et feuilles. Elle
+      est endémique de Méditerranée et forme des herbiers. Sa couleur verte et sa vie sous l’eau ne suffisent
+      pas à la classer parmi les algues ; ses organes et sa reproduction la distinguent de celles-ci.
+- id: n3-milieu-posidonie-mouillage-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-10
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.12,14
+    - DORIS — Posidonia oceanica, fiche 265, biologie et menaces, mise à jour 21/07/2026 ; https://doris.ffessm.fr/ref/specie/265
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - OFB — Les herbiers de posidonies, pratiques de mouillage ; https://ofb.gouv.fr/les-herbiers-de-posidonies
+      ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
+    - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
+      le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
+      ; sources factuelles antérieures conservées.'
+    fact_check: pass
+  fr:
+    question: Pourquoi le choix d’un mouillage hors d’un herbier de posidonie protège-t-il cet habitat
+      méditerranéen ?
+    choices:
+    - text: L’ancre et la chaîne peuvent arracher les rhizomes, dont la croissance est lente
+      correct: true
+    - text: La chaîne brise des feuilles, dont le renouvellement suffit à restaurer rapidement l’herbier
+      correct: false
+    - text: L’ancre disperse des fragments, dont la croissance restaure rapidement l’herbier
+      correct: false
+    explanation: 'Ancre et chaîne peuvent endommager les plantes et la structure de l’herbier, notamment
+      en arrachant les rhizomes. Leur croissance horizontale est lente, de l’ordre de 3 à 6 cm par an
+      : renouveler des feuilles ou disperser des fragments ne restaure pas rapidement un herbier arraché.
+      Rechercher les mouillages autorisés et les dispositifs prévus pour le site.'
+- id: n2-planification-premiere-limite-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::17
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 30
+    - 'MFT N2 FFESSM mai 2026 p.12, paramètres prédéfinis d’autonomie en air et désaturation : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; N2-S04 p.30, critères gaz/temps. Vérification le 2026-10-11 : seuils imposés pour l’exercice,
+      aucune réserve universelle.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
+      successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
+      limitée au milieu naturel pour exclure les collections/élevages licites.'
+    fact_check: pass
+  fr:
+    question: 'Un exercice fixe deux limites de départ du retour : au plus tard 18 min après immersion,
+      ou dès qu’un équipier atteint 120 bar. À 14 min, l’un affiche 118 bar et l’autre 145 bar. Aucun
+      incident. Quand commencer le retour ?'
+    choices:
+    - text: Maintenant, puisque la limite de gaz d’un équipier est atteinte
+      correct: true
+    - text: À 18 min, puisque la limite de temps n’est pas encore atteinte
+      correct: false
+    - text: Quand les deux équipiers atteignent 120 bar, puisque le retour est commun
+      correct: false
+    explanation: Le premier critère atteint déclenche le retour collectif. Ici, 118 bar est déjà inférieur
+      au seuil de 120 bar chez un équipier. Attendre 18 min dépasserait sa limite de gaz ; attendre que
+      l’autre atteigne aussi 120 bar retarderait encore le retour. Les seuils sont convenus pour la palanquée,
+      pas appliqués séparément à deux retours indépendants.
+- id: n3-milieu-anemone-contact-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre-n3::12
+  status: reviewed
+  source_id: N3-12-11
+  review:
+    sources:
+    - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
+    - DORIS — Anemonia viridis, fiche 111, mise à jour 24/08/2025, alimentation/cnidocytes ; https://doris.ffessm.fr/ref/specie/111
+    - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
+      conservés'
+    - 'Vérification 2026-10-11 lot 22 : DORIS Anemonia viridis fiche 111, alimentation/cnidocytes ; MFT
+      N3 décembre 2025 p. 9 (3 m) et p. 14 (refus du nourrissage). Carte conservée après relecture du
+      recto, de chaque choix et du corrigé.'
+    - 'N2-S04 p.31, risques de contact avec la faune ; MFT N2 mai 2026 p.10/19, connaissance des dangers
+      du milieu. Le mécanisme des cnidaires est interrogé sur l’anémone déjà sourcée, sans nouvelle carte
+      doublon pour les méduses. Relecture individuelle du lot T3 le 2026-10-11 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md.'
+    fact_check: pass
+  fr:
+    question: Sur un site méditerranéen, quel mécanisme rend le contact avec les tentacules d’une anémone
+      verte (Anemonia viridis) irritant ?
+    choices:
+    - text: Le déclenchement de cellules urticantes au contact
+      correct: true
+    - text: La libération de bactéries qui provoquent immédiatement la brûlure
+      correct: false
+    - text: La pénétration de minuscules épines calcaires dans la peau
+      correct: false
+    explanation: Les tentacules possèdent des cnidocytes, cellules urticantes servant notamment à capturer
+      les proies. Une apparence souple et une fixation au fond ne rendent pas le contact sans risque ;
+      on observe sans toucher.

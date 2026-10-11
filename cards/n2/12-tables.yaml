@@ -811,3 +811,145 @@ cards:
       Arrêts : 1 + 4 = 5 min. Total ≈ 7,47 min, arrondi à 8 min. On arrondit la somme, pas chaque trajet
       séparément. 7 min arrondit au plus proche ; 9 min résulte ici de 10 m/min jusqu’au premier arrêt
       : 22/10 + 5 + 1 = 8,2 min, arrondi à 9 min.'
+- id: n2-tables-consecutive-calcul-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::12
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S05 — Tables MN90-FFESSM, Éditions GAP / Alain Foret, novembre 2013, p. 2/5
+    - 'FFESSM — Tables et mode d’emploi juillet 2005, p.2 et 5 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      ; règle et valeurs contrôlées le 2026-10-11. N2-S05 p.2/5, document de novembre 2013 croisé avec
+      cette publication primaire.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
+      successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
+      limitée au milieu naturel pour exclure les collections/élevages licites.'
+    fact_check: pass
+  fr:
+    question: 'Exercice MN90 : une première immersion dure 25 min avant remontée à une profondeur maximale
+      de 18 m. Après 8 min en surface, la seconde dure 10 min avant remontée et atteint 20 m. Les remontées
+      sont normales. Avec quelle profondeur et quelle durée entrer dans la table pour la seconde ?'
+    choices:
+    - text: 20 m et 35 min
+      correct: true
+    - text: 20 m et 45 min
+      correct: false
+    - text: 18 m et 35 min
+      correct: false
+    explanation: 'L’intervalle de 8 min est inférieur à 15 min : les immersions sont consécutives. Retenir
+      le maximum des deux profondeurs, soit 20 m, et additionner les durées, soit 25 + 10 = 35 min. Les
+      8 min de surface ne sont pas ajoutées ; les compter donnerait 43 min, puis la ligne 45 min. 18 m
+      omet le maximum de la seconde immersion.'
+- id: n2-tables-successive-moins-profond-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::12
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S05 — Tables MN90-FFESSM, Éditions GAP / Alain Foret, novembre 2013, p. 2/5
+    - 'FFESSM — Tables et mode d’emploi juillet 2005, p.2 et 5 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      ; règle et valeurs contrôlées le 2026-10-11. N2-S05 p.2/5, document de novembre 2013 croisé avec
+      cette publication primaire.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
+      successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
+      limitée au milieu naturel pour exclure les collections/élevages licites.'
+    fact_check: pass
+  fr:
+    question: 'Exercice MN90 : la deuxième plongée était prévue à 20 m, avec une majoration de 10 min.
+      Elle atteint finalement au maximum 17 m et dure 25 min avant une remontée normale. On choisit de
+      conserver la majoration initiale. Quelle entrée retenir dans la table principale ?'
+    choices:
+    - text: 20 m et 35 min
+      correct: true
+    - text: 18 m et 35 min
+      correct: false
+    - text: 20 m et 25 min
+      correct: false
+    explanation: En conservant la majoration calculée pour 20 m, on conserve aussi cette profondeur de
+      calcul lorsque la plongée réelle est moins profonde. Durée fictive = 25 + 10 = 35 min. Lire 18 m
+      avec la même majoration associerait une profondeur réduite à une majoration calculée pour 20 m ;
+      lire 25 min supprimerait l’azote résiduel.
+- id: n2-tables-successive-plus-profond-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::12
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S05 — Tables MN90-FFESSM, Éditions GAP / Alain Foret, novembre 2013, p. 2/5
+    - 'FFESSM — Tables et mode d’emploi juillet 2005, p.2 et 5 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      ; règle et valeurs contrôlées le 2026-10-11. N2-S05 p.2/5, document de novembre 2013 croisé avec
+      cette publication primaire.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
+      successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
+      limitée au milieu naturel pour exclure les collections/élevages licites.'
+    fact_check: pass
+  fr:
+    question: 'Exercice MN90 : la deuxième plongée était prévue à 20 m, avec une majoration de 10 min.
+      Elle atteint finalement au maximum 23 m et dure 25 min avant une remontée normale. On choisit de
+      conserver la majoration initiale. La table propose 22 et 25 m. Quelle entrée retenir ?'
+    choices:
+    - text: 25 m et 35 min
+      correct: true
+    - text: 20 m et 35 min
+      correct: false
+    - text: 25 m et 25 min
+      correct: false
+    explanation: 'Lorsque la profondeur réelle dépasse celle du calcul initial, on peut conserver cette
+      majoration mais on retient la profondeur réellement atteinte, arrondie au supérieur : 23 m donne
+      25 m. La durée fictive reste 25 + 10 = 35 min. 20 m ignore le dépassement ; 25 min ignore la majoration.'
+- id: n2-tables-gps-asterisque-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::12
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S05 — Tables MN90-FFESSM, Éditions GAP / Alain Foret, novembre 2013, p. 2/5
+    - 'FFESSM — Tables et mode d’emploi juillet 2005, p.2 et 5 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      ; règle et valeurs contrôlées le 2026-10-11. N2-S05 p.2/5, document de novembre 2013 croisé avec
+      cette publication primaire.'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
+      successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
+      limitée au milieu naturel pour exclure les collections/élevages licites.'
+    fact_check: pass
+  fr:
+    question: Dans la table principale MN90-FFESSM, certaines lignes comportent « * » à la place d’une
+      lettre dans la colonne GPS. Que signifie ce signe pour une plongée successive ?
+    choices:
+    - text: La plongée successive est interdite après cette ligne
+      correct: true
+    - text: Le groupe à utiliser pour la successive est le dernier groupe tabulé, P
+      correct: false
+    - text: Le groupe à utiliser pour la successive se calcule dans le tableau I
+      correct: false
+    explanation: L’astérisque signifie « plongée successive interdite ». Il ne remplace pas une lettre
+      de groupe exploitable dans le tableau I. GPS désigne le groupe de plongée successive ; la limite
+      générale de deux plongées par 24 heures ne rend pas toutes les premières plongées compatibles avec
+      une successive.

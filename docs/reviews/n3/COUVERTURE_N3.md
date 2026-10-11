@@ -1,3 +1,7 @@
+> Actualisation du 11/10/2026 : **461 notes**, **339 dans N2**, **122 compléments dans N3** ;
+> **357 objectifs N3**, dont **235 communs**. Le [recoupement des PDF N2](../RECOUPEMENT_N2_PDF_2026-10-11.md)
+> décrit les 18 reclassements et 13 ajouts. Les bilans datés ci-dessous restent historiques.
+
 # Clôture du plan N3 — 6 octobre 2026
 
 > Complété par le [recoupement direct des PDF du 7 octobre](RECOUPEMENT_PDF_2026-10-07.md).

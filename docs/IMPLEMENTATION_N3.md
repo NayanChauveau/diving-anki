@@ -1,10 +1,12 @@
-# N3 réalisé — bilan actualisé le 7 octobre 2026
+# N3 réalisé — bilan actualisé le 11 octobre 2026
 
-Le paquet contient **344 cartes N3**, dont **204 communes N2/N3** et **140 nouvelles**.
+Le programme comprend **357 cartes N3**, dont **235 communes N2/N3** et **122 compléments rangés dans N3**.
 [Compléments du recoupement PDF](reviews/n3/COMPLEMENTS_PDF_2026-10-07.md) ·
 [Couverture et revue finales](reviews/n3/COUVERTURE_N3.md) ·
 [Issue des 147 objectifs détaillés](reviews/n3/OBJECTIFS_N3.csv).
 Les estimations et le tri initial ci-dessous sont conservés comme historique de préparation.
+Le [recoupement des nouveaux PDF N2 du 11 octobre](reviews/RECOUPEMENT_N2_PDF_2026-10-11.md)
+a reclassé 18 cartes N3 dans la base N2 et ajouté 13 cartes communes, sans duplication ni changement d’ID.
 
 # Plan détaillé d’implémentation — théorie N3 FFESSM en français
 

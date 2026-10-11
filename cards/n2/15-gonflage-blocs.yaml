@@ -502,3 +502,37 @@ cards:
       la remplace pas. Le bloc doit être retiré du service jusqu’au contrôle requis et à une remise en
       service conforme. TIV signifie technicien en inspection visuelle ; sa fonction ne se confond pas
       avec la requalification.
+- id: n2-gonflage-blocs-filtration-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N2
+  - N3
+  tags:
+  - chapitre::15
+  - complement-pdf::2026-10-11
+  status: reviewed
+  review:
+    sources:
+    - N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 32
+    - 'BAUER — système I-Series, P100 (séparateurs eau-huile et cartouches), consulté le 2026-10-11 :
+      https://www.bauer-kompressoren.de/en_en/i-baureihe ; documentation fabricante indexée Product overview
+      (les anciennes URL PDF redirigent désormais vers le site).'
+    - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
+    - 'Critique distincte du lot C1 le 2026-10-11 : sens des échanges optiques, calcul inverse 3/(3/4),
+      absorption, flottabilité et mécanismes ; leurres faibles retirés avant validation.'
+    fact_check: pass
+  fr:
+    question: Dans une station de gonflage d’air respirable, quelle répartition des fonctions distingue
+      les étages de compression du système de traitement de l’air ?
+    choices:
+    - text: 'Étages : augmenter la pression ; traitement : réduire eau, huile et contaminants ciblés'
+      correct: true
+    - text: 'Étages : augmenter la pression ; traitement : seulement séparer les condensats d’eau'
+      correct: false
+    - text: 'Étages : augmenter la pression ; traitement : seulement refroidir l’air comprimé'
+      correct: false
+    explanation: Les étages compriment successivement l’air. Séparateurs et cartouches de traitement réduisent
+      l’eau, l’huile et les contaminants pour lesquels ils sont conçus. Refroidir l’air facilite notamment
+      la séparation des condensats, mais ne remplace pas la purification. La prise d’air et l’entretien
+      restent déterminants.

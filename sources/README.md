@@ -8,6 +8,11 @@ ni les joindre aux packages Anki ; publier les références, versions et résult
 La correspondance des documents et des objectifs est conservée dans
 [le plan N2](../docs/IMPLEMENTATION_N2.md) et dans les références des cartes/revues.
 
+Les deux PDF récupérés le 11 octobre 2026 sont dans `n2-complements-2026-10-11/` :
+`theorie-n2.pdf` (36 pages, cours du 01/07/2026) et `tables-mn90.pdf` (8 pages, novembre 2013).
+[Le recoupement public](../docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md) conserve
+versions, empreintes, couverture et contradictions ; les fichiers restent privés.
+
 ## N3
 
 Les 12 PDF téléchargés le 6 octobre 2026 sont dans `n3/` (290 pages).

@@ -752,3 +752,12 @@ Le total des objectifs suivis est désormais 334. Les bilans de lots précédent
 
 Voir [la revue finale](reviews/REVUE_FINALE_N2.md) et
 [le registre des IDs retirés](reviews/RETIREMENTS_N2.yaml).
+
+## Extension par recoupement des PDF — 11 octobre 2026
+
+Les [44 pages des deux nouveaux supports](reviews/RECOUPEMENT_N2_PDF_2026-10-11.md)
+ont été recoupées avec le catalogue N2+N3. **339 cartes sont désormais rangées dans N2** :
+308 cartes antérieures, 18 cartes existantes reprises du paquet N3 et 13 nouveaux QCM.
+Les reprises gardent leurs IDs et leurs sources factuelles ; les tableaux et objectifs
+historiques ci-dessus ne sont pas renumérotés. Le rapport détaille les nouveaux objectifs
+(vision, surface, matériel, cas MN90, limites de retour et milieu) et les passages rejetés.

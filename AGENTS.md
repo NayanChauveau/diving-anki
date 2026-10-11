@@ -162,8 +162,8 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   Le sel historique N2 du GUID est permanent, même pour une nouvelle carte N3/N4.
   Ajouter des niveaux ne recrée pas une note ; les tags `level::N2/N3/N4` reflètent tous
   les niveaux de la carte, dans le paquet unique `diving-fr.apkg`. Aucun export séparé par niveau.
-- Paquets classiques uniquement : `Plongée::N2` contient la base N2 (308 cartes),
-  `Plongée::N3` les compléments N3 (140 cartes). Une carte commune reste au plus petit
+- Paquets classiques uniquement : `Plongée::N2` contient la base N2 (339 cartes),
+  `Plongée::N3` les compléments N3 (122 cartes). Une carte commune reste au plus petit
   niveau de `levels` (N2 avant N3 avant N4), avec tous ses tags de niveau et un seul
   historique. Aucun dossier Collection commune, aucun paquet filtré dans le workflow.
   Catégories thématiques sous chaque niveau ; elles peuvent différer si nécessaire.
@@ -213,7 +213,7 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
 
 Consulter [la couverture N3](docs/reviews/n3/COUVERTURE_N3.md),
 [le recoupement des PDF](docs/reviews/n3/RECOUPEMENT_PDF_2026-10-07.md) et le CSV des objectifs
-avant tout ajout. Le catalogue compte 448 notes, dont 204 communes et 140 créations N3.
+avant tout ajout. Le catalogue compte 461 notes, dont 235 communes et 122 compléments rangés dans N3.
 Les douze modules du plan ne sont pas douze nouveaux sous-decks. Réutiliser les cartes
 de tables, GF, secours et matériel à leur ID existant. Respecter les contextes fabricant,
 air et établissement ; ne pas faire des hypothèses numériques une procédure réelle.
@@ -226,12 +226,12 @@ de proposer une carte. Revalider les cours anciens avec les sources primaires ac
 
 Les compléments issus du recoupement PDF du 7 octobre sont suivis dans
 [COMPLEMENTS_PDF_2026-10-07.md](docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md).
-Le catalogue courant compte 448 cartes : 308 de base N2 et 140 compléments N3.
+Le catalogue courant compte 461 cartes : 339 de base N2 et 122 compléments N3.
 
 ## Revue approfondie N3 — 10 et 11 octobre 2026
 
 Consulter [la revue par lots](docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md)
-avant de reprendre les 140 compléments et les 204 cartes communes.
+pour l’inventaire historique de 140 compléments et 204 cartes communes avant le reclassement N2.
 Pour une revue approfondie, travailler séquentiellement par lots de huit cartes au
 maximum : lecture individuelle, contrôle des sources, corrections, seconde critique,
 puis clôture du lot avant le suivant. Consigner un verdict par ID en Markdown ;
@@ -245,3 +245,14 @@ un inventaire automatique ou un build réussi ne remplace pas cette lecture.
   notice : une périodicité d'entretien peut différer entre matériel air et Nitrox.
 - Si deux publications primaires divergent, relever les formulations et versions,
   puis justifier précisément la résolution dans la revue avant publication.
+
+## Nouveaux supports N2 — 11 octobre 2026
+
+Consulter [le recoupement des 44 pages](docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md)
+avant de reprendre les cours N2-S04 (juillet 2026) et N2-S05 (novembre 2013).
+Ils ont conduit à 18 reprises N3 vers N2 et 13 ajouts : les IDs `n3-*` reclassés restent
+permanents, avec `levels: [N2, N3]`. Ne pas recréer leurs objectifs sous un ID `n2-*`.
+Une date récente de cours n’exclut pas des règles anciennes ni des erreurs physiques.
+Ne pas reprendre les recettes de panne ordinateur, délais avion universels ou conseils
+de réglage GF écartés dans cette revue. L’ajout d’une source ne remplace pas la validation
+avec le référentiel et le fabricant. Les rapports de clôture antérieurs restent datés.

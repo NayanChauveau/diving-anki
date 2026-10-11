@@ -4,13 +4,13 @@ La structure livrée utilise uniquement des paquets classiques :
 
 ```text
 Plongée
-├── N2 — 308 cartes
+├── N2 — 339 cartes
 │   ├── Réglementation
 │   ├── Physique
 │   ├── Prévention des accidents
 │   ├── Désaturation
 │   └── Matériel et préparation
-└── N3 — 118 compléments
+└── N3 — 122 compléments
     ├── Réglementation
     ├── Physique
     ├── Prévention des accidents
@@ -30,8 +30,8 @@ au premier niveau présent, dans l’ordre N2, N3, N4. Ajouter N3 à une carte N
 pas et ne recrée pas sa note. Son ID reste identique même s’il commence par `n2-`.
 Le sel historique fixe `N2` dans `note_guid()` est permanent pour tous les niveaux.
 
-Le fichier unique `diving-fr.apkg` contient 426 notes : 308 en N2 et 118 en N3.
-Le programme N3 comporte 322 connaissances, dont 204 présentes dans N2. Le dossier N3
+Le fichier unique `diving-fr.apkg` contient 461 notes : 339 en N2 et 122 en N3.
+Le programme N3 comporte 357 connaissances, dont 235 présentes dans N2. Le dossier N3
 seul contient donc les compléments, pas tout le programme. Pour voir le programme
 complet dans Parcourir : `tag:diving-theory tag:level::N3`.
 Aucune carte N4 n’est actuellement incluse. N4 suivra cette logique de complément.
@@ -69,3 +69,11 @@ et ne retirer que des paquets vides. Elle ne fait pas partie du push courant.
 Les anciennes revues décrivent l’organisation à leur date ; ce guide fait référence
 pour la structure actuelle. Une Basic convertie en QCM conserve `anki_model: basic`,
 ses deux champs et son identité, comme décrit dans la revue QCM.
+
+## Reclassement du 11 octobre 2026
+
+Le [recoupement N2](reviews/RECOUPEMENT_N2_PDF_2026-10-11.md) ajoute N2 aux niveaux de
+18 cartes publiées jusque-là dans N3. Elles gardent leurs IDs `n3-*` et leur GUID. Le
+paquet généré les range désormais dans N2 ; une collection existante nécessite un
+déplacement ciblé lors du déploiement, distinct de `make push`, sans refaire toutes
+les destinations ni toucher aux échéances et historiques.
