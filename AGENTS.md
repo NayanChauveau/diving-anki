@@ -227,3 +227,21 @@ de proposer une carte. Revalider les cours anciens avec les sources primaires ac
 Les compléments issus du recoupement PDF du 7 octobre sont suivis dans
 [COMPLEMENTS_PDF_2026-10-07.md](docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md).
 Le catalogue courant compte 448 cartes : 308 de base N2 et 140 compléments N3.
+
+## Revue approfondie N3 — 10 et 11 octobre 2026
+
+Consulter [la revue par lots](docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md)
+avant de reprendre les 140 compléments et les 204 cartes communes.
+Pour une revue approfondie, travailler séquentiellement par lots de huit cartes au
+maximum : lecture individuelle, contrôle des sources, corrections, seconde critique,
+puis clôture du lot avant le suivant. Consigner un verdict par ID en Markdown ;
+un inventaire automatique ou un build réussi ne remplace pas cette lecture.
+
+- Un ancien protocole utilisé comme distracteur doit être décrit exactement :
+  son inapplicabilité au contexte ne justifie pas de lui attribuer une règle inventée.
+- Après modification du recto ou des choix, relire aussi le corrigé pour retirer
+  les anciennes unités, réponses, conditions ou réfutations devenues inadaptées.
+- Pour un fabricant, contrôler les variantes de matériel et d'usage dans la même
+  notice : une périodicité d'entretien peut différer entre matériel air et Nitrox.
+- Si deux publications primaires divergent, relever les formulations et versions,
+  puis justifier précisément la résolution dans la revue avant publication.

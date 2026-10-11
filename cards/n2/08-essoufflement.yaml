@@ -25,6 +25,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: À effort et débit ventilé comparables, quel changement du gaz explique l’augmentation du
@@ -67,6 +72,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: 'Dans un modèle simplifié, 150 mL de chaque inspiration ventilent les voies de passage sans
@@ -114,22 +124,28 @@ cards:
       ; objectif et identité conservés'
     - 'DAN World — Your Lungs and Diving, Alert Diver Q2 2017, ventilation alvéolaire et rétention de
       CO₂, consulté le 2026-10-10 : https://world.dan.org/alert-diver/article/your-lungs-and-diving/'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: Pendant un palmage intense, le détendeur fonctionne et la fréquence respiratoire augmente.
-      Quel bilan explique néanmoins une accumulation de CO₂ ?
+      Pour évaluer l’élimination pulmonaire du CO₂ face à l’effort, quel débit d’air est directement pertinent
+      ?
     choices:
-    - text: La production musculaire de CO₂ dépasse son élimination par la ventilation alvéolaire
+    - text: Le débit qui renouvelle effectivement l’air des alvéoles
       correct: true
-    - text: La ventilation totale augmente et garantit une élimination égale à la production musculaire
-        de CO₂
+    - text: Le débit total inspiré, y compris celui des voies de passage
       correct: false
-    - text: La consommation d’oxygène augmente et remplace l’élimination pulmonaire du CO₂
+    - text: Le débit de gaz prélevé dans le bloc, ramené à 1 bar
       correct: false
-    explanation: 'Les muscles produisent davantage de CO₂ pendant l’effort. Une respiration plus fréquente
-      ne garantit pas que la ventilation des alvéoles suive ce besoin : si l’élimination reste inférieure
-      à la production, le CO₂ s’accumule. Consommer de l’oxygène et éliminer le CO₂ sont deux échanges
-      différents ; un détendeur fonctionnel ne corrige pas ce déséquilibre.'
+    explanation: Le CO₂ produit par les muscles est éliminé par les échanges dans les alvéoles. C’est
+      leur renouvellement d’air, la ventilation alvéolaire, qu’il faut mettre en regard de cette production.
+      Le débit inspiré total inclut l’espace mort ; le débit prélevé ramené à 1 bar décrit la consommation
+      du bloc. Une fréquence accrue et un détendeur fonctionnel ne prouvent donc pas que l’élimination
+      suit la production de CO₂.
 - id: n2-essoufflement-air-pollue-001
   type: mcq
   anki_model: basic
@@ -156,6 +172,14 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - DAN Breathing Gas Contamination, https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/
+      et DAN World Breathing Gas Safety Basics, https://world.dan.org/safety-prevention/diver-safety/divers-blog/breathing-gas-safety-basics/
+      ; CO inodore / symptômes peu spécifiques / conserver le bloc pour analyse, vérifiés 2026-10-11.
     fact_check: pass
   fr:
     question: Plusieurs plongeurs présentent céphalées ou malaise après utilisation de blocs gonflés au
@@ -165,11 +189,10 @@ cards:
       correct: true
     - text: Le monoxyde de carbone nécessite une odeur huileuse perceptible dans le gaz
       correct: false
-    - text: Le monoxyde de carbone nécessite une pression de gonflage anormalement élevée
-      correct: false
-    explanation: 'Le monoxyde de carbone (CO) est inodore : une absence d’odeur ne l’exclut pas. Une pression
-      de gonflage normale ne renseigne pas sur la composition du gaz. Transmettre l’origine commune du
-      gonflage aux secours et conserver les blocs pour analyse, sans conclure à une cause certaine.'
+    explanation: 'Le monoxyde de carbone (CO) est inodore : une absence d’odeur ne permet pas de l’exclure.
+      Déclencher les secours, transmettre l’origine commune du gonflage et conserver les blocs pour analyse.
+      Les symptômes et cette origine commune orientent la recherche d’une contamination, sans suffire
+      à identifier avec certitude le gaz responsable.'
 - id: n2-essoufflement-signes-001
   type: mcq
   anki_model: basic
@@ -196,6 +219,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: Après un palmage soutenu, quel tableau indique surtout une difficulté ventilatoire à signaler
@@ -238,6 +266,10 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Pourquoi retirer son détendeur pendant un essoufflement ne facilite-t-il pas l’élimination
@@ -245,14 +277,11 @@ cards:
     choices:
     - text: Il supprime l’accès au gaz respirable sans corriger la ventilation alvéolaire
       correct: true
-    - text: Il augmente la fraction d’oxygène disponible en diminuant la résistance du gaz
-      correct: false
     - text: Il diminue la pression ambiante des alvéoles en supprimant la résistance du détendeur
       correct: false
     explanation: Éliminer le CO₂ demande une ventilation efficace avec une source de gaz respirable. Retirer
-      le détendeur expose à l’inhalation d’eau et ne réduit ni la pression ambiante ni ne fournit davantage
-      d’oxygène. Signaler la difficulté et demander l’aide de l’équipier permet d’organiser une sortie
-      contrôlée.
+      le détendeur expose à l’inhalation d’eau et ne diminue pas la pression ambiante à profondeur constante.
+      Signaler la difficulté et demander l’aide de l’équipier permet d’organiser une sortie contrôlée.
 - id: n2-essoufflement-premiers-signes-001
   type: mcq
   anki_model: basic
@@ -279,6 +308,10 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Une respiration haletante apparaît pendant un palmage soutenu, avec du gaz disponible et
@@ -323,6 +356,10 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Un plongeur essoufflé est assisté pendant une remontée avec un ordinateur. Quel principe
@@ -363,6 +400,10 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Breathing Gas Contamination, Signs and Symptoms : https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Dans un courant, le palmage nécessaire au trajet augmente fortement l’effort et la ventilation.

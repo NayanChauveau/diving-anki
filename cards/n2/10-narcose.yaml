@@ -62,6 +62,10 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Dans un mélange gazeux idéal, comment calcule-t-on la pression partielle d’un gaz ?
@@ -172,12 +176,16 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Un mélange idéal contient 21 % d’oxygène. Quelle est sa pression partielle d’oxygène à une
       pression totale de 3 bars absolus ?
-    explanation: '**0,63 bar.** PpO₂ = 0,21 × 3 = 0,63 bar. Il faut employer 21 % fourni, sans l’arrondir
-      à 20 %.'
+    explanation: '**0,63 bar.** PpO₂ = 0,21 × 3 = 0,63 bar. 0,60 bar arrondit à tort 21 % à 20 % ; 0,42
+      bar utilise 2 bar, la pression hydrostatique au lieu de la pression absolue.'
     choices:
     - text: 0,63 bar
       correct: true
@@ -248,6 +256,10 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Quel mécanisme distingue la narcose à l’air d’un accident de désaturation ?
@@ -287,6 +299,10 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Après plusieurs plongées à 30 m sans narcose ressentie, quelle valeur donner à cette expérience
@@ -294,7 +310,7 @@ cards:
     choices:
     - text: Elle décrit des plongées passées sans garantir les mêmes performances dans d’autres conditions
       correct: true
-    - text: Elle fixe un seuil personnel à 30 m en dessous duquel les performances restent préservées
+    - text: Elle fixe une profondeur personnelle de 30 m jusqu’à laquelle les performances restent préservées
       correct: false
     - text: Elle valide une acclimatation à 30 m permettant de conserver les performances dans d’autres
         conditions
@@ -328,6 +344,10 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: En profondeur, un plongeur se sent euphorique et très sûr de ses décisions. Quel lien entre
@@ -369,13 +389,16 @@ cards:
       ; identité et objectif conservés'
     - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
       ; objectif et identité conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      consultés le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Pour une plongée profonde à l’air, comment intégrer fatigue, anxiété et manque de pratique
       récente dans le choix du profil ?
     choices:
-    - text: Les considérer aussi comme des limites de vigilance et de coordination pour choisir la profondeur
-        et les tâches
+    - text: Réviser aussi la profondeur et les tâches, en tenant compte des capacités du jour
       correct: true
     - text: Les intégrer au budget de gaz, en conservant la profondeur et les tâches validées lors d’une
         plongée reposée
@@ -413,6 +436,11 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 37, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/),
+      Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      ressources médicaments et Decompression Illness, consultés le 11 octobre 2026 ; RIFAP mai 2026 p.
+      28–32.
     fact_check: pass
   fr:
     question: Avant une plongée profonde, un médicament provoque somnolence ou ralentissement. Que doit
@@ -453,6 +481,11 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 37, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/),
+      Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      ressources médicaments et Decompression Illness, consultés le 11 octobre 2026 ; RIFAP mai 2026 p.
+      28–32.
     fact_check: pass
   fr:
     question: Quel effet d’une remontée contrôlée vers moins profond explique généralement la diminution
@@ -461,8 +494,6 @@ cards:
     - text: La réduction de la pression partielle des gaz narcotiques respirés
       correct: true
     - text: L’élimination complète de l’azote dissous pendant les premiers mètres
-      correct: false
-    - text: L’augmentation de la pression partielle d’oxygène pendant les premiers mètres
       correct: false
     explanation: La pression absolue baisse et, à composition inchangée, les pressions partielles baissent
       avec elle. Les effets narcotiques diminuent généralement sans attendre l’élimination complète du
@@ -494,6 +525,11 @@ cards:
     - 'Vérifié le 2026-10-09 — FFESSM CMPN — Je prends des médicaments, page du 2021-03-07 : https://medical.ffessm.fr/je-prends-des-medicaments'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 37, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/),
+      Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      ressources médicaments et Decompression Illness, consultés le 11 octobre 2026 ; RIFAP mai 2026 p.
+      28–32.
     fact_check: pass
   fr:
     question: En profondeur, un équipier répond lentement et répète une manipulation inutile. Quelle répartition
@@ -540,6 +576,11 @@ cards:
       SECOURIR / OXYGENER / SURVEILLER : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 37, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/),
+      Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      ressources médicaments et Decompression Illness, consultés le 11 octobre 2026 ; RIFAP mai 2026 p.
+      28–32.
     fact_check: pass
   fr:
     question: Une confusion ou une faiblesse persiste après la sortie d’une plongée où une narcose était

@@ -14,20 +14,26 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.11–16,25,33–39 ; affichages originaux limités aux champs documentés
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
-    question: Un affichage Peregrine simulé indique profondeur 8 m, DECO STOP 6 m / 2 min et CEIL 4,7
-      m. À quelle profondeur vise-t-on l’arrêt demandé par DECO STOP ?
+    question: Un affichage Peregrine simulé indique profondeur actuelle 8 m, DECO STOP 6 m / 2 min et
+      CEIL 4,7 m. Quel couple donne la profondeur du palier demandé et le plafond calculé à ne pas franchir
+      vers la surface ?
     choices:
-    - text: 6 m
+    - text: 'Palier : 6 m ; plafond : 4,7 m'
       correct: true
-    - text: 4,7 m
+    - text: 'Palier : 4,7 m ; plafond : 6 m'
       correct: false
-    - text: 2 m
+    - text: 'Palier : 8 m ; plafond : 6 m'
       correct: false
-    explanation: DECO STOP demande l’arrêt à 6 m pour 2 min. CEIL est le plafond calculé non arrondi à
-      un multiple de 3 m ; ce n’est pas la profondeur du palier affiché. La profondeur actuelle est 8
-      m.
+    explanation: 'DECO STOP indique un palier à 6 m pendant 2 min. CEIL indique un plafond calculé de
+      4,7 m : ne pas remonter moins profond que cette valeur. Inverser ces deux valeurs confond palier
+      arrondi et plafond non arrondi ; 8 m est la profondeur actuelle, pas un palier demandé.'
 - id: n3-ordinateur-tts-arret-001
   type: mcq
   deck: Désaturation
@@ -43,19 +49,25 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.11–16,25,33–39 ; affichages originaux limités aux champs documentés
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
     question: Un Peregrine simulé affiche DECO STOP 6 m / 2 min et TTS 9 min. Que représentent les 9 min
       ?
     choices:
-    - text: L’estimation du retour en surface avec trajets et arrêts, aux hypothèses de l’appareil
+    - text: Le temps estimé restant pour atteindre la surface, trajets et arrêts compris
       correct: true
-    - text: Le temps de l’arrêt actuel à 6 m, sans les trajets
+    - text: Le temps estimé restant pour effectuer tous les arrêts, trajets exclus
       correct: false
-    - text: Le temps de fond encore disponible avant décompression obligatoire
+    - text: Le temps écoulé depuis le début de l’immersion, arrêts compris
       correct: false
-    explanation: TTS correspond à la durée de remontée estimée, avec trajets et arrêts prévus. Les 2 min
-      concernent l’arrêt affiché ; les 9 min ne sont ni ce seul arrêt ni une réserve de temps au fond.
+    explanation: 'TTS signifie Time To Surface : l’estimation de la durée de retour en surface, avec les
+      trajets et les arrêts, aux hypothèses de l’appareil. Les 2 min ne concernent que l’arrêt affiché
+      à 6 m. La somme des seuls arrêts omet les trajets ; le temps écoulé est un autre affichage.'
 - id: n3-ordinateur-paliers-communs-001
   type: mcq
   deck: Désaturation
@@ -103,8 +115,9 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Deux équipiers ont des réglages GF différents sur des ordinateurs qui ont chacun suivi leurs
-      plongées. Quelle information détermine leurs arrêts communs pendant la remontée ?
+    question: Deux équipiers ont des réglages GF différents sur des ordinateurs qui ont chacun suivi leur
+      propre historique de plongées. Quelle information détermine leurs arrêts communs pendant la remontée
+      ?
     choices:
     - text: Les obligations concrètes affichées par les deux ordinateurs
       correct: true
@@ -112,9 +125,10 @@ cards:
       correct: false
     - text: Le seul appareil dont GF bas est le plus petit
       correct: false
-    explanation: 'Les réglages ne suffisent pas à désigner un appareil toujours plus contraignant : charge
-      passée, modèle et profil interviennent. On respecte les profondeurs et durées imposées par chacun,
-      avec un plan de gaz commun compatible.'
+    explanation: 'Les GF (Gradient Factors, facteurs de gradient) ne suffisent pas à désigner un appareil
+      toujours plus contraignant : l’historique de charge, le modèle et le profil interviennent aussi.
+      Le seul GF haut ou le seul GF bas ne résume pas ces contraintes. La palanquée respecte les profondeurs
+      et durées imposées par chacun, avec un budget de gaz compatible.'
 - id: n3-ordinateur-planificateur-residuel-001
   type: mcq
   deck: Désaturation
@@ -132,21 +146,26 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.33–34
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
     question: Un Peregrine ayant suivi la plongée du matin est consulté après l’intervalle de surface.
       Son planificateur de décompression, en mode Nitrox 3 gaz avec seul l’air activé, prépare la plongée
-      de l’après-midi. Quelle charge prend-il en compte ?
+      de l’après-midi. Quelle charge de départ utilise-t-il ?
     choices:
-    - text: La charge résiduelle calculée par cet ordinateur
+    - text: La charge résiduelle actuelle, avec désaturation pour l’intervalle saisi
       correct: true
-    - text: Une charge nulle dès que l’écran principal affiche la surface
+    - text: La charge calculée à la sortie du matin, sans désaturation pendant l’intervalle
       correct: false
-    - text: Une majoration MN90 déduite automatiquement du carnet de plongée
+    - text: Une charge nulle utilisée pour chaque nouvelle simulation du planificateur
       correct: false
-    explanation: Le planificateur utilise la charge actuelle des compartiments. Il faut conserver le même
-      suivi personnel et contrôler gaz, réglages et intervalle ; un ordinateur n’ayant pas suivi la première
-      plongée ne possède pas la même charge.
+    explanation: Le planificateur utilise la saturation résiduelle des compartiments et tient compte de
+      l’intervalle de surface indiqué. Il ne fige pas la charge à la sortie de l’eau et ne suppose pas
+      systématiquement un plongeur désaturé. Il faut conserver le suivi personnel des immersions.
 - id: n3-ordinateur-gaz-absent-001
   type: mcq
   deck: Désaturation
@@ -164,21 +183,27 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.28,32–33
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
-    question: Avant une plongée uniquement à l’air, un Peregrine en mode Nitrox 3 gaz a de l’air actif
-      et du 50 % activé, mais aucun bloc à 50 % ne sera emporté. Quel réglage fausse le retour calculé
-      ?
+    question: Pour une plongée avec décompression uniquement à l’air, un Peregrine en mode Nitrox 3 gaz
+      a de l’air actif et un mélange à 50 % d’oxygène activé, mais non emporté. Quel effet ce gaz absent
+      peut-il avoir sur le temps de retour prévu ?
     choices:
-    - text: Le 50 % activé, car l’appareil prévoit son utilisation pour la décompression
+    - text: Le sous-estimer en prévoyant le passage au 50 % pendant la décompression
       correct: true
-    - text: L’air actif, car le mode 3 gaz n’accepte pas un mélange à 21 %
+    - text: Le sous-estimer en calculant la respiration au fond comme si le 50 % était déjà actif
       correct: false
-    - text: Le 50 % activé, car il remplace automatiquement l’air dès la descente
+    - text: Ne pas le modifier, car seul le gaz actif entre dans la prévision de remontée
       correct: false
-    explanation: 'Les gaz activés participent à la prévision de décompression ; les gaz non disponibles
-      doivent être désactivés avant le départ. Un gaz actif reste celui sélectionné : l’appareil ne le
-      remplace pas automatiquement à la descente.'
+    explanation: Le gaz actif décrit celui respiré actuellement ; les gaz activés sont ceux que l’appareil
+      suppose disponibles pour le retour. Le Peregrine peut prévoir un passage au 50 % en décompression
+      et afficher un retour plus court que celui réalisable à l’air. Il ne transforme pas automatiquement
+      le gaz actif au fond ; les gaz absents doivent être désactivés.
 - id: n3-ordinateur-profondimetre-001
   type: mcq
   deck: Désaturation
@@ -196,20 +221,26 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.9,38
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
-    question: Un Peregrine est utilisé en mode Profondimètre pendant une plongée. Que manque-t-il dans
-      ce mode pour gérer la désaturation ?
+    question: Après une plongée du matin suivie en mode Air, un Peregrine passe en mode Profondimètre,
+      puis revient en mode Air. Que devient sa charge calculée de gaz inerte ?
     choices:
-    - text: Le calcul actif de décompression et le suivi des compartiments
+    - text: Elle est réinitialisée lors des changements depuis ou vers le mode Profondimètre
       correct: true
-    - text: La mesure de profondeur et de durée de l’immersion
+    - text: Elle est conservée en pause pendant le mode Profondimètre, puis reprise au retour en Air
       correct: false
-    - text: La possibilité de mesurer une profondeur supérieure à 40 m
+    - text: Elle est reconstituée automatiquement à partir du carnet au retour en mode Air
       correct: false
-    explanation: Le mode Profondimètre fournit profondeur et temps, sans calculer la décompression. Le
-      passage vers ce mode ou son abandon réinitialise les compartiments sur ce modèle ; le suivi des
-      successives doit être préparé en conséquence.
+    explanation: 'Le Peregrine ne suit pas les compartiments en mode Profondimètre : il fournit profondeur
+      et durée. Passer depuis ou vers ce mode réinitialise la charge calculée. Revenir en mode Air ne
+      restaure pas le suivi de la plongée du matin à partir du carnet ; l’azote résiduel du plongeur ne
+      disparaît pas lors du changement de mode.'
 - id: n3-ordinateur-panne-briefing-001
   type: mcq
   deck: Désaturation
@@ -227,20 +258,27 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 12 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
+      officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
+      ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
     fact_check: pass
   fr:
-    question: Au briefing d’une plongée avec paliers possibles, quel dispositif de secours permet de conserver
-      un suivi personnel si l’ordinateur principal tombe en panne ?
+    question: Un plongeur a fait une plongée le matin et prépare une seconde immersion avec paliers possibles.
+      Quelle configuration de secours conserverait son suivi personnel si son ordinateur principal tombait
+      en panne pendant cette seconde plongée ?
     choices:
-    - text: Un ordinateur personnel de secours porté pendant les mêmes immersions
+    - text: Un ordinateur personnel de secours porté pendant les deux immersions
       correct: true
-    - text: Un ordinateur de secours resté au bateau avec les mêmes réglages GF
+    - text: Un ordinateur de secours resté au bateau, avec les mêmes réglages que le principal
       correct: false
-    - text: L’ordinateur de l’équipier ayant suivi seulement l’immersion en cours
+    - text: L’ordinateur d’un équipier qui n’a suivi que l’immersion de l’après-midi
       correct: false
-    explanation: Le suivi personnel continu est essentiel. Un appareil resté à sec n’a pas suivi la plongée
-      ; celui d’un équipier peut avoir une charge différente. La procédure de panne et le retour sont
-      préparés avant immersion selon les moyens réellement disponibles.
+    explanation: Le secours personnel doit avoir suivi les mêmes immersions pour disposer de sa propre
+      charge résiduelle calculée. Les réglages seuls ne reconstruisent pas un profil manquant. L’appareil
+      de l’équipier n’a pas suivi la plongée du matin ; sa charge peut différer. La procédure de panne
+      et le retour se préparent avant l’immersion.
 - id: n3-ordinateur-tts-variation-001
   type: mcq
   deck: Désaturation
@@ -258,17 +296,23 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.16
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 13 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - Peregrine Doc.16001-SI-RevB p.16, @+5 et DTR ; notes V89, distinction @+5/Δ+5 ; vérification 2026-10-10,
+      revue N3 lot 13
     fact_check: pass
   fr:
-    question: Sur un Peregrine, TTS vaut 12 min et @+5 vaut 18 min. À hypothèses de remontée inchangées,
-      que prédit @+5 ?
+    question: Sur un Peregrine, TTS vaut 12 min et @+5 vaut 18 min. Si le plongeur reste encore 5 min
+      à la profondeur actuelle puis commence sa remontée, quel délai total à partir de maintenant est
+      estimé avant la surface, à hypothèses de remontée inchangées ?
     choices:
-    - text: Une TTS de 18 min si l’on reste 5 min de plus à la profondeur actuelle
+    - text: 23 min
       correct: true
-    - text: Une arrivée en surface dans 18 min, comprenant déjà les 5 min au fond
+    - text: 18 min
       correct: false
-    - text: Une autonomie gaz de 18 min avant épuisement du bloc
+    - text: 35 min
       correct: false
-    explanation: '@+5 est la TTS prévue après cinq minutes de plus au niveau actuel. Le retour à partir
-      de maintenant prendrait donc ces cinq minutes supplémentaires, puis la nouvelle TTS. Ce n’est pas
-      une autonomie gaz ni une promesse indépendante du profil.'
+    explanation: TTS est le temps estimé jusqu’à la surface en partant maintenant ; @+5 est la nouvelle
+      TTS prévue après cinq minutes de plus au niveau actuel. Le délai vaut donc 5 + 18 = 23 min. 18 min
+      suppose que @+5 inclut déjà l’attente au fond ; 35 min ajoute à tort l’ancienne TTS de 12 min à
+      la nouvelle, comme si @+5 était un supplément.

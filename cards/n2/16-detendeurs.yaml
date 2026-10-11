@@ -24,6 +24,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 48, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Arrêté
+      du 20 novembre 2017, articles 18/23–25, version consolidée actuelle (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/),
+      cahier des charges TIV FFESSM inspections annuelles/avant réutilisation ; DAN Breathing Gas Contamination
+      ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 6–8/16 ; loi d’Archimède et gaz parfait volume fermé
+      ; vérifiés le 11 octobre 2026.
     fact_check: pass
   fr:
     question: 'Sur ce schéma conceptuel d’un détendeur à deux étages, quelle réduction de pression réalise
@@ -75,6 +80,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: Un premier étage maintient sa pression intermédiaire à 9,5 bar au-dessus de l’ambiante.
@@ -359,6 +368,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: Quel intérêt a la compensation d’un premier étage lorsque la pression du bloc diminue ?
@@ -398,6 +411,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: Un détendeur possède un premier étage à membrane et une fixation DIN. Sur quoi faut-il s’appuyer
@@ -470,10 +487,15 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/16-detendeurs.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.17–18, entretien ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
-    question: Pour un détendeur SCUBAPRO concerné par la notice de juillet 2025, hors usage fréquent de
-      100 plongées par an ou plus, quelle échéance de révision par un technicien agréé est indiquée ?
+    question: Pour un détendeur SCUBAPRO standard pour l’air, concerné par la notice de juillet 2025 et
+      utilisé moins de 100 plongées par an, quelle échéance de révision par un technicien agréé est indiquée
+      ?
     choices:
     - text: Tous les 2 ans
       correct: true
@@ -509,6 +531,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: Un second étage hors de la bouche se met en débit continu après une pression sur la purge,
@@ -585,6 +611,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: Avant immersion, quel contrôle vérifie effectivement qu’un détendeur fournit du gaz à la
@@ -623,6 +653,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: En immersion, un débit continu persistant vide rapidement le bloc. Pourquoi passer sur son
@@ -662,6 +696,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 49, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; SCUBAPRO
+      détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
+      et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
+      p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
     fact_check: pass
   fr:
     question: À 20 m, un premier étage maintient une MP de 9,5 bar au-dessus de l’ambiante. Prendre 1
@@ -701,6 +739,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1
@@ -713,7 +755,7 @@ cards:
     - text: 11 bar absolus
       correct: false
     explanation: '**12 bar absolus : 3 + 9.** 3 bar est l’ambiante ; 9 bar est la surpression intermédiaire
-      par rapport à elle.'
+      par rapport à elle. 9 bar confond écart et valeur absolue ; 11 bar oublie le bar atmosphérique.'
 - id: n2-detendeurs-mp-quarante-001
   type: mcq
   anki_model: basic
@@ -738,6 +780,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Prendre 1 bar en surface et +1 bar/10
@@ -750,4 +796,5 @@ cards:
     - text: 14 bar au-dessus de l’ambiante
       correct: false
     explanation: '**9 bar : 14 − 5.** L’ambiante est 5 bar absolus ; l’écart MP–ambiante reste distinct
-      de chacune des deux pressions absolues.'
+      de chacune des deux pressions absolues. 10 bar utilise 4 bar hydrostatiques au lieu des 5 bar absolus
+      ; 14 bar conserve à tort la valeur absolue comme écart.'

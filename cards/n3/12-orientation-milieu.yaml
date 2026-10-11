@@ -41,29 +41,36 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
-    question: 'Dans un exercice vu du dessus, un plongeur suit un cap 000° avec 20 m de déplacement vers
-      le nord par rapport à l’eau. Le courant le déplace de 10 m vers l’est par rapport au fond. Où se
-      trouve-t-il par rapport au départ ?
+    question: 'Dans un exercice vu du dessus, un plongeur se déplace de 20 m vers le nord par rapport
+      à l’eau ; le courant le déplace de 10 m vers l’est par rapport au fond. Quel est le cap de sa trajectoire
+      résultante au fond, arrondi au degré et mesuré depuis le nord dans le sens horaire ?
 
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" role="img" aria-label="Vue du dessus
-      : déplacement dans l’eau vers le nord et courant vers l’est" style="max-width:340px;width:100%;background:#fff"><g
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" role="img" aria-label="Deux composantes
+      : vingt mètres vers le nord puis dix mètres vers l’est" style="max-width:340px;width:100%;background:#fff"><g
       fill="none" stroke="#243b53" stroke-width="3"><path d="M65 185 L65 55 M65 55 L59 67 M65 55 L71 67"/><path
-      d="M130 150 L250 150 M250 150 L238 144 M250 150 L238 156"/></g><g fill="#243b53" font-family="sans-serif"
-      font-size="16"><text x="55" y="32">N</text><text x="275" y="157">E</text><text x="85" y="82">20
-      m dans l’eau</text><text x="140" y="190">Courant : 10 m</text><text x="25" y="215">Départ</text></g><circle
+      d="M65 55 L130 55 M130 55 L118 49 M130 55 L118 61"/></g><g fill="#243b53" font-family="sans-serif"
+      font-size="16"><text x="55" y="32">N</text><text x="150" y="62">E</text><text x="85" y="125">20
+      m dans l’eau</text><text x="100" y="32">Courant : 10 m</text><text x="25" y="215">Départ</text></g><circle
       cx="65" cy="185" r="5" fill="#243b53"/></svg>'
     choices:
-    - text: 20 m au nord et 10 m à l’est
+    - text: 027°
       correct: true
-    - text: 20 m au nord et 10 m à l’ouest
+    - text: 063°
       correct: false
-    - text: 10 m au nord et 20 m à l’est
+    - text: 333°
       correct: false
-    explanation: Le déplacement réel au fond est la somme du déplacement dans l’eau et de l’entraînement
-      par le courant. Le compas indique l’orientation suivie, sans annuler la dérive.
+    explanation: Le déplacement au fond combine 20 m vers le nord et 10 m vers l’est. L’angle à l’est
+      du nord vaut arctan(10 / 20) = 26,6°, soit 027°. Les 063° inversent les deux composantes ; 333°
+      place la dérive vers l’ouest. Le cap suivi dans l’eau reste 000°, mais le courant déplace la trajectoire
+      au fond.
 - id: n3-orientation-reperes-compas-001
   type: mcq
   deck: Matériel et préparation
@@ -78,20 +85,26 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
-    question: Le retour prévu suit une paroi au cap 270°. La visibilité baisse ; un équipier suit une
-      autre paroi au cap 090° en pensant avoir retrouvé la bonne. Quel contrôle met en évidence cette
-      erreur de route ?
+    question: La palanquée doit revenir en sens inverse le long du même tombant. À l’aller elle suivait
+      le cap 090°. La visibilité baisse ; un équipier reconnaît une paroi semblable et propose de la longer
+      au cap 090°. Quel contrôle du retour est pertinent ?
     choices:
-    - text: Comparer le cap suivi aux 270° prévus et aux repères mémorisés
+    - text: Rechercher le cap 270° et confronter la paroi aux repères mémorisés
       correct: true
-    - text: Comparer seulement la profondeur actuelle à celle du départ
+    - text: Rechercher le cap 090° et confronter la paroi à la profondeur de l’aller
       correct: false
-    - text: Comparer seulement l’orientation de la lumière à celle observée à l’aller
+    - text: Rechercher le cap 000° et confronter la paroi à la lumière venant de surface
       correct: false
-    explanation: La même profondeur ou une durée comparable ne prouvent pas le bon trajet. Le cap opposé
-      aux 270° attendus révèle une incohérence à confronter aux repères naturels, avant de poursuivre.
+    explanation: 'Le retour en sens inverse demande le cap opposé : 090° + 180° = 270°. Une paroi ressemblante
+      et une profondeur identique ne prouvent pas qu’on a retrouvé le bon tombant. Confronter le compas
+      et les repères naturels ; 090° conserve le sens de l’aller, et 000° n’est pas son cap inverse.'
 - id: n3-orientation-relief-sortie-001
   type: mcq
   deck: Matériel et préparation
@@ -136,19 +149,28 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
-    question: Une palanquée perd ses repères. Le gaz permet encore le retour de repli convenu, mais pas
-      une recherche de 10 min suivie de ce même retour. Quel choix respecte le budget préparé ?
+    question: 'Exercice de recherche après perte de repères : une palanquée dispose de 550 L de gaz utilisable,
+      dont 400 L nécessaires au repli convenu. La recherche reste à 20 m, avec 1 bar en surface, 1 bar
+      ajouté tous les 10 m et un débit respiratoire de 20 L/min ramené à la surface. Quelle durée maximale
+      de recherche ce budget nominal laisse-t-il ?'
     choices:
-    - text: Utiliser maintenant le repli convenu en gardant la cohésion
+    - text: 2,5 min
       correct: true
-    - text: Chercher 10 min puis reprendre exactement le même repli
+    - text: 3,75 min
       correct: false
-    - text: Répartir les plongeurs sur plusieurs axes pour raccourcir la recherche
+    - text: 9,17 min
       correct: false
-    explanation: Une recherche consomme aussi le budget de retour. Le repli est déclenché avant de devenir
-      lui-même impossible ; la séparation ajoute un risque et ne crée pas du gaz disponible.
+    explanation: 'La recherche dispose de 550 − 400 = 150 L. À 20 m, la pression absolue vaut 3 bar et
+      la consommation 20 × 3 = 60 L/min : 150 / 60 = 2,5 min. Les 3,75 min utilisent la pression relative
+      de 2 bar ; 9,17 min consomme aussi le gaz réservé au repli. La perte de repères ne rend pas disponible
+      le gaz nécessaire au retour.'
 - id: n3-orientation-trafic-surface-001
   type: mcq
   deck: Matériel et préparation
@@ -163,21 +185,24 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
-    question: Le plan de récupération prévoyait une remontée au mouillage ; une dérive impose des paliers
-      en pleine eau près d’un passage de bateaux. Quelle adaptation signale la palanquée au pilote et
-      aux usagers avant l’émersion ?
+    question: Une dérive impose des paliers en pleine eau loin du mouillage, près d’un passage de bateaux.
+      Quel moyen permet de signaler depuis la palanquée sa position avant l’émersion ?
     choices:
-    - text: Déployer le parachute de signalisation selon la procédure maîtrisée
+    - text: Un parachute de signalisation déployé selon la procédure maîtrisée
       correct: true
-    - text: Attendre l’émersion pour faire le signe OK au bateau
+    - text: Le pavillon Alpha maintenu sur le bateau de plongée au mouillage
       correct: false
-    - text: Remonter séparément pour que le pilote repère plus facilement un plongeur
-      correct: false
-    explanation: Le parachute signale la présence de la palanquée et son arrêt en pleine eau. La remontée
-      finale reste contrôlée, avec observation des dangers de surface et récupération préparée. Une distance
-      d’éloignement locale doit être vérifiée pour le secteur.
+    explanation: Le parachute matérialise la position de la palanquée sous l’eau. Le pavillon Alpha annonce
+      une activité de plongée autour du bateau qui le porte ; resté au mouillage, il ne localise pas la
+      palanquée dérivée. La remontée finale reste contrôlée, avec observation des dangers de surface et
+      récupération préparée.
 - id: n3-milieu-sediments-001
   type: mcq
   deck: Matériel et préparation
@@ -192,20 +217,26 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
-    question: Un passage sur fond meuble est bas et la palanquée commence à soulever des sédiments. Quel
-      ajustement réduit ce trouble sans prendre appui sur le fond ?
+    question: Une palanquée traverse un fond meuble et commence à soulever des sédiments. L’espace au-dessus
+      est libre. Quelle combinaison d’assiette et de palmage limite la remise en suspension ?
     choices:
-    - text: Augmenter la distance au fond si le passage le permet, avec assiette et palmage adaptés
+    - text: Corps horizontal, palmes éloignées du fond, propulsion dirigée loin des sédiments
       correct: true
-    - text: Dégonfler davantage pour avancer au plus près du sédiment
+    - text: Tête relevée, palmes plus basses que le corps, battements dirigés vers les sédiments
       correct: false
-    - text: Accélérer le palmage pour traverser avant que le nuage ne s’étende
+    - text: Corps horizontal, palmes au ras du fond, battements plus rapides et plus courts
       correct: false
-    explanation: La stabilisation, l’assiette et la direction du palmage limitent contact et remise en
-      suspension. Se rapprocher du fond ou accélérer un palmage dirigé vers le sédiment augmente le trouble
-      et diminue la visibilité.
+    explanation: L’assiette horizontale, une distance suffisante au fond et une propulsion dirigée loin
+      du sédiment limitent sa remise en suspension. Une tête relevée avec des palmes basses dirige le
+      palmage vers le fond ; des battements plus courts mais rapides au ras du fond peuvent également
+      soulever les sédiments.
 - id: n3-milieu-eclairage-001
   type: mcq
   deck: Matériel et préparation
@@ -220,19 +251,24 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 21 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Relecture 2026-10-11 lot 21 : MFT N3 décembre 2025, p. 8–9 et 14 (orientation, repli, stabilisation,
+      impact) ; calculs indépendants cap inverse 270°, arctan(10/20)=26,565°, budget 150/60=2,5 min ;
+      signalisation palanquée / bateau distinguée.'
     fact_check: pass
   fr:
     question: Pour observer une faune fixée à courte distance, quelle pratique d’éclairage limite le dérangement
       tout en permettant l’observation ?
     choices:
-    - text: Employer la lumière nécessaire et éviter une exposition forte et prolongée
+    - text: Adapter l’intensité au besoin et limiter la durée d’exposition
       correct: true
-    - text: Maintenir un éclairage maximal continu pour habituer les organismes
+    - text: Maintenir une forte intensité pour provoquer une habituation des organismes
       correct: false
-    - text: Maintenir le faisceau au même point jusqu’à ce que l’animal cesse de bouger
-      correct: false
-    explanation: Le MFT demande de limiter éclairage et nuisances et de rester discret. La lumière est
-      adaptée à l’observation, sans poursuivre ou stimuler volontairement les organismes.
+    explanation: Même fixés, les organismes peuvent subir une nuisance due à l’éclairage. Adapter la lumière
+      à l’observation et limiter l’exposition ; maintenir volontairement un faisceau puissant pour provoquer
+      une habituation n’est pas un comportement respectueux du milieu. Le MFT demande de limiter l’éclairage
+      et de rester discret.
 - id: n3-milieu-posidonie-nature-001
   type: mcq
   deck: Matériel et préparation
@@ -247,18 +283,25 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.14–15
     - DORIS — Posidonia oceanica, fiche 265, mise à jour 21/07/2026, description ; https://doris.ffessm.fr/ref/specie/265
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
     fact_check: pass
   fr:
-    question: En Méditerranée, qu’est-ce qui distingue biologiquement la posidonie d’une algue ?
+    question: À quel groupe biologique appartient la posidonie méditerranéenne, Posidonia oceanica ?
     choices:
-    - text: C’est une plante à fleurs avec racines, rhizomes et feuilles
+    - text: Aux plantes à fleurs
       correct: true
-    - text: C’est une algue dont les crampons sont appelés racines
+    - text: Aux algues vertes
       correct: false
-    - text: C’est une colonie animale dont les polypes ressemblent à des feuilles
+    - text: Aux algues brunes
       correct: false
-    explanation: Posidonia oceanica est une plante marine à fleurs, endémique de Méditerranée. Ses herbiers
-      forment un habitat ; l’aspect végétal d’un organisme ne suffit pas à dire qu’il s’agit d’une algue.
+    explanation: La posidonie est une plante marine à fleurs, avec racines, rhizomes et feuilles. Elle
+      est endémique de Méditerranée et forme des herbiers. Sa couleur verte et sa vie sous l’eau ne suffisent
+      pas à la classer parmi les algues ; ses organes et sa reproduction la distinguent de celles-ci.
 - id: n3-milieu-posidonie-mouillage-001
   type: mcq
   deck: Matériel et préparation
@@ -275,20 +318,27 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - OFB — Les herbiers de posidonies, pratiques de mouillage ; https://ofb.gouv.fr/les-herbiers-de-posidonies
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: Pourquoi le choix d’un mouillage hors d’un herbier de posidonie protège-t-il cet habitat
       méditerranéen ?
     choices:
-    - text: L’ancre et la chaîne peuvent arracher et fragmenter l’herbier à croissance lente
+    - text: L’ancre et la chaîne peuvent arracher les rhizomes, dont la croissance est lente
       correct: true
-    - text: L’ancre crée seulement un nuage temporaire sans modifier les rhizomes
+    - text: La chaîne brise des feuilles, dont le renouvellement suffit à restaurer rapidement l’herbier
       correct: false
-    - text: L’herbier repousse rapidement à partir des fragments dispersés par la chaîne
+    - text: L’ancre disperse des fragments, dont la croissance restaure rapidement l’herbier
       correct: false
-    explanation: La posidonie forme des herbiers sensibles, dont la restauration est lente. Ancre et chaîne
-      peuvent endommager les plantes et la structure du fond. On recherche les possibilités de mouillage
-      autorisées et les dispositifs prévus pour le site.
+    explanation: 'Ancre et chaîne peuvent endommager les plantes et la structure de l’herbier, notamment
+      en arrachant les rhizomes. Leur croissance horizontale est lente, de l’ordre de 3 à 6 cm par an
+      : renouveler des feuilles ou disperser des fragments ne restaure pas rapidement un herbier arraché.
+      Rechercher les mouillages autorisés et les dispositifs prévus pour le site.'
 - id: n3-milieu-anemone-contact-001
   type: mcq
   deck: Matériel et préparation
@@ -305,6 +355,9 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Vérification 2026-10-11 lot 22 : DORIS Anemonia viridis fiche 111, alimentation/cnidocytes ; MFT
+      N3 décembre 2025 p. 9 (3 m) et p. 14 (refus du nourrissage). Carte conservée après relecture du
+      recto, de chaque choix et du corrigé.'
     fact_check: pass
   fr:
     question: Sur un site méditerranéen, quel mécanisme rend le contact avec les tentacules d’une anémone
@@ -333,21 +386,29 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,12–14 ; géométrie et scénarios originaux à données
       explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
+    - 'Recoupement lot 26 le 2026-10-11 : objectif précisé mouillage/bouées ; n2-documents-zones-reglementees-001
+      couvre distinctement l’autorisation d’immersion. https://portcros-parcnational.fr/fr/le-parc-national-de-port-cros/la-reglementation/reglementation-en-mer/plongee-sous-marine
+      (usage des bouées / règlement annuel).'
     fact_check: pass
   fr:
-    question: Une carte nautique montre un site adapté au profil ; le secteur appartient aussi à une aire
-      protégée. Quel complément faut-il vérifier avant de choisir le mouillage ?
+    question: Une carte nautique montre un site dans une aire marine protégée. Pour savoir où mouiller
+      le bateau et à quelles conditions utiliser les bouées du secteur, quel texte consulter en complément
+      ?
     choices:
-    - text: Les règles d’accès et de mouillage en vigueur dans cette zone
+    - text: Le règlement local de cette aire protégée
       correct: true
-    - text: Les règles de mouillage des plaisanciers, à l’exclusion de celles de l’aire protégée
+    - text: Les dispositions générales du Code du sport sur les aptitudes des plongeurs
       correct: false
-    - text: Les restrictions d’immersion seules, puisqu’un bateau de plongée est dispensé des règles de
-        mouillage
-      correct: false
-    explanation: 'La carte ne donne pas à elle seule toutes les règles de la zone. On consulte les textes/avis
-      en vigueur et les informations de l’autorité gestionnaire : accès, mouillage et restrictions d’activité.
-      Leur contenu dépend du secteur.'
+    explanation: Le règlement local peut définir les zones de mouillage et les conditions d’utilisation
+      des bouées. Consulter les textes et avis en vigueur et les informations du gestionnaire. Les dispositions
+      générales du Code du sport sur les aptitudes des plongeurs ne donnent pas ces conditions nautiques
+      locales.
 - id: n3-orientation-tour-horizon-trois-metres-001
   type: mcq
   deck: Matériel et préparation
@@ -361,6 +422,9 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Vérification 2026-10-11 lot 22 : DORIS Anemonia viridis fiche 111, alimentation/cnidocytes ; MFT
+      N3 décembre 2025 p. 9 (3 m) et p. 14 (refus du nourrissage). Carte conservée après relecture du
+      recto, de chaque choix et du corrigé.'
     fact_check: pass
   fr:
     question: La palanquée termine sa remontée, sans palier obligatoire restant. Pour contrôler les dangers
@@ -389,6 +453,9 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Vérification 2026-10-11 lot 22 : DORIS Anemonia viridis fiche 111, alimentation/cnidocytes ; MFT
+      N3 décembre 2025 p. 9 (3 m) et p. 14 (refus du nourrissage). Carte conservée après relecture du
+      recto, de chaque choix et du corrigé.'
     fact_check: pass
   fr:
     question: Lors d’une plongée d’observation, quelle règle s’applique au nourrissage des poissons par
@@ -416,20 +483,24 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
     fact_check: pass
   fr:
-    question: Pour filmer un animal qui reste dans une cavité, quel choix respecte sa tranquillité tout
-      en permettant l’observation ?
+    question: Pour filmer un animal qui reste dans une cavité, quelle conduite respecte sa tranquillité
+      ?
     choices:
-    - text: Attendre à distance, sans tapoter la roche ni bloquer sa sortie
+    - text: Attendre à distance en laissant libre son issue
       correct: true
-    - text: Tapoter doucement la roche, sans toucher directement l’animal
+    - text: Tapoter doucement la roche en laissant libre son issue
       correct: false
-    - text: Fermer son issue avec la main, sans toucher directement l’animal
-      correct: false
-    explanation: Rester discret implique de limiter aussi les nuisances sonores et de laisser l’animal
-      libre de ses déplacements. L’absence de contact direct ne suffit pas si le plongeur provoque une
-      réaction ou bloque un refuge.
+    explanation: La discrétion concerne aussi les nuisances sonores. Tapoter pour faire sortir l’animal
+      provoque volontairement une réaction, même sans le toucher et sans bloquer sa sortie. Attendre à
+      distance permet l’observation en respectant son refuge.
 - id: n3-milieu-sar-tete-noire-001
   type: mcq
   deck: Matériel et préparation
@@ -444,21 +515,27 @@ cards:
     - 'FFESSM DORIS — Diplodus vulgaris, clé d’identification et espèces ressemblantes : https://doris.ffessm.fr/Especes/Diplodus-vulgaris-Sar-a-tete-noire-161
       ; consulté le 2026-10-07'
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Revue N3 par petits lots du 2026-10-11, lot 22 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Vérifié 2026-10-11 lot 22 : MFT N3 décembre 2025 p. 9 et 14 ; DORIS fiches 265 (Posidonia oceanica),
+      111 (Anemonia viridis), 161 (Diplodus vulgaris), https://doris.ffessm.fr/ref/specie/265, /111, /161
+      ; OFB https://ofb.gouv.fr/les-herbiers-de-posidonies. Chaque choix relu, références préexistantes
+      conservées.'
     fact_check: pass
   fr:
-    question: 'En Méditerranée, un poisson argenté au corps ovale présente deux larges barres noires :
-      l’une sur la nuque, l’autre à la base de la queue. Parmi ces sars, lequel correspond à ces caractères
-      ?'
+    question: Quel motif de marques caractérise le sar à tête noire, Diplodus vulgaris, en Méditerranée
+      ?
     choices:
-    - text: Le sar à tête noire (Diplodus vulgaris)
+    - text: Deux larges barres noires, sur la nuque et à la base de la queue
       correct: true
-    - text: Le sar commun (Diplodus sargus)
+    - text: Une large barre noire sur la nuque, sans marque à la base de la queue
       correct: false
-    - text: Le sar tambour (Diplodus cervinus)
+    - text: Cinq à six larges bandes transversales brunes réparties sur le corps
       correct: false
-    explanation: Le sar à tête noire porte deux barres caractéristiques, sur la nuque et à la base de
-      la queue. Le sar commun a une tache caudale sans la barre de nuque ; le sar tambour porte cinq à
-      six larges bandes transversales brunes. La disposition des marques distingue ces poissons proches.
+    explanation: 'Le sar à tête noire porte deux barres caractéristiques, sur la nuque et à la base de
+      la queue. Son nom ne décrit que la première : la marque caudale compte aussi pour l’identification.
+      Les cinq à six bandes brunes caractérisent le sar tambour, Diplodus cervinus ; le sar commun, Diplodus
+      sargus, porte une tache caudale sans la barre de nuque.'
 - id: n3-milieu-girelle-male-001
   type: mcq
   deck: Matériel et préparation
@@ -473,6 +550,11 @@ cards:
     - 'FFESSM DORIS — Coris julis, clé et espèces ressemblantes : https://doris.ffessm.fr/Especes/Coris-julis-Girelle-commune-651
       ; consulté le 2026-10-07'
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Vérifié 2026-10-11 lot 23 : DORIS Coris julis fiche 651, description et patron initial (femelles
+      et jeunes mâles) ; Sabella spallanzanii fiche 403, description / panache respiratoire et alimentaire
+      ; https://doris.ffessm.fr/ref/specie/651 et /403. Relecture individuelle documentée.'
+    - 'DORIS Thalassoma pavo fiche 744, livrée initiale : 4 à 6 bandes bleu ciel ; https://doris.ffessm.fr/ref/specie/744
+      ; consulté 2026-10-11.'
     fact_check: pass
   fr:
     question: En Méditerranée, un poisson élancé a le dos vert et une bande orange longitudinale en zigzag,
@@ -484,9 +566,10 @@ cards:
       correct: false
     - text: Une femelle de girelle-paon (Thalassoma pavo)
       correct: false
-    explanation: Chez la girelle commune, le mâle porte cette livrée ; la femelle a le dos brun et une
-      bande blanche longitudinale. La girelle-paon possède d’autres marques, notamment des bandes verticales
-      chez la femelle.
+    explanation: Cette livrée est celle d’un mâle adulte de girelle commune. La livrée initiale, au dos
+      brun et à bande blanche longitudinale, concerne les femelles et aussi certains jeunes mâles. La
+      girelle-paon femelle présente notamment quatre à six bandes verticales bleu ciel, différentes de
+      la bande orange en zigzag.
 - id: n3-milieu-spirographe-001
   type: mcq
   deck: Matériel et préparation
@@ -501,6 +584,9 @@ cards:
     - 'FFESSM DORIS — Sabella spallanzanii, description et classification : https://doris.ffessm.fr/Especes/Sabella-spallanzanii-Spirographe-403
       ; consulté le 2026-10-07'
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Vérifié 2026-10-11 lot 23 : DORIS Coris julis fiche 651, description et patron initial (femelles
+      et jeunes mâles) ; Sabella spallanzanii fiche 403, description / panache respiratoire et alimentaire
+      ; https://doris.ffessm.fr/ref/specie/651 et /403. Relecture individuelle documentée.'
     fact_check: pass
   fr:
     question: Un animal fixé sort d’un long tube souple un panache spiralé qu’il rétracte rapidement à

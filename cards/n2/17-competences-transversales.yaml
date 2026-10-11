@@ -23,6 +23,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: Au palier, un équipier montre le nombre « 6 » sans préciser l’unité. Quelle convention de
@@ -60,6 +64,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: Une sortie de repli est plus proche à vol d’oiseau que la sortie prévue, mais impose un
@@ -99,6 +107,10 @@ cards:
     - 'Suunto SK-8, guide multilingue, p.11–13 en français, aides à la navigation : https://cdn.shopify.com/s/files/1/0850/4878/7229/files/SUUNTO_SK-SERIES_UG_MULTI.pdf?v=1714977581'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : Suunto SK-series UG multilingue, p.11–13, navigation par repères ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: Lors d’un déplacement sous l’eau, quelle information fournit le maintien de deux repères
@@ -135,6 +147,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : Suunto SK-8 ; calcul géométrique indépendant ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap
@@ -147,7 +163,8 @@ cards:
     - text: 290°
       correct: false
     explanation: '**250° : 70 + 180.** Le retour inverse la direction sur la même ligne ; sous courant,
-      ce cap géométrique ne compense pas à lui seul la dérive.'
+      ce cap géométrique ne compense pas à lui seul la dérive. 110° calcule 180 − 70 ; 290° calcule 360
+      − 70 : ce sont deux directions différentes du cap réciproque.'
 - id: n2-competences-transversales-cap-retour-ouest-001
   type: mcq
   anki_model: basic
@@ -170,6 +187,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : Suunto SK-8 ; calcul géométrique indépendant ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap
@@ -177,12 +198,13 @@ cards:
     choices:
     - text: 120°
       correct: true
-    - text: 180°
+    - text: 60°
       correct: false
-    - text: 240°
+    - text: 300°
       correct: false
     explanation: '**120° : 300 + 180 = 480, puis 480 − 360 = 120.** On exprime la direction dans l’intervalle
-      0° à moins de 360°.'
+      0° à moins de 360°. 60° calcule 360 − 300, le complément à 360° ; 300° reprend l’aller sans inverser
+      le sens.'
 - id: n2-competences-transversales-separation-001
   type: mcq
   anki_model: basic
@@ -206,6 +228,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/17-competences-transversales.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : MFT N2 mai 2026 ; BSAC Going diving, Separation ; choix relus individuellement'
+    - Relecture individuelle N3 2026-10-11 lot 50, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
+      ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
+      modulo360 résolus indépendamment le 11 octobre 2026.
     fact_check: pass
   fr:
     question: Quels paramètres faut-il définir au briefing pour que des équipiers séparés appliquent une
@@ -245,6 +271,10 @@ cards:
       conservés'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : MFT N2 mai 2026, p.12–13 et 15–20 ; références de la carte ; choix relus individuellement'
+    - 'Relecture individuelle N3 2026-10-11 lot 51, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N2 mai 2026 planification p. 12 et MFT N3 décembre 2025 p. 8/13 : état personnel et planification
+      air sans paliers profonds ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 14 : renflement/coupure/fissure
+      des flexibles, remplacement avant utilisation ; consultés le 11 octobre 2026.'
     fact_check: pass
   fr:
     question: Le directeur de plongée autorise un profil conforme à vos aptitudes. Qui doit encore apprécier
@@ -286,6 +316,10 @@ cards:
     - 'FFESSM — MFT GP-N4 version mai 2026, p.25, pas de paliers profonds à l’air ; PDF actuel contrôlé
       2026-10-09 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/5432cb26-a2db-46a3-90bc-1a227f4d6667
       ; le lien historique janvier 2026 sert désormais la version mai 2026'
+    - 'Relecture individuelle N3 2026-10-11 lot 51, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N2 mai 2026 planification p. 12 et MFT N3 décembre 2025 p. 8/13 : état personnel et planification
+      air sans paliers profonds ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 14 : renflement/coupure/fissure
+      des flexibles, remplacement avant utilisation ; consultés le 11 octobre 2026.'
     fact_check: pass
   fr:
     question: En planification fédérale à l’air, quel type d’arrêt ne doit pas être ajouté au profil de

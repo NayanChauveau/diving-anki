@@ -19,6 +19,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
     fact_check: pass
   fr:
     question: Une quantité fixe de gaz parfait reste à température constante. Si sa pression absolue est
@@ -53,6 +57,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
     fact_check: pass
   fr:
     question: Pour utiliser P₁V₁ = P₂V₂ entre deux états d’un même gaz parfait, quelles grandeurs doivent
@@ -504,13 +512,18 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
     fact_check: pass
   fr:
     question: À 20 m, un plongeur ventile 20 L d’air par minute mesurés à la pression ambiante. À quel
       débit d’air ramené à 1 bar cela correspond-il ? Prendre 1 bar à la surface et +1 bar tous les 10
       m. Température supposée constante.
-    explanation: '**60 L/min ramenés à 1 bar.** À 20 m : 3 bars absolus. Chaque litre respiré à cette
-      profondeur équivaut à 3 L à 1 bar : 20 × 3 = 60 L/min.'
+    explanation: '**60 L/min ramenés à 1 bar.** À 20 m, la pression absolue vaut 3 bar : chaque litre
+      respiré à cette profondeur équivaut à 3 L à 1 bar. Débit = 20 × 3 = 60 L/min. Le choix 40 L/min
+      emploie la pression relative de 2 bar ; 20/3 inverse le rapport de conversion.'
     choices:
     - text: 60 L/min à 1 bar
       correct: true
@@ -542,11 +555,16 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: À 30 m, un plongeur ventile 18 L/min mesurés à la pression ambiante. Quel est le débit correspondant
       ramené à 1 bar ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Température supposée constante.
-    explanation: '**72 L/min ramenés à 1 bar.** La pression absolue vaut 4 bars : 18 × 4 = 72 L/min.'
+    explanation: '**72 L/min ramenés à 1 bar.** La pression absolue vaut 4 bar : 18 × 4 = 72 L/min. Les
+      54 L/min utilisent la pression relative de 3 bar ; 4,5 L/min divise par 4 au lieu de multiplier.'
     choices:
     - text: 72 L/min à 1 bar
       correct: true
@@ -578,6 +596,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Un bloc de 12 L affiche 200 bar au manomètre. Un exercice prévoit de conserver 50 bar. Quel
@@ -617,6 +639,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Un bloc de 15 L affiche 180 bar au manomètre. Un exercice prévoit de conserver 50 bar. Quel
@@ -728,6 +754,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Dans un exercice, le stock nominal est de 1 800 L à 1 bar. On alloue 600 L au retour, à
@@ -769,6 +799,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: On utilise une consommation mesurée au calme pour prévoir une plongée froide avec du courant.
@@ -778,8 +812,6 @@ cards:
       correct: true
     - text: Le débit de référence reste constant ; seule la profondeur modifie le prélèvement dans le
         bloc
-      correct: false
-    - text: Le débit de référence diminue avec l’effort ; seule la fréquence respiratoire augmente
       correct: false
     explanation: '**Son besoin ventilatoire peut augmenter.** À profondeur identique, l’effort, le froid
       ou le stress peuvent accroître la consommation. Le débit mesuré décrit des conditions données ;
@@ -808,6 +840,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Sur une phase de 10 min à 20 m, un bloc de 12 L passe de 180 à 130 bars. Quelle consommation
@@ -848,6 +884,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Pour une même phase théorique à 20 m, A a un bloc de 12 L à 150 bars et un débit de référence
@@ -855,8 +895,9 @@ cards:
       60 bars à la fin de cette phase. Qui atteint ce seuil le premier ? Gaz parfait à température constante
       ; prendre 3 bars absolus à 20 m.
     explanation: '**B, après 15 min ; A après 18 min.** A : 12 × (150 − 60) = 1 080 L utilisables, puis
-      1 080/(20 × 3) = 18 min. B : 15 × 90 = 1 350 L, puis 1 350/(30 × 3) = 15 min. Le bloc le plus gros
-      ne garantit pas la durée la plus longue.'
+      1 080/(20 × 3) = 18 min. B : 15 × 90 = 1 350 L, puis 1 350/(30 × 3) = 15 min. Les 22,5 min utilisent
+      pour B le débit de A ; 18 min pour chacun applique le résultat de A aux deux blocs et débits différents.
+      Le bloc le plus gros ne garantit pas la durée la plus longue.'
     choices:
     - text: B après 15 min ; A après 18 min
       correct: true
@@ -889,6 +930,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 31, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants du modèle : 18×4=72 ; 12×200=2400 et 15×180=2700 ; (1800−600−300)/90=10 min ; 12×50/(10×3)=20
+      L/min ; A 1080/60=18 et B1350/90=15 ; utilisable12×130=1560. Distinction nominal / utilisable /
+      conservé et hypothèses relues, MFT N3 p. 8 et 15.'
     fact_check: pass
   fr:
     question: Un bloc de 12 L affiche 200 bars. Un exercice impose de conserver 70 bars. Quel volume d’air
@@ -1004,14 +1049,19 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 32, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Résolution
+      distincte : 20×3×8+20×2×6=720 L ; 12×50=600 et15×50=750 ; 600−(30+40)×3×3=−30 ; 20×((3+1)/2)×2=80
+      L. Contributions de phases, consommation de deux équipiers et pression moyenne vérifiées ; MFT N3
+      p. 8,15, sources N2 conservées.'
     fact_check: pass
   fr:
     question: 'Un exercice comporte deux phases : 8 min à 20 m, puis 6 min à 10 m, avec un débit respiratoire
       de référence de 20 L/min à 1 bar. Quel volume d’air faut-il pour ces deux phases seules, hors transitions
       et réserve ? Prendre 1 bar à la surface et +1 bar tous les 10 m. Modèle de gaz parfait à température
       constante ; volumes d’air exprimés à 1 bar.'
-    explanation: '**720 L à 1 bar.** Phase à 20 m : 20 × 3 × 8 = 480 L. Phase à 10 m : 20 × 2 × 6 = 240
-      L. Total : 480 + 240 = 720 L. Chaque phase se calcule à sa propre pression absolue.'
+    explanation: '**720 L à 1 bar.** À 20 m : 20 × 3 × 8 = 480 L. À 10 m : 20 × 2 × 6 = 240 L. Total :
+      480 + 240 = 720 L. Le choix 840 L garde 3 bar pendant les quatorze minutes ; 560 L garde 2 bar pendant
+      tout ce temps. Chaque phase se calcule à sa propre pression absolue.'
     choices:
     - text: 720 L à 1 bar
       correct: true
@@ -1044,14 +1094,18 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 32, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Résolution
+      distincte : 20×3×8+20×2×6=720 L ; 12×50=600 et15×50=750 ; 600−(30+40)×3×3=−30 ; 20×((3+1)/2)×2=80
+      L. Contributions de phases, consommation de deux équipiers et pression moyenne vérifiées ; MFT N3
+      p. 8,15, sources N2 conservées.'
     fact_check: pass
   fr:
-    question: Une baisse de pression de 50 bars dans un bloc de 12 L fournit-elle le même volume d’air
-      qu’une baisse de 50 bars dans un bloc de 15 L ? Calculer les deux volumes. Modèle de gaz parfait
-      à température constante ; volumes d’air exprimés à 1 bar.
-    explanation: '**Non : 600 L contre 750 L à 1 bar.** 12 × 50 = 600 L ; 15 × 50 = 750 L. Une même quantité
-      de bars représente davantage d’air dans le plus grand bloc. Comparer des réserves en bars nécessite
-      donc de connaître les volumes intérieurs.'
+    question: Quels volumes d’air fournissent respectivement une baisse de pression de 50 bar dans un
+      bloc de 12 L et la même baisse dans un bloc de 15 L ? Modèle de gaz parfait à température constante
+      ; volumes d’air exprimés à 1 bar.
+    explanation: '**600 L pour le bloc de 12 L ; 750 L pour celui de 15 L, ramenés à 1 bar.** 12 × 50
+      = 600 L ; 15 × 50 = 750 L. Une même quantité de bars représente davantage d’air dans le plus grand
+      bloc. Comparer des réserves en bars nécessite donc de connaître les volumes intérieurs.'
     choices:
     - text: '12 L : 600 L ; 15 L : 750 L, à 1 bar'
       correct: true
@@ -1084,6 +1138,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 32, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Résolution
+      distincte : 20×3×8+20×2×6=720 L ; 12×50=600 et15×50=750 ; 600−(30+40)×3×3=−30 ; 20×((3+1)/2)×2=80
+      L. Contributions de phases, consommation de deux équipiers et pression moyenne vérifiées ; MFT N3
+      p. 8,15, sources N2 conservées.'
     fact_check: pass
   fr:
     question: Deux équipiers partagent un stock alloué de 600 L à 1 bar pendant une phase théorique de
@@ -1198,6 +1256,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NASA Equation of
       State ; BSAC So you think you use too much gas et Gas reserves ; modèle explicite de la carte ;
       chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 32, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Résolution
+      distincte : 20×3×8+20×2×6=720 L ; 12×50=600 et15×50=750 ; 600−(30+40)×3×3=−30 ; 20×((3+1)/2)×2=80
+      L. Contributions de phases, consommation de deux équipiers et pression moyenne vérifiées ; MFT N3
+      p. 8,15, sources N2 conservées.'
     fact_check: pass
   fr:
     question: Un exercice comporte seulement une remontée régulière de 20 m à la surface en 2 min, sans

@@ -25,19 +25,27 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
-    question: Une plongée à l’air est conduite à l’ordinateur. Quel rapport existe entre les rattrapages
-      fédéraux de 2024 et les anciennes procédures MN90 ?
+    question: Un Zoop Novo signale une vitesse de 12 m/min maintenue sur 15 m de remontée. Le seuil de
+      remontée rapide des préconisations fédérales n’est pas atteint. Quel principe appliquer aux indications
+      de l’appareil ?
     choices:
-    - text: Les rattrapages de 2024 sont distincts des anciennes procédures MN90
+    - text: Respecter son alarme et les arrêts qu’il impose, même sous le seuil fédéral de rattrapage
       correct: true
-    - text: Les rattrapages de 2024 reprennent les procédures MN90 avec de nouveaux intitulés
+    - text: Ignorer son alarme et ses arrêts tant que la vitesse reste inférieure à 15 m/min
       correct: false
-    - text: Les rattrapages restent ceux des MN90 ; le texte de 2024 modifie seulement l’alerte
+    - text: Remplacer ses arrêts par la procédure MN90 de remontée rapide à mi-profondeur
       correct: false
-    explanation: La recommandation fédérale de 2024 vise les plongées à l’air conduites à l’ordinateur
-      et prévoit ses propres rattrapages. Les anciennes procédures de tables MN90 ne s’y substituent pas.
+    explanation: Le seuil fédéral de rattrapage et les seuils d’alarme du modèle ne sont pas interchangeables.
+      Le Zoop Novo demande de ralentir au-delà de 10 m/min et peut imposer un arrêt après un dépassement
+      prolongé. Rester sous 15 m/min ne dispense pas de suivre ces indications ; les anciennes procédures
+      MN90 ne remplacent pas celles de cette plongée conduite à l’ordinateur.
 - id: n2-remontees-anormales-seuil-001
   type: mcq
   anki_model: basic
@@ -63,6 +71,11 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: En plongée à l’air avec ordinateur, quels critères définissent la remontée trop rapide dans
@@ -110,6 +123,11 @@ cards:
     - 'FFESSM Subaqua — rattrapages, publié le 2024-11-14, modifié le 2025-12-08, initiative du DP et
       paliers minimaux, consulté le 2026-10-10 : https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur
       ; omission des 5 min dans cet article, vérifiées dans le MFT consolidé p.2'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: À l’air avec ordinateur, le DP engage un rattrapage après une remontée trop rapide répondant
@@ -118,13 +136,14 @@ cards:
       obligations de l’ordinateur plus importantes ?
     explanation: Rejoindre au moins la mi-profondeur dans les 3 min et y rester 5 min, puis faire au minimum
       1 min à 6 m et 5 min à 3 m, tout en conservant les obligations de l’ordinateur plus importantes.
-      Le directeur de plongée (DP) décide de ce rattrapage en fonction de la situation. Les 12 min à mi-profondeur
-      appartiennent à l’ancienne procédure MN90 ; la présence de signes d’accident impose les secours
-      en surface.
+      Le directeur de plongée (DP) décide de ce rattrapage en fonction de la situation. L’ancienne procédure
+      MN90 recalcule les paliers à partir d’une durée incluant le séjour à mi-profondeur, avec au moins
+      2 min à 3 m ; elle ne remplace pas ce protocole à l’ordinateur. Des signes d’accident imposent les
+      secours en surface.
     choices:
     - text: 5 min au moins à mi-profondeur ou plus profond, puis 1 min à 6 m et 5 min à 3 m
       correct: true
-    - text: 12 min à mi-profondeur, puis paliers recalculés avec les tables MN90
+    - text: 5 min à mi-profondeur, puis paliers recalculés avec les MN90 et au moins 2 min à 3 m
       correct: false
     - text: 5 min au moins à mi-profondeur ou plus profond, puis 5 min à 6 m et 1 min à 3 m
       correct: false
@@ -155,6 +174,11 @@ cards:
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: Après une remontée trop rapide répondant aux critères fédéraux de 2024, à l’air avec ordinateur,
@@ -195,6 +219,11 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: Pendant une même immersion d’exercices, la palanquée suit 20 m → 6 m → 20 m → 6 m → 20 m
@@ -236,6 +265,11 @@ cards:
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: Pour des exercices comportant plusieurs remontées, quelle profondeur limite les préconisations
@@ -249,8 +283,7 @@ cards:
     - text: 9 m
       correct: false
     explanation: '**Ne pas remonter au-dessus de 6 m lors de ces remontées répétées.** Préparer les exercices
-      avec l’encadrant pour limiter les variations de pression près de la surface ; ce repère n’autorise
-      pas un nombre illimité de répétitions.'
+      avec l’encadrant pour limiter les variations de pression près de la surface.'
 - id: n2-remontees-anormales-confort-001
   type: mcq
   anki_model: basic
@@ -276,6 +309,11 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 46, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, publié 14 novembre 2024, modifié 8 décembre 2025, https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur,
+      relu le 11 octobre 2026 ; newsletter FFESSM novembre 2024 p. 1–2 ; MN90 juillet 2005 p. 2 pour comparaison
+      historique ; Zoop Novo SLOW/mandatory safety stop.
     fact_check: pass
   fr:
     question: Pendant une plongée normale à l’air avec ordinateur, quel arrêt interrompu à 3 m relève
@@ -317,6 +355,10 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - Relecture individuelle N3 2026-10-11 lot 47, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, version 8 décembre 2025 (https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur)
+      ; RIFAP mai 2026 p. 28–32, consultés le 11 octobre 2026.
     fact_check: pass
   fr:
     question: Un palier obligatoire est interrompu lors d’une plongée à l’air avec ordinateur. Le plongeur
@@ -361,6 +403,10 @@ cards:
     - 'N3-S01 — MFT N3, décembre 2025, p.3,9,12–15 ; pertinence et revalidation du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - MFT — Recommandations CTN, mai 2025 p.2, reprend les décisions de 2024 ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/45a3ca0e-992e-41df-acc8-34aaf62b830d
       ; RIFAP mai 2026 p.29,32 ; vérifié 2026-10-06
+    - Relecture individuelle N3 2026-10-11 lot 47, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, version 8 décembre 2025 (https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur)
+      ; RIFAP mai 2026 p. 28–32, consultés le 11 octobre 2026.
     fact_check: pass
   fr:
     question: En mer, jusqu’à 3 min de palier obligatoire ont été manquées à l’air avec ordinateur. Sans
@@ -404,19 +450,23 @@ cards:
     - 'FFESSM CMPN — PEC accident, consulté le 2026-10-06 : https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue du 2026-10-06 : docs/reviews/14-remontees-anormales.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 47, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; CTN
+      Recommandations mai 2025 p. 2 ; FFESSM Subaqua Procédures de rattrapage lors de remontées anormales
+      avec un ordinateur, version 8 décembre 2025 (https://subaqua.ffessm.fr/article/procedures-rattrapage-remontee-anormale-ordinateur)
+      ; RIFAP mai 2026 p. 28–32, consultés le 11 octobre 2026.
     fact_check: pass
   fr:
-    question: Après 2 min de palier obligatoire manquées, un plongeur présente faiblesse et fourmillements.
-      Gaz et équipier permettraient une réimmersion rapide. Quelle branche de prise en charge s’applique
-      ?
+    question: Après 2 min de palier obligatoire manquées, un plongeur conscient qui respire normalement
+      présente faiblesse et fourmillements. Gaz et équipier permettraient une réimmersion rapide. Quelle
+      branche de prise en charge s’applique ?
     choices:
-    - text: Secours, oxygène adapté et surveillance en surface
+    - text: Alerte, oxygène au masque à haute concentration à 15 L/min et surveillance en surface
       correct: true
     - text: Reprise du palier en moins de 3 min et ajout de 3 min à 3 m
       correct: false
     - text: Rattrapage de 5 min à mi-profondeur, puis arrêts à 6 et 3 m
       correct: false
-    explanation: Des signes d’accident imposent les secours en surface, avec oxygène adapté au bilan et
-      surveillance. La possibilité technique de redescendre et une courte durée de palier manquée ne rendent
-      pas applicable la branche prévue pour un plongeur sans signe. Ne pas réimmerger une victime pour
-      finir ses paliers.
+    explanation: Des signes d’accident imposent les secours en surface, avec oxygène au masque à haute
+      concentration à 15 L/min et surveillance jusqu’au relais médical. La possibilité technique de redescendre
+      et une courte durée de palier manquée ne rendent pas applicable la branche prévue pour un plongeur
+      sans signe. Ne pas réimmerger une victime pour finir ses paliers.

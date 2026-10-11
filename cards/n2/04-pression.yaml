@@ -198,6 +198,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: À conditions météorologiques comparables, la pression atmosphérique réelle à la surface
@@ -271,6 +276,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: Dans une eau au repos, que représente la pression hydrostatique ajoutée à la pression atmosphérique
@@ -309,13 +319,18 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: À 6 m de profondeur, quelle est la pression absolue ambiante ? Prendre 1 bar de pression
       atmosphérique et une augmentation hydrostatique de 1 bar tous les 10 m.
     explanation: '**1,6 bar absolu.** L’eau ajoute 6/10 = 0,6 bar à la pression atmosphérique : P absolue
-      = 1 + 0,6 = 1,6 bar. À la surface, elle vaut déjà 1 bar ; elle augmente à la descente et diminue
-      à la remontée.'
+      = 1 + 0,6 = 1,6 bar. Le choix 0,6 bar omet l’atmosphère ; 2,6 bar la compte deux fois. À la surface,
+      la pression absolue vaut déjà 1 bar dans ce modèle.'
     choices:
     - text: 1,6 bar absolu
       correct: true
@@ -414,12 +429,18 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: À quelle profondeur la pression absolue vaut-elle 1,5 bar ? Prendre 1 bar à la surface et
       une augmentation de 1 bar tous les 10 m.
     explanation: '**5 m.** Retirer d’abord la pression atmosphérique : 1,5 − 1 = 0,5 bar dû à l’eau. La
-      profondeur vaut ensuite 0,5 × 10 = 5 m. Vérification : 1 + 5/10 = 1,5 bar.'
+      profondeur vaut 0,5 × 10 = 5 m. Les 15 m utilisent la pression absolue comme si elle était hydrostatique
+      ; 0,5 m oublie le facteur 10 m/bar. Vérification : 1 + 5/10 = 1,5 bar.'
     choices:
     - text: 5 m
       correct: true
@@ -484,6 +505,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: Un capteur sous l’eau indique 3 bar de pression absolue, avec 1 bar atmosphérique à la surface.
@@ -520,6 +546,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: Pour appliquer P₁V₁ = P₂V₂ à un gaz passant de 10 à 20 m, quelles pressions utiliser ? La
@@ -532,9 +563,9 @@ cards:
       correct: false
     - text: P₁ = 3 bars ; P₂ = 4 bars
       correct: false
-    explanation: 'La loi de Boyle-Mariotte utilise les pressions absolues : 1 + 10/10 = 2 bars et 1 +
-      20/10 = 3 bars. Les valeurs 1 et 2 bars sont les seules contributions de l’eau ; les employer donnerait
-      un rapport de compression erroné.'
+    explanation: 'La loi de Boyle-Mariotte utilise les pressions absolues : 1 + 10/10 = 2 bar et 1 + 20/10
+      = 3 bar. Les valeurs 1 et 2 bar omettent la pression atmosphérique ; 3 et 4 bar la comptent deux
+      fois. Ces erreurs donnent chacune un rapport de compression différent de 2/3.'
 - id: n2-pression-rapports-001
   type: mcq
   deck: Physique
@@ -596,6 +627,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: 'Quelle est la pression absolue à 20 m de profondeur ? Utiliser le modèle simplifié : pression
@@ -635,6 +671,11 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 28, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Physique
+      élémentaire : pression atmosphérique / hydrostatique / absolue et Boyle-Mariotte ; résolutions distinctes
+      consignées dans la revue lot 28. Hypothèses atmosphère 1 bar, +1 bar/10 m, gaz constant et température
+      constante relues. MFT N3 décembre 2025 p. 15 pour pertinence, sources factuelles N2 préexistantes
+      conservées.'
     fact_check: pass
   fr:
     question: 'Quelle est la pression absolue à 33 m de profondeur ? Utiliser le modèle simplifié : pression
@@ -674,12 +715,17 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: 'À quelle profondeur la pression absolue atteint-elle 2,8 bars ? Utiliser le modèle simplifié
       : pression atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
     explanation: '**18 m.** La contribution de l’eau vaut 2,8 − 1 = 1,8 bar. Profondeur = 1,8 × 10 = 18
-      m. Vérification : 1 + 18/10 = 2,8 bars.'
+      m. Les 28 m omettent de retirer le bar atmosphérique ; 38 m l’ajoutent au lieu de le retirer. Vérification
+      : 1 + 18/10 = 2,8 bar.'
     choices:
     - text: 18 m
       correct: true
@@ -713,12 +759,16 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: 'À quelle profondeur la pression absolue atteint-elle 4 bars ? Utiliser le modèle simplifié
       : pression atmosphérique de 1 bar et augmentation hydrostatique de 1 bar tous les 10 m.'
-    explanation: '**30 m.** Retirer le bar atmosphérique avant de convertir : (4 − 1) × 10 = 30 m. À 40
-      m, la pression absolue serait de 5 bars.'
+    explanation: '**30 m.** Retirer le bar atmosphérique avant de convertir : (4 − 1) × 10 = 30 m. Les
+      40 m omettent cette soustraction ; les 50 m ajoutent le bar atmosphérique au lieu de le retirer.'
     choices:
     - text: 30 m
       correct: true
@@ -828,6 +878,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: Dans un lac, la pression atmosphérique à la surface vaut 0,8 bar. Quelle est la pression
@@ -868,6 +922,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; NIST B.9 et NOAA/NWS
       Pressure ; modèle hydrostatique explicite ; résolution algébrique propre ; chaque distracteur analysé
       dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: Dans un lac où la pression atmosphérique vaut 0,8 bar, un capteur indique 2,3 bars de pression

@@ -14,6 +14,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En établissement en France, à l’air, quelles profondeurs maximales d’autonomie correspondent
@@ -44,6 +46,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Un plongeur obtient le N3 FFESSM à 17 ans. Que change son dix-huitième anniversaire pour
@@ -73,6 +77,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Dans un club FFESSM, un N3 de 17 ans souhaite plonger à l’air en autonomie jusqu’à 40 m
@@ -102,6 +108,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Un adulte possède les qualifications PA40 et PE60, sans brevet N3. Avec un DP, que permettent
@@ -131,6 +139,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: Pour entrer en formation N3 FFESSM, quel prérequis de certification est admis, en plus des
@@ -159,19 +169,22 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.3
     - N3-S04 — RIFAP FFESSM, mai 2026, p.7
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: À quel moment le RIFAP est-il obligatoirement acquis pour un candidat au N3 FFESSM ?
+    question: Pour un candidat au N3 FFESSM qui ne possède pas encore le RIFAP, quelle échéance impose
+      d’en être titulaire ?
     choices:
-    - text: Au moment de la délivrance du N3
+    - text: La délivrance du brevet N3
       correct: true
-    - text: Dès l’entrée dans toute formation PA40
+    - text: L’entrée en formation N3
       correct: false
-    - text: Avant toute première plongée encadrée au-delà de 40 m
+    - text: Le premier atelier de formation PA40
       correct: false
-    explanation: Le RIFAP signifie Réactions et interventions face aux accidents subaquatiques, spécialité
-      plongée. Il est exigé au moment de la certification N3 ; il peut donc être acquis pendant le parcours.
-      Il n’est pas une condition générale de délivrance des qualifications isolées PA40 et PE60.
+    explanation: Le RIFAP, Réactions et interventions face aux accidents subaquatiques, spécialité plongée,
+      doit être acquis au moment de la certification N3. Il peut être préparé pendant le parcours ; le
+      début de la formation N3 ou d’un atelier PA40 n’impose pas de l’avoir déjà obtenu.
 - id: n3-prerogatives-guide-001
   type: mcq
   deck: Réglementation
@@ -187,20 +200,23 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
-    question: En France, la carte FFESSM N3/CMAS 3 étoiles donne-t-elle à elle seule la fonction de guide
-      de palanquée en exploration ?
+    question: À elle seule, quelle combinaison de fonctions la certification N3 FFESSM avec carte CMAS
+      trois étoiles attribue-t-elle en France, en exploration avec DP ?
     choices:
-    - text: 'Non : le N3 n’acquiert pas par ces étoiles la qualification française de guide'
+    - text: Autonomie jusqu’à 60 m ; aucune fonction de guide attribuée
       correct: true
-    - text: 'Oui : elle autorise l’encadrement à 40 m si un DP est présent'
+    - text: Autonomie jusqu’à 60 m ; fonction de guide jusqu’à 40 m
       correct: false
-    - text: 'Oui : elle autorise l’encadrement à 60 m après dix plongées à cette profondeur'
+    - text: Autonomie jusqu’à 60 m ; fonction de guide jusqu’à 60 m
       correct: false
-    explanation: La correspondance CMAS ne transforme pas le N3 en guide de palanquée en France. La fonction
-      de guide requiert la qualification correspondante ; l’autonomie concerne sa propre palanquée, sans
-      rôle d’encadrement attribué par le N3.
+    explanation: Le guide de palanquée doit détenir la qualification de guide correspondante, par exemple
+      GP-N4, ou une qualification reconnue équivalente. La carte CMAS trois étoiles délivrée avec le N3
+      français atteste ce brevet, sans lui attribuer la fonction de guide en France. PA40 et PE60 décrivent
+      des aptitudes d’évolution, pas une qualification d’encadrement.
 - id: n3-prerogatives-effectif-001
   type: mcq
   deck: Réglementation
@@ -216,6 +232,8 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 01 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; MFT N3 décembre 2025 p.3–4 consulté le 2026-10-10 ; objectif, ID et modèle conservés'
     fact_check: pass
   fr:
     question: En établissement en France, avec DP, à l’air et à 55 m, quelle plage complète d’effectifs
@@ -274,20 +292,26 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 02 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Sources recroisées le 2026-10-10 : MFT N3 décembre 2025 p.3–4 ; Code du sport A322-99 et annexe
+      III-15a, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053377104/2026-04-18 ; responsabilité
+      civile/pénale : https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/dirigeant-dans-quels-cas-votre-responsabilite-civile'
     fact_check: pass
   fr:
-    question: Trois N3 majeurs organisent leur exploration sans DP, dans les conditions autorisées par
-      leur club. Lequel devient automatiquement DP des autres palanquées du club ?
+    question: Dans un club en France, un titulaire du N3 envisage d’être directeur de plongée pour des
+      explorations à l’air en milieu naturel. Parmi ces qualifications supplémentaires, laquelle permet
+      cette fonction dans le cadre autorisé ?
     choices:
-    - text: 'Aucun : organiser cette sortie ne confère pas la qualification de DP'
+    - text: Plongeur de niveau 5 (P5)
       correct: true
-    - text: Le plongeur qui a signé la fiche de sécurité
+    - text: Guide de palanquée niveau 4 (GP-N4)
       correct: false
-    - text: Le plongeur qui possède le plus d’expérience à 40 m
+    - text: Plongeur encadré à 60 m (PE60)
       correct: false
-    explanation: L’organisation sans DP relève d’un cadre particulier. Choisir un site ou coordonner la
-      sortie ne confère pas les qualifications nécessaires pour exercer la direction de plongée d’autres
-      pratiquants. Les plongeurs restent coresponsables de leur organisation.
+    explanation: Le P5 est la qualification de directeur de plongée en exploration. Le N3 seul ne l’attribue
+      pas ; le GP-N4 conduit une palanquée et le PE60 est une aptitude à évoluer encadré. Organiser une
+      sortie de N3 sans DP ne revient donc pas à détenir la qualification de DP pour d’autres palanquées.
 - id: n3-responsabilites-civile-penale-001
   type: mcq
   deck: Réglementation
@@ -305,6 +329,11 @@ cards:
       de l’Économie, 30/07/2025, différence civile/pénale : https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/dirigeant-dans-quels-cas-votre-responsabilite-civile
       ; vérifié 2026-10-06'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 02 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Sources recroisées le 2026-10-10 : MFT N3 décembre 2025 p.3–4 ; Code du sport A322-99 et annexe
+      III-15a, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053377104/2026-04-18 ; responsabilité
+      civile/pénale : https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/dirigeant-dans-quels-cas-votre-responsabilite-civile'
     fact_check: pass
   fr:
     question: Quelle distinction décrit la responsabilité civile et la responsabilité pénale après un
@@ -312,13 +341,14 @@ cards:
     choices:
     - text: La civile vise la réparation d’un dommage ; la pénale sanctionne une infraction
       correct: true
-    - text: La civile concerne les incidents sans blessé ; la pénale tous ceux avec blessé
+    - text: La civile concerne les dommages matériels ; la pénale concerne les dommages corporels
       correct: false
-    - text: La civile concerne l’exploitant ; la pénale uniquement le DP
+    - text: La civile concerne les fautes non intentionnelles ; la pénale concerne les fautes intentionnelles
       correct: false
-    explanation: Un même événement peut engager les deux responsabilités, selon les faits et les conditions
-      juridiques. Le rôle ou la présence de blessures ne suffit pas à les distinguer. Une assurance de
-      responsabilité civile ne supprime pas une éventuelle responsabilité pénale.
+    explanation: La responsabilité civile vise la réparation d’un dommage ; la responsabilité pénale concerne
+      une infraction, qui peut être intentionnelle ou non. La distinction ne dépend pas de la nature matérielle
+      ou corporelle du dommage. Un même événement peut engager les deux ; une assurance civile n’efface
+      pas une éventuelle responsabilité pénale.
 - id: n3-organisation-exploitant-001
   type: mcq
   deck: Réglementation
@@ -334,20 +364,26 @@ cards:
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-73, A322-99, annexe III-16b ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705110
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 02 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Sources recroisées le 2026-10-10 : MFT N3 décembre 2025 p.3–4 ; Code du sport A322-99 et annexe
+      III-15a, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053377104/2026-04-18 ; responsabilité
+      civile/pénale : https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/dirigeant-dans-quels-cas-votre-responsabilite-civile'
     fact_check: pass
   fr:
-    question: Un établissement autorise trois titulaires majeurs de brevets justifiant PA60 à plonger
-      sans DP jusqu’à 40 m. Quelle démarche préalable reste exigée auprès de l’exploitant ?
+    question: En établissement en France, quel couple décrit l’information et l’accord préalables exigés
+      auprès de l’exploitant pour une sortie de titulaires majeurs de brevets PA60 sans DP ?
     choices:
-    - text: L’informer du site et lui faire entériner l’organisation de sécurité et de secours
+    - text: Information sur le site ; accord sur l’organisation de sécurité et de secours
       correct: true
-    - text: Lui transmettre seulement les paramètres réalisés après la sortie
+    - text: Information sur le site ; accord sur les seules aptitudes des plongeurs
       correct: false
-    - text: Lui demander de désigner l’un des trois N3 comme DP de la sortie
+    - text: Information sur les aptitudes ; accord sur les paramètres prévus
       correct: false
-    explanation: A322-99 exige une décision de l’exploitant, son information sur le choix du site avant
-      la plongée et son accord sur l’organisation destinée à assurer sécurité et déclenchement des secours.
-      La fiche de sécurité est également prévue dans la formation N3 à l’organisation sans DP.
+    explanation: L’exploitant décide d’autoriser la sortie sans directeur de plongée (DP), est informé
+      du site choisi et entérine l’organisation destinée à assurer la sécurité et le déclenchement des
+      secours. Vérifier les brevets ou recevoir les paramètres ne remplace pas ces éléments. La fiche
+      de sécurité figure aussi dans la formation N3 à cette organisation.
 - id: n3-formation-espace-profond-001
   type: mcq
   deck: Réglementation
@@ -364,6 +400,11 @@ cards:
       ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126'
     - 'Code du sport en vigueur, vérifié le 2026-10-06 : A322-86, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393833'
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 02 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Sources recroisées le 2026-10-10 : MFT N3 décembre 2025 p.3–4 ; Code du sport A322-99 et annexe
+      III-15a, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053377104/2026-04-18 ; responsabilité
+      civile/pénale : https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/dirigeant-dans-quels-cas-votre-responsabilite-civile'
     fact_check: pass
   fr:
     question: En formation technique à l’air en établissement, quel niveau minimal d’enseignant encadre
@@ -373,11 +414,11 @@ cards:
       correct: true
     - text: E3
       correct: false
-    - text: Guide de palanquée N4 sans qualification d’enseignant
+    - text: E2
       correct: false
-    explanation: Dans cet espace, la formation technique se déroule sous la responsabilité d’un E4. Le
-      MFT prévoit l’enseignement et la validation ordinaires des compétences N3 dans 0–40 m avec E3 minimum,
-      et une accoutumance progressive à la profondeur.
+    explanation: Dans l’espace 40–60 m, la formation technique se déroule sous la responsabilité d’un
+      E4. Les compétences N3 sont normalement enseignées et validées dans l’espace 0–40 m avec un E3 minimum
+      ; cela n’autorise pas cet E3 à enseigner au-delà de 40 m. E2 ne couvre pas non plus cet espace profond.
 - id: n3-formation-delai-competences-001
   type: mcq
   deck: Réglementation

@@ -19,19 +19,24 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-10, lot 10 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Erik Baker, Understanding M-values, PDF N3-S12 p.1–3 ; Shearwater/Pollock, Flexible Control of
+      Decompression Stress, paragraphes demi-temps et sursaturation, publication originale 2017, republication
+      2024-11-30 ; relus le 2026-10-10 : https://shearwater.com/blogs/community/flexible-control-of-decompression-stress'
     fact_check: pass
   fr:
-    question: Dans un modèle de désaturation à compartiments, que représente un compartiment ?
+    question: Dans un modèle de désaturation à compartiments, à quoi correspond un compartiment ?
     choices:
-    - text: Une entité mathématique d’échange de gaz caractérisée par ses paramètres
+    - text: Un tissu fictif défini par une période d’échange et des paramètres du modèle
       correct: true
-    - text: Un organe identifié dont l’ordinateur mesure directement la charge en azote
+    - text: Un organe réel défini par son emplacement anatomique dans le corps
       correct: false
-    - text: Une zone anatomique dont tous les tissus ont la même vitesse d’échange
+    - text: Une tranche de profondeur définie par ses limites de pression ambiante
       correct: false
-    explanation: Les compartiments représentent des vitesses d’échange et des limites du modèle. Ils ne
-      correspondent pas un pour un à des organes et leur charge est calculée, non mesurée dans le corps
-      du plongeur.
+    explanation: Un compartiment est une représentation mathématique, avec une vitesse d’échange et des
+      limites propres. Il n’est ni un organe identifié ni une tranche de profondeur. Plusieurs compartiments
+      sont calculés simultanément pour représenter des échanges plus ou moins rapides.
 - id: n3-modeles-periode-001
   type: mcq
   deck: Désaturation
@@ -97,9 +102,9 @@ cards:
       correct: false
     - text: 4 bar
       correct: false
-    explanation: Écart initial = 4 − 2 = 2 bar ; après une période, il reste 1 bar d’écart. Pression =
-      4 − 1 = 3 bar. Il s’agit de pressions de gaz inerte dans un modèle, pas d’une profondeur ni d’un
-      temps de palier réel.
+    explanation: 'L’écart initial vaut 4 − 2 = 2 bar. Après une période, la moitié de cet écart est comblée
+      : la pression passe à 2 + 1 = 3 bar. 2 bar revient à diviser la pression d’équilibre par deux sans
+      tenir compte du départ ; 4 bar suppose à tort que l’équilibre est complètement atteint en une période.'
 - id: n3-modeles-decharge-deux-periodes-001
   type: mcq
   deck: Désaturation
@@ -131,9 +136,9 @@ cards:
       correct: false
     - text: 2 bar
       correct: false
-    explanation: Écart initial = 2 bar ; après deux périodes il reste un quart, soit 0,5 bar. Pression
-      = 1 + 0,5 = 1,5 bar. Diviser toute la pression initiale par quatre donnerait 0,75 bar et oublierait
-      l’équilibre à 1 bar.
+    explanation: 'L’écart initial vaut 3 − 1 = 2 bar. Après deux périodes, il en reste un quart, soit
+      0,5 bar : pression finale 1 + 0,5 = 1,5 bar. 0,75 bar divise toute la pression initiale par quatre
+      ; 2 bar ne compte qu’une période.'
 - id: n3-modeles-rapide-lent-001
   type: mcq
   deck: Désaturation
@@ -189,19 +194,26 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-10, lot 10 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Erik Baker, Understanding M-values, PDF N3-S12 p.1–3 ; Shearwater/Pollock, Flexible Control of
+      Decompression Stress, paragraphes demi-temps et sursaturation, publication originale 2017, republication
+      2024-11-30 ; relus le 2026-10-10 : https://shearwater.com/blogs/community/flexible-control-of-decompression-stress'
     fact_check: pass
   fr:
-    question: À un instant donné, l’équilibre avec le gaz inspiré vaut 2 bar de gaz inerte. Les compartiments
-      A, B, C contiennent respectivement 1,5, 2 et 2,5 bar. Quel classement est correct ?
+    question: À un instant donné, la pression d’équilibre avec le gaz inspiré vaut 2 bar de gaz inerte.
+      Les compartiments A, B et C contiennent respectivement 1,5, 2 et 2,5 bar. Quel est le sens des échanges
+      pour chacun ?
     choices:
-    - text: A sous-saturé ; B saturé ; C sursaturé
+    - text: A se charge ; B est à l’équilibre ; C se décharge
       correct: true
-    - text: A sursaturé ; B saturé ; C sous-saturé
+    - text: A se décharge ; B est à l’équilibre ; C se charge
       correct: false
-    - text: A saturé ; B sous-saturé ; C sursaturé
+    - text: A est à l’équilibre ; B se charge ; C se décharge
       correct: false
-    explanation: Sous ces conditions, A tend à se charger, B est à l’équilibre et C tend à se décharger.
-      La sursaturation exprime un état relatif à l’équilibre, pas à elle seule la présence d’un accident.
+    explanation: 'Les échanges tendent à réduire l’écart à la pression d’équilibre : A reçoit du gaz,
+      B n’a pas d’échange net et C perd du gaz. La pression de gaz inspiré sert ici à déterminer le sens
+      de l’échange ; la pression ambiante sert à d’autres comparaisons, notamment les limites de remontée.'
 - id: n3-modeles-compartiment-limitant-001
   type: mcq
   deck: Désaturation
@@ -258,20 +270,25 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-10, lot 10 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Erik Baker, Understanding M-values, PDF N3-S12 p.1–3 ; Shearwater/Pollock, Flexible Control of
+      Decompression Stress, paragraphes demi-temps et sursaturation, publication originale 2017, republication
+      2024-11-30 ; relus le 2026-10-10 : https://shearwater.com/blogs/community/flexible-control-of-decompression-stress'
     fact_check: pass
   fr:
     question: Que représente une M-value à une pression ambiante donnée dans un modèle de décompression
       à gaz dissous ?
     choices:
-    - text: La pression de gaz inerte limite admise par le modèle dans un compartiment
+    - text: La pression de gaz inerte maximale admise dans un compartiment par le modèle
       correct: true
-    - text: La pression de gaz inerte mesurée dans le sang du plongeur
+    - text: La pression de gaz inerte d’équilibre avec le mélange inspiré par le plongeur
       correct: false
-    - text: La pression ambiante minimale commune à tous les compartiments
+    - text: La pression ambiante minimale commune à tous les compartiments du modèle
       correct: false
-    explanation: La M-value est une limite de pression de gaz inerte propre au compartiment et dépendante
-      de la pression ambiante. La charge calculée est comparée à cette limite ; elle ne fournit pas une
-      garantie individuelle d’absence d’accident.
+    explanation: La M-value est une limite de pression de gaz inerte propre au compartiment, qui varie
+      avec la pression ambiante. Elle se distingue de la pression d’équilibre liée au gaz inspiré et du
+      plafond de remontée exprimé en pression ambiante. La charge calculée est comparée à cette limite.
 - id: n3-modeles-droite-limite-001
   type: mcq
   deck: Désaturation
@@ -300,12 +317,13 @@ cards:
     choices:
     - text: 'Au-dessus : M vaut 2,6 bar'
       correct: true
-    - text: 'En dessous : M vaut 3,6 bar'
+    - text: 'En dessous : M vaut 3,24 bar'
       correct: false
     - text: 'Sur la limite : M vaut 2,8 bar'
       correct: false
-    explanation: M = 1 + 0,8 × 2 = 2,6 bar. La charge 2,8 bar dépasse cette limite de 0,2 bar. L’équation
-      et les valeurs sont fictives pour apprendre à lire la relation, sans calculer une remontée réelle.
+    explanation: Avec la pression ambiante de 2 bar, M = 1 + 0,8 × 2 = 2,6 bar. La charge de 2,8 bar est
+      donc au-dessus de 0,2 bar. 3,24 bar utilise à tort la charge de 2,8 comme pression ambiante ; annoncer
+      M = 2,8 confond la charge actuelle avec la limite du modèle.
 - id: n3-modeles-gf-calcul-001
   type: mcq
   deck: Désaturation
@@ -337,8 +355,10 @@ cards:
       correct: false
     - text: 0,68 bar
       correct: false
-    explanation: Écart M − Pamb = 0,8 bar ; 85 % de l’écart = 0,68 bar. La limite est donc 1,6 + 0,68
-      = 2,28 bar. Multiplier directement M par 0,85 ne représente pas cette interpolation.
+    explanation: 'Un GF (Gradient Factor, facteur de gradient) s’applique à l’écart entre la M-value et
+      la pression ambiante. Ici cet écart vaut 0,8 bar ; 85 % représente 0,68 bar, à ajouter à 1,6 bar
+      : limite 2,28 bar. 2,04 bar multiplie directement M par 0,85 ; 0,68 bar oublie d’ajouter la pression
+      ambiante.'
 - id: n3-modeles-gf-bas-haut-001
   type: mcq
   deck: Désaturation
@@ -369,9 +389,10 @@ cards:
       correct: false
     - text: Les deux GF fixent seulement la profondeur du premier arrêt
       correct: false
-    explanation: Le GF bas participe à la profondeur du premier arrêt ; le GF haut détermine la sursaturation
-      admise à la surface. Les GF utilisés évoluent entre ces contraintes pendant la remontée. Ils ne
-      sont ni des vitesses ni un effacement de l’historique.
+    explanation: Le GF bas (Gradient Factor bas, facteur de gradient bas) participe à la profondeur du
+      premier arrêt ; le GF haut détermine la sursaturation admise à la surface. Les facteurs utilisés
+      évoluent entre ces contraintes pendant la remontée. Inverser bas et haut échange leurs rôles ; attribuer
+      les deux au premier arrêt omet la limite à la surface.
 - id: n3-modeles-buhlmann-zhl-gf-001
   type: mcq
   deck: Désaturation
@@ -392,19 +413,24 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-10, lot 11 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
+      (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
+      : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
     fact_check: pass
   fr:
-    question: Comment lire l’expression « Bühlmann ZHL-16C + GF » ?
+    question: Dans l’expression « Bühlmann ZHL-16C + GF », que désignent ZHL-16C et GF ?
     choices:
-    - text: Bühlmann désigne la famille, ZHL-16C le modèle/jeu de paramètres et GF son ajustement de limites
+    - text: 'ZHL-16C : paramètres du modèle ; GF : ajustement des limites'
       correct: true
-    - text: Bühlmann désigne la famille, ZHL-16C le réglage GF et GF le nombre de compartiments
+    - text: 'ZHL-16C : paramètres du modèle ; GF : ajustement des périodes'
       correct: false
-    - text: Bühlmann désigne la famille, ZHL-16C les paramètres et GF la correction de vitesse
+    - text: 'ZHL-16C : réglage des limites ; GF : paramètres du modèle'
       correct: false
-    explanation: ZHL-16C utilise des compartiments et des coefficients du modèle de Bühlmann. Les gradient
-      factors ajustent les limites de sursaturation de ce calcul. Les trois termes ne sont pas synonymes
-      et aucun ne mesure une probabilité individuelle d’ADD.
+    explanation: Bühlmann désigne la famille de modèles. ZHL-16C définit notamment les périodes et coefficients
+      des 16 compartiments. Les GF, ou Gradient Factors (facteurs de gradient), ajustent les limites de
+      sursaturation admises ; ils ne changent pas les périodes d’échange ni le nombre de compartiments.
 - id: n3-modeles-rgbm-001
   type: mcq
   deck: Désaturation
@@ -422,20 +448,25 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Revue N3 par petits lots du 2026-10-10, lot 11 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
+      (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
+      : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
     fact_check: pass
   fr:
-    question: Quel ajout la documentation du Suunto Zoop Novo attribue-t-elle à son RGBM par rapport à
-      un modèle classique ne suivant que le gaz dissous ?
+    question: Dans le Suunto Zoop Novo, quel élément le RGBM ajoute-t-il à la modélisation de la désaturation
+      par rapport à un modèle classique de gaz dissous ?
     choices:
-    - text: Une prise en compte calculée du gaz libre, en plus du gaz dissous
+    - text: La prise en compte calculée du gaz libre, sous forme de bulles
       correct: true
-    - text: Une mesure directe des bulles par un capteur de l’ordinateur
+    - text: Le suivi de la toxicité de l’oxygène, à partir de sa pression partielle
       correct: false
-    - text: Un effacement de la charge résiduelle entre deux plongées
+    - text: Le seul ajustement du gradient de gaz dissous, sans modélisation de bulles
       correct: false
-    explanation: Le Suunto RGBM prédit gaz dissous et gaz libre. L’ordinateur ne mesure pas des bulles
-      dans le plongeur ; il calcule un modèle. Cette description vaut pour l’implémentation Suunto documentée,
-      sans rendre identiques tous les algorithmes portant le nom RGBM.
+    explanation: Le RGBM (Reduced Gradient Bubble Model) du Zoop Novo prédit à la fois le gaz dissous
+      et le gaz libre. Le suivi de la toxicité de l’oxygène est une autre fonction de l’ordinateur. Ajuster
+      seulement des limites de gaz dissous ne décrit pas l’ajout propre à ce modèle de bulles.
 - id: n3-modeles-successives-001
   type: mcq
   deck: Désaturation
@@ -485,21 +516,26 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.4,9,11,14 ; PDF local, vérifié le 2026-10-07
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 11 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
+      (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
+      : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
     fact_check: pass
   fr:
-    question: 'Deux plongées sont prévues dans la journée : la première atteint 20 m, la seconde 35 m.
-      Quelle caractéristique en fait une succession de plongées à profil inversé ?'
+    question: Quelle succession de deux plongées dans la même journée constitue un profil inversé, en
+      comparant leurs profondeurs maximales ?
     choices:
-    - text: La seconde plongée atteint une profondeur maximale supérieure à la première
+    - text: 'Première plongée : 20 m ; seconde : 35 m'
       correct: true
-    - text: La seconde commence avant l’élimination complète de l’azote résiduel
+    - text: 'Première plongée : 35 m ; seconde : 20 m'
       correct: false
-    - text: La seconde impose plus de temps de palier que la première
+    - text: 'Première plongée : 35 m ; seconde : 35 m'
       correct: false
-    explanation: 'L’ordre des profondeurs maximales est inversé : la plongée la plus profonde vient après
-      la moins profonde. C’est distinct du seul caractère successif et de la durée des paliers. Le MFT
-      classe les profils inversés parmi les comportements à risques à éviter ; leur évaluation ne se réduit
-      pas à lire la durée affichée.'
+    explanation: 'Un profil inversé place la plongée la plus profonde après la moins profonde : ici 20
+      m puis 35 m. 35 m puis 20 m suit l’ordre opposé ; deux maxima de 35 m ne créent pas d’inversion.
+      Le MFT demande d’éviter les profils inversés ; l’ordre des profondeurs est distinct de l’intervalle
+      de surface et des durées de palier.'
 - id: n3-modeles-acclimatation-001
   type: mcq
   deck: Désaturation
@@ -516,18 +552,24 @@ cards:
     - 'Acclimatization to diving: a systematic review, 2021 : https://pubmed.ncbi.nlm.nih.gov/33975403/
       ; vérifiés le 2026-10-07'
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 11 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
+      (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
+      : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
     fact_check: pass
   fr:
     question: Que désigne l’acclimatation à la désaturation étudiée lors d’expositions répétées à la plongée
       ?
     choices:
-    - text: Une adaptation physiologique possible de la réponse à la décompression
+    - text: Une adaptation physiologique de la réponse à la décompression
       correct: true
-    - text: Une élimination plus rapide de tout l’azote grâce à un changement de demi-périodes de l’ordinateur
+    - text: Une adaptation automatique des périodes du modèle aux plongées répétées
       correct: false
-    - text: Une habituation aux sensations de narcose, sans modification physiologique
+    - text: Une habituation psychologique aux effets de la narcose en profondeur
       correct: false
-    explanation: 'L’acclimatation concerne la réponse physiologique aux expositions répétées, notamment
-      la production de bulles observée après plongée. Les résultats varient selon les protocoles et les
-      individus : ce phénomène ne permet ni de supposer une protection acquise contre l’ADD ni de raccourcir
-      les procédures de décompression.'
+    explanation: L’acclimatation concerne une modification de la réponse physiologique aux expositions
+      répétées. Certaines études observent une diminution des bulles après des plongées répétées, avec
+      des résultats variables selon les protocoles. Ce n’est ni un changement automatique des périodes
+      de l’ordinateur ni une habituation à la narcose. Cette réponse ne constitue pas une méthode pour
+      raccourcir la décompression.

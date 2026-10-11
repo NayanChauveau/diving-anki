@@ -76,21 +76,27 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
     - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 14 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'DAN, Can You Recognize IPE?, 2022-12-22, mécanisme/signes/interruption/oxygène, relu 2026-10-10
+      : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
+      2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
+      N3 lot 14'
     fact_check: pass
   fr:
-    question: Après l’arrêt de l’effort, un plongeur reste anormalement gêné pour respirer et tousse ;
-      son gaz semble disponible. Quelle conclusion guide l’action ?
+    question: Après l’arrêt de l’effort en immersion, un plongeur reste anormalement gêné pour respirer
+      et tousse ; son gaz semble disponible. Quelle conduite adopter face à ces signes persistants ?
     choices:
-    - text: Une difficulté respiratoire persistante impose assistance et fin de plongée, sans diagnostic
-        certain
+    - text: Assister le plongeur et terminer l’immersion par un retour contrôlé en surface
       correct: true
-    - text: L’arrêt de l’effort écarte l’essoufflement et prouve une surpression pulmonaire
+    - text: Rester au niveau actuel pour récupérer, puis reprendre dès que la gêne diminue
       correct: false
-    - text: Le gaz disponible écarte un accident et permet d’attendre la récupération au fond
+    - text: Remonter de quelques mètres pour traiter une narcose, puis reprendre l’exploration
       correct: false
-    explanation: Un OPI ou d’autres causes peuvent provoquer ces signes. L’absence de diagnostic certain
-      ne retarde pas l’assistance, la sortie sécurisée et l’alerte/oxygène en surface. On ne force pas
-      une attribution à un simple essoufflement.
+    explanation: Une toux ou une gêne respiratoire persistante peut signaler un OPI (œdème pulmonaire
+      d’immersion) ou une autre atteinte respiratoire. La disponibilité du gaz ne l’exclut pas. Il faut
+      interrompre l’immersion et assister le retour ; en surface, oxygène, alerte et surveillance. Attendre
+      une récupération au fond ou attribuer ces signes à une narcose retarde cette prise en charge.
 - id: n3-risques-opi-mecanisme-001
   type: mcq
   deck: Prévention des accidents
@@ -120,7 +126,7 @@ cards:
       correct: false
     explanation: L’OPI est une accumulation de liquide dans les poumons en lien avec les contraintes circulatoires
       et respiratoires de l’immersion. Il peut survenir sans inhalation d’eau et ne se confond pas avec
-      une noyade, une surpression pulmonaire ou un ADD.
+      une noyade, une surpression pulmonaire ou un accident de désaturation (ADD).
 - id: n3-risques-opi-signes-001
   type: mcq
   deck: Prévention des accidents
@@ -136,20 +142,28 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
     - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 14 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'DAN, Can You Recognize IPE?, 2022-12-22, mécanisme/signes/interruption/oxygène, relu 2026-10-10
+      : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
+      2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
+      N3 lot 14'
     fact_check: pass
   fr:
-    question: Quel tableau doit notamment faire évoquer un OPI, sans attendre la présence de crachats
-      rosés ?
+    question: Quel tableau respiratoire est le plus évocateur d’un œdème pulmonaire d’immersion (OPI),
+      même sans crachats rosés ?
     choices:
-    - text: Gêne respiratoire brutale disproportionnée à l’effort, avec toux en immersion
+    - text: Gêne respiratoire brutale disproportionnée à l’effort, avec toux persistante
       correct: true
-    - text: Douleur d’oreille à la descente, avec vertige après équilibrage
+    - text: Ventilation accélérée à l’effort, redevenant normale au repos sans toux
       correct: false
-    - text: Fourmillements isolés d’une jambe deux heures après la sortie
+    - text: Difficulté inspiratoire cessant immédiatement après remplacement d’un deuxième étage défectueux
       correct: false
-    explanation: L’OPI peut donner dyspnée et toux, parfois expectoration mousseuse ou sanglante, mais
-      celle-ci n’est pas indispensable. Ces signes ne suffisent pas à prouver le diagnostic ; leur gravité
-      commande l’assistance et l’évaluation médicale.
+    explanation: Le tableau classique associe une gêne respiratoire brutale et une toux, parfois des crachats
+      mousseux ou sanglants. L’absence de ces crachats n’empêche pas la suspicion. Les autres observations
+      évoquent d’abord la réponse à l’effort et une résistance liée au matériel ; elles ne décrivent pas
+      ce tableau persistant. Ces signes imposent assistance et évaluation médicale ; ils ne suffisent
+      pas à prouver un OPI.
 - id: n3-risques-opi-priorites-001
   type: mcq
   deck: Prévention des accidents
@@ -167,6 +181,12 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 14 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'DAN, Can You Recognize IPE?, 2022-12-22, mécanisme/signes/interruption/oxygène, relu 2026-10-10
+      : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
+      2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
+      N3 lot 14'
     fact_check: pass
   fr:
     question: À bord, après une sortie sécurisée, un plongeur conscient garde une gêne respiratoire faisant
@@ -174,13 +194,14 @@ cards:
     choices:
     - text: Position de confort respiratoire, oxygène, alerte médicale et surveillance
       correct: true
-    - text: Position allongée avec jambes surélevées imposée, oxygène et alerte médicale
+    - text: Position allongée avec jambes surélevées, oxygène, alerte médicale et surveillance
       correct: false
-    - text: Position assise, eau à boire malgré la gêne respiratoire, oxygène et alerte médicale
+    - text: Position latérale de sécurité, oxygène, alerte médicale et surveillance
       correct: false
-    explanation: La gêne respiratoire motive oxygène et alerte, sans attendre un diagnostic sur le bateau.
-      La position doit faciliter la respiration ; on surveille conscience et ventilation et suit les consignes
-      médicales. Une réimmersion n’est pas un traitement.
+    explanation: On laisse le plongeur conscient s’installer dans la position qui facilite sa respiration,
+      souvent assise ou demi-assise. On administre l’oxygène, alerte les secours et surveille conscience
+      et ventilation. Surélever les jambes n’est pas la position adaptée à cette gêne ; la position latérale
+      de sécurité répond à une perte de connaissance avec respiration normale, pas à ce cas.
 - id: n3-risques-contraintes-cumulees-001
   type: mcq
   deck: Prévention des accidents
@@ -196,20 +217,27 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
     - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 14 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'DAN, Can You Recognize IPE?, 2022-12-22, mécanisme/signes/interruption/oxygène, relu 2026-10-10
+      : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
+      2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
+      N3 lot 14'
     fact_check: pass
   fr:
     question: Au fond, le courant augmente, un équipier commence à frissonner et sa consommation dépasse
-      le budget. Quelle modification du plan répond simultanément à ces trois changements ?
+      la prévision. Quelle adaptation du plan tient compte de ces trois changements ?
     choices:
-    - text: Déclencher le retour collectif avant les limites initiales et réévaluer le gaz restant
+    - text: Déclencher le retour collectif plus tôt et réévaluer les besoins avec le débit observé
       correct: true
-    - text: Garder la durée prévue en réduisant uniquement la vitesse de palmage
+    - text: Conserver la durée prévue en réduisant seulement la vitesse de palmage
       correct: false
-    - text: Attendre la DTR maximale prévue pour que le froid soit pris en compte par l’ordinateur
+    - text: Conserver le seuil de retour initial sans modifier le budget tant qu’il n’est pas atteint
       correct: false
-    explanation: La durée planifiée est une limite maximale, pas une obligation de poursuivre. Froid,
-      effort et gaz diminuent la marge du retour ; la palanquée reste ensemble et adapte le profil avant
-      que le budget ne soit dépassé.
+    explanation: Froid, effort et débit accru réduisent la marge de retour. La palanquée reste ensemble,
+      réévalue le gaz nécessaire et abrège l’exploration. Réduire seulement le palmage ne traite ni le
+      froid ni le nouveau budget ; conserver un seuil établi avec une consommation démentie ne finance
+      pas nécessairement le retour.
 - id: n3-risques-hyperoxie-cerveau-001
   type: mcq
   deck: Prévention des accidents
@@ -227,6 +255,8 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'DAN, Emergency Oxygen and Oxygen Toxicity, 2011-11-01, toxicité CNS et convulsions, relu 2026-10-10
+      ; lot 14 : https://dan.org/alert-diver/article/emergency-oxygen-and-oxygen-toxicity/'
     fact_check: pass
   fr:
     question: Quel événement caractérise le risque aigu de toxicité de l’oxygène sur le système nerveux
@@ -236,9 +266,8 @@ cards:
       correct: true
     - text: Une euphorie et un ralentissement du raisonnement, sans crise convulsive
       correct: false
-    - text: Une douleur articulaire retardée après le retour en surface
-      correct: false
-    explanation: Une pression partielle d’oxygène élevée peut provoquer une toxicité neurologique, notamment
-      une crise convulsive. La perte de contrôle en immersion expose à la noyade. Le risque dépend aussi
-      de la durée et des conditions d’exposition ; une valeur de PO2 n’est pas une frontière garantissant
-      l’absence de crise.
+    explanation: 'La toxicité neurologique de l’oxygène hyperbare peut provoquer une crise convulsive
+      et une perte de contrôle exposant à la noyade. L’euphorie et le ralentissement du raisonnement évoquent
+      plutôt la narcose à l’azote. Le risque toxique dépend de la pression partielle d’oxygène (PO₂),
+      de la durée et des conditions d’exposition : il n’existe pas de seuil garantissant l’absence de
+      crise.'

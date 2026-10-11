@@ -40,11 +40,15 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: Le plan d’un exercice estime le retour à 70 bar dans le bloc limitant et impose 20 bar à
-      l’arrivée. Une marge de déclenchement de 10 bar est ajoutée avant le retour. À quelle pression doit-on
-      commencer ce retour ?
+    question: Dans un exercice, la consommation prévue pour le trajet de retour correspond à 70 bar du
+      bloc limitant. On veut conserver 20 bar à l’arrivée et ajouter 10 bar de marge avant de déclencher
+      le retour. À quelle pression faut-il commencer ce retour ?
     choices:
     - text: 100 bar
       correct: true
@@ -52,8 +56,9 @@ cards:
       correct: false
     - text: 80 bar
       correct: false
-    explanation: 70 bar pour le retour + 20 bar finaux + 10 bar de marge de déclenchement = 100 bar. Les
-      20 bar finaux ne sont ni le signal de départ du fond ni le gaz nécessaire au trajet.
+    explanation: Il faut disposer de 70 + 20 + 10 = 100 bar au départ du retour. 90 bar oublie la marge
+      de déclenchement ; 80 bar oublie les 20 bar à conserver à l’arrivée. Les 70 bar représentent une
+      consommation sur le trajet, pas la pression à l’arrivée.
 - id: n3-planification-palier-ajoute-001
   type: mcq
   deck: Matériel et préparation
@@ -69,21 +74,26 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: 'Un budget fictif laisse 400 L à 1 bar pour poursuivre à 40 m, débit de référence 20 L/min.
-      Un arrêt supplémentaire imposé de 3 min à 6 m doit être ajouté au retour individuel. Combien de
-      temps de fond reste-t-il après ce recalcul ? Modèle : gaz parfait à température constante, 1 bar
-      en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: 'Un budget fictif laisse 400 L à 1 bar pour poursuivre à 40 m, avec un débit de référence
+      de 20 L/min à 1 bar. Un arrêt supplémentaire de 3 min à 6 m doit être financé sur ces 400 L. Quel
+      temps de fond reste-t-il, arrondi au dixième de minute ? Modèle : gaz parfait à température constante,
+      1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
     choices:
-    - text: 3,04 min
+    - text: 3,0 min
       correct: true
-    - text: 4 min
+    - text: 4,0 min
       correct: false
-    - text: 1 min
+    - text: 1,0 min
       correct: false
-    explanation: 'L’arrêt coûte 20 × 1,6 × 3 = 96 L. Il reste 304 L pour le fond, consommés à 100 L/min
-      : 3,04 min. Le temps de palier ne se soustrait pas directement minute pour minute au temps de fond.'
+    explanation: 'L’arrêt coûte 20 × 1,6 × 3 = 96 L. Il reste 304 L pour le fond, consommés à 20 × 5 =
+      100 L/min : 3,04 min, soit 3,0 min après arrondi. 4,0 min omet l’arrêt ; 1,0 min soustrait trois
+      minutes de palier à quatre minutes de fond malgré les pressions différentes.'
 - id: n3-planification-arret-obligatoire-001
   type: mcq
   deck: Matériel et préparation
@@ -99,21 +109,27 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: Avant immersion, le budget de gaz s’avère insuffisant pour un profil prévoyant 4 min de
-      trajets, 6 min de décompression obligatoire et 3 min de sécurité facultative. Quelle modification
-      des arrêts peut être étudiée en conservant les obligations de ce profil ?
+    question: Avant immersion, le planificateur prévoit 3 min à 6 m puis 6 min à 3 m pour la décompression.
+      Le club ajoute habituellement un arrêt de sécurité de 3 min à 5 m, même aux plongées sans décompression
+      obligatoire. Quel arrêt est ajouté en dehors des obligations de décompression calculées pour ce
+      profil ?
     choices:
-    - text: Retirer les 3 min facultatives, puis recalculer le budget complet
+    - text: L’arrêt de 3 min à 5 m
       correct: true
-    - text: Répartir les 6 min obligatoires sur 3 min, puis recalculer le budget complet
+    - text: L’arrêt de 3 min à 6 m
       correct: false
-    - text: Remplacer les 6 min obligatoires par les 3 min de sécurité, puis recalculer le budget complet
+    - text: L’arrêt de 6 min à 3 m
       correct: false
-    explanation: Un palier obligatoire doit être respecté si ce profil est réalisé. Avant le départ, on
-      revoit le profil et le budget au lieu de supprimer les obligations de décompression. Le palier de
-      sécurité facultatif n’a pas le même statut ; les trajets restent à budgéter.
+    explanation: 'L’arrêt de sécurité ajouté à 5 m est distinct des obligations calculées. Les arrêts
+      à 6 m et à 3 m sont imposés par le planificateur pour ce profil : ni leur profondeur ni leur durée
+      ne les rendent facultatifs. La planification doit financer les obligations de décompression et les
+      arrêts de sécurité retenus pour la plongée.'
 - id: n3-planification-dtr-collective-001
   type: mcq
   deck: Matériel et préparation
@@ -157,12 +173,17 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: 'Une remontée linéaire 40 → 20 m devait durer 2 min ; elle dure 4 min. Débit de référence
-      individuel 20 L/min à 1 bar. Quel gaz supplémentaire ramené à 1 bar représente ce ralentissement,
-      sans autres phases ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par
-      10 m ; seul le gaz respiré est compté.'
+    question: 'Dans un exercice, une remontée à vitesse constante de 40 à 20 m devait durer 2 min ; elle
+      dure finalement 4 min, à vitesse constante sur ce même trajet. Débit individuel de référence : 20
+      L/min à 1 bar. Quel volume supplémentaire ramené à 1 bar ce ralentissement consomme-t-il ? Modèle
+      : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; aucune autre phase
+      n’est comptée.'
     choices:
     - text: 160 L
       correct: true
@@ -170,9 +191,9 @@ cards:
       correct: false
     - text: 200 L
       correct: false
-    explanation: Pression moyenne = (5 + 3) / 2 = 4 bar. Les 2 min supplémentaires coûtent 20 × 4 × 2
-      = 160 L. Le retour restant et la désaturation doivent être réévalués ; le ralentissement n’est pas
-      gratuit.
+    explanation: 'La pression moyenne du trajet linéaire vaut (5 + 3) / 2 = 4 bar. Le volume passe de
+      20 × 4 × 2 = 160 L à 20 × 4 × 4 = 320 L : le supplément est de 160 L. 80 L utilise une pression
+      moyenne erronée de 2 bar ; 200 L applique la pression maximale de 5 bar à tout le trajet.'
 - id: n3-planification-redescente-001
   type: mcq
   deck: Matériel et préparation
@@ -188,21 +209,25 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: En fin de plongée, après avoir quitté 45 m, un équipier propose de redescendre chercher
-      une ancre à 40 m. Le plan de retour n’a prévu ni ce détour ni une nouvelle exposition profonde.
-      Quelle vérification manque avant toute décision ?
+    question: Après avoir quitté 45 m, un équipier propose de redescendre chercher une ancre à 40 m. Ce
+      détour n’était pas prévu. À ventilation inchangée, quelle conséquence a cette exposition ajoutée
+      sur le budget de gaz et le calcul de désaturation ?
     choices:
-    - text: Le gaz et la désaturation du profil modifié pour toute la palanquée
+    - text: Du gaz supplémentaire est consommé et la désaturation doit être recalculée
       correct: true
-    - text: La conformité de 40 m aux aptitudes du plongeur le plus expérimenté
+    - text: Du gaz supplémentaire est consommé mais le calcul de désaturation reste inchangé
       correct: false
-    - text: La position de 40 m par rapport à la profondeur maximale déjà atteinte
+    - text: Le budget de gaz reste inchangé mais la désaturation doit être recalculée
       correct: false
-    explanation: Une profondeur inférieure au maximum déjà atteint ne rend pas le détour neutre. Une exposition
-      profonde ajoutée modifie gaz, durée et calculs de désaturation. Le plan initial ne constitue plus
-      une justification suffisante pour redescendre.
+    explanation: Le détour ajoute une durée de respiration et une nouvelle exposition en profondeur. Il
+      consomme du gaz et doit être intégré au calcul de désaturation. Rester sous le maximum déjà atteint
+      ne rend pas le détour neutre ; le plan initial ne suffit plus à le justifier.
 - id: n3-planification-reprise-001
   type: mcq
   deck: Matériel et préparation
@@ -216,20 +241,25 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 05 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
+      et progression ; relecture du 2026-10-10'
     fact_check: pass
   fr:
-    question: Un N3 revient après plusieurs années sans plonger et propose d’emblée 55 m avec DP. Quel
-      élément du briefing doit influer sur le choix du profil malgré la validité du brevet ?
+    question: Un N3 revient après plusieurs années sans plonger et propose 55 m avec DP. Quelle observation
+      renseigne le mieux sur son aisance actuelle pour adapter progressivement sa reprise ?
     choices:
-    - text: Son expérience récente et son aisance actuelle dans une reprise progressive
+    - text: Sa maîtrise observée lors d’une plongée de reprise à faible profondeur
       correct: true
-    - text: Son nombre total de plongées anciennes, qui fixe seul la profondeur du jour
+    - text: Sa maîtrise attestée lors des épreuves de son brevet avant l’interruption
       correct: false
-    - text: La date de son brevet, qui fixe une profondeur maximale annuelle
+    - text: Sa maîtrise rapportée lors de sa plongée la plus profonde avant l’interruption
       correct: false
-    explanation: Le diplôme atteste des compétences acquises ; l’aisance actuelle et l’expérience récente
-      déterminent une adaptation raisonnable au jour de la reprise. Le MFT demande une accoutumance progressive
-      et un choix collectif tenant compte des équipiers.
+    explanation: 'Une plongée de reprise permet d’observer les compétences actuelles : stabilisation,
+      ventilation, communication et utilisation du matériel. La certification et l’expérience profonde
+      antérieures attestent des acquis passés ; elles ne décrivent pas à elles seules l’aisance après
+      plusieurs années d’arrêt. La progression tient compte de l’équipier et des conditions du jour.'
 - id: n3-planification-communication-palier-001
   type: mcq
   deck: Matériel et préparation
@@ -245,6 +275,7 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 du 2026-10-10, lot 06 : MFT N3 décembre 2025, p.8–9,13 ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
     fact_check: pass
   fr:
     question: Pendant la remontée, l’ordinateur d’un équipier ajoute un arrêt obligatoire plus profond.
@@ -256,9 +287,10 @@ cards:
       correct: false
     - text: Le réglage GF et le modèle de l’ordinateur utilisé
       correct: false
-    explanation: Un réglage ou un temps total ne dit pas où attendre ni combien de temps. La palanquée
-      confronte les obligations concrètes de chacun, maintient sa cohésion et vérifie le gaz disponible
-      pour le retour modifié.
+    explanation: La profondeur et la durée disent où attendre et combien de temps. Le réglage GF (Gradient
+      Factors, paramètres de conservatisme) et le modèle ne donnent pas ces obligations pour le profil
+      réalisé ; les paramètres passés non plus. La palanquée compare les paliers de chacun, maintient
+      sa cohésion et vérifie le gaz pour le retour modifié.
 - id: n3-planification-sortie-modifiee-001
   type: mcq
   deck: Matériel et préparation
@@ -274,6 +306,7 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 du 2026-10-10, lot 06 : MFT N3 décembre 2025, p.8–9,13 ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
     fact_check: pass
   fr:
     question: 'Un changement de sortie ajoute 2 min à 20 m et un arrêt fourni de 4 min à 3 m. Débit de
@@ -287,5 +320,6 @@ cards:
       correct: false
     - text: 360 L
       correct: false
-    explanation: 20 × (2 × 3 + 4 × 1,3) = 224 L. Les deux contraintes s’ajoutent. On compare ce coût au
-      stock réellement disponible en conservant les autres besoins de retour et la marge finale.
+    explanation: Le trajet à 20 m coûte 20 × 3 × 2 = 120 L ; l’arrêt à 3 m coûte 20 × 1,3 × 4 = 104 L,
+      soit 224 L supplémentaires à 1 bar. 120 L omet l’arrêt ; 360 L applique la pression de 20 m aux
+      six minutes. Ce supplément s’ajoute aux autres besoins de retour et à la marge finale.

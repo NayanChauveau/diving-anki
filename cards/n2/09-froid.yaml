@@ -63,6 +63,10 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: En eau froide, un plongeur frissonne et ne peut plus manipuler ses attaches. Quelle décision
@@ -105,6 +109,10 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Après une exposition prolongée au froid, un plongeur cesse de frissonner tout en devenant
@@ -146,6 +154,10 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: À épaisseur nominale identique, pourquoi une combinaison humide trop ample protège-t-elle
@@ -154,8 +166,6 @@ cards:
     - text: Elle favorise le renouvellement de l’eau déjà réchauffée au contact du corps
       correct: true
     - text: Elle augmente la pression de l’eau et comprime davantage le néoprène à même profondeur
-      correct: false
-    - text: Elle refroidit parce que toute présence d’eau annule l’isolation du néoprène
       correct: false
     explanation: Dans une combinaison humide, une petite quantité d’eau entre et se réchauffe. Un mauvais
       ajustement favorise son renouvellement par de l’eau froide, ce qui augmente les pertes. Le néoprène
@@ -230,6 +240,10 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 35, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
+      Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
+      ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
     fact_check: pass
   fr:
     question: Pendant la lutte contre le froid, avec frissons et perte de dextérité, quel effet combiné
@@ -238,8 +252,6 @@ cards:
     - text: Une hausse des besoins ventilatoires avec une dégradation des gestes et du jugement
       correct: true
     - text: Une baisse des besoins ventilatoires avec une dégradation des gestes et du jugement
-      correct: false
-    - text: Une hausse des besoins ventilatoires avec une amélioration des gestes et du jugement
       correct: false
     explanation: La réponse au froid peut augmenter les besoins ventilatoires tandis que la dextérité
       et le jugement se dégradent. Ces effets s’ajoutent aux contraintes respiratoires et cognitives de
@@ -269,6 +281,9 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Nitrogen Narcosis, ressources médicales
+      actuelles consultées le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Un plongeur refroidi mais lucide sort de l’eau sur un pont exposé au vent. Comment organiser
@@ -310,6 +325,9 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
+      juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Nitrogen Narcosis, ressources médicales
+      actuelles consultées le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
     fact_check: pass
   fr:
     question: Après sa sortie de l’eau, un plongeur hypothermique reste confus. Quelle prise en charge

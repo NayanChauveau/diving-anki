@@ -13,20 +13,24 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 15 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
+      ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
+      ; revue N3 lot 15'
     fact_check: pass
   fr:
     question: À 35 m, un équipier devient agité, ventile fortement et répond mal aux échanges, sans faire
-      de signe conventionnel. Quel indice justifie l’intervention ?
+      de signe conventionnel. Quelle conduite est adaptée ?
     choices:
-    - text: L’ensemble des comportements anormaux, même sans demande volontaire
+    - text: Intervenir sur la base des manifestations observables sans attendre une demande volontaire
       correct: true
-    - text: Le seul signe conventionnel de demande d’aide, indispensable pour intervenir
+    - text: Confirmer d’abord une demande par un signe conventionnel avant de prendre en charge l’équipier
       correct: false
-    - text: Le manomètre seul, car un gaz disponible écarte un besoin d’assistance
-      correct: false
-    explanation: La perte de vigilance et la ventilation anormale sont des manifestations observables
-      de difficulté. L’intervention n’attend pas un signe volontaire que l’équipier peut ne plus être
-      capable de faire ; elle reste calme et adaptée.
+    explanation: 'Les manifestations observables peuvent suffire à identifier une difficulté : ventilation
+      anormale, agitation, perte de vigilance. L’équipier peut ne plus être capable de demander de l’aide.
+      On intervient rapidement, calmement et sans brutalité ; l’absence de signe volontaire ne justifie
+      pas d’attendre.'
 - id: n3-assistance-cooperation-001
   type: mcq
   deck: Prévention des accidents
@@ -43,21 +47,26 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 15 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
+      ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
+      ; revue N3 lot 15'
     fact_check: pass
   fr:
-    question: En immersion, quelle différence essentielle distingue un équipier conscient coopératif d’un
-      équipier qui ne réagit plus ?
+    question: Un équipier ne répond plus aux échanges mais continue à respirer sur son détendeur. Sur
+      quoi faut-il se baser pour savoir s’il peut participer volontairement à sa remontée assistée ?
     choices:
-    - text: Le premier peut participer aux gestes ; le second nécessite une prise en charge de sa sécurité
+    - text: Sa capacité à comprendre et exécuter une consigne, vérifiée par sa réaction
       correct: true
-    - text: Le premier nécessite la prise en charge de ses gestes ; le second peut suivre les consignes
-        tactiles
+    - text: La présence de bulles respiratoires, qui atteste à elle seule une coopération possible
       correct: false
-    - text: Les deux peuvent suivre les mêmes consignes dès que leur détendeur fournit du gaz
+    - text: La disponibilité du gaz au détendeur, qui atteste à elle seule une coopération possible
       correct: false
-    explanation: La vigilance et la capacité à agir déterminent l’aide nécessaire. Un équipier non réactif
-      ne peut pas compter sur ses propres gestes ou communications ; sa prise en charge requiert une assistance
-      immédiate adaptée et une sortie sécurisée.
+    explanation: Respirer ou recevoir du gaz ne prouve pas la capacité à comprendre et agir. La coopération
+      se juge par les réactions de l’équipier. S’il ne réagit plus, on ne compte pas sur ses gestes pour
+      gérer sa flottabilité ou protéger sa ventilation ; la prise en charge doit assurer sa sécurité et
+      sa sortie.
 - id: n3-assistance-stock-donneur-001
   type: mcq
   deck: Prévention des accidents
@@ -74,8 +83,8 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     fact_check: pass
   fr:
-    question: Un équipier passe sur la source de secours de son binôme. Quelle information devient déterminante
-      pour le gaz du retour partagé ?
+    question: Le bloc d’un équipier est inutilisable pour tout le retour ; il passe sur la source de secours
+      de son binôme. Quelle information devient déterminante pour le gaz du retour partagé ?
     choices:
     - text: La pression et le volume du bloc qui alimente maintenant les deux plongeurs
       correct: true
@@ -100,20 +109,30 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 15 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
+      ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
+      ; revue N3 lot 15'
+    - 'SCUBAPRO BCS Manual, sections 8–9, p.16–18, inflateur, purges et soupape de surpression, consulté
+      2026-10-10 : https://johnsonoutdoors.widen.net/content/dpvkr30pah/pdf/SP_BC_Manual_FR.pdf ; fonction
+      physique, aucune périodicité d’entretien reprise'
     fact_check: pass
   fr:
-    question: Pendant une remontée assistée à deux gilets, quel phénomène doit être surveillé dans les
-      équipements des deux plongeurs ?
+    question: Pendant une remontée assistée, le sauveteur doit surveiller la flottabilité des deux gilets.
+      Les gilets ne sont pas pleins. Que devient le gaz déjà présent dans ces gilets lorsque la pression
+      ambiante baisse ?
     choices:
-    - text: La dilatation du gaz, qui peut accélérer la remontée si elle n’est pas contrôlée
+    - text: Il se dilate ; le contrôle de la remontée nécessite des purges adaptées
       correct: true
-    - text: La compression du gaz, qui augmente la flottabilité à la remontée
+    - text: Son volume est maintenu automatiquement par la compensation des détendeurs
       correct: false
-    - text: La baisse de pression, qui garde constant le volume des deux gilets
+    - text: Son volume est maintenu automatiquement par les soupapes de surpression
       correct: false
-    explanation: La baisse de pression ambiante fait augmenter le volume du gaz dans les deux gilets.
-      L’assistance exige un contrôle continu de flottabilité et de vitesse, en tenant compte des deux
-      équipements, sans attendre l’alarme de l’ordinateur.
+    explanation: Le gaz des deux gilets se dilate lorsque la pression ambiante baisse. La compensation
+      d’un détendeur concerne son fonctionnement, pas le volume du gilet. Une soupape de surpression limite
+      une pression excessive ; elle ne garantit pas le volume nécessaire pour maîtriser la flottabilité.
+      Il faut contrôler les purges et la vitesse des deux plongeurs.
 - id: n3-assistance-troisieme-001
   type: mcq
   deck: Prévention des accidents
@@ -131,7 +150,7 @@ cards:
     fact_check: pass
   fr:
     question: Dans une palanquée de trois, A assiste B en difficulté. C est disponible et dispose de gaz.
-      Quel rôle de C conserve la cohésion sans gêner l’assistance ?
+      Quel rôle C doit-il adopter pendant ce retour assisté ?
     choices:
     - text: Rester avec eux, surveiller et communiquer les paramètres utiles du retour
       correct: true
@@ -158,22 +177,27 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8,13,15 ; calculs originaux, modèle de gaz idéal et phases
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Revue N3 par petits lots du 2026-10-10, lot 15 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md
+      ; identité et objectif conservés'
+    - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
+      ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
+      ; revue N3 lot 15'
     fact_check: pass
   fr:
-    question: 'Dans un exercice de budget avant immersion, le retour partagé obligatoire demande 1 000
-      L à 1 bar ; le stock utilisable prévu est 800 L. Quelle modification résout cette incompatibilité
-      de plan ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul
-      le gaz respiré est compté.'
+    question: 'Avant immersion, un exercice prévoit un retour partagé de 1 000 L à 1 bar, mais seulement
+      800 L utilisables. Le profil et les arrêts calculés restent identiques. Parmi ces stocks de remplacement,
+      lequel finance le retour en conservant les 20 bar finaux imposés par l’exercice ? Modèle : gaz parfait
+      à température constante ; seul le gaz respiré est compté.'
     choices:
-    - text: Revoir avant départ le profil ou le stock utilisable pour couvrir tout le retour
+    - text: Bloc de 15 L à 100 bar
       correct: true
-    - text: Conserver le profil en réduisant arbitrairement les paliers à 80 %
+    - text: Bloc de 12 L à 100 bar
       correct: false
-    - text: Conserver le profil en supposant un débit réel inférieur au débit imposé
+    - text: Bloc de 15 L à 80 bar
       correct: false
-    explanation: 'Le manque de 200 L est une incompatibilité du plan : on adapte profil, stock et organisation
-      avant immersion. On ne raccourcit pas un palier obligatoire pour équilibrer un budget, ni ne remplace
-      une donnée par une consommation espérée.'
+    explanation: Après les 20 bar finaux, les stocks utilisables valent respectivement 15 × 80 = 1 200
+      L, 12 × 80 = 960 L et 15 × 60 = 900 L. Seul le premier couvre les 1 000 L. Le plan est révisé avant
+      immersion ; réduire arbitrairement les arrêts obligatoires ne constitue pas une correction du budget.
 - id: n3-assistance-surface-001
   type: mcq
   deck: Prévention des accidents
@@ -195,12 +219,13 @@ cards:
     question: À la surface, avant tractage d’un plongeur incapable de se maintenir seul, quels deux objectifs
       doivent être assurés ensemble ?
     choices:
-    - text: Assurer la flottabilité et maintenir les voies aériennes hors de l’eau
+    - text: Assurer une flottabilité positive et maintenir les voies aériennes hors de l’eau
       correct: true
-    - text: Assurer la flottabilité et laisser la position du visage dépendre du gilet
+    - text: Assurer une flottabilité positive et laisser la position du visage dépendre du gilet
       correct: false
-    - text: Maintenir les voies aériennes hors de l’eau et dégonfler le gilet pour faciliter le tractage
+    - text: Maintenir les voies aériennes hors de l’eau et dégonfler complètement le gilet pour le tractage
       correct: false
-    explanation: La mise en sécurité vise à empêcher une nouvelle submersion et à conserver les voies
-      aériennes dégagées. Le matériel est adapté à la récupération ; tractage et hissage se travaillent
-      en formation pratique.
+    explanation: On assure une flottabilité positive et on maintient activement les voies aériennes hors
+      de l’eau. Un gilet de plongée gonflé ne garantit pas à lui seul la position du visage. Le dégonfler
+      complètement retire cette aide à la flottabilité ; le tractage doit conserver la protection de la
+      ventilation et la sécurité du plongeur.

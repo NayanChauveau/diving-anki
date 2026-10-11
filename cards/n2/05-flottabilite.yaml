@@ -378,6 +378,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: À la descente, pourquoi une combinaison humide en néoprène perd-elle de sa flottabilité
@@ -386,8 +390,6 @@ cards:
     - text: Le volume diminue alors que la masse change très peu
       correct: true
     - text: Le volume reste constant alors que la masse augmente
-      correct: false
-    - text: Le volume reste constant alors que la masse diminue
       correct: false
     explanation: '**Le gaz contenu dans les cellules du néoprène se comprime.** La combinaison occupe
       moins de volume et déplace moins d’eau : sa poussée d’Archimède diminue. À la remontée, le néoprène
@@ -483,6 +485,10 @@ cards:
       le 2026-10-06 : https://world.dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède ; DAN Lung
       Expansion Injuries ; variation du volume sans apnée ; chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: En scaphandre à circuit ouvert, quel paramètre respiratoire module directement la flottabilité
@@ -519,6 +525,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: Entre le début et la fin d’une plongée à circuit ouvert, le même bloc rigide contient moins
@@ -556,6 +566,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 29, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Calculs
+      indépendants P absolue / altitude et Archimède : 18 m, 30 m, 2,6 bar, 15 m, Δlest=1 kg ; compression
+      du néoprène, poumon-ballast en circuit ouvert et perte de masse du bloc relus ; MFT N3 p. 15, sources
+      factuelles N2 maintenues.'
     fact_check: pass
   fr:
     question: 'Un plongeur est neutre avec la combinaison A. À la même profondeur, deux combinaisons entièrement
@@ -572,8 +586,7 @@ cards:
     explanation: 'A déplace 6 kg d’eau pour une masse de 3 kg : son apport vers le haut équivaut à 3 kg.
       B apporte 8 − 4 = 4 kg. Le gain de flottabilité est donc de 1 kg, à compenser par 1 kg de lest dans
       ce modèle. Les 2 kg comptent seulement le volume supplémentaire ; les 3 kg additionnent à tort les
-      variations de volume et de masse. L’épaisseur seule ne permet pas ce calcul : les propriétés réelles
-      et le lestage de la configuration doivent être vérifiés.'
+      variations de volume et de masse.'
 - id: n2-flottabilite-eau-douce-mer-001
   type: mcq
   deck: Physique
@@ -595,6 +608,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
     fact_check: pass
   fr:
     question: Un plongeur correctement lesté en eau douce garde le même équipement pour plonger en mer,
@@ -669,6 +686,13 @@ cards:
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; DAN World DSMB ;
       bilan original des forces opposées, modèle instantané ; chaque distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
+    - 'DAN World, Popping the Question: What is a DSMB?, Q3 2022, Safety considerations (ne pas accrocher
+      le spool au plongeur pendant le déploiement, risque de remontée / ligne éloignée du corps) ; https://world.dan.org/alert-diver/article/popping-the-question-what-is-a-dsmb/
+      ; consulté 2026-10-11.'
     fact_check: pass
   fr:
     question: Dans un modèle instantané, un plongeur initialement immobile a un poids apparent de 10 N
@@ -749,6 +773,14 @@ cards:
       distracteur analysé dans le CSV'
     - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
       ; objectif et identité conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
+    - 'SDI Advanced Buoyancy Control Diver Standards, version 0626, p. 20–21 (PDF p. 4–5) : contrôle avec
+      bloc presque vide / effet surlestage sur assiette ; https://www.tdisdi.com/wp-content/uploads/files/sandp/currentYear/SDI/part%203/pdf/individual/05_Advanced_Buoyancy_Control_Diver.pdf
+      ; PADI Why Proper Weighting is Important When Scuba Diving, contrôle en fin de plongée ; consultés
+      2026-10-11. Aucun poids fixe SDI/PADI transposé à toute configuration.'
     fact_check: pass
   fr:
     question: Pourquoi porter trop de lest peut-il augmenter l’effort et la consommation d’air, même lorsque
@@ -785,23 +817,31 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
+    - 'SDI Advanced Buoyancy Control Diver Standards, version 0626, p. 20–21 (PDF p. 4–5) : contrôle avec
+      bloc presque vide / effet surlestage sur assiette ; https://www.tdisdi.com/wp-content/uploads/files/sandp/currentYear/SDI/part%203/pdf/individual/05_Advanced_Buoyancy_Control_Diver.pdf
+      ; PADI Why Proper Weighting is Important When Scuba Diving, contrôle en fin de plongée ; consultés
+      2026-10-11. Aucun poids fixe SDI/PADI transposé à toute configuration.'
     fact_check: pass
   fr:
-    question: Un plongeur était correctement stabilisé en début de plongée. En fin de plongée, il doit
-      palmer pour rester immergé à faible profondeur, avec un gilet entièrement purgé, une combinaison
-      humide et une respiration normale. Pourquoi un lestage vérifié seulement avec le bloc plein peut-il
-      expliquer cette difficulté ?
+    question: Avec une combinaison humide en circuit ouvert, quel état du bloc doit servir de référence
+      pour vérifier que le lestage permet de tenir la faible profondeur de fin de plongée, gilet purgé
+      et respiration normale ?
     choices:
-    - text: Le bloc a perdu la masse du gaz consommé
+    - text: Le bloc à la pression de réserve prévue en fin de plongée
       correct: true
-    - text: Le bloc reçoit moins de poussée à mesure que son gaz diminue
+    - text: Le bloc plein à sa pression de départ prévue
       correct: false
-    - text: Le gaz consommé a réduit le volume extérieur du bloc
+    - text: Le bloc à la moitié de sa pression de départ prévue
       correct: false
-    explanation: '**Le bloc a perdu la masse du gaz consommé : le lestage peut être insuffisant en fin
-      de plongée.** Son volume extérieur a très peu changé, donc la poussée reçue reste presque identique.
-      Le lestage doit permettre de tenir la faible profondeur avec le bloc moins chargé, pas seulement
-      de s’immerger au départ.'
+    explanation: 'Le lestage doit permettre de tenir la faible profondeur avec le bloc moins chargé, à
+      la réserve prévue en fin de plongée. Le gaz consommé a quitté le bloc : sa masse a diminué, tandis
+      que son volume extérieur et la poussée changent très peu. Une vérification seulement bloc plein
+      peut masquer un manque de lest en fin de plongée ; la moitié de la pression de départ n’est pas
+      nécessairement la réserve finale prévue.'
 - id: n2-flottabilite-volume-neutre-001
   type: mcq
   anki_model: basic
@@ -899,6 +939,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/PHYSIQUE_N2_2026-10-09.md ; Archimède : OpenStax
       University Physics 1 §14.4 ; DAN Weight Up et Buoyancy Control ; hypothèses de la carte ; chaque
       distracteur analysé dans le CSV'
+    - 'Relecture individuelle N3 2026-10-11 lot 30, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Archimède
+      / Boyle-Mariotte : résultante 30−10=20 N vers le haut ; eau salée poussée 4×1,025×10=41 N et poids
+      40 N → −1 N ; débit 20×3=60 L/min à 1 bar. Lestage de fin de plongée, état du bloc et circuit ouvert
+      relus ; MFT N3 p. 8–9,15 et sources factuelles N2 conservées.'
     fact_check: pass
   fr:
     question: Un objet de 4 kg et 4 L est entièrement immergé dans une eau salée de masse volumique 1,025

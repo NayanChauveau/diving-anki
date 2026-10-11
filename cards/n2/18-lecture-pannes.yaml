@@ -93,6 +93,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Relecture individuelle N3 2026-10-11 lot 51, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; MFT
+      N2 mai 2026 planification p. 12 et MFT N3 décembre 2025 p. 8/13 : état personnel et planification
+      air sans paliers profonds ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 14 : renflement/coupure/fissure
+      des flexibles, remplacement avant utilisation ; consultés le 11 octobre 2026.'
     fact_check: pass
   fr:
     question: Un flexible de détendeur présente un renflement sans fuite visible. Pourquoi son étanchéité

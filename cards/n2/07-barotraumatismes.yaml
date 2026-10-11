@@ -25,6 +25,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Qu’est-ce qui provoque une lésion barotraumatique dans une cavité contenant du gaz ?
@@ -176,6 +181,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: À la descente, une douleur des sinus persiste malgré l’arrêt et une légère remontée. Quelle
@@ -296,6 +306,11 @@ cards:
       ; objectif et identité conservés'
     - 'DAN — Ears and Diving, Key Information, petits conduits et congestion, consulté le 2026-10-10 :
       https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Un plongeur enrhumé respire encore par le nez. Pourquoi cela ne suffit-il pas à établir
@@ -310,9 +325,9 @@ cards:
         conduit distinct
       correct: false
     explanation: 'Le gonflement des muqueuses peut fermer les trompes d’Eustache, qui alimentent les oreilles
-      moyennes, ou les ostia, qui ventilent les sinus, sans fermer complètement le nez. Ces voies sont
-      distinctes : respirer par le nez ne prouve pas qu’elles soient libres. Ne pas plonger congestionné
-      ou avec un équilibrage difficile.'
+      moyennes, ou les ostia, petites ouvertures entre les sinus et les fosses nasales, sans fermer complètement
+      le nez. Ces voies sont distinctes : respirer par le nez ne prouve pas qu’elles soient libres. Ne
+      pas plonger congestionné ou avec un équilibrage difficile.'
 - id: n2-barotraumatismes-position-descente-001
   type: mcq
   anki_model: basic
@@ -374,6 +389,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Quel déséquilibre définit le vertige alternobarique en plongée ?
@@ -564,6 +584,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Quel mécanisme peut provoquer une surpression pulmonaire chez un plongeur remontant après
@@ -573,11 +598,12 @@ cards:
       correct: true
     - text: Des bulles se forment à partir de l’azote dissous dans les tissus
       correct: false
-    - text: La pression extérieure comprime progressivement les poumons
+    - text: Du liquide passe de la circulation vers les alvéoles pulmonaires
       correct: false
-    explanation: La pression ambiante baisse pendant la remontée. Si le gaz ne peut pas s’échapper, l’expansion
-      peut léser les poumons et parfois faire passer du gaz dans la circulation artérielle. Ce mécanisme
-      mécanique diffère de la formation de bulles à partir du gaz dissous lors d’un accident de désaturation.
+    explanation: La pression ambiante baisse pendant la remontée. Si du gaz reste piégé, son expansion
+      peut léser les alvéoles pulmonaires et faire passer du gaz dans les artères. La formation de bulles
+      à partir de l’azote dissous relève de la désaturation ; l’accumulation de liquide dans les alvéoles
+      caractérise un œdème pulmonaire. Ces deux mécanismes ne sont pas celui de la surpression pulmonaire.
 - id: n2-barotraumatismes-faible-profondeur-001
   type: mcq
   anki_model: basic
@@ -604,21 +630,28 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
-    question: Lors d’une remontée en scaphandre depuis 3 m, quel facteur explique qu’une surpression pulmonaire
-      reste possible si de l’air est piégé ?
+    question: Pour comprendre le risque de surpression pulmonaire dès une faible profondeur, on modélise
+      un gaz libre à quantité et température constantes. De 3 m à la surface, de combien son volume augmente-t-il
+      ? Prendre 1 bar à la surface et +1 bar par 10 m.
     choices:
-    - text: L’augmentation relative du volume du gaz est déjà importante près de la surface
+    - text: De 30 %
       correct: true
-    - text: Le temps passé à 3 m suffit à produire des bulles d’azote dans les alvéoles
+    - text: D’environ 23 %
       correct: false
-    - text: La pression hydrostatique augmente surtout pendant les derniers mètres de remontée
+    - text: De 130 %
       correct: false
-    explanation: 'Le risque est mécanique : à la remontée, l’air piégé tend à se dilater. Il n’exige pas
-      une longue exposition à l’azote. À température constante, un gaz libre passerait de 1,3 bar à 1
-      bar et augmenterait de 30 % en volume ; dans un poumon, les contraintes des tissus peuvent provoquer
-      une lésion. La respiration doit rester libre.'
+    explanation: 'La pression absolue passe de 1,3 à 1 bar. Boyle-Mariotte donne V final = 1,3 × V initial,
+      soit une augmentation de 30 %. Environ 23 % est la baisse relative de pression, pas l’augmentation
+      de volume ; 130 % est le volume final rapporté au volume initial, pas son augmentation. Dans les
+      poumons, un gaz piégé ne se dilate pas librement : les contraintes des tissus peuvent provoquer
+      une lésion, même sur une faible remontée.'
 - id: n2-barotraumatismes-signes-respiratoires-001
   type: mcq
   anki_model: basic
@@ -649,6 +682,11 @@ cards:
       SECOURIR / OXYGENER / SURVEILLER : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Après une plongée avec paliers respectés, une douleur thoracique et une difficulté respiratoire
@@ -695,6 +733,11 @@ cards:
       SECOURIR / OXYGENER / SURVEILLER : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 33, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; DAN
+      ressources médicales reconsultées 2026-10-11 : Sinus Barotrauma https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/
+      ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
+      ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
+      OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
     fact_check: pass
   fr:
     question: Un plongeur présente confusion et faiblesse d’un bras juste après la sortie, sans douleur
@@ -709,7 +752,7 @@ cards:
       correct: false
     explanation: Du gaz issu d’une lésion pulmonaire peut passer dans les artères et atteindre le cerveau.
       Les manifestations neurologiques peuvent dominer sans douleur thoracique ni crachats sanglants.
-      Ces signes exigent une alerte immédiate ; le diagnostic précis relève de la prise en charge médicale.
+      Confusion et faiblesse d’un bras juste après la plongée exigent une alerte immédiate.
 - id: n2-barotraumatismes-alerte-oxygene-001
   type: mcq
   anki_model: basic
@@ -739,10 +782,15 @@ cards:
       SECOURIR / OXYGENER / SURVEILLER : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
-    question: Une suspicion de barotraumatisme pulmonaire concerne une victime consciente qui respire.
-      Quel dispositif de prise en charge initiale en surface convient ?
+    question: Une suspicion de barotraumatisme pulmonaire concerne une victime consciente dont la respiration
+      spontanée est efficace. Quelle prise en charge initiale en surface convient ?
     choices:
     - text: Alerte des secours et oxygène à pression ambiante avec surveillance
       correct: true
@@ -784,6 +832,11 @@ cards:
       SECOURIR / OXYGENER / SURVEILLER : https://medical.ffessm.fr/cat-accident-de-plongee-bouteille-ou-recycleur'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: Des troubles pulmonaires ou neurologiques après plongée disparaissent sous oxygène, après
@@ -833,6 +886,11 @@ cards:
       breathing / CPR / AED : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Relecture individuelle N3 2026-10-11 lot 34, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; Contrôle
+      2026-10-11 : RIFAP mai 2026 p. 28–32 (O₂ / alerte / surveillance, non-réimmersion p. 29), PSC juillet
+      2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
+      du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
+      refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
     fact_check: pass
   fr:
     question: En surface, une victime d’accident de plongée est inconsciente et ne respire pas normalement.
@@ -845,6 +903,6 @@ cards:
     - text: Oxygène au masque à haute concentration et attente de la reprise de respiration
       correct: false
     explanation: Une respiration absente ou anormale impose la réanimation cardio-pulmonaire et le défibrillateur
-      dès qu’il est disponible. La position latérale de sécurité concerne une victime inconsciente qui
-      respire normalement. Un masque à oxygène ne crée pas de ventilation ; celle-ci s’intègre aux gestes
-      de réanimation selon la formation et le matériel.
+      dès qu’il est disponible. Après un événement non traumatique, la position latérale de sécurité concerne
+      une victime qui ne répond pas mais respire normalement. Un masque à oxygène ne crée pas de ventilation
+      ; celle-ci s’intègre aux gestes de réanimation selon la formation et le matériel.

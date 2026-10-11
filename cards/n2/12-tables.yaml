@@ -20,6 +20,10 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
     question: Dans la lecture classique des MN90, pourquoi retient-on la profondeur maximale plutôt que
@@ -54,6 +58,10 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
     question: Dans une plongée simple MN90 à remontée normale, entre quels instants compte-t-on la durée
@@ -65,9 +73,9 @@ cards:
       correct: false
     - text: Du départ de la surface à la fin du dernier palier
       correct: false
-    explanation: '**Du départ de la surface au début de la remontée vers la surface.** La descente et le
-      temps d’exploration sont inclus ; les paliers et la remontée normale viennent ensuite dans la durée
-      totale d’immersion.'
+    explanation: '**Du départ de la surface au début de la remontée vers la surface.** La descente et
+      le temps d’exploration sont inclus ; les paliers et la remontée normale viennent ensuite dans la
+      durée totale d’immersion.'
 - id: n2-tables-arrondis-001
   type: mcq
   anki_model: basic
@@ -89,10 +97,14 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
-    question: 'Exercice MN90 : la profondeur maximale est 19 m et la durée avant remontée 31 min 10 s. La
-      table comporte 18 et 20 m, puis 30 et 35 min à 20 m. Quelle ligne retenir ?'
+    question: 'Exercice MN90 : la profondeur maximale est 19 m et la durée avant remontée 31 min 10 s.
+      La table comporte 18 et 20 m, puis 30 et 35 min à 20 m. Quelle ligne retenir ?'
     choices:
     - text: 20 m et 35 min
       correct: true
@@ -100,8 +112,8 @@ cards:
       correct: false
     - text: 18 m et 35 min
       correct: false
-    explanation: '**20 m et 35 min.** 31 min 10 s compte d’abord pour 32 min, puis on choisit la durée tabulée
-      immédiatement supérieure. Même principe pour 19 m : retenir 20 m, sans interpolation.'
+    explanation: '**20 m et 35 min.** 31 min 10 s compte d’abord pour 32 min, puis on choisit la durée
+      tabulée immédiatement supérieure. Même principe pour 19 m : retenir 20 m, sans interpolation.'
 - id: n2-tables-domaine-001
   type: mcq
   anki_model: basic
@@ -124,6 +136,10 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
     question: Pour quelles conditions de gaz et d’effort les tables MN90 ont-elles été établies ?
@@ -135,8 +151,7 @@ cards:
     - text: Nitrox et effort physique modéré
       correct: false
     explanation: '**Respiration d’air et effort physique modéré.** Leur modèle et leurs règles d’emploi
-      ne couvrent pas automatiquement un autre mélange ou un effort important ; une profondeur admissible
-      dans une table ne donne pas une prérogative au plongeur.'
+      ne couvrent pas automatiquement un autre mélange ou un effort important.'
 - id: n2-tables-deux-plongees-001
   type: mcq
   anki_model: basic
@@ -158,20 +173,25 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
-    question: À quel champ d’application se rattache la limite de deux plongées par 24 heures étudiée
-      avec les MN90 ?
+    question: Après deux plongées calculées avec les MN90 dans les dernières 24 heures, un adulte envisage
+      une troisième plongée courte sans palier. Que permet le domaine d’emploi de ces tables ?
     choices:
-    - text: Au domaine d’emploi des tables MN90
+    - text: Il ne couvre pas cette troisième plongée, même courte sans palier
       correct: true
-    - text: Au nombre réglementaire de plongées à l’air en établissement
+    - text: Il couvre cette troisième plongée si sa ligne ne comporte aucun palier
       correct: false
-    - text: Au domaine d’emploi commun des ordinateurs à gaz dissous
+    - text: Il couvre cette troisième plongée si le groupe résiduel est revenu à A
       correct: false
-    explanation: Cette limite appartient aux règles d’utilisation des MN90. Elle ne se transpose pas automatiquement
-      à un ordinateur ni au cadre réglementaire de toute plongée adulte. Pour un appareil, consulter son
-      manuel et préparer la série avec profils, intervalles, fatigue et consignes du DP.
+    explanation: Le domaine d’emploi est limité à deux plongées par 24 heures. Cette limite appartient
+      aux règles d’utilisation des MN90. Elle ne se transpose pas automatiquement à un ordinateur ni au
+      cadre réglementaire de toute plongée adulte. Pour un appareil, consulter son manuel et préparer
+      la série avec profils, intervalles, fatigue et consignes du DP.
 - id: n2-tables-sans-palier-001
   type: mcq
   anki_model: basic
@@ -194,6 +214,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
     question: Une plongée simple à 20 m est lue sur une ligne MN90 ne donnant aucun palier. Quelle remontée
@@ -230,6 +254,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 41, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
+      Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
     fact_check: pass
   fr:
     question: Que comprend la durée totale de remontée, ou DTR, d’un exercice de tables MN90 ?
@@ -264,6 +292,9 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: À la sortie d’une plongée MN90, comment utilise-t-on la lettre du groupe de plongée successive
@@ -298,6 +329,9 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: Dans les MN90 au niveau de la mer, quelles vitesses distingue-t-on pour remonter du fond
@@ -333,6 +367,9 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: Pourquoi la vitesse MN90 de 15 à 17 m/min ne définit-elle pas automatiquement la limite
@@ -368,6 +405,9 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: Dans les exercices MN90, à quelles catégories appartiennent deux plongées séparées par exactement
@@ -403,6 +443,9 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: Dans une plongée successive MN90, que représente la majoration ajoutée au temps de la deuxième
@@ -437,6 +480,9 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: 'Exercice de successive : majoration 13 min, durée réelle de la deuxième plongée 22 min.
@@ -449,7 +495,7 @@ cards:
     - text: 9 min
       correct: false
     explanation: '**35 min : 13 + 22.** Les 13 min sont fictives ; la durée réelle avant remontée reste
-      22 min.'
+      22 min. 22 min oublie la majoration ; 9 min la soustrait au lieu de l’ajouter.'
 - id: n2-tables-variables-001
   type: mcq
   anki_model: basic
@@ -470,20 +516,25 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
-    question: Quelles trois données faut-il connaître pour déterminer la majoration MN90 d’une deuxième
-      plongée ?
+    question: Pour une deuxième plongée MN90, on connaît le GPS de sortie de la première, la profondeur
+      prévue et la durée réelle de la seconde. Quelle donnée manque encore pour déterminer la majoration
+      ?
     choices:
-    - text: GPS initial, intervalle de surface, profondeur de la seconde
+    - text: La durée de l’intervalle de surface entre les deux plongées
       correct: true
-    - text: GPS initial, durée réelle de la seconde, profondeur de la seconde
+    - text: La durée réelle de la première plongée
       correct: false
-    - text: Profondeur de la première, intervalle de surface, durée de la seconde
+    - text: La profondeur maximale de la première plongée
       correct: false
-    explanation: '**Le GPS de la première plongée, l’intervalle de surface et la profondeur prévue pour
-      la deuxième.** GPS + intervalle donnent l’azote résiduel au tableau I ; azote résiduel + profondeur
-      donnent la majoration au tableau II.'
+    explanation: '**L’intervalle de surface.** Le GPS représente l’état résiduel à la sortie de la première
+      plongée ; il faut connaître le temps écoulé en surface pour lire l’azote résiduel au tableau I.
+      Cette valeur et la profondeur de la seconde donnent la majoration au tableau II. Sa durée réelle
+      servira ensuite à calculer le temps fictif.'
 - id: n2-tables-remontee-lente-001
   type: mcq
   anki_model: basic
@@ -505,6 +556,9 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 42, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi, juillet 2005, p. 1–3, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
+      relu le 11 octobre 2026 ; MFT N3 décembre 2025 p. 13 ; additions résolues indépendamment.
     fact_check: pass
   fr:
     question: 'Exercice MN90 : 20 min jusqu’au départ du fond, puis 4 min de remontée lente jusqu’au premier
@@ -517,7 +571,8 @@ cards:
     - text: 16 min
       correct: false
     explanation: '**24 min : 20 + 4.** Dans la procédure MN90 de remontée lente, cette phase jusqu’au
-      premier palier est intégrée à la durée de plongée. Elle ne se traite pas comme une remontée normale.'
+      premier palier est intégrée à la durée de plongée. 20 min l’omet ; 16 min la soustrait. Elle ne
+      se traite pas comme une remontée normale.'
 - id: n2-tables-courbe-001
   type: mcq
   anki_model: basic
@@ -539,6 +594,10 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
     question: 'Extrait MN90 à 20 m : 40 min sans palier ; 45 min avec 1 min à 3 m. Une plongée simple
@@ -574,6 +633,10 @@ cards:
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
     question: 'Exercice MN90 : départ de 30 m, un seul palier de 9 min à 3 m. Employer 15 m/min jusqu’au
@@ -610,6 +673,10 @@ cards:
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
     question: 'Exercice MN90 : GPS H, intervalle de surface 2 h, deuxième plongée prévue à 20 m pendant
@@ -646,6 +713,10 @@ cards:
     - 'FFESSM — Tables et mode d’emploi, juillet 2005, p.1–2, 4, 6–8, consultés et tableaux contrôlés
       visuellement le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Revue du 2026-10-06 : docs/reviews/12-tables.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
     question: 'Exercice MN90 : GPS H, intervalle réel 2 h 10. Tableau I : H/2 h = 0,98 ; H/2 h 30 = 0,95.
@@ -657,8 +728,8 @@ cards:
       correct: false
     - text: 2 h 10, par interpolation entre 0,98 et 0,95
       correct: false
-    explanation: '**2 h, donnant 0,98.** Pour l’intervalle de surface absent du tableau I, prendre la valeur
-      immédiatement inférieure ; 2 h 30 créditerait une élimination qui n’a pas eu lieu.'
+    explanation: '**2 h, donnant 0,98.** Pour l’intervalle de surface absent du tableau I, prendre la
+      valeur immédiatement inférieure ; 2 h 30 créditerait une élimination qui n’a pas eu lieu.'
 - id: n2-tables-successive-duree-maximale-001
   type: mcq
   anki_model: basic
@@ -679,11 +750,15 @@ cards:
     - 'FFESSM — Tables fédérales MN90, édition juillet 2005, tableau et règles d’emploi p.3–8, consulté
       le 2026-10-06 : https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf'
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
-    question: 'Exercice MN90 : à 20 m, la dernière ligne sans palier obligatoire est 40 min. Pour une deuxième
-      plongée à 20 m, la majoration calculée vaut 22 min. Quelle durée réelle maximale avant remontée reste
-      dans cette ligne sans palier ?'
+    question: 'Exercice MN90 : à 20 m, la dernière ligne sans palier obligatoire est 40 min. Pour une
+      deuxième plongée à 20 m, la majoration calculée vaut 22 min. Quelle durée réelle maximale avant
+      remontée reste dans cette ligne sans palier ?'
     choices:
     - text: 18 min
       correct: true
@@ -715,6 +790,10 @@ cards:
     - Les arrêts de cet exercice sont des données imposées, pas une ligne réelle de la table.
     - 'Relecture globale du 2026-10-06 : docs/reviews/REVUE_FINALE_N2.md'
     - 'N3-S01 — MFT N3 décembre 2025 p.8,12–15 ; objectif commun relu, 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - Relecture individuelle N3 2026-10-11 lot 43, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; FFESSM
+      Tables et mode d’emploi juillet 2005 p. 1–2/4/6, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf,
+      lignes 20 m 40/45 min, H 2 h/2 h30 et 0,99 à20m contrôlées le 11 octobre 2026 ; manuel Peregrine
+      français 2021 p. 16 ; calculs de DTR refaits sans arrondi intermédiaire.
     fact_check: pass
   fr:
     question: 'Exercice MN90 de calcul de trajet : départ du fond à 28 m, arrêts imposés par l’énoncé
@@ -730,4 +809,5 @@ cards:
       correct: false
     explanation: '**8 min.** Trajet 28 → 6 m : 22/15 ≈ 1,47 min. Deux trajets de 3 m : 0,5 + 0,5 = 1 min.
       Arrêts : 1 + 4 = 5 min. Total ≈ 7,47 min, arrondi à 8 min. On arrondit la somme, pas chaque trajet
-      séparément.'
+      séparément. 7 min arrondit au plus proche ; 9 min résulte ici de 10 m/min jusqu’au premier arrêt
+      : 22/10 + 5 + 1 = 8,2 min, arrondi à 9 min.'
