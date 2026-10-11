@@ -9,6 +9,7 @@ function divingShuffleChoices(reveal) {
     var order = reveal ? divingLoadOrder(key, n) : divingNewOrder(n, key);
     if (!reveal) {
       divingSaveOrder(key, order);
+      divingWrite(divingPickKey(key), null);
     }
     divingApplyOrder(box, order);
     if (reveal) {
@@ -39,10 +40,25 @@ function divingNewOrder(n, key) {
   if (seeded) {
     return seeded;
   }
-  var stored = divingRead(key);
-  if (stored && stored.length === n) {
-    return stored;
+  var previous = divingRead(key);
+  var order;
+  // Rejection sampling avoids repeating the previous permutation. The bounded
+  // fallback also terminates if a client provides a broken/constant RNG.
+  for (var attempt = 0; attempt < 8; attempt++) {
+    order = divingRandomOrder(n);
+    if (!divingValidOrder(previous, n) || !divingSameOrder(order, previous)) {
+      return order;
+    }
   }
+  if (n > 1) {
+    var tmp = order[0];
+    order[0] = order[1];
+    order[1] = tmp;
+  }
+  return order;
+}
+
+function divingRandomOrder(n) {
   var order = divingIdentity(n);
   var i;
   for (i = n - 1; i > 0; i--) {
@@ -55,15 +71,30 @@ function divingNewOrder(n, key) {
 }
 
 function divingLoadOrder(key, n) {
-  var stored = divingRead(key);
-  if (stored && stored.length === n) {
-    return stored;
-  }
   var seeded = divingDroidOrder(n);
   if (seeded) {
     return seeded;
   }
+  var stored = divingRead(key);
+  if (divingValidOrder(stored, n)) {
+    return stored;
+  }
   return divingIdentity(n);
+}
+
+function divingValidOrder(order, n) {
+  if (!Array.isArray(order) || order.length !== n) return false;
+  for (var i = 0; i < n; i++) {
+    if (order.indexOf(i) === -1) return false;
+  }
+  return true;
+}
+
+function divingSameOrder(a, b) {
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) return false;
+  }
+  return true;
 }
 
 function divingIdentity(n) {
@@ -79,10 +110,18 @@ function divingDroidOrder(n) {
     if (!window.AnkiDroidJS || !AnkiDroidJS.ankiGetCardId || !AnkiDroidJS.ankiGetCardReps) {
       return null;
     }
-    return divingSeededOrder(
-      n,
-      String(AnkiDroidJS.ankiGetCardId()) + ":" + String(AnkiDroidJS.ankiGetCardReps())
-    );
+    var card = String(AnkiDroidJS.ankiGetCardId());
+    var reps = Number(AnkiDroidJS.ankiGetCardReps());
+    if (!isFinite(reps) || reps < 0 || Math.floor(reps) !== reps) return null;
+    // Reproduce both faces even when AnkiDroid isolates their storage. The first
+    // choice advances through a card-specific permutation at each new review,
+    // so consecutive review counts cannot produce the same complete order.
+    var cycle = divingSeededOrder(n, card);
+    var first = cycle[reps % n];
+    var order = divingSeededOrder(n, card + ":" + reps);
+    order.splice(order.indexOf(first), 1);
+    order.unshift(first);
+    return order;
   } catch (e) {
     return null;
   }

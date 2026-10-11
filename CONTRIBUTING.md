@@ -4,7 +4,9 @@ Avant de rédiger ou modifier le contenu, lire [AGENTS.md](AGENTS.md),
 [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md), [le guide de conception](docs/CARD_DESIGN.md)
 et [la grille de qualité](docs/STUDY_CARD_QUALITY.md).
 
-Installer avec `uv sync --extra dev`. Exécuter `make check` après les changements :
+Installer avec `uv sync --extra dev` et disposer de Node.js 18 ou supérieur pour les
+tests de comportement du JavaScript des cartes. La CI utilise Node.js 22.
+Exécuter `make check` après les changements :
 lint, formatage, types, schéma JSON, validation des cartes et tests.
 Après modification du modèle Pydantic, exécuter `make schema`.
 

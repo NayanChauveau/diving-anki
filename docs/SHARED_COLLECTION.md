@@ -30,6 +30,13 @@ au premier niveau présent, dans l’ordre N2, N3, N4. Ajouter N3 à une carte N
 pas et ne recrée pas sa note. Son ID reste identique même s’il commence par `n2-`.
 Le sel historique fixe `N2` dans `note_guid()` est permanent pour tous les niveaux.
 
+`levels: [N2, N3]` signifie « rangée dans N2, également pertinente pour le programme N3 ».
+`levels: [N3]` signifie « complément rangé dans N3 ». Ce champ ne crée ni deuxième
+carte, ni lien symbolique, ni paquet filtré. Les fichiers de chapitre ne déterminent
+pas le niveau du paquet : le générateur lit `levels` pour choisir son emplacement.
+Les tags servent à consulter le programme complet ; réviser N3 reste apprendre ses
+compléments tout en poursuivant les révisions de la base N2.
+
 Le fichier unique `diving-fr.apkg` contient 461 notes : 339 en N2 et 122 en N3.
 Le programme N3 comporte 357 connaissances, dont 235 présentes dans N2. Le dossier N3
 seul contient donc les compléments, pas tout le programme. Pour voir le programme

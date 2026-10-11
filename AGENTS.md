@@ -256,3 +256,13 @@ Une date récente de cours n’exclut pas des règles anciennes ni des erreurs p
 Ne pas reprendre les recettes de panne ordinateur, délais avion universels ou conseils
 de réglage GF écartés dans cette revue. L’ajout d’une source ne remplace pas la validation
 avec le référentiel et le fabricant. Les rapports de clôture antérieurs restent datés.
+
+## Mélange des QCM
+
+À chaque nouvelle présentation, renouveler l'ordre des choix, sans reprendre le
+même ordre consécutivement ; conserver cet ordre au verso et la correspondance
+entre choix sélectionné et réponse correcte. Effacer la sélection précédente.
+Appliquer aussi ce comportement aux QCM qui conservent le modèle historique Basic.
+Contrôler le comportement réel du JavaScript, pas seulement la présence d'une
+fonction de mélange dans le template : `tests/js/mcq-shuffle.test.cjs`, lancé par
+`make check`. Ne pas toucher aux IDs, au modèle ni aux données de révision.
