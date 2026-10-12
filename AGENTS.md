@@ -1,5 +1,15 @@
 # Instructions aux agents
 
+## Rythme de travail N4 — calibration du 12 octobre 2026
+
+Implémenter N4 par **lots séquentiels de cinq cartes au maximum**, reprises comprises.
+Clore chaque lot avant d'entamer le suivant : comparaison au catalogue, rédaction en
+`draft`, contrôle des sources, critique séparée de chaque recto/choix/corrigé,
+corrections, nouvelle lecture, puis vérifications et contrôle du build.
+Consigner par ID les défauts repérés, les corrections, la plausibilité et la réfutation
+de chaque leurre. Une incertitude laisse la carte en `draft`. Ne pas regrouper plusieurs
+lots en une seule revue globale ni augmenter leur taille pour avancer plus vite.
+
 Projet de théorie de plongée en français : N2 et N3 réalisés, structure prévue pour N4.
 Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
 et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md), puis la

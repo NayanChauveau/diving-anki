@@ -50,7 +50,8 @@ et `fr.explanation`. Une cloze exige `fr.text` avec `{{c1::…}}` et peut avoir 
 Les cartes nouvelles sont `draft` par défaut et exclues des builds ordinaires.
 Après vérification factuelle et pédagogique, passer à `reviewed`.
 Faire une critique distincte de la rédaction avec les cinq critères de la grille,
-sur toutes les cartes du lot (40 au plus), puis corriger et relire les IDs rejetés.
+sur toutes les cartes du lot (40 au plus ; **cinq au maximum pour N4**, reprises
+comprises), puis corriger et relire les IDs rejetés.
 Consigner les verdicts et motifs par ID dans `docs/reviews/` ; une mention globale
 « QCM relus » sans examen des leurres, de la forme et du corrigé ne suffit pas.
 Consigner aussi, pour chaque mauvaise réponse, la confusion qui la rend attirante

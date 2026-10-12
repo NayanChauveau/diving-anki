@@ -1,7 +1,17 @@
 # Plan d’implémentation de la théorie N4 FFESSM
 
 Préparé le **12 octobre 2026**, catalogue au commit `a9a7229` : 461 cartes existantes,
-339 dans N2 et 122 dans N3. **Statut : plan éditorial, aucune carte N4 rédigée.**
+339 dans N2 et 122 dans N3. **Statut : implémentation commencée, lot 01 relu (quatre créations et une reprise).**
+
+## Avancement
+
+[Lot 01](reviews/n4/LOT_01_CADRE.md) : quatre créations QCM relues, une reprise
+N2 conservée sous son ID. `n4-cadre-pe12-pe20-pe40-001` est absorbé par
+`n2-organisation-melanges-contraintes-001` et ne sera pas créé. Le catalogue
+compte désormais 465 cartes ; 138 objectifs candidats restent à traiter. Les
+comptes ci-dessous décrivent le plan initial : après cette fusion, la projection
+est de 142 créations au total, soit 603 notes et 475 cartes pertinentes N4 si
+toutes les autres reprises et créations étaient validées. Aucun autre lot commencé.
 
 ## Combien de cartes ?
 
@@ -91,7 +101,8 @@ paquet filtré, migration ou changement de GUID. Les IDs ci-dessous sont des IDs
 
 D’abord fermer les contrôles de versions et relire les reprises R/A/V, par chapitre.
 Ensuite traiter les modules dans l’ordre ci-dessous. Pour chaque module, découper
-**en lots séquentiels de huit cartes au maximum** : rédiger, vérifier, critiquer,
+**en lots séquentiels de cinq cartes au maximum** (calibration du 12 octobre 2026,
+reprises comprises) : rédiger, vérifier, critiquer,
 corriger, relire puis clore avant de passer au lot suivant. Les cartes commencent
 `draft` ; aucun lot n’est accepté par les seuls tests.
 
@@ -145,19 +156,19 @@ Les tâches proposées ci-dessous ne sont pas des rectos/corrigés déjà valid�
 
 ### 1. Cadre fédéral, fonctions et responsabilités — 20 cartes
 
-- [ ] **`n4-cadre-certification-exercice-001`** — Distinguer âge de présentation à l’examen GP-N4 et âge d’exercice de l’encadrement, dans un cas de candidat mineur.
+- [x] **`n4-cadre-certification-exercice-001`** — Distinguer âge de présentation à l’examen GP-N4 et âge d’exercice de l’encadrement, dans un cas de candidat mineur.
   - Apport : Certification de guide et exercice de sa fonction, distincts de l’autonomie N3. Acquis voisins : `n3-prerogatives-age-001`.
   - Repères : N4-S01 p.3, 8–11, 27 ; N4-S04/S05 ; N4-S12 ; N4-S50/S55 comme exemples. Périmètre : Épreuve écrite 12. Contrôles : G01, G02.
-- [ ] **`n4-cadre-admission-001`** — Identifier le dossier permettant de se présenter à l’examen GP-N4 : certification préalable, RIFAP et aptitudes attestées ; conditions non interrogées dans les autres cartes expliquées au verso.
+- [x] **`n4-cadre-admission-001`** — Identifier le dossier permettant de se présenter à l’examen GP-N4 : certification préalable, RIFAP et aptitudes attestées ; conditions non interrogées dans les autres cartes expliquées au verso.
   - Apport : Accès à un examen de cadre, et non à la formation N3. Acquis voisins : `n3-formation-prerequis-001`.
   - Repères : N4-S01 p.3, 8–11, 27 ; N4-S04/S05 ; N4-S12 ; N4-S50/S55 comme exemples. Périmètre : Épreuve écrite 12. Contrôles : G01, G02.
-- [ ] **`n4-cadre-pe12-pe20-pe40-001`** — Déterminer la profondeur autorisée pour une exploration guidée réunissant des PE d’aptitudes différentes, DP présent et consigne donnée.
+- [x] **`n4-cadre-pe12-pe20-pe40-001`** — Déterminer la profondeur autorisée pour une exploration guidée réunissant des PE d’aptitudes différentes, DP présent et consigne donnée.
   - Apport : Composition encadrée et qualification du guide ; absorber le rappel général de l’aptitude limitante. Acquis voisins : `n2-organisation-melanges-contraintes-001`.
   - Repères : N4-S01 p.3, 8–11, 27 ; N4-S04/S05 ; N4-S12 ; N4-S50/S55 comme exemples. Périmètre : Épreuve écrite 12. Contrôles : G01, G02.
-- [ ] **`n4-cadre-exploration-enseignement-001`** — Choisir, pour un GP seul, la conduite autorisée face à une demande d’apprentissage technique formalisé en milieu naturel.
+- [x] **`n4-cadre-exploration-enseignement-001`** — Choisir, pour un GP seul, la conduite autorisée face à une demande d’apprentissage technique formalisé en milieu naturel.
   - Apport : Fonction obtenue avec N4 et distinction exploration/enseignement. Acquis voisins : `n3-prerogatives-guide-001`.
   - Repères : N4-S01 p.3, 8–11, 27 ; N4-S04/S05 ; N4-S12 ; N4-S50/S55 comme exemples. Périmètre : Épreuve écrite 12. Contrôles : G01, G02.
-- [ ] **`n4-cadre-e2-001`** — Déterminer le domaine d’enseignement d’un GP titulaire de l’initiateur, dans un cas à profondeur et milieu explicités.
+- [x] **`n4-cadre-e2-001`** — Déterminer le domaine d’enseignement d’un GP titulaire de l’initiateur, dans un cas à profondeur et milieu explicités.
   - Apport : Articulation GP + initiateur ; pas une carte supplémentaire pour le sigle E2. Acquis voisins : `n3-formation-espace-profond-001`.
   - Repères : N4-S01 p.3, 8–11, 27 ; N4-S04/S05 ; N4-S12 ; N4-S50/S55 comme exemples. Périmètre : Épreuve écrite 12. Contrôles : G01, G02.
 - [ ] **`n4-cadre-artificiel-bapteme-001`** — Identifier les conditions de qualification et d’organisation d’un baptême confié à un GP en milieu artificiel ; valider le texte applicable avant toute réponse chiffrée.

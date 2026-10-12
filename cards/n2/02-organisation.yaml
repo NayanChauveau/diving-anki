@@ -49,6 +49,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::02
   - organisation
@@ -71,6 +72,7 @@ cards:
       du sport A322-72 (DP et fiche), A322-73 depuis 2025-10-31 (palanquée / contraintes), A322-78 (plan
       et VHF), extraits officiels Légifrance consultés ; MFT N2 mai 2026 p. 14 assistance, MFT N3 décembre
       2025 p. 9–10, 12 (pertinence).
+    - 'Pertinence N4 vérifiée le 2026-10-12 : MFT GP-N4 mai 2026 p.3 et 17–19 ; Code du sport A322-73/74 et annexe III-16b ; docs/reviews/n4/LOT_01_CADRE.md ; objectif n4-cadre-pe12-pe20-pe40-001 absorbé sans duplication'
     fact_check: pass
   fr:
     question: En France, une palanquée regroupe des plongeurs aux aptitudes différentes utilisant des

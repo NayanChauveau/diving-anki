@@ -171,6 +171,8 @@ la réécrire entièrement ; remplacer un mot ne suffit pas toujours.
 1. Lire tout le chapitre et rechercher les objectifs voisins dans l’ensemble du
    catalogue. Pour une revue de chapitre, ne pas se limiter aux cartes signalées.
 2. Travailler par lots d’au plus **40 cartes**, avec un périmètre et des IDs explicites.
+   Pour N4, la calibration du 12 octobre 2026 fixe **cinq cartes au maximum**, reprises
+   comprises, avec clôture complète du lot avant le suivant.
    Les nouvelles cartes restent `draft`. Les faits incertains restent hors publication.
 3. Faire une passe factuelle sourcée, puis une **passe critique distincte** de la
    rédaction : lire chaque recto, chaque choix et chaque corrigé avec les cinq critères.
