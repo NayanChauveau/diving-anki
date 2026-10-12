@@ -2,7 +2,8 @@
 
 Le deck prépare la théorie de plongée N2 en français ; N3 est réalisé et N4
 est prévu pour la suite. Les sources convenues, leur périmètre et les vérifications nécessaires
-sont dans les plans [N2](docs/IMPLEMENTATION_N2.md) et [N3](docs/IMPLEMENTATION_N3.md).
+sont dans les plans [N2](docs/IMPLEMENTATION_N2.md) et [N3](docs/IMPLEMENTATION_N3.md), ainsi que [N4](docs/IMPLEMENTATION_N4.md) pour
+les ajouts en préparation.
 Ne pas inventer de programme ni de procédure.
 
 La [grille de qualité des cartes](docs/STUDY_CARD_QUALITY.md), adaptée du WSET3,

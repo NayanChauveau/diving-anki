@@ -266,3 +266,16 @@ Appliquer aussi ce comportement aux QCM qui conservent le modèle historique Bas
 Contrôler le comportement réel du JavaScript, pas seulement la présence d'une
 fonction de mélange dans le template : `tests/js/mcq-shuffle.test.cjs`, lancé par
 `make check`. Ne pas toucher aux IDs, au modèle ni aux données de révision.
+
+## Préparation N4 — 12 octobre 2026
+
+Consulter [le plan N4](docs/IMPLEMENTATION_N4.md),
+[le tri des 461 acquis](docs/reviews/n4/REUTILISATION_N2_N3.md) et
+[la matrice de couverture prévisionnelle](docs/reviews/n4/COUVERTURE_PLAN.md).
+Les 143 nouveaux objectifs sont des candidats, aucun n’est publié ni validé.
+Les décisions R/A/V/P/H ne déclenchent aucun héritage automatique de `levels`.
+Revalider les 333 reprises candidates avant ajout N4, avec les mêmes IDs/modèles.
+Le MFT GP-N4 mai 2026 prime sur les cours/annales anciens : ancienne épreuve séparée
+aspects théoriques supprimée, ancien problème MN90 obligatoire non repris.
+Clore les portes G01–G11 et les contradictions médicales identifiées avant rédaction
+validée. Traiter les lots séquentiellement, huit cartes au maximum ; QCM dès que pertinent.

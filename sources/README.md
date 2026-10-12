@@ -27,3 +27,18 @@ le RIFAP mai 2026. Les supports de Grenoble effectivement téléchargés sont an
 (2016–2017 dans les noms de fichiers), même si l’index web indiquait des supports récents.
 Les compléments actuels à acquérir et les divergences à résoudre sont explicités dans le plan.
 Télécharger un document ne valide pas automatiquement ses affirmations.
+
+## N4
+
+La recherche du 12 octobre 2026 a réuni **59 PDF, 1 050 pages**, dans `n4/`.
+Le MFT GP-N4 mai 2026 constitue le référentiel principal ; les cours et annales
+complémentaires ont des versions de 2020 à octobre 2026 ou non identifiées.
+
+- [Plan détaillé N4 — 143 ajouts proposés](../docs/IMPLEMENTATION_N4.md)
+- [Inventaire commenté N4](../docs/SOURCES_N4.md)
+- [Références, pagination, versions et empreintes](../docs/reviews/SOURCES_N4.json)
+- Manifeste local : `n4/manifest.json` ; extractions paginées : `n4/text/`.
+
+Cette acquisition ne constitue ni un plan de cartes ni une validation factuelle complète.
+Avant rédaction, comparer les objectifs aux cartes N2/N3 et contrôler les versions.
+Les PDF restent ignorés par Git ; seules leurs références sont versionnables.
