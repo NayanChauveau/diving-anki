@@ -64,4 +64,3 @@ Expiration : deux groupes musculaires bien comparables. Suppression du troisièm
 Courbe : corrigé les extrema de la trace originale pour que l'amplitude A couvre vraiment un cycle complet ; les premières courbes quadratiques ne touchaient pas les bornes du repère. Courbe schématique sans origine absolue prétendument mesurée par spirométrie ; noms de réponses absents. Rendu final encore à vérifier.
 Capacité vitale : calcul indépendant CPT − VR = 5,4 − 1,3 = 4,1 L ; contrôle de la capacité inspiratoire 3 L. Trois quantités physiologiques cohérentes, une seule CV. Pas de valeur individuelle « normale » à mémoriser.
 Résiduel : ARTP 2020 distingue mesures spirométriques et méthodes complémentaires pour RV/FRC/TLC. Les réserves ne sont pas toutes inaccessibles. Le corrigé ne confond pas espace mort et résiduel. Objectif distinct de l'addition des volumes.
-

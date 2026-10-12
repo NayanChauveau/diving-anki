@@ -45,4 +45,3 @@ Froid : deux fonctions réellement utilisées en thermorégulation, conservation
 
 ## Échauffement / récupération : fusion et compétence pratique
 n4-prevention-apnee-echauffement-001 : absorbé par n4-prevention-apnee-hyperventilation-001 pour la préparation ventilatoire, et par la progression supervisée de formation (MFT p.26, FFESSM Centre p.22, DAN World Freediving Safety Awareness). Aucun programme universel de séries, intervalles ou distances n'est publié. Les séries intensives du cours Jourdren p.15 ne constituent pas une règle sûre indépendante de l'encadrement et du niveau réel. Importance de l'échauffement, progression et récupération à travailler en pratique ; pas une carte supplémentaire à leurres artificiellement dangereux.
-

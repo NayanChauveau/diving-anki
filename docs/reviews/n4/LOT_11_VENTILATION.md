@@ -65,4 +65,3 @@ Plèvre : deux leurres cohérents avec des composants réels, mais mauvaise loca
 Interface : diagramme conceptuel original, pas coupe histologique réaliste ; il désigne l'endroit de passage, aucun nom de membrane. Les deux leurres confondent deux types de parois, et les deux parois de la clé sont nécessaires. Le terme « notamment » évite de nier les lames basales sans alourdir le recto.
 Hématose : ventilation, échange pulmonaire et métabolisme cellulaire sont tous trois de vrais processus respiratoires, mais un seul répond à ce terme. Pas d'assimilation de l'hématose à l'étape tissulaire ; pas d'opposition artificielle SNA/SNC reproduite depuis le cours p.4/15.
 Les schémas sont dessinés dans le dépôt, sans copie d'illustration des cours. Contrôle de rendu réservé à la vérification finale, comme demandé.
-

@@ -46,4 +46,3 @@ Calcul 2 : état après fond 3,2 ; réduction de l'écart de 2,4 à 1,2 ; résul
 
 ## Rejet de la quatrième création et deux reprises
 n4-desaturation-contraintes-trois-001 : REWRITE puis FUSION. Un palier « nominal » à 6 m ne définit pas à lui seul sa zone de crédit ni le plafond du modèle ; déclarer 5,4 m faux sans ces données serait abusif. Spécifier un plafond à 6 m ramènerait le problème à l'intersection déjà testée dans n2-ordinateurs-plafonds-differents-001. Conserver cette carte et n3-ordinateur-paliers-communs-001, rectos, choix et corrigés relus : moyenne de profondeurs, adoption du plafond du voisin, fin du plus court palier, moyenne de durées sont quatre confusions bien distinctes. Leurs conditions et modèle Basic historique sont conservés. Cinq identités traitées dans le lot.
-

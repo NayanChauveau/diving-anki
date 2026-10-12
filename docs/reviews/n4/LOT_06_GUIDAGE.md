@@ -46,4 +46,3 @@ Gaz observé : baisse de 5 bar/min dans 12 L à 3 bar → 20 L/min de référenc
 ## Deux reprises, cinq identités traitées au total
 - n4-guide-regroupement-fond-001 → n2-organisation-palanquee-001. Recto, quatre choix et corrigé relus : les trois leurres abandonnent un seul paramètre commun chacun ; aucun n'est la définition légale. Ajouter le contrôle d'aisance au briefing pratique plutôt que refaire la définition. MFT p.17.
 - n4-guide-position-guide-001 → n2-organisation-guide-conduite-001. Recto, trois choix et corrigé relus : rôle du DP et rôle de l'enseignant plausibles mais distincts du GP. Le MFT ne prescrit pas une place fixe avant/arrière. Le choix de placement relève ici de l'entraînement pratique à la surveillance, sans scénario à solution arbitraire. MFT p.17–18 et A322-74.
-

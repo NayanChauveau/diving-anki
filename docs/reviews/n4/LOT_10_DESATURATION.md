@@ -22,4 +22,3 @@ Seconde lecture : ISOLATION — situation et tâche autonomes ; CREDIBILITY — 
 
 ## Reprise : réglage d'un modèle inconnu
 n4-desaturation-reglage-inconnu-001 → n2-ordinateurs-manuel-001. Recto, trois choix et explication relus : profondeur et durée de l'arrêt ne suffisent pas à lire son caractère obligatoire. Les codes du modèle dans sa notice permettent cette distinction. L'identité, le modèle Basic publié et tous les champs pédagogiques restent identiques ; ajout N4 pour cette connaissance nécessaire au GP qui prépare les équipements des PE. MFT p.16 et 25.
-

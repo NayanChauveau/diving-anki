@@ -17,4 +17,3 @@ Seconde lecture : ISOLATION — situation et tâche autonomes ; CREDIBILITY — 
 
 ## Justification de la Basic et seconde lecture
 Le gain est la formulation effective d'un conseil, explicitement évaluée au MFT p.18. Plusieurs phrases factuelles et respectueuses peuvent réussir ; un QCM comparerait des formulations de valeur voisine sans réponse unique, ou caricaturerait les autres en reproches évidents. La réponse libre permet un critère d'auto-évaluation : fait observé + amélioration utilisable. Le corrigé est un exemple, pas une formule à réciter. Relu sans attribuer à l'élève une cause non observée. Pas de nouvelle règle de fréquence des contrôles.
-
