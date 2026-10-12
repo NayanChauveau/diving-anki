@@ -6,6 +6,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -30,6 +31,11 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 44 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : arrêté20novembre2017 consolidé29septembre2026 art.22–25 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29)
+      ; MFT GP-N4 mai2026 p.27 et33, CMAS Technical Committee (https://www.cmas.org/cmas-family/structure/technical-committee.html)
+      ; DAN Mask Squeeze source intégrale (https://dan.org/health-medicine/health-resources/diseases-conditions/mask-squeeze-aka-facial-barotrauma/)
+      et Back to Basics déjà recroisé N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Qu’est-ce qui provoque une lésion barotraumatique dans une cavité contenant du gaz ?
@@ -48,6 +54,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -64,6 +71,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 44 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : arrêté20novembre2017 consolidé29septembre2026 art.22–25 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29)
+      ; MFT GP-N4 mai2026 p.27 et33, CMAS Technical Committee (https://www.cmas.org/cmas-family/structure/technical-committee.html)
+      ; DAN Mask Squeeze source intégrale (https://dan.org/health-medicine/health-resources/diseases-conditions/mask-squeeze-aka-facial-barotrauma/)
+      et Back to Basics déjà recroisé N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À la descente, le masque se plaque douloureusement sur le visage malgré une sangle correctement
@@ -73,8 +85,6 @@ cards:
       correct: true
     - text: La pression dans le masque est devenue supérieure à la pression de l’eau
       correct: false
-    - text: Les pressions sont égales, mais le gaz a augmenté de volume
-      correct: false
     explanation: Sans apport d’air par le nez, la jupe se déforme sous la pression extérieure jusqu’à
       ne plus compenser. Les tissus du visage et les yeux peuvent subir la dépression relative ; le réglage
       de sangle ne rétablit pas la pression interne.
@@ -83,6 +93,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -101,6 +112,11 @@ cards:
       : https://sites.google.com/a/umich.edu/bluelink/curricula/anatomy-403/respiratory-system/respiratory-los'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 45 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Sinus Barotrauma, anatomie, signes, descente/blocage inversé et prévention, texte complet
+      (https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/) ; DAN Middle-Ear
+      Barotrauma texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/middle-ear-barotrauma-mebt/)
+      ; anatomie choanes BlueLink source préexistante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quels conduits permettent aux sinus paranasaux d’échanger de l’air avec les fosses nasales
@@ -121,6 +137,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -138,6 +155,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 45 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Sinus Barotrauma, anatomie, signes, descente/blocage inversé et prévention, texte complet
+      (https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/) ; DAN Middle-Ear
+      Barotrauma texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/middle-ear-barotrauma-mebt/)
+      ; anatomie choanes BlueLink source préexistante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle association de signes oriente le plus vers une atteinte barotraumatique des sinus
@@ -160,6 +182,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -186,6 +209,11 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 45 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Sinus Barotrauma, anatomie, signes, descente/blocage inversé et prévention, texte complet
+      (https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/) ; DAN Middle-Ear
+      Barotrauma texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/middle-ear-barotrauma-mebt/)
+      ; anatomie choanes BlueLink source préexistante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À la descente, une douleur des sinus persiste malgré l’arrêt et une légère remontée. Quelle
@@ -193,19 +221,21 @@ cards:
     choices:
     - text: Terminer la plongée avec l’équipier en remontant de façon contrôlée
       correct: true
-    - text: Attendre à cette profondeur puis reprendre la descente si la douleur s’atténue
+    - text: Suspendre la descente et poursuivre l’exploration avec l’équipier à profondeur constante
       correct: false
-    - text: Reprendre la descente après un équilibrage des oreilles devenu facile
+    - text: Remonter avec l’équipier à une profondeur moins douloureuse et y poursuivre l’exploration
       correct: false
-    explanation: 'Une douleur persistante traduit une difficulté d’équilibrage des sinus : terminer la
-      plongée. Son atténuation ne démontre pas que les conduits sont libres ; elle peut accompagner une
-      lésion. L’équilibrage des oreilles passe par les trompes d’Eustache et ne valide pas celui des sinus.'
+    explanation: Si la douleur des sinus persiste malgré l’arrêt et une légère remontée, terminer la plongée
+      avec une remontée contrôlée. Réduire la profondeur ou rester à niveau ne démontre pas que les orifices
+      des sinus sont libres. Une douleur qui s’atténue peut accompagner une lésion et une entrée de sang
+      dans le sinus ; elle ne prouve pas un équilibrage rétabli.
 - id: n2-barotraumatismes-sinus-remontee-001
   type: mcq
   anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -224,6 +254,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 45 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Sinus Barotrauma, anatomie, signes, descente/blocage inversé et prévention, texte complet
+      (https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/) ; DAN Middle-Ear
+      Barotrauma texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/middle-ear-barotrauma-mebt/)
+      ; anatomie choanes BlueLink source préexistante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel mécanisme explique une douleur barotraumatique des sinus à la remontée après une descente
@@ -243,6 +278,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -259,6 +295,11 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 45 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Sinus Barotrauma, anatomie, signes, descente/blocage inversé et prévention, texte complet
+      (https://dan.org/health-medicine/health-resources/diseases-conditions/sinus-barotrauma/) ; DAN Middle-Ear
+      Barotrauma texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/middle-ear-barotrauma-mebt/)
+      ; anatomie choanes BlueLink source préexistante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Lors de l’équilibrage, par quel conduit l’air atteint-il l’oreille moyenne depuis l’arrière
@@ -280,6 +321,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -311,6 +353,12 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 46 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Ears & Diving KeyInformation (https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/)
+      ; Sinus Barotrauma ; Alternobaric Vertigo (https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/)
+      ; Unexpected Air Pockets (https://dan.org/alert-diver/article/unexpected-air-pockets/) ; DAN Avoid
+      Diving with Earplugs27juin2022, tous textes médicaux primaires reconsultés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur enrhumé respire encore par le nez. Pourquoi cela ne suffit-il pas à établir
@@ -320,9 +368,6 @@ cards:
       correct: true
     - text: Les trompes d’Eustache et les ostia forment un conduit commun, libéré dès que l’air traverse
         le nez
-      correct: false
-    - text: Les oreilles moyennes et les sinus reçoivent l’air directement par les fosses nasales, sans
-        conduit distinct
       correct: false
     explanation: 'Le gonflement des muqueuses peut fermer les trompes d’Eustache, qui alimentent les oreilles
       moyennes, ou les ostia, petites ouvertures entre les sinus et les fosses nasales, sans fermer complètement
@@ -334,6 +379,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -352,6 +398,12 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Ears and Diving, Key Information, Tips for Equalization : https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 46 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Ears & Diving KeyInformation (https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/)
+      ; Sinus Barotrauma ; Alternobaric Vertigo (https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/)
+      ; Unexpected Air Pockets (https://dan.org/alert-diver/article/unexpected-air-pockets/) ; DAN Avoid
+      Diving with Earplugs27juin2022, tous textes médicaux primaires reconsultés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: À vitesse de descente identique, pourquoi l’équilibrage des oreilles est-il généralement
@@ -372,6 +424,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -394,6 +447,12 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 46 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Ears & Diving KeyInformation (https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/)
+      ; Sinus Barotrauma ; Alternobaric Vertigo (https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/)
+      ; Unexpected Air Pockets (https://dan.org/alert-diver/article/unexpected-air-pockets/) ; DAN Avoid
+      Diving with Earplugs27juin2022, tous textes médicaux primaires reconsultés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel déséquilibre définit le vertige alternobarique en plongée ?
@@ -413,6 +472,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -430,10 +490,16 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 46 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Ears & Diving KeyInformation (https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/)
+      ; Sinus Barotrauma ; Alternobaric Vertigo (https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/)
+      ; Unexpected Air Pockets (https://dan.org/alert-diver/article/unexpected-air-pockets/) ; DAN Avoid
+      Diving with Earplugs27juin2022, tous textes médicaux primaires reconsultés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Pourquoi des bouchons étanches dans les oreilles peuvent-ils provoquer un barotraumatisme
-      malgré un bon équilibrage de l’oreille moyenne ?
+    question: Quel mécanisme explique le risque de barotraumatisme créé par des bouchons étanches dans
+      les oreilles en plongée ?
     choices:
     - text: Ils isolent une poche de gaz dans le conduit auditif externe
       correct: true
@@ -450,6 +516,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -469,6 +536,12 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Unexpected Air Pockets, Diagnosis : https://dan.org/alert-diver/article/unexpected-air-pockets/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 46 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Ears & Diving KeyInformation (https://dan.org/health-medicine/health-resource/dive-medical-reference-books/ears-diving/ears-equalization/)
+      ; Sinus Barotrauma ; Alternobaric Vertigo (https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/)
+      ; Unexpected Air Pockets (https://dan.org/alert-diver/article/unexpected-air-pockets/) ; DAN Avoid
+      Diving with Earplugs27juin2022, tous textes médicaux primaires reconsultés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une obturation défectueuse laisse une poche de gaz mal communiquer avec l’extérieur. Quel
@@ -489,6 +562,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -509,6 +583,12 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Unexpected Air Pockets, Diagnosis : https://dan.org/alert-diver/article/unexpected-air-pockets/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 47 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Unexpected Air Pockets (douleur dentaire et contrôle) et Sinus Barotrauma (irradiation maxillaire),
+      DAN Back to Basics et Shallow-Water Arterial Gas Embolisms textes complets ; DAN Recognizing Lung
+      Conditions et référence Pulmonary and Venous Disorders pour OPI ; DAN actes2018 differential diagnosis
+      (gaz gastro-intestinaux) extrait primaire indexé https://world.dan.org/wp-content/uploads/2021/06/2018-proceedings-differential-diagnosis-final2.pdf.
+      Calcul3m résolu à nouveau. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une douleur sous une obturation apparaît à la remontée puis cesse en surface. Quelle valeur
@@ -529,6 +609,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -547,6 +628,12 @@ cards:
     - 'Vérifié le 2026-10-09 — DAN — Back to Basics, Boyle’s Law / Lung Expansion Injuries : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 47 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Unexpected Air Pockets (douleur dentaire et contrôle) et Sinus Barotrauma (irradiation maxillaire),
+      DAN Back to Basics et Shallow-Water Arterial Gas Embolisms textes complets ; DAN Recognizing Lung
+      Conditions et référence Pulmonary and Venous Disorders pour OPI ; DAN actes2018 differential diagnosis
+      (gaz gastro-intestinaux) extrait primaire indexé https://world.dan.org/wp-content/uploads/2021/06/2018-proceedings-differential-diagnosis-final2.pdf.
+      Calcul3m résolu à nouveau. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À la remontée, pourquoi du gaz avalé ou déjà présent dans le tube digestif peut-il provoquer
@@ -567,6 +654,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -589,6 +677,12 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 47 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Unexpected Air Pockets (douleur dentaire et contrôle) et Sinus Barotrauma (irradiation maxillaire),
+      DAN Back to Basics et Shallow-Water Arterial Gas Embolisms textes complets ; DAN Recognizing Lung
+      Conditions et référence Pulmonary and Venous Disorders pour OPI ; DAN actes2018 differential diagnosis
+      (gaz gastro-intestinaux) extrait primaire indexé https://world.dan.org/wp-content/uploads/2021/06/2018-proceedings-differential-diagnosis-final2.pdf.
+      Calcul3m résolu à nouveau. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel mécanisme peut provoquer une surpression pulmonaire chez un plongeur remontant après
@@ -611,6 +705,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -635,6 +730,12 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 47 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Unexpected Air Pockets (douleur dentaire et contrôle) et Sinus Barotrauma (irradiation maxillaire),
+      DAN Back to Basics et Shallow-Water Arterial Gas Embolisms textes complets ; DAN Recognizing Lung
+      Conditions et référence Pulmonary and Venous Disorders pour OPI ; DAN actes2018 differential diagnosis
+      (gaz gastro-intestinaux) extrait primaire indexé https://world.dan.org/wp-content/uploads/2021/06/2018-proceedings-differential-diagnosis-final2.pdf.
+      Calcul3m résolu à nouveau. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour comprendre le risque de surpression pulmonaire dès une faible profondeur, on modélise
@@ -659,6 +760,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -687,6 +789,12 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 47 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Unexpected Air Pockets (douleur dentaire et contrôle) et Sinus Barotrauma (irradiation maxillaire),
+      DAN Back to Basics et Shallow-Water Arterial Gas Embolisms textes complets ; DAN Recognizing Lung
+      Conditions et référence Pulmonary and Venous Disorders pour OPI ; DAN actes2018 differential diagnosis
+      (gaz gastro-intestinaux) extrait primaire indexé https://world.dan.org/wp-content/uploads/2021/06/2018-proceedings-differential-diagnosis-final2.pdf.
+      Calcul3m résolu à nouveau. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après une plongée avec paliers respectés, une douleur thoracique et une difficulté respiratoire
@@ -710,6 +818,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -738,11 +847,15 @@ cards:
       ; Alternobaric Vertigo https://dan.org/health-medicine/health-resources/diseases-conditions/alternobaric-vertigo-2/
       ; Back to Basics / Shallow-Water Arterial Gas Embolisms ; Decompression Illness https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/.
       OPI recroisé lot 14, alerte RIFAP mai 2026. Calcul indépendant1,3/1−1=0,30.'
+    - 'Reprise N4 du 2026-10-12, lot 48 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/)
+      ; RIFAP mai2026 pages28–32 et PSC juillet2026 pages26–27/36–37 relus dans les PDF locaux officiels
+      ; DAN Physiology of Compressed Gas Diving source factuelle déjà contrôlée lors ventilation N4. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Un plongeur présente confusion et faiblesse d’un bras juste après la sortie, sans douleur
-      thoracique. Quelle relation entre signes neurologiques et embolie gazeuse artérielle est correcte
-      ?
+    question: Comment les signes neurologiques peuvent-ils se présenter lors d’une embolie gazeuse artérielle
+      d’origine pulmonaire après plongée ?
     choices:
     - text: Des signes neurologiques peuvent être présents sans plainte thoracique
       correct: true
@@ -760,6 +873,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -787,6 +901,11 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 48 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/)
+      ; RIFAP mai2026 pages28–32 et PSC juillet2026 pages26–27/36–37 relus dans les PDF locaux officiels
+      ; DAN Physiology of Compressed Gas Diving source factuelle déjà contrôlée lors ventilation N4. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une suspicion de barotraumatisme pulmonaire concerne une victime consciente dont la respiration
@@ -809,6 +928,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -837,6 +957,11 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 48 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/)
+      ; RIFAP mai2026 pages28–32 et PSC juillet2026 pages26–27/36–37 relus dans les PDF locaux officiels
+      ; DAN Physiology of Compressed Gas Diving source factuelle déjà contrôlée lors ventilation N4. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Des troubles pulmonaires ou neurologiques après plongée disparaissent sous oxygène, après
@@ -858,6 +983,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::07
   - barotraumatismes
@@ -891,18 +1017,24 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 48 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/)
+      ; RIFAP mai2026 pages28–32 et PSC juillet2026 pages26–27/36–37 relus dans les PDF locaux officiels
+      ; DAN Physiology of Compressed Gas Diving source factuelle déjà contrôlée lors ventilation N4. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En surface, une victime d’accident de plongée est inconsciente et ne respire pas normalement.
-      Les secours sont alertés. Quelle prise en charge commencer ?
+      Les secours sont alertés. Quelle prise en charge mettre en œuvre en attendant leur relais ?
     choices:
     - text: Réanimation cardio-pulmonaire et utilisation d’un défibrillateur dès sa disponibilité
       correct: true
     - text: Position latérale de sécurité et oxygène au masque avec surveillance de la respiration
       correct: false
-    - text: Oxygène au masque à haute concentration et attente de la reprise de respiration
+    - text: Ventilations seules au ballon à l’oxygène, poursuivies jusqu’à l’arrivée des secours
       correct: false
-    explanation: Une respiration absente ou anormale impose la réanimation cardio-pulmonaire et le défibrillateur
-      dès qu’il est disponible. Après un événement non traumatique, la position latérale de sécurité concerne
-      une victime qui ne répond pas mais respire normalement. Un masque à oxygène ne crée pas de ventilation
-      ; celle-ci s’intègre aux gestes de réanimation selon la formation et le matériel.
+    explanation: 'Une respiration absente ou anormale chez une victime inconsciente impose la réanimation
+      cardio-pulmonaire et le défibrillateur dès qu’il est disponible. Après un événement non traumatique,
+      la position latérale de sécurité concerne une victime qui ne répond pas mais respire normalement.
+      La réanimation associe compressions et ventilation selon la formation et le matériel : des ventilations
+      seules jusqu’à l’arrivée des secours ne remplacent pas les compressions.'

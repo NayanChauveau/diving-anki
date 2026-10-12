@@ -4,6 +4,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -19,6 +20,10 @@ cards:
     - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
       officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
       ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
+    - 'Reprise N4 du 2026-10-12, lot 89 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker limites M et pression ambiante ; MFT GP-N4/N3 profils inversés ; études primaires PMID23771833
+      et revue PMID33975403 consultées pour acclimatation ; Peregrine Doc16001-SI-RevB p.16,25–26. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un affichage Peregrine simulé indique profondeur actuelle 8 m, DECO STOP 6 m / 2 min et
@@ -39,6 +44,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -54,6 +60,10 @@ cards:
     - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
       officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
       ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
+    - 'Reprise N4 du 2026-10-12, lot 89 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker limites M et pression ambiante ; MFT GP-N4/N3 profils inversés ; études primaires PMID23771833
+      et revue PMID33975403 consultées pour acclimatation ; Peregrine Doc16001-SI-RevB p.16,25–26. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un Peregrine simulé affiche DECO STOP 6 m / 2 min et TTS 9 min. Que représentent les 9 min
@@ -73,6 +83,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -83,6 +94,12 @@ cards:
     - Shearwater Peregrine, notice française Doc.16001-SI-RevB du 06/07/2020 (fichier officiel nommé 2021),
       p.11–16,25,33–39 ; affichages originaux limités aux champs documentés
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 09_DESATURATION : MFT GP-N4 mai 2026 p.25 ; notice Suunto ceiling
+      / Peregrine p.15–16, coordination des indications ; recto, choix et corrigé relus ; identité conservée'
+    - 'Reprise N4 du 2026-10-12, lot 90 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Peregrine Doc16001-SI-RevB p.16,26,38 relues dans cette passe, distinction @+5/Δ+5 des notes V89
+      déjà contrôlée ; MFT GP-N4 désaturation ; DAN Mitchell mécanique ventilatoire et gaz parfait. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'À 6 m, deux équipiers à l’air ont un arrêt obligatoire au même niveau : A affiche encore
@@ -103,6 +120,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -120,6 +138,10 @@ cards:
     - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
       officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
       ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
+    - 'Reprise N4 du 2026-10-12, lot 90 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Peregrine Doc16001-SI-RevB p.16,26,38 relues dans cette passe, distinction @+5/Δ+5 des notes V89
+      déjà contrôlée ; MFT GP-N4 désaturation ; DAN Mitchell mécanique ventilatoire et gaz parfait. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour une plongée avec décompression uniquement à l’air, un Peregrine en mode Nitrox 3 gaz
@@ -141,6 +163,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -158,6 +181,10 @@ cards:
     - 'Peregrine Doc.16001-SI-RevB, p.11–12,16,26,30,33–34,38 relues ; PDF toujours proposé par le support
       officiel le 2026-10-10 ; notes V89 du 2025-09-22 consultées pour les changements pertinents : https://shearwater.com/pages/peregrine-support
       ; MFT N3 décembre 2025 p.8–9,13 ; revue N3 lot 12'
+    - 'Reprise N4 du 2026-10-12, lot 90 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Peregrine Doc16001-SI-RevB p.16,26,38 relues dans cette passe, distinction @+5/Δ+5 des notes V89
+      déjà contrôlée ; MFT GP-N4 désaturation ; DAN Mitchell mécanique ventilatoire et gaz parfait. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après une plongée du matin suivie en mode Air, un Peregrine passe en mode Profondimètre,
@@ -178,6 +205,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::06
   status: reviewed
@@ -194,6 +222,10 @@ cards:
       ; identité et objectif conservés'
     - Peregrine Doc.16001-SI-RevB p.16, @+5 et DTR ; notes V89, distinction @+5/Δ+5 ; vérification 2026-10-10,
       revue N3 lot 13
+    - 'Reprise N4 du 2026-10-12, lot 90 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Peregrine Doc16001-SI-RevB p.16,26,38 relues dans cette passe, distinction @+5/Δ+5 des notes V89
+      déjà contrôlée ; MFT GP-N4 désaturation ; DAN Mitchell mécanique ventilatoire et gaz parfait. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Sur un Peregrine, TTS vaut 12 min et @+5 vaut 18 min. Si le plongeur reste encore 5 min

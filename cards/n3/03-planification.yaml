@@ -4,6 +4,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -12,6 +13,12 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 05_GUIDAGE : MFT GP-N4 mai 2026 p.16–18 ; règles déjà vérifiées dans
+      N2/N3, pertinence de guidage confirmée ; recto, choix et corrigé relus ; identité conservée'
+    - 'Reprise N4 du 2026-10-12, lot 82 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-78 relu, secours distincts de l’armement nautique ; MFT N3 décembre2025 planification
+      et GP-N4 conduite/désaturation ; calculs refaits sans utiliser les corrigés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Deux N3 majeurs plongent avec DP. Le DP fixe 45 m ; le site choisi se termine à 38 m ; leur
@@ -32,6 +39,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -44,6 +52,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
       et progression ; relecture du 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 82 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-78 relu, secours distincts de l’armement nautique ; MFT N3 décembre2025 planification
+      et GP-N4 conduite/désaturation ; calculs refaits sans utiliser les corrigés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un exercice, la consommation prévue pour le trajet de retour correspond à 70 bar du
@@ -64,6 +76,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -78,6 +91,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
       et progression ; relecture du 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 82 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-78 relu, secours distincts de l’armement nautique ; MFT N3 décembre2025 planification
+      et GP-N4 conduite/désaturation ; calculs refaits sans utiliser les corrigés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Un budget fictif laisse 400 L à 1 bar pour poursuivre à 40 m, avec un débit de référence
@@ -135,6 +152,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -143,6 +161,10 @@ cards:
     sources:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.8–9,11–13 ; scénarios originaux à contraintes explicites
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 83 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite/désaturation ; MFT N3 décembre2025 p.8–13 planification progressive,
+      collective et communication ; calcul du gaz sur trajet linéaire refait par pression moyenne et différence
+      des durées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Au briefing, A propose une limite de DTR de 12 min, B de 8 min. Les deux budgets de gaz
@@ -163,6 +185,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -177,6 +200,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
       et progression ; relecture du 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 83 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite/désaturation ; MFT N3 décembre2025 p.8–13 planification progressive,
+      collective et communication ; calcul du gaz sur trajet linéaire refait par pression moyenne et différence
+      des durées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Dans un exercice, une remontée à vitesse constante de 40 à 20 m devait durer 2 min ; elle
@@ -199,6 +226,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -213,6 +241,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
       et progression ; relecture du 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 83 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite/désaturation ; MFT N3 décembre2025 p.8–13 planification progressive,
+      collective et communication ; calcul du gaz sur trajet linéaire refait par pression moyenne et différence
+      des durées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après avoir quitté 45 m, un équipier propose de redescendre chercher une ancre à 40 m. Ce
@@ -233,6 +265,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -245,6 +278,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 FFESSM décembre 2025, p.4,8–9,11,13 : planification collective, consignes, gaz, désaturation
       et progression ; relecture du 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 83 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite/désaturation ; MFT N3 décembre2025 p.8–13 planification progressive,
+      collective et communication ; calcul du gaz sur trajet linéaire refait par pression moyenne et différence
+      des durées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un N3 revient après plusieurs années sans plonger et propose 55 m avec DP. Quelle observation
@@ -265,6 +302,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -276,6 +314,10 @@ cards:
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
     - 'Revue N3 du 2026-10-10, lot 06 : MFT N3 décembre 2025, p.8–9,13 ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 83 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite/désaturation ; MFT N3 décembre2025 p.8–13 planification progressive,
+      collective et communication ; calcul du gaz sur trajet linéaire refait par pression moyenne et différence
+      des durées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant la remontée, l’ordinateur d’un équipier ajoute un arrêt obligatoire plus profond.
@@ -296,6 +338,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::03
   status: reviewed
@@ -307,12 +350,16 @@ cards:
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 06 : MFT N3 décembre 2025, p.8–9,13 ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 84 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite, physique et désaturation ; modèle de gaz parfait des exercices, calculs
+      refaits par volume à1bar et capacité interne, pressions absolues5 et6,5bar. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Un changement de sortie ajoute 2 min à 20 m et un arrêt fourni de 4 min à 3 m. Débit de
-      référence 20 L/min à 1 bar. Quel gaz supplémentaire à 1 bar doit être budgété, hors autres transitions
-      ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz
-      respiré est compté.'
+    question: 'Un changement de sortie ajoute 2 min à 20 m et un arrêt supplémentaire prévu de 4 min à
+      3 m. Débit de référence 20 L/min à 1 bar. Quel gaz supplémentaire à 1 bar doit être budgété, hors
+      autres transitions ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par
+      10 m ; seul le gaz respiré est compté.'
     choices:
     - text: 224 L
       correct: true

@@ -5,6 +5,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -32,6 +33,12 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 42 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : A322-80 texte officiel indexé ; CMPN tableau CACI 1 page (https://medical.ffessm.fr/uploads/media/default/0001/12/4263e575d7051cabbe61b8bac9718a428700aead.pdf),
+      documents de visite juin2026 ; FFESSM pratiquer (https://plongee.ffessm.fr/categories/pratiquer),
+      assurances 24 août2026 (https://ffessm.fr/gerer/assurance) ; CaPeL officiel (https://capel.portcros-parcnational.fr/la-plongee-au-sein-du-pnpc/)
+      texte complet. Le règlement médical PDF retrouvé porte février2018 malgré une date de référencement
+      récente : tableau actuel privilégié. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour un adulte pratiquant la plongée FFESSM à l’air, hors cas médical particulier, quelle
@@ -53,6 +60,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -75,6 +83,12 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 42 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : A322-80 texte officiel indexé ; CMPN tableau CACI 1 page (https://medical.ffessm.fr/uploads/media/default/0001/12/4263e575d7051cabbe61b8bac9718a428700aead.pdf),
+      documents de visite juin2026 ; FFESSM pratiquer (https://plongee.ffessm.fr/categories/pratiquer),
+      assurances 24 août2026 (https://ffessm.fr/gerer/assurance) ; CaPeL officiel (https://capel.portcros-parcnational.fr/la-plongee-au-sein-du-pnpc/)
+      texte complet. Le règlement médical PDF retrouvé porte février2018 malgré une date de référencement
+      récente : tableau actuel privilégié. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur présente une licence FFESSM de pratique valide. Quel élément est établi par
@@ -95,6 +109,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -117,6 +132,12 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 42 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : A322-80 texte officiel indexé ; CMPN tableau CACI 1 page (https://medical.ffessm.fr/uploads/media/default/0001/12/4263e575d7051cabbe61b8bac9718a428700aead.pdf),
+      documents de visite juin2026 ; FFESSM pratiquer (https://plongee.ffessm.fr/categories/pratiquer),
+      assurances 24 août2026 (https://ffessm.fr/gerer/assurance) ; CaPeL officiel (https://capel.portcros-parcnational.fr/la-plongee-au-sein-du-pnpc/)
+      texte complet. Le règlement médical PDF retrouvé porte février2018 malgré une date de référencement
+      récente : tableau actuel privilégié. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle répartition des risques distingue la responsabilité civile (RC) de la licence FFESSM
@@ -139,6 +160,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -168,21 +190,29 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 42 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : A322-80 texte officiel indexé ; CMPN tableau CACI 1 page (https://medical.ffessm.fr/uploads/media/default/0001/12/4263e575d7051cabbe61b8bac9718a428700aead.pdf),
+      documents de visite juin2026 ; FFESSM pratiquer (https://plongee.ffessm.fr/categories/pratiquer),
+      assurances 24 août2026 (https://ffessm.fr/gerer/assurance) ; CaPeL officiel (https://capel.portcros-parcnational.fr/la-plongee-au-sein-du-pnpc/)
+      texte complet. Le règlement médical PDF retrouvé porte février2018 malgré une date de référencement
+      récente : tableau actuel privilégié. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Une structure prépare une plongée dans le cœur marin d’un parc national. Quelle règle permet
-      de déterminer les restrictions et autorisations propres à ce site ?
+    question: Une structure prépare une plongée en scaphandre dans un cœur marin du Parc national de Port-Cros.
+      De qui doit provenir l’autorisation spécifique d’accès pour cette activité, en complément des conditions
+      du Code du sport ?
     choices:
-    - text: La réglementation du cœur marin concerné pour la plongée
+    - text: Du Parc national, après engagement à respecter son règlement de plongée
       correct: true
-    - text: La réglementation de la pêche sous-marine dans ce secteur
+    - text: Du préfet maritime, après validation de la fiche de sécurité de la sortie
       correct: false
-    - text: La réglementation générale des aptitudes PE et PA du Code du sport
+    - text: De la FFESSM, après validation des aptitudes inscrites sur la fiche de sécurité
       correct: false
-    explanation: Le règlement et les arrêtés applicables au site précisent si la plongée est autorisée
-      et à quelles conditions. Une interdiction de pêche n’établit pas à elle seule le régime de la plongée
-      d’observation ; les aptitudes PE/PA ne donnent pas non plus un droit d’accès au site. Les cœurs
-      marins de Port-Cros et Porquerolles, par exemple, ont un dispositif d’autorisation de plongée.
+    explanation: L’autorisation spécifique de plongée est délivrée par le directeur du Parc national après
+      engagement à respecter le règlement de plongée. Elle s’obtient via CaPeL, le carnet de plongée en
+      ligne du Parc. Le respect des aptitudes et des autres conditions du Code du sport ne dispense pas
+      de cette autorisation locale. Le préfet maritime peut réglementer les activités en mer, mais ce
+      n’est pas lui qui délivre cette autorisation du Parc ; la FFESSM ne la délivre pas non plus.
 - id: n2-documents-prelevements-observation-001
   type: mcq
   anki_model: basic
@@ -190,6 +220,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -215,6 +246,13 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 43 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Charte Longitude181 PDF p.4 (https://www.longitude181.org/pdf/Charte-Francais.pdf), Code patrimoine
+      L532-3 actuel (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006845759), R921-92 I
+      texte initial2014 recroisé avec version actuelle contrôlée N3 le11octobre ; ministère Mer guide
+      loisirs et DIRM NAMO page plongée publiée 9juillet2026, Sports de nature réglementation des sites
+      (https://www.sportsdenature.gouv.fr/plongee/reglementation/amenagement-et-equipement-des-lieux-de-pratique).
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Lors d’une plongée d’observation, que recommande la Charte du plongeur responsable pour
@@ -235,6 +273,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -259,6 +298,13 @@ cards:
       FFESSM licence / assurances saison 2026–2027, Port-Cros réglementation plongée / CaPeL, Longitude181
       Charte, Code du patrimoine L532-3 et DRASSM ; sources primaires consultées 2026-10-11. Voir références
       exactes préexistantes et journal du lot.
+    - 'Reprise N4 du 2026-10-12, lot 43 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Charte Longitude181 PDF p.4 (https://www.longitude181.org/pdf/Charte-Francais.pdf), Code patrimoine
+      L532-3 actuel (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006845759), R921-92 I
+      texte initial2014 recroisé avec version actuelle contrôlée N3 le11octobre ; ministère Mer guide
+      loisirs et DIRM NAMO page plongée publiée 9juillet2026, Sports de nature réglementation des sites
+      (https://www.sportsdenature.gouv.fr/plongee/reglementation/amenagement-et-equipement-des-lieux-de-pratique).
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Lors d’une plongée en mer en France, un objet d’intérêt archéologique est découvert fortuitement.
@@ -281,6 +327,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -304,6 +351,13 @@ cards:
       nautiques (trois pavillons), arrêtés préfectoraux ; arrêté suivi équipements sous pression du 20/11/2017
       art. 22–25 ; réseau FFESSM ; CMAS Technical Committee et CMAS Cards https://www.cmas.org/cmas-family/structure/technical-committee.html
       /resources/cmas-cards.html, consultés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 43 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Charte Longitude181 PDF p.4 (https://www.longitude181.org/pdf/Charte-Francais.pdf), Code patrimoine
+      L532-3 actuel (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006845759), R921-92 I
+      texte initial2014 recroisé avec version actuelle contrôlée N3 le11octobre ; ministère Mer guide
+      loisirs et DIRM NAMO page plongée publiée 9juillet2026, Sports de nature réglementation des sites
+      (https://www.sportsdenature.gouv.fr/plongee/reglementation/amenagement-et-equipement-des-lieux-de-pratique).
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En pêche sous-marine de loisir en mer en France, quelles règles s’appliquent à l’usage d’un
@@ -326,6 +380,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -349,6 +404,13 @@ cards:
       nautiques (trois pavillons), arrêtés préfectoraux ; arrêté suivi équipements sous pression du 20/11/2017
       art. 22–25 ; réseau FFESSM ; CMAS Technical Committee et CMAS Cards https://www.cmas.org/cmas-family/structure/technical-committee.html
       /resources/cmas-cards.html, consultés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 43 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Charte Longitude181 PDF p.4 (https://www.longitude181.org/pdf/Charte-Francais.pdf), Code patrimoine
+      L532-3 actuel (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006845759), R921-92 I
+      texte initial2014 recroisé avec version actuelle contrôlée N3 le11octobre ; ministère Mer guide
+      loisirs et DIRM NAMO page plongée publiée 9juillet2026, Sports de nature réglementation des sites
+      (https://www.sportsdenature.gouv.fr/plongee/reglementation/amenagement-et-equipement-des-lieux-de-pratique).
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelles sont les couleurs du pavillon Alpha utilisé pour signaler la plongée depuis une
@@ -370,6 +432,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -398,6 +461,13 @@ cards:
       nautiques (trois pavillons), arrêtés préfectoraux ; arrêté suivi équipements sous pression du 20/11/2017
       art. 22–25 ; réseau FFESSM ; CMAS Technical Committee et CMAS Cards https://www.cmas.org/cmas-family/structure/technical-committee.html
       /resources/cmas-cards.html, consultés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 43 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Charte Longitude181 PDF p.4 (https://www.longitude181.org/pdf/Charte-Francais.pdf), Code patrimoine
+      L532-3 actuel (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006845759), R921-92 I
+      texte initial2014 recroisé avec version actuelle contrôlée N3 le11octobre ; ministère Mer guide
+      loisirs et DIRM NAMO page plongée publiée 9juillet2026, Sports de nature réglementation des sites
+      (https://www.sportsdenature.gouv.fr/plongee/reglementation/amenagement-et-equipement-des-lieux-de-pratique).
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Avant une plongée sur un site côtier français, dans quels textes vérifier les distances
@@ -405,13 +475,16 @@ cards:
     choices:
     - text: Les arrêtés maritimes applicables au secteur de plongée
       correct: true
-    - text: Le règlement technique fédéral applicable au brevet
+    - text: Le règlement international pour prévenir les abordages en mer
       correct: false
-    - text: Les annexes du Code du sport définissant les aptitudes
+    - text: La division 240 sur la sécurité des navires de plaisance
       correct: false
     explanation: Les règles maritimes applicables au site, notamment les arrêtés de la préfecture maritime,
       précisent les distances, la signalisation et les limitations de vitesse. Une distance retenue sur
-      un secteur ne se transpose pas automatiquement à toute la côte.
+      un secteur ne se transpose pas automatiquement à toute la côte. Le règlement international pour
+      prévenir les abordages en mer (RIPAM) encadre les règles de navigation et les signaux ; la division
+      240 traite la sécurité des navires de plaisance. Ils ne remplacent pas la consultation des arrêtés
+      locaux pour les distances d’approche des plongeurs.
 - id: n2-documents-suivi-bloc-001
   type: mcq
   anki_model: basic
@@ -419,6 +492,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -445,6 +519,11 @@ cards:
       /resources/cmas-cards.html, consultés 2026-10-11.
     - 'Arrêté du 20/11/2017 art. 23–25, version consolidée au 2026-09-29, consultée 2026-10-11 : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29
       ; opérations sous responsabilité d’un organisme habilité, y compris délégation au centre de regroupement.'
+    - 'Reprise N4 du 2026-10-12, lot 44 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : arrêté20novembre2017 consolidé29septembre2026 art.22–25 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29)
+      ; MFT GP-N4 mai2026 p.27 et33, CMAS Technical Committee (https://www.cmas.org/cmas-family/structure/technical-committee.html)
+      ; DAN Mask Squeeze source intégrale (https://dan.org/health-medicine/health-resources/diseases-conditions/mask-squeeze-aka-facial-barotrauma/)
+      et Back to Basics déjà recroisé N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un bloc de plongée a une inspection visuelle récente, mais sa requalification est arrivée
@@ -466,6 +545,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -492,6 +572,11 @@ cards:
       nautiques (trois pavillons), arrêtés préfectoraux ; arrêté suivi équipements sous pression du 20/11/2017
       art. 22–25 ; réseau FFESSM ; CMAS Technical Committee et CMAS Cards https://www.cmas.org/cmas-family/structure/technical-committee.html
       /resources/cmas-cards.html, consultés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 44 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : arrêté20novembre2017 consolidé29septembre2026 art.22–25 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29)
+      ; MFT GP-N4 mai2026 p.27 et33, CMAS Technical Committee (https://www.cmas.org/cmas-family/structure/technical-committee.html)
+      ; DAN Mask Squeeze source intégrale (https://dan.org/health-medicine/health-resources/diseases-conditions/mask-squeeze-aka-facial-barotrauma/)
+      et Back to Basics déjà recroisé N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans le réseau FFESSM, qui définit le cursus fédéral et qui organise localement les formations
@@ -513,6 +598,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::03
   - documents-environnement
@@ -538,6 +624,11 @@ cards:
       nautiques (trois pavillons), arrêtés préfectoraux ; arrêté suivi équipements sous pression du 20/11/2017
       art. 22–25 ; réseau FFESSM ; CMAS Technical Committee et CMAS Cards https://www.cmas.org/cmas-family/structure/technical-committee.html
       /resources/cmas-cards.html, consultés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 44 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : arrêté20novembre2017 consolidé29septembre2026 art.22–25 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036128632/2026-09-29)
+      ; MFT GP-N4 mai2026 p.27 et33, CMAS Technical Committee (https://www.cmas.org/cmas-family/structure/technical-committee.html)
+      ; DAN Mask Squeeze source intégrale (https://dan.org/health-medicine/health-resources/diseases-conditions/mask-squeeze-aka-facial-barotrauma/)
+      et Back to Basics déjà recroisé N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Sur un brevet de plongeur, quel élément atteste la référence CMAS lorsqu’on présente ses

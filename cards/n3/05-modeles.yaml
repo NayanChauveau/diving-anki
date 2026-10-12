@@ -4,6 +4,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -19,6 +20,10 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Reprise N4 du 2026-10-12, lot 87 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 planification et modèles ; Pollock Flexible Control of Decompression Stress relu
+      dans la passe et Baker ; calculs pression moyenne, stock et coût de chaque phase refaits. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À pression de gaz inspiré constante, que signifie la période d’un compartiment dans un modèle
@@ -38,6 +43,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -53,6 +59,10 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Reprise N4 du 2026-10-12, lot 88 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker Understanding M-values p.1–3 et Pollock Flexible Control of Decompression Stress, demi-temps
+      et compartiment limitant ; Peregrine modèle Bühlmann ; MFT GP-N4 désaturation. Résolutions indépendantes
+      des états et fractions exponentielles. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un compartiment fictif passe vers un équilibre maintenu à 4 bar de gaz inerte, depuis 2
@@ -72,6 +82,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -87,6 +98,10 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Reprise N4 du 2026-10-12, lot 88 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker Understanding M-values p.1–3 et Pollock Flexible Control of Decompression Stress, demi-temps
+      et compartiment limitant ; Peregrine modèle Bühlmann ; MFT GP-N4 désaturation. Résolutions indépendantes
+      des états et fractions exponentielles. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un compartiment fictif contient initialement 3 bar de gaz inerte. Son nouvel équilibre reste
@@ -106,6 +121,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -121,6 +137,10 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Reprise N4 du 2026-10-12, lot 88 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker Understanding M-values p.1–3 et Pollock Flexible Control of Decompression Stress, demi-temps
+      et compartiment limitant ; Peregrine modèle Bühlmann ; MFT GP-N4 désaturation. Résolutions indépendantes
+      des états et fractions exponentielles. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Deux compartiments commencent à 1 bar et tendent vers 3 bar de gaz inerte. Leurs périodes
@@ -141,6 +161,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -161,6 +182,10 @@ cards:
     - 'Erik Baker, Understanding M-values, PDF N3-S12 p.1–3 ; Shearwater/Pollock, Flexible Control of
       Decompression Stress, paragraphes demi-temps et sursaturation, publication originale 2017, republication
       2024-11-30 ; relus le 2026-10-10 : https://shearwater.com/blogs/community/flexible-control-of-decompression-stress'
+    - 'Reprise N4 du 2026-10-12, lot 88 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker Understanding M-values p.1–3 et Pollock Flexible Control of Decompression Stress, demi-temps
+      et compartiment limitant ; Peregrine modèle Bühlmann ; MFT GP-N4 désaturation. Résolutions indépendantes
+      des états et fractions exponentielles. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À un instant donné, la pression d’équilibre avec le gaz inspiré vaut 2 bar de gaz inerte.
@@ -181,6 +206,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -198,6 +224,10 @@ cards:
       ; vérifié 2026-10-06
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Reprise N4 du 2026-10-12, lot 88 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker Understanding M-values p.1–3 et Pollock Flexible Control of Decompression Stress, demi-temps
+      et compartiment limitant ; Peregrine modèle Bühlmann ; MFT GP-N4 désaturation. Résolutions indépendantes
+      des états et fractions exponentielles. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un exemple abstrait, le compartiment A exige une pression ambiante d’au moins 1,6 bar
@@ -217,6 +247,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -232,6 +263,10 @@ cards:
     - Shearwater — Neal Pollock, Flexible Control of Decompression Stress, publié initialement 2017, republication
       30/11/2024, compartiments/demi-temps ; https://shearwater.com/blogs/community/flexible-control-of-decompression-stress
       ; vérifié 2026-10-06
+    - 'Reprise N4 du 2026-10-12, lot 89 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker limites M et pression ambiante ; MFT GP-N4/N3 profils inversés ; études primaires PMID23771833
+      et revue PMID33975403 consultées pour acclimatation ; Peregrine Doc16001-SI-RevB p.16,25–26. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un modèle fictif, la droite limite est M = 1 + 0,8 × Pamb, avec les deux pressions
@@ -252,6 +287,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -265,6 +301,10 @@ cards:
     - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
       (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
       : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
+    - 'Reprise N4 du 2026-10-12, lot 89 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker limites M et pression ambiante ; MFT GP-N4/N3 profils inversés ; études primaires PMID23771833
+      et revue PMID33975403 consultées pour acclimatation ; Peregrine Doc16001-SI-RevB p.16,25–26. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle succession de deux plongées dans la même journée constitue un profil inversé, en
@@ -285,6 +325,7 @@ cards:
   deck: Désaturation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::05
   status: reviewed
@@ -301,6 +342,10 @@ cards:
     - 'Revue N3 du 2026-10-10 : Peregrine Doc.16001-SI-RevB p.25 relu ; Suunto Zoop Novo, Suunto RGBM
       (passage officiel indexé) ; MFT N3 p.9,15 ; étude 2013 PMID23771833 et revue 2021 PMID33975403 relues
       : https://pubmed.ncbi.nlm.nih.gov/23771833/ ; https://pubmed.ncbi.nlm.nih.gov/33975403/'
+    - 'Reprise N4 du 2026-10-12, lot 89 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Baker limites M et pression ambiante ; MFT GP-N4/N3 profils inversés ; études primaires PMID23771833
+      et revue PMID33975403 consultées pour acclimatation ; Peregrine Doc16001-SI-RevB p.16,25–26. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Que désigne l’acclimatation à la désaturation étudiée lors d’expositions répétées à la plongée

@@ -1,0 +1,1197 @@
+cards:
+- id: n4-materiel-compresseur-cycle-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.24–30 ; N4-S40 fiche compresseur
+      Poincelet p.1–3 ; relus 2026-10-12
+    - 'BAUER — JUNIOR II, séparateurs et P21 : https://www.bauer-kompressoren.de/en_en/junior-ii ; P-filtersystems
+      https://www.bauer-kompressoren.de/en_en/p-filtersysteme1 ; I26 refroidissement multi-étages https://www.bauer-kompressoren.de/en_en/i-26-baureihe
+      ; consultés 2026-10-12'
+    - BAUER — notice Betreiberhandbuch, extraits indexés dépannage (refroidissement, soupapes inter-étages)
+      ; ancien lien PDF redirige, aucune lecture intégrale revendiquée ; contrôle 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_20_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans un étage à piston, la pression dans le cylindre est devenue supérieure à celle de la
+      conduite de sortie pendant la remontée du piston. Dans quel état sont les clapets lors du refoulement
+      ?
+    choices:
+    - text: Admission fermé, refoulement ouvert
+      correct: true
+    - text: Admission ouvert, refoulement fermé
+      correct: false
+    - text: Admission fermé, refoulement fermé
+      correct: false
+    explanation: Le piston réduit le volume. Lorsque la pression du cylindre dépasse celle de la sortie,
+      le clapet de refoulement laisse sortir le gaz ; le clapet d’admission reste fermé pour empêcher
+      le retour vers l’entrée. Les deux clapets sont fermés pendant une partie de la compression, avant
+      le début du refoulement. À l’admission, le mouvement du piston augmente le volume et le gaz entre
+      par l’autre clapet.
+- id: n4-materiel-compresseur-etages-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.24–30 ; N4-S40 fiche compresseur
+      Poincelet p.1–3 ; relus 2026-10-12
+    - 'BAUER — JUNIOR II, séparateurs et P21 : https://www.bauer-kompressoren.de/en_en/junior-ii ; P-filtersystems
+      https://www.bauer-kompressoren.de/en_en/p-filtersysteme1 ; I26 refroidissement multi-étages https://www.bauer-kompressoren.de/en_en/i-26-baureihe
+      ; consultés 2026-10-12'
+    - BAUER — notice Betreiberhandbuch, extraits indexés dépannage (refroidissement, soupapes inter-étages)
+      ; ancien lien PDF redirige, aucune lecture intégrale revendiquée ; contrôle 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_20_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_103_SCHEMAS.md
+      ; CODEP92 compresseur p.1–3 ; BAUER systèmes multi-étages ; schéma de compression, séparateurs et
+      épuration non représentés.'
+    - '2026-10-12 : lot107, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_107_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Une station comporte trois cylindres de compression reliés en série, avec refroidissement
+      entre eux. Comment évolue le gaz lors de son passage dans ces trois étages ?
+    choices:
+    - text: Chaque étage comprime le gaz reçu du précédent à une pression plus élevée
+      correct: true
+    - text: Chaque étage aspire séparément l’air ambiant et leurs débits s’additionnent
+      correct: false
+    - text: Le premier étage comprime le gaz et les suivants le stockent à cette même pression
+      correct: false
+    explanation: 'Les étages en série réalisent une élévation progressive de pression : la sortie du premier
+      alimente l’entrée du deuxième, puis du troisième. Le refroidissement intermédiaire évacue une partie
+      de la chaleur produite. Des cylindres de compression ne sont pas des bouteilles tampons. Le débit
+      ne se calcule pas en additionnant les volumes déplacés de tous les étages, car le même flux traverse
+      des pressions différentes.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : compression-serie" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker
+      id="compression-serie-a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path
+      d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g font-family="sans-serif" font-size="20" fill="#16394a"><rect
+      x="15" y="70" width="150" height="55" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="90.0" y="103.5" text-anchor="middle">Étage 1</text><rect x="235" y="70" width="150" height="55"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310.0" y="103.5" text-anchor="middle">Étage
+      2</text><rect x="455" y="70" width="150" height="55" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="530.0" y="103.5" text-anchor="middle">Étage 3</text><path d="M165 98H225" fill="none" stroke="#235a78"
+      stroke-width="3" marker-end="url(#compression-serie-a)"/><path d="M385 98H445" fill="none" stroke="#235a78"
+      stroke-width="3" marker-end="url(#compression-serie-a)"/><text x="90" y="45" text-anchor="middle">Air
+      ambiant entrant</text><text x="310" y="158" text-anchor="middle">Refroidissement entre les étages</text><text
+      x="310" y="195" text-anchor="middle">Pression de sortie : P1 &lt; P2 &lt; P3</text><text x="310"
+      y="225" text-anchor="middle">Même flux, trois compressions en série</text></g></svg>'
+- id: n4-materiel-compresseur-refroidissement-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.24–30 ; N4-S40 fiche compresseur
+      Poincelet p.1–3 ; relus 2026-10-12
+    - 'BAUER — JUNIOR II, séparateurs et P21 : https://www.bauer-kompressoren.de/en_en/junior-ii ; P-filtersystems
+      https://www.bauer-kompressoren.de/en_en/p-filtersysteme1 ; I26 refroidissement multi-étages https://www.bauer-kompressoren.de/en_en/i-26-baureihe
+      ; consultés 2026-10-12'
+    - BAUER — notice Betreiberhandbuch, extraits indexés dépannage (refroidissement, soupapes inter-étages)
+      ; ancien lien PDF redirige, aucune lecture intégrale revendiquée ; contrôle 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_20_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans un compresseur multi-étages, quel est l’intérêt de refroidir le gaz avant qu’il entre
+      dans l’étage suivant ?
+    choices:
+    - text: Réduire sa température et le travail nécessaire à la compression suivante
+      correct: true
+    - text: Augmenter sa température et faciliter ainsi la compression suivante
+      correct: false
+    - text: Maintenir sa température pour empêcher la condensation de l’humidité
+      correct: false
+    explanation: 'La compression échauffe le gaz. Le refroidisseur transfère de la chaleur vers l’air
+      ambiant ou un circuit d’eau ; un gaz refroidi demande moins de travail pour la compression suivante
+      vers une même pression finale. Une ventilation insuffisante limite cette évacuation de chaleur.
+      Le refroidissement peut aussi provoquer une condensation : les séparateurs et les purges traitent
+      alors les liquides recueillis.'
+- id: n4-materiel-compresseur-condensats-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.24–30 ; N4-S40 fiche compresseur
+      Poincelet p.1–3 ; relus 2026-10-12
+    - 'BAUER — JUNIOR II, séparateurs et P21 : https://www.bauer-kompressoren.de/en_en/junior-ii ; P-filtersystems
+      https://www.bauer-kompressoren.de/en_en/p-filtersysteme1 ; I26 refroidissement multi-étages https://www.bauer-kompressoren.de/en_en/i-26-baureihe
+      ; consultés 2026-10-12'
+    - BAUER — notice Betreiberhandbuch, extraits indexés dépannage (refroidissement, soupapes inter-étages)
+      ; ancien lien PDF redirige, aucune lecture intégrale revendiquée ; contrôle 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_20_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans une station de gonflage, quelle distinction décrit le traitement de l’eau par le séparateur
+      de condensats et par le tamis moléculaire de la cartouche ?
+    choices:
+    - text: Le séparateur retire l’eau liquide ; le tamis adsorbe l’humidité résiduelle du gaz
+      correct: true
+    - text: Le séparateur adsorbe la vapeur d’eau ; le tamis recueille l’eau liquide
+      correct: false
+    explanation: 'Le séparateur retire principalement des liquides du flux, puis ses purges les évacuent.
+      Il ne garantit pas l’élimination des contaminants sous forme de vapeur ou de gaz. Les agents de
+      la cartouche ont des fonctions distinctes : tamis moléculaire pour l’humidité résiduelle, charbon
+      actif pour des vapeurs d’huile et odeurs ; certaines cartouches comportent aussi un catalyseur transformant
+      le CO en CO2. Le contenu dépend du modèle et de l’usage.'
+- id: n4-materiel-compresseur-soupape-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.24–30 ; N4-S40 fiche compresseur
+      Poincelet p.1–3 ; relus 2026-10-12
+    - 'BAUER — JUNIOR II, séparateurs et P21 : https://www.bauer-kompressoren.de/en_en/junior-ii ; P-filtersystems
+      https://www.bauer-kompressoren.de/en_en/p-filtersysteme1 ; I26 refroidissement multi-étages https://www.bauer-kompressoren.de/en_en/i-26-baureihe
+      ; consultés 2026-10-12'
+    - BAUER — notice Betreiberhandbuch, extraits indexés dépannage (refroidissement, soupapes inter-étages)
+      ; ancien lien PDF redirige, aucune lecture intégrale revendiquée ; contrôle 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_20_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans une station, quelle association décrit le rôle d’un clapet de refoulement et celui
+      d’une soupape de sécurité ?
+    choices:
+    - text: 'Clapet : empêcher le retour du gaz ; soupape : décharger une surpression'
+      correct: true
+    - text: 'Clapet : décharger une surpression ; soupape : empêcher le retour du gaz'
+      correct: false
+    - text: 'Clapet : régler la pression finale ; soupape : commander l’arrêt du moteur'
+      correct: false
+    explanation: Le clapet de refoulement laisse passer le gaz vers l’aval et limite son retour dans le
+      cylindre. Une soupape de sécurité tarée s’ouvre lorsque la pression atteint son seuil pour protéger
+      la partie de circuit concernée. La commande électrique d’arrêt à une pression prévue est une autre
+      fonction, assurée notamment par un pressostat. Une soupape de sécurité n’est pas le dispositif de
+      régulation courante du gonflage.
+- id: n4-materiel-compresseur-panne-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.5–6,24–31 ; fiche compresseur p.3
+      et robinet p.1–2 ; contrôlés 2026-10-12
+    - 'BAUER — extraits indexés notice Betreiberhandbuch, dépannage pression insuffisante/purges non étanches
+      ; lien PDF ancien redirige ; catalogue accessoires 2025/2028 p.20 B-TIMER et suivi de cartouche
+      : https://www.bauer-kompressoren.de/fileadmin/documents/products/spare-part-list/zubehoer_kataloge/High-pressure-accessories-catalogue_EN.pdf
+      ; consultés 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/robinet-ouvert.svg ; exercice thermique gaz idéal,
+      aucun seuil opérationnel de gonflage
+    - 'Revue individuelle : docs/reviews/n4/LOT_21_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Une station met plus de temps que d’habitude à atteindre la même pression finale. Une fuite
+      de gaz est localisée au robinet de purge, pourtant commandé fermé. Quel défaut est directement établi
+      par cette observation ?
+    choices:
+    - text: Un défaut d’étanchéité de la purge
+      correct: true
+    - text: Un défaut d’ouverture du clapet d’admission
+      correct: false
+    - text: Un défaut de tarage du pressostat
+      correct: false
+    explanation: 'Le gaz s’échappe par un organe qui devrait être étanche : cette fuite réduit le débit
+      disponible pour le remplissage. Une montée lente peut avoir d’autres causes, mais les seuls temps
+      de gonflage ne permettraient pas de choisir entre elles. Ici, la localisation de la fuite désigne
+      la purge ; elle ne démontre ni un défaut du clapet d’admission ni un mauvais tarage de la commande
+      d’arrêt.'
+- id: n4-materiel-compresseur-verification-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.5–6,24–31 ; fiche compresseur p.3
+      et robinet p.1–2 ; contrôlés 2026-10-12
+    - 'BAUER — extraits indexés notice Betreiberhandbuch, dépannage pression insuffisante/purges non étanches
+      ; lien PDF ancien redirige ; catalogue accessoires 2025/2028 p.20 B-TIMER et suivi de cartouche
+      : https://www.bauer-kompressoren.de/fileadmin/documents/products/spare-part-list/zubehoer_kataloge/High-pressure-accessories-catalogue_EN.pdf
+      ; consultés 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/robinet-ouvert.svg ; exercice thermique gaz idéal,
+      aucun seuil opérationnel de gonflage
+    - 'Revue individuelle : docs/reviews/n4/LOT_21_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: 'La fiche de suivi d’une station fixe le remplacement de sa cartouche au premier terme atteint
+      : 30 heures de fonctionnement ou 3 mois après installation. Elle a fonctionné 18 heures depuis son
+      installation il y a 4 mois. Que conclure sur cette échéance ?'
+    choices:
+    - text: 'L’échéance est dépassée : le remplacement doit précéder le gonflage'
+      correct: true
+    - text: 'L’échéance reste valable : il reste 12 heures de fonctionnement'
+      correct: false
+    - text: L’échéance est dépassée seulement après 30 heures et 3 mois réunis
+      correct: false
+    explanation: Le premier terme atteint suffit. Le délai calendaire de 3 mois est dépassé même si la
+      durée de fonctionnement n’atteint pas 30 heures. Ces valeurs appartiennent à la fiche fictive donnée
+      ; les limites réelles dépendent de la cartouche, de la machine et de ses conditions d’utilisation.
+      Le suivi d’une station ne se résume donc pas au compteur horaire.
+- id: n4-materiel-compresseur-temperature-calcul-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.5–6,24–31 ; fiche compresseur p.3
+      et robinet p.1–2 ; contrôlés 2026-10-12
+    - 'BAUER — extraits indexés notice Betreiberhandbuch, dépannage pression insuffisante/purges non étanches
+      ; lien PDF ancien redirige ; catalogue accessoires 2025/2028 p.20 B-TIMER et suivi de cartouche
+      : https://www.bauer-kompressoren.de/fileadmin/documents/products/spare-part-list/zubehoer_kataloge/High-pressure-accessories-catalogue_EN.pdf
+      ; consultés 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/robinet-ouvert.svg ; exercice thermique gaz idéal,
+      aucun seuil opérationnel de gonflage
+    - 'Revue individuelle : docs/reviews/n4/LOT_21_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Un récipient fermé et rigide contient un gaz idéal à 210 bar absolus et 42 °C. Il refroidit
+      à 22 °C sans fuite. Quelle pression absolue obtient-on, arrondie au bar ? Utiliser T(K) = T(°C)
+      + 273.
+    choices:
+    - text: 197 bar
+      correct: true
+    - text: 110 bar
+      correct: false
+    - text: 224 bar
+      correct: false
+    explanation: 'À quantité de gaz et volume constants, P/T est constant : P2 = 210 × (22 + 273)/(42
+      + 273) = 210 × 295/315 ≈ 197 bar absolus. Utiliser les degrés Celsius donne à tort 110 bar ; inverser
+      le rapport donne environ 224 bar. La baisse de pression peut donc provenir du refroidissement sans
+      perte de gaz.'
+- id: n4-materiel-robinet-schema-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.5–6,24–31 ; fiche compresseur p.3
+      et robinet p.1–2 ; contrôlés 2026-10-12
+    - 'BAUER — extraits indexés notice Betreiberhandbuch, dépannage pression insuffisante/purges non étanches
+      ; lien PDF ancien redirige ; catalogue accessoires 2025/2028 p.20 B-TIMER et suivi de cartouche
+      : https://www.bauer-kompressoren.de/fileadmin/documents/products/spare-part-list/zubehoer_kataloge/High-pressure-accessories-catalogue_EN.pdf
+      ; consultés 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/robinet-ouvert.svg ; exercice thermique gaz idéal,
+      aucun seuil opérationnel de gonflage
+    - 'Revue individuelle : docs/reviews/n4/LOT_21_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: 'Sur cette coupe fonctionnelle d’un robinet ouvert, quels éléments sont repérés par A et
+      B ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-label="Coupe fonctionnelle
+      ouverte : gaz du bloc à gauche, sortie vers le détendeur en bas, repères A et B" style="width:100%;max-width:520px;background:white"><g
+      fill="none" stroke="#397b94" stroke-width="5"><path d="M20 130 H150 V45 H370 V245 H290 V280 M20
+      220 H215 V280"/><path d="M260 25 V95"/><path d="M220 95 H305 V115 H220 Z"/><path d="M150 165 H230
+      M295 165 H370"/><path d="M40 175 H170 M165 168 L175 175 L165 182 M262 190 V250 M255 240 L262 250
+      L269 240"/></g><g font-family="sans-serif" font-size="20" fill="#18394a"><text x="20" y="115">Bloc</text><text
+      x="315" y="275">Sortie</text><text x="400" y="170">A</text><path d="M392 164 H345" stroke="#18394a"
+      stroke-width="2"/><text x="400" y="105">B</text><path d="M392 99 H312" stroke="#18394a" stroke-width="2"/></g></svg>'
+    choices:
+    - text: 'A : siège fixe ; B : clapet mobile'
+      correct: true
+    - text: 'A : clapet mobile ; B : siège fixe'
+      correct: false
+    - text: 'A : joint de tige ; B : clapet mobile'
+      correct: false
+    explanation: 'Le siège A est la portée fixe de fermeture. Le clapet B descend jusqu’à cette portée
+      pour interrompre le passage du gaz du bloc vers la sortie. Ici il est séparé du siège : le gaz passe
+      dans l’ouverture. Le joint autour de la tige assure une autre étanchéité, vers l’extérieur, et n’est
+      pas le siège de fermeture du circuit.'
+- id: n4-materiel-robinet-etancheite-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; N4-S11 Jourdren matériel p.5–6,24–31 ; fiche compresseur p.3
+      et robinet p.1–2 ; contrôlés 2026-10-12
+    - 'BAUER — extraits indexés notice Betreiberhandbuch, dépannage pression insuffisante/purges non étanches
+      ; lien PDF ancien redirige ; catalogue accessoires 2025/2028 p.20 B-TIMER et suivi de cartouche
+      : https://www.bauer-kompressoren.de/fileadmin/documents/products/spare-part-list/zubehoer_kataloge/High-pressure-accessories-catalogue_EN.pdf
+      ; consultés 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/robinet-ouvert.svg ; exercice thermique gaz idéal,
+      aucun seuil opérationnel de gonflage
+    - 'Revue individuelle : docs/reviews/n4/LOT_21_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Sur un robinet simple, fermé et déconnecté du détendeur, du gaz s’échappe par la sortie
+      alors qu’aucune fuite n’est observée autour de la tige du volant. Quelle zone ne remplit pas sa
+      fonction ?
+    choices:
+    - text: Le contact entre clapet et siège de fermeture
+      correct: true
+    - text: Le joint d’étanchéité autour de la tige du volant
+      correct: false
+    - text: Le joint entre robinet et col du bloc
+      correct: false
+    explanation: 'La fermeture doit empêcher le gaz du bloc d’atteindre la sortie : une fuite par cette
+      sortie traduit un défaut de conservation au contact clapet-siège. Une fuite autour de la tige mettrait
+      en cause son étanchéité vers l’extérieur ; une fuite au col concernerait la liaison robinet-bloc.
+      Le constat localise une fonction défaillante sans déterminer à lui seul l’usure exacte de la pièce.'
+- id: n4-materiel-robinet-volume-piege-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 : premier étage piston simple p.1–2, piston
+      compensé p.1–2 ; Jourdren matériel p.10–13 ; relus 2026-10-12'
+    - SCUBAPRO — notice détendeurs juillet 2025, sources/n3/scubapro-detendeurs-juillet-2025.pdf, §5.1
+      premiers étages ; contrôle de pertinence des montages, pas performance universelle
+    - 'Modèles fonctionnels explicitement imposés : chambres et forces ; aucune équation numérique de
+      forces exigée au MFT ; reprise après critique des formulations anciennes « au repos ouvert » et
+      MP constante pour tous les détendeurs'
+    - 'Revue individuelle : docs/reviews/n4/LOT_22_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Un bloc a deux sorties A et B, chacune avec son robinet, alimentées en amont par la même
+      bouteille. Les deux détendeurs sont sous pression. On ferme uniquement A, sans purger aucun détendeur.
+      Quelle partie conserve du gaz sous pression ?
+    choices:
+    - text: Les circuits des deux détendeurs A et B
+      correct: true
+    - text: Le circuit du détendeur B seulement
+      correct: false
+    - text: Le circuit du détendeur A seulement
+      correct: false
+    explanation: 'Fermer A coupe son alimentation depuis le bloc mais ne fait pas sortir le gaz déjà piégé
+      en aval : son premier étage et ses flexibles restent sous pression. B reste alimenté puisque son
+      robinet est ouvert. Fermeture et dépressurisation sont donc deux opérations différentes ; le montage
+      décrit n’est pas un bi-bouteille à pont isolateur.'
+- id: n4-materiel-amont-aval-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 : premier étage piston simple p.1–2, piston
+      compensé p.1–2 ; Jourdren matériel p.10–13 ; relus 2026-10-12'
+    - SCUBAPRO — notice détendeurs juillet 2025, sources/n3/scubapro-detendeurs-juillet-2025.pdf, §5.1
+      premiers étages ; contrôle de pertinence des montages, pas performance universelle
+    - 'Modèles fonctionnels explicitement imposés : chambres et forces ; aucune équation numérique de
+      forces exigée au MFT ; reprise après critique des formulations anciennes « au repos ouvert » et
+      MP constante pour tous les détendeurs'
+    - 'Revue individuelle : docs/reviews/n4/LOT_22_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Un clapet ferme une ouverture dans une paroi séparant une chambre à haute pression et une
+      chambre à plus basse pression. Le clapet est placé du côté haute pression ; pour ouvrir, il doit
+      s’écarter du siège vers cette chambre. Comment agit la différence de pression sur ce clapet ?
+    choices:
+    - text: 'Elle tend à le fermer : montage amont'
+      correct: true
+    - text: 'Elle tend à l’ouvrir : montage aval'
+      correct: false
+    - text: 'Elle tend à le fermer : montage aval'
+      correct: false
+    explanation: 'La pression supérieure plaque le clapet contre le siège : l’ouverture doit se faire
+      contre cette action, c’est un montage amont. Dans un montage aval, le clapet est disposé de l’autre
+      côté du siège et la différence de pression tend à l’écarter. La qualification dépend du sens de
+      circulation et du montage ; le même mot ne peut pas être attribué à toute robinetterie sans coupe
+      ou contexte.'
+- id: n4-materiel-piston-simple-forces-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 : premier étage piston simple p.1–2, piston
+      compensé p.1–2 ; Jourdren matériel p.10–13 ; relus 2026-10-12'
+    - SCUBAPRO — notice détendeurs juillet 2025, sources/n3/scubapro-detendeurs-juillet-2025.pdf, §5.1
+      premiers étages ; contrôle de pertinence des montages, pas performance universelle
+    - 'Modèles fonctionnels explicitement imposés : chambres et forces ; aucune équation numérique de
+      forces exigée au MFT ; reprise après critique des formulations anciennes « au repos ouvert » et
+      MP constante pour tous les détendeurs'
+    - 'Revue individuelle : docs/reviews/n4/LOT_22_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_103_SCHEMAS.md
+      ; CODEP92 piston simple p.1–2 ; bilan des trois contributions indiquées au recto, géométrie imposée.'
+    - '2026-10-12 : lot107, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_107_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Dans un premier étage à piston simple, le ressort et la pression ambiante poussent le piston
+      vers l’ouverture. La moyenne pression (MP) agit sur sa face opposée. Lorsque le plongeur inspire
+      et que la MP baisse, quel mouvement tend à se produire ?
+    choices:
+    - text: Le piston s’éloigne du siège et laisse entrer du gaz haute pression
+      correct: true
+    - text: Le piston se rapproche du siège et coupe l’entrée de gaz haute pression
+      correct: false
+    - text: Le piston reste au siège jusqu’à une variation de la pression ambiante
+      correct: false
+    explanation: 'La MP contribue à la force de fermeture. Quand elle baisse, cette force devient insuffisante
+      face aux forces ouvrantes : le piston s’éloigne du siège, et le gaz haute pression alimente la chambre
+      MP. Lorsque la MP remonte, l’équilibre de fermeture est rétabli. À débit nul et sous pression, le
+      passage est fermé ; il ne faut pas confondre cet état avec le premier étage non encore pressurisé.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : piston-simple" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="piston-simple-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><rect x="235" y="75" width="150" height="65"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310.0" y="113.5" text-anchor="middle">Piston
+      mobile</text><path d="M75 90H225" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#piston-simple-a)"/><path
+      d="M75 130H225" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#piston-simple-a)"/><path
+      d="M535 110H395" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#piston-simple-a)"/><text
+      x="150" y="66" text-anchor="middle">Ambiante</text><text x="150" y="163" text-anchor="middle">Ressort</text><text
+      x="470" y="88" text-anchor="middle">MP</text><text x="310" y="202" text-anchor="middle">MP baisse
+      → force de fermeture diminue</text><text x="310" y="228" text-anchor="middle">Le piston s’éloigne
+      du siège</text></g></svg>'
+- id: n4-materiel-piston-simple-hp-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 : premier étage piston simple p.1–2, piston
+      compensé p.1–2 ; Jourdren matériel p.10–13 ; relus 2026-10-12'
+    - SCUBAPRO — notice détendeurs juillet 2025, sources/n3/scubapro-detendeurs-juillet-2025.pdf, §5.1
+      premiers étages ; contrôle de pertinence des montages, pas performance universelle
+    - 'Modèles fonctionnels explicitement imposés : chambres et forces ; aucune équation numérique de
+      forces exigée au MFT ; reprise après critique des formulations anciennes « au repos ouvert » et
+      MP constante pour tous les détendeurs'
+    - 'Revue individuelle : docs/reviews/n4/LOT_22_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans un modèle de premier étage non compensé, la haute pression (HP), le ressort et l’ambiante
+      exercent des forces ouvrantes ; la moyenne pression (MP) exerce la force fermante. À profondeur
+      constante, comment évolue la MP d’équilibre lorsque la HP diminue ? Surfaces et ressort inchangés.
+    choices:
+    - text: Elle diminue
+      correct: true
+    - text: Elle augmente
+      correct: false
+    - text: Elle reste indépendante de la HP
+      correct: false
+    explanation: 'Dans ce montage précis, la baisse de HP réduit une force ouvrante. Une force fermante
+      moindre suffit alors à retrouver l’équilibre, donc la MP d’équilibre baisse. Le résultat dépend
+      de la géométrie du mécanisme : il ne constitue pas une règle de sens pour tous les premiers étages
+      non compensés. La compensation vise à supprimer cette dépendance directe au niveau de pression du
+      bloc.'
+- id: n4-materiel-piston-equilibre-schema-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 : premier étage piston simple p.1–2, piston
+      compensé p.1–2 ; Jourdren matériel p.10–13 ; relus 2026-10-12'
+    - SCUBAPRO — notice détendeurs juillet 2025, sources/n3/scubapro-detendeurs-juillet-2025.pdf, §5.1
+      premiers étages ; contrôle de pertinence des montages, pas performance universelle
+    - 'Modèles fonctionnels explicitement imposés : chambres et forces ; aucune équation numérique de
+      forces exigée au MFT ; reprise après critique des formulations anciennes « au repos ouvert » et
+      MP constante pour tous les détendeurs'
+    - 'Revue individuelle : docs/reviews/n4/LOT_22_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_102_SCHEMAS.md
+      ; Bilan des forces du modèle donné ; CODEP92 piston compensé ; aucune force appliquée au corps fixe
+      assimilée à compensation mobile.'
+    - '2026-10-12 : lot106, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_106_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Dans un modèle de premier étage, quelle disposition annule la résultante axiale des forces
+      de haute pression (HP) sur l’ensemble mobile du clapet ? Les pressions HP sont égales sur les surfaces
+      considérées.
+    choices:
+    - text: Deux surfaces efficaces égales de l’ensemble mobile, soumises à des forces opposées
+      correct: true
+    - text: Deux surfaces efficaces égales de l’ensemble mobile, soumises à des forces de même sens
+      correct: false
+    - text: Deux surfaces efficaces égales, l’une mobile et l’autre sur le corps fixe, soumises à des
+        forces opposées
+      correct: false
+    explanation: 'Pour neutraliser l’action axiale de la HP sur le clapet, les forces opposées doivent
+      agir sur le même ensemble mobile et avoir la même intensité. Des surfaces efficaces égales soumises
+      à la même HP donnent cette égalité. Des forces de même sens s’additionnent ; une force opposée sur
+      le corps fixe ne compense pas celle qui agit sur le clapet. La compensation conserve la HP dans
+      son circuit et ne rend pas la MP égale à la HP.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : equilibre-hp" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="equilibre-hp-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><rect x="230" y="75" width="160" height="70"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310.0" y="116.0" text-anchor="middle">Ensemble
+      mobile</text><path d="M85 110H220" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#equilibre-hp-a)"/><path
+      d="M535 110H400" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#equilibre-hp-a)"/><text
+      x="150" y="85" text-anchor="middle">HP × surface S</text><text x="475" y="85" text-anchor="middle">HP
+      × surface S</text><text x="310" y="189" text-anchor="middle">Actions opposées sur l’ensemble mobile</text><text
+      x="310" y="219" text-anchor="middle">HP et surfaces égales : résultante nulle</text></g></svg>'
+- id: n4-materiel-piston-chemin-gaz-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 piston compensé p.1–2 et membrane compensée p.1–3
+      ; Jourdren matériel p.9–13 ; relus 2026-10-12
+    - 'SCUBAPRO notice RevQ juillet 2025 §5.1 ; Apeks EVX200 caractéristiques constructeur : https://us.apeksdiving.com/products/evx200-1st-stage-dive-regulator
+      ; surcompensation liée à la profondeur consultée 2026-10-12'
+    - 'Critique : les schémas de fiches sont des modèles, les effets HP/ambiante sont distincts ; ne pas
+      universaliser les forces ni la surcompensation d’une marque'
+    - 'Revue individuelle : docs/reviews/n4/LOT_23_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_102_SCHEMAS.md
+      ; CODEP92 piston compensé p.1–2 ; trajet HP/siège/conduit creux/MP ; référence ambiante séparée
+      du circuit respiratoire.'
+    - '2026-10-12 : lot106, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_106_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Dans le modèle de premier étage compensé à piston creux, quel trajet relie le passage d’admission
+      du bloc à la sortie MP quand le mécanisme débite ?
+    choices:
+    - text: Chambre HP → conduit central du piston → chambre MP
+      correct: true
+    - text: Chambre HP → chambre extérieure du ressort → chambre MP
+      correct: false
+    - text: Chambre HP → chambre MP → conduit central du piston
+      correct: false
+    explanation: 'Le gaz haute pression traverse le passage commandé par le piston, puis son conduit creux,
+      et arrive dans la chambre de moyenne pression (MP). La chambre du ressort reçoit la pression ambiante
+      par l’eau : elle fournit une référence mécanique, mais ne constitue pas un étage de détente du gaz
+      respiratoire. Les joints séparent ces circuits. Le conduit central relie le passage contrôlé par
+      le siège à la chambre MP ; il n’est pas placé après cette chambre comme une sortie vers le flexible.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : piston-gaz" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="piston-gaz-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><rect x="15" y="80" width="100" height="60"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="65.0" y="116.0" text-anchor="middle">HP</text><rect
+      x="485" y="80" width="120" height="60" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="545.0" y="116.0" text-anchor="middle">MP</text><rect x="175" y="80" width="240" height="60" rx="8"
+      fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="295.0" y="116.0" text-anchor="middle">Conduit
+      du piston creux</text><path d="M115 110H165" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#piston-gaz-a)"/><path
+      d="M415 110H475" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#piston-gaz-a)"/><rect
+      x="175" y="10" width="240" height="45" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="295.0" y="38.5" text-anchor="middle">Chambre du ressort : eau</text><path d="M185 65H405" stroke="#aa3b3b"
+      stroke-width="4"/><text x="295" y="185" text-anchor="middle">Les joints séparent eau et gaz</text><text
+      x="310" y="219" text-anchor="middle">Passage d’admission ouvert pendant le débit</text></g></svg>'
+- id: n4-materiel-membrane-forces-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 piston compensé p.1–2 et membrane compensée p.1–3
+      ; Jourdren matériel p.9–13 ; relus 2026-10-12
+    - 'SCUBAPRO notice RevQ juillet 2025 §5.1 ; Apeks EVX200 caractéristiques constructeur : https://us.apeksdiving.com/products/evx200-1st-stage-dive-regulator
+      ; surcompensation liée à la profondeur consultée 2026-10-12'
+    - 'Critique : les schémas de fiches sont des modèles, les effets HP/ambiante sont distincts ; ne pas
+      universaliser les forces ni la surcompensation d’une marque'
+    - 'Revue individuelle : docs/reviews/n4/LOT_23_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_102_SCHEMAS.md
+      ; CODEP92 membrane compensée p.1–3 ; bilan idéal forces opposées, pas éclaté d’un modèle constructeur
+      ni valeur de réglage.'
+    - '2026-10-12 : lot106, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_106_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Dans un premier étage à membrane, l’ambiante et le ressort principal poussent la membrane
+      dans le sens qui commande l’ouverture ; la MP agit sur l’autre face. À profondeur et demande respiratoire
+      identiques, augmenter la force de ce ressort déplace la MP de fermeture dans quel sens ? Modèle
+      idéal, autres forces inchangées.
+    choices:
+    - text: Vers une MP plus élevée
+      correct: true
+    - text: Vers une MP plus faible
+      correct: false
+    - text: Vers la même MP
+      correct: false
+    explanation: 'Une force ouvrante accrue demande une force opposée plus importante sur la membrane
+      pour retrouver la fermeture. La MP de fermeture augmente donc dans ce modèle. La membrane transmet
+      l’effort au clapet par une tige ou un pointeau ; elle ne constitue pas un réservoir de gaz. La dépendance
+      à la force du ressort explique son rôle dans le réglage effectué par le technicien.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : membrane" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="membrane-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><path d="M290 45V150" stroke="#235a78" stroke-width="9"/><text
+      x="310" y="36" text-anchor="middle">Membrane de commande</text><path d="M80 75H275" fill="none"
+      stroke="#235a78" stroke-width="3" marker-end="url(#membrane-a)"/><path d="M80 125H275" fill="none"
+      stroke="#235a78" stroke-width="3" marker-end="url(#membrane-a)"/><path d="M530 100H305" fill="none"
+      stroke="#235a78" stroke-width="3" marker-end="url(#membrane-a)"/><text x="165" y="62" text-anchor="middle">Ambiante</text><text
+      x="165" y="155" text-anchor="middle">Ressort principal</text><text x="455" y="82" text-anchor="middle">MP</text><text
+      x="310" y="195" text-anchor="middle">Ressort plus fort → MP de fermeture plus élevée</text><text
+      x="310" y="223" text-anchor="middle">Autres forces inchangées</text></g></svg>'
+- id: n4-materiel-compensation-ambiante-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 piston compensé p.1–2 et membrane compensée p.1–3
+      ; Jourdren matériel p.9–13 ; relus 2026-10-12
+    - 'SCUBAPRO notice RevQ juillet 2025 §5.1 ; Apeks EVX200 caractéristiques constructeur : https://us.apeksdiving.com/products/evx200-1st-stage-dive-regulator
+      ; surcompensation liée à la profondeur consultée 2026-10-12'
+    - 'Critique : les schémas de fiches sont des modèles, les effets HP/ambiante sont distincts ; ne pas
+      universaliser les forces ni la surcompensation d’une marque'
+    - 'Revue individuelle : docs/reviews/n4/LOT_23_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Un premier étage maintient presque la même MP relative lorsque la pression du bloc baisse
+      à profondeur constante. À la descente, sa MP absolue augmente avec la pression ambiante. Quelles
+      fonctions expliquent respectivement ces deux comportements ?
+    choices:
+    - text: Compensation de la HP ; adaptation à l’ambiante
+      correct: true
+    - text: Adaptation à l’ambiante ; compensation de la HP
+      correct: false
+    - text: Compensation de la HP ; surcompensation à la profondeur
+      correct: false
+    explanation: 'La compensation réduit la dépendance de l’équilibre à la haute pression (HP) du bloc.
+      L’adaptation à l’ambiante augmente la MP absolue avec la profondeur pour maintenir l’écart nécessaire
+      au fonctionnement du second étage. Une hausse de MP absolue égale à celle de l’ambiante n’est pas,
+      à elle seule, une surcompensation : il faudrait que l’écart MP–ambiante augmente dans un montage
+      surcompensé à la profondeur.'
+- id: n4-materiel-surcompensation-principe-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 piston compensé p.1–2 et membrane compensée p.1–3
+      ; Jourdren matériel p.9–13 ; relus 2026-10-12
+    - 'SCUBAPRO notice RevQ juillet 2025 §5.1 ; Apeks EVX200 caractéristiques constructeur : https://us.apeksdiving.com/products/evx200-1st-stage-dive-regulator
+      ; surcompensation liée à la profondeur consultée 2026-10-12'
+    - 'Critique : les schémas de fiches sont des modèles, les effets HP/ambiante sont distincts ; ne pas
+      universaliser les forces ni la surcompensation d’une marque'
+    - 'Revue individuelle : docs/reviews/n4/LOT_23_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Sur un premier étage Apeks EVX200, que signifie la surcompensation annoncée lors de la descente
+      ?
+    choices:
+    - text: 'La MP absolue augmente plus vite que l’ambiante : leur écart augmente'
+      correct: true
+    - text: 'La MP absolue suit l’ambiante : leur écart reste constant'
+      correct: false
+    - text: 'La MP absolue reste constante : leur écart diminue'
+      correct: false
+    explanation: 'Apeks décrit pour ce modèle une moyenne pression qui augmente plus vite que la pression
+      ambiante à la descente. L’écart entre MP et ambiante augmente donc, à la différence d’une adaptation
+      maintenant un écart constant. Le terme surcompensation peut désigner d’autres mécanismes sur d’autres
+      produits, notamment liés à la pression du bloc : il faut préciser le montage ou la notice.'
+- id: n4-materiel-second-aval-forces-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 second étage simple p.1–3 et second compensé p.1–3
+      ; relus 2026-10-12
+    - SCUBAPRO — notice détendeurs RevQ juillet 2025 p.9–10 et 14–15, §5.2 et 7.1, fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+      ; texte relu 2026-10-12, mécanisme équilibré/réglage du ressort/VIVA/PRE-DIVE
+    - 'Revue individuelle : docs/reviews/n4/LOT_24_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_102_SCHEMAS.md
+      ; CODEP92 second étage simple p.1–3 et SCUBAPRO §5.2 ; deux contributions opposées, pas confusion
+      ambiante/MP.'
+    - '2026-10-12 : lot106, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_106_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Dans un second étage simple à clapet aval, quel effet exerce le gaz MP sur le clapet, et
+      quel effet exerce son ressort de rappel ?
+    choices:
+    - text: Le gaz MP aide l’ouverture ; le ressort tend à fermer
+      correct: true
+    - text: Le gaz MP aide la fermeture ; le ressort tend à ouvrir
+      correct: false
+    - text: Le gaz MP et le ressort tendent tous deux à fermer
+      correct: false
+    explanation: 'Dans ce montage aval, la pression d’alimentation tend à écarter le clapet du siège.
+      Le ressort maintient la fermeture au repos. Lors de l’inspiration, la différence de pression de
+      part et d’autre de la membrane déplace le levier, qui participe à l’ouverture. L’ambiante agit sur
+      la membrane, mais ne doit pas être confondue avec le gaz MP arrivant par le flexible.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : second-aval" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="second-aval-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><rect x="225" y="75" width="170" height="70"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310.0" y="116.0" text-anchor="middle">Clapet
+      aval</text><path d="M85 100H215" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#second-aval-a)"/><path
+      d="M535 120H405" fill="none" stroke="#235a78" stroke-width="3" marker-end="url(#second-aval-a)"/><text
+      x="150" y="80" text-anchor="middle">Action du gaz MP</text><text x="150" y="147" text-anchor="middle">Vers
+      l’ouverture</text><text x="475" y="95" text-anchor="middle">Action du ressort</text><text x="475"
+      y="157" text-anchor="middle">Vers la fermeture</text><text x="310" y="215" text-anchor="middle">Inspiration
+      : le levier aide l’ouverture</text></g></svg>'
+- id: n4-materiel-second-compense-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 second étage simple p.1–3 et second compensé p.1–3
+      ; relus 2026-10-12
+    - SCUBAPRO — notice détendeurs RevQ juillet 2025 p.9–10 et 14–15, §5.2 et 7.1, fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+      ; texte relu 2026-10-12, mécanisme équilibré/réglage du ressort/VIVA/PRE-DIVE
+    - 'Revue individuelle : docs/reviews/n4/LOT_24_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_103_SCHEMAS.md
+      ; CODEP92 second compensé p.1–3 et SCUBAPRO RevQ §5.2 ; opposition de contributions MP, non suppression
+      du ressort ni du levier.'
+    - '2026-10-12 : lot107, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_107_LISIBILITE.md'
+    fact_check: pass
+  fr:
+    question: Comment une chambre d’équilibrage peut-elle réduire la dépendance de l’effort d’ouverture
+      d’un second étage à la MP d’alimentation ?
+    choices:
+    - text: En appliquant la MP sur une surface opposée du clapet mobile
+      correct: true
+    - text: En appliquant l’ambiante sur une surface opposée du clapet mobile
+      correct: false
+    - text: En appliquant la MP sur une surface opposée du corps fixe
+      correct: false
+    explanation: 'La chambre d’équilibrage utilise le gaz de moyenne pression pour exercer une force opposée
+      sur l’ensemble mobile du clapet. Elle réduit ainsi la résultante des forces d’alimentation et permet
+      d’utiliser un ressort plus léger. Une chambre en contact avec l’ambiante ne réalise pas la même
+      compensation de MP ; une force sur une partie fixe ne remplace pas celle nécessaire sur la pièce
+      mobile.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : second-equilibre" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker
+      id="second-equilibre-a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0
+      0 L8 4 L0 8" fill="#235a78"/></marker></defs><g font-family="sans-serif" font-size="20" fill="#16394a"><rect
+      x="230" y="75" width="160" height="65" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="310.0" y="113.5" text-anchor="middle">Clapet mobile</text><path d="M70 110H220" fill="none" stroke="#235a78"
+      stroke-width="3" marker-end="url(#second-equilibre-a)"/><path d="M550 110H400" fill="none" stroke="#235a78"
+      stroke-width="3" marker-end="url(#second-equilibre-a)"/><text x="140" y="85" text-anchor="middle">MP
+      d’alimentation</text><text x="485" y="85" text-anchor="middle">MP d’équilibrage</text><text x="310"
+      y="190" text-anchor="middle">Actions MP opposées sur le clapet mobile</text><text x="310" y="222"
+      text-anchor="middle">Ressort et levier inspiratoire maintenus</text></g></svg>'
+- id: n4-materiel-second-mp-variation-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 second étage simple p.1–3 et second compensé p.1–3
+      ; relus 2026-10-12
+    - SCUBAPRO — notice détendeurs RevQ juillet 2025 p.9–10 et 14–15, §5.2 et 7.1, fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+      ; texte relu 2026-10-12, mécanisme équilibré/réglage du ressort/VIVA/PRE-DIVE
+    - 'Revue individuelle : docs/reviews/n4/LOT_24_MATERIEL.md'
+    - '2026-10-12 : lot103, commentaire éditorial supprimé du corrigé ; condition de débit continu déjà
+      donnée au recto.'
+    fact_check: pass
+  fr:
+    question: Sur un second étage simple à clapet aval, on augmente légèrement la MP sans dépasser le
+      seuil de débit continu. Ressort et géométrie restent inchangés. Que devient l’effort supplémentaire
+      nécessaire au levier pour ouvrir le clapet ?
+    choices:
+    - text: Il diminue
+      correct: true
+    - text: Il augmente
+      correct: false
+    - text: Il reste indépendant de la MP
+      correct: false
+    explanation: La MP aide l’ouverture d’un clapet aval. Une hausse de MP augmente cette aide et réduit
+      l’effort supplémentaire nécessaire pour vaincre le ressort, dans le modèle décrit. À l’inverse,
+      une MP trop basse peut augmenter cet effort. Une chambre d’équilibrage réduit cette dépendance.
+- id: n4-materiel-reglage-effort-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 second étage simple p.1–3 et second compensé p.1–3
+      ; relus 2026-10-12
+    - SCUBAPRO — notice détendeurs RevQ juillet 2025 p.9–10 et 14–15, §5.2 et 7.1, fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+      ; texte relu 2026-10-12, mécanisme équilibré/réglage du ressort/VIVA/PRE-DIVE
+    - 'Revue individuelle : docs/reviews/n4/LOT_24_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Sur un second étage SCUBAPRO équipé des deux commandes, quelle association décrit la molette
+      de résistance et la commande V.I.V.A. ?
+    choices:
+    - text: 'Molette : tension du ressort de rappel du clapet ; V.I.V.A. : assistance du flux par effet
+        Venturi'
+      correct: true
+    - text: 'Molette : assistance du flux par effet Venturi ; V.I.V.A. : tension du ressort de rappel
+        du clapet'
+      correct: false
+    - text: 'Molette : pression MP du premier étage ; V.I.V.A. : assistance du flux par effet Venturi'
+      correct: false
+    explanation: La molette modifie la tension du ressort du clapet du second étage, donc l’effort nécessaire
+      pour déclencher l’arrivée de gaz. La commande V.I.V.A. (Venturi Initiated Vacuum Assist) agit sur
+      l’assistance créée par le flux à l’intérieur du second étage une fois qu’il débite. Elle ne règle
+      pas la MP du premier étage. Durcir l’ouverture ne garantit pas une consommation d’air moindre.
+- id: n4-materiel-venturi-position-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 second étage simple p.1–3 et second compensé p.1–3
+      ; relus 2026-10-12
+    - SCUBAPRO — notice détendeurs RevQ juillet 2025 p.9–10 et 14–15, §5.2 et 7.1, fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+      ; texte relu 2026-10-12, mécanisme équilibré/réglage du ressort/VIVA/PRE-DIVE
+    - 'Revue individuelle : docs/reviews/n4/LOT_24_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Un second étage de secours SCUBAPRO avec commande V.I.V.A. reste hors de la bouche pendant
+      la plongée. Quel réglage correspond à cet usage ?
+    choices:
+    - text: MIN ou PRE-DIVE, pour limiter l’assistance Venturi
+      correct: true
+    - text: MAX ou DIVE, pour maximiser l’assistance Venturi
+      correct: false
+    explanation: Hors de la bouche, le réglage MIN ou PRE-DIVE réduit le risque qu’un début de débit soit
+      entretenu par l’assistance Venturi. Pour respirer sur ce second étage, la notice prévoit de placer
+      la commande au réglage de plongée. Ces repères appartiennent aux appareils SCUBAPRO équipés de cette
+      commande ; la molette de résistance est un autre réglage.
+- id: n4-materiel-vortex-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 givrage p.1–2 et manomètre p.1 ; Jourdren matériel
+      p.16–20 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.8 et 15–16, XTIS/chambre sèche et débit en eau froide ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Mares — Natural Breathing : https://www.mares.com/natural-breathing ; technologie VAD et trajet
+      bypass/vortex, consulté 2026-10-12'
+    - 'WIKA fabricant — Bourdon tube pressure gauge functional principle : https://blog.wika.com/en/knowhow/bourdon-tube-pressure-gauge-functional-principle/
+      ; déformation élastique et transmission mécanique, consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_25_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans le système Mares VAD, quel effet du flux aide à maintenir le clapet ouvert pendant
+      l’inspiration ?
+    choices:
+    - text: Un mouvement tourbillonnant crée une zone de basse pression agissant sur la membrane
+      correct: true
+    - text: Un mouvement tourbillonnant crée une surpression repoussant la membrane vers l’extérieur
+      correct: false
+    - text: Un mouvement tourbillonnant augmente la MP fournie par le premier étage
+      correct: false
+    explanation: Le VAD (Vortex Assisted Design) conduit le gaz vers l’embout par un bypass ; son mouvement
+      tourbillonnant crée une zone de basse pression qui attire la membrane vers l’intérieur pendant l’inspiration.
+      Cela aide à maintenir l’action du levier sur le clapet. Ce dispositif du second étage ne règle pas
+      la pression intermédiaire fournie par le premier étage.
+- id: n4-materiel-givrage-interne-externe-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 givrage p.1–2 et manomètre p.1 ; Jourdren matériel
+      p.16–20 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.8 et 15–16, XTIS/chambre sèche et débit en eau froide ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Mares — Natural Breathing : https://www.mares.com/natural-breathing ; technologie VAD et trajet
+      bypass/vortex, consulté 2026-10-12'
+    - 'WIKA fabricant — Bourdon tube pressure gauge functional principle : https://blog.wika.com/en/knowhow/bourdon-tube-pressure-gauge-functional-principle/
+      ; déformation élastique et transmission mécanique, consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_25_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Pour un premier étage dont la chambre du ressort est exposée à l’eau, quelle distinction
+      sépare un givrage du circuit de gaz et un gel de cette chambre extérieure ?
+    choices:
+    - text: Glace issue de l’humidité du gaz ; glace issue de l’eau environnante
+      correct: true
+    - text: Glace issue de l’eau environnante ; glace issue de l’humidité du gaz
+      correct: false
+    - text: Dans les deux cas, glace issue seulement de l’humidité du gaz
+      correct: false
+    explanation: L’humidité du gaz peut former de la glace dans le circuit interne refroidi par la détente.
+      Dans une chambre mécanique ouverte à l’eau, le refroidissement peut aussi faire geler cette eau
+      autour des pièces mobiles. Une isolation environnementale sèche protège cette seconde zone ; elle
+      ne remplace pas la qualité et la sécheresse du gaz comprimé. La glace peut perturber le mouvement
+      du mécanisme.
+- id: n4-materiel-givrage-debit-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 givrage p.1–2 et manomètre p.1 ; Jourdren matériel
+      p.16–20 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.8 et 15–16, XTIS/chambre sèche et débit en eau froide ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Mares — Natural Breathing : https://www.mares.com/natural-breathing ; technologie VAD et trajet
+      bypass/vortex, consulté 2026-10-12'
+    - 'WIKA fabricant — Bourdon tube pressure gauge functional principle : https://blog.wika.com/en/knowhow/bourdon-tube-pressure-gauge-functional-principle/
+      ; déformation élastique et transmission mécanique, consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_25_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: À température d’eau et profondeur identiques, pourquoi respirer tout en gonflant le gilet
+      par le même premier étage peut-il favoriser son refroidissement ?
+    choices:
+    - text: Le débit total traversant le premier étage augmente et accentue le refroidissement par détente
+      correct: true
+    - text: Le débit du premier étage reste celui de la respiration, car l’inflateur prend le gaz après
+        la détente
+      correct: false
+    explanation: Les débits du second étage et de l’inflateur s’additionnent au premier étage. Un débit
+      important accentue le refroidissement lié à la détente ; si les échanges thermiques avec l’eau ne
+      compensent pas cette perte, les pièces refroidissent davantage et le gel devient plus probable.
+      La consommation simultanée ne change pas la profondeur ni l’humidité initiale du gaz du bloc.
+- id: n4-materiel-manometre-bourdon-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; CODEP92 givrage p.1–2 et manomètre p.1 ; Jourdren matériel
+      p.16–20 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.8 et 15–16, XTIS/chambre sèche et débit en eau froide ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Mares — Natural Breathing : https://www.mares.com/natural-breathing ; technologie VAD et trajet
+      bypass/vortex, consulté 2026-10-12'
+    - 'WIKA fabricant — Bourdon tube pressure gauge functional principle : https://blog.wika.com/en/knowhow/bourdon-tube-pressure-gauge-functional-principle/
+      ; déformation élastique et transmission mécanique, consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_25_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Dans un manomètre à tube de Bourdon courbé, comment une hausse de la pression à l’intérieur
+      du tube produit-elle une indication ?
+    choices:
+    - text: Le tube tend à se redresser et son extrémité entraîne l’aiguille
+      correct: true
+    - text: Le tube tend à s’enrouler davantage et son extrémité entraîne l’aiguille
+      correct: false
+    explanation: 'La pression interne tend à arrondir la section du tube et à augmenter le rayon de sa
+      courbure : il se redresse légèrement. Le déplacement de l’extrémité libre est transmis à un mécanisme
+      qui entraîne l’aiguille. Le tube se déforme élastiquement et revient vers sa forme initiale lorsque
+      la pression baisse ; la mesure ne nécessite pas un écoulement continu de gaz.'
+- id: n4-materiel-manometre-lecture-dynamique-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 manomètre p.1 et inflateur p.1–4 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.5–7 et 14, configuration certifiée/flexibles ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Shearwater — Resources, FAQ How is Gas Time Remaining calculated : https://shearwater.com/pages/resources
+      ; GTR consommation récente, remontée directe et réserve, sans arrêts ; consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_26_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Le passage entre bloc et premier étage est fortement restreint. Au repos, le manomètre finit
+      par indiquer la pression du bloc ; à l’inspiration, son indication chute puis remonte. Pourquoi
+      la lecture au repos masquait-elle le défaut ?
+    choices:
+    - text: L’équilibre statique se rétablit malgré la restriction ; le débit crée une chute de pression
+      correct: true
+    - text: La pression aval reste basse ; le manomètre conserve seulement une ancienne valeur au repos
+      correct: false
+    explanation: Avec un débit nul, le gaz peut finir par égaliser les pressions de part et d’autre d’une
+      restriction. Dès que le débit est demandé, la restriction produit une perte de pression en aval
+      ; le manomètre raccordé au premier étage peut alors montrer la chute. La valeur au repos est une
+      pression réellement rétablie, pas une ancienne indication mémorisée. Un contrôle statique seul ne
+      vérifie donc pas la capacité à fournir le débit demandé.
+- id: n4-materiel-inflateur-schema-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 manomètre p.1 et inflateur p.1–4 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.5–7 et 14, configuration certifiée/flexibles ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Shearwater — Resources, FAQ How is Gas Time Remaining calculated : https://shearwater.com/pages/resources
+      ; GTR consommation récente, remontée directe et réserve, sans arrêts ; consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_26_MATERIEL.md'
+    - '2026-10-12 : schéma SVG fonctionnel original, critique des connexions et forces : docs/reviews/n4/LOT_102_SCHEMAS.md
+      ; CODEP92 fiche inflateurs p.1–4 et SCUBAPRO BCS Manual §8–9 ; admission MP séparée du passage oral,
+      direction gilet vers embout sous condition de hauteur du corrigé.'
+    - '2026-10-12 : lot106, libellés du SVG agrandis et raccourcis après inspection mobile ; sens des
+      circuits et forces conservés ; docs/reviews/n4/LOT_106_LISIBILITE.md'
+    - '2026-10-12 : lot108, libellé Inflateur déplacé sous le boîtier afin de séparer texte et flèche
+      de circulation ; circuit inchangé ; docs/reviews/n4/LOT_108_LABEL.md'
+    fact_check: pass
+  fr:
+    question: Sur un inflateur classique, que font les deux clapets lorsque l’on appuie uniquement sur
+      le bouton de vidange, sans souffler dans l’embout oral ?
+    choices:
+    - text: L’admission MP reste fermée ; le passage gilet–embout oral s’ouvre
+      correct: true
+    - text: L’admission MP s’ouvre ; le passage gilet–embout oral reste fermé
+      correct: false
+    - text: L’admission MP et le passage gilet–embout oral s’ouvrent ensemble
+      correct: false
+    explanation: 'Le bouton de vidange ouvre le passage entre le tuyau annelé relié au gilet et l’embout
+      oral. Le gaz peut sortir par ce passage si l’inflateur est placé plus haut que la poche de gaz.
+      Le clapet d’admission MP reste fermé, car seul le bouton de gonflage commande l’arrivée depuis le
+      flexible. Le même passage oral sert au gonflage à la bouche lorsque le plongeur souffle en actionnant
+      cette commande.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="Schéma fonctionnel
+      : inflateur" style="width:100%;max-width:620px;height:auto;background:#fff"><defs><marker id="inflateur-a"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#235a78"/></marker></defs><g
+      font-family="sans-serif" font-size="20" fill="#16394a"><rect x="20" y="90" width="100" height="55"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="70.0" y="123.5" text-anchor="middle">MP</text><rect
+      x="490" y="90" width="110" height="55" rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text
+      x="545.0" y="123.5" text-anchor="middle">Embout oral</text><rect x="255" y="10" width="110" height="50"
+      rx="8" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310.0" y="41.0" text-anchor="middle">Gilet</text><path
+      d="M120 117H255 M310 117V60 M365 117H490" stroke="#235a78" stroke-width="6" fill="none"/><rect x="255"
+      y="90" width="110" height="55" rx="6" fill="#eaf5fa" stroke="#235a78" stroke-width="2"/><text x="310"
+      y="165" text-anchor="middle">Inflateur</text><path d="M175 95V140" stroke="#aa3b3b" stroke-width="7"/><text
+      x="173" y="172" text-anchor="middle">Admission fermée</text><path d="M310 82V117H475" fill="none"
+      stroke="#235a78" stroke-width="3" marker-end="url(#inflateur-a)"/><text x="430" y="90" text-anchor="middle">Passage
+      ouvert</text><text x="310" y="218" text-anchor="middle">Vidange enfoncée ; sans souffler</text></g></svg>'
+- id: n4-materiel-ordinateur-sonde-limites-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 manomètre p.1 et inflateur p.1–4 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.5–7 et 14, configuration certifiée/flexibles ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Shearwater — Resources, FAQ How is Gas Time Remaining calculated : https://shearwater.com/pages/resources
+      ; GTR consommation récente, remontée directe et réserve, sans arrêts ; consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_26_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Sur un Shearwater avec sonde, sans palier obligatoire, que représente le GTR affiché lorsque
+      la réserve est réglée ?
+    choices:
+    - text: Le temps au fond estimé avant une remontée directe terminée à la réserve réglée
+      correct: true
+    - text: Le temps respiratoire estimé jusqu’à atteindre la réserve en restant au fond
+      correct: false
+    - text: Le temps respiratoire estimé jusqu’à vider le bloc en restant au fond
+      correct: false
+    explanation: Le GTR (Gas Time Remaining) utilise la consommation récente pour estimer le temps encore
+      possible à la profondeur actuelle avant qu’une remontée directe conduise à la réserve réglée. Le
+      calcul inclut la consommation de remontée, mais pas les arrêts de sécurité ou de décompression.
+      La pression provient du capteur ; la durée est une estimation fondée sur des hypothèses de consommation,
+      de profondeur et de remontée.
+- id: n4-materiel-compatibilite-flexible-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28–29 ; fiches CODEP92 manomètre p.1 et inflateur p.1–4 ; relus 2026-10-12
+    - SCUBAPRO RevQ juillet 2025 p.5–7 et 14, configuration certifiée/flexibles ; fichier sources/n3/scubapro-detendeurs-juillet-2025.pdf
+    - 'Shearwater — Resources, FAQ How is Gas Time Remaining calculated : https://shearwater.com/pages/resources
+      ; GTR consommation récente, remontée directe et réserve, sans arrêts ; consulté 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_26_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: Pour remplacer un flexible MP d’un ensemble SCUBAPRO certifié, quels critères établissent
+      une substitution conforme ?
+    choices:
+    - text: Filetages et pression adaptés, avec une référence autorisée pour cet ensemble
+      correct: true
+    - text: Filetages et pression adaptés, avec tout flexible de la même marque
+      correct: false
+    - text: Filetages et pression adaptés, avec tout flexible vendu pour la plongée
+      correct: false
+    explanation: La certification porte sur une combinaison de premier étage, second étage et flexible.
+      Des filetages compatibles et une tenue en pression annoncée ne suffisent pas à établir que la pièce
+      appartient à la combinaison autorisée. La référence prévue par le fabricant permet cette vérification.
+      L’appartenance à une marque ou la vente comme accessoire de plongée ne prouve pas la compatibilité
+      certifiée avec cet ensemble précis.
+- id: n4-materiel-gilet-enveloppes-001
+  type: mcq
+  deck: Matériel et préparation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.28, gilets types d’enveloppes ; SCUBAPRO Equipment Selection Guide
+      mai 2017, back-inflation Litehawk / wrap-around Rebel, https://ww2.scubapro.com/media/701314/scubapro_esg_-_2017_-_may_-_email.pdf
+      ; formes recoupées avec catalogue SCUBAPRO 2023 p.38 ; contrôlés 2026-10-12
+    - Schéma original de répartition fonctionnelle docs/diagrams/n4/enveloppes-gilet.svg ; aucune garantie
+      de position de surface déduite du nom de l’enveloppe
+    - 'Revue individuelle : docs/reviews/n4/LOT_27_MATERIEL.md'
+    fact_check: pass
+  fr:
+    question: 'Quelle association décrit les enveloppes gonflables A et B sur ces vues de dessus ? Les
+      petits cercles représentent les blocs, les contours blancs les plongeurs et les zones bleues les
+      enveloppes.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-label="Deux répartitions
+      d’enveloppe gonflable vues de dessus : A derrière le dos, B autour du dos et des flancs ; contour
+      du plongeur au centre de chaque vue" style="width:100%;max-width:600px;background:white"><g fill="#d5edf1"
+      stroke="#397b94" stroke-width="3"><ellipse cx="150" cy="90" rx="100" ry="50"/><path d="M370 155
+      V90 C370 20 530 20 530 90 V155 L495 165 V100 C495 80 405 80 405 100 V165 Z"/></g><g fill="#fff"
+      stroke="#18394a" stroke-width="3"><ellipse cx="150" cy="160" rx="62" ry="48"/><ellipse cx="450"
+      cy="160" rx="62" ry="48"/><circle cx="150" cy="76" r="23"/><circle cx="450" cy="76" r="23"/></g><g
+      font-family="sans-serif" font-size="20" fill="#18394a"><text x="140" y="28">A</text><text x="440"
+      y="28">B</text><text x="70" y="240">Avant du plongeur</text><text x="370" y="240">Avant du plongeur</text></g></svg>'
+    choices:
+    - text: 'A : dorsale ; B : enveloppante'
+      correct: true
+    - text: 'A : enveloppante ; B : dorsale'
+      correct: false
+    explanation: Une enveloppe dorsale place le volume gonflable essentiellement derrière le plongeur,
+      autour du bloc. Une enveloppe enveloppante répartit aussi ce volume le long des flancs. Cette différence
+      d’architecture influe sur la répartition de la poussée ; la position obtenue dépend également du
+      lestage, du volume gonflé et de l’ensemble plongeur–matériel.

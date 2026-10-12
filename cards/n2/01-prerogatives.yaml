@@ -4,6 +4,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -13,6 +14,7 @@ cards:
   review:
     fact_check: pass
     sources:
+    - 'Reprise N4 du 2026-10-12, lot 35 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026 p.3 (PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56) ; Code du sport A322-72 (DP présent), A322-74 (aptitudes/circonstances), annexe III16b (PA20, effectif3) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126 ; consultés 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
@@ -77,6 +79,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -86,6 +89,7 @@ cards:
   review:
     fact_check: pass
     sources:
+    - 'Reprise N4 du 2026-10-12, lot 35 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026 p.3 (PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56) ; Code du sport A322-72 (DP présent), A322-74 (aptitudes/circonstances), annexe III16b (PA20, effectif3) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126 ; consultés 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Code du sport — A322-73, version depuis le 31 octobre 2025 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
@@ -118,6 +122,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -127,6 +132,7 @@ cards:
   review:
     fact_check: pass
     sources:
+    - 'Reprise N4 du 2026-10-12, lot 35 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026 p.3 (PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56) ; Code du sport A322-72 (DP présent), A322-74 (aptitudes/circonstances), annexe III16b (PA20, effectif3) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126 ; consultés 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
@@ -154,6 +160,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -163,6 +170,7 @@ cards:
   review:
     fact_check: pass
     sources:
+    - 'Reprise N4 du 2026-10-12, lot 35 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026 p.3 (PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56) ; Code du sport A322-72 (DP présent), A322-74 (aptitudes/circonstances), annexe III16b (PA20, effectif3) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126 ; consultés 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue factuelle et pédagogique du 2026-10-05 : docs/reviews/01-prerogatives.md'
@@ -190,6 +198,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -199,6 +208,7 @@ cards:
   review:
     fact_check: pass
     sources:
+    - 'Reprise N4 du 2026-10-12, lot 35 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026 p.3 (PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56) ; Code du sport A322-72 (DP présent), A322-74 (aptitudes/circonstances), annexe III16b (PA20, effectif3) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705126 ; consultés 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
     - S1 — Théorie N2 Stade de Vanves, édition 2024, p.3–4 (source pédagogique)
     - 'FFESSM — MFT N2, version mai 2026, p.3–4, vérifié le 2026-10-05 : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Code du sport — A322-73 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714'
@@ -230,6 +240,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -246,6 +257,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 36 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3–4, conditions PE40/PA20/N2, mineurs, PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; p.3 réellement relue sur version actuelle le 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour adaptation
+      aux publics ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Dans le cursus FFESSM, quel est l’âge minimal pour entrer en formation et obtenir la qualification
       PE40 ?
@@ -265,6 +280,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -282,6 +298,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 36 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3–4, conditions PE40/PA20/N2, mineurs, PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; p.3 réellement relue sur version actuelle le 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour adaptation
+      aux publics ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Dans le cursus FFESSM, quel est l’âge minimal de délivrance de PA20 ou du N2, une fois les
       compétences acquises ?
@@ -303,6 +323,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -326,6 +347,10 @@ cards:
       : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071318/LEGISCTA000019261109/'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 36 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3–4, conditions PE40/PA20/N2, mineurs, PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; p.3 réellement relue sur version actuelle le 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour adaptation
+      aux publics ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Un plongeur FFESSM de 15 ans vient d’obtenir son N2. À partir de quel âge pourra-t-il exercer
       l’autonomie PA20 en France, si les autres conditions sont remplies ?
@@ -347,6 +372,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -366,6 +392,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 36 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3–4, conditions PE40/PA20/N2, mineurs, PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; p.3 réellement relue sur version actuelle le 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour adaptation
+      aux publics ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Pour un plongeur FFESSM de 16 ans, que doit viser l’autorisation du responsable légal nécessaire
       à une exploration PA20 ?
@@ -387,6 +417,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -406,6 +437,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 36 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3–4, conditions PE40/PA20/N2, mineurs, PDF FFESSM https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56
+      ; p.3 réellement relue sur version actuelle le 2026-10-12 ; MFT GP mai2026 p.16–18/27 pour adaptation
+      aux publics ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Une palanquée PA20 FFESSM autorisée accueille un plongeur de 16 ans. Qui doit être informé
       de la présence d’un mineur ?
@@ -424,6 +459,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -441,6 +477,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 37 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3, PE40 moins16ans : sans palier,2plongées,3h, seconde20m si première>30 ; PDF FFESSM actuellement
+      lu 2026-10-12 ; FFESSM présentation officielle N2 https://ffessm.fr/plongeur-niveau-2 certification
+      CMAS ; MFT GP p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Quelle contrainte de désaturation doit respecter la planification d’une exploration PE40
       FFESSM pour un plongeur de moins de 16 ans ?
@@ -460,6 +500,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -477,6 +518,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 37 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3, PE40 moins16ans : sans palier,2plongées,3h, seconde20m si première>30 ; PDF FFESSM actuellement
+      lu 2026-10-12 ; FFESSM présentation officielle N2 https://ffessm.fr/plongeur-niveau-2 certification
+      CMAS ; MFT GP p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Dans le cursus FFESSM, combien de plongées par jour au maximum peut effectuer un PE40 âgé
       de moins de 16 ans ?
@@ -497,6 +542,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -514,6 +560,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 37 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3, PE40 moins16ans : sans palier,2plongées,3h, seconde20m si première>30 ; PDF FFESSM actuellement
+      lu 2026-10-12 ; FFESSM présentation officielle N2 https://ffessm.fr/plongeur-niveau-2 certification
+      CMAS ; MFT GP p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Dans le cursus FFESSM, quelle durée minimale doit séparer les deux plongées de la journée
       d’un PE40 âgé de moins de 16 ans ?
@@ -533,6 +583,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -549,6 +600,10 @@ cards:
       et 14 (assistance PA20) : https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/d7c761c8-79ed-42f2-a675-90e4c6095a56'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 37 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3, PE40 moins16ans : sans palier,2plongées,3h, seconde20m si première>30 ; PDF FFESSM actuellement
+      lu 2026-10-12 ; FFESSM présentation officielle N2 https://ffessm.fr/plongeur-niveau-2 certification
+      CMAS ; MFT GP p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: Un PE40 FFESSM de 15 ans a atteint 32 m lors de sa première plongée du jour. Quelle profondeur
       maximale s’applique à sa seconde plongée si les autres conditions sont réunies ?
@@ -683,6 +738,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -705,6 +761,10 @@ cards:
       correspondance, pas pour les âges : https://ffessm.fr/plongeur-niveau-2'
     - 'Revue approfondie des QCM Réglementation N2 du 2026-10-10 : docs/reviews/REGLEMENTATION_N2_2026-10-10.md
       ; objectif, ID et modèle conservés'
+    - 'Reprise N4 du 2026-10-12, lot 37 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; MFT N2 mai2026
+      p.3, PE40 moins16ans : sans palier,2plongées,3h, seconde20m si première>30 ; PDF FFESSM actuellement
+      lu 2026-10-12 ; FFESSM présentation officielle N2 https://ffessm.fr/plongeur-niveau-2 certification
+      CMAS ; MFT GP p.16–18/27 pour pertinence du guide ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: À quelle certification CMAS le N2 FFESSM est-il associé dans le cursus fédéral ?
     choices:
@@ -721,6 +781,7 @@ cards:
   deck: Réglementation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::01
   - prerogatives
@@ -743,6 +804,11 @@ cards:
       ; objectif, ID et modèle conservés'
     - 'Contrôle final itératif N2 du 2026-10-10 : docs/reviews/CONTROLE_FINAL_ITERATIF_N2_2026-10-10.md
       ; objectif et identité conservés'
+    - 'Reprise N4 du 2026-10-12, lot 38 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; Code du
+      sport A322-72 DP/paramètres/secours https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393876
+      ; A322-73 version31octobre2025 https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052464714
+      ; MFT GP mai2026 p.16–18/27 ; FFESSM N2/CMAS présentation fédérale seulement pour reconnaissance,
+      pas règles étrangères ; contrôlés 2026-10-12 ; recto, choix et corrigé relus ; identité conservée'
   fr:
     question: À l’étranger, un centre reconnaît le N2/CMAS deux étoiles. Quel cadre détermine les plongées
       que ce titulaire peut y effectuer ?

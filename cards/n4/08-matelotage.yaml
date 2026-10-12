@@ -1,0 +1,484 @@
+cards:
+- id: n4-matelotage-chaise-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20, nœuds usuels en situations réalistes ; N4-S58 Foubert Matelotage
+      p.8–10 et annexes p.25–28 ; p.26 représentation cabestan/alouette inspectée visuellement 2026-10-12
+    - 'Orléans Voile, club producteur du support Les 6 nœuds importants : https://www.orleansvoile.fr/fichiers/CCC_6_Noeuds.pdf
+      ; chaise/cabestan/huit/taquet recoupés 2026-10-12 ; aucun schéma de tiers copié'
+    - Questions théoriques préparatoires au geste ; choix de nœuds usuels parmi des fonctions différentes,
+      aucun nœud présenté comme fixation universelle de sécurité
+    - 'Revue individuelle : docs/reviews/n4/LOT_28_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: On veut réaliser à l’extrémité d’un cordage une boucle de taille fixe, sans réunir deux
+      cordages. Quel nœud usuel répond à cet objectif ?
+    choices:
+    - text: Un nœud de chaise
+      correct: true
+    - text: Un nœud d’écoute
+      correct: false
+    - text: Un nœud plat
+      correct: false
+    explanation: 'Le nœud de chaise forme une boucle fixe : sa taille ne se resserre pas comme celle d’un
+      nœud coulant. Le nœud d’écoute sert à réunir deux cordages, notamment de diamètres différents ;
+      le nœud plat réunit deux brins dans un usage adapté. Ces deux derniers ne réalisent pas à eux seuls
+      la boucle terminale demandée.'
+- id: n4-matelotage-cabestan-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20, nœuds usuels en situations réalistes ; N4-S58 Foubert Matelotage
+      p.8–10 et annexes p.25–28 ; p.26 représentation cabestan/alouette inspectée visuellement 2026-10-12
+    - 'Orléans Voile, club producteur du support Les 6 nœuds importants : https://www.orleansvoile.fr/fichiers/CCC_6_Noeuds.pdf
+      ; chaise/cabestan/huit/taquet recoupés 2026-10-12 ; aucun schéma de tiers copié'
+    - Questions théoriques préparatoires au geste ; choix de nœuds usuels parmi des fonctions différentes,
+      aucun nœud présenté comme fixation universelle de sécurité
+    - 'Revue individuelle : docs/reviews/n4/LOT_28_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Quel nœud autour d’un support cylindrique est constitué de deux demi-clés à capeler, avec
+      un brin diagonal qui croise les tours ?
+    choices:
+    - text: Un nœud de cabestan
+      correct: true
+    - text: Un nœud de tête d’alouette
+      correct: false
+    - text: Un tour mort et deux demi-clés
+      correct: false
+    explanation: 'Le cabestan correspond à deux demi-clés à capeler autour du support : le brin diagonal
+      croise les tours et retient le montage. La tête d’alouette vient d’une boucle passée autour du support,
+      à travers laquelle passent les deux brins. Dans le tour mort et deux demi-clés, le tour est autour
+      du support, puis les demi-clés sont réalisées autour du dormant du cordage.'
+- id: n4-matelotage-arret-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20, nœuds usuels en situations réalistes ; N4-S58 Foubert Matelotage
+      p.8–10 et annexes p.25–28 ; p.26 représentation cabestan/alouette inspectée visuellement 2026-10-12
+    - 'Orléans Voile, club producteur du support Les 6 nœuds importants : https://www.orleansvoile.fr/fichiers/CCC_6_Noeuds.pdf
+      ; chaise/cabestan/huit/taquet recoupés 2026-10-12 ; aucun schéma de tiers copié'
+    - Questions théoriques préparatoires au geste ; choix de nœuds usuels parmi des fonctions différentes,
+      aucun nœud présenté comme fixation universelle de sécurité
+    - 'Revue individuelle : docs/reviews/n4/LOT_28_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Pour un nœud d’arrêt terminal que l’on souhaite pouvoir défaire après serrage, quel nœud
+      usuel préfère-t-on au simple demi-nœud ?
+    choices:
+    - text: Un nœud en huit
+      correct: true
+    - text: Un nœud de chaise
+      correct: false
+    - text: Un nœud d’écoute
+      correct: false
+    explanation: 'Le nœud en huit est un nœud d’arrêt usuel, généralement plus facile à défaire après
+      serrage que le demi-nœud simple. La chaise forme une boucle fixe et l’écoute réunit deux cordages.
+      Le choix du diamètre du cordage et de l’orifice reste nécessaire : le nœud doit effectivement empêcher
+      le passage dans la situation prévue.'
+- id: n4-matelotage-taquet-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20, nœuds usuels en situations réalistes ; N4-S58 Foubert Matelotage
+      p.8–10 et annexes p.25–28 ; p.26 représentation cabestan/alouette inspectée visuellement 2026-10-12
+    - 'Orléans Voile, club producteur du support Les 6 nœuds importants : https://www.orleansvoile.fr/fichiers/CCC_6_Noeuds.pdf
+      ; chaise/cabestan/huit/taquet recoupés 2026-10-12 ; aucun schéma de tiers copié'
+    - Questions théoriques préparatoires au geste ; choix de nœuds usuels parmi des fonctions différentes,
+      aucun nœud présenté comme fixation universelle de sécurité
+    - 'Revue individuelle : docs/reviews/n4/LOT_28_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Sur un taquet à deux cornes, quelle séquence décrit une fixation classique avec terminaison
+      bloquante ?
+    choices:
+    - text: Tour autour de la base, croisements entre les cornes, demi-clé de blocage sur une corne
+      correct: true
+    - text: Tour autour de la base, demi-clés autour du dormant, extrémité laissée près des cornes
+      correct: false
+    - text: Tour autour de la base, croisements entre les cornes, extrémité passée simplement sous le
+        taquet
+      correct: false
+    explanation: Le tour à la base reçoit la traction, les croisements répartissent la tenue entre les
+      cornes, et une demi-clé finale correctement orientée bloque le brin libre. Les deux demi-clés autour
+      du dormant relèvent d’un autre amarrage. Passer simplement le brin sous le taquet ne remplace pas
+      la terminaison bloquante. Le geste doit être appris et réalisé avec un cordage et un taquet adaptés.
+- id: n4-matelotage-ragage-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.8,14–18 et marées ; lecture critique 2026-10-12
+    - SHOM — Guide des levés hydrographiques V2.3 30 mars 2026, réduction au zéro hydrographique, https://services.data.shom.fr/static/specifications/Guide_Leves_hydrographiques_V2.3-20260330.pdf
+      ; INT1 édition 7 2019, sondes et marées, https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; repères consultés 2026-10-12
+    - Montages décrits fictifs, pas de ratio universel de longueur de mouillage, pas de procédure générale
+      de relevage pneumatique ; rôle du pilote conservé
+    - 'Revue individuelle : docs/reviews/n4/LOT_29_MATELOTAGE.md'
+    - Rocna fabricant — Rode https://users.rocna.com/docs/rode/ et Scope vs Catenary https://rocna.com/faqs/scope-vs-catenary-what-really-matters-when-anchoring-with-a-rocna/
+      ; limites de la chaînette en forte traction, consulté 2026-10-12
+    fact_check: pass
+  fr:
+    question: Une amarre saine frotte sur une arête à chaque mouvement du bateau. Quelle mesure agit sur
+      la cause du ragage sans remplacer la fonction d’amarrage ?
+    choices:
+    - text: Protéger le point de contact ou modifier le cheminement pour éviter l’arête
+      correct: true
+    - text: Augmenter la tension de l’amarre pour compenser l’usure au point de contact
+      correct: false
+    - text: Ajouter des tours au nœud terminal pour compenser l’usure au point de contact
+      correct: false
+    explanation: Le ragage est l’usure par frottement. Une protection adaptée au point de contact, ou
+      un cheminement supprimant l’arête, agit sur cette cause. Serrer davantage l’amarre ou multiplier
+      les tours au nœud ne répare pas une abrasion. Le cordage et la protection doivent être surveillés,
+      et une amarre déjà détériorée ne devient pas saine par ajout d’une gaine.
+- id: n4-matelotage-ligne-mouillage-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.8,14–18 et marées ; lecture critique 2026-10-12
+    - SHOM — Guide des levés hydrographiques V2.3 30 mars 2026, réduction au zéro hydrographique, https://services.data.shom.fr/static/specifications/Guide_Leves_hydrographiques_V2.3-20260330.pdf
+      ; INT1 édition 7 2019, sondes et marées, https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; repères consultés 2026-10-12
+    - Montages décrits fictifs, pas de ratio universel de longueur de mouillage, pas de procédure générale
+      de relevage pneumatique ; rôle du pilote conservé
+    - 'Revue individuelle : docs/reviews/n4/LOT_29_MATELOTAGE.md'
+    - Rocna fabricant — Rode https://users.rocna.com/docs/rode/ et Scope vs Catenary https://rocna.com/faqs/scope-vs-catenary-what-really-matters-when-anchoring-with-a-rocna/
+      ; limites de la chaînette en forte traction, consulté 2026-10-12
+    fact_check: pass
+  fr:
+    question: Dans un mouillage mixte ancre–chaîne–câblot, quel mécanisme du poids de la chaîne peut réduire
+      l’angle de traction sur l’ancre lorsque la ligne n’est pas tendue en ligne droite ?
+    choices:
+    - text: La chaîne forme une courbe et maintient la traction plus proche de l’horizontale
+      correct: true
+    - text: La chaîne s’allonge élastiquement et maintient la traction plus proche de l’horizontale
+      correct: false
+    explanation: 'Le poids de la chaîne favorise une courbe de la ligne : l’effort sur l’ancre peut rester
+      plus horizontal qu’avec une ligne tendue directement vers le bateau. Quand la traction augmente,
+      la ligne peut se tendre et cet effet se réduire. Le câblot apporte notamment une élasticité différente
+      de celle de la chaîne ; la tenue dépend aussi du fond, de l’ancre et du dimensionnement de l’ensemble.'
+- id: n4-matelotage-mouillage-maree-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.8,14–18 et marées ; lecture critique 2026-10-12
+    - SHOM — Guide des levés hydrographiques V2.3 30 mars 2026, réduction au zéro hydrographique, https://services.data.shom.fr/static/specifications/Guide_Leves_hydrographiques_V2.3-20260330.pdf
+      ; INT1 édition 7 2019, sondes et marées, https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; repères consultés 2026-10-12
+    - Montages décrits fictifs, pas de ratio universel de longueur de mouillage, pas de procédure générale
+      de relevage pneumatique ; rôle du pilote conservé
+    - 'Revue individuelle : docs/reviews/n4/LOT_29_MATELOTAGE.md'
+    - Rocna fabricant — Rode https://users.rocna.com/docs/rode/ et Scope vs Catenary https://rocna.com/faqs/scope-vs-catenary-what-really-matters-when-anchoring-with-a-rocna/
+      ; limites de la chaînette en forte traction, consulté 2026-10-12
+    fact_check: pass
+  fr:
+    question: Une carte indique une sonde de 12,4 m sous le zéro hydrographique. À l’heure prévue, la
+      marée est de +3,1 m par rapport à ce même zéro. Quelle hauteur d’eau prévisible obtient-on ? Négliger
+      les autres variations du niveau de la mer.
+    choices:
+    - text: 15,5 m
+      correct: true
+    - text: 9,3 m
+      correct: false
+    - text: 12,4 m
+      correct: false
+    explanation: 'La hauteur d’eau vaut sonde plus hauteur de marée : 12,4 + 3,1 = 15,5 m. Soustraire
+      la marée donnerait 9,3 m, et garder 12,4 m ignorerait le niveau supérieur au zéro commun. Le résultat
+      concerne l’heure indiquée : la profondeur évolue avec la marée.'
+- id: n4-matelotage-parachute-ancre-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.8,14–18 et marées ; lecture critique 2026-10-12
+    - SHOM — Guide des levés hydrographiques V2.3 30 mars 2026, réduction au zéro hydrographique, https://services.data.shom.fr/static/specifications/Guide_Leves_hydrographiques_V2.3-20260330.pdf
+      ; INT1 édition 7 2019, sondes et marées, https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; repères consultés 2026-10-12
+    - Montages décrits fictifs, pas de ratio universel de longueur de mouillage, pas de procédure générale
+      de relevage pneumatique ; rôle du pilote conservé
+    - 'Revue individuelle : docs/reviews/n4/LOT_29_MATELOTAGE.md'
+    - Rocna fabricant — Rode https://users.rocna.com/docs/rode/ et Scope vs Catenary https://rocna.com/faqs/scope-vs-catenary-what-really-matters-when-anchoring-with-a-rocna/
+      ; limites de la chaînette en forte traction, consulté 2026-10-12
+    fact_check: pass
+  fr:
+    question: Quelle association distingue les fonctions d’un parachute d’ancre et d’un parachute de palier
+      ?
+    choices:
+    - text: 'Ancre : aider le relevage par poussée ; palier : signaler la palanquée en surface'
+      correct: true
+    - text: 'Ancre : signaler la palanquée en surface ; palier : aider le relevage par poussée'
+      correct: false
+    explanation: Un parachute d’ancre est un dispositif de relevage qui utilise la poussée de l’eau sur
+      un volume de gaz pour soulager la charge lors d’une manœuvre prévue avec le pilote. Un parachute
+      de palier signale la présence des plongeurs à la surface. Les fonctions, les charges et les montages
+      diffèrent ; le second ne remplace pas un matériel de relevage dimensionné.
+- id: n4-matelotage-pendeur-ligne-vie-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.8,14–18 et marées ; lecture critique 2026-10-12
+    - SHOM — Guide des levés hydrographiques V2.3 30 mars 2026, réduction au zéro hydrographique, https://services.data.shom.fr/static/specifications/Guide_Leves_hydrographiques_V2.3-20260330.pdf
+      ; INT1 édition 7 2019, sondes et marées, https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; repères consultés 2026-10-12
+    - Montages décrits fictifs, pas de ratio universel de longueur de mouillage, pas de procédure générale
+      de relevage pneumatique ; rôle du pilote conservé
+    - 'Revue individuelle : docs/reviews/n4/LOT_29_MATELOTAGE.md'
+    - Rocna fabricant — Rode https://users.rocna.com/docs/rode/ et Scope vs Catenary https://rocna.com/faqs/scope-vs-catenary-what-really-matters-when-anchoring-with-a-rocna/
+      ; limites de la chaînette en forte traction, consulté 2026-10-12
+    fact_check: pass
+  fr:
+    question: Dans une organisation avec courant, on prévoit un appui pour tenir un palier près du bateau
+      et un cordage flottant pour rejoindre le bateau en surface. Quelle association correspond à ces
+      deux usages ?
+    choices:
+    - text: 'Palier : pendeur ; surface : ligne de vie'
+      correct: true
+    - text: 'Palier : ligne de vie ; surface : pendeur'
+      correct: false
+    explanation: Le pendeur offre un support sous le bateau, utilisable lors de l’immersion, de la remontée
+      ou d’un palier selon l’organisation. Une ligne de vie flottante permet de rester relié à un point
+      de récupération en surface et de progresser vers celui-ci. Son implantation dépend du bateau et
+      du courant ; elle doit faire partie de la consigne de récupération donnée aux plongeurs.
+- id: n4-matelotage-rappel-reception-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.17–23, rappel/repérage, relus 2026-10-12
+    - MFT GP p.17–18 conduite collective et désaturation, paramètres et consignes ; appareil GPS/sondeur
+      uniquement pour repérage, aucune délégation au GP de la conduite du bateau
+    - Exercice d’alignements original docs/diagrams/n4/alignements-amers.svg ; géométrie plane fictive
+      et points distincts, aucun site réel
+    - 'Revue individuelle : docs/reviews/n4/LOT_30_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Le signal convenu rappelle immédiatement les palanquées vers la surface. Votre palanquée
+      a des paliers obligatoires indiqués par ses ordinateurs et aucun accident ne nécessite une procédure
+      d’urgence différente. Quelle conduite appliquez-vous ?
+    choices:
+    - text: Interrompre l’exploration et effectuer la remontée avec les paliers obligatoires
+      correct: true
+    - text: Interrompre l’exploration et remplacer les paliers obligatoires par le palier de sécurité
+      correct: false
+    - text: Interrompre l’exploration et appliquer la durée de remontée sans palier prévue au briefing
+      correct: false
+    explanation: Le rappel met fin à l’exploration et déclenche le retour suivant les consignes convenues.
+      Il ne supprime pas les obligations de décompression dues au profil réellement effectué. Un palier
+      de sécurité facultatif ne remplace pas les paliers obligatoires ; une estimation du briefing ne
+      remplace pas les données actualisées du profil et des ordinateurs.
+- id: n4-matelotage-amer-alignements-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.17–23, rappel/repérage, relus 2026-10-12
+    - MFT GP p.17–18 conduite collective et désaturation, paramètres et consignes ; appareil GPS/sondeur
+      uniquement pour repérage, aucune délégation au GP de la conduite du bateau
+    - Exercice d’alignements original docs/diagrams/n4/alignements-amers.svg ; géométrie plane fictive
+      et points distincts, aucun site réel
+    - 'Revue individuelle : docs/reviews/n4/LOT_30_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: 'Depuis le bateau, B masque A et D masque C. Quelle position parmi 1, 2, 3 et 4 correspond
+      simultanément à ces deux alignements sur ce plan ? Les amers et les positions sont des points.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-label="Plan de quatre
+      amers A B C D sur la côte et quatre positions 1 2 3 4 en mer ; A B sont sur la verticale passant
+      par 1 et 2 ; C D sur la diagonale passant par 2 et 3" style="width:100%;max-width:560px;background:white"><path
+      d="M35 105 H530" stroke="#397b94" stroke-width="3"/><g fill="#18394a" font-family="sans-serif" font-size="22"><circle
+      cx="170" cy="25" r="6"/><circle cx="170" cy="85" r="6"/><circle cx="290" cy="25" r="6"/><circle
+      cx="260" cy="85" r="6"/><text x="184" y="30">A</text><text x="184" y="85">B</text><text x="305"
+      y="30">C</text><text x="274" y="85">D</text><circle cx="170" cy="135" r="6"/><text x="180" y="137">1</text><circle
+      cx="170" cy="265" r="6"/><text x="180" y="267">2</text><circle cx="210" cy="185" r="6"/><text x="220"
+      y="187">3</text><circle cx="330" cy="220" r="6"/><text x="340" y="222">4</text><text x="390" y="72">Terre</text><text
+      x="390" y="160">Mer</text></g></svg>'
+    choices:
+    - text: La position 2
+      correct: true
+    - text: La position 1
+      correct: false
+    - text: La position 3
+      correct: false
+    explanation: A et B déterminent une première droite ; C et D en déterminent une seconde. Le bateau
+      est à leur intersection, ici la position 2. La position 1 appartient au seul alignement A–B et la
+      position 3 au seul alignement C–D. Un seul alignement donne une ligne de position, pas une position
+      unique.
+- id: n4-matelotage-gps-sonar-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.17–23, rappel/repérage, relus 2026-10-12
+    - MFT GP p.17–18 conduite collective et désaturation, paramètres et consignes ; appareil GPS/sondeur
+      uniquement pour repérage, aucune délégation au GP de la conduite du bateau
+    - Exercice d’alignements original docs/diagrams/n4/alignements-amers.svg ; géométrie plane fictive
+      et points distincts, aucun site réel
+    - 'Revue individuelle : docs/reviews/n4/LOT_30_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: On connaît les coordonnées d’une épave, mais on veut aussi vérifier son relief sous le bateau
+      avant la mise à l’eau. Quelle répartition des tâches convient aux deux instruments ?
+    choices:
+    - text: 'GPS : rejoindre les coordonnées ; sondeur : observer les échos du relief'
+      correct: true
+    - text: 'GPS : observer les échos du relief ; sondeur : rejoindre les coordonnées'
+      correct: false
+    - text: 'GPS : rejoindre les coordonnées ; sondeur : mesurer seulement la hauteur de marée'
+      correct: false
+    explanation: Le GPS fournit une position géographique permettant de rejoindre un point enregistré.
+      Un sondeur acoustique mesure le temps de retour d’échos et donne des informations sur le fond sous
+      sa zone de mesure ; il peut aider à reconnaître une structure. Ces échos demandent une interprétation
+      et ne prouvent pas à eux seuls l’identité d’une épave. La hauteur de marée relève d’un référentiel
+      de niveau, pas seulement de la distance mesurée au fond.
+- id: n4-matelotage-carte-symboles-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.11–13 et 19–21 ; relus 2026-10-12
+    - 'SHOM INT1 édition7 2019, sondes, roches et zones : https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; carte originale fictive sans règle juridique locale réelle ; unités nautiques et référence zéro
+      commun explicites'
+    - Garmin fabricant principe sonar https://www.garmin.com/en-US/garmin-technology/marine-technology/sonar/
+      consulté 2026-10-12 (recoupement du lot30) ; aucune donnée GPS utilisée comme profondeur
+    - 'Revue individuelle : docs/reviews/n4/LOT_31_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: 'Sur cette carte fictive, les hachures désignent une zone où la plongée est interdite et
+      × une roche dangereuse pour le mouillage. La hauteur de marée est +2 m. Quel point présente une
+      profondeur prévisible de 22 m au maximum, hors zone interdite et hors roche ? Même zéro pour sondes
+      et marée.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-label="Carte fictive
+      : zone hachurée contenant A, roche signalée par X au point B, point C en dehors de ces deux éléments
+      ; sondes A20 B18 C18 mètres" style="width:100%;max-width:560px;background:white"><defs><pattern
+      id="n4-zone" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#aaa"
+      stroke-width="1"/></pattern></defs><rect x="30" y="30" width="210" height="160" fill="url(#n4-zone)"
+      stroke="#555" stroke-width="2"/><g fill="#18394a" font-family="sans-serif" font-size="22"><circle
+      cx="135" cy="95" r="5"/><text x="145" y="97">A 20</text><text x="345" y="100">× B 18</text><circle
+      cx="365" cy="225" r="5"/><text x="375" y="227">C 18</text><text x="25" y="280">Sondes en mètres
+      sous le zéro hydrographique</text></g></svg>'
+    choices:
+    - text: C
+      correct: true
+    - text: A
+      correct: false
+    - text: B
+      correct: false
+    explanation: C présente 18 + 2 = 20 m d’eau, hors zone interdite et hors roche. A présente 20 + 2
+      = 22 m d’eau, mais se trouve dans la zone interdite. B présente 18 + 2 = 20 m d’eau, mais porte
+      le symbole de roche. Les trois profondeurs respectent le plafond demandé ; les informations de zone
+      et de fond déterminent le choix.
+- id: n4-matelotage-distance-carte-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.11–13 et 19–21 ; relus 2026-10-12
+    - 'SHOM INT1 édition7 2019, sondes, roches et zones : https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; carte originale fictive sans règle juridique locale réelle ; unités nautiques et référence zéro
+      commun explicites'
+    - Garmin fabricant principe sonar https://www.garmin.com/en-US/garmin-technology/marine-technology/sonar/
+      consulté 2026-10-12 (recoupement du lot30) ; aucune donnée GPS utilisée comme profondeur
+    - 'Revue individuelle : docs/reviews/n4/LOT_31_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Sur une carte marine, l’écart entre deux points reporté sur l’échelle des latitudes au niveau
+      du trajet vaut 2,5 minutes. Quelle distance cela représente-t-il, en milles nautiques et en kilomètres
+      ? Pour cette lecture, une minute de latitude correspond à un mille nautique ; 1 mille = 1 852 m.
+    choices:
+    - text: 2,5 milles, soit 4,63 km
+      correct: true
+    - text: 2,5 milles, soit 2,50 km
+      correct: false
+    - text: 150 milles, soit 277,80 km
+      correct: false
+    explanation: 'Une minute de latitude correspond à un mille nautique pour cette mesure sur la carte
+      : 2,5 minutes donnent 2,5 milles. La conversion vaut 2,5 × 1,852 = 4,63 km. Le deuxième choix confond
+      mille et kilomètre ; le troisième traite les 2,5 minutes comme des degrés en multipliant par 60.
+      L’échelle des longitudes ne remplace pas celle des latitudes pour cette mesure.'
+- id: n4-matelotage-appareillage-role-001
+  type: mcq
+  deck: Matelotage et repérage
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.20 ; N4-S58 Foubert p.11–13 et 19–21 ; relus 2026-10-12
+    - 'SHOM INT1 édition7 2019, sondes, roches et zones : https://services.data.shom.fr/static/legends/ASSEMBLAGE_DES_CARTES_MARINES_RASTERMARINE/001DNOA.pdf
+      ; carte originale fictive sans règle juridique locale réelle ; unités nautiques et référence zéro
+      commun explicites'
+    - Garmin fabricant principe sonar https://www.garmin.com/en-US/garmin-technology/marine-technology/sonar/
+      consulté 2026-10-12 (recoupement du lot30) ; aucune donnée GPS utilisée comme profondeur
+    - 'Revue individuelle : docs/reviews/n4/LOT_31_MATELOTAGE.md'
+    fact_check: pass
+  fr:
+    question: Le pilote prévoit d’utiliser une garde pour contrôler l’écartement du bateau du quai. Vous
+      êtes chargé des amarres ; aucune instruction de largage n’a encore été donnée. Quelle conduite respecte
+      cette manœuvre ?
+    choices:
+    - text: Garder la garde en place, préparer les autres amarres et attendre l’ordre de largage
+      correct: true
+    - text: Larguer la garde en premier, préparer les autres amarres et attendre l’ordre de propulsion
+      correct: false
+    - text: Larguer toutes les amarres, garder la garde à la main et attendre l’ordre de propulsion
+      correct: false
+    explanation: La garde prévue fait partie du dispositif choisi par le pilote pour contrôler le mouvement
+      du bateau. L’équipier prépare sa tâche et largue sur instruction, puis récupère les cordages pour
+      qu’ils restent clairs de l’hélice. Larguer prématurément la garde change le montage sur lequel le
+      pilote comptait ; la tenir seulement à la main ne remplace pas une garde frappée pour recevoir l’effort
+      prévu.

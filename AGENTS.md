@@ -5,12 +5,16 @@
 Implémenter N4 par **lots séquentiels de cinq cartes au maximum**, reprises comprises.
 Clore chaque lot avant d'entamer le suivant : comparaison au catalogue, rédaction en
 `draft`, contrôle des sources, critique séparée de chaque recto/choix/corrigé,
-corrections, nouvelle lecture, puis vérifications et contrôle du build.
+corrections, nouvelle lecture, puis vérifications techniques sans build.
+Ne pas builder ni importer chaque lot. Faire un build global et une vérification
+approfondie des rectos/versos, médias et paquets à la fin de l’implémentation N4.
+Ne pas committer entre les lots : se concentrer sur la création et la revue des
+cartes ; attendre la demande de commit de l’utilisateur.
 Consigner par ID les défauts repérés, les corrections, la plausibilité et la réfutation
 de chaque leurre. Une incertitude laisse la carte en `draft`. Ne pas regrouper plusieurs
 lots en une seule revue globale ni augmenter leur taille pour avancer plus vite.
 
-Projet de théorie de plongée en français : N2 et N3 réalisés, structure prévue pour N4.
+Projet de théorie de plongée en français : N2 et N3 réalisés, N4 réalisé.
 Avant de préparer ou rédiger des cartes, lire [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
 et [docs/CARD_DESIGN.md](docs/CARD_DESIGN.md), puis la
 [grille de relecture qualité](docs/STUDY_CARD_QUALITY.md). Lire [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -162,6 +166,10 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
 
 ## Structure et vérifications techniques
 
+- Conserver le design des cartes dans la continuité de WSET3 : templates, couleurs,
+  typographie et présentation des QCM. Aucune refonte visuelle sans demande explicite.
+  Les schémas pédagogiques peuvent compléter le contenu ; ajuster leurs légendes
+  pour la lisibilité sans changer le design général.
 - Les YAML de `cards/` sont la source de vérité, un fichier par chapitre ; `fr` obligatoire,
   `levels` explicite et aucun héritage automatique entre niveaux.
 - Pour partager une carte avec un nouveau niveau, relire recto, verso et tous les choix,
@@ -236,7 +244,7 @@ de proposer une carte. Revalider les cours anciens avec les sources primaires ac
 
 Les compléments issus du recoupement PDF du 7 octobre sont suivis dans
 [COMPLEMENTS_PDF_2026-10-07.md](docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md).
-Le catalogue courant compte 461 cartes : 339 de base N2 et 122 compléments N3.
+À la clôture N3, le catalogue comptait 461 cartes : 339 de base N2 et 122 compléments N3.
 
 ## Revue approfondie N3 — 10 et 11 octobre 2026
 
@@ -277,15 +285,22 @@ Contrôler le comportement réel du JavaScript, pas seulement la présence d'une
 fonction de mélange dans le template : `tests/js/mcq-shuffle.test.cjs`, lancé par
 `make check`. Ne pas toucher aux IDs, au modèle ni aux données de révision.
 
-## Préparation N4 — 12 octobre 2026
+## Clôture N4 — 12 octobre 2026
 
 Consulter [le plan N4](docs/IMPLEMENTATION_N4.md),
-[le tri des 461 acquis](docs/reviews/n4/REUTILISATION_N2_N3.md) et
-[la matrice de couverture prévisionnelle](docs/reviews/n4/COUVERTURE_PLAN.md).
-Les 143 nouveaux objectifs sont des candidats, aucun n’est publié ni validé.
-Les décisions R/A/V/P/H ne déclenchent aucun héritage automatique de `levels`.
-Revalider les 333 reprises candidates avant ajout N4, avec les mêmes IDs/modèles.
+[la couverture finale](docs/reviews/n4/COUVERTURE_PLAN.md),
+[les reprises individuelles](docs/reviews/n4/REPRISES_DETAILLEES.md) et
+[la clôture technique](docs/reviews/n4/CLOTURE_N4.md) avant tout ajout.
+Le catalogue compte **585 notes : 339 dans N2, 122 dans N3 et 124 dans N4**.
+**330 reprises** et les 124 créations portent N4, soit 454 notes ; aucun héritage automatique.
+Les trois reprises non retenues et les objectifs absorbés ne sont pas à recréer.
+Les listes et comptages du tri initial sont historiques, pas une file de travaux ouverte.
+
 Le MFT GP-N4 mai 2026 prime sur les cours/annales anciens : ancienne épreuve séparée
 aspects théoriques supprimée, ancien problème MN90 obligatoire non repris.
-Clore les portes G01–G11 et les contradictions médicales identifiées avant rédaction
-validée. Traiter les lots séquentiellement, huit cartes au maximum ; QCM dès que pertinent.
+Respecter les modèles et contextes explicites des schémas matériels ; les dessins
+fonctionnels ne sont pas des éclatés universels. Les quatre QCM de nœuds préparent
+les fonctions et passages, pas la validation de leur réalisation pratique.
+Toute extension conserve le rythme **séquentiel de cinq identités maximum**, reprises
+comprises, avec une critique distincte de la rédaction. Aucun build ni commit par lot
+sans nouvelle instruction ; réserver la vérification globale à la fin.

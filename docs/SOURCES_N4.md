@@ -2,15 +2,17 @@
 
 ## Livrable et périmètre
 
-**59 PDF téléchargés, 1 050 pages**, dans `sources/n4/`. Le corpus comprend
+**Corpus initial : 59 PDF téléchargés, 1 050 pages**, dans `sources/n4/`. Le corpus comprend
 18 cours de Philippe Jourdren, cinq références nationales FFESSM, 25 PDF de cours
 et fiches du CoDep 92, un cours du CoDep 93, huit annales/recueils, un support de
 matelotage et un cours de circulation d’Arnaud Melese.
 
 Cette étape est une acquisition documentaire et un repérage des thèmes, **pas une
-revue factuelle complète des 1 050 pages**. Aucune carte N4 n’a été créée, aucune
-carte N2/N3 n’a été modifiée, aucun nombre de cartes N4 n’est fixé. Le recoupement
-avec les questions et corrigés N2/N3 reste à faire avant de planifier les ajouts.
+revue factuelle complète des 1 050 pages**. Cet état initial est conservé comme historique. L’implémentation et le recoupement
+ont depuis été réalisés : [plan N4](IMPLEMENTATION_N4.md),
+[couverture finale](reviews/n4/COUVERTURE_PLAN.md). Le corpus local complété comporte
+**61 PDF, 1 101 pages** ; les notices et références primaires supplémentaires sont
+consignées précisément dans les sources des cartes et les revues de lots.
 
 Les PDF et leurs extractions restent locaux, ignorés par Git conformément aux règles
 du dépôt. Cet inventaire et [le manifeste public](reviews/SOURCES_N4.json) donnent
@@ -183,3 +185,25 @@ preuve d’exhaustivité du N4.
 - Contrôle visuel de la couverture du MFT et d’une page de schémas du cours matériel.
 - Aucune revue exhaustive des assertions, aucun audit de couverture des cartes,
   aucune création de carte, aucun import dans Anki pendant cette recherche.
+
+## Compléments acquis pendant la rédaction
+
+Le lot 02 ajoute deux références nationales actuelles : le corpus local compte
+désormais **61 PDF, 1 101 pages**. Ces compléments servent à vérifier des conditions
+d’accès ; ils n’étendent pas le deck à une préparation complète au N5 ou au MF1.
+
+| Code | Document | Pages | Version | Référence |
+| --- | --- | ---: | --- | --- |
+| N4-S60 | [MFT N5](../sources/n4/ffessm-n5-mai-2026.pdf) | 8 | Mai 2026 | [FFESSM](https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/8cf7d863-c58a-4ce1-ad2d-116bdbde6a1f) |
+| N4-S61 | [MFT MF1](../sources/n4/ffessm-mf1-juillet-2026.pdf) | 43 | Juillet 2026 | [FFESSM](https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/273c29e5-04c9-4a39-8f0a-d682255dccd8) |
+
+## Références primaires actualisées à la clôture
+
+- MFT Initiateur décembre 2025 : stage initial p.5 et examen p.18, [PDF officiel](https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/c73522e4-acb2-4b56-9691-3a807334ab39).
+- Règlement intérieur FFESSM du 7 décembre 2024, [PDF actuellement lié par la fédération](https://ffessm.fr/uploads/media/docs/0001/13/be9dd3c7e7d5695fa87946441349372266dac34f.pdf), art.V.2.4 commissions culturelles.
+- [CRR ANFR juin 2025](https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf), p.20–23 ; appels ASN urgence/sécurité distingués de l’alerte de détresse.
+- [Division240, arrêté du 21 mai 2026](https://www.mer.gouv.fr/sites/default/files/2026-06/division-240_arrete_du_21_05_26.pdf), repérée sur le site du ministère ; aucune ancienne longueur de mouillage ou valeur d’armement transformée en prescription actuelle.
+- [DAN, OPI et résistance inspiratoire](https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/) et [prévention OPI](https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/the-heart-diving/pulmonary-and-venous-disorders/), utilisés au lot105.
+
+Consultation le 12 octobre 2026. Ces références web complémentaires ne sont pas
+comptées comme fichiers acquis dans le manifeste des 61 PDF.

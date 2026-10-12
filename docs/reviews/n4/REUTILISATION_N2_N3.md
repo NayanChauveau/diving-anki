@@ -639,3 +639,12 @@ La sélection N4 proposée comprend donc **333 acquis candidats R/A/V**, en plus
 | `n3-milieu-girelle-male-001` | R | Un mâle de girelle commune (Coris julis) | Objectif utilisable dans le socle théorique ou la préparation du GP ; conserver l’ID et le paquet actuel, revalider le contexte avant ajout N4. |
 | `n3-milieu-spirographe-001` | R | Des vers annélides | Objectif utilisable dans le socle théorique ou la préparation du GP ; conserver l’ID et le paquet actuel, revalider le contexte avant ajout N4. |
 
+
+## Résultat de la revue individuelle — 12 octobre 2026
+
+Le tri ci-dessus est l’état préparatoire. Les 333 candidats ont été relus par lots35–101 :
+**330 REUSE**, **3 KEEP_N2_N3**. Les IDs exclus de la sélection N4 sont
+`n2-ordinateurs-lisibilite-001`, `n2-gonflage-blocs-transport-001` et
+`n3-planification-arret-obligatoire-001` ; ils ne sont ni supprimés ni renommés.
+Décisions et sources par carte : [REPRISES_DETAILLEES](REPRISES_DETAILLEES.md).
+Les 119 P et neuf H du tri initial restent disponibles dans leurs niveaux antérieurs.

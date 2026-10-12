@@ -6,6 +6,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -24,6 +25,11 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 54 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/)
+      et Chapter5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
+      sources médicales primaires ouvertes ; MFT GP-N4 mai2026 p.25–26 ; Boyle/Henry/Dalton distingués.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour le même gaz dans un même volume de liquide, à température constante, la pression partielle
@@ -45,6 +51,7 @@ cards:
   deck: Désaturation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::11
   - add
@@ -58,6 +65,11 @@ cards:
     - 'DAN — Back to Basics, narcose, consulté le 2026-10-06 : https://dan.org/alert-diver/article/back-to-basics/'
     - 'Revue du 2026-10-06 : docs/reviews/11-add.md'
     - 'Revue approfondie des distracteurs, 2026-10-09 : docs/reviews/DESATURATION_N2_DISTRACTEURS_2026-10-09.md'
+    - 'Reprise N4 du 2026-10-12, lot 54 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/)
+      et Chapter5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
+      sources médicales primaires ouvertes ; MFT GP-N4 mai2026 p.25–26 ; Boyle/Henry/Dalton distingués.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pourquoi des bulles apparaissent-elles à l’ouverture d’une bouteille d’eau gazeuse ?
@@ -78,6 +90,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -97,6 +110,11 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 54 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/)
+      et Chapter5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
+      sources médicales primaires ouvertes ; MFT GP-N4 mai2026 p.25–26 ; Boyle/Henry/Dalton distingués.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À durée et mélange respiré comparables, pourquoi une plongée plus profonde tend-elle à augmenter
@@ -119,6 +137,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -137,20 +156,26 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 54 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/)
+      et Chapter5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
+      sources médicales primaires ouvertes ; MFT GP-N4 mai2026 p.25–26 ; Boyle/Henry/Dalton distingués.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À profondeur constante et mélange inchangé, pourquoi prolonger le séjour peut-il augmenter
       les obligations de désaturation ?
     choices:
-    - text: La charge d’azote de tissus encore hors équilibre continue à augmenter
+    - text: La charge d’azote des tissus encore sous-saturés à cette profondeur continue à augmenter
       correct: true
     - text: Le stock d’air respiré cumulé fixe la charge d’azote à éliminer
       correct: false
     - text: La pression partielle d’azote respiré augmente avec le temps passé
       correct: false
-    explanation: À cette profondeur, la pression partielle respirée reste constante, mais les tissus encore
-      hors équilibre continuent à se charger. La charge dépend du profil et des vitesses d’échange, pas
-      directement du volume total consommé dans le bloc.
+    explanation: 'À profondeur et mélange constants, la pression partielle d’azote respiré reste constante.
+      Les tissus dont la charge est encore inférieure à leur valeur d’équilibre à cette profondeur continuent
+      à se charger : prolonger le séjour peut augmenter les obligations de désaturation. La charge dépend
+      du profil et des vitesses d’échange, pas directement du volume total consommé dans le bloc.'
 - id: n2-add-tissus-001
   type: mcq
   anki_model: basic
@@ -158,6 +183,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -176,6 +202,11 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 54 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/)
+      et Chapter5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
+      sources médicales primaires ouvertes ; MFT GP-N4 mai2026 p.25–26 ; Boyle/Henry/Dalton distingués.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel ensemble de propriétés intervient directement dans les échanges d’azote et contribue
@@ -198,6 +229,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -217,6 +249,10 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 55 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress, perfusion/effort/température, et Decompression
+      Illness sources précédemment reconsultées ; Suunto Zoop Novo Decompression dives (https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/),
+      fabricant actuel ; MFT GP-N4 mai2026 p.25. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À la sortie d’une plongée, certains tissus contiennent plus d’azote qu’à l’équilibre de
@@ -236,6 +272,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -254,10 +291,14 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 55 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress, perfusion/effort/température, et Decompression
+      Illness sources précédemment reconsultées ; Suunto Zoop Novo Decompression dives (https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/),
+      fabricant actuel ; MFT GP-N4 mai2026 p.25. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Quel trajet décrit l’élimination du gaz inerte dissous dans les tissus lors d’une désaturation
-      normale ?
+    question: Quel trajet décrit la voie principale d’élimination du gaz inerte dissous dans les tissus
+      lors d’une désaturation normale ?
     choices:
     - text: Tissus → transport dissous dans le sang → alvéoles → expiration
       correct: true
@@ -276,6 +317,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -295,6 +337,10 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 55 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress, perfusion/effort/température, et Decompression
+      Illness sources précédemment reconsultées ; Suunto Zoop Novo Decompression dives (https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/),
+      fabricant actuel ; MFT GP-N4 mai2026 p.25. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel mécanisme relie une baisse trop rapide de pression à un accident de désaturation ?
@@ -315,6 +361,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -333,6 +380,10 @@ cards:
       N3 décembre 2025 p. 13/15 ; DAN The Physiology of Compressed-Gas Diving (https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/),
       Chapter 5 Factors Contributing to Decompression Stress (https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/contributing-factors/),
       et Decompression Illness ; consultés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 55 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress, perfusion/effort/température, et Decompression
+      Illness sources précédemment reconsultées ; Suunto Zoop Novo Decompression dives (https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/),
+      fabricant actuel ; MFT GP-N4 mai2026 p.25. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pourquoi l’effet de l’effort et du froid sur la désaturation dépend-il aussi du moment où
@@ -357,6 +408,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -378,6 +430,10 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 55 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress, perfusion/effort/température, et Decompression
+      Illness sources précédemment reconsultées ; Suunto Zoop Novo Decompression dives (https://www.suunto.com/Support/Product-support/suunto_zoop_novo/suunto_zoop_novo/features/decompression-dives/),
+      fabricant actuel ; MFT GP-N4 mai2026 p.25. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un Suunto Zoop Novo a suivi une plongée sans erreur et calcule sa désaturation. Quel lien
@@ -401,6 +457,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -420,6 +477,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 56 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet, Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/)
+      ; FFESSM CMPN PEC accident (https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur),
+      RIFAP mai2026 p.28–32 lu ; DAN cutaneousDCI et Barotrauma in Bonaire sources existantes contrôlées
+      N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur va bien à sa sortie de l’eau, puis présente des signes inhabituels deux heures
@@ -440,6 +502,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -461,6 +524,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 56 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet, Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/)
+      ; FFESSM CMPN PEC accident (https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur),
+      RIFAP mai2026 p.28–32 lu ; DAN cutaneousDCI et Barotrauma in Bonaire sources existantes contrôlées
+      N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Des marbrures en réseau et des démangeaisons inhabituelles apparaissent sur le tronc après
@@ -483,6 +551,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -502,6 +571,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 56 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet, Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/)
+      ; FFESSM CMPN PEC accident (https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur),
+      RIFAP mai2026 p.28–32 lu ; DAN cutaneousDCI et Barotrauma in Bonaire sources existantes contrôlées
+      N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un vertige persiste après la sortie de l’eau et s’accompagne d’une baisse d’audition. Quelle
@@ -524,6 +598,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -543,20 +618,24 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 56 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet, Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/)
+      ; FFESSM CMPN PEC accident (https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur),
+      RIFAP mai2026 p.28–32 lu ; DAN cutaneousDCI et Barotrauma in Bonaire sources existantes contrôlées
+      N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Après une plongée sans incident apparent, quelle observation est un signal d’alerte à transmettre,
-      même sans douleur ni paralysie ?
+    question: Une fatigue très inhabituelle apparaît après une plongée sans incident apparent, sans douleur
+      ni paralysie. Quelle valeur lui donner dans la recherche d’un accident de désaturation ?
     choices:
-    - text: Une fatigue disproportionnée accompagnée d’un changement inhabituel de comportement
+    - text: Elle reste compatible avec un ADD, même en l’absence de douleur ou de paralysie
       correct: true
-    - text: Une fatigue comparable aux sorties habituelles, avec un comportement inchangé
+    - text: Elle relève de la récupération de l’effort tant qu’il n’y a ni douleur ni paralysie
       correct: false
-    - text: Une fatigue modérée qui disparaît au repos, avec un comportement inchangé
-      correct: false
-    explanation: Une fatigue disproportionnée ou un changement de comportement peut accompagner un accident
-      de plongée, même sans douleur ni paralysie. Comparer avec l’état habituel, noter l’apparition et
-      demander une évaluation ; le brevet n’écarte pas ce changement.
+    explanation: Une fatigue disproportionnée peut accompagner un accident de désaturation, même sans
+      douleur ni paralysie. Comparer avec l’état habituel, noter son apparition et déclencher une alerte
+      pour une évaluation. Un changement inhabituel de comportement est un autre signe à transmettre ;
+      l’absence des manifestations les plus connues ne suffit pas à exclure l’accident.
 - id: n2-add-oxygene-001
   type: mcq
   anki_model: basic
@@ -564,6 +643,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -587,6 +667,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 56 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet, Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/)
+      ; FFESSM CMPN PEC accident (https://medical.ffessm.fr/pec-d-un-accident-de-plongee-bouteille-ou-recycleur),
+      RIFAP mai2026 p.28–32 lu ; DAN cutaneousDCI et Barotrauma in Bonaire sources existantes contrôlées
+      N3. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En cas de suspicion d’accident de désaturation, pourquoi administrer de l’oxygène en surface
@@ -609,6 +694,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -629,6 +715,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 57 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.28–32 PDF officiel relu (boisson/exclusions, acteursalerte, évolutionvictimes
+      et équipiers) ; PSE juillet2026 p.167 relu (position confortable, demi-assise si gênerespiratoire)
+      ; PSC juillet2026 p.36–37, DAN DCI pourvariabilité etorientation médicale. Aucune procédure opérationnelle
+      créée. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une victime de plongée consciente présente une gêne respiratoire, sans traumatisme identifié.
@@ -651,6 +742,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -673,6 +765,11 @@ cards:
       et Inner-Ear Barotrauma (https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/),
       consultés le 11 octobre 2026 ; RIFAP mai 2026 p. 28–32 ; PSC juillet 2026 p. 36–37 ; PSE juillet
       2026 p. 167 ; Suunto Zoop Novo manuel, modèle RGBM.
+    - 'Reprise N4 du 2026-10-12, lot 57 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.28–32 PDF officiel relu (boisson/exclusions, acteursalerte, évolutionvictimes
+      et équipiers) ; PSE juillet2026 p.167 relu (position confortable, demi-assise si gênerespiratoire)
+      ; PSC juillet2026 p.36–37, DAN DCI pourvariabilité etorientation médicale. Aucune procédure opérationnelle
+      créée. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Oxygène et alerte sont déjà engagés. Parmi ces victimes de plongée sans suspicion de lésion
@@ -695,6 +792,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -715,6 +813,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 57 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.28–32 PDF officiel relu (boisson/exclusions, acteursalerte, évolutionvictimes
+      et équipiers) ; PSE juillet2026 p.167 relu (position confortable, demi-assise si gênerespiratoire)
+      ; PSC juillet2026 p.36–37, DAN DCI pourvariabilité etorientation médicale. Aucune procédure opérationnelle
+      créée. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après sa sortie, un plongeur devient anormalement silencieux et répond lentement aux échanges.
@@ -737,6 +840,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -755,6 +859,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 57 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.28–32 PDF officiel relu (boisson/exclusions, acteursalerte, évolutionvictimes
+      et équipiers) ; PSE juillet2026 p.167 relu (position confortable, demi-assise si gênerespiratoire)
+      ; PSC juillet2026 p.36–37, DAN DCI pourvariabilité etorientation médicale. Aucune procédure opérationnelle
+      créée. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un ADD est suspecté chez un plongeur ; secours et oxygène sont engagés. Ses équipiers ont
@@ -776,6 +885,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -795,6 +905,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 57 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.28–32 PDF officiel relu (boisson/exclusions, acteursalerte, évolutionvictimes
+      et équipiers) ; PSE juillet2026 p.167 relu (position confortable, demi-assise si gênerespiratoire)
+      ; PSC juillet2026 p.36–37, DAN DCI pourvariabilité etorientation médicale. Aucune procédure opérationnelle
+      créée. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après l’alerte pour un accident de plongée, qui détermine la destination médicale de l’évacuation,
@@ -816,6 +931,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -834,20 +950,27 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 58 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress (exercice, profils, altitude), DCI, Flying After
+      Diving (https://dan.org/health-medicine/health-resources/health-safety-guidelines/flying-after-diving/),
+      apnée après bouteille ressourcesDAN indexées ; MFT GP-N4 mai2026 p.25 ; aucune nouvelle procédure
+      numérique. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Un profil calculé prévoit une limite de vitesse et des paliers obligatoires. Quelle conduite
-      conserve les conditions de ce calcul pendant une remontée normale ?
+    question: Pourquoi rallonger un palier de façon improvisée ne permet-il pas de considérer comme compensée
+      une remontée plus rapide que la limite prévue ?
     choices:
-    - text: Respecter la limite de vitesse et les obligations de paliers
+    - text: La baisse de pression pendant le trajet peut déjà favoriser des bulles avant le palier
       correct: true
-    - text: Rallonger le dernier palier pour compenser une vitesse supérieure à la limite
+    - text: L’azote ne commence à quitter les tissus qu’une fois la profondeur du dernier palier atteinte
       correct: false
-    - text: Ralentir davantage entre les niveaux pour raccourcir les paliers indiqués
+    - text: La désaturation dépend de la durée totale de remontée, quelle que soit sa répartition entre
+        trajet et palier
       correct: false
-    explanation: Vitesse et paliers sont deux conditions du profil de décompression. On ne les échange
-      pas par une compensation improvisée ; en cas d’anomalie, la procédure prévue s’applique. Les indications
-      de l’ordinateur ou les règles des tables restent la référence utilisée.
+    explanation: 'Les échanges gazeux et la sursaturation évoluent tout au long de la remontée, pas seulement
+      pendant les paliers. Une baisse trop rapide de pression peut favoriser des bulles avant d’arriver
+      au palier. Additionner des minutes ensuite ne valide pas une compensation improvisée : appliquer
+      les procédures du moyen de désaturation utilisé en cas d’anomalie.'
 - id: n2-add-effort-surface-001
   type: mcq
   anki_model: basic
@@ -855,6 +978,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -875,6 +999,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 58 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress (exercice, profils, altitude), DCI, Flying After
+      Diving (https://dan.org/health-medicine/health-resources/health-safety-guidelines/flying-after-diving/),
+      apnée après bouteille ressourcesDAN indexées ; MFT GP-N4 mai2026 p.25 ; aucune nouvelle procédure
+      numérique. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pourquoi un effort intense juste après une plongée ne doit-il pas être utilisé pour accélérer
@@ -897,6 +1026,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -914,6 +1044,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 58 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress (exercice, profils, altitude), DCI, Flying After
+      Diving (https://dan.org/health-medicine/health-resources/health-safety-guidelines/flying-after-diving/),
+      apnée après bouteille ressourcesDAN indexées ; MFT GP-N4 mai2026 p.25 ; aucune nouvelle procédure
+      numérique. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après une plongée bouteille, pourquoi une séance d’apnée profonde peut-elle ajouter un risque
@@ -936,6 +1071,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -956,6 +1092,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 58 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress (exercice, profils, altitude), DCI, Flying After
+      Diving (https://dan.org/health-medicine/health-resources/health-safety-guidelines/flying-after-diving/),
+      apnée après bouteille ressourcesDAN indexées ; MFT GP-N4 mai2026 p.25 ; aucune nouvelle procédure
+      numérique. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Deux plongées ont la même durée et la même profondeur maximale, mais l’une comporte plusieurs
@@ -978,6 +1119,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -996,6 +1138,11 @@ cards:
       mai 2026 p. 29–32 ; DAN Decompression Illness et Chapter 5 Factors Contributing to Decompression
       Stress (sections Workload, Postdive Air Travel), Flying After Diving et apnée après bouteille, consultés
       le 11 octobre 2026 ; MFT N3 décembre 2025 p. 9/13.
+    - 'Reprise N4 du 2026-10-12, lot 58 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Factors Contributing to Decompression Stress (exercice, profils, altitude), DCI, Flying After
+      Diving (https://dan.org/health-medicine/health-resources/health-safety-guidelines/flying-after-diving/),
+      apnée après bouteille ressourcesDAN indexées ; MFT GP-N4 mai2026 p.25 ; aucune nouvelle procédure
+      numérique. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur sans symptôme a fait plusieurs plongées sans palier dans la journée. Quel intervalle
@@ -1019,6 +1166,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::11
   - add
@@ -1037,6 +1185,12 @@ cards:
       Tables et mode d’emploi, juillet 2005, p. 1–2/4, https://ffessm-ctr-aura.fr/wp-content/uploads/2019/03/MN90.pdf
       relu le 11 octobre 2026 ; boutique fédérale tables immergeables actuelle (15–17 m/min) ; DAN Decompression
       Illness ; MFT N3 décembre 2025 p. 13, exercices MN90 distincts des usages ordinateur.
+    - 'Reprise N4 du 2026-10-12, lot 59 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN DCI et RIFAPmai2026 pourdouleurarticulaire ; Suunto Zoop Novo pagesfabricant vitesse (https://www.suunto.com/fr-fr/Assistance/Assistance-produit/suunto_zoop_novo/suunto_zoop_novo/caracteristiques/vitesse-de-remontee/)
+      ; Peregrine français2021 p.16/25–26 manuel déjàcontrôlé N3 pouraffichages etgaz ; actualisation
+      sources avion/apnée lot58 : https://world.dan.org/health-medicine/health-resource/health-safety-guidelines/guidelines-for-flying-after-diving/
+      et https://dan.org/alert-diver/article/could-breath-hold-diving-after-scuba-cause-decompression-sickness/
+      ouvertsentièrement. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une douleur profonde inhabituelle à l’épaule apparaît après plongée et portage du bloc.

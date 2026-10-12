@@ -4,6 +4,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::11
   status: reviewed
@@ -16,6 +17,10 @@ cards:
     - 'Relecture 2026-10-11, lot 20 : Archimède, calculs 18−16 et 20−19 résolus séparément ; SCUBAPRO
       notice détendeurs RevQ 07/2025 p. 5 et 16, version référencée sur https://scubapro.johnsonoutdoors.com/us/manuals
       (consultée 2026-10-11).'
+    - 'Reprise N4 du 2026-10-12, lot 99 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.307 méduse ; SCUBAPRO RevQ juillet2025 p.5,16 relu ; Archimède, caps inverses
+      et composantes géométriques ; MFT GP-N4 matériel, milieu et orientation. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'En eau de masse volumique 1 kg/L, deux blocs fermés ont ces données à l’instant considéré
@@ -37,6 +42,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::11
   status: reviewed
@@ -50,6 +56,13 @@ cards:
     - 'Relecture 2026-10-11, lot 20 : Archimède, calculs 18−16 et 20−19 résolus séparément ; SCUBAPRO
       notice détendeurs RevQ 07/2025 p. 5 et 16, version référencée sur https://scubapro.johnsonoutdoors.com/us/manuals
       (consultée 2026-10-11).'
+    - 'Reprise N4, 2026-10-12 : notice SCUBAPRO RevQ juillet 2025 p.5,7,16 relue ; MFT GP-N4 mai 2026
+      p.28–29 ; objectif n4-cadre-regle-norme-001 absorbé ; docs/reviews/n4/LOT_04_CADRE.md ; ID, modèle,
+      recto/verso conservés'
+    - 'Reprise N4 du 2026-10-12, lot 99 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.307 méduse ; SCUBAPRO RevQ juillet2025 p.5,16 relu ; Archimède, caps inverses
+      et composantes géométriques ; MFT GP-N4 matériel, milieu et orientation. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un ensemble SCUBAPRO conforme à sa notice RevQ est marqué EN250A. En eau à 12 °C, quelle

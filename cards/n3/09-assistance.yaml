@@ -4,6 +4,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -18,6 +19,10 @@ cards:
     - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
       ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
       ; revue N3 lot 15'
+    - 'Reprise N4 du 2026-10-12, lot 92 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 prise en charge, comportements observables et gaz ; RIFAP mai2026 p.10–14,28–32
+      ; DAN Emergency Oxygen and Oxygen Toxicity 01/11/2011 consulté, CNS/hyperbare versus oxygène de
+      secours en surface. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À 35 m, un équipier devient agité, ventile fortement et répond mal aux échanges, sans faire
@@ -36,6 +41,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -52,6 +58,10 @@ cards:
     - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
       ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
       ; revue N3 lot 15'
+    - 'Reprise N4 du 2026-10-12, lot 92 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 prise en charge, comportements observables et gaz ; RIFAP mai2026 p.10–14,28–32
+      ; DAN Emergency Oxygen and Oxygen Toxicity 01/11/2011 consulté, CNS/hyperbare versus oxygène de
+      secours en surface. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un équipier ne répond plus aux échanges mais continue à respirer sur son détendeur. Sur
@@ -72,6 +82,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -81,25 +92,28 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 92 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 prise en charge, comportements observables et gaz ; RIFAP mai2026 p.10–14,28–32
+      ; DAN Emergency Oxygen and Oxygen Toxicity 01/11/2011 consulté, CNS/hyperbare versus oxygène de
+      secours en surface. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Le bloc d’un équipier est inutilisable pour tout le retour ; il passe sur la source de secours
-      de son binôme. Quelle information devient déterminante pour le gaz du retour partagé ?
+      de son binôme. Quelle information détermine le stock disponible pour le retour partagé ?
     choices:
     - text: La pression et le volume du bloc qui alimente maintenant les deux plongeurs
       correct: true
-    - text: La moyenne des pressions des deux blocs, y compris celui devenu inutilisable
+    - text: La seule pression du bloc donneur, quelle que soit sa capacité intérieure
       correct: false
-    - text: La seule pression du bloc du receveur avant l’incident
-      correct: false
-    explanation: Le retour partagé est alimenté par le stock réellement accessible du donneur. Le débit
-      cumulé et toutes les phases de retour sont pris en compte ; la pression d’un bloc inutilisable n’augmente
-      pas le gaz disponible.
+    explanation: 'Le stock accessible se calcule à partir de la pression et de la capacité du bloc donneur
+      : à pression égale, un 15 L contient plus de gaz qu’un 12 L. Le débit cumulé et toutes les phases
+      du retour sont pris en compte. Le gaz du bloc devenu inutilisable ne s’ajoute pas au stock disponible.'
 - id: n3-assistance-flottabilite-double-001
   type: mcq
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -117,6 +131,10 @@ cards:
     - 'SCUBAPRO BCS Manual, sections 8–9, p.16–18, inflateur, purges et soupape de surpression, consulté
       2026-10-10 : https://johnsonoutdoors.widen.net/content/dpvkr30pah/pdf/SP_BC_Manual_FR.pdf ; fonction
       physique, aucune périodicité d’entretien reprise'
+    - 'Reprise N4 du 2026-10-12, lot 93 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 assistance ; RIFAP mai2026 p.10–14,22–32 relu ; SCUBAPRO BCS Manual §8–9 purges et
+      flottabilité, principe du gilet différent du gilet de sauvetage ; gaz parfait, stocks refaits. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant une remontée assistée, le sauveteur doit surveiller la flottabilité des deux gilets.
@@ -138,6 +156,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -147,6 +166,10 @@ cards:
     - N3-S01 — MFT N3 FFESSM, décembre 2025, p.9–10,13
     - N3-S04 — RIFAP FFESSM, mai 2026, p.10–20
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 93 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 assistance ; RIFAP mai2026 p.10–14,22–32 relu ; SCUBAPRO BCS Manual §8–9 purges et
+      flottabilité, principe du gilet différent du gilet de sauvetage ; gaz parfait, stocks refaits. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans une palanquée de trois, A assiste B en difficulté. C est disponible et dispose de gaz.
@@ -166,6 +189,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -182,6 +206,10 @@ cards:
     - 'MFT N3 décembre 2025, p.9–10,13 : manifestations observables, prise en charge, gilets et vitesse
       ; RIFAP mai 2026 p.10–14, protection/ventilation/flottabilité/remorquage, relus localement le 2026-10-10
       ; revue N3 lot 15'
+    - 'Reprise N4 du 2026-10-12, lot 93 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 assistance ; RIFAP mai2026 p.10–14,22–32 relu ; SCUBAPRO BCS Manual §8–9 purges et
+      flottabilité, principe du gilet différent du gilet de sauvetage ; gaz parfait, stocks refaits. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Avant immersion, un exercice prévoit un retour partagé de 1 000 L à 1 bar, mais seulement
@@ -203,6 +231,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::09
   status: reviewed
@@ -214,6 +243,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Reprise N4 du 2026-10-12, lot 93 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 assistance ; RIFAP mai2026 p.10–14,22–32 relu ; SCUBAPRO BCS Manual §8–9 purges et
+      flottabilité, principe du gilet différent du gilet de sauvetage ; gaz parfait, stocks refaits. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À la surface, avant tractage d’un plongeur incapable de se maintenir seul, quels deux objectifs

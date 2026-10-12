@@ -1,0 +1,133 @@
+cards:
+- id: n4-desaturation-certification-logiciel-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : absence de certification des logiciels, dissolution et procédures
+      différentes ; vérifié le 2026-10-12'
+    - 'N4-S07 — Jourdren, Pressions partielles et dissolution p.10–13 : cinétique par périodes ; modèles
+      mathématiques fictifs, pas tables opérationnelles'
+    - 'AFNOR — NF EN 13319 juin 2000, fiche officielle en vigueur et résumé du champ temps/profondeur
+      : https://www.boutique.afnor.org/en-gb/standard/nf-en-13319/diving-accessories-depth-gauges-and-combined-depth-and-time-measuring-devic/fa048402/17312
+      ; consulté 2026-10-12'
+    - Suunto Zoop Novo, notice officielle rubrique Decompression dives (ceiling) ; Shearwater Peregrine
+      français RevB 2020 p.15–16,25 (palier nominal) ; affichages fictifs distincts ; références déjà
+      acquises N2/N3
+    - 'Revue individuelle : docs/reviews/n4/LOT_09_DESATURATION.md'
+    fact_check: pass
+  fr:
+    question: Sur un ordinateur de plongée, quelles fonctions sont couvertes par la conformité EN 13319
+      ?
+    choices:
+    - text: La mesure du temps et de la profondeur
+      correct: true
+    - text: Le calcul des tensions des compartiments et des paliers
+      correct: false
+    - text: Le choix des Gradient Factors et des vitesses de remontée
+      correct: false
+    explanation: 'EN 13319 fixe des exigences relatives aux mesures de profondeur et de temps. Ce marquage
+      ne certifie pas l’algorithme de désaturation : le logiciel utilise un modèle et des paramètres,
+      dont le résultat ne constitue pas une mesure de la charge réelle du plongeur. Les Gradient Factors
+      ajustent des limites de modèle, pas la précision du profondimètre.'
+- id: n4-desaturation-charge-deux-phases-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : absence de certification des logiciels, dissolution et procédures
+      différentes ; vérifié le 2026-10-12'
+    - 'N4-S07 — Jourdren, Pressions partielles et dissolution p.10–13 : cinétique par périodes ; modèles
+      mathématiques fictifs, pas tables opérationnelles'
+    - 'AFNOR — NF EN 13319 juin 2000, fiche officielle en vigueur et résumé du champ temps/profondeur
+      : https://www.boutique.afnor.org/en-gb/standard/nf-en-13319/diving-accessories-depth-gauges-and-combined-depth-and-time-measuring-devic/fa048402/17312
+      ; consulté 2026-10-12'
+    - Suunto Zoop Novo, notice officielle rubrique Decompression dives (ceiling) ; Shearwater Peregrine
+      français RevB 2020 p.15–16,25 (palier nominal) ; affichages fictifs distincts ; références déjà
+      acquises N2/N3
+    - 'Revue individuelle : docs/reviews/n4/LOT_09_DESATURATION.md'
+    fact_check: pass
+  fr:
+    question: Dans un modèle à compartiment unique, la tension initiale du gaz inerte vaut 1 bar. L’équilibre
+      cible vaut 3 bar pendant une période, puis 5 bar pendant une autre période. Les changements sont
+      instantanés. Quelle tension obtient-on à la fin ?
+    choices:
+    - text: 3,5 bar
+      correct: true
+    - text: 3,0 bar
+      correct: false
+    - text: 4,0 bar
+      correct: false
+    explanation: 'Une période comble la moitié de l’écart à l’équilibre de la phase. Première phase :
+      1 + (3 − 1)/2 = 2 bar. La seconde commence à 2 bar : 2 + (5 − 2)/2 = 3,5 bar. 3 bar recommence la
+      seconde phase à 1 bar ; 4 bar applique deux périodes sous l’équilibre final de 5 bar.'
+- id: n4-desaturation-decharge-transition-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : absence de certification des logiciels, dissolution et procédures
+      différentes ; vérifié le 2026-10-12'
+    - 'N4-S07 — Jourdren, Pressions partielles et dissolution p.10–13 : cinétique par périodes ; modèles
+      mathématiques fictifs, pas tables opérationnelles'
+    - 'AFNOR — NF EN 13319 juin 2000, fiche officielle en vigueur et résumé du champ temps/profondeur
+      : https://www.boutique.afnor.org/en-gb/standard/nf-en-13319/diving-accessories-depth-gauges-and-combined-depth-and-time-measuring-devic/fa048402/17312
+      ; consulté 2026-10-12'
+    - Suunto Zoop Novo, notice officielle rubrique Decompression dives (ceiling) ; Shearwater Peregrine
+      français RevB 2020 p.15–16,25 (palier nominal) ; affichages fictifs distincts ; références déjà
+      acquises N2/N3
+    - 'Revue individuelle : docs/reviews/n4/LOT_09_DESATURATION.md'
+    fact_check: pass
+  fr:
+    question: Un compartiment fictif a une tension initiale de 0,8 bar d’azote. Il passe deux périodes
+      vers un équilibre de 4 bar, puis une période vers un équilibre de 0,8 bar. Quelle tension a-t-il
+      à la fin ? Ces valeurs sont les tensions d’équilibre données, pas les pressions ambiantes.
+    choices:
+    - text: 2,0 bar
+      correct: true
+    - text: 1,6 bar
+      correct: false
+    - text: 3,2 bar
+      correct: false
+    explanation: 'Après deux périodes au fond, la tension vaut 4 − (4 − 0,8)/4 = 3,2 bar. La phase suivante
+      élimine la moitié de l’écart à 0,8 bar : 0,8 + (3,2 − 0,8)/2 = 2 bar. 1,6 bar divise toute la tension
+      par deux, alors que l’équilibre n’est pas nul ; 3,2 bar omet la phase de décharge.'
+- id: n4-desaturation-anticipation-arrets-001
+  type: mcq
+  deck: Désaturation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : préparation et gestion de procédures différentes ; contrôlé
+      le 2026-10-12'
+    - 'Exercice original à coûts imposés : modèles de gaz N2/N3 et évolution fictive du coût de retour
+      ; résolution séparée dans le lot 10'
+    - 'Revue individuelle : docs/reviews/n4/LOT_10_DESATURATION.md'
+    fact_check: pass
+  fr:
+    question: Exercice fictif à 30 m, surface à 1 bar et +1 bar/10 m. Après retrait des stocks finaux,
+      A dispose de 1 000 L à 1 bar et B de 1 200 L. Le retour complet coûterait maintenant 700 L pour
+      A et 900 L pour B. Chaque minute supplémentaire au fond ajoute au coût futur du retour 50 L pour
+      A et 20 L pour B. Leurs débits de référence sont 20 et 25 L/min à 1 bar. Qui limite le temps supplémentaire
+      au fond, arrondi au dixième ? Gaz parfait isotherme, seuls les gaz respirés sont comptés.
+    choices:
+    - text: A, avec 2,3 min supplémentaires
+      correct: true
+    - text: B, avec 2,5 min supplémentaires
+      correct: false
+    - text: A, avec 3,8 min supplémentaires
+      correct: false
+    explanation: 'Pour A, chaque minute coûte 20 × 4 = 80 L au fond, plus 50 L ajoutés au retour : (1
+      000 − 700)/(80 + 50) = 2,31 min. Pour B : (1 200 − 900)/(25 × 4 + 20) = 2,5 min. A limite donc le
+      groupe. 3,8 min pour A ne compte que le gaz respiré au fond et laisse inchangé le coût du retour.'

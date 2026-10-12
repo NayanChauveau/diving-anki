@@ -1,0 +1,199 @@
+cards:
+- id: n4-guide-controle-materiel-pe-001
+  type: mcq
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.16–18, conduite de palanquée ; vérifié le 2026-10-12
+    - N4-S09 — Jourdren, briefing et débriefing septembre 2025 p.4–10 ; confronté au MFT actuel ; aucune
+      position universelle ni durée obligatoire de briefing reprise
+    - 'Revue individuelle : docs/reviews/n4/LOT_05_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    question: Un PE utilise pour la première fois un gilet dont les commandes diffèrent de son équipement
+      habituel. Quel contrôle complète utilement l’essai de gonflage avant la mise à l’eau ?
+    choices:
+    - text: Lui faire repérer et actionner les commandes de gonflage et de purge
+      correct: true
+    - text: Lui faire vérifier la pression et l’autonomie affichées sur son ordinateur
+      correct: false
+    - text: Lui faire contrôler le serrage de l’étrier et les flexibles du détendeur
+      correct: false
+    explanation: L’essai de gonflage ne démontre pas que le plongeur sait purger ce gilet. Le guide vérifie
+      la prise en main des commandes que le PE devra utiliser. La pression et le détendeur méritent aussi
+      un contrôle, mais ne résolvent pas cette difficulté de manipulation.
+- id: n4-guide-regroupement-mise-eau-001
+  type: mcq
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.16–18, conduite de palanquée ; vérifié le 2026-10-12
+    - N4-S09 — Jourdren, briefing et débriefing septembre 2025 p.4–10 ; confronté au MFT actuel ; aucune
+      position universelle ni durée obligatoire de briefing reprise
+    - 'Revue individuelle : docs/reviews/n4/LOT_05_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    question: Lors d’une mise à l’eau depuis un bateau au mouillage, un courant éloigne les plongeurs
+      de l’échelle. Une ligne de vie adaptée est installée et désignée au briefing. Où le guide organise-t-il
+      le regroupement avant immersion ?
+    choices:
+    - text: Au point prévu sur la ligne de vie, tous les plongeurs réunis
+      correct: true
+    - text: Sous l’échelle, après que chaque plongeur a descendu à 3 m
+      correct: false
+    - text: En surface au-dessus du fond, à l’issue d’une dérive du groupe
+      correct: false
+    explanation: La ligne de vie aide à rester relié au support malgré le courant. Le guide regroupe la
+      palanquée au point convenu et vérifie qu’elle est prête avant l’immersion. Une descente individuelle
+      ou une dérive non prévue ne remplace pas cette organisation.
+- id: n4-guide-descente-support-001
+  type: mcq
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.16–18 : descente adaptée au site et au niveau, cohésion, suivi des
+      plongeurs ; contrôlé le 2026-10-12'
+    - N4-S09 — Jourdren, briefing/débriefing septembre 2025 p.6–9 ; prescriptions de position non universalisées
+    - 'Calculs originaux : gaz parfait isotherme, volumes ramenés à 1 bar ; résolution distincte consignée
+      dans le lot 06'
+    - 'Revue individuelle : docs/reviews/n4/LOT_06_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    question: Trois PE débutent sur un site peu visible. Ils savent descendre le long d’un bout mais peinent
+      à maintenir leur profondeur en pleine eau. Un pendeur adapté est disponible. Quelle organisation
+      de descente répond le mieux à ces difficultés ?
+    choices:
+    - text: Une descente groupée au pendeur, avec contrôles de contact et de profondeur
+      correct: true
+    - text: Une descente groupée dans le bleu, avec contrôle de profondeur aux instruments
+      correct: false
+    - text: Une descente par petits groupes successifs au pendeur, avec rendez-vous au fond
+      correct: false
+    explanation: Le pendeur fournit un repère de profondeur et de regroupement utile à ces plongeurs.
+      Le guide conserve le groupe pendant la descente. Les instruments ne compensent pas seuls la difficulté
+      de stabilisation et de contact ; faire descendre des groupes successifs prive le guide de la surveillance
+      simultanée de tous les PE.
+- id: n4-guide-trois-gaz-001
+  type: mcq
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.16–18 : descente adaptée au site et au niveau, cohésion, suivi des
+      plongeurs ; contrôlé le 2026-10-12'
+    - N4-S09 — Jourdren, briefing/débriefing septembre 2025 p.6–9 ; prescriptions de position non universalisées
+    - 'Calculs originaux : gaz parfait isotherme, volumes ramenés à 1 bar ; résolution distincte consignée
+      dans le lot 06'
+    - 'Revue individuelle : docs/reviews/n4/LOT_06_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    question: 'Exercice à 20 m : A a 12 L à 120 bar et consomme 20 L/min à 1 bar ; B, 15 L à 110 bar et
+      25 L/min ; C, 10 L à 140 bar et 30 L/min. Chacun conserve 20 bar finaux. Le retour complet consommera
+      encore 600 L pour A, 600 L pour B et 500 L pour C, ramenés à 1 bar. Qui limite le temps supplémentaire
+      au fond, arrondi au dixième ? Gaz parfait isotherme, 1 bar en surface et +1 bar/10 m ; seuls les
+      gaz respirés sont comptés.'
+    choices:
+    - text: C, avec 7,8 min supplémentaires
+      correct: true
+    - text: B, avec 10,0 min supplémentaires
+      correct: false
+    - text: C, avec 13,3 min supplémentaires
+      correct: false
+    explanation: 'A : [12 × (120 − 20) − 600] / (20 × 3) = 10 min. B : [15 × (110 − 20) − 600] / (25 ×
+      3) = 10 min. C : [10 × (140 − 20) − 500] / (30 × 3) = 7,78 min. C limite le groupe malgré la pression
+      la plus élevée. 13,3 min pour C omet le gaz du retour.'
+- id: n4-guide-gaz-observe-001
+  type: mcq
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.16–18 : descente adaptée au site et au niveau, cohésion, suivi des
+      plongeurs ; contrôlé le 2026-10-12'
+    - N4-S09 — Jourdren, briefing/débriefing septembre 2025 p.6–9 ; prescriptions de position non universalisées
+    - 'Calculs originaux : gaz parfait isotherme, volumes ramenés à 1 bar ; résolution distincte consignée
+      dans le lot 06'
+    - 'Revue individuelle : docs/reviews/n4/LOT_06_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    question: Dans un exercice à 20 m, le bloc de 12 L du guide passe de 150 à 130 bar en 4 min. On attribue
+      toute cette baisse à la respiration. Pour un retour partagé, il conserve ce débit observé ; l’équipier
+      consomme 25 L/min à 1 bar. Le retour dure 4 min à pression absolue moyenne de 2 bar, avec 20 bar
+      finaux dans le bloc du guide. Quel seuil de départ finance ce retour ? Gaz parfait isotherme, surface
+      à 1 bar et +1 bar/10 m.
+    choices:
+    - text: 50 bar
+      correct: true
+    - text: 65 bar
+      correct: false
+    - text: 30 bar
+      correct: false
+    explanation: 'Le guide a consommé 12 × 20 = 240 L à 1 bar en 4 min à 3 bar : son débit de référence
+      vaut 240 / (4 × 3) = 20 L/min. Le retour partagé coûte (20 + 25) × 2 × 4 = 360 L, soit 30 bar du
+      bloc. Avec les 20 bar finaux, le seuil vaut 50 bar. 65 bar maintient à tort les 3 bar du fond pendant
+      le retour ; 30 bar omet le stock final.'
+- id: n4-guide-arret-observation-001
+  type: basic
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.17–18 : surveillance, mise en valeur du site, fin de plongée et retour
+      jusqu’à la sortie de l’eau ; contrôlé le 2026-10-12'
+    - N4-S09 — Jourdren, briefing et débriefing septembre 2025 p.8–10 ; aucune pénétration ni position
+      universelle prescrite
+    - 'Revue individuelle : docs/reviews/n4/LOT_07_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    front: Vous guidez trois PE devant une petite cavité, observée uniquement depuis l’extérieur. Une
+      seule personne peut s’approcher de l’ouverture à la fois ; le guide ne voit pas un plongeur placé
+      derrière le rocher. Proposez une organisation de l’observation qui conserve la surveillance de tous
+      et évite les contacts avec le fond.
+    back: 'Un point d’attente commun visible du guide, un passage à tour de rôle devant l’ouverture et
+      un regroupement avant de repartir
+
+
+      Le guide choisit une zone d’attente où chacun peut rester stabilisé sans appui. Il place le groupe
+      et se place lui-même de façon à garder tous les PE visibles, y compris celui qui observe. Il organise
+      les tours sans passage derrière le rocher ni entrée dans la cavité, puis rassemble tout le monde
+      avant de poursuivre.'
+- id: n4-guide-debriefing-001
+  type: basic
+  deck: Conduite de palanquée
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.18 : débriefing factuel, explication des interventions, rôle de conseil
+      ; vérifié le 2026-10-12'
+    - 'N4-S09 — Jourdren, septembre 2025 p.10 : conseils issus des observations, pas jugement de personne'
+    - 'Revue individuelle : docs/reviews/n4/LOT_08_GUIDAGE.md'
+    fact_check: pass
+  fr:
+    front: À deux reprises, un PE s’est éloigné du groupe en photographiant. Le guide lui a fait signe
+      de revenir, sans autre incident. Formulez un conseil de débriefing qui s’appuie sur ce fait et donne
+      une amélioration concrète pour la prochaine exploration.
+    back: 'Décrire les deux éloignements et convenir de vérifier le contact avec le groupe avant et pendant
+      les prises de vue
+
+
+      Exemple : « Pendant les photos, tu t’es éloigné deux fois et je t’ai demandé de revenir. Pour garder
+      le contact, vérifie régulièrement où se trouve le groupe et préviens-moi avant de t’arrêter pour
+      une photo. » Le conseil explique l’intervention à partir d’un fait observé et propose un comportement
+      précis. Il ne déduit pas un manque général de compétence ou une intention du plongeur.'

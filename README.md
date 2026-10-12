@@ -1,10 +1,10 @@
 # Anki — Théorie de plongée
 
-Un deck Anki en français pour réviser la théorie des **niveaux 2 et 3 de plongée**, dans le cadre
+Un deck Anki en français pour réviser la théorie des **niveaux 2, 3 et 4 de plongée**, dans le cadre
 français et du cursus FFESSM : réglementation, physique, prévention des accidents,
 désaturation, matériel et préparation de la plongée.
 
-Le paquet comprend **461 cartes revues**, toutes en QCM à réponse unique,
+Le paquet comprend **585 cartes revues : 583 QCM à réponse unique et deux situations à réponse libre**,
 avec des explications, des cas concrets et des exercices de calcul. Il peut être téléchargé
 et utilisé directement dans Anki. Le dépôt contient aussi les sources des cartes et les
 outils permettant de les vérifier, de les modifier et de construire les paquets.
@@ -86,13 +86,15 @@ Le deck accompagne les cours et la formation pratique. Les cartes précisent le 
 quand la réponse dépend du pays, du cursus, de l’âge, d’un modèle de matériel ou des
 hypothèses d’un exercice.
 
-### Réviser N2, puis les compléments N3
+### Réviser N2, puis les compléments N3 et N4
 
 ```text
 Plongée
 ├── N2 — 339 cartes de base
 │   └── Catégories thématiques
-└── N3 — 122 cartes supplémentaires
+├── N3 — 122 cartes supplémentaires
+│   └── Catégories thématiques
+└── N4 — 124 cartes supplémentaires
     └── Catégories thématiques
 ```
 
@@ -107,8 +109,9 @@ pour chaque niveau ; aucune inclusion automatique de tout N2 en N3/N4.
 
 Dans **Parcourir**, `tag:diving-theory tag:level::N3` permet de consulter l’ensemble
 du programme N3. Le [guide des niveaux](docs/SHARED_COLLECTION.md) détaille le rangement,
-les réglages embarqués et la migration. La future partie N4 suivra la même logique
-pour ses connaissances supplémentaires, sans promettre un nombre de cartes à ce stade.
+les réglages embarqués et la migration. Le dossier N4 suit la même logique : **124 créations** et **330 reprises** conservées
+dans N2/N3, soit **454 cartes pertinentes pour N4**. Il complète les niveaux antérieurs.
+Dans Parcourir, `tag:diving-theory tag:level::N4` affiche cette sélection sans copier de carte.
 
 ## Mettre à jour et conserver sa progression
 
@@ -132,22 +135,26 @@ Le déplacement conserve les notes et leur progression.
 ### Cartes fusionnées ou retirées dans une nouvelle version
 
 **Un import `.apkg` ne supprime ni ne suspend automatiquement les anciennes cartes absentes
-du nouveau paquet.** Une ancienne installation peut donc conserver plus de 461 cartes.
+du nouveau paquet.** Une ancienne installation peut donc conserver plus de 585 cartes.
 
 La [revue finale N2](docs/reviews/REVUE_FINALE_N2.md#fusions--aucun-objectif-utile-abandonné)
 indique les questions fusionnées et leurs remplacements. Si elles figurent encore dans
 sa collection, les retrouver dans **Parcourir** et les suspendre. Elles restent consultables
 avec leur historique, mais ne reviennent plus dans les révisions.
 Les identifiants réservés sont conservés dans le [registre des retraits](docs/reviews/RETIREMENTS_N2.yaml).
-Une première installation du paquet actuel contient uniquement les 461 cartes actives.
+Une première installation du paquet actuel contient uniquement les 585 cartes actives.
 
 ## Contenu et niveaux disponibles
 
 Le fichier unique **`diving-fr.apkg`** contient les cartes revues de tous les niveaux.
-Le build actuel contient **461 notes uniques** : **339 N2** et **357 N3**, dont
-**235 communes N2/N3** et **122 compléments dans N3**. Le contenu théorique N3 est réalisé
-et complété après recoupement des PDF ; la [revue de couverture](docs/reviews/n3/COUVERTURE_N3.md) détaille les reprises,
-fusions, sources et limites pratiques. Aucune carte N4 n’est encore incluse.
+Le build du dépôt contient **585 notes uniques** : 339 dans N2, 122 compléments dans N3
+et 124 compléments dans N4. La pertinence par niveau est indiquée par les tags :
+**357 cartes N3** (235 reprises + 122 créations) et **454 cartes N4** (330 reprises + 124 créations).
+Le contenu théorique N3 a été complété après recoupement des PDF ; la
+[revue N3](docs/reviews/n3/COUVERTURE_N3.md) et la
+[couverture N4](docs/reviews/n4/COUVERTURE_PLAN.md) détaillent reprises, fusions et limites pratiques.
+Les cartes préparent les connaissances ; les gestes, nœuds et compétences de guide restent
+à travailler et à évaluer en formation.
 Les nouveaux contenus validés rejoindront ce même fichier ; les reprises conservent leur
 identité et leur historique. La release en ligne reflète le dernier push ayant réussi la CI.
 
@@ -156,18 +163,23 @@ les objectifs, les reprises du N2 et les vérifications ; chaque objectif est tr
 [le bilan de réalisation](docs/reviews/n3/OBJECTIFS_N3.csv).
 
 Les cartes sont regroupées par catégorie sous chaque niveau. Le tableau ci-dessous
-compte les connaissances uniques de toute la collection, N2 et compléments N3 réunis :
+compte les connaissances uniques de toute la collection, N2 et compléments N3/N4 réunis :
 
 | Catégorie | Cartes | Thèmes |
 | --- | ---: | --- |
-| Réglementation | 69 | Prérogatives, âges, organisation, équipements requis, documents et environnement |
+| Réglementation | 89 | Prérogatives, âges, organisation, équipements requis, documents et environnement |
 | Physique | 103 | Pressions, flottabilité, compression des gaz, consommation, autonomie et vision sous l’eau |
-| Prévention des accidents | 97 | Barotraumatismes, essoufflement, froid et narcose |
-| Désaturation | 106 | Mécanismes et accidents de désaturation, tables MN90, ordinateurs et remontées anormales |
-| Matériel et préparation | 86 | Blocs, gonflage, détendeurs, pannes, orientation et préparation collective |
+| Prévention des accidents | 109 | Barotraumatismes, essoufflement, froid et narcose |
+| Désaturation | 110 | Mécanismes et accidents de désaturation, tables MN90, ordinateurs et remontées anormales |
+| Matériel et préparation | 119 | Blocs, gonflage, détendeurs, pannes, orientation et préparation collective |
+| Anatomie et physiologie | 26 | Ventilation, échanges, circulation et shunts |
+| Conduite de palanquée | 7 | Accueil, surveillance, adaptation et débriefing |
+| Matelotage et repérage | 15 | Nœuds, mouillage, carte, GPS/sonar et marée |
+| Environnement | 7 | Filtration, milieux, biodiversité et protection |
 
 Les chapitres restent identifiés dans les fichiers et les tags : `chapitre::01` à
-`chapitre::19` pour N2, `chapitre-n3::01` à `chapitre-n3::12` pour les compléments N3.
+`chapitre::19` pour N2, `chapitre-n3::01` à `chapitre-n3::12` pour les compléments N3, et `chapitre-n4::01`
+à `chapitre-n4::09` pour les créations N4.
 Les tables N3 réutilisent le fichier N2, sans doublons ni sous-decks supplémentaires.
 Les reprises conservent aussi leurs anciens tags de chapitre et leurs IDs `n3-*` ;
 le classement actuel dépend de `levels`, pas du préfixe de leur ID.
@@ -185,6 +197,7 @@ angles ou exercices utiles. Les cartes nouvelles restent en `draft` et sont excl
 builds ordinaires jusqu’à leur revue factuelle et pédagogique.
 
 - [Plan d’implémentation N2](docs/IMPLEMENTATION_N2.md).
+- [Plan et bilan N4](docs/IMPLEMENTATION_N4.md), [couverture](docs/reviews/n4/COUVERTURE_PLAN.md).
 - [Couverture des 334 objectifs suivis](docs/reviews/COUVERTURE_FINALE_N2.md).
 - [Dernière revue intégrale et corrections](docs/reviews/REVUE_FINALE_N2.md).
 - [Règles de contenu](CONTENT_GUIDELINES.md) et [guide de conception des cartes](docs/CARD_DESIGN.md).
@@ -313,7 +326,7 @@ schéma JSON, pre-commit et CI GitHub.
 ```text
 cards/n2/              Cartes N2, un fichier YAML par chapitre
 cards/n3/              Cartes spécifiques N3 revues
-cards/n4/              Emplacement prévu pour les cartes N4
+cards/n4/              Compléments N4 (neuf chapitres de rédaction)
 docs/                  Plan, conception, schémas et revues de contenu
 sources/               Documents privés, ignorés par Git
 src/diving_anki/        Validation, rendu, génération et import AnkiConnect

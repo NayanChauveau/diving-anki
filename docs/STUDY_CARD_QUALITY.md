@@ -186,7 +186,9 @@ la réécrire entièrement ; remplacer un mot ne suffit pas toujours.
    `reviewed` seulement après succès factuel **et** pédagogique. Une carte publiée
    réécrite garde son ID, son modèle Anki et le sens de son objectif.
 6. Lancer `make check`, puis contrôler les champs recto/verso du build si le contenu
-   change. Ne pas piloter l’interface Anki ; suivre le workflow AnkiConnect du dépôt.
+   change. Pour l’implémentation N4, effectuer les contrôles techniques par lot sans
+   build ni import ; réserver le build et son contrôle approfondi à la fin de toutes
+   les passes. Ne pas piloter l’interface Anki ; suivre le workflow AnkiConnect du dépôt.
 
 Les anciennes revues ne deviennent pas automatiquement des succès sur cette grille.
 Indiquer les cartes effectivement relues ; ne pas déclarer tout le catalogue conforme

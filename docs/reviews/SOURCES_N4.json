@@ -1,10 +1,10 @@
 {
   "download_date": "2026-10-12",
-  "scope": "Recherche et acquisition de sources ; aucune carte N4 créée, aucun audit exhaustif N2/N3 réalisé",
+  "scope": "Inventaire de sources N4 ; compléments acquis pour la rédaction, revues individuelles dans docs/reviews/n4",
   "storage": "PDF et textes extraits locaux dans sources/n4, ignorés par Git",
   "pagination": "Pages physiques des PDF à partir de 1",
-  "pdf_count": 59,
-  "total_pages": 1050,
+  "pdf_count": 61,
+  "total_pages": 1101,
   "sources": [
     {
       "title": "Niveau 4 - Guide de palanquée",
@@ -1118,6 +1118,42 @@
       "role": "Cours du formateur auteur, janvier 2024 ; comparaison avec la version janvier 2022",
       "content_review": "repérage bibliographique et thématique ; revue factuelle complète non réalisée",
       "author": "Arnaud Melese"
+    },
+    {
+      "code": "N4-S60",
+      "title": "Niveau 5 - Directeur de plongée en exploration",
+      "url": "https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/8cf7d863-c58a-4ce1-ad2d-116bdbde6a1f",
+      "family": "ffessm",
+      "filename": "ffessm-n5-mai-2026.pdf",
+      "official_revision": "2026-05-23",
+      "official_published": "2026-05-24",
+      "downloaded": "2026-10-12",
+      "index_url": "https://mft.ffessm.fr",
+      "local_path": "sources/n4/ffessm-n5-mai-2026.pdf",
+      "bytes": 582043,
+      "sha256": "22369979965e7a8059f2f64b78581d70522ed86e6bf616165ab6413c4addcf71",
+      "pages": 8,
+      "edition_observed": "Mai 2026",
+      "role": "Vérification complémentaire lot 02 : accès N5 / stage initial MF1",
+      "content_review": "Sections citées dans LOT_02_CADRE.md vérifiées ; aucune revue complète du cursus revendiquée"
+    },
+    {
+      "code": "N4-S61",
+      "title": "Moniteur Fédéral 1er degré",
+      "url": "https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/273c29e5-04c9-4a39-8f0a-d682255dccd8",
+      "family": "ffessm",
+      "filename": "ffessm-mf1-juillet-2026.pdf",
+      "official_revision": "2026-07-15",
+      "official_published": "2026-07-15",
+      "downloaded": "2026-10-12",
+      "index_url": "https://mft.ffessm.fr",
+      "local_path": "sources/n4/ffessm-mf1-juillet-2026.pdf",
+      "bytes": 821060,
+      "sha256": "18034234d6af81387373f80645ab98c43e20f269aa6eaa4964af453491f29336",
+      "pages": 43,
+      "edition_observed": "Juillet 2026",
+      "role": "Vérification complémentaire lot 02 : accès N5 / stage initial MF1",
+      "content_review": "Sections citées dans LOT_02_CADRE.md vérifiées ; aucune revue complète du cursus revendiquée"
     }
   ],
   "failed_downloads": [

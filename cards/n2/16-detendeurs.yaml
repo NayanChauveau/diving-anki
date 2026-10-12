@@ -6,6 +6,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -29,6 +30,10 @@ cards:
       cahier des charges TIV FFESSM inspections annuelles/avant réutilisation ; DAN Breathing Gas Contamination
       ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 6–8/16 ; loi d’Archimède et gaz parfait volume fermé
       ; vérifiés le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 70 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO détendeurs Rev Q juillet 2025 p.6–10, manuel constructeur déjà contrôlé sur la page officielle
+      et relu ; MFT GP-N4 mai 2026 p.28–29 ; schémas CODEP92 détendeurs, contrôle du sens des forces et
+      des pressions. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Sur ce schéma conceptuel d’un détendeur à deux étages, quelle réduction de pression réalise
@@ -62,6 +67,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -84,6 +90,10 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 70 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO détendeurs Rev Q juillet 2025 p.6–10, manuel constructeur déjà contrôlé sur la page officielle
+      et relu ; MFT GP-N4 mai 2026 p.28–29 ; schémas CODEP92 détendeurs, contrôle du sens des forces et
+      des pressions. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un premier étage maintient sa pression intermédiaire à 9,5 bar au-dessus de l’ambiante.
@@ -103,6 +113,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -118,6 +129,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 70 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO détendeurs Rev Q juillet 2025 p.6–10, manuel constructeur déjà contrôlé sur la page officielle
+      et relu ; MFT GP-N4 mai 2026 p.28–29 ; schémas CODEP92 détendeurs, contrôle du sens des forces et
+      des pressions. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle différence mécanique entre une fixation DIN et une fixation par étrier du premier
@@ -137,6 +152,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -153,6 +169,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 70 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO détendeurs Rev Q juillet 2025 p.6–10, manuel constructeur déjà contrôlé sur la page officielle
+      et relu ; MFT GP-N4 mai 2026 p.28–29 ; schémas CODEP92 détendeurs, contrôle du sens des forces et
+      des pressions. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle association décrit correctement le rôle des mécanismes à piston et à membrane dans
@@ -174,6 +194,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -190,6 +211,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 70 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO détendeurs Rev Q juillet 2025 p.6–10, manuel constructeur déjà contrôlé sur la page officielle
+      et relu ; MFT GP-N4 mai 2026 p.28–29 ; schémas CODEP92 détendeurs, contrôle du sens des forces et
+      des pressions. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un modèle conceptuel de premier étage à membrane, comment la consommation d’air déclenche-t-elle
@@ -210,6 +235,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -225,6 +251,9 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 71 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8,16–17 PDF local relues, et principes p.6–10 ; schémas détendeurs
+      CODEP92 ; MFT GP-N4 mai 2026 p.28–29. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Comment l’inspiration commande-t-elle l’arrivée de gaz dans un second étage classique à
@@ -244,6 +273,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -259,6 +289,9 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 71 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8,16–17 PDF local relues, et principes p.6–10 ; schémas détendeurs
+      CODEP92 ; MFT GP-N4 mai 2026 p.28–29. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Comment le bouton de purge d’un second étage provoque-t-il un débit sans inspiration ?
@@ -278,6 +311,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -294,6 +328,9 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 71 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8,16–17 PDF local relues, et principes p.6–10 ; schémas détendeurs
+      CODEP92 ; MFT GP-N4 mai 2026 p.28–29. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après avoir remis en bouche un second étage rempli d’eau, une expiration ou une purge permet
@@ -301,8 +338,6 @@ cards:
     choices:
     - text: Par la soupape d’expiration vers l’eau environnante
       correct: true
-    - text: Par le flexible de moyenne pression vers le premier étage
-      correct: false
     - text: Par le clapet d’admission vers le flexible de moyenne pression
       correct: false
     explanation: L’expiration ou le gaz fourni par la purge chasse l’eau de la chambre du second étage
@@ -315,6 +350,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -331,6 +367,9 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 71 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8,16–17 PDF local relues, et principes p.6–10 ; schémas détendeurs
+      CODEP92 ; MFT GP-N4 mai 2026 p.28–29. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Le manuel SCUBAPRO prévoit le rinçage d’un détendeur démonté du bloc, avec un second étage
@@ -352,6 +391,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -372,6 +412,9 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 71 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8,16–17 PDF local relues, et principes p.6–10 ; schémas détendeurs
+      CODEP92 ; MFT GP-N4 mai 2026 p.28–29. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel intérêt a la compensation d’un premier étage lorsque la pression du bloc diminue ?
@@ -392,6 +435,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -415,6 +459,12 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 25_MATERIEL : MFT GP-N4 mai 2026 p.28–29 ; SCUBAPRO RevQ juillet
+      2025 p.15–16 ; configuration certifiée entière ; recto, choix et corrigé relus ; identité conservée'
+    - 'Reprise N4 du 2026-10-12, lot 72 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8–10,15–17,20, principes VIVA, conditions eau froide, stockage et
+      entretien ; MFT GP-N4 mai 2026 p.28–29 ; schémas de clapet HP et raccord dans les cours matériel.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un détendeur possède un premier étage à membrane et une fixation DIN. Sur quoi faut-il s’appuyer
@@ -435,6 +485,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -450,6 +501,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 72 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8–10,15–17,20, principes VIVA, conditions eau froide, stockage et
+      entretien ; MFT GP-N4 mai 2026 p.28–29 ; schémas de clapet HP et raccord dans les cours matériel.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un détendeur SCUBAPRO a été rincé et entièrement séché. Pour son rangement au sec et à l’ombre,
@@ -458,8 +513,6 @@ cards:
     - text: Entrée haute pression protégée ; flexibles sans courbure forcée
       correct: true
     - text: Entrée haute pression ouverte pour ventiler ; flexibles sans courbure forcée
-      correct: false
-    - text: Entrée haute pression protégée ; flexibles pliés serré pour limiter leurs mouvements
       correct: false
     explanation: La notice demande de conserver le bouchon de protection de l’entrée haute pression correctement
       placé, au sec, loin de la chaleur et du soleil. Les flexibles se rangent sans écrasement ni courbure
@@ -471,6 +524,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -491,6 +545,10 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 72 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8–10,15–17,20, principes VIVA, conditions eau froide, stockage et
+      entretien ; MFT GP-N4 mai 2026 p.28–29 ; schémas de clapet HP et raccord dans les cours matériel.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour un détendeur SCUBAPRO standard pour l’air, concerné par la notice de juillet 2025 et
@@ -514,6 +572,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -535,6 +594,10 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 72 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8–10,15–17,20, principes VIVA, conditions eau froide, stockage et
+      entretien ; MFT GP-N4 mai 2026 p.28–29 ; schémas de clapet HP et raccord dans les cours matériel.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un second étage hors de la bouche se met en débit continu après une pression sur la purge,
@@ -556,6 +619,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N2
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -572,6 +636,10 @@ cards:
     - 'Revue approfondie N2 du 2026-10-09 : docs/reviews/MATERIEL_PREPARATION_N2_2026-10-09.md ; contrôle
       factuel : SCUBAPRO RevQ juillet 2025, p.6–10 (principes), 13–18 (usage/soins), 20 (dépannage) ;
       références de la carte ; choix relus individuellement'
+    - 'Reprise N4 du 2026-10-12, lot 72 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.8–10,15–17,20, principes VIVA, conditions eau froide, stockage et
+      entretien ; MFT GP-N4 mai 2026 p.28–29 ; schémas de clapet HP et raccord dans les cours matériel.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Des bulles apparaissent à la jonction entre le robinet du bloc et le premier étage après
@@ -579,14 +647,13 @@ cards:
     choices:
     - text: Un joint de raccord endommagé ou un montage incorrect
       correct: true
-    - text: Une soupape d’expiration du second étage endommagée
+    - text: Un clapet haute pression du premier étage qui ferme imparfaitement
       correct: false
-    - text: Une membrane de commande du second étage endommagée
-      correct: false
-    explanation: La localisation oriente vers l’étanchéité du raccord ou son montage. La soupape d’expiration
-      et la membrane du second étage se trouvent à l’autre extrémité du flexible. Contrôler le montage
-      et faire traiter une fuite persistante ; un serrage excessif peut détériorer les pièces sans supprimer
-      le défaut.
+    explanation: 'Des bulles à la jonction robinet–premier étage orientent vers le joint du raccord ou
+      son montage. Un clapet haute pression interne fermant mal entraîne plutôt une montée anormale de
+      la pression intermédiaire ; il ne décrit pas une fuite extérieure à ce raccord. Contrôler le montage
+      et faire traiter une fuite persistante : un serrage excessif peut détériorer les pièces sans supprimer
+      le défaut.'
 - id: n2-detendeurs-inspiration-difficile-001
   type: mcq
   anki_model: basic
@@ -594,6 +661,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -615,10 +683,13 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 73 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.6–10,14–16,20 ; MFT GP-N4 mai 2026 p.28–29 ; calculs indépendants
+      Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Avant immersion, quel contrôle vérifie effectivement qu’un détendeur fournit du gaz à la
-      demande pendant une respiration complète ?
+    question: Avant immersion, quel contrôle éprouve la commande à la demande des seconds étages, au-delà
+      de la seule présence de gaz sous pression ?
     choices:
     - text: Respirer plusieurs cycles sur chaque second étage, robinet ouvert
       correct: true
@@ -637,6 +708,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -657,6 +729,9 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 73 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.6–10,14–16,20 ; MFT GP-N4 mai 2026 p.28–29 ; calculs indépendants
+      Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En immersion, un débit continu persistant vide rapidement le bloc. Pourquoi passer sur son
@@ -679,6 +754,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -700,6 +776,9 @@ cards:
       détendeurs Rev Q juillet 2025 p. 6–10/14/17/19–20, manuel constructeur vérifié sur https://scubapro.johnsonoutdoors.com/us/manuals
       et lu localement le 11 octobre 2026 ; distinctions entretien air standard p.17 / dédiés Nitrox EN144-3
       p.19 ; pression ambiante à20m=3bar, intermédiaire=12,5bar.
+    - 'Reprise N4 du 2026-10-12, lot 73 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.6–10,14–16,20 ; MFT GP-N4 mai 2026 p.28–29 ; calculs indépendants
+      Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À 20 m, un premier étage maintient une MP de 9,5 bar au-dessus de l’ambiante. Prendre 1
@@ -722,6 +801,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -743,6 +823,9 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 73 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.6–10,14–16,20 ; MFT GP-N4 mai 2026 p.28–29 ; calculs indépendants
+      Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1
@@ -763,6 +846,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - detendeurs
@@ -784,6 +868,9 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 73 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q juillet 2025 p.6–10,14–16,20 ; MFT GP-N4 mai 2026 p.28–29 ; calculs indépendants
+      Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Prendre 1 bar en surface et +1 bar/10
@@ -804,6 +891,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::16
   - complement-pdf::2026-10-11
@@ -816,6 +904,12 @@ cards:
     - 'Rédaction le 2026-10-11 ; revue individuelle distincte : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md'
     - 'Critique distincte du lot C1 le 2026-10-11 : sens des échanges optiques, calcul inverse 3/(3/4),
       absorption, flottabilité et mécanismes ; leurres faibles retirés avant validation.'
+    - 'Reprise N4 du 2026-10-12, lot 23_MATERIEL : MFT GP-N4 mai 2026 p.28–29 ; SCUBAPRO §5.1 ; même objectif
+      isolation interne/chambre extérieure ; recto, choix et corrigé relus ; identité conservée'
+    - 'Reprise N4 du 2026-10-12, lot 74 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q p.8 membrane isolante relu ; MFT GP-N4 mai 2026 conduite, communication, orientation
+      et désaturation ; MFT N2/N3 briefing et retour ; Suunto SK-series navigation par repères ; cap réciproque
+      calculé indépendamment. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un premier étage SCUBAPRO à membrane compensée, quelle partie est isolée de l’eau ambiante

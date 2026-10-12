@@ -4,6 +4,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -18,6 +19,10 @@ cards:
       https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; vérifié 2026-10-06
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Reprise N4 du 2026-10-12, lot 90 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Peregrine Doc16001-SI-RevB p.16,26,38 relues dans cette passe, distinction @+5/Δ+5 des notes V89
+      déjà contrôlée ; MFT GP-N4 désaturation ; DAN Mitchell mécanique ventilatoire et gaz parfait. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À température constante, de quel facteur la masse volumique de l’air est-elle multipliée
@@ -38,6 +43,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -48,6 +54,10 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.24–29
     - DAN — Can You Recognize IPE?, 2022, consulté 2026-10-06 ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 91 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Can You Recognize IPE? 22/12/2022, https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      consulté ; RIFAP mai2026 p.28–32 ; PSE juillet2026 05PR08 p.167 (position consciente) ; MFT GP-N4
+      physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Modèle sec : air à 21 % d’O₂, 1 bar en surface, +1 bar par 10 m. À 60 m, quelle pression
@@ -66,6 +76,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -82,6 +93,10 @@ cards:
       : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
       2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
       N3 lot 14'
+    - 'Reprise N4 du 2026-10-12, lot 91 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Can You Recognize IPE? 22/12/2022, https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      consulté ; RIFAP mai2026 p.28–32 ; PSE juillet2026 05PR08 p.167 (position consciente) ; MFT GP-N4
+      physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après l’arrêt de l’effort en immersion, un plongeur reste anormalement gêné pour respirer
@@ -102,6 +117,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -114,6 +130,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue pédagogique du 2026-10-09 : docs/reviews/QUALITE_GLOBALE_2026-10-09.md ; objectif et identité
       conservés'
+    - 'Reprise N4 du 2026-10-12, lot 91 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Can You Recognize IPE? 22/12/2022, https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      consulté ; RIFAP mai2026 p.28–32 ; PSE juillet2026 05PR08 p.167 (position consciente) ; MFT GP-N4
+      physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel mécanisme décrit l’œdème pulmonaire d’immersion (OPI) ?
@@ -132,6 +152,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -148,6 +169,10 @@ cards:
       : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
       2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
       N3 lot 14'
+    - 'Reprise N4 du 2026-10-12, lot 91 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Can You Recognize IPE? 22/12/2022, https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      consulté ; RIFAP mai2026 p.28–32 ; PSE juillet2026 05PR08 p.167 (position consciente) ; MFT GP-N4
+      physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel tableau respiratoire est le plus évocateur d’un œdème pulmonaire d’immersion (OPI),
@@ -169,6 +194,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -187,6 +213,10 @@ cards:
       : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
       2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
       N3 lot 14'
+    - 'Reprise N4 du 2026-10-12, lot 91 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Can You Recognize IPE? 22/12/2022, https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      consulté ; RIFAP mai2026 p.28–32 ; PSE juillet2026 05PR08 p.167 (position consciente) ; MFT GP-N4
+      physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À bord, après une sortie sécurisée, un plongeur conscient garde une gêne respiratoire faisant
@@ -207,6 +237,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -223,6 +254,10 @@ cards:
       : https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; PSE juillet
       2026, 05PR08 p.167 et 06FT01 p.178, position respiratoire consciente ; MFT N3 p.8–11,13 ; revue
       N3 lot 14'
+    - 'Reprise N4 du 2026-10-12, lot 92 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 prise en charge, comportements observables et gaz ; RIFAP mai2026 p.10–14,28–32
+      ; DAN Emergency Oxygen and Oxygen Toxicity 01/11/2011 consulté, CNS/hyperbare versus oxygène de
+      secours en surface. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Au fond, le courant augmente, un équipier commence à frissonner et sa consommation dépasse
@@ -243,6 +278,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::08
   status: reviewed
@@ -257,6 +293,10 @@ cards:
       conservés'
     - 'DAN, Emergency Oxygen and Oxygen Toxicity, 2011-11-01, toxicité CNS et convulsions, relu 2026-10-10
       ; lot 14 : https://dan.org/alert-diver/article/emergency-oxygen-and-oxygen-toxicity/'
+    - 'Reprise N4 du 2026-10-12, lot 92 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 prise en charge, comportements observables et gaz ; RIFAP mai2026 p.10–14,28–32
+      ; DAN Emergency Oxygen and Oxygen Toxicity 01/11/2011 consulté, CNS/hyperbare versus oxygène de
+      secours en surface. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel événement caractérise le risque aigu de toxicité de l’oxygène sur le système nerveux

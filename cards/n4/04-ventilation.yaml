@@ -1,0 +1,482 @@
+cards:
+- id: n4-ventilation-trajet-air-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25–26 ; N4-S16 — Jourdren, appareil respiratoire p.6–13 ; relus le
+      2026-10-12
+    - 'NHLBI (NIH) — How the Lungs Work, Respiratory System, 24/03/2022 : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; Breathing Benefits, 27/06/2025 : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits ; consultés
+      2026-10-12'
+    - 'OpenStax — Anatomy and Physiology, 22.2 The Lungs, couplage pleural : https://openstax.org/books/anatomy-and-physiology/pages/22-2-the-lungs
+      ; consulté 2026-10-12 ; schémas originaux docs/diagrams/n4/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_11_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur ce schéma des voies conductrices, quels conduits correspondent respectivement à A,
+      B et C ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-label="Schéma anatomique
+      simplifié avec repères à identifier" style="width:100%;max-width:600px;height:auto;background:#fff"><g
+      font-family="sans-serif" font-size="20" fill="#18394a"><g stroke="#397b94" stroke-width="14" fill="none"
+      stroke-linecap="round"><path d="M300 35 V105 M300 105 L195 155 M300 105 L405 155"/><path d="M195
+      155 L125 205 M195 155 L210 215 M405 155 L390 215 M405 155 L475 205" stroke-width="6"/></g><g fill="#e7f3f7"
+      stroke="#397b94" stroke-width="2"><circle cx="113" cy="218" r="13"/><circle cx="135" cy="222" r="13"/><circle
+      cx="210" cy="235" r="13"/><circle cx="390" cy="235" r="13"/><circle cx="465" cy="222" r="13"/><circle
+      cx="487" cy="218" r="13"/></g><text x="275" y="25">Vers la bouche</text><text x="325" y="78">A</text><text
+      x="425" y="143">B</text><path d="M490 180 L455 190" stroke="#18394a" stroke-width="2"/><text x="495"
+      y="180">C</text></g></svg>'
+    choices:
+    - text: Trachée, bronche, bronchiole
+      correct: true
+    - text: Larynx, trachée, bronche
+      correct: false
+    - text: Trachée, bronchiole, bronche
+      correct: false
+    explanation: La trachée se divise en deux bronches principales. Leurs ramifications de plus petit
+      calibre comprennent les bronchioles, qui conduisent vers la zone alvéolaire. Le larynx se situe
+      en amont de la trachée ; il n’est pas le conduit qui se partage en deux bronches.
+- id: n4-ventilation-voies-oesophage-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25–26 ; N4-S16 — Jourdren, appareil respiratoire p.6–13 ; relus le
+      2026-10-12
+    - 'NHLBI (NIH) — How the Lungs Work, Respiratory System, 24/03/2022 : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; Breathing Benefits, 27/06/2025 : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits ; consultés
+      2026-10-12'
+    - 'OpenStax — Anatomy and Physiology, 22.2 The Lungs, couplage pleural : https://openstax.org/books/anatomy-and-physiology/pages/22-2-the-lungs
+      ; consulté 2026-10-12 ; schémas originaux docs/diagrams/n4/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_11_VENTILATION.md'
+    - 'NIH/NCI — SEER Training, Anatomy of the Esophagus et Pharynx & Esophagus : https://training.seer.cancer.gov/ugi/anatomy/esophagus.html
+      et https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html ; position postérieure
+      et fausse route ; consultés 2026-10-12'
+    fact_check: pass
+  fr:
+    question: Dans le cou, quel conduit se situe immédiatement derrière la trachée et conduit les aliments
+      vers l’estomac ?
+    choices:
+    - text: L’œsophage
+      correct: true
+    - text: Le pharynx
+      correct: false
+    - text: Le larynx
+      correct: false
+    explanation: L’œsophage descend derrière la trachée et rejoint l’estomac. Le pharynx, en amont, est
+      un carrefour commun à l’air et aux aliments. Le larynx conduit l’air vers la trachée ; une fausse
+      route peut faire passer aliments ou liquides dans cette voie aérienne.
+- id: n4-ventilation-plevre-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25–26 ; N4-S16 — Jourdren, appareil respiratoire p.6–13 ; relus le
+      2026-10-12
+    - 'NHLBI (NIH) — How the Lungs Work, Respiratory System, 24/03/2022 : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; Breathing Benefits, 27/06/2025 : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits ; consultés
+      2026-10-12'
+    - 'OpenStax — Anatomy and Physiology, 22.2 The Lungs, couplage pleural : https://openstax.org/books/anatomy-and-physiology/pages/22-2-the-lungs
+      ; consulté 2026-10-12 ; schémas originaux docs/diagrams/n4/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_11_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Quand la cage thoracique s’agrandit à l’inspiration, quel mécanisme entraîne normalement
+      l’expansion des poumons ?
+    choices:
+    - text: Le couplage entre paroi thoracique et poumon par les feuillets pleuraux
+      correct: true
+    - text: La contraction du tissu pulmonaire sous l’action du nerf phrénique
+      correct: false
+    - text: L’action du surfactant dans la cavité entre les feuillets pleuraux
+      correct: false
+    explanation: 'La plèvre pariétale tapisse la paroi thoracique, la plèvre viscérale recouvre le poumon.
+      Leur apposition et le fin film liquidien participent au couplage mécanique tout en facilitant le
+      glissement. Les poumons ne sont pas des muscles : le nerf phrénique commande le diaphragme. Le surfactant
+      agit dans les alvéoles, où il réduit la tension superficielle.'
+- id: n4-ventilation-alveole-capillaire-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25–26 ; N4-S16 — Jourdren, appareil respiratoire p.6–13 ; relus le
+      2026-10-12
+    - 'NHLBI (NIH) — How the Lungs Work, Respiratory System, 24/03/2022 : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; Breathing Benefits, 27/06/2025 : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits ; consultés
+      2026-10-12'
+    - 'OpenStax — Anatomy and Physiology, 22.2 The Lungs, couplage pleural : https://openstax.org/books/anatomy-and-physiology/pages/22-2-the-lungs
+      ; consulté 2026-10-12 ; schémas originaux docs/diagrams/n4/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_11_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur cette coupe simplifiée, quelles parois composent la barrière traversée par l’oxygène
+      à l’interface A ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-label="Schéma anatomique
+      simplifié avec repères à identifier" style="width:100%;max-width:600px;height:auto;background:#fff"><g
+      font-family="sans-serif" font-size="20" fill="#18394a"><rect x="35" y="45" width="210" height="170"
+      rx="18" fill="#e7f3f7"/><rect x="275" y="45" width="285" height="170" rx="18" fill="#fae5e2"/><path
+      d="M250 50 V210 M270 50 V210" stroke="#18394a" stroke-width="3"/><text x="90" y="130">Air alvéolaire</text><text
+      x="365" y="130">Sang</text><path d="M260 25 V78" stroke="#18394a" stroke-width="2"/><text x="295"
+      y="30">Interface A</text><ellipse cx="370" cy="175" rx="24" ry="12" fill="#cf7164"/><ellipse cx="470"
+      cy="80" rx="24" ry="12" fill="#cf7164"/></g></svg>'
+    choices:
+    - text: La paroi alvéolaire et la paroi du capillaire
+      correct: true
+    - text: La plèvre viscérale et la plèvre pariétale
+      correct: false
+    - text: La paroi bronchique et la paroi du capillaire
+      correct: false
+    explanation: L’oxygène diffuse de l’air alvéolaire vers le sang à travers une très fine barrière associant
+      notamment l’épithélium alvéolaire et l’endothélium capillaire. Les plèvres entourent le poumon ;
+      les bronches conduisent l’air. Ni les plèvres ni la paroi d’une bronche ne constituent cette interface
+      d’échange alvéolaire.
+- id: n4-ventilation-hematoses-respiration-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25–26 ; N4-S16 — Jourdren, appareil respiratoire p.6–13 ; relus le
+      2026-10-12
+    - 'NHLBI (NIH) — How the Lungs Work, Respiratory System, 24/03/2022 : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; Breathing Benefits, 27/06/2025 : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits ; consultés
+      2026-10-12'
+    - 'OpenStax — Anatomy and Physiology, 22.2 The Lungs, couplage pleural : https://openstax.org/books/anatomy-and-physiology/pages/22-2-the-lungs
+      ; consulté 2026-10-12 ; schémas originaux docs/diagrams/n4/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_11_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Quel phénomène correspond précisément à l’hématose pulmonaire ?
+    choices:
+    - text: Les échanges d’O2 et de CO2 entre l’air alvéolaire et le sang
+      correct: true
+    - text: Le renouvellement de l’air alvéolaire par inspiration et expiration
+      correct: false
+    - text: L’utilisation d’O2 par les cellules pour leur production d’énergie
+      correct: false
+    explanation: La ventilation renouvelle l’air ; l’hématose est l’échange des gaz dans les poumons,
+      qui oxygène le sang et élimine du CO2. La respiration cellulaire utilise l’oxygène au niveau des
+      cellules. Ces étapes sont liées mais désignent des opérations différentes.
+- id: n4-ventilation-inspiration-forces-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.13–19 ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits, 27/06/2025, inspiration et expiration repos/effort : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      ; contrôlé 2026-10-12'
+    - 'ARTP — Statement on pulmonary function testing 2020, sections static lung volumes et vital capacity
+      : https://pmc.ncbi.nlm.nih.gov/articles/PMC7337892/ ; consulté 2026-10-12 ; aucun seuil diagnostique
+      repris'
+    - 'Volumes et schéma originaux : valeurs d’exercice, pas normes de volumes individuels ; docs/diagrams/n4/volumes-pulmonaires.svg'
+    - 'Revue individuelle : docs/reviews/n4/LOT_12_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Lors d’une inspiration calme hors de l’eau, quelle séquence décrit l’action du diaphragme
+      et l’entrée d’air ?
+    choices:
+    - text: Contraction et abaissement du diaphragme ; volume thoracique accru ; pression alvéolaire abaissée
+      correct: true
+    - text: Relâchement et abaissement du diaphragme ; volume thoracique accru ; pression alvéolaire abaissée
+      correct: false
+    - text: Contraction et abaissement du diaphragme ; volume thoracique accru ; pression alvéolaire augmentée
+      correct: false
+    explanation: Le diaphragme se contracte, s’aplatit et s’abaisse. Le volume du thorax et des poumons
+      augmente ; pendant l’entrée d’air, la pression alvéolaire devient légèrement inférieure à celle
+      de l’air extérieur. Son relâchement participe au retour expiratoire. Une pression alvéolaire supérieure
+      à l’extérieur pousserait l’air vers la sortie.
+- id: n4-ventilation-expiration-effort-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.13–19 ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits, 27/06/2025, inspiration et expiration repos/effort : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      ; contrôlé 2026-10-12'
+    - 'ARTP — Statement on pulmonary function testing 2020, sections static lung volumes et vital capacity
+      : https://pmc.ncbi.nlm.nih.gov/articles/PMC7337892/ ; consulté 2026-10-12 ; aucun seuil diagnostique
+      repris'
+    - 'Volumes et schéma originaux : valeurs d’exercice, pas normes de volumes individuels ; docs/diagrams/n4/volumes-pulmonaires.svg'
+    - 'Revue individuelle : docs/reviews/n4/LOT_12_VENTILATION.md'
+    - 'OpenStax — Anatomy and Physiology 2e, 11.4 et 22.3 : muscles inspiratoires et expiration forcée
+      : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing ; contrôlé
+      2026-10-12'
+    fact_check: pass
+  fr:
+    question: Quand l’expiration devient active à l’effort, quel groupe musculaire contribue à comprimer
+      le thorax et à chasser l’air ?
+    choices:
+    - text: Les abdominaux et les intercostaux internes
+      correct: true
+    - text: Le diaphragme et les intercostaux externes
+      correct: false
+    explanation: Les abdominaux augmentent la pression abdominale et repoussent le diaphragme vers le
+      haut ; des intercostaux internes abaissent les côtes. À l’inverse, diaphragme et intercostaux externes
+      participent surtout à l’inspiration. Au repos hors de l’eau, l’expiration calme repose principalement
+      sur le recul élastique ; à l’effort et face aux résistances ventilatoires, elle peut devenir active.
+- id: n4-ventilation-volumes-spirogramme-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.13–19 ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits, 27/06/2025, inspiration et expiration repos/effort : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      ; contrôlé 2026-10-12'
+    - 'ARTP — Statement on pulmonary function testing 2020, sections static lung volumes et vital capacity
+      : https://pmc.ncbi.nlm.nih.gov/articles/PMC7337892/ ; consulté 2026-10-12 ; aucun seuil diagnostique
+      repris'
+    - 'Volumes et schéma originaux : valeurs d’exercice, pas normes de volumes individuels ; docs/diagrams/n4/volumes-pulmonaires.svg'
+    - 'Revue individuelle : docs/reviews/n4/LOT_12_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur ce schéma de volumes pulmonaires, que représente l’amplitude A des oscillations calmes
+      ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-label="Courbe schématique
+      de volumes pulmonaires : cycles calmes puis inspiration et expiration maximales, amplitude A sur
+      un cycle calme" style="width:100%;max-width:620px;height:auto;background:#fff"><g font-family="sans-serif"
+      font-size="18" fill="#18394a"><path d="M60 30 V260 H585" fill="none" stroke="#18394a" stroke-width="2"/><text
+      x="15" y="22">Volume</text><text x="460" y="287">Temps</text><path d="M65 153.00 L67 149.09 L69
+      145.27 L71 141.65 L73 138.31 L75 135.32 L77 132.77 L79 130.72 L81 129.22 L83 128.31 L85 128.00 L87
+      128.31 L89 129.22 L91 130.72 L93 132.77 L95 135.32 L97 138.31 L99 141.65 L101 145.27 L103 149.09
+      L105 153.00 L107 156.91 L109 160.73 L111 164.35 L113 167.69 L115 170.68 L117 173.23 L119 175.28
+      L121 176.78 L123 177.69 L125 178.00 L127 177.69 L129 176.78 L131 175.28 L133 173.23 L135 170.68
+      L137 167.69 L139 164.35 L141 160.73 L143 156.91 L145 153.00 L147 149.09 L149 145.27 L151 141.65
+      L153 138.31 L155 135.32 L157 132.77 L159 130.72 L161 129.22 L163 128.31 L165 128.00 L167 128.31
+      L169 129.22 L171 130.72 L173 132.77 L175 135.32 L177 138.31 L179 141.65 L181 145.27 L183 149.09
+      L185 153.00 L187 156.91 L189 160.73 L191 164.35 L193 167.69 L195 170.68 L197 173.23 L199 175.28
+      L201 176.78 L203 177.69 L205 178.00 L207 177.69 L209 176.78 L211 175.28 L213 173.23 L215 170.68
+      L217 167.69 L219 164.35 L221 160.73 L223 156.91 L225 153.00 Q255 40 275 40 Q320 40 350 232 Q385
+      252 420 153 Q440 120 460 153 T500 153 T540 153" fill="none" stroke="#397b94" stroke-width="4"/><path
+      d="M110 128 H225 M110 178 H225" stroke="#7395a6" stroke-width="1" stroke-dasharray="4 4"/><path
+      d="M215 128 V178 M209 128 H221 M209 178 H221" stroke="#ad5a21" stroke-width="3"/><text x="226" y="162">A</text><text
+      x="70" y="212">Cycles calmes</text><text x="260" y="24">Maximum inspiré</text><text x="370" y="251">Maximum
+      expiré</text></g></svg>'
+    choices:
+    - text: Le volume courant
+      correct: true
+    - text: Le volume de réserve expiratoire
+      correct: false
+    - text: Le volume résiduel
+      correct: false
+    explanation: Le volume courant est le volume déplacé au cours d’un cycle calme. La réserve expiratoire
+      est le volume supplémentaire expiré au-delà d’une expiration calme. Le volume résiduel reste dans
+      les poumons après une expiration maximale ; il n’est pas l’amplitude d’un cycle.
+- id: n4-ventilation-capacite-vitale-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.13–19 ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits, 27/06/2025, inspiration et expiration repos/effort : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      ; contrôlé 2026-10-12'
+    - 'ARTP — Statement on pulmonary function testing 2020, sections static lung volumes et vital capacity
+      : https://pmc.ncbi.nlm.nih.gov/articles/PMC7337892/ ; consulté 2026-10-12 ; aucun seuil diagnostique
+      repris'
+    - 'Volumes et schéma originaux : valeurs d’exercice, pas normes de volumes individuels ; docs/diagrams/n4/volumes-pulmonaires.svg'
+    - 'Revue individuelle : docs/reviews/n4/LOT_12_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: 'Un exercice donne : volume courant 0,6 L ; réserve inspiratoire 2,4 L ; réserve expiratoire
+      1,1 L ; volume résiduel 1,3 L. Quelle est la capacité vitale ?'
+    choices:
+    - text: 4,1 L
+      correct: true
+    - text: 5,4 L
+      correct: false
+    - text: 3,0 L
+      correct: false
+    explanation: 'La capacité vitale comprend le volume courant et les deux réserves : 0,6 + 2,4 + 1,1
+      = 4,1 L. Ajouter le volume résiduel donnerait la capacité pulmonaire totale, 5,4 L. Les 3 L ne représentent
+      que la capacité inspiratoire, volume courant plus réserve inspiratoire.'
+- id: n4-ventilation-volume-residuel-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.13–19 ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits, 27/06/2025, inspiration et expiration repos/effort : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      ; contrôlé 2026-10-12'
+    - 'ARTP — Statement on pulmonary function testing 2020, sections static lung volumes et vital capacity
+      : https://pmc.ncbi.nlm.nih.gov/articles/PMC7337892/ ; consulté 2026-10-12 ; aucun seuil diagnostique
+      repris'
+    - 'Volumes et schéma originaux : valeurs d’exercice, pas normes de volumes individuels ; docs/diagrams/n4/volumes-pulmonaires.svg'
+    - 'Revue individuelle : docs/reviews/n4/LOT_12_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Quel volume pulmonaire n’est pas directement mesurable par une spirométrie simple des gaz
+      inspirés et expirés ?
+    choices:
+    - text: Le volume résiduel
+      correct: true
+    - text: Le volume de réserve expiratoire
+      correct: false
+    - text: Le volume courant
+      correct: false
+    explanation: 'Le volume résiduel reste après une expiration maximale : il ne traverse pas le spiromètre.
+      Sa mesure demande une méthode complémentaire, par exemple dilution de gaz ou pléthysmographie. La
+      réserve expiratoire et le volume courant peuvent être mobilisés et mesurés par spirométrie. L’espace
+      mort est un volume des voies conductrices, pas le volume résiduel.'
+- id: n4-ventilation-regulation-co2-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.7,9,14–17,21–22 ; confrontés
+      aux primaires le 2026-10-12
+    - 'NHLBI — How Your Body Controls Breathing (24/03/2022) : https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing
+      ; Respiratory System, réchauffement/humidification par bouche et voies aériennes : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; consultés 2026-10-12'
+    - 'DAN — Simon Mitchell, The Physiology of Compressed-Gas Diving, 01/08/2016, Mechanics / Net Effects
+      of Respiratory Alterations : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/
+      ; relecture 2026-10-12 ; modèle hydrostatique original'
+    - 'Revue individuelle : docs/reviews/n4/LOT_13_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: À l’air, au repos hors de l’eau, chez un adulte sain dont l’oxygénation reste normale, quel
+      changement tend à augmenter la commande ventilatoire ?
+    choices:
+    - text: Une hausse du CO2 artériel
+      correct: true
+    - text: Une baisse du CO2 artériel
+      correct: false
+    - text: Une hausse de l’O2 artériel
+      correct: false
+    explanation: Les chémorécepteurs participent à l’ajustement de la ventilation en fonction notamment
+      du CO2, de l’acidité et, pour les récepteurs périphériques, de l’O2. Étirement et irritation mobilisent
+      d’autres familles de capteurs. Une pression d’O2 suffisante n’empêche pas une rétention de CO2 ;
+      la ventilation ne répond pas au seul manque d’oxygène.
+- id: n4-ventilation-cercle-vicieux-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.7,9,14–17,21–22 ; confrontés
+      aux primaires le 2026-10-12
+    - 'NHLBI — How Your Body Controls Breathing (24/03/2022) : https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing
+      ; Respiratory System, réchauffement/humidification par bouche et voies aériennes : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; consultés 2026-10-12'
+    - 'DAN — Simon Mitchell, The Physiology of Compressed-Gas Diving, 01/08/2016, Mechanics / Net Effects
+      of Respiratory Alterations : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/
+      ; relecture 2026-10-12 ; modèle hydrostatique original'
+    - 'Revue individuelle : docs/reviews/n4/LOT_13_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Dans un modèle, chaque inspiration ventile 150 mL de voies conductrices. Un plongeur passe
+      de 15 inspirations de 600 mL par minute à 30 inspirations de 300 mL. La profondeur et l’effort de
+      palmage restent les mêmes, mais le travail des muscles respiratoires augmente. Quel bilan peut entretenir
+      la rétention de CO2 ?
+    choices:
+    - text: Le débit alvéolaire baisse ; le travail respiratoire peut produire davantage de CO2
+      correct: true
+    - text: Le débit alvéolaire reste identique ; le travail respiratoire accru élimine davantage de CO2
+      correct: false
+    explanation: Le débit total reste 9 L/min, mais le débit alvéolaire passe de (600 − 150) × 15 = 6,75
+      L/min à (300 − 150) × 30 = 4,5 L/min. Les muscles respiratoires qui travaillent davantage produisent
+      aussi du CO2. Moins de renouvellement alvéolaire face à cette production favorise sa rétention ;
+      le CO2 stimule alors la commande ventilatoire, ce qui peut entretenir le travail respiratoire et
+      l’essoufflement.
+- id: n4-ventilation-charge-hydrostatique-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.7,9,14–17,21–22 ; confrontés
+      aux primaires le 2026-10-12
+    - 'NHLBI — How Your Body Controls Breathing (24/03/2022) : https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing
+      ; Respiratory System, réchauffement/humidification par bouche et voies aériennes : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; consultés 2026-10-12'
+    - 'DAN — Simon Mitchell, The Physiology of Compressed-Gas Diving, 01/08/2016, Mechanics / Net Effects
+      of Respiratory Alterations : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/
+      ; relecture 2026-10-12 ; modèle hydrostatique original'
+    - 'Revue individuelle : docs/reviews/n4/LOT_13_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: 'Modèle simplifié : un second étage fournit du gaz à la pression de l’eau à la bouche. La
+      bouche est à 20 m et le centre des poumons à 20,3 m. Surface à 1 bar, +1 bar/10 m ; on néglige les
+      résistances du matériel. Quelle différence pression du gaz − pression extérieure au centre des poumons
+      obtient-on ?'
+    choices:
+    - text: '−0,03 bar : charge inspiratoire supplémentaire'
+      correct: true
+    - text: '+0,03 bar : charge expiratoire supplémentaire'
+      correct: false
+    - text: '−0,30 bar : charge inspiratoire supplémentaire'
+      correct: false
+    explanation: 'La bouche est à 3 bar, le centre des poumons à 3,03 bar. La différence vaut −0,03 bar
+      : le gaz est fourni sous une pression inférieure à l’eau autour du thorax, ce qui ajoute une charge
+      à l’inspiration. Inverser l’ordre des profondeurs changerait le signe. −0,30 bar correspondrait
+      à 3 m d’écart, pas 0,3 m.'
+- id: n4-ventilation-humidification-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S16 — Jourdren appareil respiratoire p.7,9,14–17,21–22 ; confrontés
+      aux primaires le 2026-10-12
+    - 'NHLBI — How Your Body Controls Breathing (24/03/2022) : https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing
+      ; Respiratory System, réchauffement/humidification par bouche et voies aériennes : https://www.nhlbi.nih.gov/health/lungs/respiratory-system
+      ; consultés 2026-10-12'
+    - 'DAN — Simon Mitchell, The Physiology of Compressed-Gas Diving, 01/08/2016, Mechanics / Net Effects
+      of Respiratory Alterations : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/
+      ; relecture 2026-10-12 ; modèle hydrostatique original'
+    - 'Revue individuelle : docs/reviews/n4/LOT_13_VENTILATION.md'
+    fact_check: pass
+  fr:
+    question: Lorsqu’on respire l’air sec du détendeur par la bouche, que deviennent le réchauffement
+      et l’humidification du gaz inspiré ?
+    choices:
+    - text: Ils continuent dans les voies aériennes, avec transfert de chaleur et d’eau
+      correct: true
+    - text: Ils cessent dans les voies aériennes, car le gaz ne traverse plus les fosses nasales
+      correct: false
+    explanation: 'Contourner le nez ne supprime pas le conditionnement de l’air : la bouche et les voies
+      aériennes réchauffent et humidifient encore le gaz. Ces transferts utilisent de la chaleur et de
+      l’eau de l’organisme. L’air sec du bloc peut donc contribuer aux pertes respiratoires, sans que
+      l’humidification soit devenue inexistante.'

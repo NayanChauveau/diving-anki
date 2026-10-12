@@ -4,6 +4,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -17,6 +18,10 @@ cards:
     - 'RIFAP mai 2026 p.22,24–29 ; PSC juillet 2026 p.26–27,36–37,47 ; PSE juillet 2026 p.113–115,117,138,148,248,272–274
       ; passages relus localement le 2026-10-10. Publication DGSCGC du 2026-07-18 contrôlée : https://www.securite-civile.interieur.gouv.fr/documentation/secourisme-et-associations/secourisme-references-techniques-nationales.html
       ; revue N3 lot 16'
+    - 'Reprise N4 du 2026-10-12, lot 93 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 assistance ; RIFAP mai2026 p.10–14,22–32 relu ; SCUBAPRO BCS Manual §8–9 purges et
+      flottabilité, principe du gilet différent du gilet de sauvetage ; gaz parfait, stocks refaits. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un accident est pris en charge sur le bateau alors que d’autres palanquées sont encore immergées.
@@ -39,6 +44,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -53,6 +59,10 @@ cards:
     - 'RIFAP mai 2026 p.22,24–29 ; PSC juillet 2026 p.26–27,36–37,47 ; PSE juillet 2026 p.113–115,117,138,148,248,272–274
       ; passages relus localement le 2026-10-10. Publication DGSCGC du 2026-07-18 contrôlée : https://www.securite-civile.interieur.gouv.fr/documentation/secourisme-et-associations/secourisme-references-techniques-nationales.html
       ; revue N3 lot 16'
+    - 'Reprise N4 du 2026-10-12, lot 94 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.15,26–27,36–37,47 ; PSE juillet2026 p.272–274, noyade ; RIFAP mai2026 bilan
+      et gestes ; passages PSC15/47 et PSE272/273 relus localement. ; recto, choix et corrigé relus ;
+      identité conservée'
     fact_check: pass
   fr:
     question: À la sortie de l’eau, hors suspicion de traumatisme, quelles observations orientent d’abord
@@ -73,6 +83,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -87,6 +98,10 @@ cards:
     - 'RIFAP mai 2026 p.22,24–29 ; PSC juillet 2026 p.26–27,36–37,47 ; PSE juillet 2026 p.113–115,117,138,148,248,272–274
       ; passages relus localement le 2026-10-10. Publication DGSCGC du 2026-07-18 contrôlée : https://www.securite-civile.interieur.gouv.fr/documentation/secourisme-et-associations/secourisme-references-techniques-nationales.html
       ; revue N3 lot 16'
+    - 'Reprise N4 du 2026-10-12, lot 94 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.15,26–27,36–37,47 ; PSE juillet2026 p.272–274, noyade ; RIFAP mai2026 bilan
+      et gestes ; passages PSC15/47 et PSE272/273 relus localement. ; recto, choix et corrigé relus ;
+      identité conservée'
     fact_check: pass
   fr:
     question: Après récupération, une victime ne répond pas. Voies aériennes libérées, elle produit seulement
@@ -110,6 +125,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -124,6 +140,10 @@ cards:
     - 'RIFAP mai 2026 p.22,24–29 ; PSC juillet 2026 p.26–27,36–37,47 ; PSE juillet 2026 p.113–115,117,138,148,248,272–274
       ; passages relus localement le 2026-10-10. Publication DGSCGC du 2026-07-18 contrôlée : https://www.securite-civile.interieur.gouv.fr/documentation/secourisme-et-associations/secourisme-references-techniques-nationales.html
       ; revue N3 lot 16'
+    - 'Reprise N4 du 2026-10-12, lot 94 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.15,26–27,36–37,47 ; PSE juillet2026 p.272–274, noyade ; RIFAP mai2026 bilan
+      et gestes ; passages PSC15/47 et PSE272/273 relus localement. ; recto, choix et corrigé relus ;
+      identité conservée'
     fact_check: pass
   fr:
     question: Après une noyade, une victime hors de l’eau ne répond pas et ne respire pas normalement.
@@ -134,15 +154,15 @@ cards:
       correct: true
     - text: Les pratiquer avant la réanimation pour permettre ensuite les insufflations
       correct: false
-    explanation: La quantité d’eau inhalée est souvent faible. Chercher à la faire sortir par des compressions
-      abdominales retarde la réanimation et favorise régurgitation et inhalation de liquide gastrique.
-      On met en œuvre la réanimation adaptée à la victime ; les manœuvres de désobstruction ne servent
-      pas à vider les poumons après une noyade.
+    explanation: Chercher à la faire sortir par des compressions abdominales retarde la réanimation et
+      favorise régurgitation et inhalation de liquide gastrique. On met en œuvre la réanimation adaptée
+      à la victime ; les manœuvres de désobstruction ne servent pas à vider les poumons après une noyade.
 - id: n3-secours-hemorragie-001
   type: mcq
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -152,6 +172,10 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
     - DGSCGC — Références techniques nationales PSC, juillet 2026, 02PR01/02FT01, p.15–18
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 94 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.15,26–27,36–37,47 ; PSE juillet2026 p.272–274, noyade ; RIFAP mai2026 bilan
+      et gestes ; passages PSC15/47 et PSE272/273 relus localement. ; recto, choix et corrigé relus ;
+      identité conservée'
     fact_check: pass
   fr:
     question: Sur le bateau, une plaie de l’avant-bras saigne abondamment sans s’arrêter. Aucun objet
@@ -160,9 +184,7 @@ cards:
     choices:
     - text: Comprimer directement et fermement la zone qui saigne
       correct: true
-    - text: Rincer longuement avant de toucher la zone qui saigne
-      correct: false
-    - text: Poser d’emblée un garrot malgré une compression directe réalisable
+    - text: Poser d’abord un garrot au-dessus de la plaie avant toute compression directe
       correct: false
     explanation: La compression directe est réalisée rapidement pour arrêter l’hémorragie, tout en faisant
       alerter. Le garrot a des indications lorsque la compression est impossible ou inefficace ; le rinçage
@@ -172,6 +194,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -186,6 +209,10 @@ cards:
     - 'RIFAP mai 2026 p.22,24–29 ; PSC juillet 2026 p.26–27,36–37,47 ; PSE juillet 2026 p.113–115,117,138,148,248,272–274
       ; passages relus localement le 2026-10-10. Publication DGSCGC du 2026-07-18 contrôlée : https://www.securite-civile.interieur.gouv.fr/documentation/secourisme-et-associations/secourisme-references-techniques-nationales.html
       ; revue N3 lot 16'
+    - 'Reprise N4 du 2026-10-12, lot 94 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.15,26–27,36–37,47 ; PSE juillet2026 p.272–274, noyade ; RIFAP mai2026 bilan
+      et gestes ; passages PSC15/47 et PSE272/273 relus localement. ; recto, choix et corrigé relus ;
+      identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur conscient chute sur le pont et présente une douleur importante de nuque. Il
@@ -207,6 +234,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -217,6 +245,10 @@ cards:
     - DGSCGC — Références techniques nationales PSE, juillet 2026, 05FT01 p.113–115 ; 05FT11 p.143 ; 05FT13
       p.148
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 95 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.110–113,143–148 (fiches internes juin2018), passages110/143 relus ; RIFAP mai2026
+      oxygène15L/min ; calculs gaz parfait/stock et comburant contrôlés. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Une victime d’accident de plongée est consciente et respire spontanément de façon efficace.
@@ -238,6 +270,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -247,6 +280,10 @@ cards:
     - N3-S04 — RIFAP FFESSM, mai 2026, p.19–32 ; référentiels d’État juillet 2026 pour les gestes
     - DGSCGC — Références techniques nationales PSE, juillet 2026, p.110–111 ; calcul indépendant
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
+    - 'Reprise N4 du 2026-10-12, lot 95 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.110–113,143–148 (fiches internes juin2018), passages110/143 relus ; RIFAP mai2026
+      oxygène15L/min ; calculs gaz parfait/stock et comburant contrôlés. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Exercice nominal : bouteille d’O₂ de 5 L à 200 bar, résiduel imposé de 20 bar, débit constant
@@ -267,6 +304,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -281,6 +319,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 95 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.110–113,143–148 (fiches internes juin2018), passages110/143 relus ; RIFAP mai2026
+      oxygène15L/min ; calculs gaz parfait/stock et comburant contrôlés. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Une réserve utilisable d’O₂ représente 900 L à 1 bar. Une victime doit recevoir 15 L/min
@@ -302,6 +344,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -316,6 +359,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 95 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.110–113,143–148 (fiches internes juin2018), passages110/143 relus ; RIFAP mai2026
+      oxygène15L/min ; calculs gaz parfait/stock et comburant contrôlés. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Exercice nominal : deux victimes reçoivent chacune 15 L/min d’O₂ pendant 40 min. La bouteille
@@ -336,6 +383,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -350,6 +398,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 95 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.110–113,143–148 (fiches internes juin2018), passages110/143 relus ; RIFAP mai2026
+      oxygène15L/min ; calculs gaz parfait/stock et comburant contrôlés. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Lors de la préparation d’une bouteille d’oxygène de secours, pourquoi faut-il éviter les
@@ -367,6 +419,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -383,6 +436,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 96 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.7,28–32 ; Service-Public F33954 consulté ; ANFR Manuel CRR maritime juin2025 p.20–23/communications
+      ASN, https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf (actualise référence2017) ; ministère
+      Mer alerte VHF ; PSC surveillance. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après une plongée dans une carrière à l’intérieur des terres, quel numéro permet de joindre
@@ -403,6 +460,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -417,6 +475,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 96 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.7,28–32 ; Service-Public F33954 consulté ; ANFR Manuel CRR maritime juin2025 p.20–23/communications
+      ASN, https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf (actualise référence2017) ; ministère
+      Mer alerte VHF ; PSC surveillance. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une victime est à bord d’un bateau qui a quitté le site de plongée et fait route vers un
@@ -438,6 +500,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -450,6 +513,10 @@ cards:
     - 'Vérifié 2026-10-11 : ANFR, manuel CRR maritime, détresse / urgence / sécurité ; https://www.anfr.fr/fileadmin/mediatheque/documents/radiomaritime/Manuel_Maritime_REV_Aout17_V10.pdf
       ; confirmé par mer.gouv.fr/gestes-et-conseils-la-radio-vhf-un-outil-pour-ameliorer-sa-securite.
       Revue lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 96 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.7,28–32 ; Service-Public F33954 consulté ; ANFR Manuel CRR maritime juin2025 p.20–23/communications
+      ASN, https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf (actualise référence2017) ; ministère
+      Mer alerte VHF ; PSC surveillance. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une personne en mer est sous la menace d’un danger grave et imminent et demande une assistance
@@ -457,9 +524,9 @@ cards:
     choices:
     - text: 'Détresse : MAYDAY ; DISTRESS pour l’alerte ASN'
       correct: true
-    - text: 'Urgence : PAN-PAN ; URGENCY pour l’alerte ASN'
+    - text: 'Urgence : PAN-PAN ; URGENCY pour l’appel ASN'
       correct: false
-    - text: 'Sécurité : SÉCURITÉ ; SAFETY pour l’alerte ASN'
+    - text: 'Sécurité : SÉCURITÉ ; SAFETY pour l’appel ASN'
       correct: false
     explanation: MAYDAY concerne un navire ou une personne en danger grave et imminent. PAN-PAN concerne
       une urgence touchant la sécurité sans relever de cette détresse. L’ASN est l’appel sélectif numérique
@@ -470,6 +537,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -484,6 +552,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 96 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.7,28–32 ; Service-Public F33954 consulté ; ANFR Manuel CRR maritime juin2025 p.20–23/communications
+      ASN, https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf (actualise référence2017) ; ministère
+      Mer alerte VHF ; PSC surveillance. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant l’attente des secours, une victime sous oxygène devient moins réactive et respire
@@ -504,6 +576,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -517,6 +590,10 @@ cards:
     - 'Vérification 2026-10-11 : RIFAP FFESSM mai 2026, p. 7, 28–32 ; PSE DGSCGC juillet 2026, p. 110–113
       ; Service-Public https://www.service-public.gouv.fr/particuliers/vosdroits/F33954 (15/18/196). Calculs
       résolus séparément dans la revue du lot 17.'
+    - 'Reprise N4 du 2026-10-12, lot 96 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : RIFAP mai2026 p.7,28–32 ; Service-Public F33954 consulté ; ANFR Manuel CRR maritime juin2025 p.20–23/communications
+      ASN, https://www.anfr.fr/fileadmin/manuel-crr-maritime-25.pdf (actualise référence2017) ; ministère
+      Mer alerte VHF ; PSC surveillance. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quelle règle de maintien des compétences s’applique au RIFAP FFESSM ?
@@ -536,6 +613,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -555,6 +633,11 @@ cards:
       la revue lot 18.'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 97 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.26–27,36–37, PSE juillet2026 p.141–142,273–274 relus ; ERC First Aid2025 p.8/22
+      (https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf), cinq ventilations après noyade, relu.
+      Divergence de présentation ERC/PSE déjà tracée, contexte ERC explicite. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une victime ne répond pas et ne réagit pas, mais respire normalement après libération des
@@ -575,6 +658,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -593,6 +677,11 @@ cards:
       la revue lot 18.'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 97 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.26–27,36–37, PSE juillet2026 p.141–142,273–274 relus ; ERC First Aid2025 p.8/22
+      (https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf), cinq ventilations après noyade, relu.
+      Divergence de présentation ERC/PSE déjà tracée, contexte ERC explicite. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un sauveteur formé applique le protocole européen ERC de réanimation après noyade. La victime
@@ -615,6 +704,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -627,6 +717,11 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 97 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.26–27,36–37, PSE juillet2026 p.141–142,273–274 relus ; ERC First Aid2025 p.8/22
+      (https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf), cinq ventilations après noyade, relu.
+      Divergence de présentation ERC/PSE déjà tracée, contexte ERC explicite. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant la réanimation d’un adulte en arrêt cardiaque, les sauveteurs formés réalisent compressions
@@ -647,6 +742,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -659,6 +755,11 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 97 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.26–27,36–37, PSE juillet2026 p.141–142,273–274 relus ; ERC First Aid2025 p.8/22
+      (https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf), cinq ventilations après noyade, relu.
+      Divergence de présentation ERC/PSE déjà tracée, contexte ERC explicite. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: À quelle fréquence réalise-t-on les compressions thoraciques pendant la réanimation d’un
@@ -677,6 +778,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -689,6 +791,11 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 97 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSC juillet2026 p.26–27,36–37, PSE juillet2026 p.141–142,273–274 relus ; ERC First Aid2025 p.8/22
+      (https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf), cinq ventilations après noyade, relu.
+      Divergence de présentation ERC/PSE déjà tracée, contexte ERC explicite. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Sur un adulte en arrêt cardiaque, quelle profondeur de compression thoracique recherche-t-on
@@ -708,6 +815,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -726,6 +834,10 @@ cards:
       la revue lot 18.'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 98 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.114,123–124,145,203,207 passages relus ; RIFAP mai2026 O2 15L/min ; PSC plaies
+      et brûlures ; compétences de secours pertinentes au GP. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: Avant de poser un masque à haute concentration sur une victime d’accident de plongée qui
@@ -744,6 +856,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -762,6 +875,10 @@ cards:
       la revue lot 18.'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 98 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.114,123–124,145,203,207 passages relus ; RIFAP mai2026 O2 15L/min ; PSC plaies
+      et brûlures ; compétences de secours pertinentes au GP. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: Un sauveteur formé ventile une victime au BAVU, voies aériennes libérées. Quel signe permet
@@ -782,6 +899,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -800,6 +918,10 @@ cards:
       la revue lot 18.'
     - 'Relecture 2026-10-11 lot 18 : PSE juillet 2026 p. 123–124 (garrot), 141–142 (fréquence/profondeur),
       145–148 (ventilation), PSC p. 36–37 ; divergence noyade PSE/ERC explicitée dans docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 98 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.114,123–124,145,203,207 passages relus ; RIFAP mai2026 O2 15L/min ; PSC plaies
+      et brûlures ; compétences de secours pertinentes au GP. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: Une plaie de la jambe saigne abondamment malgré une compression directe correctement maintenue.
@@ -822,6 +944,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -836,6 +959,10 @@ cards:
       conservés'
     - 'Vérifié 2026-10-11 : PSE DGSCGC juillet 2026, p. 203 (brûlure thermique), 207 (objet pénétrant),
       307 (méduse) ; PSC juillet 2026 p. 43. Revue individuelle lot 19, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 98 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.114,123–124,145,203,207 passages relus ; RIFAP mai2026 O2 15L/min ; PSC plaies
+      et brûlures ; compétences de secours pertinentes au GP. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: Sur le pont, un éclat de verre est resté profondément fiché dans l’avant-bras d’un plongeur.
@@ -854,6 +981,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -866,6 +994,10 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Vérifié 2026-10-11 : PSE DGSCGC juillet 2026, p. 203 (brûlure thermique), 207 (objet pénétrant),
       307 (méduse) ; PSC juillet 2026 p. 43. Revue individuelle lot 19, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 98 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.114,123–124,145,203,207 passages relus ; RIFAP mai2026 O2 15L/min ; PSC plaies
+      et brûlures ; compétences de secours pertinentes au GP. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: Un plongeur adulte se brûle l’avant-bras contre une pièce chaude du moteur. La brûlure vient
@@ -884,6 +1016,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::10
   status: reviewed
@@ -896,6 +1029,10 @@ cards:
     - 'Revue PDF du 2026-10-07 : docs/reviews/n3/COMPLEMENTS_PDF_2026-10-07.md'
     - 'Vérifié 2026-10-11 : PSE DGSCGC juillet 2026, p. 203 (brûlure thermique), 207 (objet pénétrant),
       307 (méduse) ; PSC juillet 2026 p. 43. Revue individuelle lot 19, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md.'
+    - 'Reprise N4 du 2026-10-12, lot 99 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.307 méduse ; SCUBAPRO RevQ juillet2025 p.5,16 relu ; Archimède, caps inverses
+      et composantes géométriques ; MFT GP-N4 matériel, milieu et orientation. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après un contact avec des filaments de méduse, une victime présente une douleur locale sans

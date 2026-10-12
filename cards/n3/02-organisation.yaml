@@ -4,6 +4,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -19,6 +20,12 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 05_GUIDAGE : MFT GP-N4 mai 2026 p.16–18 ; règles déjà vérifiées dans
+      N2/N3, pertinence de guidage confirmée ; recto, choix et corrigé relus ; identité conservée'
+    - 'Reprise N4 du 2026-10-12, lot 80 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-99 relu ; MFT N3 décembre2025 p.3–4 et organisation ; MFT GP-N4 mai2026 conduite
+      ; Météo-France Guide marine octobre2022, glossaire houle/mer du vent et direction d’origine. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Avant une plongée depuis un bateau, quel ensemble couvre les informations de coordination
@@ -40,6 +47,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -55,11 +63,16 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 80 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-99 relu ; MFT N3 décembre2025 p.3–4 et organisation ; MFT GP-N4 mai2026 conduite
+      ; Météo-France Guide marine octobre2022, glossaire houle/mer du vent et direction d’origine. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Un vent d’ouest est prévu. Le site A a sa mise à l’eau ouverte à l’ouest ; le site B est
-      protégé à l’ouest par un relief continu. Houle, courant, profondeur et accès sont par ailleurs équivalents
-      et favorables. Quel site est le moins exposé à ce vent ?
+    question: 'Un vent d’ouest est prévu. Deux anses sont bordées de reliefs continus sur leurs côtés
+      fermés : l’anse A s’ouvre vers l’ouest, l’anse B vers l’est. Houle, courant, profondeur et accès
+      sont par ailleurs équivalents et favorables. Quelle mise à l’eau est la moins exposée à ce vent
+      ?'
     choices:
     - text: Le site B
       correct: true
@@ -75,6 +88,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -89,6 +103,10 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 80 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-99 relu ; MFT N3 décembre2025 p.3–4 et organisation ; MFT GP-N4 mai2026 conduite
+      ; Météo-France Guide marine octobre2022, glossaire houle/mer du vent et direction d’origine. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Le vent local tombe, mais le bulletin annonce encore une houle d’ouest. Quelle origine distingue
@@ -108,6 +126,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -123,6 +142,10 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 81 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Météo-France Guide marine octobre2022, mer totale et hauteur significative ; MFT N3 et GP-N4 organisation
+      du site, récupération et alerte ; résolution indépendante de chaque calcul et compatibilité des
+      hypothèses. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Pour la récupération, l’organisation doit comparer une prévision de hauteur significative
@@ -145,6 +168,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -158,6 +182,10 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 81 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Météo-France Guide marine octobre2022, mer totale et hauteur significative ; MFT N3 et GP-N4 organisation
+      du site, récupération et alerte ; résolution indépendante de chaque calcul et compatibilité des
+      hypothèses. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une fenêtre locale de courant permet les opérations de 10 h 20 à 10 h 55. Le plan prévoit
@@ -180,6 +208,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -193,6 +222,10 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 81 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Météo-France Guide marine octobre2022, mer totale et hauteur significative ; MFT N3 et GP-N4 organisation
+      du site, récupération et alerte ; résolution indépendante de chaque calcul et compatibilité des
+      hypothèses. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Exercice simplifié de repli du bord : A est inaccessible. Le trajet B demande 6 min à 20
@@ -215,6 +248,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -228,6 +262,10 @@ cards:
     - 'Sources du lot 03 consultées le 2026-10-10 : MFT N3 décembre 2025 p.12 ; Météo-France Guide marine
       octobre 2022, glossaire mer totale/houle/vent : https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/Guide_marine_octobre2022.pdf
       ; données de calcul originales et hypothèses explicites.'
+    - 'Reprise N4 du 2026-10-12, lot 81 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Météo-France Guide marine octobre2022, mer totale et hauteur significative ; MFT N3 et GP-N4 organisation
+      du site, récupération et alerte ; résolution indépendante de chaque calcul et compatibilité des
+      hypothèses. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un contact à terre possède le site et la liste des participants. Le plan fixe la mise à
@@ -250,6 +288,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -262,6 +301,10 @@ cards:
       conservés'
     - 'Revue N3 du 2026-10-10, lot 03 : docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; disponibilité
       du pilote et de son aide dans les hypothèses annoncées'
+    - 'Reprise N4 du 2026-10-12, lot 81 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Météo-France Guide marine octobre2022, mer totale et hauteur significative ; MFT N3 et GP-N4 organisation
+      du site, récupération et alerte ; résolution indépendante de chaque calcul et compatibilité des
+      hypothèses. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quatre N3 et un pilote non plongeur disposent d’un bateau. Le plan prévoit deux palanquées
@@ -283,6 +326,7 @@ cards:
   deck: Matériel et préparation
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::02
   status: reviewed
@@ -295,6 +339,10 @@ cards:
     - 'Code du sport A322-78, matériel de secours à disposition sur le lieu de mise à l’eau ou d’immersion
       ; passage officiel indexé consulté le 2026-10-10 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393863/
       ; revue N3 lot 04'
+    - 'Reprise N4 du 2026-10-12, lot 82 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : Code du sport A322-78 relu, secours distincts de l’armement nautique ; MFT N3 décembre2025 planification
+      et GP-N4 conduite/désaturation ; calculs refaits sans utiliser les corrigés. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un bateau de plaisance est conforme pour sa navigation, mais aucun contrôle du matériel

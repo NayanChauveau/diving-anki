@@ -117,3 +117,489 @@ cards:
     explanation: Le GP-N4 titulaire de l’initiateur FFESSM est E2 et peut enseigner jusqu’à 20 m. L’enseignement
       entre 20 et 40 m exige au minimum un E3. La limite de 40 m du guide en exploration ne s’étend donc
       pas à l’enseignement ; 6 m correspond au domaine de l’E1.
+- id: n4-cadre-artificiel-bapteme-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Code du sport A322-98 (depuis 2012-04-18) et annexe III-16a ; vérifiés le 2026-10-12 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705107
+      ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025705128'
+    - 'Revue individuelle : docs/reviews/n4/LOT_02_CADRE.md'
+    fact_check: pass
+  fr:
+    question: En établissement en France, quel projet permet à un GP-N4 majeur sans qualification d’enseignant
+      de réaliser un baptême à l’air à 5 m, avec l’autorisation du DP ?
+    choices:
+    - text: Un baptême en piscine dont la profondeur maximale est de 6 m
+      correct: true
+    - text: Un baptême en fosse de 20 m, limité à sa zone de 5 m
+      correct: false
+    - text: Un baptême en mer sur un fond dont la profondeur est de 6 m
+      correct: false
+    explanation: 'L’exception concerne les piscines et fosses dont la profondeur maximale ne dépasse pas
+      6 m : le DP, au minimum E1, peut y autoriser un GP à effectuer des baptêmes. Une fosse de 20 m relève
+      des règles du milieu naturel, même pour un baptême restant à 5 m. En milieu naturel, le baptême
+      exige au minimum un enseignant E1.'
+- id: n4-cadre-acces-dp-n5-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - MFT N5 FFESSM, mai 2026, p.3, vérifié le 2026-10-12 ; sources/n4/ffessm-n5-mai-2026.pdf ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/8cf7d863-c58a-4ce1-ad2d-116bdbde6a1f
+    - 'Revue individuelle : docs/reviews/n4/LOT_02_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Pour obtenir le N5 FFESSM, un GP-N4 majeur doit notamment justifier d’une expérience et
+      faire valider ses compétences de directeur de plongée. Quel couple satisfait ces deux exigences,
+      les autres conditions étant remplies ?
+    choices:
+    - text: 15 plongées en situation de guide ; compétences acquises en situation réelle et validées par
+        un E3 minimum
+      correct: true
+    - text: 15 plongées en autonomie ; compétences acquises en situation réelle et validées par un E3
+        minimum
+      correct: false
+    - text: 15 plongées en situation de guide ; compétences acquises en situation réelle et validées par
+        un E2 minimum
+      correct: false
+    explanation: Les quinze plongées doivent avoir été effectuées en situation de guide, pas simplement
+      comme plongeur autonome. La qualification N5 est obtenue par évaluation continue de compétences
+      acquises en situation réelle, avec validation par un encadrant habilité au minimum E3. Le GP-N4
+      ne devient donc pas directeur de plongée par sa seule expérience de guidage.
+- id: n4-cadre-parcours-moniteur-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - MFT MF1 FFESSM, juillet 2026, p.4 et 6, vérifié le 2026-10-12 ; sources/n4/ffessm-mf1-juillet-2026.pdf
+      ; https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/273c29e5-04c9-4a39-8f0a-d682255dccd8
+    - 'Revue individuelle : docs/reviews/n4/LOT_02_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Un GP-N4 FFESSM majeur souhaite préparer le MF1 par la filière classique. Il possède une
+      licence valide et le RIFAP, mais ni l’initiateur ni le N5. Quel accès au stage initial MF1 lui est
+      ouvert, les autres conditions étant remplies ?
+    choices:
+    - text: Il peut accéder au stage initial avec son GP-N4
+      correct: true
+    - text: Il doit d’abord obtenir l’initiateur FFESSM
+      correct: false
+    - text: Il doit d’abord obtenir le directeur de plongée N5
+      correct: false
+    explanation: 'L’initiateur et le N5 ne sont pas des prérequis du stage initial de la filière classique
+      MF1 : le GP-N4 permet d’y accéder. Le parcours comprend ensuite un stage pédagogique en situation,
+      un stage final et un examen. L’initiateur et le N5 peuvent ouvrir des allègements de formation ;
+      ils ne sont pas obligatoires pour commencer ce parcours.'
+- id: n4-cadre-commissions-comite-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Statuts FFESSM 2023, art.27 et 30, p.21–22 du PDF, vérifiés le 2026-10-12 ; version liée par la
+      commission juridique : https://ffessm.fr/uploads/media/docs/0001/11/d4671cf07cd93f6cd35b659cac5440424bc81367.pdf
+      ; https://juridique.ffessm.fr/textes-federaux-ffessm'
+    - 'Revue individuelle : docs/reviews/n4/LOT_02_CADRE.md'
+    fact_check: pass
+  fr:
+    question: La Commission technique nationale de la FFESSM propose une modification du cursus GP-N4.
+      Quelle instance détient le pouvoir d’approuver sa proposition pour la rendre exécutoire ?
+    choices:
+    - text: Le Comité directeur national
+      correct: true
+    - text: La Commission technique nationale
+      correct: false
+    - text: Le Conseil des commissions
+      correct: false
+    explanation: Les commissions étudient les questions de leur domaine et proposent des évolutions. Leurs
+      propositions sont soumises au Comité directeur national, qui peut les rendre exécutoires. Le Conseil
+      des commissions sert à réfléchir aux sujets transversaux et à formuler des propositions ; il ne
+      remplace pas cette approbation.
+- id: n4-cadre-echelons-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 FFESSM, mai 2026, p.9, règles d’organisation de l’examen, vérifié le 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_02_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Un club affilié FFESSM situé en France métropolitaine veut organiser un examen GP-N4. À
+      quelle instance doit-il demander l’autorisation d’organisation dans le cadre habituel ?
+    choices:
+    - text: À sa Commission technique régionale (CTR)
+      correct: true
+    - text: À sa Commission technique départementale (CTD)
+      correct: false
+    - text: À la Commission technique nationale (CTN)
+      correct: false
+    explanation: L’organisation de l’examen relève de la CTR, qui peut la déléguer à un comité départemental,
+      un club ou une structure commerciale agréée. Le club adresse donc sa demande à sa CTR d’appartenance,
+      au moins deux mois avant le début prévu. La CTN intervient dans les cas particuliers prévus pour
+      des structures ou territoires non rattachés à une CTR.
+- id: n4-cadre-commission-activite-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'CNEBS FFESSM — Plongeur PB1, page et rubrique des formations, consultées le 2026-10-12 : https://biologie.ffessm.fr/plongeur-pb1
+      ; https://biologie.ffessm.fr/'
+    - 'MFT GP-N4 mai 2026 p.4 et 27 : accueil et connaissance des commissions'
+    - 'Revue individuelle : docs/reviews/n4/LOT_03_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Un plongeur encadré demande à son guide vers quelle commission FFESSM se tourner pour préparer
+      le brevet PB1. Quelle commission porte ce cursus ?
+    choices:
+    - text: Environnement et biologie subaquatiques
+      correct: true
+    - text: Photo et vidéo sous-marines
+      correct: false
+    - text: Technique
+      correct: false
+    explanation: PB1 signifie Plongeur biologiste niveau 1. Ce cursus apprend la plongée d’observation
+      et l’organisation générale de la vie subaquatique ; il est porté par la commission Environnement
+      et biologie subaquatiques. La commission Technique porte les brevets de plongeur et d’encadrant
+      en scaphandre ; la commission Photo et vidéo porte les formations à l’image sous-marine.
+- id: n4-cadre-assistance-assurance-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'FFESSM — fiche pratique Individuelle Accident et Assistance 2026/2027, p.1, consultée le 2026-10-12
+      : https://ffessm.fr/uploads/media/docs/0001/15/43959744e30030bd37e200cc1fe2599beeeb6a22.pdf'
+    - 'Lafont — Déclarer un sinistre, rubrique assistance et rapatriement, consultée le 2026-10-12 : https://ffessm.lafont-assurances.com/declarer-un-sinistre/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_03_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Après un accident de plongée à l’étranger, un licencié ayant souscrit le contrat fédéral
+      Individuelle Accident & Assistance demande l’organisation de son rapatriement médical, dans les
+      conditions prévues au contrat. Quel volet correspond à cette prestation ?
+    choices:
+    - text: L’assistance à la personne
+      correct: true
+    - text: La responsabilité civile envers les tiers
+      correct: false
+    - text: Le capital versé pour invalidité permanente
+      correct: false
+    explanation: L’assistance organise notamment la prise en charge et, lorsque la situation le justifie
+      et que le contrat le prévoit, le rapatriement médical. Une indemnité d’invalidité est une somme
+      versée au titre de dommages corporels ; elle ne désigne pas l’organisation du transport. La responsabilité
+      civile vise les dommages causés à autrui. Pour le contrat fédéral, le courtier indique AXA Assistance
+      comme interlocuteur du rapatriement.
+- id: n4-cadre-obligation-moyens-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Code du sport A322-74, consulté le 2026-10-12 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025393871'
+    - 'FFESSM CTR Est — annale officielle GP-N4 cadre réglementaire juillet 2020, corrigé p.2 question
+      2 obligation de moyens ; PDF lu le 2026-10-12 : https://technique.ffessmest.fr/uploads/file_manager/nDLkoKrC7u552KcpJm2OOt_vLKUmUbWgxXYOPf-4e0E/Annales%20examens%20GPN4/Cadre%20r%C3%A8glementaire/13.%20Cadre%20reglementaire%20GPN4%20juillet%202020.pdf'
+    - 'Associations.gouv.fr — obligation de sécurité selon autonomie du pratiquant, consulté le 2026-10-12
+      : https://associations.gouv.fr/la-responsabilite-des-associations-en-tant-que-personnes-morales'
+    - 'Revue individuelle : docs/reviews/n4/LOT_03_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Pour la sécurité d’une exploration encadrée en immersion, sur quoi porte l’obligation de
+      moyens du guide de palanquée ?
+    choices:
+    - text: Sur la mise en œuvre des mesures de sécurité adaptées aux plongeurs et aux circonstances
+      correct: true
+    - text: Sur la garantie d’une immersion sans accident pour les plongeurs encadrés
+      correct: false
+    explanation: Le guide doit mettre en œuvre les mesures de sécurité adaptées aux aptitudes du groupe
+      et aux circonstances. Cette obligation de moyens porte sur sa conduite et ses précautions ; une
+      obligation de résultat porterait sur l’obtention d’un résultat promis. La survenue d’un accident
+      ne prouve donc pas, à elle seule, quel manquement a été commis.
+- id: n4-cadre-causalite-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Code civil art.1240, version depuis 2016-10-01, vérifié le 2026-10-12 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032041571'
+    - 'MFT GP-N4 mai 2026 p.27 : responsabilité civile et pénale'
+    - 'Revue individuelle : docs/reviews/n4/LOT_03_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Après une plongée, une victime demande réparation au guide sur le fondement de sa faute
+      personnelle, au titre de l’article 1240 du Code civil. Un dommage et une faute sont établis. Quel
+      élément doit encore être établi pour compléter les conditions de cette responsabilité ?
+    choices:
+    - text: Un lien de causalité entre la faute et le dommage
+      correct: true
+    - text: Une intention du guide de provoquer le dommage
+      correct: false
+    - text: Une condamnation pénale préalable du guide
+      correct: false
+    explanation: La responsabilité pour faute personnelle suppose une faute, un dommage et un lien de
+      causalité entre eux. Une faute sans rapport avec le dommage ne suffit pas à justifier cette réparation.
+      L’intention de nuire et une condamnation pénale préalable ne sont pas requises par l’article 1240.
+- id: n4-cadre-mise-danger-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Code pénal art.223-1, version depuis 2011-05-19, page officielle consolidée consultée le 2026-10-12
+      : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024042637/2026-04-03?isSuggest=true'
+    - 'Cour de cassation — Bulletin criminel janvier 2024, obligation particulière imposée par des dispositions
+      françaises : https://www.courdecassation.fr/publications/bulletin-des-arrets-de-la-chambre-criminelle/numero-1-janvier-2024/mise-en-danger-de-la-personne'
+    - 'Revue individuelle : docs/reviews/n4/LOT_03_CADRE.md'
+    fact_check: pass
+  fr:
+    question: En droit français, quelle situation peut relever du délit de mise en danger d’autrui, même
+      si personne n’a été blessé ?
+    choices:
+    - text: Une violation manifestement délibérée d’une obligation légale ou réglementaire précise, exposant
+        directement à un risque immédiat de mort ou de blessure très grave
+      correct: true
+    - text: Une erreur non intentionnelle dans l’application d’une consigne interne, exposant à un risque
+        immédiat de mort ou de blessure très grave
+      correct: false
+    - text: Une violation manifestement délibérée d’une obligation légale ou réglementaire précise, créant
+        un risque hypothétique de blessure à terme
+      correct: false
+    explanation: Ce délit suppose une obligation particulière de prudence ou de sécurité imposée par la
+      loi ou le règlement, une violation manifestement délibérée et une exposition directe à un risque
+      immédiat de mort ou de blessures pouvant entraîner une mutilation ou une infirmité permanente. Le
+      dommage n’a pas besoin de se produire. Une erreur involontaire ou un risque seulement hypothétique
+      ne suffit pas à caractériser ce délit.
+- id: n4-cadre-honorabilite-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Code du sport L212-9, version depuis 2024-03-10, vérifié le 2026-10-12 : https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006167039'
+    - 'Ministère des Sports — contrôle d’honorabilité, consulté le 2026-10-12 : https://www.sports.gouv.fr/controle-d-honorabilite-64'
+    - 'FFESSM — périmètre occasionnel et majeur, consulté le 2026-10-12 : https://ffessm.fr/lutter-contre-les-violences/les-violences-sexuelles'
+    - 'Revue individuelle : docs/reviews/n4/LOT_04_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Dans un club FFESSM, un GP-N4 guide bénévolement et occasionnellement des palanquées composées
+      d’adultes. Quel régime de contrôle d’honorabilité s’applique à sa fonction ?
+    choices:
+    - text: Contrôle applicable même à ce guidage bénévole et occasionnel
+      correct: true
+    - text: Dispense de contrôle pour un guidage bénévole limité aux adultes
+      correct: false
+    - text: Dispense de contrôle pour un guidage occasionnel limité aux adultes
+      correct: false
+    explanation: L’encadrement sportif relève de l’obligation d’honorabilité même lorsqu’il est bénévole,
+      occasionnel et exercé auprès de majeurs. Le contrôle n’est donc réservé ni aux professionnels ni
+      aux personnes encadrant des enfants. Le club et la fédération recueillent les données nécessaires
+      à la vérification par les services de l’État ; la détention du brevet et de la licence ne remplace
+      pas ce contrôle.
+- id: n4-cadre-signalement-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'Ministère des Sports — Signaler une violence, consulté le 2026-10-12 : https://www.sports.gouv.fr/signaler-une-violence-501'
+    - 'FFESSM — Effectuer un signalement, victime/témoin direct et indirect, consulté le 2026-10-12 :
+      https://ffessm.fr/lutter-contre-les-violences/effectuer-un-signalement'
+    - 'Revue individuelle : docs/reviews/n4/LOT_04_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Un adulte rapporte à son guide des violences subies dans le cadre du club. Il n’y a pas
+      de danger immédiat. À quel moment un signalement à Signal-Sports peut-il être transmis ?
+    choices:
+    - text: Dès le témoignage, sans attendre une plainte ou une procédure interne
+      correct: true
+    - text: Après le dépôt d’une plainte, sans attendre une procédure interne
+      correct: false
+    - text: Après la procédure disciplinaire du club, sans attendre une plainte
+      correct: false
+    explanation: Une victime ou un témoin peut transmettre les faits à la cellule ministérielle Signal-Sports,
+      à signal-sports@sports.gouv.fr. Ce signalement n’est pas subordonné au dépôt d’une plainte ni à
+      une procédure disciplinaire du club. La voie fédérale existe également, à stopviolence@ffessm.fr.
+      Le guide rapporte les faits reçus ; il ne mène pas lui-même une enquête ni une confrontation.
+- id: n4-cadre-rex-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - 'FFESSM REX — objet, publics et démarche volontaire et anonyme, consulté le 2026-10-12 : https://rex.ffessm.fr/pourquoi-rex-ffessm/'
+    - 'Revue individuelle : docs/reviews/n4/LOT_04_CADRE.md'
+    fact_check: pass
+  fr:
+    question: Après une perte momentanée de palanquée résolue sans blessure, le guide veut contribuer
+      au REX FFESSM. Quelle condition de recevabilité correspond à cette démarche ?
+    choices:
+    - text: Un quasi-accident peut être rapporté volontairement sans blessure
+      correct: true
+    - text: Un accident corporel doit avoir été déclaré à l’assureur
+      correct: false
+    - text: Une infraction aux règles doit avoir été constatée par le club
+      correct: false
+    explanation: Le retour d’expérience (REX) recueille des accidents, incidents, quasi-accidents et bonnes
+      pratiques. Il cherche les facteurs utiles à la prévention, sans exiger une blessure, une déclaration
+      d’assurance ou une infraction constatée. La démarche est volontaire et anonyme ; le contributeur
+      peut laisser ses coordonnées pour des précisions. Elle sert à apprendre de l’événement après sa
+      gestion immédiate.
+- id: n4-cadre-signature-carnet-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  tags:
+  - chapitre-n4::01
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.3, signatures des explorations encadrées, vérifié le 2026-10-12
+    - N4-S60 — MFT N5 mai 2026 p.3, validation des plongées des participants présents sur le site, vérifié
+      le 2026-10-12
+    - 'Code du sport annexe III-15b, vérifiée le 2026-10-12 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053377107'
+    - 'Revue individuelle : docs/reviews/n4/LOT_04_CADRE.md'
+    - 'Arrêté du 31 juillet 2023, art.3 modifiant art.3 c de l’arrêté DEJEPS 15 juin 2017, JO du 8 septembre
+      2023 p.2 : attestation par E4 ; PDF JO lu sur le site public ENVSN https://www.envsn.fr/assets/images/formation/content/arrete_dejeps_2023.pdf
+      ; état consolidé indexé Légifrance https://www.legifrance.gouv.fr/loda/id/JORFTEXT000035046090/
+      (dernière modification 1 novembre 2023), contrôlé 2026-10-12 ; accès direct consolidé 403, aucune
+      lecture intégrale revendiquée'
+    - 'Clôture du HOLD : docs/reviews/n4/LOT_34_SIGNATURE.md ; signature carnet distincte de l’attestation
+      professionnelle'
+    fact_check: pass
+  fr:
+    question: Quelle étendue de signature dans les carnets le brevet GP-N4 FFESSM attribue-t-il pour les
+      plongées d’exploration ?
+    choices:
+    - text: Les explorations qu’il a encadrées dans sa palanquée
+      correct: true
+    - text: Les explorations de tous les plongeurs présents sur le site
+      correct: false
+    - text: Les explorations auxquelles il participe comme équipier autonome
+      correct: false
+    explanation: Le brevet GP-N4 permet au guide de signer les explorations qu’il a encadrées. Le N5 peut
+      valider les plongées des participants présents sur le site ; cette étendue n’est pas attribuée au
+      GP seul. Participer à une exploration en autonomie ne revient pas à l’avoir encadrée comme guide.
+      Pour l’entrée en DEJEPS « activités de plongée subaquatique », la preuve d’expérience requise est
+      une attestation délivrée par un moniteur E4 ; les signatures ordinaires d’un GP dans le carnet ne
+      remplacent pas cette attestation.
+- id: n4-cadre-initiateur-acces-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.26–27 ; recoupement final du 2026-10-12 : prévention OPI, accès initiateur
+      et commissions fédérales'
+    - FFESSM — MFT Initiateur décembre 2025 p.5 (stage initial) et p.18 (examen), https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/c73522e4-acb2-4b56-9691-3a807334ab39
+      ; consulté 2026-10-12
+    - DAN — Can You Recognize IPE?, 22 décembre 2022, paragraphes sur la résistance inspiratoire ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      ; consulté 2026-10-12
+    - FFESSM — Règlement intérieur du 7 décembre 2024, article V.2.4 p.17, https://ffessm.fr/uploads/media/docs/0001/13/be9dd3c7e7d5695fa87946441349372266dac34f.pdf
+      ; version liée par la page officielle des statuts, consultée 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_104_COMPLEMENTS.md'
+    fact_check: pass
+  fr:
+    question: Pour accéder au stage initial de l’initiateur FFESSM, quelle certification de plongeur constitue
+      le minimum demandé, les autres conditions d’accès étant remplies ?
+    choices:
+    - text: La qualification PA20 ou une certification équivalente
+      correct: true
+    - text: Le brevet N3 ou une certification équivalente
+      correct: false
+    - text: Le brevet GP-N4 ou une certification équivalente
+      correct: false
+    explanation: La qualification PA20 suffit pour cette condition d’accès au stage initial. Le N3 et
+      le GP-N4 satisfont aussi ce minimum, mais ne sont pas exigés. Le stage initial est accessible à
+      partir de 15 ans ; l’examen d’initiateur demande au moins 16 ans. Le GP-N4 est nécessaire pour qu’un
+      initiateur exerce ensuite comme E2, pas pour commencer la formation d’initiateur.
+- id: n4-cadre-commissions-culturelles-001
+  type: mcq
+  deck: Réglementation
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.26–27 ; recoupement final du 2026-10-12 : prévention OPI, accès initiateur
+      et commissions fédérales'
+    - FFESSM — MFT Initiateur décembre 2025 p.5 (stage initial) et p.18 (examen), https://api.ffessm.fr/V1/Commissions/ManuelFormationList/Download/c73522e4-acb2-4b56-9691-3a807334ab39
+      ; consulté 2026-10-12
+    - DAN — Can You Recognize IPE?, 22 décembre 2022, paragraphes sur la résistance inspiratoire ; https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/
+      ; consulté 2026-10-12
+    - FFESSM — Règlement intérieur du 7 décembre 2024, article V.2.4 p.17, https://ffessm.fr/uploads/media/docs/0001/13/be9dd3c7e7d5695fa87946441349372266dac34f.pdf
+      ; version liée par la page officielle des statuts, consultée 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_104_COMPLEMENTS.md'
+    fact_check: pass
+  fr:
+    question: À la FFESSM, quel ensemble réunit uniquement des commissions classées comme culturelles
+      ?
+    choices:
+    - text: Archéologie, environnement et biologie, photo-vidéo, plongée souterraine
+      correct: true
+    - text: Archéologie, environnement et biologie, photo-vidéo, apnée
+      correct: false
+    - text: Archéologie, environnement et biologie, photo-vidéo, technique
+      correct: false
+    explanation: Les quatre commissions culturelles sont l’archéologie subaquatique, l’environnement et
+      la biologie subaquatiques, la photo-vidéo sous-marine et la plongée souterraine. L’apnée relève
+      des commissions sportives ; la commission Technique concerne notamment la pratique et l’enseignement
+      du scaphandre. La plongée souterraine est donc classée ici parmi les activités culturelles, même
+      si sa pratique demande des techniques particulières.

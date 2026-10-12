@@ -1,0 +1,419 @@
+cards:
+- id: n4-circulation-circuits-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 — Melèse, appareil circulatoire janvier 2024 p.7–15 ;
+      N4-S59 CODEP92 appareil circulatoire : cycle et débit ; contrôlés 2026-10-12'
+    - 'NHLBI — How Blood Flows through the Heart, 25/06/2025 : https://www.nhlbi.nih.gov/health/heart/blood-flow
+      ; contrôlé 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/circulation.svg ; exercice de débit à données imposées
+    - 'Revue individuelle : docs/reviews/n4/LOT_14_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur ce schéma fonctionnel, quels côtés du cœur correspondent à A et B ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 270" role="img" aria-label="Circuit fonctionnel
+      : A envoie le sang aux poumons, B reçoit le sang des poumons et l’envoie aux organes ; retour des
+      organes vers A" style="width:100%;max-width:600px;height:auto;background:#fff"><defs><marker id="n4circ"
+      markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#397b94"/></marker></defs><g
+      fill="#e7f3f7" stroke="#397b94" stroke-width="2"><rect x="235" y="15" width="130" height="50" rx="8"/><rect
+      x="65" y="105" width="130" height="55" rx="8"/><rect x="405" y="105" width="130" height="55" rx="8"/><rect
+      x="235" y="215" width="130" height="50" rx="8"/></g><g fill="none" stroke="#397b94" stroke-width="3"
+      marker-end="url(#n4circ)"><path d="M130 105 V40 H225"/><path d="M375 40 H470 V95"/><path d="M470
+      170 V240 H375"/><path d="M225 240 H130 V170"/></g><g fill="#18394a" text-anchor="middle" font-family="sans-serif"
+      font-size="20"><text x="300" y="47">Poumons</text><text x="130" y="140">Cœur A</text><text x="470"
+      y="140">Cœur B</text><text x="300" y="248">Organes</text></g></svg>'
+    choices:
+    - text: A est le cœur droit ; B le cœur gauche
+      correct: true
+    - text: A est le cœur gauche ; B le cœur droit
+      correct: false
+    explanation: 'Le cœur droit reçoit le sang des organes et l’envoie vers les poumons. Le cœur gauche
+      reçoit le sang des poumons et le propulse vers les organes. La position sur ce dessin fonctionnel
+      n’est pas une vue anatomique de face : ce sont les trajets qui permettent d’identifier les côtés.'
+- id: n4-circulation-artere-veine-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 — Melèse, appareil circulatoire janvier 2024 p.7–15 ;
+      N4-S59 CODEP92 appareil circulatoire : cycle et débit ; contrôlés 2026-10-12'
+    - 'NHLBI — How Blood Flows through the Heart, 25/06/2025 : https://www.nhlbi.nih.gov/health/heart/blood-flow
+      ; contrôlé 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/circulation.svg ; exercice de débit à données imposées
+    - 'Revue individuelle : docs/reviews/n4/LOT_14_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: L’artère pulmonaire transporte normalement un sang moins oxygéné que les veines pulmonaires.
+      Pourquoi porte-t-elle quand même le nom d’artère ?
+    choices:
+    - text: Parce qu’elle conduit le sang du cœur vers les poumons
+      correct: true
+    - text: Parce que sa dénomination dépend du gaz majoritaire dans son sang
+      correct: false
+    - text: Parce qu’elle ramène le sang des poumons vers le cœur
+      correct: false
+    explanation: Une artère s’éloigne du cœur, une veine y revient. Le nom ne décrit pas la teneur en
+      O2. L’artère pulmonaire part du ventricule droit vers les poumons ; les veines pulmonaires ramènent
+      le sang oxygéné vers l’oreillette gauche.
+- id: n4-circulation-valves-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 — Melèse, appareil circulatoire janvier 2024 p.7–15 ;
+      N4-S59 CODEP92 appareil circulatoire : cycle et débit ; contrôlés 2026-10-12'
+    - 'NHLBI — How Blood Flows through the Heart, 25/06/2025 : https://www.nhlbi.nih.gov/health/heart/blood-flow
+      ; contrôlé 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/circulation.svg ; exercice de débit à données imposées
+    - 'Revue individuelle : docs/reviews/n4/LOT_14_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Pendant l’éjection du ventricule droit, quelle valve empêche normalement le reflux vers
+      l’oreillette droite ?
+    choices:
+    - text: La valve tricuspide
+      correct: true
+    - text: La valve pulmonaire
+      correct: false
+    - text: La valve mitrale
+      correct: false
+    explanation: 'La tricuspide sépare oreillette et ventricule droits : elle se ferme lors de l’éjection
+      ventriculaire. La valve pulmonaire s’ouvre alors vers l’artère pulmonaire ; sa fermeture empêche
+      le reflux depuis cette artère après l’éjection. La mitrale sépare les cavités gauches.'
+- id: n4-circulation-systole-diastole-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 — Melèse, appareil circulatoire janvier 2024 p.7–15 ;
+      N4-S59 CODEP92 appareil circulatoire : cycle et débit ; contrôlés 2026-10-12'
+    - 'NHLBI — How Blood Flows through the Heart, 25/06/2025 : https://www.nhlbi.nih.gov/health/heart/blood-flow
+      ; contrôlé 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/circulation.svg ; exercice de débit à données imposées
+    - 'Revue individuelle : docs/reviews/n4/LOT_14_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Comment nomme-t-on la phase où le muscle des ventricules se relâche et où leur remplissage
+      peut se produire ?
+    choices:
+    - text: La diastole ventriculaire
+      correct: true
+    - text: La systole ventriculaire
+      correct: false
+    explanation: La diastole comprend le relâchement puis le remplissage des ventricules. La systole ventriculaire
+      comprend leur contraction puis l’éjection vers les artères. Les valves s’ouvrent ou se ferment selon
+      les gradients de pression ; toute la diastole ne correspond donc pas à un remplissage ininterrompu.
+- id: n4-circulation-debit-cardiaque-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 — Melèse, appareil circulatoire janvier 2024 p.7–15 ;
+      N4-S59 CODEP92 appareil circulatoire : cycle et débit ; contrôlés 2026-10-12'
+    - 'NHLBI — How Blood Flows through the Heart, 25/06/2025 : https://www.nhlbi.nih.gov/health/heart/blood-flow
+      ; contrôlé 2026-10-12'
+    - Schéma fonctionnel original docs/diagrams/n4/circulation.svg ; exercice de débit à données imposées
+    - 'Revue individuelle : docs/reviews/n4/LOT_14_CIRCULATION.md'
+    - 'Article — Cardiac structure and function in humans: a new cardiovascular physiology laboratory,
+      2009, table 1, formule débit=VES×fréquence : https://pmc.ncbi.nlm.nih.gov/articles/PMC3747785/ ;
+      recoupement 2026-10-12'
+    fact_check: pass
+  fr:
+    question: Dans un exercice, chaque ventricule éjecte 75 mL par battement à une fréquence de 81 battements/min.
+      Quel débit cardiaque obtient-on, arrondi au dixième de L/min ?
+    choices:
+    - text: 6,1 L/min
+      correct: true
+    - text: 12,2 L/min
+      correct: false
+    - text: 60,8 L/min
+      correct: false
+    explanation: 'Le débit d’un ventricule vaut volume d’éjection × fréquence : 75 × 81 = 6 075 mL/min,
+      soit 6,075 L/min, arrondis à 6,1. Les deux circulations sont en série : additionner les débits des
+      ventricules donnerait à tort 12,2 L/min. 60,8 L/min convertit les mL en L avec un facteur 100 au
+      lieu de 1 000.'
+- id: n4-circulation-hemoglobine-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 Melèse, janvier 2024 p.14–25, et N4-S59 appareil circulatoire
+      ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits (27/06/2025) et Heart Blood Flow (25/06/2025) : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      et https://www.nhlbi.nih.gov/health/heart/blood-flow ; relecture 2026-10-12'
+    - 'OpenStax Anatomy and Physiology 2e 22.5 Transport of Gases : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases
+      ; CO2 sous bicarbonates, carbamino et dissous ; vérifié 2026-10-12'
+    - 'DAN — Simon Mitchell, Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution, Gas
+      Transport : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; DAN Patent
+      Foramen Ovale, rubrique mécanisme : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlés 2026-10-12'
+    - Schéma FOP original docs/diagrams/n4/fop-localisation.svg ; aucun seuil de risque ni prescription
+      médicale individuelle
+    - 'Revue individuelle : docs/reviews/n4/LOT_15_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Chez un adulte sain respirant de l’air à la pression atmosphérique, sous quelle forme la
+      majeure partie de l’O2 sanguin est-elle transportée ?
+    choices:
+    - text: Liée à l’hémoglobine des globules rouges
+      correct: true
+    - text: Dissoute dans le plasma sanguin
+      correct: false
+    - text: Transformée en bicarbonates dans le plasma
+      correct: false
+    explanation: L’hémoglobine transporte la majeure partie de l’oxygène dans ces conditions ; une petite
+      fraction est dissoute. Le gaz doit passer sous forme dissoute pour diffuser, mais cela ne signifie
+      pas que tout le stock d’O2 circule ainsi. Les bicarbonates représentent surtout une forme de transport
+      du CO2.
+- id: n4-circulation-co2-transport-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 Melèse, janvier 2024 p.14–25, et N4-S59 appareil circulatoire
+      ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits (27/06/2025) et Heart Blood Flow (25/06/2025) : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      et https://www.nhlbi.nih.gov/health/heart/blood-flow ; relecture 2026-10-12'
+    - 'OpenStax Anatomy and Physiology 2e 22.5 Transport of Gases : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases
+      ; CO2 sous bicarbonates, carbamino et dissous ; vérifié 2026-10-12'
+    - 'DAN — Simon Mitchell, Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution, Gas
+      Transport : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; DAN Patent
+      Foramen Ovale, rubrique mécanisme : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlés 2026-10-12'
+    - Schéma FOP original docs/diagrams/n4/fop-localisation.svg ; aucun seuil de risque ni prescription
+      médicale individuelle
+    - 'Revue individuelle : docs/reviews/n4/LOT_15_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Dans les conditions physiologiques usuelles, quelle forme représente la plus grande part
+      du transport sanguin du CO2 vers les poumons ?
+    choices:
+    - text: Les ions bicarbonate
+      correct: true
+    - text: Le CO2 lié à l’hémoglobine
+      correct: false
+    - text: Le CO2 moléculaire dissous
+      correct: false
+    explanation: Une grande partie du CO2 est convertie en bicarbonates. Une autre part est transportée
+      liée à des protéines, notamment l’hémoglobine, et une part reste dissoute. Dans les poumons, ces
+      équilibres permettent de reformer le CO2 moléculaire éliminé vers les alvéoles. L’acide carbonique
+      est un intermédiaire de la conversion en bicarbonates, pas le nom de la forme majoritaire finale.
+- id: n4-circulation-diffusion-perfusion-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 Melèse, janvier 2024 p.14–25, et N4-S59 appareil circulatoire
+      ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits (27/06/2025) et Heart Blood Flow (25/06/2025) : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      et https://www.nhlbi.nih.gov/health/heart/blood-flow ; relecture 2026-10-12'
+    - 'OpenStax Anatomy and Physiology 2e 22.5 Transport of Gases : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases
+      ; CO2 sous bicarbonates, carbamino et dissous ; vérifié 2026-10-12'
+    - 'DAN — Simon Mitchell, Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution, Gas
+      Transport : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; DAN Patent
+      Foramen Ovale, rubrique mécanisme : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlés 2026-10-12'
+    - Schéma FOP original docs/diagrams/n4/fop-localisation.svg ; aucun seuil de risque ni prescription
+      médicale individuelle
+    - 'Revue individuelle : docs/reviews/n4/LOT_15_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: On étudie les échanges d’un gaz entre sang et tissu. L’expérience A modifie le gradient
+      de pression partielle, à débit sanguin constant. L’expérience B modifie le débit sanguin traversant
+      le tissu. Quelles notions sont visées, respectivement ?
+    choices:
+    - text: Diffusion, puis perfusion
+      correct: true
+    - text: Perfusion, puis diffusion
+      correct: false
+    - text: Ventilation, puis perfusion
+      correct: false
+    explanation: La diffusion est le passage du gaz selon son gradient de pression partielle à travers
+      une interface. La perfusion est l’apport sanguin au tissu. La ventilation renouvelle l’air pulmonaire
+      ; changer un gradient entre sang et tissu ne signifie pas qu’on change cette ventilation. Diffusion
+      et perfusion interviennent ensemble dans le transport des gaz.
+- id: n4-circulation-bloodshift-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 Melèse, janvier 2024 p.14–25, et N4-S59 appareil circulatoire
+      ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits (27/06/2025) et Heart Blood Flow (25/06/2025) : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      et https://www.nhlbi.nih.gov/health/heart/blood-flow ; relecture 2026-10-12'
+    - 'OpenStax Anatomy and Physiology 2e 22.5 Transport of Gases : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases
+      ; CO2 sous bicarbonates, carbamino et dissous ; vérifié 2026-10-12'
+    - 'DAN — Simon Mitchell, Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution, Gas
+      Transport : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; DAN Patent
+      Foramen Ovale, rubrique mécanisme : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlés 2026-10-12'
+    - Schéma FOP original docs/diagrams/n4/fop-localisation.svg ; aucun seuil de risque ni prescription
+      médicale individuelle
+    - 'Revue individuelle : docs/reviews/n4/LOT_15_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Lors d’une immersion jusqu’au cou, quel changement contribue à augmenter le remplissage
+      cardiaque par rapport à la station debout hors de l’eau ?
+    choices:
+    - text: La redistribution d’une partie du sang périphérique vers le thorax
+      correct: true
+    - text: L’augmentation de la fréquence cardiaque sans redistribution de sang
+      correct: false
+    - text: La dilatation des veines périphériques qui accroît leur stockage de sang
+      correct: false
+    explanation: L’immersion réduit l’accumulation de sang dans les parties périphériques et favorise
+      une redistribution vers le thorax, appelée centralisation sanguine ou blood shift. Le retour veineux
+      et le remplissage cardiaque augmentent. Une variation de fréquence ne décrit pas ce transfert de
+      volume ; davantage de stockage veineux périphérique aurait l’effet opposé sur la centralisation.
+- id: n4-circulation-fop-localisation-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.25 ; N4-S17 Melèse, janvier 2024 p.14–25, et N4-S59 appareil circulatoire
+      ; contrôlés 2026-10-12
+    - 'NHLBI — Breathing Benefits (27/06/2025) et Heart Blood Flow (25/06/2025) : https://www.nhlbi.nih.gov/health/lungs/breathing-benefits
+      et https://www.nhlbi.nih.gov/health/heart/blood-flow ; relecture 2026-10-12'
+    - 'OpenStax Anatomy and Physiology 2e 22.5 Transport of Gases : https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases
+      ; CO2 sous bicarbonates, carbamino et dissous ; vérifié 2026-10-12'
+    - 'DAN — Simon Mitchell, Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution, Gas
+      Transport : https://dan.org/alert-diver/article/the-physiology-of-compressed-gas-diving/ ; DAN Patent
+      Foramen Ovale, rubrique mécanisme : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlés 2026-10-12'
+    - Schéma FOP original docs/diagrams/n4/fop-localisation.svg ; aucun seuil de risque ni prescription
+      médicale individuelle
+    - 'Revue individuelle : docs/reviews/n4/LOT_15_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur ce schéma des cavités cardiaques, où se situe le passage potentiel d’un foramen ovale
+      perméable ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" role="img" aria-label="Quatre cavités
+      cardiaques schématiques : oreillettes au-dessus, ventricules au-dessous ; A entre les oreillettes,
+      B entre les ventricules, C entre oreillette et ventricule gauches" style="width:100%;max-width:600px;height:auto;background:#fff"><g
+      fill="#e7f3f7" stroke="#397b94" stroke-width="3"><rect x="95" y="25" width="190" height="95" rx="12"/><rect
+      x="315" y="25" width="190" height="95" rx="12"/><rect x="95" y="160" width="190" height="95" rx="12"/><rect
+      x="315" y="160" width="190" height="95" rx="12"/></g><g font-family="sans-serif" font-size="22"
+      text-anchor="middle" fill="#18394a"><text x="185" y="78">OD</text><text x="410" y="78">OG</text><text
+      x="185" y="217">VD</text><text x="410" y="217">VG</text><text x="300" y="78">A</text><text x="300"
+      y="217">B</text><text x="410" y="148">C</text></g></svg>'
+    choices:
+    - text: Au repère A
+      correct: true
+    - text: Au repère B
+      correct: false
+    - text: Au repère C
+      correct: false
+    explanation: 'Le foramen ovale perméable, ou FOP, se situe entre les deux oreillettes : OD, oreillette
+      droite, et OG, oreillette gauche. Il ne relie pas les ventricules VD et VG. Le passage OG–VG est
+      celui de la valve mitrale, pas un FOP.'
+- id: n4-circulation-fop-passage-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : FOP et shunts pulmonaires ; N4-S17 Melèse janvier 2024 p.25
+      ; contrôlés 2026-10-12'
+    - 'DAN — Patent Foramen Ovale, mécanisme pression OD>OG et note shunts intrapulmonaires : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlé 2026-10-12'
+    - 'SPUMS/UKDMC — Joint position statement on atrial shunts and diving, update 2025 : https://pmc.ncbi.nlm.nih.gov/articles/PMC12043516/
+      ; résumé primaire indexé (texte complet web bloqué), distinction shunts atriaux/pulmonaires ; aucun
+      conseil de traitement ou délai individuel déduit'
+    - Schéma conceptuel original docs/diagrams/n4/shunt-pulmonaire.svg ; pas représentation d’un shunt
+      par défaut chez tous les plongeurs
+    - 'Revue individuelle : docs/reviews/n4/LOT_16_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Un plongeur a des bulles veineuses arrivant à l’oreillette droite. Un FOP permet momentanément
+      un passage alors que la pression de cette oreillette dépasse celle de la gauche. Quel trajet peut
+      alors contourner le filtre capillaire pulmonaire ?
+    choices:
+    - text: Oreillette droite → oreillette gauche → ventricule gauche → circulation artérielle générale
+      correct: true
+    - text: Oreillette droite → ventricule droit → artère pulmonaire → capillaires pulmonaires
+      correct: false
+    explanation: 'Le gradient droite–gauche peut permettre à des bulles de franchir le FOP entre les oreillettes,
+      puis de rejoindre la circulation artérielle par le ventricule gauche. Le trajet normal par le ventricule
+      droit conduit aux capillaires pulmonaires. Un FOP ne signifie pas un shunt permanent ni un accident
+      certain : le passage dépend des conditions de pression, des bulles présentes et de leur trajet.'
+- id: n4-circulation-shunt-pulmonaire-001
+  type: mcq
+  deck: Anatomie et physiologie
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.25 : FOP et shunts pulmonaires ; N4-S17 Melèse janvier 2024 p.25
+      ; contrôlés 2026-10-12'
+    - 'DAN — Patent Foramen Ovale, mécanisme pression OD>OG et note shunts intrapulmonaires : https://dan.org/health-medicine/health-resources/diseases-conditions/patent-foramen-ovale-pfo/
+      ; contrôlé 2026-10-12'
+    - 'SPUMS/UKDMC — Joint position statement on atrial shunts and diving, update 2025 : https://pmc.ncbi.nlm.nih.gov/articles/PMC12043516/
+      ; résumé primaire indexé (texte complet web bloqué), distinction shunts atriaux/pulmonaires ; aucun
+      conseil de traitement ou délai individuel déduit'
+    - Schéma conceptuel original docs/diagrams/n4/shunt-pulmonaire.svg ; pas représentation d’un shunt
+      par défaut chez tous les plongeurs
+    - 'Revue individuelle : docs/reviews/n4/LOT_16_CIRCULATION.md'
+    fact_check: pass
+  fr:
+    question: Chez un plongeur sans communication intracardiaque, quel mécanisme peut permettre à des
+      bulles veineuses de rejoindre intactes la circulation artérielle ?
+    choices:
+    - text: Le passage par une voie intrapulmonaire contournant le réseau capillaire
+      correct: true
+    - text: La diffusion des bulles à travers la membrane alvéolo-capillaire
+      correct: false
+    explanation: 'Une voie intrapulmonaire qui contourne le réseau capillaire peut laisser passer des
+      bulles vers les veines pulmonaires, puis le cœur gauche et les artères générales. Elle ne nécessite
+      pas un passage entre les oreillettes comme le FOP. La diffusion normale concerne des molécules de
+      gaz dissous, pas des bulles intactes traversant la membrane.
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" role="img" aria-label="Trajet de sang
+      de l’artère pulmonaire à la veine pulmonaire dans les poumons ; branche X qui contourne un réseau
+      capillaire" style="width:100%;max-width:600px;height:auto;background:#fff"><g font-family="sans-serif"
+      font-size="18" fill="#18394a"><rect x="115" y="20" width="375" height="220" rx="12" fill="#f0f4f7"
+      stroke="#7395a6"/><text x="250" y="48">Poumons</text><rect x="215" y="132" width="175" height="48"
+      rx="8" fill="#e7f3f7" stroke="#397b94"/><text x="235" y="162">Capillaires</text><path d="M20 156
+      H205 M400 156 H575 M155 156 V85 H450 V156" fill="none" stroke="#397b94" stroke-width="4"/><path
+      d="M190 150 L202 156 L190 162 M540 150 L552 156 L540 162 M330 79 L342 85 L330 91" fill="none" stroke="#397b94"
+      stroke-width="3"/><text x="20" y="210">Artère pulmonaire</text><text x="408" y="210">Veine pulmonaire</text><text
+      x="280" y="78">X</text></g></svg>'

@@ -6,6 +6,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -30,6 +31,11 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 48 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Decompression Illness texte complet (https://dan.org/health-medicine/health-resources/diseases-conditions/decompression-illness-what-is-it-and-what-is-the-treatment/)
+      ; RIFAP mai2026 pages28–32 et PSC juillet2026 pages26–27/36–37 relus dans les PDF locaux officiels
+      ; DAN Physiology of Compressed Gas Diving source factuelle déjà contrôlée lors ventilation N4. ;
+      recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À effort et débit ventilé comparables, quel changement du gaz explique l’augmentation du
@@ -52,6 +58,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -77,6 +84,11 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 49 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Your Lungs and Diving, Q2 2017 revue médicale mai2025 (https://world.dan.org/alert-diver/article/your-lungs-and-diving/)
+      ; DAN Breathing Gas Contamination (https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/)
+      ; MFT N2 mai2026 p.9,14–15, MFT GP-N4 mai2026 p.17–18/26. Calcul ventilation alvéolaire résolu séparément.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Dans un modèle simplifié, 150 mL de chaque inspiration ventilent les voies de passage sans
@@ -101,6 +113,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -129,6 +142,11 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 49 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Your Lungs and Diving, Q2 2017 revue médicale mai2025 (https://world.dan.org/alert-diver/article/your-lungs-and-diving/)
+      ; DAN Breathing Gas Contamination (https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/)
+      ; MFT N2 mai2026 p.9,14–15, MFT GP-N4 mai2026 p.17–18/26. Calcul ventilation alvéolaire résolu séparément.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant un palmage intense, le détendeur fonctionne et la fréquence respiratoire augmente.
@@ -153,6 +171,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -180,6 +199,11 @@ cards:
     - DAN Breathing Gas Contamination, https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/
       et DAN World Breathing Gas Safety Basics, https://world.dan.org/safety-prevention/diver-safety/divers-blog/breathing-gas-safety-basics/
       ; CO inodore / symptômes peu spécifiques / conserver le bloc pour analyse, vérifiés 2026-10-11.
+    - 'Reprise N4 du 2026-10-12, lot 49 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Your Lungs and Diving, Q2 2017 revue médicale mai2025 (https://world.dan.org/alert-diver/article/your-lungs-and-diving/)
+      ; DAN Breathing Gas Contamination (https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/)
+      ; MFT N2 mai2026 p.9,14–15, MFT GP-N4 mai2026 p.17–18/26. Calcul ventilation alvéolaire résolu séparément.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Plusieurs plongeurs présentent céphalées ou malaise après utilisation de blocs gonflés au
@@ -200,6 +224,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -224,21 +249,24 @@ cards:
       2026 p. 26–27 et 36–37 (RCP / PLS non traumatique), PSE juillet 2026 p. 138–148 ; DAN Physiologie
       du gaz comprimé / Decompression Illness / Carbon Monoxide Poisoning. Calcul ventilation alvéolaire
       refait : (250−150)×30=3000 et(500−150)×15=5250 mL/min.'
+    - 'Reprise N4 du 2026-10-12, lot 49 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Your Lungs and Diving, Q2 2017 revue médicale mai2025 (https://world.dan.org/alert-diver/article/your-lungs-and-diving/)
+      ; DAN Breathing Gas Contamination (https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/)
+      ; MFT N2 mai2026 p.9,14–15, MFT GP-N4 mai2026 p.17–18/26. Calcul ventilation alvéolaire résolu séparément.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Après un palmage soutenu, quel tableau indique surtout une difficulté ventilatoire à signaler
-      immédiatement ?
+    question: Après un palmage soutenu, quelle évolution de la respiration oriente vers un essoufflement
+      qui ne se résout pas avec l’arrêt de l’effort ?
     choices:
-    - text: Respiration haletante, sensation de manque d’air et récupération difficile à l’arrêt
+    - text: Respiration haletante avec manque d’air persistant malgré l’arrêt du palmage
       correct: true
-    - text: Respiration régulière, euphorie inhabituelle et répétition d’une manipulation
+    - text: Respiration accélérée pendant le palmage, redevenant aisée rapidement à l’arrêt
       correct: false
-    - text: Respiration régulière, vertige rotatoire et sensation d’oreille bouchée
-      correct: false
-    explanation: 'Une respiration haletante avec manque d’air et difficulté à récupérer annonce une difficulté
-      ventilatoire. Une euphorie et des gestes répétitifs orientent plutôt vers une altération du jugement
-      ; un vertige avec oreille bouchée évoque une atteinte auriculaire. Un essoufflement n’établit pas
-      à lui seul sa cause : effort, matériel et autres problèmes doivent être considérés.'
+    explanation: 'Une augmentation de la ventilation pendant un effort peut être adaptée à la demande
+      des muscles. Un manque d’air qui persiste et une respiration haletante malgré l’arrêt traduisent
+      une difficulté à récupérer : signaler immédiatement le problème à l’équipier. Ce tableau n’en établit
+      pas la cause à lui seul ; effort, matériel et autres problèmes doivent être considérés.'
 - id: n2-essoufflement-panique-001
   type: mcq
   anki_model: basic
@@ -246,6 +274,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -270,6 +299,11 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 49 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DAN Your Lungs and Diving, Q2 2017 revue médicale mai2025 (https://world.dan.org/alert-diver/article/your-lungs-and-diving/)
+      ; DAN Breathing Gas Contamination (https://dan.org/safety-prevention/diver-safety/psa/breathing-gas-contamination/)
+      ; MFT N2 mai2026 p.9,14–15, MFT GP-N4 mai2026 p.17–18/26. Calcul ventilation alvéolaire résolu séparément.
+      ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pourquoi retirer son détendeur pendant un essoufflement ne facilite-t-il pas l’élimination
@@ -289,6 +323,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -312,21 +347,26 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 50 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N2 mai2026 p.9/14–15, MFT GP-N4 mai2026 p.17–18/26 et N3 décembre2025 p.10–11 ; DAN Your Lungs
+      and Diving production CO2/effort ; DAN Avoid the Chill (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/)
+      et Ameli hypothermie (https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie),
+      sources médicales reconsultées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Une respiration haletante apparaît pendant un palmage soutenu, avec du gaz disponible et
-      un détendeur fonctionnel. Quel enchaînement initial convient ?
+    question: Face à un essoufflement pendant un palmage soutenu, quel effet recherche-t-on d’abord en
+      arrêtant l’effort ?
     choices:
-    - text: Signaler, stopper le palmage et se stabiliser avec l’équipier pour organiser la sortie
+    - text: Réduire la production de CO₂ par les muscles
       correct: true
-    - text: Signaler, poursuivre le palmage et se concentrer sur une expiration plus lente
+    - text: Réduire la proportion de CO₂ dans le gaz fourni par le détendeur
       correct: false
-    - text: Signaler, poursuivre le palmage et passer sur le détendeur de secours
+    - text: Réduire le volume d’espace mort des voies respiratoires
       correct: false
-    explanation: Réduire la demande ventilatoire commence par l’arrêt de l’effort. Signaler immédiatement,
-      se stabiliser avec l’aide de l’équipier et organiser la fin de plongée. Un contrôle respiratoire
-      ou un changement de détendeur ne compense pas le maintien de l’effort dans ce cas où la source de
-      gaz est fonctionnelle.
+    explanation: Arrêter l’effort réduit le besoin des muscles et leur production de CO₂. Cela ne change
+      ni la composition du gaz fourni ni le volume des voies de passage qui constituent l’espace mort.
+      Signaler immédiatement le problème, se stabiliser avec l’aide de l’équipier et organiser la fin
+      de plongée permet de réduire la demande ventilatoire tout en gardant une respiration libre.
 - id: n2-essoufflement-assistance-001
   type: mcq
   anki_model: basic
@@ -334,6 +374,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -360,6 +401,11 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 50 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N2 mai2026 p.9/14–15, MFT GP-N4 mai2026 p.17–18/26 et N3 décembre2025 p.10–11 ; DAN Your Lungs
+      and Diving production CO2/effort ; DAN Avoid the Chill (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/)
+      et Ameli hypothermie (https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie),
+      sources médicales reconsultées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur essoufflé est assisté pendant une remontée avec un ordinateur. Quel principe
@@ -382,6 +428,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::08
   - essoufflement
@@ -404,6 +451,11 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 50 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N2 mai2026 p.9/14–15, MFT GP-N4 mai2026 p.17–18/26 et N3 décembre2025 p.10–11 ; DAN Your Lungs
+      and Diving production CO2/effort ; DAN Avoid the Chill (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/)
+      et Ameli hypothermie (https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie),
+      sources médicales reconsultées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Dans un courant, le palmage nécessaire au trajet augmente fortement l’effort et la ventilation.

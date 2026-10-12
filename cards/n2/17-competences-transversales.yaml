@@ -6,6 +6,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -27,6 +28,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 74 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q p.8 membrane isolante relu ; MFT GP-N4 mai 2026 conduite, communication, orientation
+      et désaturation ; MFT N2/N3 briefing et retour ; Suunto SK-series navigation par repères ; cap réciproque
+      calculé indépendamment. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Au palier, un équipier montre le nombre « 6 » sans préciser l’unité. Quelle convention de
@@ -49,6 +54,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -68,6 +74,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 74 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q p.8 membrane isolante relu ; MFT GP-N4 mai 2026 conduite, communication, orientation
+      et désaturation ; MFT N2/N3 briefing et retour ; Suunto SK-series navigation par repères ; cap réciproque
+      calculé indépendamment. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une sortie de repli est plus proche à vol d’oiseau que la sortie prévue, mais impose un
@@ -76,8 +86,6 @@ cards:
     choices:
     - text: Le gaz du trajet de repli, de la remontée et des paliers requis
       correct: true
-    - text: Le gaz du trajet horizontal, en conservant les seuls arrêts facultatifs
-      correct: false
     - text: Le gaz correspondant à la différence de distance mesurée à vol d’oiseau
       correct: false
     explanation: 'La distance apparente ne suffit pas : trajet réel, profondeur, courant, remontée et
@@ -90,6 +98,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -111,6 +120,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 74 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q p.8 membrane isolante relu ; MFT GP-N4 mai 2026 conduite, communication, orientation
+      et désaturation ; MFT N2/N3 briefing et retour ; Suunto SK-series navigation par repères ; cap réciproque
+      calculé indépendamment. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Lors d’un déplacement sous l’eau, quelle information fournit le maintien de deux repères
@@ -132,6 +145,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -151,6 +165,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 74 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : SCUBAPRO Rev Q p.8 membrane isolante relu ; MFT GP-N4 mai 2026 conduite, communication, orientation
+      et désaturation ; MFT N2/N3 briefing et retour ; Suunto SK-series navigation par repères ; cap réciproque
+      calculé indépendamment. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Exercice d’orientation : trajet rectiligne à cap 70°, sans dérive ni obstacle. Quel cap
@@ -172,6 +190,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -191,6 +210,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 75 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite/orientation et p.25, absence de paliers profonds à l’air ; MFT N2/N3
+      briefing, état du jour ; Suunto SK-series et caps réciproques ; principes de séparation relus dans
+      la revue existante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Exercice d’orientation : aller rectiligne à cap 300°, sans dérive ni obstacle. Quel cap
@@ -212,6 +235,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -232,6 +256,10 @@ cards:
       N3 décembre 2025 p. 8–10 (gaz/briefing, orientation, communication) ; MFT N2 mai 2026 planification/orientation
       ; SCUBAPRO Rev Q juillet 2025 pression intermédiaire ; additions/soustractions, caps réciproques
       modulo360 résolus indépendamment le 11 octobre 2026.
+    - 'Reprise N4 du 2026-10-12, lot 75 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite/orientation et p.25, absence de paliers profonds à l’air ; MFT N2/N3
+      briefing, état du jour ; Suunto SK-series et caps réciproques ; principes de séparation relus dans
+      la revue existante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quels paramètres faut-il définir au briefing pour que des équipiers séparés appliquent une
@@ -254,6 +282,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -275,6 +304,10 @@ cards:
       N2 mai 2026 planification p. 12 et MFT N3 décembre 2025 p. 8/13 : état personnel et planification
       air sans paliers profonds ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 14 : renflement/coupure/fissure
       des flexibles, remplacement avant utilisation ; consultés le 11 octobre 2026.'
+    - 'Reprise N4 du 2026-10-12, lot 75 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite/orientation et p.25, absence de paliers profonds à l’air ; MFT N2/N3
+      briefing, état du jour ; Suunto SK-series et caps réciproques ; principes de séparation relus dans
+      la revue existante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Le directeur de plongée autorise un profil conforme à vos aptitudes. Qui doit encore apprécier
@@ -296,6 +329,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - competences-transversales
@@ -320,6 +354,10 @@ cards:
       N2 mai 2026 planification p. 12 et MFT N3 décembre 2025 p. 8/13 : état personnel et planification
       air sans paliers profonds ; SCUBAPRO détendeurs Rev Q juillet 2025 p. 14 : renflement/coupure/fissure
       des flexibles, remplacement avant utilisation ; consultés le 11 octobre 2026.'
+    - 'Reprise N4 du 2026-10-12, lot 75 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite/orientation et p.25, absence de paliers profonds à l’air ; MFT N2/N3
+      briefing, état du jour ; Suunto SK-series et caps réciproques ; principes de séparation relus dans
+      la revue existante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En planification fédérale à l’air, quel type d’arrêt ne doit pas être ajouté au profil de
@@ -340,6 +378,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -357,6 +396,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
       recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
       mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 75 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite/orientation et p.25, absence de paliers profonds à l’air ; MFT N2/N3
+      briefing, état du jour ; Suunto SK-series et caps réciproques ; principes de séparation relus dans
+      la revue existante. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: La palanquée doit revenir en sens inverse le long du même tombant. À l’aller elle suivait
@@ -367,17 +410,19 @@ cards:
       correct: true
     - text: Rechercher le cap 090° et confronter la paroi à la profondeur de l’aller
       correct: false
-    - text: Rechercher le cap 000° et confronter la paroi à la lumière venant de surface
+    - text: Rechercher le cap 180° et confronter la paroi aux reliefs mémorisés
       correct: false
     explanation: 'Le retour en sens inverse demande le cap opposé : 090° + 180° = 270°. Une paroi ressemblante
       et une profondeur identique ne prouvent pas qu’on a retrouvé le bon tombant. Confronter le compas
-      et les repères naturels ; 090° conserve le sens de l’aller, et 000° n’est pas son cap inverse.'
+      et les repères naturels : 090° conserve le sens de l’aller ; 180° représente un quart de tour depuis
+      090°, pas un demi-tour.'
 - id: n3-orientation-perte-limite-gaz-001
   type: mcq
   deck: Matériel et préparation
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -395,12 +440,16 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
       recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
       mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 76 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite, orientation et milieu ; MFT N3 prévention impact ; DORIS Posidonia
+      oceanica https://doris.ffessm.fr/ref/specie/265 et OFB herbiers de posidonies consultés ; calcul
+      gaz refait : (550−400)/(20×3)=2,5 min. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Exercice de recherche après perte de repères : une palanquée dispose de 550 L de gaz utilisable,
-      dont 400 L nécessaires au repli convenu. La recherche reste à 20 m, avec 1 bar en surface, 1 bar
-      ajouté tous les 10 m et un débit respiratoire de 20 L/min ramené à la surface. Quelle durée maximale
-      de recherche ce budget nominal laisse-t-il ?'
+    question: 'Exercice de recherche après perte de repères : pour le plongeur dont on calcule le budget,
+      550 L de gaz sont utilisables, dont 400 L nécessaires au repli convenu. La recherche reste à 20
+      m, avec 1 bar en surface, +1 bar tous les 10 m et un débit respiratoire de 20 L/min ramené à la
+      surface. Quelle durée maximale de recherche ce budget nominal laisse-t-il ?'
     choices:
     - text: 2,5 min
       correct: true
@@ -418,6 +467,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -435,6 +485,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 23/25/28–30 ; pertinence N2 et relecture
       recto/choix/corrigé le 2026-10-11, lot T2 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2
       mai 2026 p. 10–12/19 ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 76 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite, orientation et milieu ; MFT N3 prévention impact ; DORIS Posidonia
+      oceanica https://doris.ffessm.fr/ref/specie/265 et OFB herbiers de posidonies consultés ; calcul
+      gaz refait : (550−400)/(20×3)=2,5 min. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une dérive impose des paliers en pleine eau loin du mouillage, près d’un passage de bateaux.
@@ -454,6 +508,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -471,6 +526,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
       le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
       ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 76 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite, orientation et milieu ; MFT N3 prévention impact ; DORIS Posidonia
+      oceanica https://doris.ffessm.fr/ref/specie/265 et OFB herbiers de posidonies consultés ; calcul
+      gaz refait : (550−400)/(20×3)=2,5 min. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Une palanquée traverse un fond meuble et commence à soulever des sédiments. L’espace au-dessus
@@ -492,6 +551,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -509,6 +569,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
       le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
       ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 76 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite, orientation et milieu ; MFT N3 prévention impact ; DORIS Posidonia
+      oceanica https://doris.ffessm.fr/ref/specie/265 et OFB herbiers de posidonies consultés ; calcul
+      gaz refait : (550−400)/(20×3)=2,5 min. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pour observer une faune fixée à courte distance, quelle pratique d’éclairage limite le dérangement
@@ -528,6 +592,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -546,6 +611,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
       le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
       ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 76 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai 2026 conduite, orientation et milieu ; MFT N3 prévention impact ; DORIS Posidonia
+      oceanica https://doris.ffessm.fr/ref/specie/265 et OFB herbiers de posidonies consultés ; calcul
+      gaz refait : (550−400)/(20×3)=2,5 min. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À quel groupe biologique appartient la posidonie méditerranéenne, Posidonia oceanica ?
@@ -565,6 +634,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -585,6 +655,10 @@ cards:
     - 'N2-S04 — Patrice Serresseque, Théorie N2, 01/07/2026, p. 31 ; pertinence N2 et relecture recto/choix/corrigé
       le 2026-10-11, lot T3 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md. MFT N2 mai 2026 p. 10–12/19
       ; sources factuelles antérieures conservées.'
+    - 'Reprise N4 du 2026-10-12, lot 77 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DORIS Posidonia oceanica fiche265 et Anemonia viridis fiche111 consultées, OFB herbiers ; SCUBAPRO
+      Rev Q juillet 2025 principes et dépannage ; MFT GP-N4 conduite, environnement et matériel ; règle
+      du premier seuil de planification. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Pourquoi le choix d’un mouillage hors d’un herbier de posidonie protège-t-il cet habitat
@@ -606,6 +680,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::17
   - complement-pdf::2026-10-11
@@ -620,6 +695,10 @@ cards:
     - 'Critique distincte du lot C2 le 2026-10-11 : chaque choix et corrigé relus ; consécutive 25+10=35,
       successives 25+10=35 ; différence des branches de profondeur ; * et seuils vérifiés ; grande nacre
       limitée au milieu naturel pour exclure les collections/élevages licites.'
+    - 'Reprise N4 du 2026-10-12, lot 77 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DORIS Posidonia oceanica fiche265 et Anemonia viridis fiche111 consultées, OFB herbiers ; SCUBAPRO
+      Rev Q juillet 2025 principes et dépannage ; MFT GP-N4 conduite, environnement et matériel ; règle
+      du premier seuil de planification. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Un exercice fixe deux limites de départ du retour : au plus tard 18 min après immersion,
@@ -642,6 +721,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre-n3::12
   status: reviewed
@@ -659,17 +739,22 @@ cards:
     - 'N2-S04 p.31, risques de contact avec la faune ; MFT N2 mai 2026 p.10/19, connaissance des dangers
       du milieu. Le mécanisme des cnidaires est interrogé sur l’anémone déjà sourcée, sans nouvelle carte
       doublon pour les méduses. Relecture individuelle du lot T3 le 2026-10-11 : docs/reviews/RECOUPEMENT_N2_PDF_2026-10-11.md.'
+    - 'Reprise N4 du 2026-10-12, lot 77 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : DORIS Posidonia oceanica fiche265 et Anemonia viridis fiche111 consultées, OFB herbiers ; SCUBAPRO
+      Rev Q juillet 2025 principes et dépannage ; MFT GP-N4 conduite, environnement et matériel ; règle
+      du premier seuil de planification. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: Sur un site méditerranéen, quel mécanisme rend le contact avec les tentacules d’une anémone
-      verte (Anemonia viridis) irritant ?
+    question: Sur un site méditerranéen, quel mécanisme explique principalement l’irritation au contact
+      des tentacules d’une anémone verte (Anemonia viridis) ?
     choices:
     - text: Le déclenchement de cellules urticantes au contact
       correct: true
-    - text: La libération de bactéries qui provoquent immédiatement la brûlure
+    - text: La diffusion d’une substance irritante depuis le mucus des tentacules
       correct: false
     - text: La pénétration de minuscules épines calcaires dans la peau
       correct: false
-    explanation: Les tentacules possèdent des cnidocytes, cellules urticantes servant notamment à capturer
-      les proies. Une apparence souple et une fixation au fond ne rendent pas le contact sans risque ;
-      on observe sans toucher.
+    explanation: Les tentacules possèdent des cnidocytes, cellules urticantes qui déclenchent leur appareil
+      d’injection au contact et servent notamment à capturer les proies. L’irritation n’est pas attribuée
+      à une simple diffusion depuis le mucus, ni à des épines calcaires comme celles d’un oursin. L’anémone
+      s’observe sans la toucher.

@@ -1,0 +1,250 @@
+cards:
+- id: n4-environnement-fixe-mobile-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 ; N4-S10 Jourdren protection environnement août2024 p.9,13–22
+      ; relus 2026-10-12
+    - DORIS FFESSM — Grande claveline, description/siphons https://doris.ffessm.fr/Especes/Clavelina-lepadiformis-Grande-claveline-355
+      ; Crambe crambe alimentation https://doris.ffessm.fr/Especes/Crambe-crambe-Eponge-encroutante-orange-rouge-112
+      ; CNEBS embranchements éponges https://biologie.ffessm.fr/details-sur-les-embranchements ; consultés
+      2026-10-12
+    - DORIS — Gorgone pourpre Paramuricea clavata, description/alimentation https://doris.ffessm.fr/Especes/Paramuricea-clavata-Gorgone-pourpre-223
+      ; Poulpe commun description/divers biologie chromatophores https://doris.ffessm.fr/Especes/Octopus-vulgaris-Poulpe-commun-847
+      ; consultés 2026-10-12
+    - OFB — Les herbiers marins https://ofb.gouv.fr/les-herbiers-marins et Restauration des herbiers de
+      Posidonie à Porquerolles https://ofb.gouv.fr/restauration-des-herbiers-de-posidonie-a-porquerolles
+      ; habitat/nurserie, consultés 2026-10-12 ; figures originales sans photographie de tiers
+    - 'Revue individuelle : docs/reviews/n4/LOT_32_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Quelle différence de mode de vie distingue une grande claveline adulte d’un poulpe commun
+      adulte ?
+    choices:
+    - text: La claveline reste fixée au support ; le poulpe peut se déplacer entre des refuges
+      correct: true
+    - text: La claveline peut changer de support ; le poulpe reste fixé à son refuge
+      correct: false
+    explanation: La grande claveline est une ascidie dont les individus adultes vivent fixés, reliés en
+      colonie par une base commune. Le poulpe peut quitter un refuge et se déplacer avec ses bras ou par
+      propulsion d’eau. Un organisme fixé peut avoir des mouvements locaux, comme fermer ses siphons,
+      sans changer de lieu de vie.
+- id: n4-environnement-eponge-ascidie-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 ; N4-S10 Jourdren protection environnement août2024 p.9,13–22
+      ; relus 2026-10-12
+    - DORIS FFESSM — Grande claveline, description/siphons https://doris.ffessm.fr/Especes/Clavelina-lepadiformis-Grande-claveline-355
+      ; Crambe crambe alimentation https://doris.ffessm.fr/Especes/Crambe-crambe-Eponge-encroutante-orange-rouge-112
+      ; CNEBS embranchements éponges https://biologie.ffessm.fr/details-sur-les-embranchements ; consultés
+      2026-10-12
+    - DORIS — Gorgone pourpre Paramuricea clavata, description/alimentation https://doris.ffessm.fr/Especes/Paramuricea-clavata-Gorgone-pourpre-223
+      ; Poulpe commun description/divers biologie chromatophores https://doris.ffessm.fr/Especes/Octopus-vulgaris-Poulpe-commun-847
+      ; consultés 2026-10-12
+    - OFB — Les herbiers marins https://ofb.gouv.fr/les-herbiers-marins et Restauration des herbiers de
+      Posidonie à Porquerolles https://ofb.gouv.fr/restauration-des-herbiers-de-posidonie-a-porquerolles
+      ; habitat/nurserie, consultés 2026-10-12 ; figures originales sans photographie de tiers
+    - 'Revue individuelle : docs/reviews/n4/LOT_32_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: 'Les flèches indiquent la circulation d’eau chez ces deux animaux filtrants. Quels groupes
+      correspondent aux organisations A et B ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" role="img" aria-label="Deux animaux
+      filtrants : A présente deux ouvertures distinctes, entrée au sommet et sortie sur le côté ; B présente
+      de nombreux petits pores d’entrée et une grande ouverture de sortie" style="width:100%;max-width:560px;background:white"><g
+      fill="#d5edf1" stroke="#397b94" stroke-width="3"><path d="M120 230 V210 C70 170 90 100 120 90 V50
+      H150 V95 C165 85 180 90 180 115 V140 C190 180 165 205 155 210 V230 Z"/><path d="M350 230 V110 C350
+      80 370 60 395 65 V95 H425 V65 C450 60 475 90 475 115 V230 Z"/></g><g fill="none" stroke="#18394a"
+      stroke-width="3"><path d="M135 10 V65 M127 53 L135 65 L143 53 M173 110 H220 M208 102 L220 110 L208
+      118 M410 85 V15 M402 27 L410 15 L418 27"/><path d="M315 135 H365 M315 175 H365 M510 135 H460 M510
+      175 H460"/></g><g fill="#fff" stroke="#397b94" stroke-width="2"><circle cx="354" cy="135" r="5"/><circle
+      cx="354" cy="175" r="5"/><circle cx="472" cy="135" r="5"/><circle cx="472" cy="175" r="5"/></g><g
+      fill="#18394a" font-family="sans-serif" font-size="22"><text x="128" y="260">A</text><text x="403"
+      y="260">B</text></g></svg>'
+    choices:
+    - text: 'A : ascidie ; B : éponge'
+      correct: true
+    - text: 'A : éponge ; B : ascidie'
+      correct: false
+    explanation: Une ascidie possède un siphon d’entrée et un siphon de sortie ; chez la grande claveline,
+      le second est latéral et légèrement plus bas. Une éponge reçoit l’eau par de nombreux petits pores
+      et la rejette par des ouvertures plus grandes, les oscules. Les deux filtrent des particules de
+      l’eau, mais leur organisation diffère.
+- id: n4-environnement-corail-gorgone-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 ; N4-S10 Jourdren protection environnement août2024 p.9,13–22
+      ; relus 2026-10-12
+    - DORIS FFESSM — Grande claveline, description/siphons https://doris.ffessm.fr/Especes/Clavelina-lepadiformis-Grande-claveline-355
+      ; Crambe crambe alimentation https://doris.ffessm.fr/Especes/Crambe-crambe-Eponge-encroutante-orange-rouge-112
+      ; CNEBS embranchements éponges https://biologie.ffessm.fr/details-sur-les-embranchements ; consultés
+      2026-10-12
+    - DORIS — Gorgone pourpre Paramuricea clavata, description/alimentation https://doris.ffessm.fr/Especes/Paramuricea-clavata-Gorgone-pourpre-223
+      ; Poulpe commun description/divers biologie chromatophores https://doris.ffessm.fr/Especes/Octopus-vulgaris-Poulpe-commun-847
+      ; consultés 2026-10-12
+    - OFB — Les herbiers marins https://ofb.gouv.fr/les-herbiers-marins et Restauration des herbiers de
+      Posidonie à Porquerolles https://ofb.gouv.fr/restauration-des-herbiers-de-posidonie-a-porquerolles
+      ; habitat/nurserie, consultés 2026-10-12 ; figures originales sans photographie de tiers
+    - 'Revue individuelle : docs/reviews/n4/LOT_32_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Chez la gorgone pourpre Paramuricea clavata, que sont les structures à huit tentacules pennés
+      entourant une bouche, qui sortent des rameaux et capturent des particules du courant ?
+    choices:
+    - text: Des polypes animaux participant à l’alimentation de la colonie
+      correct: true
+    - text: Des feuilles végétales participant à l’alimentation de la colonie
+      correct: false
+    - text: Des siphons d’ascidies participant à l’alimentation de la colonie
+      correct: false
+    explanation: 'La gorgone pourpre est une colonie de cnidaires : les polypes capturent des particules
+      organiques en suspension et les nutriments sont partagés dans la colonie. Son aspect ramifié ne
+      fait pas de ses polypes des feuilles. Les ascidies filtrent avec une autre organisation à siphons
+      ; elles ne constituent pas les polypes de la gorgone.'
+- id: n4-environnement-herbier-habitat-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 ; N4-S10 Jourdren protection environnement août2024 p.9,13–22
+      ; relus 2026-10-12
+    - DORIS FFESSM — Grande claveline, description/siphons https://doris.ffessm.fr/Especes/Clavelina-lepadiformis-Grande-claveline-355
+      ; Crambe crambe alimentation https://doris.ffessm.fr/Especes/Crambe-crambe-Eponge-encroutante-orange-rouge-112
+      ; CNEBS embranchements éponges https://biologie.ffessm.fr/details-sur-les-embranchements ; consultés
+      2026-10-12
+    - DORIS — Gorgone pourpre Paramuricea clavata, description/alimentation https://doris.ffessm.fr/Especes/Paramuricea-clavata-Gorgone-pourpre-223
+      ; Poulpe commun description/divers biologie chromatophores https://doris.ffessm.fr/Especes/Octopus-vulgaris-Poulpe-commun-847
+      ; consultés 2026-10-12
+    - OFB — Les herbiers marins https://ofb.gouv.fr/les-herbiers-marins et Restauration des herbiers de
+      Posidonie à Porquerolles https://ofb.gouv.fr/restauration-des-herbiers-de-posidonie-a-porquerolles
+      ; habitat/nurserie, consultés 2026-10-12 ; figures originales sans photographie de tiers
+    - 'Revue individuelle : docs/reviews/n4/LOT_32_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Quel rôle de nurserie peut jouer un herbier de posidonie pour des poissons juvéniles ?
+    choices:
+    - text: Offrir des abris et des ressources favorisant leur croissance
+      correct: true
+    - text: Offrir uniquement un support de ponte sans rôle après l’éclosion
+      correct: false
+    explanation: Les feuilles et la structure de l’herbier offrent des abris et des ressources alimentaires
+      à divers juvéniles. Une nurserie contribue à leur développement ; elle ne se limite pas au lieu
+      où les œufs ont été déposés, et tous les poissons ne dépendent pas du même habitat aux mêmes stades.
+      La perte d’un herbier affecte donc un habitat, en plus de la plante elle-même.
+- id: n4-environnement-poulpe-comportement-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 ; N4-S10 Jourdren protection environnement août2024 p.9,13–22
+      ; relus 2026-10-12
+    - DORIS FFESSM — Grande claveline, description/siphons https://doris.ffessm.fr/Especes/Clavelina-lepadiformis-Grande-claveline-355
+      ; Crambe crambe alimentation https://doris.ffessm.fr/Especes/Crambe-crambe-Eponge-encroutante-orange-rouge-112
+      ; CNEBS embranchements éponges https://biologie.ffessm.fr/details-sur-les-embranchements ; consultés
+      2026-10-12
+    - DORIS — Gorgone pourpre Paramuricea clavata, description/alimentation https://doris.ffessm.fr/Especes/Paramuricea-clavata-Gorgone-pourpre-223
+      ; Poulpe commun description/divers biologie chromatophores https://doris.ffessm.fr/Especes/Octopus-vulgaris-Poulpe-commun-847
+      ; consultés 2026-10-12
+    - OFB — Les herbiers marins https://ofb.gouv.fr/les-herbiers-marins et Restauration des herbiers de
+      Posidonie à Porquerolles https://ofb.gouv.fr/restauration-des-herbiers-de-posidonie-a-porquerolles
+      ; habitat/nurserie, consultés 2026-10-12 ; figures originales sans photographie de tiers
+    - 'Revue individuelle : docs/reviews/n4/LOT_32_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Quel mécanisme permet au poulpe commun de modifier rapidement sa coloration, sans changer
+      de refuge ?
+    choices:
+    - text: La modification de taille des organes pigmentaires de la peau
+      correct: true
+    - text: La libération d’encre sur la peau depuis la poche à encre
+      correct: false
+    - text: La production rapide de nouveaux pigments dans la peau
+      correct: false
+    explanation: Des organes pigmentaires de la peau, les chromatophores, changent de dimension et rendent
+      leurs pigments plus ou moins visibles. Cela permet des changements rapides de coloration. L’encre
+      est expulsée par un autre dispositif ; produire de nouveaux pigments n’explique pas ces modifications
+      rapides. La coloration observée ne suffit pas à attribuer une intention certaine à l’animal.
+- id: n4-environnement-eau-douce-habitat-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 conduite/protection milieu ; N4-S10 Jourdren environnement août2024
+      p.9,12 ; relus 2026-10-12
+    - DORIS — Brochet Esox lucius, fiche mise à jour 26 décembre 2025, biotope/alimentation https://doris.ffessm.fr/Especes/Esox-lucius-Brochet-366
+      ; consulté 2026-10-12, habitat préféré sans promesse d’observation
+    - 'Longitude181 — Charte internationale du plongeur responsable https://www.longitude181.org/pdf/Charte-Francais.pdf
+      p.4 ; limiter contacts et maîtriser flottabilité ; consulté 2026-10-12 ; bulles sous surplomb :
+      objectif explicite du cours Jourdren p.12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_33_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Dans un lac où le brochet commun est présent, quel secteur correspond le mieux à son habitat
+      préféré pour une observation de jour ?
+    choices:
+    - text: Une zone peu profonde et calme avec végétation aquatique
+      correct: true
+    - text: Une zone peu profonde et rapide avec roche nue
+      correct: false
+    - text: Une zone profonde en pleine eau sans végétation
+      correct: false
+    explanation: Le brochet commun, Esox lucius, préfère des eaux calmes et peu profondes offrant un couvert
+      végétal. La végétation fournit notamment des caches pour sa chasse à l’affût. Ce choix oriente l’observation
+      sans garantir la présence d’un individu à cet instant. Une zone de courant rapide et une pleine
+      eau profonde sans couvert ne sont pas les secteurs qui correspondent le mieux à cette préférence.
+- id: n4-environnement-groupe-approche-001
+  type: mcq
+  deck: Environnement
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.6,17 conduite/protection milieu ; N4-S10 Jourdren environnement août2024
+      p.9,12 ; relus 2026-10-12
+    - DORIS — Brochet Esox lucius, fiche mise à jour 26 décembre 2025, biotope/alimentation https://doris.ffessm.fr/Especes/Esox-lucius-Brochet-366
+      ; consulté 2026-10-12, habitat préféré sans promesse d’observation
+    - 'Longitude181 — Charte internationale du plongeur responsable https://www.longitude181.org/pdf/Charte-Francais.pdf
+      p.4 ; limiter contacts et maîtriser flottabilité ; consulté 2026-10-12 ; bulles sous surplomb :
+      objectif explicite du cours Jourdren p.12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_33_ENVIRONNEMENT.md'
+    fact_check: pass
+  fr:
+    question: Une palanquée observe une faune fixée sous un surplomb depuis l’extérieur, sans y entrer.
+      L’espace latéral est libre et tous savent s’y stabiliser. Pour éviter que les bulles expirées passent
+      contre le plafond habité, quel placement convient ?
+    choices:
+    - text: Groupe stabilisé sur le côté, hors de la verticale du surplomb
+      correct: true
+    - text: Groupe stabilisé sous le plafond, sans contact des mains ni des palmes
+      correct: false
+    explanation: 'Les bulles remontent vers la surface : rester directement sous le surplomb les dirige
+      contre sa face inférieure. Une observation latérale depuis l’espace libre évite cette trajectoire,
+      tout en conservant l’absence de contact des mains, des palmes et des accessoires. Le guide organise
+      les positions pour garder tous les plongeurs visibles ; si l’espace ne le permet pas, il choisit
+      un autre point d’observation.'

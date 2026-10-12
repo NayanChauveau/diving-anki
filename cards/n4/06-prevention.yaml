@@ -1,0 +1,416 @@
+cards:
+- id: n4-prevention-oreille-chaine-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S15 Jourdren oreille p.8–13 ; N4-S18 Jourdren apnée décembre
+      2025 p.9–14 ; contrôlés 2026-10-12
+    - 'NIDCD/NIH — How Do We Hear : https://www.nidcd.nih.gov/health/how-do-we-hear et Balance Disorders
+      : https://www.nidcd.nih.gov/health/balance-disorders ; anatomie et fonctions, consultés 2026-10-12'
+    - 'DAN — Inner-Ear Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/
+      ; Hypoxia in Breath-Hold Diving : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/
+      ; consultés 2026-10-12'
+    - Schéma auditif original docs/diagrams/n4/chaine-auditive.svg ; exercice de PpO2 fictif sans diagnostic
+      de syncope ni seuil universel
+    - 'Revue individuelle : docs/reviews/n4/LOT_17_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: 'Sur cette chaîne auditive simplifiée, quels éléments correspondent à A, B et C ?
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" role="img" aria-label="Chaîne mécanique
+      simplifiée : membrane A, ensemble de trois osselets B, entrée de l’oreille interne puis structure
+      en spirale C" style="width:100%;max-width:640px;height:auto;background:#fff"><g fill="none" stroke="#397b94"
+      stroke-width="5"><path d="M100 50 L118 180"/><path d="M118 100 L190 100 L220 130 L275 110 L320 110"/><circle
+      cx="190" cy="100" r="14"/><circle cx="220" cy="130" r="14"/><path d="M275 110 L285 135 L310 135
+      L320 110 M335 88 V137"/><path d="M338 112 C370 60 495 40 515 130 C535 225 390 235 385 145 C382 90
+      475 82 475 143 C475 181 420 188 417 147 C415 125 449 122 449 145"/></g><g font-family="sans-serif"
+      font-size="22" fill="#18394a"><text x="90" y="215">A</text><text x="210" y="70">B</text><text x="545"
+      y="158">C</text><path d="M530 151 H490" stroke="#18394a" stroke-width="2"/></g></svg>'
+    choices:
+    - text: Tympan, osselets, cochlée
+      correct: true
+    - text: Tympan, osselets, canaux semi-circulaires
+      correct: false
+    - text: Fenêtre ronde, osselets, cochlée
+      correct: false
+    explanation: 'Le tympan transmet sa vibration à la chaîne des trois osselets : marteau, enclume et
+      étrier. L’étrier agit sur la fenêtre ovale, et le mouvement est transmis aux liquides de l’oreille
+      interne, dont la cochlée transforme les vibrations en message nerveux auditif. Les canaux semi-circulaires
+      participent à l’équilibre ; la fenêtre ronde se trouve à l’interface moyenne/interne, pas au début
+      de cette chaîne.'
+- id: n4-prevention-oreille-vestibule-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S15 Jourdren oreille p.8–13 ; N4-S18 Jourdren apnée décembre
+      2025 p.9–14 ; contrôlés 2026-10-12
+    - 'NIDCD/NIH — How Do We Hear : https://www.nidcd.nih.gov/health/how-do-we-hear et Balance Disorders
+      : https://www.nidcd.nih.gov/health/balance-disorders ; anatomie et fonctions, consultés 2026-10-12'
+    - 'DAN — Inner-Ear Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/
+      ; Hypoxia in Breath-Hold Diving : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/
+      ; consultés 2026-10-12'
+    - Schéma auditif original docs/diagrams/n4/chaine-auditive.svg ; exercice de PpO2 fictif sans diagnostic
+      de syncope ni seuil universel
+    - 'Revue individuelle : docs/reviews/n4/LOT_17_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Quelle fonction distingue l’appareil vestibulaire, comprenant notamment le vestibule et
+      les canaux semi-circulaires, de la cochlée ?
+    choices:
+    - text: Détecter position et mouvements de la tête pour l’équilibre
+      correct: true
+    - text: Transformer les vibrations sonores en signaux auditifs
+      correct: false
+    - text: Égaliser la pression de la caisse du tympan avec le pharynx
+      correct: false
+    explanation: L’appareil vestibulaire fournit des informations sur la position et les mouvements de
+      la tête, utilisées pour l’équilibre et la stabilisation du regard. La cochlée assure l’audition.
+      L’égalisation de la pression de l’oreille moyenne dépend de la trompe d’Eustache, pas du vestibule.
+- id: n4-prevention-oreille-fenetres-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S15 Jourdren oreille p.8–13 ; N4-S18 Jourdren apnée décembre
+      2025 p.9–14 ; contrôlés 2026-10-12
+    - 'NIDCD/NIH — How Do We Hear : https://www.nidcd.nih.gov/health/how-do-we-hear et Balance Disorders
+      : https://www.nidcd.nih.gov/health/balance-disorders ; anatomie et fonctions, consultés 2026-10-12'
+    - 'DAN — Inner-Ear Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/
+      ; Hypoxia in Breath-Hold Diving : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/
+      ; consultés 2026-10-12'
+    - Schéma auditif original docs/diagrams/n4/chaine-auditive.svg ; exercice de PpO2 fictif sans diagnostic
+      de syncope ni seuil universel
+    - 'Revue individuelle : docs/reviews/n4/LOT_17_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Quelles interfaces séparent directement la cavité aérienne de l’oreille moyenne des liquides
+      de l’oreille interne et peuvent être lésées par une contrainte excessive de pression ?
+    choices:
+    - text: Les fenêtres ovale et ronde
+      correct: true
+    - text: Le tympan et la fenêtre ovale
+      correct: false
+    - text: Le tympan et la fenêtre ronde
+      correct: false
+    explanation: Les fenêtres ovale et ronde sont à la limite moyenne/interne. L’étrier transmet les vibrations
+      à la fenêtre ovale ; la fenêtre ronde permet un déplacement complémentaire des liquides. Un défaut
+      d’équilibrage ou une manœuvre forcée peut transmettre une contrainte et léser ces structures. Le
+      tympan sépare externe et moyenne ; la trompe relie la moyenne au nasopharynx.
+- id: n4-prevention-apnee-hyperventilation-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S15 Jourdren oreille p.8–13 ; N4-S18 Jourdren apnée décembre
+      2025 p.9–14 ; contrôlés 2026-10-12
+    - 'NIDCD/NIH — How Do We Hear : https://www.nidcd.nih.gov/health/how-do-we-hear et Balance Disorders
+      : https://www.nidcd.nih.gov/health/balance-disorders ; anatomie et fonctions, consultés 2026-10-12'
+    - 'DAN — Inner-Ear Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/
+      ; Hypoxia in Breath-Hold Diving : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/
+      ; consultés 2026-10-12'
+    - Schéma auditif original docs/diagrams/n4/chaine-auditive.svg ; exercice de PpO2 fictif sans diagnostic
+      de syncope ni seuil universel
+    - 'Revue individuelle : docs/reviews/n4/LOT_17_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Pourquoi hyperventiler avant une apnée peut-il retarder l’envie de respirer sans donner
+      une marge équivalente contre l’hypoxie ?
+    choices:
+    - text: Le CO2 initial diminue beaucoup, alors que le stock d’O2 n’augmente que peu
+      correct: true
+    - text: Le stock d’O2 augmente beaucoup, alors que le CO2 initial diminue peu
+      correct: false
+    explanation: L’hyperventilation élimine du CO2 et retarde la stimulation ventilatoire liée à son accumulation.
+      À l’air, l’hémoglobine est déjà fortement oxygénée avant cette préparation ; les réserves d’O2 n’augmentent
+      pas dans les mêmes proportions. L’oxygène peut donc manquer avant une forte envie de respirer.
+- id: n4-prevention-apnee-remontee-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S15 Jourdren oreille p.8–13 ; N4-S18 Jourdren apnée décembre
+      2025 p.9–14 ; contrôlés 2026-10-12
+    - 'NIDCD/NIH — How Do We Hear : https://www.nidcd.nih.gov/health/how-do-we-hear et Balance Disorders
+      : https://www.nidcd.nih.gov/health/balance-disorders ; anatomie et fonctions, consultés 2026-10-12'
+    - 'DAN — Inner-Ear Barotrauma : https://dan.org/health-medicine/health-resources/diseases-conditions/inner-ear-barotrauma-iebt/
+      ; Hypoxia in Breath-Hold Diving : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/
+      ; consultés 2026-10-12'
+    - Schéma auditif original docs/diagrams/n4/chaine-auditive.svg ; exercice de PpO2 fictif sans diagnostic
+      de syncope ni seuil universel
+    - 'Revue individuelle : docs/reviews/n4/LOT_17_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Dans un modèle de gaz alvéolaire pendant une apnée, la fraction d’O2 vaut 10 % à 10 m (pression
+      absolue 2 bar). À l’arrivée en surface, elle ne vaut plus que 8 %, après consommation d’O2. La surface
+      est à 1 bar. Quelle pression partielle d’O2 ce modèle donne-t-il alors ?
+    choices:
+    - text: 0,08 bar
+      correct: true
+    - text: 0,10 bar
+      correct: false
+    - text: 0,16 bar
+      correct: false
+    explanation: 'En surface : 0,08 × 1 = 0,08 bar, contre 0,10 × 2 = 0,20 bar au départ de ces dix derniers
+      mètres. La remontée réduit la pression ambiante alors que l’organisme continue à consommer l’O2.
+      0,10 bar conserve la fraction initiale ; 0,16 bar conserve la pression de 2 bar malgré l’arrivée
+      en surface.'
+- id: n4-prevention-apnee-lmc-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S18 Jourdren apnée décembre 2025 p.11–15 ; N4-S14 froid, thermorégulation
+      ; confrontés aux primaires 2026-10-12
+    - 'FFESSM Centre — Cécile Pétré, Apnée : la syncope, stage initial initiateur 25/11/2023, PDF publié
+      mars 2024, PCM/conscience conservée : https://centreffessm.fr/wp-content/uploads/2024/03/CentreFFESSM_Apnee_SI_IE_20231125_Syncope.pdf
+      ; consulté 2026-10-12'
+    - 'DAN — Hypoxia in Breath-Hold Diving (01/05/2016), surveillance individuelle et au moins 30 s après
+      surface : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/ ; DAN World — Freediving
+      Safety Awareness (2022), préparation/intervalle de récupération : https://world.dan.org/alert-diver/article/freediving-safety-awareness/
+      ; consultés 2026-10-12'
+    - 'Thermorégulation : N4-S17 Melèse janvier 2024 p.17, vasomotricité ; concepts médicaux recoupés,
+      aucun délai d’apnée maximal ni série intensive de préparation prescrits'
+    - 'Revue individuelle : docs/reviews/n4/LOT_18_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Dans les incidents d’apnée, comment nomme-t-on une perte de coordination avec mouvements
+      saccadés, alors que la conscience est conservée ?
+    choices:
+    - text: Une perte de contrôle moteur, ou « samba »
+      correct: true
+    - text: Une syncope hypoxique
+      correct: false
+    explanation: La perte de contrôle moteur, ou PCM, peut comporter des mouvements involontaires et une
+      difficulté à coordonner les gestes sans perte de conscience. Une syncope comporte une perte de conscience.
+      Des mouvements saccadés ne suffisent donc pas, à eux seuls, à définir une syncope. Dans les deux
+      cas, le partenaire intervient pour protéger les voies aériennes et empêcher une nouvelle immersion.
+- id: n4-prevention-apnee-surveillance-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S18 Jourdren apnée décembre 2025 p.11–15 ; N4-S14 froid, thermorégulation
+      ; confrontés aux primaires 2026-10-12
+    - 'FFESSM Centre — Cécile Pétré, Apnée : la syncope, stage initial initiateur 25/11/2023, PDF publié
+      mars 2024, PCM/conscience conservée : https://centreffessm.fr/wp-content/uploads/2024/03/CentreFFESSM_Apnee_SI_IE_20231125_Syncope.pdf
+      ; consulté 2026-10-12'
+    - 'DAN — Hypoxia in Breath-Hold Diving (01/05/2016), surveillance individuelle et au moins 30 s après
+      surface : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/ ; DAN World — Freediving
+      Safety Awareness (2022), préparation/intervalle de récupération : https://world.dan.org/alert-diver/article/freediving-safety-awareness/
+      ; consultés 2026-10-12'
+    - 'Thermorégulation : N4-S17 Melèse janvier 2024 p.17, vasomotricité ; concepts médicaux recoupés,
+      aucun délai d’apnée maximal ni série intensive de préparation prescrits'
+    - 'Revue individuelle : docs/reviews/n4/LOT_18_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Deux apnéistes s’entraînent à faible profondeur dans une eau claire. Quelle organisation
+      assure une surveillance individuelle pendant l’apnée et après le retour en surface ?
+    choices:
+    - text: Un apnéiste évolue ; l’autre le suit depuis la surface et reste en surveillance après l’émersion
+      correct: true
+    - text: Un apnéiste évolue ; l’autre le suit depuis la surface et cesse la surveillance dès la première
+        inspiration
+      correct: false
+    - text: Les deux évoluent ensemble en apnée ; ils se surveillent mutuellement puis chacun récupère
+        en surface
+      correct: false
+    explanation: 'Le partenaire de sécurité est disponible pour observer et assister l’autre, plutôt que
+      de mener sa propre apnée. Il continue à surveiller au retour en surface : l’oxygène nouvellement
+      inspiré n’atteint pas immédiatement le cerveau, et une perte de conscience peut survenir après les
+      premières inspirations. Il reste proche pour observer la ventilation, les gestes et les réponses,
+      et intervenir si nécessaire.'
+- id: n4-prevention-froid-vasoconstriction-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S18 Jourdren apnée décembre 2025 p.11–15 ; N4-S14 froid, thermorégulation
+      ; confrontés aux primaires 2026-10-12
+    - 'FFESSM Centre — Cécile Pétré, Apnée : la syncope, stage initial initiateur 25/11/2023, PDF publié
+      mars 2024, PCM/conscience conservée : https://centreffessm.fr/wp-content/uploads/2024/03/CentreFFESSM_Apnee_SI_IE_20231125_Syncope.pdf
+      ; consulté 2026-10-12'
+    - 'DAN — Hypoxia in Breath-Hold Diving (01/05/2016), surveillance individuelle et au moins 30 s après
+      surface : https://dan.org/alert-diver/article/hypoxia-in-breath-hold-diving/ ; DAN World — Freediving
+      Safety Awareness (2022), préparation/intervalle de récupération : https://world.dan.org/alert-diver/article/freediving-safety-awareness/
+      ; consultés 2026-10-12'
+    - 'Thermorégulation : N4-S17 Melèse janvier 2024 p.17, vasomotricité ; concepts médicaux recoupés,
+      aucun délai d’apnée maximal ni série intensive de préparation prescrits'
+    - 'Revue individuelle : docs/reviews/n4/LOT_18_PREVENTION.md'
+    - 'DAN — Hot Tubs After Diving, effets du froid/vasoconstriction et frissons : https://dan.org/health-medicine/health-resources/diseases-conditions/hot-tubs-after-diving/
+      ; consulté 2026-10-12'
+    fact_check: pass
+  fr:
+    question: Quel est l’effet principal de la vasoconstriction cutanée sur le bilan thermique lors d’une
+      exposition au froid ?
+    choices:
+    - text: Réduire le transfert de chaleur du sang vers la peau
+      correct: true
+    - text: Augmenter la production de chaleur par les muscles squelettiques
+      correct: false
+    explanation: 'La réduction du calibre des vaisseaux cutanés diminue le débit de sang chaud proche
+      de la surface et limite les pertes de chaleur. Les frissons, eux, augmentent la production de chaleur
+      par l’activité musculaire. Ces deux réponses ont des fonctions différentes : conserver la chaleur
+      et en produire.'
+- id: n4-prevention-thermodifferentielle-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S14 Jourdren froid septembre 2025 p.10–16 ; N4-S17 Melèse
+      janvier 2024 p.23–24 ; N4-S23 Jourdren narcose p.8–11 ; relus 2026-10-12
+    - 'RNLI — Cold Water Shock, réponse aiguë au froid et distinction du refroidissement : https://rnli.org/water-safety/know-the-risks/cold-water-shock
+      ; consulté 2026-10-12'
+    - 'Pendergast et al., Effect of Head-Out Immersion on Plasma Atrial Natriuretic Factor in Man, avril
+      1987, abstract et conditions eau 35 °C : https://pubmed.ncbi.nlm.nih.gov/2951741/ et PDF éditeur
+      https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-184-42497/pdf
+      ; recoupé 2026-10-12'
+    - 'DAN — Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution et hypercapnie ; Your
+      Lungs and Diving (2017) : https://dan.org/alert-diver/article/your-lungs-and-diving/ ; MFT actuel
+      rôle facilitateur du CO2 ; vérifié 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_19_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Une personne non refroidie auparavant entre brutalement dans une eau froide. Dans les premières
+      secondes, elle présente une inspiration involontaire et une ventilation incontrôlée. Quel phénomène
+      thermique explique ce trouble immédiat ?
+    choices:
+    - text: Une réponse réflexe au refroidissement brutal de la peau
+      correct: true
+    - text: Une baisse déjà importante de la température centrale par hypothermie
+      correct: false
+    explanation: 'Le refroidissement brutal de la peau peut déclencher un choc au froid : inspiration
+      involontaire, hyperventilation et modifications cardiovasculaires rapides. Il peut précéder une
+      baisse importante de la température centrale et favoriser une inhalation d’eau ou un malaise. L’hypothermie
+      correspond au refroidissement du corps qui s’installe avec les pertes de chaleur ; elle n’est pas
+      nécessaire pour déclencher cette réponse immédiate.'
+- id: n4-prevention-diurese-immersion-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S14 Jourdren froid septembre 2025 p.10–16 ; N4-S17 Melèse
+      janvier 2024 p.23–24 ; N4-S23 Jourdren narcose p.8–11 ; relus 2026-10-12
+    - 'RNLI — Cold Water Shock, réponse aiguë au froid et distinction du refroidissement : https://rnli.org/water-safety/know-the-risks/cold-water-shock
+      ; consulté 2026-10-12'
+    - 'Pendergast et al., Effect of Head-Out Immersion on Plasma Atrial Natriuretic Factor in Man, avril
+      1987, abstract et conditions eau 35 °C : https://pubmed.ncbi.nlm.nih.gov/2951741/ et PDF éditeur
+      https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-184-42497/pdf
+      ; recoupé 2026-10-12'
+    - 'DAN — Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution et hypercapnie ; Your
+      Lungs and Diving (2017) : https://dan.org/alert-diver/article/your-lungs-and-diving/ ; MFT actuel
+      rôle facilitateur du CO2 ; vérifié 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_19_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Pourquoi la production d’urine peut-elle augmenter lors d’une immersion jusqu’au cou, même
+      dans une eau thermiquement confortable ?
+    choices:
+    - text: La centralisation du sang favorise une régulation rénale éliminant davantage d’eau
+      correct: true
+    - text: La centralisation du sang favorise une régulation rénale retenant davantage d’eau
+      correct: false
+    explanation: Le sang est redistribué vers le thorax ; les récepteurs et régulations hormonales du
+      volume circulant peuvent favoriser la diurèse, c’est-à-dire la production d’urine. Cela a été observé
+      aussi en eau thermoneutre. Le froid peut accentuer la centralisation par vasoconstriction périphérique.
+      Une augmentation de l’urine n’est donc pas une production de chaleur ni la preuve d’un excès d’eau
+      total chez le plongeur.
+- id: n4-prevention-co2-narcose-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - N4-S01 — MFT GP-N4 mai 2026 p.26 ; N4-S14 Jourdren froid septembre 2025 p.10–16 ; N4-S17 Melèse
+      janvier 2024 p.23–24 ; N4-S23 Jourdren narcose p.8–11 ; relus 2026-10-12
+    - 'RNLI — Cold Water Shock, réponse aiguë au froid et distinction du refroidissement : https://rnli.org/water-safety/know-the-risks/cold-water-shock
+      ; consulté 2026-10-12'
+    - 'Pendergast et al., Effect of Head-Out Immersion on Plasma Atrial Natriuretic Factor in Man, avril
+      1987, abstract et conditions eau 35 °C : https://pubmed.ncbi.nlm.nih.gov/2951741/ et PDF éditeur
+      https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-184-42497/pdf
+      ; recoupé 2026-10-12'
+    - 'DAN — Physiology of Compressed-Gas Diving (2016), Blood Volume Distribution et hypercapnie ; Your
+      Lungs and Diving (2017) : https://dan.org/alert-diver/article/your-lungs-and-diving/ ; MFT actuel
+      rôle facilitateur du CO2 ; vérifié 2026-10-12'
+    - 'Revue individuelle : docs/reviews/n4/LOT_19_PREVENTION.md'
+    fact_check: pass
+  fr:
+    question: Pour un plongeur à l’air sous une même pression ambiante, comment une rétention de CO2 peut-elle
+      modifier les effets narcotiques ?
+    choices:
+    - text: Elle peut renforcer les effets narcotiques
+      correct: true
+    - text: Elle peut atténuer les effets narcotiques
+      correct: false
+    explanation: L’hypercapnie, c’est-à-dire l’augmentation du CO2 dans le sang, peut potentialiser les
+      effets narcotiques. Réduire les efforts et les facteurs de ventilation inefficace participe donc
+      à la prévention, en plus du choix de profondeur. Le rôle facilitateur du CO2 ne se réduit pas à
+      un manque d’O2 ni à une modification de la fraction d’azote dans le bloc.
+- id: n4-prevention-opi-resistance-001
+  type: mcq
+  deck: Prévention des accidents
+  levels:
+  - N4
+  status: reviewed
+  review:
+    sources:
+    - 'N4-S01 — MFT GP-N4 mai 2026 p.26 : prévention de l’OPI ; recoupement final du 2026-10-12'
+    - DAN — Can You Recognize IPE?, 22 décembre 2022, résistance inspiratoire et fuite de liquide capillaire,
+      https://dan.org/safety-prevention/diver-safety/divers-blog/can-you-recognize-ipe/ ; consulté 2026-10-12
+    - DAN — The Heart & Diving, chapitre 6, Immersion Pulmonary Edema, entretien des détendeurs et limitation
+      de l’effort ; https://world.dan.org/health-medicine/health-resource/dive-medical-reference-books/the-heart-diving/pulmonary-and-venous-disorders/
+      ; consulté 2026-10-12
+    - 'Revue individuelle : docs/reviews/n4/LOT_105_OPI.md'
+    fact_check: pass
+  fr:
+    question: Pourquoi une forte résistance du détendeur à l’inspiration peut-elle favoriser un œdème
+      pulmonaire d’immersion (OPI) ?
+    choices:
+    - text: Elle accroît la dépression inspiratoire et peut favoriser le passage de liquide des capillaires
+        vers les alvéoles
+      correct: true
+    - text: Elle accroît la surpression inspiratoire et peut favoriser la rupture des alvéoles avec passage
+        de gaz dans le sang
+      correct: false
+    - text: Elle accroît l’aspiration inspiratoire et peut favoriser le passage d’eau extérieure par la
+        soupape d’expiration
+      correct: false
+    explanation: 'Inspirer contre une forte résistance exige une dépression plus importante dans les voies
+      respiratoires. Cela peut favoriser une fuite de liquide des capillaires pulmonaires vers les alvéoles
+      : c’est un facteur d’OPI. Ce liquide provient du sang, pas de l’eau extérieure. Une rupture alvéolaire
+      avec passage de gaz relève d’un autre mécanisme. L’entretien du détendeur et la limitation d’efforts
+      ventilatoires importants contribuent à la prévention.'

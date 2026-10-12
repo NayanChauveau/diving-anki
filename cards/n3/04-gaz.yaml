@@ -4,6 +4,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -15,6 +16,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 84 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite, physique et désaturation ; modèle de gaz parfait des exercices, calculs
+      refaits par volume à1bar et capacité interne, pressions absolues5 et6,5bar. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Bloc de 15 L, débit respiratoire de référence 18 L/min ramené à 1 bar, profondeur 40 m.
@@ -34,6 +39,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -45,6 +51,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 84 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite, physique et désaturation ; modèle de gaz parfait des exercices, calculs
+      refaits par volume à1bar et capacité interne, pressions absolues5 et6,5bar. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Bloc de 12 L, débit de référence 22 L/min ramené à 1 bar, profondeur 55 m. Quelle baisse
@@ -64,6 +74,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -75,6 +86,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 84 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite, physique et désaturation ; modèle de gaz parfait des exercices, calculs
+      refaits par volume à1bar et capacité interne, pressions absolues5 et6,5bar. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'À 40 m, la pression d’un bloc de 12 L baisse de 9 bar/min. Quel débit de référence ramené
@@ -96,6 +111,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -107,6 +123,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 84 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT GP-N4 mai2026 conduite, physique et désaturation ; modèle de gaz parfait des exercices, calculs
+      refaits par volume à1bar et capacité interne, pressions absolues5 et6,5bar. ; recto, choix et corrigé
+      relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'À 40 m, A avec 12 L et B avec 15 L ont tous deux une baisse de 6 bar/min. Quels sont leurs
@@ -128,6 +148,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -139,6 +160,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 85 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz, charge collective et assistance ; modèle explicite des exercices
+      ; tous les résultats et chaque leurre recalculés indépendamment. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Deux plongeurs respirent sur un même stock, avec des débits de référence 30 et 40 L/min
@@ -160,6 +185,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -171,6 +197,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 85 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz, charge collective et assistance ; modèle explicite des exercices
+      ; tous les résultats et chaque leurre recalculés indépendamment. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Deux consommateurs sur un même stock ont ensemble un débit de référence 70 L/min à 1 bar.
@@ -191,6 +221,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -202,6 +233,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 85 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz, charge collective et assistance ; modèle explicite des exercices
+      ; tous les résultats et chaque leurre recalculés indépendamment. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Avant un retour partagé, deux plongeurs attendent 1 min à 50 m en respirant sur le bloc
@@ -222,6 +257,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -233,6 +269,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 07 : MFT N3 décembre 2025, p.8,13 ; résolutions indépendantes du modèle
       explicite ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 85 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz, charge collective et assistance ; modèle explicite des exercices
+      ; tous les résultats et chaque leurre recalculés indépendamment. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Deux plongeurs respirent sur un seul stock, avec des débits de référence de 30 et 40 L/min
@@ -274,6 +314,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -285,6 +326,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 85 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz, charge collective et assistance ; modèle explicite des exercices
+      ; tous les résultats et chaque leurre recalculés indépendamment. ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: 'Un retour à deux exige 2 472,4 L ramenés à 1 bar. Le bloc donneur a un volume de 15 L ;
@@ -306,6 +351,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -317,6 +363,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 86 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz et assistance ; modèle annoncé de gaz parfait ; chaque résultat
+      et distracteur résolu indépendamment, contrôle de l’arrondi. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: 'Un retour partagé exige 1 100 L à 1 bar. A a 12 L à 110 bar ; B, 15 L à 110 bar. L’exercice
@@ -337,6 +387,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -348,6 +399,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 86 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz et assistance ; modèle annoncé de gaz parfait ; chaque résultat
+      et distracteur résolu indépendamment, contrôle de l’arrondi. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: 'Bloc de 15 L à 200 bar. Le budget impose 1 200 L à 1 bar pour le retour complet et 20 bar
@@ -369,6 +424,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -380,18 +436,22 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 86 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz et assistance ; modèle annoncé de gaz parfait ; chaque résultat
+      et distracteur résolu indépendamment, contrôle de l’arrondi. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: 'Un retour partagé consomme 1 600 L à 1 bar pour des débits de référence 30 + 40 L/min.
-      Sur les mêmes phases, les débits deviennent 40 + 50 L/min. Quel besoin total obtient-on ? Modèle
-      : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré
-      est compté.'
+      Sur les mêmes phases, les débits deviennent 40 + 50 L/min. Quel besoin total obtient-on, arrondi
+      au litre le plus proche ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar
+      par 10 m ; seul le gaz respiré est compté.'
     choices:
-    - text: Environ 2 057 L
+    - text: 2 057 L
       correct: true
-    - text: Environ 2 000 L
+    - text: 2 000 L
       correct: false
-    - text: Environ 2 133 L
+    - text: 2 133 L
       correct: false
     explanation: Le débit cumulé passe de 70 à 90 L/min. À phases identiques, le coût devient 1 600 ×
       90 / 70 = 2 057,14 L, soit +28,6 %. 2 000 L utilise seulement le rapport 50/40 du second plongeur
@@ -401,6 +461,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -412,6 +473,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 86 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz et assistance ; modèle annoncé de gaz parfait ; chaque résultat
+      et distracteur résolu indépendamment, contrôle de l’arrondi. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: 'Après avoir budgété trajet et pression finale, il reste 280 L à 1 bar pour un arrêt fictif
@@ -433,6 +498,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -444,6 +510,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 86 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3 et GP-N4 planification du gaz et assistance ; modèle annoncé de gaz parfait ; chaque résultat
+      et distracteur résolu indépendamment, contrôle de l’arrondi. ; recto, choix et corrigé relus ; identité
+      conservée'
     fact_check: pass
   fr:
     question: 'Pour leur retour individuel complet, A (12 L, 160 bar) doit garder 900 L à 1 bar et 20
@@ -465,6 +535,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -476,6 +547,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 87 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 planification et modèles ; Pollock Flexible Control of Decompression Stress relu
+      dans la passe et Baker ; calculs pression moyenne, stock et coût de chaque phase refaits. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Un trajet à vitesse constante de 50 m à la surface dure 5 min. Pour un débit de référence
@@ -497,6 +572,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -508,6 +584,10 @@ cards:
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 08 : MFT N3 décembre 2025, p.8,13 ; calculs et distracteurs résolus
       indépendamment ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 87 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 planification et modèles ; Pollock Flexible Control of Decompression Stress relu
+      dans la passe et Baker ; calculs pression moyenne, stock et coût de chaque phase refaits. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: À profondeur constante, la baisse observée du manomètre dépasse durablement la prévision,
@@ -527,6 +607,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -540,6 +621,10 @@ cards:
       ; identité et objectif conservés'
     - 'MFT N3 décembre 2025, p.8,13 : retour ordinaire/incident et budget collectif ; résolution indépendante
       le 2026-10-10'
+    - 'Reprise N4 du 2026-10-12, lot 87 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 planification et modèles ; Pollock Flexible Control of Decompression Stress relu
+      dans la passe et Baker ; calculs pression moyenne, stock et coût de chaque phase refaits. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Dans un exercice, un bloc de 12 L part à 200 bar. Un retour partagé exige 1 400 L ramenés
@@ -562,6 +647,7 @@ cards:
   deck: Physique
   levels:
   - N3
+  - N4
   tags:
   - chapitre-n3::04
   status: reviewed
@@ -572,6 +658,10 @@ cards:
       imposées ; corrigés indépendants dans docs/reviews/n3/CALCULS_N3.csv
     - 'Revue N3 du 2026-10-06 : docs/reviews/n3/COUVERTURE_N3.md'
     - 'Revue N3 du 2026-10-10, lot 09 : calcul des phases ; docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md'
+    - 'Reprise N4 du 2026-10-12, lot 87 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N3/GP-N4 planification et modèles ; Pollock Flexible Control of Decompression Stress relu
+      dans la passe et Baker ; calculs pression moyenne, stock et coût de chaque phase refaits. ; recto,
+      choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: 'Deux profils fictifs durent 6 min hors transitions. A : 2 min à 40 m puis 4 min à 3 m.

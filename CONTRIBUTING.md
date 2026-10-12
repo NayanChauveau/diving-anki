@@ -52,6 +52,8 @@ Après vérification factuelle et pédagogique, passer à `reviewed`.
 Faire une critique distincte de la rédaction avec les cinq critères de la grille,
 sur toutes les cartes du lot (40 au plus ; **cinq au maximum pour N4**, reprises
 comprises), puis corriger et relire les IDs rejetés.
+Pour l’implémentation N4, ne pas builder ni importer chaque lot : réserver le build
+et son contrôle approfondi à la fin, après toutes les passes de rédaction et de revue.
 Consigner les verdicts et motifs par ID dans `docs/reviews/` ; une mention globale
 « QCM relus » sans examen des leurres, de la forme et du corrigé ne suffit pas.
 Consigner aussi, pour chaque mauvaise réponse, la confusion qui la rend attirante

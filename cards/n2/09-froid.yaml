@@ -5,6 +5,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -23,6 +24,11 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 50 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N2 mai2026 p.9/14–15, MFT GP-N4 mai2026 p.17–18/26 et N3 décembre2025 p.10–11 ; DAN Your Lungs
+      and Diving production CO2/effort ; DAN Avoid the Chill (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/)
+      et Ameli hypothermie (https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie),
+      sources médicales reconsultées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur frissonne malgré une activité musculaire. Quel bilan explique que sa température
@@ -30,8 +36,6 @@ cards:
     choices:
     - text: Les pertes vers le milieu dépassent la chaleur produite par l’organisme
       correct: true
-    - text: Les pertes vers le milieu diminuent jusqu’à égaler la chaleur produite par l’organisme
-      correct: false
     - text: Les pertes vers le milieu sont compensées par la chaleur produite par l’organisme
       correct: false
     explanation: La température centrale peut baisser si l’organisme perd plus de chaleur qu’il n’en produit.
@@ -44,6 +48,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -67,6 +72,11 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 50 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : MFT N2 mai2026 p.9/14–15, MFT GP-N4 mai2026 p.17–18/26 et N3 décembre2025 p.10–11 ; DAN Your Lungs
+      and Diving production CO2/effort ; DAN Avoid the Chill (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/)
+      et Ameli hypothermie (https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie),
+      sources médicales reconsultées. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: En eau froide, un plongeur frissonne et ne peut plus manipuler ses attaches. Quelle décision
@@ -88,6 +98,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -113,6 +124,12 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 51 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 relu, fiches hypothermie mises à jour juin2018/décembre2022 incluses
+      dans ce référentiel ; Ameli hypothermie ; DAN Wetsuits1novembre2012 (https://dan.org/alert-diver/article/wetsuits/)
+      et Tools for a Healthy Drysuit1juin2026, DAN Avoid the Chill ; OpenStax Biology2e33.3 Homeostasis
+      (https://openstax.org/books/biology-2e/pages/33-3-homeostasis). ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Après une exposition prolongée au froid, un plongeur cesse de frissonner tout en devenant
@@ -134,6 +151,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -158,6 +176,12 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 51 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 relu, fiches hypothermie mises à jour juin2018/décembre2022 incluses
+      dans ce référentiel ; Ameli hypothermie ; DAN Wetsuits1novembre2012 (https://dan.org/alert-diver/article/wetsuits/)
+      et Tools for a Healthy Drysuit1juin2026, DAN Avoid the Chill ; OpenStax Biology2e33.3 Homeostasis
+      (https://openstax.org/books/biology-2e/pages/33-3-homeostasis). ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: À épaisseur nominale identique, pourquoi une combinaison humide trop ample protège-t-elle
@@ -165,18 +189,19 @@ cards:
     choices:
     - text: Elle favorise le renouvellement de l’eau déjà réchauffée au contact du corps
       correct: true
-    - text: Elle augmente la pression de l’eau et comprime davantage le néoprène à même profondeur
+    - text: Elle favorise la fuite de l’air isolant retenu entre la peau et le vêtement
       correct: false
-    explanation: Dans une combinaison humide, une petite quantité d’eau entre et se réchauffe. Un mauvais
-      ajustement favorise son renouvellement par de l’eau froide, ce qui augmente les pertes. Le néoprène
-      isole malgré la présence d’eau ; sa compression dépend surtout de la profondeur. État du vêtement
-      et protection des extrémités comptent également.
+    explanation: Dans une combinaison humide, le néoprène est isolant et un mauvais ajustement facilite
+      la circulation d’eau froide, qui emporte davantage de chaleur. Une couche d’air entre peau et vêtement
+      correspond au fonctionnement d’une combinaison étanche, pas à celui d’une humide. Les bulles de
+      gaz isolantes du néoprène se trouvent dans le matériau ; leur compression dépend surtout de la profondeur.
 - id: n2-froid-fatigue-001
   type: mcq
   anki_model: basic
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -199,6 +224,12 @@ cards:
       ; objectif et identité conservés'
     - 'OpenStax — Biology 2e, 33.3 Homeostasis, éd.2018, thermorégulation, contractions/frissons et vasoconstriction,
       consulté le 2026-10-10 : https://openstax.org/books/biology-2e/pages/33-3-homeostasis'
+    - 'Reprise N4 du 2026-10-12, lot 51 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 relu, fiches hypothermie mises à jour juin2018/décembre2022 incluses
+      dans ce référentiel ; Ameli hypothermie ; DAN Wetsuits1novembre2012 (https://dan.org/alert-diver/article/wetsuits/)
+      et Tools for a Healthy Drysuit1juin2026, DAN Avoid the Chill ; OpenStax Biology2e33.3 Homeostasis
+      (https://openstax.org/books/biology-2e/pages/33-3-homeostasis). ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: En lutte contre le froid, quelle réponse dépend directement de réserves énergétiques suffisantes
@@ -220,6 +251,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -244,6 +276,12 @@ cards:
       N3 décembre 2025 p. 10–11 ; PSE juillet 2026 p. 294–297 ; DAN Avoid the Chill et Travel-Related
       Injuries–Exposure-Related Injuries, consultés le 11 octobre 2026 (https://dan.org/safety-prevention/diver-safety/divers-blog/avoid-the-chill/
       ; https://dan.org/health-medicine/travelers-medical-guide/travel-related-injuries/exposure-related-injuries/).
+    - 'Reprise N4 du 2026-10-12, lot 51 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 relu, fiches hypothermie mises à jour juin2018/décembre2022 incluses
+      dans ce référentiel ; Ameli hypothermie ; DAN Wetsuits1novembre2012 (https://dan.org/alert-diver/article/wetsuits/)
+      et Tools for a Healthy Drysuit1juin2026, DAN Avoid the Chill ; OpenStax Biology2e33.3 Homeostasis
+      (https://openstax.org/books/biology-2e/pages/33-3-homeostasis). ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Pendant la lutte contre le froid, avec frissons et perte de dextérité, quel effet combiné
@@ -263,6 +301,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -284,6 +323,12 @@ cards:
     - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
       juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Nitrogen Narcosis, ressources médicales
       actuelles consultées le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
+    - 'Reprise N4 du 2026-10-12, lot 51 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 relu, fiches hypothermie mises à jour juin2018/décembre2022 incluses
+      dans ce référentiel ; Ameli hypothermie ; DAN Wetsuits1novembre2012 (https://dan.org/alert-diver/article/wetsuits/)
+      et Tools for a Healthy Drysuit1juin2026, DAN Avoid the Chill ; OpenStax Biology2e33.3 Homeostasis
+      (https://openstax.org/books/biology-2e/pages/33-3-homeostasis). ; recto, choix et corrigé relus
+      ; identité conservée'
     fact_check: pass
   fr:
     question: Un plongeur refroidi mais lucide sort de l’eau sur un pont exposé au vent. Comment organiser
@@ -306,6 +351,7 @@ cards:
   levels:
   - N2
   - N3
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -328,6 +374,10 @@ cards:
     - Relecture individuelle N3 2026-10-11 lot 36, docs/reviews/n3/REVUE_ITERATIVE_2026-10-10.md ; PSE
       juillet 2026 p. 294–297 ; MFT N3 décembre 2025 p. 11 ; DAN Nitrogen Narcosis, ressources médicales
       actuelles consultées le 11 octobre 2026 ; loi de Dalton, recalcul 0,21×3=0,63 bar.
+    - 'Reprise N4 du 2026-10-12, lot 52 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 et Ameli hypothermie (boisson/gravité) ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      pages complètes consultées ; MFT GP-N4 p.26. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Après sa sortie de l’eau, un plongeur hypothermique reste confus. Quelle prise en charge
@@ -348,6 +398,7 @@ cards:
   deck: Prévention des accidents
   levels:
   - N2
+  - N4
   tags:
   - chapitre::09
   - froid
@@ -365,6 +416,10 @@ cards:
     - 'Vérifié le 2026-10-09 — Assurance Maladie — Hypothermie, gestes utiles / signes de gravité : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie'
     - 'Revue approfondie des QCM N2 du 2026-10-09 : docs/reviews/PREVENTION_ACCIDENTS_N2_2026-10-09.md
       ; identité et objectif conservés'
+    - 'Reprise N4 du 2026-10-12, lot 52 (reprises) : docs/reviews/n4/REPRISES_DETAILLEES.md ; 2026-10-12
+      : PSE juillet2026 p.294–297 et Ameli hypothermie (boisson/gravité) ; DAN Know the Risks (https://world.dan.org/alert-diver/article/know-the-risks/)
+      et Distraction, Discomfort, and Disorientation (https://dan.org/safety-prevention/diver-safety/divers-blog/distraction-discomfort-and-disorientation/),
+      pages complètes consultées ; MFT GP-N4 p.26. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
     question: Quel signe contre-indique de donner une boisson tiède à un plongeur refroidi ?
