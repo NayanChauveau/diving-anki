@@ -22,9 +22,9 @@ cards:
       relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Bloc de 15 L, débit respiratoire de référence 18 L/min ramené à 1 bar, profondeur 40 m.
-      De combien baisse la pression du bloc par minute ? Modèle : gaz parfait à température constante,
-      1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: Bloc de 15 L, débit respiratoire de référence 18 L/min ramené à 1 bar, profondeur 40 m.
+      De combien baisse la pression du bloc par minute ? Température constante ; seul le gaz respiré est
+      compté.
     choices:
     - text: 6 bar/min
       correct: true
@@ -57,9 +57,8 @@ cards:
       relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Bloc de 12 L, débit de référence 22 L/min ramené à 1 bar, profondeur 55 m. Quelle baisse
-      théorique de pression en bar/min ? Modèle : gaz parfait à température constante, 1 bar en surface
-      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: Bloc de 12 L, débit de référence 22 L/min ramené à 1 bar, profondeur 55 m. Quelle baisse
+      théorique de pression en bar/min ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 11,92 environ
       correct: true
@@ -92,9 +91,8 @@ cards:
       relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'À 40 m, la pression d’un bloc de 12 L baisse de 9 bar/min. Quel débit de référence ramené
-      à 1 bar correspond à cette mesure ? Modèle : gaz parfait à température constante, 1 bar en surface
-      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: À 40 m, la pression d’un bloc de 12 L baisse de 9 bar/min. Quel débit de référence ramené
+      à 1 bar correspond à cette mesure ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 21,6 L/min
       correct: true
@@ -129,9 +127,9 @@ cards:
       relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'À 40 m, A avec 12 L et B avec 15 L ont tous deux une baisse de 6 bar/min. Quels sont leurs
-      débits respiratoires de référence ramenés à 1 bar ? Modèle : gaz parfait à température constante,
-      1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: À 40 m, A avec 12 L et B avec 15 L ont tous deux une baisse de 6 bar/min. Quels sont leurs
+      débits respiratoires de référence ramenés à 1 bar ? Température constante ; seul le gaz respiré
+      est compté.
     choices:
     - text: 'A : 14,4 L/min ; B : 18 L/min'
       correct: true
@@ -166,10 +164,9 @@ cards:
       ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Deux plongeurs respirent sur un même stock, avec des débits de référence 30 et 40 L/min
+    question: Deux plongeurs respirent sur un même stock, avec des débits de référence 30 et 40 L/min
       à 1 bar. Ils remontent à vitesse constante de 50 à 6 m en 4,4 min, sans arrêt. Quel volume à 1 bar
-      utilisent-ils pour ce seul trajet ? Modèle : gaz parfait à température constante, 1 bar en surface
-      et +1 bar par 10 m ; seul le gaz respiré est compté.'
+      utilisent-ils pour ce seul trajet ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 1 170,4 L
       correct: true
@@ -205,8 +202,7 @@ cards:
   fr:
     question: 'Deux consommateurs sur un même stock ont ensemble un débit de référence 70 L/min à 1 bar.
       Deux arrêts sont imposés : 3 min à 6 m puis 5 min à 3 m. Sans compter les trajets, quel gaz à 1
-      bar ces arrêts demandent-ils ? Modèle : gaz parfait à température constante, 1 bar en surface et
-      +1 bar par 10 m ; seul le gaz respiré est compté.'
+      bar ces arrêts demandent-ils ? Température constante ; seul le gaz respiré est compté.'
     choices:
     - text: 791 L
       correct: true
@@ -241,8 +237,7 @@ cards:
   fr:
     question: 'Avant un retour partagé, deux plongeurs attendent 1 min à 50 m en respirant sur le bloc
       donneur. Débits de référence imposés : 30 et 40 L/min à 1 bar. Quel volume à 1 bar ajouter au budget
-      du donneur pour cette attente ? Modèle : gaz parfait à température constante, 1 bar en surface et
-      +1 bar par 10 m ; seul le gaz respiré est compté.'
+      du donneur pour cette attente ? Température constante ; seul le gaz respiré est compté.'
     choices:
     - text: 420 L
       correct: true
@@ -296,8 +291,7 @@ cards:
       | Trajet 3 m → surface | 0,5 min |
 
 
-      Chaque trajet se fait à vitesse constante. Modèle : gaz parfait à température constante, 1 bar en
-      surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+      Chaque trajet se fait à vitesse constante. Température constante ; seul le gaz respiré est compté.'
     choices:
     - text: 2 472,4 L
       correct: true
@@ -332,10 +326,9 @@ cards:
       ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Un retour à deux exige 2 472,4 L ramenés à 1 bar. Le bloc donneur a un volume de 15 L ;
+    question: Un retour à deux exige 2 472,4 L ramenés à 1 bar. Le bloc donneur a un volume de 15 L ;
       l’exercice impose 20 bar encore présents à la fin. Quelle pression de départ minimale arrondie au
-      bar supérieur donne ce budget ? Modèle : gaz parfait à température constante, 1 bar en surface et
-      +1 bar par 10 m ; seul le gaz respiré est compté.'
+      bar supérieur donne ce budget ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 185 bar
       correct: true
@@ -369,10 +362,9 @@ cards:
       conservée'
     fact_check: pass
   fr:
-    question: 'Un retour partagé exige 1 100 L à 1 bar. A a 12 L à 110 bar ; B, 15 L à 110 bar. L’exercice
+    question: Un retour partagé exige 1 100 L à 1 bar. A a 12 L à 110 bar ; B, 15 L à 110 bar. L’exercice
       garde 20 bar dans le bloc donneur à la fin. Quel bloc peut financer à lui seul ce retour en conservant
-      cette pression finale ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar
-      par 10 m ; seul le gaz respiré est compté.'
+      cette pression finale ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: B seulement
       correct: true
@@ -405,10 +397,10 @@ cards:
       conservée'
     fact_check: pass
   fr:
-    question: 'Bloc de 15 L à 200 bar. Le budget impose 1 200 L à 1 bar pour le retour complet et 20 bar
+    question: Bloc de 15 L à 200 bar. Le budget impose 1 200 L à 1 bar pour le retour complet et 20 bar
       finaux. À 40 m, le débit de référence vaut 20 L/min à 1 bar. Combien de minutes au fond restent
-      théoriquement disponibles, hors descente et autres consommations ? Modèle : gaz parfait à température
-      constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+      théoriquement disponibles, hors descente et autres consommations ? Température constante ; seul
+      le gaz respiré est compté.
     choices:
     - text: 15 min
       correct: true
@@ -442,10 +434,9 @@ cards:
       conservée'
     fact_check: pass
   fr:
-    question: 'Un retour partagé consomme 1 600 L à 1 bar pour des débits de référence 30 + 40 L/min.
-      Sur les mêmes phases, les débits deviennent 40 + 50 L/min. Quel besoin total obtient-on, arrondi
-      au litre le plus proche ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar
-      par 10 m ; seul le gaz respiré est compté.'
+    question: Un retour partagé consomme 1 600 L à 1 bar pour des débits de référence 30 + 40 L/min. Sur
+      les mêmes phases, les débits deviennent 40 + 50 L/min. Quel besoin total obtient-on, arrondi au
+      litre le plus proche ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 2 057 L
       correct: true
@@ -479,10 +470,9 @@ cards:
       conservée'
     fact_check: pass
   fr:
-    question: 'Après avoir budgété trajet et pression finale, il reste 280 L à 1 bar pour un arrêt fictif
+    question: Après avoir budgété trajet et pression finale, il reste 280 L à 1 bar pour un arrêt fictif
       supplémentaire à 6 m. Deux consommateurs ont ensemble un débit de référence 70 L/min à 1 bar. Quelle
-      durée maximale théorique permet ce budget ? Modèle : gaz parfait à température constante, 1 bar
-      en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+      durée maximale théorique permet ce budget ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 2,5 min
       correct: true
@@ -516,10 +506,10 @@ cards:
       conservée'
     fact_check: pass
   fr:
-    question: 'Pour leur retour individuel complet, A (12 L, 160 bar) doit garder 900 L à 1 bar et 20
-      bar finaux ; B (15 L, 140 bar), 1 050 L et 20 bar finaux. À 40 m, chacun a un débit de référence
-      20 L/min à 1 bar. Qui a le moins de temps de fond disponible ? Modèle : gaz parfait à température
-      constante, 1 bar en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+    question: Pour leur retour individuel complet, A (12 L, 160 bar) doit garder 900 L à 1 bar et 20 bar
+      finaux ; B (15 L, 140 bar), 1 050 L et 20 bar finaux. À 40 m, chacun a un débit de référence 20
+      L/min à 1 bar. Qui a le moins de temps de fond disponible ? Température constante ; seul le gaz
+      respiré est compté.
     choices:
     - text: 'B : 7,5 min, contre 7,8 min pour A'
       correct: true
@@ -553,10 +543,9 @@ cards:
       choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Un trajet à vitesse constante de 50 m à la surface dure 5 min. Pour un débit de référence
+    question: Un trajet à vitesse constante de 50 m à la surface dure 5 min. Pour un débit de référence
       20 L/min à 1 bar, un calcul applique 6 bar pendant les cinq minutes et trouve 600 L. Quel est le
-      coût du trajet dans le modèle, sans arrêt ? Modèle : gaz parfait à température constante, 1 bar
-      en surface et +1 bar par 10 m ; seul le gaz respiré est compté.'
+      coût du trajet dans le modèle, sans arrêt ? Température constante ; seul le gaz respiré est compté.
     choices:
     - text: 350 L
       correct: true
@@ -666,8 +655,7 @@ cards:
   fr:
     question: 'Deux profils fictifs durent 6 min hors transitions. A : 2 min à 40 m puis 4 min à 3 m.
       B : 4 min à 40 m puis 2 min à 3 m. Débit de référence 20 L/min à 1 bar. Quels gaz à 1 bar demandent
-      A puis B ? Modèle : gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m ; seul
-      le gaz respiré est compté.'
+      A puis B ? Température constante ; seul le gaz respiré est compté.'
     choices:
     - text: 304 L puis 452 L
       correct: true

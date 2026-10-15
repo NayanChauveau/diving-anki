@@ -116,11 +116,11 @@ cards:
     - 'Revue individuelle : docs/reviews/n4/LOT_10_DESATURATION.md'
     fact_check: pass
   fr:
-    question: Exercice fictif à 30 m, surface à 1 bar et +1 bar/10 m. Après retrait des stocks finaux,
-      A dispose de 1 000 L à 1 bar et B de 1 200 L. Le retour complet coûterait maintenant 700 L pour
-      A et 900 L pour B. Chaque minute supplémentaire au fond ajoute au coût futur du retour 50 L pour
-      A et 20 L pour B. Leurs débits de référence sont 20 et 25 L/min à 1 bar. Qui limite le temps supplémentaire
-      au fond, arrondi au dixième ? Gaz parfait isotherme, seuls les gaz respirés sont comptés.
+    question: Exercice fictif à 30 m. Après retrait des stocks finaux, A dispose de 1 000 L à 1 bar et
+      B de 1 200 L. Le retour complet coûterait maintenant 700 L pour A et 900 L pour B. Chaque minute
+      supplémentaire au fond ajoute au coût futur du retour 50 L pour A et 20 L pour B. Leurs débits de
+      référence sont 20 et 25 L/min à 1 bar. Qui limite le temps supplémentaire au fond, arrondi au dixième
+      ? Température constante, seuls les gaz respirés sont comptés.
     choices:
     - text: A, avec 2,3 min supplémentaires
       correct: true

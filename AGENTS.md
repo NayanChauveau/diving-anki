@@ -163,6 +163,11 @@ Une conversion conserve l’objectif et l’ID ; pour une Basic publiée, garder
   Distinguer qualification isolée et brevet combiné ; ne pas attribuer PE40 à PA20 seul.
 - Calculs d’air : données, réserves, unités et hypothèses explicites ; vérification par une résolution
   distincte. Un modèle simplifié n’est pas une procédure opérationnelle de plongée.
+- Convention de pression implicite (calibration du 15 octobre 2026) : ne pas répéter
+  « prendre 1 bar en surface et +1 bar par 10 m », « utiliser le modèle simplifié »
+  ou donner la pression standard déjà déductible de la profondeur. Conserver les unités,
+  les étapes utiles du corrigé et toute donnée particulière, par exemple 0,8 bar en altitude.
+  La relation elle-même reste expliquée dans la carte qui l'enseigne.
 
 ## Structure et vérifications techniques
 

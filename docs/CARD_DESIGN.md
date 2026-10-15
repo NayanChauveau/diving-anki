@@ -75,6 +75,14 @@ explicitement toute réserve utilisée ; ne pas en faire une règle universelle.
 à profondeur constante ou à phases fictives ne constitue pas un plan réel de plongée.
 Vérifier le résultat par une résolution distincte, avec contrôle des unités et de la cohérence.
 
+Depuis la calibration du 15 octobre 2026, la convention de pression du cours est implicite :
+ne plus ajouter « prendre 1 bar en surface et +1 bar par 10 m » ni une formule équivalente
+dans chaque exercice. Ne pas donner non plus la pression standard qu'il faut déduire de
+la profondeur. Les unités, températures ou contraintes propres au problème restent
+explicites ; une pression atmosphérique particulière, par exemple 0,8 bar en lac, reste
+une donnée. Les corrigés conservent leurs calculs et la carte de définition conserve
+l'explication de la relation pression/profondeur.
+
 ## Véracité et revue
 
 Vérifier question, réponse, explication et distracteurs. En cas de doute, retrouver et recroiser

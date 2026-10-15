@@ -435,10 +435,9 @@ cards:
     - 'Revue individuelle : docs/reviews/n4/LOT_13_VENTILATION.md'
     fact_check: pass
   fr:
-    question: 'Modèle simplifié : un second étage fournit du gaz à la pression de l’eau à la bouche. La
-      bouche est à 20 m et le centre des poumons à 20,3 m. Surface à 1 bar, +1 bar/10 m ; on néglige les
-      résistances du matériel. Quelle différence pression du gaz − pression extérieure au centre des poumons
-      obtient-on ?'
+    question: Un second étage fournit du gaz à la pression de l’eau à la bouche. La bouche est à 20 m
+      et le centre des poumons à 20,3 m. On néglige les résistances du matériel. Quelle différence pression
+      du gaz − pression extérieure au centre des poumons obtient-on ?
     choices:
     - text: '−0,03 bar : charge inspiratoire supplémentaire'
       correct: true

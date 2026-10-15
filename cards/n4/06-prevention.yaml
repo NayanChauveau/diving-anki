@@ -159,8 +159,8 @@ cards:
     fact_check: pass
   fr:
     question: Dans un modèle de gaz alvéolaire pendant une apnée, la fraction d’O2 vaut 10 % à 10 m (pression
-      absolue 2 bar). À l’arrivée en surface, elle ne vaut plus que 8 %, après consommation d’O2. La surface
-      est à 1 bar. Quelle pression partielle d’O2 ce modèle donne-t-il alors ?
+      absolue 2 bar). À l’arrivée en surface, elle ne vaut plus que 8 %, après consommation d’O2. Quelle
+      pression partielle d’O2 ce modèle donne-t-il alors ?
     choices:
     - text: 0,08 bar
       correct: true

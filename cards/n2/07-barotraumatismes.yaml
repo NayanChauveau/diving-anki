@@ -740,7 +740,7 @@ cards:
   fr:
     question: Pour comprendre le risque de surpression pulmonaire dès une faible profondeur, on modélise
       un gaz libre à quantité et température constantes. De 3 m à la surface, de combien son volume augmente-t-il
-      ? Prendre 1 bar à la surface et +1 bar par 10 m.
+      ?
     choices:
     - text: De 30 %
       correct: true

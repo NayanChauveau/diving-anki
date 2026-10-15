@@ -26,8 +26,7 @@ cards:
     fact_check: pass
   fr:
     question: À température constante, de quel facteur la masse volumique de l’air est-elle multipliée
-      entre 20 et 60 m ? Assimiler l’air à un gaz parfait de composition constante ; prendre 1 bar en
-      surface et +1 bar par 10 m.
+      entre 20 et 60 m ? Assimiler l’air à un gaz parfait de composition constante.
     choices:
     - text: 7/3, soit environ 2,33
       correct: true
@@ -60,8 +59,8 @@ cards:
       physiologie/accidents ; Dalton et calcul sec0,21×7. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Modèle sec : air à 21 % d’O₂, 1 bar en surface, +1 bar par 10 m. À 60 m, quelle pression
-      partielle d’oxygène obtient-on, sans correction de vapeur d’eau ?'
+    question: 'Modèle sec : air à 21 % d’O₂. À 60 m, quelle pression partielle d’oxygène obtient-on, sans
+      correction de vapeur d’eau ?'
     choices:
     - text: 1,47 bar
       correct: true

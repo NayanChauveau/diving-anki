@@ -781,9 +781,8 @@ cards:
       Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: À 20 m, un premier étage maintient une MP de 9,5 bar au-dessus de l’ambiante. Prendre 1
-      bar en surface et +1 bar par 10 m. Quelle pression absolue le second étage fournit-il approximativement
-      à la bouche ?
+    question: À 20 m, un premier étage maintient une MP de 9,5 bar au-dessus de l’ambiante. Quelle pression
+      absolue le second étage fournit-il approximativement à la bouche ?
     choices:
     - text: 3 bar
       correct: true
@@ -828,8 +827,8 @@ cards:
       Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Prendre 1
-      bar en surface et +1 bar/10 m. Quelle est sa MP absolue ?'
+    question: 'Modèle fictif : premier étage réglé à 9 bar au-dessus de l’ambiante, à 20 m. Quelle est
+      sa MP absolue ?'
     choices:
     - text: 12 bar absolus
       correct: true
@@ -873,8 +872,8 @@ cards:
       Pamb(20)=3, Pamb(40)=5 bar, MP absolue=Pamb+écart. ; recto, choix et corrigé relus ; identité conservée'
     fact_check: pass
   fr:
-    question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Prendre 1 bar en surface et +1 bar/10
-      m. Quelle est la MP relative à l’ambiante ?'
+    question: 'Modèle fictif : à 40 m, la MP absolue vaut 14 bar. Quelle est la MP relative à l’ambiante
+      ?'
     choices:
     - text: 9 bar au-dessus de l’ambiante
       correct: true

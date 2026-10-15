@@ -104,8 +104,7 @@ cards:
       ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Dans le modèle d’air à 20 % d’oxygène, quelle est la pression partielle d’O₂ à 30 m ? Prendre
-      1 bar à la surface et +1 bar par 10 m.
+    question: Dans le modèle d’air à 20 % d’oxygène, quelle est la pression partielle d’O₂ à 30 m ?
     explanation: '**0,8 bar.** Pression totale = 4 bars absolus ; PpO₂ = 0,20 × 4 = 0,8 bar. Cette pression
       partielle est distincte de la pression totale respirée.'
     choices:
@@ -141,8 +140,7 @@ cards:
       ; identité et objectif conservés'
     fact_check: pass
   fr:
-    question: Dans le modèle d’air à 80 % d’azote, quelle est la pression partielle d’azote à 40 m ? Prendre
-      1 bar à la surface et +1 bar par 10 m.
+    question: Dans le modèle d’air à 80 % d’azote, quelle est la pression partielle d’azote à 40 m ?
     explanation: '**4 bars.** Pression totale = 5 bars absolus ; PpN₂ = 0,80 × 5 = 4 bars.'
     choices:
     - text: 4 bars

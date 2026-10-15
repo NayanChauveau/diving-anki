@@ -101,8 +101,7 @@ cards:
     question: 'Exercice à 20 m : A a 12 L à 120 bar et consomme 20 L/min à 1 bar ; B, 15 L à 110 bar et
       25 L/min ; C, 10 L à 140 bar et 30 L/min. Chacun conserve 20 bar finaux. Le retour complet consommera
       encore 600 L pour A, 600 L pour B et 500 L pour C, ramenés à 1 bar. Qui limite le temps supplémentaire
-      au fond, arrondi au dixième ? Gaz parfait isotherme, 1 bar en surface et +1 bar/10 m ; seuls les
-      gaz respirés sont comptés.'
+      au fond, arrondi au dixième ? Température constante ; seuls les gaz respirés sont comptés.'
     choices:
     - text: C, avec 7,8 min supplémentaires
       correct: true
@@ -132,8 +131,7 @@ cards:
     question: Dans un exercice à 20 m, le bloc de 12 L du guide passe de 150 à 130 bar en 4 min. On attribue
       toute cette baisse à la respiration. Pour un retour partagé, il conserve ce débit observé ; l’équipier
       consomme 25 L/min à 1 bar. Le retour dure 4 min à pression absolue moyenne de 2 bar, avec 20 bar
-      finaux dans le bloc du guide. Quel seuil de départ finance ce retour ? Gaz parfait isotherme, surface
-      à 1 bar et +1 bar/10 m.
+      finaux dans le bloc du guide. Quel seuil de départ finance ce retour ? Température constante.
     choices:
     - text: 50 bar
       correct: true

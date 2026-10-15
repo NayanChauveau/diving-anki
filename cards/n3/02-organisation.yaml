@@ -231,8 +231,7 @@ cards:
     question: 'Exercice simplifié de repli du bord : A est inaccessible. Le trajet B demande 6 min à 20
       m ; C, 8 min à 10 m. Un stock de 350 L ramenés à 1 bar est alloué au seul trajet choisi, les autres
       besoins étant déjà financés. Débit de référence 20 L/min à 1 bar, ventilation identique ; transitions
-      négligées, gaz parfait à température constante, 1 bar en surface et +1 bar par 10 m. Quel trajet
-      respecte ce stock ?'
+      négligées, gaz parfait à température constante. Quel trajet respecte ce stock ?'
     choices:
     - text: C seulement
       correct: true

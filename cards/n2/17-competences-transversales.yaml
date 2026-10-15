@@ -448,8 +448,8 @@ cards:
   fr:
     question: 'Exercice de recherche après perte de repères : pour le plongeur dont on calcule le budget,
       550 L de gaz sont utilisables, dont 400 L nécessaires au repli convenu. La recherche reste à 20
-      m, avec 1 bar en surface, +1 bar tous les 10 m et un débit respiratoire de 20 L/min ramené à la
-      surface. Quelle durée maximale de recherche ce budget nominal laisse-t-il ?'
+      m, avec un débit respiratoire de 20 L/min ramené à la surface. Quelle durée maximale de recherche
+      ce budget nominal laisse-t-il ?'
     choices:
     - text: 2,5 min
       correct: true
