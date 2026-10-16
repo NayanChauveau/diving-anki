@@ -60,8 +60,8 @@ Consigner aussi, pour chaque mauvaise réponse, la confusion qui la rend attiran
 et le fait précis qui la réfute. Réécrire les rectos si les choix restent manifestement faux.
 Ne jamais renommer ni réutiliser un ID publié, ni changer les IDs des modèles.
 Ne pas committer les documents privés ou les packages générés.
-La CI contrôle le projet et construit le paquet unique ; les pushes sur main
-mettent à jour la release latest-main, les tags v* créent une release versionnée.
+La CI contrôle le projet et construit le paquet unique ; chaque push réussi sur main
+publie la version patch suivante (`vX.Y.Z`) et y joint `diving-fr.apkg`.
 
 Choisir le QCM dès qu’il convient à la question, y compris calculs et schémas.
 Un autre format reste possible s’il est plus pertinent ; justifier ce gain carte par carte.
